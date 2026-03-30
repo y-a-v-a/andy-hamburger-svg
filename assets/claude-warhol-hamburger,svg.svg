@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Special+Elite&amp;display=swap');
+    </style>
+    <!-- Halftone pattern for pop art effect -->
+    <pattern id="halftone" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#000" opacity="0.15"/>
+    </pattern>
+    <pattern id="halftone-dense" x="0" y="0" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#000" opacity="0.12"/>
+    </pattern>
+    <!-- Screen print misregistration filter -->
+    <filter id="rough">
+      <feTurbulence type="turbulence" baseFrequency="0.04" numOctaves="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background — Warhol hot pink -->
+  <rect width="600" height="700" fill="#FF1493"/>
+  <rect width="600" height="700" fill="url(#halftone)"/>
+
+  <!-- Secondary background block — cyan accent -->
+  <rect x="30" y="30" width="540" height="640" fill="#00CED1" rx="0"/>
+  <rect x="30" y="30" width="540" height="640" fill="url(#halftone-dense)"/>
+
+  <!-- Inner frame -->
+  <rect x="50" y="50" width="500" height="600" fill="#FFD700" rx="0"/>
+  <rect x="50" y="50" width="500" height="600" fill="url(#halftone)" opacity="0.5"/>
+
+  <!-- === FIGURE === -->
+  <g filter="url(#rough)">
+    <!-- Hair — the iconic silver wig, wild and spiky -->
+    <path d="M220 140 Q200 80 230 60 Q260 40 280 55 Q290 35 310 45 Q330 30 350 50 Q370 35 380 60 Q400 50 395 80 Q410 90 400 120 Q415 140 400 160 Q390 130 370 135 Q350 125 330 130 Q310 120 290 125 Q270 118 250 130 Q235 135 225 150 Q215 145 220 140Z" fill="#C0C0C0" stroke="#222" stroke-width="2.5"/>
+    <!-- Extra hair wisps -->
+    <path d="M225 135 Q210 110 220 90" fill="none" stroke="#A0A0A0" stroke-width="3"/>
+    <path d="M390 130 Q405 105 395 85" fill="none" stroke="#A0A0A0" stroke-width="3"/>
+    <path d="M310 50 Q315 30 305 25" fill="none" stroke="#A0A0A0" stroke-width="2"/>
+
+    <!-- Face -->
+    <path d="M240 150 Q235 180 240 220 Q245 260 260 290 Q280 310 310 315 Q340 310 355 290 Q370 260 375 220 Q380 180 375 150 Q360 130 310 125 Q260 130 240 150Z" fill="#FFDAB9" stroke="#222" stroke-width="2.5"/>
+
+    <!-- Glasses — big round frames -->
+    <circle cx="275" cy="195" r="28" fill="none" stroke="#222" stroke-width="3"/>
+    <circle cx="345" cy="195" r="28" fill="none" stroke="#222" stroke-width="3"/>
+    <line x1="303" y1="195" x2="317" y2="195" stroke="#222" stroke-width="3"/>
+    <line x1="247" y1="190" x2="235" y2="175" stroke="#222" stroke-width="2.5"/>
+    <line x1="373" y1="190" x2="385" y2="175" stroke="#222" stroke-width="2.5"/>
+    <!-- Lens tint -->
+    <circle cx="275" cy="195" r="26" fill="#222" opacity="0.08"/>
+    <circle cx="345" cy="195" r="26" fill="#222" opacity="0.08"/>
+    <!-- Eyes behind glasses -->
+    <ellipse cx="275" cy="197" rx="6" ry="7" fill="#222"/>
+    <ellipse cx="345" cy="197" rx="6" ry="7" fill="#222"/>
+    <circle cx="273" cy="194" r="2" fill="#fff"/>
+    <circle cx="343" cy="194" r="2" fill="#fff"/>
+
+    <!-- Eyebrows -->
+    <path d="M255 172 Q270 164 295 170" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+    <path d="M325 170 Q350 164 365 172" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M305 220 Q300 240 305 250 Q310 255 315 250 Q320 240 315 220" fill="none" stroke="#222" stroke-width="2"/>
+
+    <!-- Mouth — slightly open, mid-bite -->
+    <path d="M280 275 Q295 290 310 292 Q325 290 340 275" fill="#222" stroke="#222" stroke-width="2"/>
+    <path d="M285 278 Q295 285 310 287 Q325 285 335 278" fill="#8B0000"/>
+
+    <!-- Ears -->
+    <ellipse cx="237" cy="200" rx="10" ry="18" fill="#FFDAB9" stroke="#222" stroke-width="2"/>
+    <ellipse cx="378" cy="200" rx="10" ry="18" fill="#FFDAB9" stroke="#222" stroke-width="2"/>
+
+    <!-- Neck -->
+    <rect x="285" y="310" width="50" height="40" fill="#FFDAB9" stroke="#222" stroke-width="2"/>
+
+    <!-- Shirt / Turtleneck — classic Warhol black -->
+    <path d="M200 350 Q210 340 285 340 L335 340 Q400 340 420 350 L440 500 Q430 520 300 520 Q180 520 170 500 Z" fill="#111" stroke="#222" stroke-width="2.5"/>
+    <!-- Collar line -->
+    <path d="M275 340 Q285 355 310 358 Q335 355 345 340" fill="none" stroke="#333" stroke-width="2"/>
+
+    <!-- === ARMS AND HANDS HOLDING BURGER === -->
+
+    <!-- Left arm -->
+    <path d="M200 380 Q180 400 175 430 Q170 460 200 475 Q220 480 240 470" fill="#111" stroke="#222" stroke-width="2.5"/>
+    <!-- Left hand -->
+    <path d="M230 460 Q220 450 225 440 Q230 435 240 438 Q245 430 255 435 Q260 428 268 435 L270 445 Q265 460 250 468 Q240 472 230 460Z" fill="#FFDAB9" stroke="#222" stroke-width="2"/>
+
+    <!-- Right arm -->
+    <path d="M420 380 Q440 400 445 430 Q450 460 420 475 Q400 480 380 470" fill="#111" stroke="#222" stroke-width="2.5"/>
+    <!-- Right hand -->
+    <path d="M390 460 Q400 450 395 440 Q390 435 380 438 Q375 430 365 435 Q360 428 352 435 L350 445 Q355 460 370 468 Q380 472 390 460Z" fill="#FFDAB9" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- === THE HAMBURGER === -->
+  <g>
+    <!-- Top bun -->
+    <path d="M245 430 Q250 400 310 395 Q370 400 375 430 Z" fill="#D2691E" stroke="#222" stroke-width="2.5"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="290" cy="412" rx="4" ry="2.5" fill="#FFF8DC" transform="rotate(-15 290 412)"/>
+    <ellipse cx="315" cy="405" rx="4" ry="2.5" fill="#FFF8DC" transform="rotate(10 315 405)"/>
+    <ellipse cx="340" cy="414" rx="4" ry="2.5" fill="#FFF8DC" transform="rotate(-5 340 414)"/>
+    <ellipse cx="270" cy="418" rx="3.5" ry="2.5" fill="#FFF8DC" transform="rotate(20 270 418)"/>
+    <ellipse cx="330" cy="408" rx="3.5" ry="2" fill="#FFF8DC" transform="rotate(-10 330 408)"/>
+
+    <!-- Lettuce — wavy green layer -->
+    <path d="M240 432 Q255 425 270 434 Q285 425 300 434 Q315 425 330 434 Q345 425 360 434 Q375 428 380 435 L378 442 Q360 448 340 440 Q320 448 300 440 Q280 448 260 440 Q245 446 242 440Z" fill="#32CD32" stroke="#228B22" stroke-width="1.5"/>
+
+    <!-- Tomato -->
+    <rect x="248" y="440" width="124" height="10" rx="3" fill="#FF4500" stroke="#CC3700" stroke-width="1"/>
+
+    <!-- Cheese — slightly draped -->
+    <path d="M242 450 L378 450 L382 460 Q365 465 340 458 Q320 463 300 458 Q280 463 260 458 Q245 462 238 460 Z" fill="#FFD700" stroke="#DAA520" stroke-width="1.5"/>
+
+    <!-- Patty -->
+    <rect x="246" y="458" width="128" height="16" rx="5" fill="#5C3317" stroke="#3B1F0B" stroke-width="2"/>
+    <!-- Grill lines -->
+    <line x1="260" y1="463" x2="260" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+    <line x1="280" y1="463" x2="280" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+    <line x1="300" y1="463" x2="300" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+    <line x1="320" y1="463" x2="320" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+    <line x1="340" y1="463" x2="340" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+    <line x1="355" y1="463" x2="355" y2="470" stroke="#3B1F0B" stroke-width="1" opacity="0.5"/>
+
+    <!-- Bottom bun -->
+    <path d="M248 474 L372 474 Q378 480 375 490 Q370 498 310 500 Q250 498 245 490 Q242 480 248 474Z" fill="#D2691E" stroke="#222" stroke-width="2"/>
+  </g>
+
+  <!-- Ketchup drip -->
+  <path d="M360 455 Q365 465 363 478 Q362 485 358 482" fill="#FF2400" stroke="none" opacity="0.8"/>
+
+  <!-- === TEXT — Warhol quote === -->
+  <text x="300" y="570" text-anchor="middle" font-family="'Special Elite', 'Courier New', monospace" font-size="16" fill="#222" opacity="0.9">
+    <tspan x="300" dy="0">"A Coke is a Coke and no amount of money</tspan>
+    <tspan x="300" dy="22">can get you a better Coke."</tspan>
+  </text>
+
+  <!-- Signature -->
+  <text x="480" y="630" font-family="'Special Elite', 'Courier New', monospace" font-size="14" fill="#FF1493" transform="rotate(-5 480 630)" opacity="0.8">Andy</text>
+
+  <!-- Border frame lines for screen print feel -->
+  <rect x="40" y="40" width="520" height="620" fill="none" stroke="#FF1493" stroke-width="3" opacity="0.6"/>
+  <rect x="35" y="35" width="530" height="630" fill="none" stroke="#00CED1" stroke-width="2" opacity="0.4"/>
+</svg>
