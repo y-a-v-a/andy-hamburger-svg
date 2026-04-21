@@ -1,0 +1,29 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="#f0f0f0" rx="10" />
+
+  <!-- Andy Warhol -->
+  <circle cx="150" cy="200" r="50" fill="#ccc" />
+  <circle cx="150" cy="220" r="10" fill="#000" />
+  <circle cx="150" cy="240" r="10" fill="#000" />
+  <rect x="120" y="250" width="20" height="50" fill="#ccc" rx="5" />
+  <rect x="140" y="250" width="20" height="50" fill="#ccc" rx="5" />
+  <rect x="160" y="250" width="20" height="50" fill="#ccc" rx="5" />
+  <rect x="180" y="250" width="20" height="50" fill="#ccc" rx="5" />
+  <rect x="120" y="300" width="80" height="50" fill="#ccc" rx="10" />
+
+  <!-- Hamburger -->
+  <rect x="220" y="200" width="50" height="20" fill="#964B00" rx="5" />
+  <rect x="220" y="220" width="50" height="20" fill="#FFC080" rx="5" />
+  <rect x="220" y="240" width="50" height="20" fill="#964B00" rx="5" />
+  <circle cx="230" cy="260" r="10" fill="#FFC080" />
+  <circle cx="250" cy="260" r="10" fill="#FFC080" />
+
+  <!-- Hand -->
+  <rect x="190" y="230" width="20" height="30" fill="#ccc" rx="5" />
+  <rect x="190" y="260" width="20" height="30" fill="#ccc" rx="5" />
+  <circle cx="200" cy="290" r="10" fill="#ccc" />
+
+  <!-- Bite -->
+  <rect x="240" y="230" width="10" height="10" fill="#FFC080" rx="5" />
+</svg>
