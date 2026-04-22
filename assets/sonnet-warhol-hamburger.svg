@@ -1,0 +1,114 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- Warhol-style flat pop art background -->
+  <rect width="500" height="500" fill="#f7e200"/>
+
+  <!-- Halftone-style dots background (top left) -->
+  <circle cx="30" cy="30" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="70" cy="30" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="110" cy="30" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="30" cy="70" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="70" cy="70" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="110" cy="70" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="430" cy="30" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="470" cy="30" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="430" cy="70" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="470" cy="70" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="30" cy="430" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="70" cy="430" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="110" cy="430" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="30" cy="470" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="70" cy="470" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="110" cy="470" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="430" cy="430" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="470" cy="430" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="430" cy="470" r="6" fill="#f7a800" opacity="0.4"/>
+  <circle cx="470" cy="470" r="6" fill="#f7a800" opacity="0.4"/>
+
+  <!-- Body / turtleneck (Warhol signature look) -->
+  <rect x="165" y="340" width="170" height="130" rx="10" fill="#1a1a1a"/>
+  <path d="M185 340 Q250 370 315 340 L315 380 Q250 410 185 380 Z" fill="#2a2a2a"/>
+
+  <!-- Neck -->
+  <rect x="220" y="295" width="60" height="55" fill="#f4c98a"/>
+
+  <!-- Head shape -->
+  <ellipse cx="250" cy="210" rx="95" ry="105" fill="#f4c98a"/>
+  <!-- Jaw definition -->
+  <path d="M165 220 Q160 270 190 300 Q250 320 310 300 Q340 270 335 220" fill="#f4c98a"/>
+
+  <!-- Warhol silver wig -->
+  <ellipse cx="250" cy="135" rx="100" ry="60" fill="#d0d0d0"/>
+  <path d="M155 155 Q150 200 165 220 Q155 190 160 160 Z" fill="#c0c0c0"/>
+  <path d="M345 155 Q350 200 335 220 Q345 190 340 160 Z" fill="#c0c0c0"/>
+  <!-- Wig texture lines -->
+  <path d="M180 110 Q250 90 320 110" fill="none" stroke="#b0b0b0" stroke-width="1.5"/>
+  <path d="M168 130 Q250 108 332 130" fill="none" stroke="#b0b0b0" stroke-width="1.5"/>
+  <path d="M160 152 Q250 128 340 152" fill="none" stroke="#b0b0b0" stroke-width="1.5"/>
+
+  <!-- Round Warhol glasses (iconic) -->
+  <circle cx="213" cy="195" r="28" fill="none" stroke="#1a1a1a" stroke-width="3.5"/>
+  <circle cx="287" cy="195" r="28" fill="none" stroke="#1a1a1a" stroke-width="3.5"/>
+  <line x1="241" y1="195" x2="259" y2="195" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="156" y1="190" x2="185" y2="192" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="315" y1="192" x2="344" y2="190" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Lens tint -->
+  <circle cx="213" cy="195" r="26" fill="#b0c4de" opacity="0.25"/>
+  <circle cx="287" cy="195" r="26" fill="#b0c4de" opacity="0.25"/>
+
+  <!-- Eyes behind glasses -->
+  <circle cx="213" cy="198" r="8" fill="#2a1a0a"/>
+  <circle cx="287" cy="198" r="8" fill="#2a1a0a"/>
+  <circle cx="216" cy="195" r="3" fill="#fff"/>
+  <circle cx="290" cy="195" r="3" fill="#fff"/>
+
+  <!-- Nose -->
+  <path d="M243 215 Q238 235 245 245 Q250 248 255 245 Q262 235 257 215" fill="none" stroke="#c4996a" stroke-width="2"/>
+
+  <!-- Mouth open wide, biting hamburger -->
+  <path d="M210 265 Q215 250 250 248 Q285 250 290 265" fill="#c0392b" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M210 265 Q215 285 250 288 Q285 285 290 265" fill="#a52714" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- Teeth top -->
+  <path d="M215 262 Q250 252 285 262" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  <!-- Teeth bottom -->
+  <path d="M218 270 Q250 280 282 270" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- HAMBURGER being held up to mouth -->
+  <g transform="translate(250, 248)">
+    <!-- Hands holding burger -->
+    <rect x="-55" y="28" width="30" height="18" rx="9" fill="#f4c98a"/>
+    <rect x="25" y="28" width="30" height="18" rx="9" fill="#f4c98a"/>
+
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="52" rx="48" ry="13" fill="#c8860a"/>
+    <ellipse cx="0" cy="47" rx="48" ry="7" fill="#daa520"/>
+
+    <!-- Patty -->
+    <ellipse cx="0" cy="38" rx="46" ry="9" fill="#6b3a2a"/>
+    <path d="M-38 38 Q-28 33 -18 38 Q-8 33 2 38 Q12 33 22 38 Q32 33 42 38" fill="none" stroke="#8b4513" stroke-width="2"/>
+
+    <!-- Cheese slice -->
+    <polygon points="-44,28 44,28 50,22 -50,22" fill="#f5a623"/>
+
+    <!-- Lettuce -->
+    <path d="M-46 22 Q-38 16 -28 22 Q-18 16 -8 22 Q2 16 12 22 Q22 16 32 22 Q42 16 46 22" fill="#2e7d32" stroke="none"/>
+
+    <!-- Tomato -->
+    <ellipse cx="0" cy="12" rx="44" ry="6" fill="#e53935" opacity="0.9"/>
+
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="48" ry="18" fill="#c8860a"/>
+    <ellipse cx="0" cy="-4" rx="46" ry="14" fill="#e09b20"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="-20" cy="-10" rx="5" ry="3" fill="#fff" opacity="0.7" transform="rotate(-20,-20,-10)"/>
+    <ellipse cx="5" cy="-15" rx="5" ry="3" fill="#fff" opacity="0.7" transform="rotate(10,5,-15)"/>
+    <ellipse cx="28" cy="-8" rx="5" ry="3" fill="#fff" opacity="0.7" transform="rotate(30,28,-8)"/>
+    <ellipse cx="-5" cy="-6" rx="5" ry="3" fill="#fff" opacity="0.7" transform="rotate(-10,-5,-6)"/>
+  </g>
+
+  <!-- Bold Warhol-style outline on figure -->
+  <ellipse cx="250" cy="210" rx="95" ry="105" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+
+  <!-- Pop art caption at bottom -->
+  <rect x="60" y="450" width="380" height="38" fill="#1a1a1a"/>
+  <text x="250" y="476" text-anchor="middle" fill="#f7e200" font-size="18" font-weight="bold" letter-spacing="2">ANDY WARHOL EATING A HAMBURGER</text>
+</svg>
