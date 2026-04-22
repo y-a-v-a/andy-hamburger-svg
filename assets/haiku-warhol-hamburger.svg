@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e91e63"/>
+
+  <!-- Face outline -->
+  <ellipse cx="200" cy="150" rx="80" ry="95" fill="#ffd700"/>
+
+  <!-- Hair (iconic white/silver) -->
+  <path d="M 120 120 Q 120 80 200 70 Q 280 80 280 120 Z" fill="#e0e0e0"/>
+
+  <!-- Eyes -->
+  <circle cx="165" cy="130" r="12" fill="#000"/>
+  <circle cx="235" cy="130" r="12" fill="#000"/>
+  <circle cx="168" cy="128" r="4" fill="#fff"/>
+  <circle cx="238" cy="128" r="4" fill="#fff"/>
+
+  <!-- Nose -->
+  <ellipse cx="200" cy="155" rx="8" ry="12" fill="#d4a574"/>
+
+  <!-- Mouth open for hamburger -->
+  <ellipse cx="200" cy="185" rx="20" ry="18" fill="#d81b60"/>
+  <path d="M 180 185 Q 200 200 220 185" fill="#8b0000"/>
+
+  <!-- Neck -->
+  <rect x="175" y="235" width="50" height="35" fill="#ffd700"/>
+
+  <!-- Shirt collar -->
+  <path d="M 150 270 L 175 240 L 225 240 L 250 270 Z" fill="#1a1a1a"/>
+
+  <!-- Hamburger in mouth -->
+  <g transform="translate(200, 175)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="-8" rx="28" ry="16" fill="#cd7f32"/>
+    <ellipse cx="0" cy="-8" rx="28" ry="8" fill="#daa520" opacity="0.6"/>
+
+    <!-- Sesame seeds -->
+    <circle cx="-12" cy="-12" r="2" fill="#fff"/>
+    <circle cx="-5" cy="-15" r="2" fill="#fff"/>
+    <circle cx="8" cy="-14" r="2" fill="#fff"/>
+    <circle cx="15" cy="-10" r="2" fill="#fff"/>
+
+    <!-- Lettuce -->
+    <path d="M -25 0 Q -20 -4 -15 0 Q -10 -3 -5 0 Q 0 -4 5 0 Q 10 -3 15 0 Q 20 -4 25 0" fill="#228b22" stroke="none"/>
+
+    <!-- Tomato -->
+    <rect x="-24" y="4" width="48" height="4" fill="#ff4444" rx="2"/>
+
+    <!-- Cheese -->
+    <rect x="-22" y="10" width="44" height="3" fill="#ffa500" rx="1"/>
+
+    <!-- Patty -->
+    <ellipse cx="0" cy="15" rx="26" ry="6" fill="#8b4513"/>
+    <path d="M -20 15 Q -15 18 -10 15 Q -5 18 0 15 Q 5 18 10 15 Q 15 18 20 15" fill="#654321"/>
+
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="22" rx="28" ry="8" fill="#cd7f32"/>
+  </g>
+
+  <!-- Pop art style borders/accents -->
+  <rect x="50" y="50" width="300" height="300" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <rect x="55" y="55" width="290" height="290" fill="none" stroke="#1a1a1a" stroke-width="1" opacity="0.5"/>
+</svg>
