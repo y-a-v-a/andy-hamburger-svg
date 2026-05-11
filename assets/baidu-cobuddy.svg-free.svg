@@ -1,0 +1,71 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - Warhol's signature style -->
+  <rect width="400" height="500" fill="#FFE5E5"/>
+  <rect width="400" height="500" fill="#FFB6D9" opacity="0.3"/>
+  
+  <!-- Body -->
+  <ellipse cx="200" cy="380" rx="80" ry="90" fill="#1a1a1a"/>
+  <rect x="120" y="300" width="160" height="100" fill="#1a1a1a" rx="10"/>
+  
+  <!-- Arms -->
+  <rect x="90" y="320" width="40" height="80" fill="#FFB6D9" rx="5"/>
+  <rect x="270" y="320" width="40" height="80" fill="#FFB6D9" rx="5"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="220" r="75" fill="#F4C2A1"/>
+  
+  <!-- Signature wig -->
+  <ellipse cx="200" cy="185" rx="80" ry="50" fill="#E8E8E8"/>
+  <ellipse cx="200" cy="195" rx="85" ry="55" fill="#C0C0C0"/>
+  <path d="M 120 200 Q 130 160 200 155 Q 270 160 280 200" fill="#D0D0D0"/>
+  
+  <!-- Hair details -->
+  <path d="M 150 160 Q 140 180 145 200" stroke="#A0A0A0" stroke-width="2" fill="none"/>
+  <path d="M 200 150 Q 200 180 200 200" stroke="#A0A0A0" stroke-width="2" fill="none"/>
+  <path d="M 250 160 Q 260 180 255 200" stroke="#A0A0A0" stroke-width="2" fill="none"/>
+  
+  <!-- Face features -->
+  <circle cx="180" cy="210" r="8" fill="#1a1a1a"/>
+  <circle cx="220" cy="210" r="8" fill="#1a1a1a"/>
+  <circle cx="183" cy="208" r="3" fill="#FFFFFF"/>
+  <circle cx="223" cy="208" r="3" fill="#FFFFFF"/>
+  
+  <!-- Nose -->
+  <path d="M 195 225 L 200 235 L 205 225" fill="#E8A88A" stroke="#D4897A" stroke-width="1"/>
+  
+  <!-- Mouth (eating) -->
+  <ellipse cx="200" cy="248" rx="20" ry="12" fill="#CC3333"/>
+  <ellipse cx="200" cy="248" rx="15" ry="8" fill="#1a1a1a"/>
+  
+  <!-- Burger in hand -->
+  <g transform="translate(300, 330)">
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="20" rx="30" ry="10" fill="#E8B870"/>
+    <!-- Lettuce -->
+    <path d="M -30 15 Q 0 5 30 15" fill="#4CAF50"/>
+    <!-- Patty -->
+    <rect x="-28" y="8" width="56" height="10" fill="#8B4513" rx="3"/>
+    <!-- Cheese -->
+    <polygon points="-28,8 28,8 30,2 -30,2" fill="#FFD700"/>
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="30" ry="12" fill="#D4A060"/>
+    <!-- Sesame seeds -->
+    <circle cx="-10" cy="-5" r="2" fill="#FFF8DC"/>
+    <circle cx="5" cy="-3" r="2" fill="#FFF8DC"/>
+    <circle cx="15" cy="-4" r="2" fill="#FFF8DC"/>
+    <circle cx="-5" cy="-8" r="2" fill="#FFF8DC"/>
+    <circle cx="10" cy="-7" r="2" fill="#FFF8DC"/>
+  </g>
+  
+  <!-- Warhol-style colors for outfit -->
+  <rect x="130" y="310" width="60" height="50" fill="#00BFFF" opacity="0.7"/>
+  <rect x="210" y="310" width="60" height="50" fill="#FFEB3B" opacity="0.7"/>
+  
+  <!-- Artistic flair - polka dots -->
+  <circle cx="50" cy="50" r="8" fill="#FF1493"/>
+  <circle cx="100" cy="80" r="6" fill="#00FF00"/>
+  <circle cx="300" cy="60" r="8" fill="#FF1493"/>
+  <circle cx="350" cy="90" r="6" fill="#00FF00"/>
+  <circle cx="60" cy="450" r="7" fill="#FF1493"/>
+  <circle cx="340" cy="440" r="7" fill="#00FF00"/>
+</svg>
