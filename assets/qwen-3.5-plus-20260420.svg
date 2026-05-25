@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Simple drop shadow for depth -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="3" stdDeviation="2" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F7E7CE"/>
+  
+  <!-- Pop-art background accents -->
+  <g opacity="0.6">
+    <circle cx="50" cy="450" r="30" fill="#FF6B6B"/>
+    <circle cx="450" cy="50" r="40" fill="#4ECDC4"/>
+    <rect x="420" y="420" width="50" height="50" fill="#FFE66D" transform="rotate(15 445 445)"/>
+    <line x1="0" y1="100" x2="500" y2="100" stroke="#333" stroke-width="2" opacity="0.4"/>
+    <line x1="100" y1="0" x2="100" y2="500" stroke="#333" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- Body & Iconic Black Turtleneck -->
+  <g filter="url(#shadow)">
+    <path d="M150 480 Q150 350 200 330 Q250 350 250 480 Z" fill="#111"/>
+    <path d="M180 480 Q180 400 200 380 Q220 400 220 480 Z" fill="#222"/>
+  </g>
+
+  <!-- Head -->
+  <g filter="url(#shadow)">
+    <ellipse cx="200" cy="190" rx="60" ry="70" fill="#F5CBA7"/>
+    <ellipse cx="200" cy="190" rx="50" ry="55" fill="#E8B49A"/>
+  </g>
+
+  <!-- Signature White Hair -->
+  <g filter="url(#shadow)">
+    <path d="M140 165 Q135 110 180 95 Q200 88 220 95 Q265 110 260 165 
+             Q255 135 220 125 Q200 118 180 125 Q145 135 140 165 Z" 
+          fill="#FFFFFF" stroke="#E0D5CC" stroke-width="1"/>
+    <path d="M140 165 Q130 175 135 190 Q140 170 140 165 Z" fill="#FFFFFF"/>
+    <path d="M260 165 Q270 175 265 190 Q260 170 260 165 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Round Glasses -->
+  <g stroke="#222" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="172" cy="185" r="16"/>
+    <circle cx="228" cy="185" r="16"/>
+    <line x1="188" y1="185" x2="212" y2="185"/>
+    <line x1="156" y1="185" x2="135" y2="175"/>
+    <line x1="244" y1="185" x2="265" y2="175"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="172" cy="185" r="4" fill="#222"/>
+  <circle cx="228" cy="185" r="4" fill="#222"/>
+
+  <!-- Open Mouth (eating) -->
+  <path d="M185 215 Q200 230 215 215 Q200 245 185 215 Z" fill="#8B3A3A" stroke="#222" stroke-width="2"/>
+  <path d="M190 220 Q200 225 210 220" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(310, 230) rotate(-15)" filter="url(#shadow)">
+    <!-- Bottom Bun -->
+    <ellipse cx="0" cy="25" rx="32" ry="10" fill="#D4A373" stroke="#B8864A" stroke-width="1.5"/>
+    <path d="M-28 25 Q0 20 28 25" fill="none" stroke="#B8864A" stroke-width="1"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="10" rx="28" ry="8" fill="#6B4F4F"/>
+    
+    <!-- Melted Cheese -->
+    <path d="M-30 8 L30 8 L27 16 L-27 16 Z" fill="#FFC857" stroke="#E6A817" stroke-width="1"/>
+    <path d="M-20 16 L-18 22 M-10 16 L-12 23 M5 16 L3 24 M18 16 L20 22" fill="none" stroke="#FFC857" stroke-width="3" stroke-linecap="round"/>
+    
+    <!-- Lettuce -->
+    <path d="M-32 5 Q-20 0 -10 5 Q0 0 10 5 Q20 0 32 5" fill="none" stroke="#4CAF50" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Top Bun -->
+    <ellipse cx="0" cy="-5" rx="34" ry="14" fill="#E8C396" stroke="#D4A373" stroke-width="1.5"/>
+    <ellipse cx="-12" cy="-12" rx="3" ry="2" fill="#FFF8DC" transform="rotate(-20 -12 -12)"/>
+    <ellipse cx="8" cy="-10" rx="3" ry="2" fill="#FFF8DC" transform="rotate(15 8 -10)"/>
+    <ellipse cx="0" cy="-15" rx="3" ry="2" fill="#FFF8DC"/>
+  </g>
+
+  <!-- Hand Holding Burger -->
+  <g filter="url(#shadow)">
+    <!-- Arm -->
+    <path d="M120 450 Q160 380 240 310" fill="none" stroke="#F5CBA7" stroke-width="22" stroke-linecap="round"/>
+    
+    <!-- Hand Base -->
+    <ellipse cx="300" cy="285" rx="18" ry="14" fill="#F5CBA7" transform="rotate(-15 300 285)"/>
+    
+    <!-- Fingers wrapping around -->
+    <ellipse cx="318" cy="278" rx="10" ry="12" fill="#F5CBA7" transform="rotate(-20 318 278)"/>
+    <ellipse cx="315" cy="292" rx="10" ry="12" fill="#F5CBA7" transform="rotate(-10 315 292)"/>
+    <ellipse cx="305" cy="305" rx="10" ry="12" fill="#F5CBA7" transform="rotate(5 305 305)"/>
+    
+    <!-- Thumb -->
+    <ellipse cx="290" cy="280" rx="9" ry="13" fill="#F5CBA7" transform="rotate(20 290 280)"/>
+  </g>
+
+  <!-- Pop Art Halftone Dots (stylized texture) -->
+  <g fill="#FF6B6B" opacity="0.25">
+    <circle cx="160" cy="220" r="3"/>
+    <circle cx="175" cy="225" r="3"/>
+    <circle cx="190" cy="232" r="3"/>
+    <circle cx="165" cy="238" r="3"/>
+    <circle cx="220" cy="215" r="3"/>
+    <circle cx="235" cy="222" r="3"/>
+  </g>
+</svg>

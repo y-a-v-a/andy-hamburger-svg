@@ -1,0 +1,85 @@
+<svg width="600" height="500" viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#fffef0"/>
+  
+  <!-- Pop art background dots -->
+  <circle cx="40" cy="60" r="6" fill="#ff69b4" opacity="0.25"/>
+  <circle cx="80" cy="90" r="4" fill="#ff1493" opacity="0.2"/>
+  <circle cx="520" cy="55" r="8" fill="#00bfff" opacity="0.25"/>
+  <circle cx="560" cy="95" r="5" fill="#ff69b4" opacity="0.2"/>
+  <circle cx="30" cy="400" r="7" fill="#ffd700" opacity="0.2"/>
+
+  <!-- Torso (black turtleneck) -->
+  <rect x="210" y="275" width="95" height="135" rx="18" ry="12" fill="#1c1c1c"/>
+  <!-- Collar detail -->
+  <ellipse cx="258" cy="283" rx="28" ry="9" fill="none" stroke="#333" stroke-width="12" opacity="0.7"/>
+
+  <!-- Neck -->
+  <ellipse cx="260" cy="268" rx="15" ry="18" fill="#ffdbac"/>
+
+  <!-- Hair -->
+  <ellipse cx="262" cy="155" rx="75" ry="52" fill="#d3d3d3"/>
+  <!-- Hair texture (poofy look) -->
+  <ellipse cx="220" cy="140" rx="18" ry="12" fill="#c0c0c0" opacity="0.8"/>
+  <ellipse cx="250" cy="125" rx="20" ry="10" fill="#c8c8c8" opacity="0.7"/>
+  <ellipse cx="295" cy="140" rx="19" ry="13" fill="#c0c0c0" opacity="0.8"/>
+
+  <!-- Face -->
+  <ellipse cx="262" cy="190" rx="55" ry="62" fill="#ffdbac"/>
+
+  <!-- Glasses -->
+  <ellipse cx="232" cy="178" rx="14" ry="11" fill="none" stroke="#111" stroke-width="5"/>
+  <ellipse cx="292" cy="178" rx="14" ry="11" fill="none" stroke="#111" stroke-width="5"/>
+  <!-- Bridge -->
+  <line x1="246" y1="178" x2="278" y2="178" stroke="#111" stroke-width="5"/>
+  
+  <!-- Eyes -->
+  <circle cx="236" cy="178" r="4" fill="#222"/>
+  <circle cx="288" cy="178" r="4" fill="#222"/>
+
+  <!-- Eyebrows -->
+  <path d="M 218 162 Q 232 158 245 163" fill="none" stroke="#444" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 280 162 Q 295 159 310 165" fill="none" stroke="#444" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M 263 195 L 263 208" stroke="#e8c8a8" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Open mouth (eating) -->
+  <path d="M 223 230 Q 262 249 298 230" fill="#7a2f1f" stroke="#4a1f12" stroke-width="2"/>
+
+  <!-- Left arm -->
+  <path d="M 215 290 Q 175 355 155 395" fill="none" stroke="#1c1c1c" stroke-width="18" stroke-linecap="round"/>
+  <!-- Left hand -->
+  <ellipse cx="145" cy="405" rx="11" ry="17" fill="#ffdbac" transform="rotate(-55 145 405)"/>
+
+  <!-- Right arm (holding burger) -->
+  <path d="M 298 290 Q 335 252 362 235" fill="none" stroke="#1c1c1c" stroke-width="17" stroke-linecap="round"/>
+  <!-- Right hand -->
+  <ellipse cx="368" cy="222" rx="12" ry="18" fill="#ffdbac" transform="rotate(-35 368 222)"/>
+
+  <!-- Hamburger -->
+  <!-- Bottom bun -->
+  <ellipse cx="410" cy="254" rx="36" ry="15" fill="#e8bb88"/>
+  
+  <!-- Patty -->
+  <rect x="376" y="238" width="68" height="18" rx="4" ry="4" fill="#5f4533"/>
+  
+  <!-- Cheese -->
+  <rect x="380" y="232" width="61" height="7" rx="2" ry="2" fill="#ffcc33"/>
+  
+  <!-- Lettuce -->
+  <ellipse cx="410" cy="232" rx="34" ry="5" fill="#5ab03e"/>
+  
+  <!-- Top bun -->
+  <ellipse cx="410" cy="222" rx="40" ry="16" fill="#f5d49e"/>
+  
+  <!-- Sesame seeds -->
+  <circle cx="382" cy="212" r="2" fill="#f8e8c8"/>
+  <circle cx="395" cy="209" r="2.5" fill="#f8e8c8"/>
+  <circle cx="410" cy="211" r="2" fill="#f8e8c8"/>
+  <ellipse cx="425" cy="210" rx="2.5" ry="2" fill="#f8e8c8"/>
+  <circle cx="435" cy="214" r="2" fill="#f8e8c8"/>
+
+  <!-- Small bite mark on burger (white highlight) -->
+  <path d="M 380 225 Q 395 238 405 228" fill="none" stroke="#f5d49e" stroke-width="6" opacity="0.5"/>
+</svg>

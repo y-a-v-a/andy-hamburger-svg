@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Pop Art Background -->
+  <rect width="500" height="600" fill="#FF1493"/>
+  <rect x="0" y="0" width="250" height="300" fill="#00FFFF" opacity="0.3"/>
+  <rect x="250" y="300" width="250" height="300" fill="#FFFF00" opacity="0.3"/>
+
+  <!-- Background halftone dots pattern -->
+  <circle cx="50" cy="50" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="150" cy="80" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="350" cy="60" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="450" cy="100" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="80" cy="250" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="420" cy="200" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="60" cy="400" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="440" cy="350" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="100" cy="550" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="400" cy="500" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="250" cy="550" r="3" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="300" cy="450" r="3" fill="#FFFFFF" opacity="0.2"/>
+
+  <!-- Warhol's Suit -->
+  <rect x="150" y="420" width="200" height="180" rx="10" fill="#1a1a1a"/>
+  <!-- Suit collar -->
+  <polygon points="200,420 250,460 300,420" fill="#FFFFFF"/>
+  <!-- White shirt -->
+  <polygon points="220,430 250,470 280,430" fill="#FFFFFF"/>
+  <!-- Tie -->
+  <polygon points="245,455 255,455 258,520 250,540 242,520" fill="#FF0000"/>
+
+  <!-- Neck -->
+  <rect x="230" y="380" width="40" height="50" fill="#FFDAB9"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="310" rx="80" ry="95" fill="#FFDAB9"/>
+
+  <!-- Warhol's iconic silver/grey hair -->
+  <path d="M170,290 Q165,240 180,210 Q195,180 220,175 Q240,170 250,175 Q260,170 280,175 Q305,180 320,210 Q335,240 330,290"
+        fill="#C0C0C0" stroke="#999" stroke-width="2"/>
+  <!-- Hair sides -->
+  <path d="M170,290 Q168,320 175,350 Q180,360 190,365 L190,310 Z" fill="#C0C0C0" stroke="#999" stroke-width="1"/>
+  <path d="M330,290 Q332,320 325,350 Q320,360 310,365 L310,310 Z" fill="#C0C0C0" stroke="#999" stroke-width="1"/>
+
+  <!-- Ears -->
+  <ellipse cx="172" cy="310" rx="12" ry="18" fill="#FFDAB9" stroke="#E8B88A" stroke-width="2"/>
+  <ellipse cx="328" cy="310" rx="12" ry="18" fill="#FFDAB9" stroke="#E8B88A" stroke-width="2"/>
+
+  <!-- Glasses - Warhol's iconic round glasses -->
+  <circle cx="225" cy="300" r="28" fill="none" stroke="#333" stroke-width="4"/>
+  <circle cx="275" cy="300" r="28" fill="none" stroke="#333" stroke-width="4"/>
+  <!-- Bridge -->
+  <line x1="253" y1="300" x2="247" y2="300" stroke="#333" stroke-width="4"/>
+  <!-- Arms of glasses -->
+  <line x1="197" y1="300" x2="172" y2="295" stroke="#333" stroke-width="4"/>
+  <line x1="303" y1="300" x2="328" y2="295" stroke="#333" stroke-width="4"/>
+  <!-- Lens tint -->
+  <circle cx="225" cy="300" r="25" fill="#4488AA" opacity="0.3"/>
+  <circle cx="275" cy="300" r="25" fill="#4488AA" opacity="0.3"/>
+
+  <!-- Eyes -->
+  <circle cx="225" cy="300" r="8" fill="#FFFFFF"/>
+  <circle cx="275" cy="300" r="8" fill="#FFFFFF"/>
+  <circle cx="225" cy="300" r="4" fill="#333"/>
+  <circle cx="275" cy="300" r="4" fill="#333"/>
+  <circle cx="226" cy="299" r="1.5" fill="#FFFFFF"/>
+  <circle cx="276" cy="299" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows (subtle) -->
+  <path d="M205,280 Q215,272 235,278" fill="none" stroke="#999" stroke-width="2.5"/>
+  <path d="M265,278 Q285,272 295,280" fill="none" stroke="#999" stroke-width="2.5"/>
+
+  <!-- Nose -->
+  <path d="M248,305 Q245,330 240,340 Q250,345 260,340 Q255,330 252,305" fill="#E8B88A" stroke="#D4A574" stroke-width="1.5"/>
+
+  <!-- Mouth - eating the hamburger -->
+  <ellipse cx="250" cy="365" rx="20" ry="15" fill="#CC3333" stroke="#991111" stroke-width="2"/>
+  <!-- Tongue -->
+  <ellipse cx="250" cy="368" rx="8" ry="5" fill="#FF6B6B"/>
+
+  <!-- The Hamburger! -->
+  <g transform="translate(240, 330) rotate(-15)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="-15" rx="45" ry="18" fill="#D4A03C" stroke="#B8860B" stroke-width="2"/>
+    <ellipse cx="0" cy="-18" rx="40" ry="12" fill="#E8B94A" stroke="#B8860B" stroke-width="1"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="-15" cy="-22" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(30, -15, -22)"/>
+    <ellipse cx="5" cy="-25" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(-20, 5, -25)"/>
+    <ellipse cx="18" cy="-20" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(45, 18, -20)"/>
+    <ellipse cx="-5" cy="-15" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(-10, -5, -15)"/>
+
+    <!-- Lettuce -->
+    <path d="M-42,-5 Q-48,2 -40,8 Q-45,14 -35,12 Q-30,18 -20,10 Q-15,16 -5,8 Q0,14 10,10 Q18,18 25,12 Q35,16 40,8 Q48,2 42,-5"
+          fill="#32CD32" stroke="#228B22" stroke-width="1"/>
+
+    <!-- Tomato slice -->
+    <rect x="-38" y="2" width="76" height="6" rx="3" fill="#FF4444" stroke="#CC0000" stroke-width="1"/>
+
+    <!-- Cheese (dripping) -->
+    <path d="M-40,8 Q-35,18 -30,12 Q-20,22 -15,14 Q-5,24 5,14 Q15,22 20,12 Q30,18 35,10 Q38,16 40,8"
+          fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+
+    <!-- Beef patty -->
+    <rect x="-40" y="12" width="80" height="14" rx="5" fill="#5C3317" stroke="#3E1F09" stroke-width="2"/>
+    <!-- Grill marks on patty -->
+    <line x1="-25" y1="14" x2="-25" y2="24" stroke="#3E1F09" stroke-width="2" opacity="0.5"/>
+    <line x1="-10" y1="14" x2="-10" y2="24" stroke="#3E1F09" stroke-width="2" opacity="0.5"/>
+    <line x1="5" y1="14" x2="5" y2="24" stroke="#3E1F09" stroke-width="2" opacity="0.5"/>
+    <line x1="20" y1="14" x2="20" y2="24" stroke="#3E1F09" stroke-width="2" opacity="0.5"/>
+
+    <!-- Bottom bun -->
+    <path d="M-42,26 Q-44,40 -35,42 L35,42 Q44,40 42,26" fill="#D4A03C" stroke="#B8860B" stroke-width="2"/>
+    <path d="M-40,28 L-40,38 Q-40,40 -35,41 L35,41 Q40,40 40,38 L40,28 Z" fill="#E8B94A"/>
+
+    <!-- Hand holding hamburger (right hand) -->
+    <g transform="translate(42, 5) rotate(20)">
+      <rect x="0" y="-5" width="30" height="10" rx="5" fill="#FFDAB9"/>
+      <!-- Fingers wrapped over top -->
+      <ellipse cx="10" cy="-8" rx="6" ry="4" fill="#FFDAB9" stroke="#E8B88A" stroke-width="1"/>
+      <ellipse cx="20" cy="-7" rx="6" ry="4" fill="#FFDAB9" stroke="#E8B88A" stroke-width="1"/>
+      <ellipse cx="28" cy="-6" rx="6" ry="4" fill="#FFDAB9" stroke="#E8B88A" stroke-width="1"/>
+    </g>
+
+    <!-- Some ketchup drips -->
+    <ellipse cx="-30" cy="10" rx="4" ry="6" fill="#FF0000" opacity="0.7"/>
+    <ellipse cx="35" cy="8" rx="3" ry="5" fill="#FF0000" opacity="0.7"/>
+  </g>
+
+  <!-- Left hand (holding a napkin) -->
+  <g transform="translate(130, 400)">
+    <rect x="0" y="0" width="50" height="40" rx="8" fill="#FFDAB9" stroke="#E8B88A" stroke-width="2"/>
+    <rect x="5" y="5" width="40" height="30" rx="5" fill="#FFFFFF"/>
+    <line x1="15" y1="15" x2="35" y2="15" stroke="#DDD" stroke-width="1"/>
+    <line x1="15" y1="20" x2="35" y2="20" stroke="#DDD" stroke-width="1"/>
+    <line x1="15" y1="25" x2="30" y2="25" stroke="#DDD" stroke-width="1"/>
+  </g>
+
+  <!-- Pop Art "POP!" text -->
+  <text x="420" y="100" font-family="Arial Black, Arial, sans-serif" font-size="48" font-weight="bold" fill="#FFFF00" stroke="#000" stroke-width="3" transform="rotate(15, 420, 100)">POP!</text>
+
+  <!-- Campbell's soup can in the corner as Warhol reference -->
+  <g transform="translate(380, 420)">
+    <rect x="0" y="0" width="40" height="70" rx="5" fill="#FF0000" stroke="#8B0000" stroke-width="2"/>
+    <rect x="2" y="8" width="36" height="12" rx="2" fill="#FFD700"/>
+    <rect x="2" y="50" width="36" height="12" rx="2" fill="#FFD700"/>
+    <text x="20" y="38" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF" text-anchor="middle" font-weight="bold">SOUP</text>
+  </g>
+
+  <!-- Another pop art element - smiley face -->
+  <g transform="translate(80, 120)">
+    <circle cx="0" cy="0" r="30" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    <circle cx="-10" cy="-5" r="4" fill="#000"/>
+    <circle cx="10" cy="-5" r="4" fill="#000"/>
+    <path d="M-12,8 Q0,20 12,8" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Stars -->
+  <g transform="translate(100, 200)" fill="#FFFF00" opacity="0.6">
+    <polygon points="0,-10 2,-3 10,-3 4,2 6,10 0,5 -6,10 -4,2 -10,-3 -2,-3" transform="scale(0.8)"/>
+  </g>
+  <g transform="translate(400, 300)" fill="#00FFFF" opacity="0.6">
+    <polygon points="0,-10 2,-3 10,-3 4,2 6,10 0,5 -6,10 -4,2 -10,-3 -2,-3" transform="scale(0.8)"/>
+  </g>
+</svg>

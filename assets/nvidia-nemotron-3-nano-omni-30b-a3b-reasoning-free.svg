@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="600" height="400">
+  <circle cx="300" cy="200" r="50" fill="black" />
+  <circle cx="300" cy="200" r="30" fill="white" />
+  <rect x="280" y="250" width="40" height="20" fill="brown" />
+  <rect x="280" y="270" width="40" height="10" fill="yellow" />
+  <rect x="280" y="280" width="40" height="10" fill="green" />
+  <rect x="280" y="290" width="40" height="10" fill="red" />
+  <path d="M250,200 L350,200 L350,250 L250,250 Z" fill="black" />
+  <text x="200" y="350" font-size="20" fill="black">So So So Hungry!</text>
+</svg>

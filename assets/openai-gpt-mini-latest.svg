@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffef7a"/>
+      <stop offset="50%" stop-color="#ff7ab6"/>
+      <stop offset="100%" stop-color="#8be9ff"/>
+    </linearGradient>
+
+    <radialGradient id="burgerTop" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#d89b4b"/>
+      <stop offset="100%" stop-color="#a86424"/>
+    </radialGradient>
+
+    <radialGradient id="burgerBottom" cx="50%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#c78436"/>
+      <stop offset="100%" stop-color="#8b4e17"/>
+    </radialGradient>
+
+    <style>
+      .outline { stroke: #111; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke-width: 3; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="700" fill="url(#bg)"/>
+
+  <!-- Pop-art panel effect -->
+  <rect x="35" y="35" width="830" height="630" rx="25" fill="none" stroke="#111" stroke-width="8"/>
+  <circle cx="120" cy="120" r="40" fill="#fff06a" class="outline"/>
+  <circle cx="785" cy="115" r="50" fill="#ff5ea8" class="outline"/>
+  <circle cx="140" cy="585" r="55" fill="#6cffb7" class="outline"/>
+  <circle cx="775" cy="585" r="40" fill="#ffffff" class="outline"/>
+
+  <!-- Table -->
+  <rect x="0" y="520" width="900" height="180" fill="#f4d36c"/>
+  <rect x="0" y="520" width="900" height="12" fill="#111"/>
+
+  <!-- Warhol-inspired figure -->
+  <!-- Body -->
+  <g transform="translate(0,0)">
+    <ellipse cx="430" cy="405" rx="150" ry="175" fill="#f2f0e8" class="outline"/>
+    <!-- Jacket -->
+    <path d="M330 290
+             C360 250, 505 250, 535 290
+             L575 430
+             C525 470, 340 470, 290 430
+             Z" fill="#ffec5c" class="outline"/>
+    <!-- Shirt -->
+    <path d="M380 300
+             C400 270, 460 270, 480 300
+             L500 470
+             C460 490, 400 490, 360 470
+             Z" fill="#ffffff" class="outline"/>
+    <!-- Tie -->
+    <path d="M430 315 L455 345 L435 455 L410 345 Z" fill="#ff4b4b" class="outline"/>
+    <path d="M430 455 L450 495 L430 530 L410 495 Z" fill="#ff4b4b" class="outline"/>
+
+    <!-- Head -->
+    <ellipse cx="430" cy="175" rx="110" ry="125" fill="#f2d1b3" class="outline"/>
+    <!-- Hair -->
+    <path d="M325 170
+             C315 85, 375 40, 445 40
+             C525 40, 575 90, 560 185
+             C540 145, 510 125, 470 120
+             C435 115, 395 120, 360 140
+             C345 150, 335 160, 325 170 Z"
+          fill="#d9d9d9" class="outline"/>
+    <!-- Glasses -->
+    <rect x="350" y="150" width="65" height="35" rx="10" fill="none" class="outline"/>
+    <rect x="445" y="150" width="65" height="35" rx="10" fill="none" class="outline"/>
+    <line x1="415" y1="168" x2="445" y2="168" class="outline"/>
+    <!-- Eyes -->
+    <circle cx="382" cy="168" r="6" fill="#111"/>
+    <circle cx="477" cy="168" r="6" fill="#111"/>
+    <!-- Nose -->
+    <path d="M435 175 C445 195, 440 210, 425 215" fill="none" class="outline thin"/>
+    <!-- Mouth -->
+    <path d="M405 235 C425 250, 455 250, 475 235" fill="none" class="outline thin"/>
+
+    <!-- Left arm holding burger -->
+    <path d="M300 330
+             C235 360, 210 415, 225 455
+             C238 490, 270 500, 300 485
+             C310 455, 315 425, 340 390"
+          fill="none" class="outline"/>
+    <circle cx="305" cy="485" r="28" fill="#f2d1b3" class="outline"/>
+
+    <!-- Right arm -->
+    <path d="M565 330
+             C625 355, 660 395, 665 435
+             C670 470, 650 495, 615 498
+             C595 500, 575 488, 560 470"
+          fill="none" class="outline"/>
+    <circle cx="610" cy="488" r="25" fill="#f2d1b3" class="outline"/>
+
+    <!-- Hamburger -->
+    <g transform="translate(165,375) rotate(-8)">
+      <!-- Top bun -->
+      <path d="M60 70
+               C70 20, 150 0, 225 20
+               C260 30, 280 55, 285 85
+               L55 85
+               C55 80, 57 75, 60 70 Z"
+            fill="url(#burgerTop)" class="outline"/>
+      <!-- Seeds -->
+      <ellipse cx="105" cy="48" rx="6" ry="3" fill="#fff7cf" transform="rotate(-25 105 48)"/>
+      <ellipse cx="135" cy="35" rx="6" ry="3" fill="#fff7cf" transform="rotate(20 135 35)"/>
+      <ellipse cx="170" cy="44" rx="6" ry="3" fill="#fff7cf" transform="rotate(-10 170 44)"/>
+      <ellipse cx="205" cy="53" rx="6" ry="3" fill="#fff7cf" transform="rotate(18 205 53)"/>
+
+      <!-- Lettuce -->
+      <path d="M55 90
+               C80 75, 95 110, 120 92
+               C145 75, 160 112, 185 92
+               C210 70, 225 110, 250 90
+               L250 110 L55 110 Z"
+            fill="#4fd65d" class="outline"/>
+
+      <!-- Patty -->
+      <rect x="65" y="110" width="210" height="38" rx="15" fill="#7a3f1d" class="outline"/>
+
+      <!-- Cheese -->
+      <path d="M90 146 L190 146 L175 185 L110 185 Z" fill="#ffd84a" class="outline"/>
+
+      <!-- Tomato -->
+      <ellipse cx="155" cy="170" rx="70" ry="18" fill="#f24a4a" class="outline"/>
+
+      <!-- Bottom bun -->
+      <path d="M70 188
+               C95 210, 215 210, 255 188
+               L245 225
+               C200 245, 105 245, 80 225
+               Z"
+            fill="url(#burgerBottom)" class="outline"/>
+    </g>
+
+    <!-- Hand to burger -->
+    <path d="M295 460
+             C260 440, 235 430, 210 428" fill="none" class="outline"/>
+    <circle cx="218" cy="430" r="16" fill="#f2d1b3" class="outline"/>
+
+    <!-- Hand to mouth pose -->
+    <path d="M565 455 C535 420, 505 400, 475 390" fill="none" class="outline"/>
+  </g>
+
+  <!-- Signature-ish pop-art text -->
+  <text x="70" y="620" font-family="Arial Black, Arial, sans-serif" font-size="42" fill="#111">POP ART BURGER</text>
+  <text x="70" y="655" font-family="Arial, sans-serif" font-size="18" fill="#111">Andy Warhol-inspired illustration</text>
+</svg>

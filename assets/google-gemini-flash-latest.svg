@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Screenprint Halftone Pattern -->
+    <pattern id="halftone" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <circle cx="2" cy="2" r="2" fill="#E6C300" />
+    </pattern>
+
+    <!-- Master Path: Andy's Iconic Wig -->
+    <path id="path-wig" d="M 250 400 L 220 330 Q 255 330 260 310 L 210 240 Q 255 250 265 220 L 235 140 Q 295 180 310 160 L 305 70 Q 365 125 385 110 L 410 40 Q 435 125 455 110 Q 505 165 490 165 L 565 140 Q 535 220 545 235 L 590 240 Q 545 285 550 310 L 580 330 Q 550 375 550 400 Q 480 435 400 440 Q 320 435 250 400 Z" />
+
+    <!-- Master Path: Face Silhouette -->
+    <path id="path-face" d="M 290 350 C 290 440, 310 515, 400 535 C 490 515, 510 440, 510 350 Z" />
+
+    <!-- Master Path: Neck -->
+    <path id="path-neck" d="M 345 520 L 335 590 Q 400 610 465 590 L 455 520 Z" />
+
+    <!-- Master Path: Turtleneck Collar -->
+    <path id="path-collar" d="M 330 575 C 330 550, 470 550, 470 575 L 470 615 C 470 635, 330 635, 330 615 Z" />
+
+    <!-- Master Path: Turtleneck Chest/Shoulders -->
+    <path id="path-chest" d="M 120 800 C 150 710, 220 590, 340 590 L 460 590 C 580 590, 650 710, 680 800 Z" />
+
+    <!-- Master Paths: Symmetrical Burger Elements -->
+    <path id="burger-top-bun" d="M 270 470 C 270 375, 530 375, 530 470 Z" />
+    <path id="burger-patty" d="M 252 492 C 252 518, 548 518, 548 492 C 548 478, 252 478, 252 492 Z" />
+    <path id="burger-bottom-bun" d="M 282 520 C 282 555, 518 555, 518 520 Z" />
+    <path id="burger-cheese" d="M 290 492 L 340 528 L 390 492 L 450 535 L 510 492 Z" />
+    <path id="burger-lettuce" d="M 255 482 Q 270 500 290 482 Q 310 500 330 482 Q 350 500 370 482 Q 390 500 410 482 Q 430 500 450 482 Q 470 500 490 482 Q 510 500 530 482 Q 545 495 545 482 Z" />
+
+    <!-- Master Elements: Symmetrical Hands (Pop-art Minimalist Pills) -->
+    <g id="left-hand">
+      <rect x="225" y="445" width="55" height="22" rx="11" transform="rotate(-15, 280, 456)" />
+      <rect x="220" y="475" width="60" height="22" rx="11" />
+      <rect x="230" y="505" width="55" height="22" rx="11" transform="rotate(15, 285, 516)" />
+    </g>
+    <g id="right-hand">
+      <rect x="520" y="445" width="55" height="22" rx="11" transform="rotate(15, 520, 456)" />
+      <rect x="520" y="475" width="60" height="22" rx="11" />
+      <rect x="515" y="505" width="55" height="22" rx="11" transform="rotate(-15, 515, 516)" />
+    </g>
+
+    <!-- Master Elements: Icon Glasses -->
+    <g id="glasses">
+      <rect x="312" y="325" width="72" height="58" rx="18" fill="none" />
+      <rect x="416" y="325" width="72" height="58" rx="18" fill="none" />
+      <path d="M 384 345 Q 400 340 416 345" fill="none" />
+      <path d="M 312 345 H 288" fill="none" />
+      <path d="M 488 345 H 512" fill="none" />
+    </g>
+  </defs>
+
+  <style>
+    .blend-multiply { mix-blend-mode: multiply; }
+    .ink-stroke { stroke: #11002C; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <!-- Background Layer (Hot Pop Pink) -->
+  <rect width="100%" height="100%" fill="#FF007F" />
+
+  <!-- Sun Yellow Silkscreen Circle with Halftone Overlay -->
+  <circle cx="400" cy="400" r="285" fill="#FFE600" />
+  <circle cx="400" cy="400" r="285" fill="url(#halftone)" />
+  <!-- Registration Mark Offset Circle -->
+  <circle cx="394" cy="395" r="285" fill="none" stroke="#00FFE0" stroke-width="4" opacity="0.6"/>
+
+  <!-- ================= PRINTING PLATE 1: CYAN SHIFT (Shadow layer) ================= -->
+  <g class="blend-multiply" transform="translate(-12, -8)" fill="#00E5FF" stroke="#00E5FF" stroke-width="6" opacity="0.7">
+    <use href="#path-wig" />
+    <use href="#path-face" />
+    <use href="#path-neck" />
+    <use href="#path-chest" />
+    <use href="#burger-top-bun" />
+    <use href="#burger-bottom-bun" />
+    <use href="#left-hand" />
+    <use href="#right-hand" />
+  </g>
+
+  <!-- ================= PRINTING PLATE 2: MAGENTA SHIFT (Vibrancy layer) ================= -->
+  <g class="blend-multiply" transform="translate(8, 10)" fill="#FF00AA" stroke="#FF00AA" stroke-width="4" opacity="0.6">
+    <use href="#path-wig" />
+    <use href="#path-face" />
+    <use href="#path-neck" />
+    <use href="#path-collar" />
+    <use href="#burger-top-bun" />
+    <use href="#burger-cheese" />
+    <use href="#left-hand" />
+    <use href="#right-hand" />
+  </g>
+
+  <!-- ================= PRINTING PLATE 3: LOCAL OPAQUE FILLS ================= -->
+  <g id="local-colors">
+    <!-- Skin (Extremely Pale Cream) -->
+    <use href="#path-face" fill="#FFF2FA" />
+    <use href="#path-neck" fill="#FFF2FA" />
+    <use href="#left-hand" fill="#FFF2FA" />
+    <use href="#right-hand" fill="#FFF2FA" />
+
+    <!-- Warhol's Famous Silver Wig -->
+    <use href="#path-wig" fill="#FFFFFF" />
+
+    <!-- High-Contrast Black Turtleneck -->
+    <use href="#path-chest" fill="#11002C" />
+    <use href="#path-collar" fill="#11002C" />
+
+    <!-- Hamburger Ingredients -->
+    <use href="#burger-bottom-bun" fill="#D4A373" />
+    <use href="#burger-patty" fill="#582F0E" />
+    <use href="#burger-cheese" fill="#FFC300" />
+    <use href="#burger-lettuce" fill="#38B000" />
+    <use href="#burger-top-bun" fill="#E39238" />
+
+    <!-- Neon Accents on Hands & Lips for Pop Sensibility -->
+    <path d="M 375 460 Q 400 445 425 460" fill="none" stroke="#FF0055" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  </g>
+
+  <!-- ================= PRINTING PLATE 4: BLACK INK OUTLINES & DETAILS ================= -->
+  <!-- Classic bold silk-screen outline overlay -->
+  <g class="ink-stroke" stroke="#11002C" fill="none">
+    <!-- Wig Outline -->
+    <use href="#path-wig" stroke-width="7" />
+
+    <!-- Profile Outlines -->
+    <use href="#path-face" stroke-width="7" />
+    <use href="#path-neck" stroke-width="7" />
+    <path d="M 330 585 C 370 600, 430 600, 470 585" stroke-width="8" />
+
+    <!-- Burger Outlines -->
+    <use href="#burger-bottom-bun" stroke-width="8" />
+    <use href="#burger-patty" stroke-width="8" />
+    <use href="#burger-cheese" stroke-width="7" />
+    <use href="#burger-lettuce" stroke-width="7" />
+    <use href="#burger-top-bun" stroke-width="8" />
+
+    <!-- Symmetrical Hand Outlines -->
+    <use href="#left-hand" stroke-width="7" />
+    <use href="#right-hand" stroke-width="7" />
+  </g>
+
+  <!-- Precise Facial & Burger Details -->
+  <g id="fine-details">
+    <!-- Eyes squinting from behind glasses -->
+    <circle cx="348" cy="355" r="5" fill="#11002C" />
+    <circle cx="452" cy="355" r="5" fill="#11002C" />
+    
+    <!-- Distinctive eye bags / shadows -->
+    <path d="M 332 365 Q 348 375 364 365" fill="none" stroke="#11002C" stroke-width="4" stroke-linecap="round" />
+    <path d="M 436 365 Q 452 375 468 365" fill="none" stroke="#11002C" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Sharp Eyebrows -->
+    <path d="M 320 310 Q 348 298 372 312" fill="none" stroke="#11002C" stroke-width="5" stroke-linecap="round" />
+    <path d="M 428 312 Q 452 298 480 310" fill="none" stroke="#11002C" stroke-width="5" stroke-linecap="round" />
+
+    <!-- Minimalist Warhol Nose -->
+    <path d="M 395 345 V 408 H 410" fill="none" stroke="#11002C" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Mouth Outline (Upper lip only, rest is hidden by bun) -->
+    <path d="M 375 460 Q 400 445 425 460" fill="none" stroke="#11002C" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Glasses Frame (Heavy Black Overlay) -->
+    <use href="#glasses" class="ink-stroke" stroke-width="14" />
+
+    <!-- Cyan Glow Inside Lenses -->
+    <rect x="319" y="332" width="58" height="44" rx="12" fill="#00E5FF" opacity="0.45" />
+    <rect x="423" y="332" width="58" height="44" rx="12" fill="#00E5FF" opacity="0.45" />
+
+    <!-- White Glare on Glasses -->
+    <path d="M 325 338 L 350 368" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+    <path d="M 429 338 L 454 368" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Sesame Seeds (Pop Art White Accents) -->
+    <g fill="#FFFFFF" transform="translate(10, 0)">
+      <ellipse cx="320" cy="425" rx="3" ry="7" transform="rotate(30, 320, 425)" />
+      <ellipse cx="360" cy="415" rx="3" ry="7" transform="rotate(-15, 360, 415)" />
+      <ellipse cx="390" cy="430" rx="3" ry="7" transform="rotate(10, 390, 430)" />
+      <ellipse cx="420" cy="412" rx="3" ry="7" transform="rotate(45, 420, 412)" />
+      <ellipse cx="450" cy="435" rx="3" ry="7" transform="rotate(-20, 450, 435)" />
+      <ellipse cx="480" cy="420" rx="3" ry="7" transform="rotate(15, 480, 420)" />
+    </g>
+
+    <!-- Heinz Ketchup Drips (Dramatically Graphic) -->
+    <path d="M 330 514 Q 320 545 328 555 Q 338 545 334 514 Z" fill="#FF0040" stroke="#11002C" stroke-width="4" stroke-linejoin="round" />
+    <path d="M 465 510 Q 460 550 468 560 Q 476 550 472 510 Z" fill="#FF0040" stroke="#11002C" stroke-width="4" stroke-linejoin="round" />
+    <circle cx="329" cy="565" r="4.5" fill="#FF0040" stroke="#11002C" stroke-width="2.5" />
+  </g>
+
+  <!-- ================= RETRO GALLERY POSTER BORDER ================= -->
+  <!-- Thick gallery layout print border frame -->
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#11002C" stroke-width="40" />
+  
+  <!-- Classic Printing Press Alignment Marks -->
+  <g stroke="#11002C" stroke-width="2" opacity="0.8">
+    <!-- Top-Left Register -->
+    <circle cx="65" cy="65" r="16" fill="none" />
+    <line x1="45" y1="65" x2="85" y2="65" />
+    <line x1="65" y1="45" x2="65" y2="85" />
+
+    <!-- Bottom-Right Register -->
+    <circle cx="735" cy="735" r="16" fill="none" />
+    <line x1="715" y1="735" x2="755" y2="735" />
+    <line x1="735" y1="715" x2="735" y2="755" />
+  </g>
+</svg>

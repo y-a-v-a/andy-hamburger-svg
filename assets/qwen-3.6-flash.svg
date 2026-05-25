@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#FF1493"/>
+  <rect x="0" y="0" width="500" height="600" fill="none" stroke="#FF00FF" stroke-width="8"/>
+
+  <!-- Abstract pop art background circles -->
+  <circle cx="80" cy="80" r="50" fill="#00FFFF" opacity="0.4"/>
+  <circle cx="420" cy="120" r="60" fill="#FFFF00" opacity="0.3"/>
+  <circle cx="400" cy="500" r="45" fill="#FF6600" opacity="0.3"/>
+  <circle cx="60" cy="480" r="55" fill="#00FF00" opacity="0.3"/>
+
+  <!-- Shoulders / Body -->
+  <path d="M160,520 Q160,450 200,440 L300,440 Q340,450 340,520 Z" fill="#FFD700" stroke="#000" stroke-width="3"/>
+  <!-- Shirt detail -->
+  <line x1="250" y1="440" x2="250" y2="520" stroke="#000" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="230" y="390" width="40" height="60" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="300" rx="85" ry="100" fill="#FFDAB9" stroke="#000" stroke-width="3"/>
+
+  <!-- Hair - Warhol's slicked back white/blonde style -->
+  <path d="M165,280 Q165,200 250,190 Q335,200 335,280 Q335,240 310,220 Q290,205 250,200 Q210,205 190,220 Q165,240 165,280 Z"
+        fill="#F5F5DC" stroke="#000" stroke-width="2"/>
+  <!-- Hair shine area -->
+  <ellipse cx="250" cy="215" rx="50" ry="20" fill="#FFFFFF" opacity="0.6"/>
+
+  <!-- Sideburns -->
+  <rect x="168" y="260" width="12" height="45" rx="4" fill="#F5F5DC" stroke="#000" stroke-width="2"/>
+  <rect x="320" y="260" width="12" height="45" rx="4" fill="#F5F5DC" stroke="#000" stroke-width="2"/>
+
+  <!-- Left Eye - Sunglasses -->
+  <rect x="195" y="275" width="55" height="30" rx="10" fill="#1a1a1a" stroke="#000" stroke-width="2.5"/>
+  <rect x="198" y="278" width="20" height="8" rx="3" fill="#444" opacity="0.5"/>
+  <!-- Glasses bridge -->
+  <line x1="250" y1="288" x2="250" y2="290" stroke="#000" stroke-width="2"/>
+  <!-- Glasses arm -->
+  <line x1="195" y1="285" x2="170" y2="280" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Right Eye - Sunglasses -->
+  <rect x="250" y="275" width="55" height="30" rx="10" fill="#1a1a1a" stroke="#000" stroke-width="2.5"/>
+  <rect x="252" y="278" width="20" height="8" rx="3" fill="#444" opacity="0.5"/>
+  <!-- Glasses arm -->
+  <line x1="305" y1="285" x2="330" y2="280" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Nose -->
+  <path d="M248,295 L242,315 L252,315 Z" fill="#FFDAB9" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Mouth area - open to eat burger -->
+  <ellipse cx="250" cy="340" rx="25" ry="15" fill="#cc3333" stroke="#000" stroke-width="2"/>
+  <ellipse cx="250" cy="335" rx="18" ry="8" fill="#220000"/>
+
+  <!-- Mustache suggestion (Warhol had minimal facial hair) -->
+  <path d="M235,330 Q250,325 265,330" fill="none" stroke="#DDD" stroke-width="1.5"/>
+
+  <!-- Chin -->
+  <path d="M230,370 Q250,385 270,370" fill="none" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Left Ear -->
+  <ellipse cx="165" cy="300" rx="10" ry="18" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- Right Ear -->
+  <ellipse cx="335" cy="300" rx="10" ry="18" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- RIGHT ARM holding burger -->
+  <path d="M310,460 Q370,430 380,370 Q385,350 370,340" fill="none" stroke="#000" stroke-width="25" stroke-linecap="round"/>
+  <path d="M310,460 Q370,430 380,370 Q385,350 370,340" fill="none" stroke="#FFD700" stroke-width="21" stroke-linecap="round"/>
+
+  <!-- RIGHT HAND -->
+  <g transform="translate(365, 335)">
+    <!-- Palm/Hand -->
+    <ellipse cx="0" cy="0" rx="18" ry="22" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+    <!-- Fingers wrapped around top of burger -->
+    <rect x="-15" y="-25" width="8" height="18" rx="4" fill="#FFDAB9" stroke="#000" stroke-width="1.5" transform="rotate(-10, -11, -16)"/>
+    <rect x="-5" y="-28" width="8" height="20" rx="4" fill="#FFDAB9" stroke="#000" stroke-width="1.5" transform="rotate(-3, -1, -18)"/>
+    <rect x="5" y="-27" width="8" height="19" rx="4" fill="#FFDAB9" stroke="#000" stroke-width="1.5" transform="rotate(5, 9, -17)"/>
+    <rect x="14" y="-22" width="8" height="16" rx="4" fill="#FFDAB9" stroke="#000" stroke-width="1.5" transform="rotate(15, 18, -14)"/>
+  </g>
+
+  <!-- LEFT ARM (resting) -->
+  <path d="M190,460 Q130,470 110,510 Q100,540 120,550" fill="none" stroke="#000" stroke-width="25" stroke-linecap="round"/>
+  <path d="M190,460 Q130,470 110,510 Q100,540 120,550" fill="none" stroke="#FFD700" stroke-width="21" stroke-linecap="round"/>
+  <circle cx="120" cy="550" r="12" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- HAMBURGER -->
+  <g transform="translate(370, 310)">
+    <!-- Top bun -->
+    <path d="M-35,0 Q-38,-25 0,-30 Q38,-25 35,0 Z" fill="#D4A056" stroke="#000" stroke-width="2"/>
+    <!-- Top bun highlight -->
+    <ellipse cx="-8" cy="-20" rx="12" ry="6" fill="#E8C070" opacity="0.7"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="-15" cy="-18" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(20, -15, -18)"/>
+    <ellipse cx="5" cy="-24" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(-10, 5, -24)"/>
+    <ellipse cx="15" cy="-15" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(30, 15, -15)"/>
+    <ellipse cx="-5" cy="-12" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(-20, -5, -12)"/>
+    <ellipse cx="10" cy="-10" rx="3" ry="1.5" fill="#FFF8DC" transform="rotate(5, 10, -10)"/>
+
+    <!-- Lettuce -->
+    <path d="M-35,2 Q-38,6 -35,10 Q-30,6 -25,10 Q-20,6 -15,10 Q-10,6 -5,10 Q0,6 5,10 Q10,6 15,10 Q20,6 25,10 Q30,6 35,10"
+          fill="#4CAF50" stroke="#000" stroke-width="1.5"/>
+
+    <!-- Tomato slice -->
+    <rect x="-32" y="12" width="64" height="5" rx="2" fill="#FF4444" stroke="#000" stroke-width="1.5"/>
+
+    <!-- Cheese -->
+    <path d="M-36,18 L36,18 L34,24 L30,22 L26,26 L22,22 L18,26 L14,22 L10,26 L6,22 L2,26 L-2,22 L-6,26 L-10,22 L-14,26 L-18,22 L-22,26 L-26,22 L-30,26 L-34,22 Z"
+          fill="#FFD700" stroke="#000" stroke-width="1.5"/>
+
+    <!-- Meat patty -->
+    <rect x="-34" y="27" width="68" height="12" rx="4" fill="#8B4513" stroke="#000" stroke-width="2"/>
+    <!-- Patty texture -->
+    <line x1="-20" y1="33" x2="-10" y2="33" stroke="#000" stroke-width="0.8" opacity="0.3"/>
+    <line x1="5" y1="35" x2="15" y2="35" stroke="#000" stroke-width="0.8" opacity="0.3"/>
+    <line x1="-15" y1="36" x2="-5" y2="36" stroke="#000" stroke-width="0.8" opacity="0.3"/>
+
+    <!-- Bottom bun -->
+    <path d="M-35,39 Q-35,45 0,46 Q35,45 35,39 L35,42 Q35,48 0,49 Q-35,48 -35,42 Z"
+          fill="#D4A056" stroke="#000" stroke-width="2"/>
+
+    <!-- Bottom pickle -->
+    <rect x="-20" y="40" width="10" height="4" rx="2" fill="#2E8B57" stroke="#000" stroke-width="1" transform="rotate(15, -15, 42)"/>
+  </g>
+
+  <!-- Drippings from burger -->
+  <path d="M355,365 Q353,375 355,380" fill="none" stroke="#8B4513" stroke-width="2"/>
+  <path d="M380,362 Q378,372 381,378" fill="none" stroke="#4CAF50" stroke-width="2"/>
+  <circle cx="355" cy="382" r="2" fill="#8B4513"/>
+  <circle cx="381" cy="380" r="1.5" fill="#4CAF50"/>
+
+  <!-- "WARHOL" text in pop art style -->
+  <text x="250" y="575" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif"
+        font-size="28" font-weight="bold" fill="#FFFF00" stroke="#000" stroke-width="1">
+    WARHOL
+  </text>
+
+  <!-- Pop art dots / soup can style decorations -->
+  <circle cx="40" cy="200" r="8" fill="#00FFFF" stroke="#000" stroke-width="1.5"/>
+  <circle cx="460" cy="200" r="8" fill="#FF6600" stroke="#000" stroke-width="1.5"/>
+  <circle cx="40" cy="350" r="6" fill="#FFFF00" stroke="#000" stroke-width="1.5"/>
+  <circle cx="460" cy="350" r="6" fill="#FF1493" stroke="#000" stroke-width="1.5"/>
+  <circle cx="100" cy="530" r="5" fill="#00FF00" stroke="#000" stroke-width="1.5"/>
+  <circle cx="400" cy="530" r="5" fill="#00FFFF" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Comic style BURP bubbles from mouth -->
+  <g transform="translate(280, 310)">
+    <circle cx="10" cy="-15" r="8" fill="#ADD8E6" stroke="#000" stroke-width="1" opacity="0.7"/>
+    <circle cx="20" cy="-28" r="5" fill="#ADD8E6" stroke="#000" stroke-width="1" opacity="0.6"/>
+    <circle cx="5" cy="-30" r="4" fill="#ADD8E6" stroke="#000" stroke-width="1" opacity="0.5"/>
+    <circle cx="25" cy="-18" r="3" fill="#ADD8E6" stroke="#000" stroke-width="0.8" opacity="0.4"/>
+  </g>
+
+  <!-- Pop art action lines around burger -->
+  <line x1="400" y1="300" x2="415" y2="295" stroke="#FFFF00" stroke-width="2"/>
+  <line x1="405" y1="310" x2="420" y2="310" stroke="#FFFF00" stroke-width="2"/>
+  <line x1="400" y1="320" x2="415" y2="325" stroke="#FFFF00" stroke-width="2"/>
+</svg>

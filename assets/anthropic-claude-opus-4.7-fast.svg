@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Pop-art background -->
+  <rect width="400" height="400" fill="#ff6ec7"/>
+  <circle cx="200" cy="200" r="180" fill="#ffeb3b"/>
+  
+  <!-- Dotted pop-art pattern -->
+  <g fill="#ff1744" opacity="0.3">
+    <circle cx="50" cy="50" r="4"/>
+    <circle cx="80" cy="50" r="4"/>
+    <circle cx="350" cy="50" r="4"/>
+    <circle cx="320" cy="80" r="4"/>
+    <circle cx="50" cy="350" r="4"/>
+    <circle cx="80" cy="320" r="4"/>
+    <circle cx="350" cy="350" r="4"/>
+    <circle cx="320" cy="350" r="4"/>
+  </g>
+  
+  <!-- Neck -->
+  <rect x="180" y="280" width="40" height="40" fill="#f5d6b8" stroke="#000" stroke-width="2"/>
+  
+  <!-- Shirt collar -->
+  <polygon points="140,320 200,300 260,320 260,400 140,400" fill="#222" stroke="#000" stroke-width="2"/>
+  <polygon points="200,300 180,340 200,350 220,340" fill="#fff" stroke="#000" stroke-width="2"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="200" rx="75" ry="90" fill="#f5d6b8" stroke="#000" stroke-width="2.5"/>
+  
+  <!-- Warhol's iconic white/platinum hair -->
+  <path d="M 125,180 Q 120,100 200,90 Q 290,95 280,180 Q 285,150 270,140 Q 260,125 240,130 Q 220,115 200,125 Q 175,115 160,135 Q 140,140 130,160 Q 122,170 125,180 Z" 
+        fill="#f0f0f0" stroke="#000" stroke-width="2.5"/>
+  <!-- Hair strands -->
+  <path d="M 135,175 Q 145,155 155,170" fill="none" stroke="#999" stroke-width="1.5"/>
+  <path d="M 250,170 Q 260,150 270,175" fill="none" stroke="#999" stroke-width="1.5"/>
+  <path d="M 195,130 Q 200,115 210,130" fill="none" stroke="#999" stroke-width="1.5"/>
+  
+  <!-- Eyes behind glasses -->
+  <ellipse cx="175" cy="195" rx="3" ry="4" fill="#000"/>
+  <ellipse cx="225" cy="195" rx="3" ry="4" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 160,178 Q 175,172 190,178" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 210,178 Q 225,172 240,178" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Iconic round glasses -->
+  <circle cx="175" cy="195" r="18" fill="none" stroke="#000" stroke-width="2.5"/>
+  <circle cx="225" cy="195" r="18" fill="none" stroke="#000" stroke-width="2.5"/>
+  <line x1="193" y1="195" x2="207" y2="195" stroke="#000" stroke-width="2.5"/>
+  
+  <!-- Nose -->
+  <path d="M 200,210 Q 195,235 200,245 Q 205,248 210,245" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Mouth open eating burger -->
+  <ellipse cx="200" cy="265" rx="28" ry="15" fill="#8b0000" stroke="#000" stroke-width="2"/>
+  <path d="M 180,262 Q 200,255 220,262" fill="#fff" stroke="#000" stroke-width="1"/>
+  
+  <!-- Hamburger being eaten -->
+  <g transform="translate(200, 275)">
+    <!-- Top bun -->
+    <path d="M -55,-5 Q -55,-35 0,-35 Q 55,-35 55,-5 Z" fill="#d4a574" stroke="#000" stroke-width="2"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="-30" cy="-22" rx="2.5" ry="1.5" fill="#fff5dc" stroke="#000" stroke-width="0.5"/>
+    <ellipse cx="-10" cy="-28" rx="2.5" ry="1.5" fill="#fff5dc" stroke="#000" stroke-width="0.5"/>
+    <ellipse cx="15" cy="-25" rx="2.5" ry="1.5" fill="#fff5dc" stroke="#000" stroke-width="0.5"/>
+    <ellipse cx="35" cy="-20" rx="2.5" ry="1.5" fill="#fff5dc" stroke="#000" stroke-width="0.5"/>
+    <ellipse cx="-45" cy="-15" rx="2.5" ry="1.5" fill="#fff5dc" stroke="#000" stroke-width="0.5"/>
+    
+    <!-- Lettuce -->
+    <path d="M -58,-5 Q -50,3 -40,-3 Q -30,5 -20,-2 Q -10,4 0,-3 Q 10,5 20,-2 Q 30,4 40,-3 Q 50,3 58,-5 L 58,3 L -58,3 Z" 
+          fill="#7cb342" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Cheese -->
+    <path d="M -60,3 L 60,3 L 55,12 L -55,12 Z" fill="#ffc107" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Patty -->
+    <rect x="-58" y="10" width="116" height="15" rx="3" fill="#5d2f0e" stroke="#000" stroke-width="2"/>
+    
+    <!-- Bottom bun -->
+    <path d="M -55,23 Q -55,40 0,40 Q 55,40 55,23 Z" fill="#c19660" stroke="#000" stroke-width="2"/>
+    
+    <!-- Bite mark indication -->
+    <path d="M -25,-35 Q -15,-20 -5,-35" fill="#ff6ec7" stroke="#000" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Hand holding burger -->
+  <ellipse cx="140" cy="290" rx="20" ry="12" fill="#f5d6b8" stroke="#000" stroke-width="2"/>
+  <ellipse cx="260" cy="290" rx="20" ry="12" fill="#f5d6b8" stroke="#000" stroke-width="2"/>
+  
+  <!-- "POP!" text bubble -->
+  <g transform="translate(330, 100)">
+    <polygon points="0,0 50,-10 60,30 40,25 30,40 20,25 -10,30" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="25" y="20" font-family="Arial Black, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#ff1744">POP!</text>
+  </g>
+</svg>

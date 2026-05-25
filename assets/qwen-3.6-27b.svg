@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <!-- Background Frame & Canvas -->
+  <rect x="10" y="10" width="480" height="480" fill="#FF1493" rx="18"/>
+  <rect x="22" y="22" width="456" height="456" fill="#00BFFF" rx="12"/>
+  
+  <!-- Pop Art Dots -->
+  <g fill="#FFEB3B" stroke="#000" stroke-width="2">
+    <circle cx="70" cy="90" r="16"/>
+    <circle cx="430" cy="110" r="22"/>
+    <circle cx="100" cy="430" r="18"/>
+    <circle cx="410" cy="410" r="14"/>
+    <circle cx="60" cy="260" r="12"/>
+    <circle cx="440" cy="300" r="15"/>
+    <circle cx="250" cy="60" r="10"/>
+    <circle cx="250" cy="450" r="11"/>
+  </g>
+  <g fill="#4CAF50" stroke="#000" stroke-width="2">
+    <circle cx="150" cy="70" r="14"/>
+    <circle cx="360" cy="440" r="16"/>
+    <circle cx="80" cy="380" r="12"/>
+  </g>
+  <g fill="#9C27B0" stroke="#000" stroke-width="2">
+    <circle cx="390" cy="70" r="13"/>
+    <circle cx="140" cy="360" r="15"/>
+    <circle cx="280" cy="440" r="11"/>
+  </g>
+
+  <!-- Face -->
+  <ellipse cx="250" cy="280" rx="115" ry="145" fill="#FFDAB9" stroke="#000" stroke-width="6"/>
+  
+  <!-- Ears -->
+  <ellipse cx="135" cy="280" rx="18" ry="28" fill="#FFDAB9" stroke="#000" stroke-width="6"/>
+  <ellipse cx="365" cy="280" rx="18" ry="28" fill="#FFDAB9" stroke="#000" stroke-width="6"/>
+
+  <!-- Blonde Hair (Warhol Wig) -->
+  <path d="M 135 230 
+           C 125 130 200 100 250 100 
+           C 300 100 375 130 365 230 
+           C 372 270 355 295 330 270 
+           C 320 240 310 195 250 175 
+           C 190 195 180 240 170 270 
+           C 145 295 128 270 135 230 Z" 
+        fill="#FFD700" stroke="#000" stroke-width="6"/>
+  <!-- Hair Highlights -->
+  <path d="M 160 160 Q 210 130 250 125 Q 290 130 340 160" fill="none" stroke="#FFF9C4" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Glasses -->
+  <g stroke="#000" stroke-width="7" fill="#E0F7FA" opacity="0.85">
+    <circle cx="200" cy="260" r="42"/>
+    <circle cx="300" cy="260" r="42"/>
+    <line x1="242" y1="260" x2="258" y2="260"/>
+  </g>
+  <!-- Glasses Arms -->
+  <line x1="158" y1="248" x2="138" y2="238" stroke="#000" stroke-width="7"/>
+  <line x1="342" y1="248" x2="362" y2="238" stroke="#000" stroke-width="7"/>
+  <!-- Lens Reflection -->
+  <path d="M 175 235 Q 195 225 215 235" fill="none" stroke="#B2EBF2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 275 235 Q 295 225 315 235" fill="none" stroke="#B2EBF2" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Mustache -->
+  <path d="M 195 318 
+           C 215 308 235 303 250 303 
+           C 265 303 285 308 305 318 
+           C 300 332 280 326 250 321 
+           C 220 326 200 332 195 318 Z" 
+        fill="#1A1A1A" stroke="#000" stroke-width="4"/>
+
+  <!-- Mouth / Lips -->
+  <path d="M 225 348 
+           C 242 342 258 342 275 348 
+           C 285 358 265 372 250 368 
+           C 235 372 215 358 225 348 Z" 
+        fill="#E91E63" stroke="#000" stroke-width="4"/>
+  <!-- Inner Mouth -->
+  <path d="M 232 354 Q 250 366 268 354 Q 250 350 232 354 Z" fill="#C62828"/>
+  <!-- Teeth -->
+  <rect x="240" y="354" width="20" height="6" rx="2" fill="#FFF9C4" stroke="#000" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(340, 345) rotate(-22) scale(0.85)">
+    <!-- Bottom Bun -->
+    <path d="M -55 38 C -55 60 55 60 55 38 C 55 25 -55 25 -55 38 Z" fill="#D4A373" stroke="#000" stroke-width="5"/>
+    <!-- Patty -->
+    <rect x="-50" y="12" width="100" height="22" rx="4" fill="#4A3728" stroke="#000" stroke-width="5"/>
+    <!-- Lettuce -->
+    <path d="M -52 10 C -25 3 25 3 52 10 C 58 16 45 18 35 13 C 18 8 -18 8 -35 13 C -45 18 -58 16 -52 10 Z" fill="#2A9D8F" stroke="#000" stroke-width="5"/>
+    <!-- Tomato -->
+    <ellipse cx="0" cy="-2" rx="48" ry="11" fill="#E63946" stroke="#000" stroke-width="5"/>
+    <!-- Top Bun -->
+    <path d="M -55 -18 C -55 -48 55 -48 55 -18 C 55 -2 -55 -2 -55 -18 Z" fill="#D4A373" stroke="#000" stroke-width="5"/>
+    <!-- Sesame Seeds -->
+    <ellipse cx="-22" cy="-28" rx="4" ry="6" fill="#FFF9C4" transform="rotate(-15 -22 -28)"/>
+    <ellipse cx="2" cy="-34" rx="4" ry="6" fill="#FFF9C4" transform="rotate(5 2 -34)"/>
+    <ellipse cx="26" cy="-28" rx="4" ry="6" fill="#FFF9C4" transform="rotate(15 26 -28)"/>
+    
+    <!-- Bite Cutout (matches background canvas color) -->
+    <circle cx="42" cy="-8" r="16" fill="#00BFFF" stroke="#000" stroke-width="3"/>
+    <!-- Crumbs -->
+    <circle cx="55" cy="5" r="3" fill="#D4A373"/>
+    <circle cx="62" cy="12" r="2" fill="#D4A373"/>
+    <circle cx="58" cy="18" r="2.5" fill="#D4A373"/>
+  </g>
+
+  <!-- Hand Hint (Stylized) -->
+  <path d="M 380 380 C 360 360 340 365 325 375" fill="none" stroke="#FFDAB9" stroke-width="18" stroke-linecap="round" stroke="#000"/>
+  <path d="M 380 380 C 360 360 340 365 325 375" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+</svg>

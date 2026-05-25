@@ -1,0 +1,25 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="pink" />
+  
+  <!-- Andy Warhol's Face -->
+  <circle cx="200" cy="150" r="100" fill="peach" />
+  <!-- Hair -->
+  <path d="M130,120 C130,80 170,60 200,60 C230,60 270,80 270,120 C270,70 250,50 200,40 C150,50 130,70 130,120 Z" fill="black" />
+  <!-- Sunglasses -->
+  <rect x="150" y="120" width="100" height="20" rx="10" fill="black" />
+  <!-- Mouth -->
+  <path d="M180,200 C200,220 220,220 240,200" stroke="red" stroke-width="5" fill="none" />
+  
+  <!-- Hamburger -->
+  <circle cx="300" cy="250" r="40" fill="brown" />
+  <!-- Hamburger Bun -->
+  <ellipse cx="300" cy="260" rx="45" ry="15" fill="brown" />
+  <!-- Hamburger Patty -->
+  <circle cx="300" cy="250" r="35" fill="darkred" />
+  <!-- Hamburger Cheese -->
+  <path d="M270,250 L270,265 L330,265 L330,250 Z" fill="yellow" />
+  
+  <!-- Andy Warhol's Hand -->
+  <path d="M240,220 L270,250 L300,250 L270,220 Z" fill="peach" />
+</svg>

@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFD700"/>
+  
+  <!-- Neck -->
+  <rect x="160" y="220" width="80" height="40" fill="#F4A460"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="140" r="70" fill="#E8D5C4"/>
+  
+  <!-- Hair (iconic silver/white) -->
+  <ellipse cx="200" cy="90" rx="75" ry="50" fill="#C0C0C0"/>
+  <path d="M 130 110 Q 130 60 200 50 Q 270 60 270 110" fill="#D3D3D3"/>
+  
+  <!-- Eyes -->
+  <circle cx="175" cy="130" r="8" fill="#000"/>
+  <circle cx="225" cy="130" r="8" fill="#000"/>
+  <circle cx="177" cy="128" r="3" fill="#FFF"/>
+  <circle cx="227" cy="128" r="3" fill="#FFF"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 165 120 Q 175 115 185 120" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 215 120 Q 225 115 235 120" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M 200 130 L 200 155" stroke="#C0A080" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth -->
+  <ellipse cx="200" cy="175" rx="25" ry="15" fill="#FFB6C1"/>
+  <path d="M 175 175 Q 200 185 225 175" stroke="#FF1493" stroke-width="1.5"/>
+  
+  <!-- Hamburger being held -->
+  <g transform="translate(280, 200)">
+    <!-- Hamburger bun top -->
+    <ellipse cx="0" cy="0" rx="35" ry="20" fill="#D2691E"/>
+    <ellipse cx="0" cy="-2" rx="35" ry="18" fill="#CD853F"/>
+    
+    <!-- Sesame seeds -->
+    <circle cx="-20" cy="-5" r="2" fill="#F5DEB3"/>
+    <circle cx="-10" cy="-8" r="2" fill="#F5DEB3"/>
+    <circle cx="0" cy="-10" r="2" fill="#F5DEB3"/>
+    <circle cx="10" cy="-8" r="2" fill="#F5DEB3"/>
+    <circle cx="20" cy="-5" r="2" fill="#F5Deb3"/>
+    
+    <!-- Lettuce -->
+    <ellipse cx="0" cy="12" rx="38" ry="8" fill="#90EE90"/>
+    <path d="M -30 12 Q -20 8 -10 12 Q 0 8 10 12 Q 20 8 30 12" stroke="#7CCD7C" stroke-width="1" fill="none"/>
+    
+    <!-- Cheese -->
+    <rect x="-32" y="18" width="64" height="6" fill="#FFD700"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="30" rx="35" ry="12" fill="#8B4513"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="40" rx="33" ry="10" fill="#FF6347"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="48" rx="35" ry="18" fill="#D2691E"/>
+    <ellipse cx="0" cy="50" rx="35" ry="16" fill="#CD853F"/>
+  </g>
+  
+  <!-- Body/Shirt -->
+  <rect x="140" y="260" width="120" height="120" fill="#FF1493"/>
+  
+  <!-- Arms -->
+  <rect x="100" y="280" width="40" height="60" fill="#F4A460" rx="20"/>
+  <rect x="260" y="280" width="40" height="60" fill="#F4A460" rx="20"/>
+  
+  <!-- Hands -->
+  <circle cx="85" cy="345" r="18" fill="#F4A460"/>
+  <circle cx="315" cy="345" r="18" fill="#F4A460"/>
+  
+  <!-- Signature Warhol text -->
+  <text x="200" y="470" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000">
+    Warhol
+  </text>
+</svg>

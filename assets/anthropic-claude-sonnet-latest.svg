@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Background - pop art yellow -->
+  <rect width="400" height="500" fill="#FFE000"/>
+  
+  <!-- Ben-Day dots pattern -->
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="3" fill="#FFB800" opacity="0.4"/>
+  </pattern>
+  <rect width="400" height="500" fill="url(#dots)"/>
+
+  <!-- Body / Shirt (black turtleneck - Warhol signature) -->
+  <ellipse cx="200" cy="420" rx="110" ry="90" fill="#111111"/>
+  <rect x="90" y="370" width="220" height="130" fill="#111111"/>
+
+  <!-- Neck -->
+  <rect x="175" y="320" width="50" height="60" fill="#F5CBA7"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="280" rx="85" ry="95" fill="#F5CBA7"/>
+
+  <!-- Warhol silver/white hair -->
+  <ellipse cx="200" cy="210" rx="88" ry="55" fill="#E8E8E8"/>
+  <ellipse cx="200" cy="200" rx="80" ry="45" fill="#CCCCCC"/>
+  <!-- Hair strands -->
+  <path d="M130 220 Q120 180 140 160" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M150 210 Q140 170 155 150" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M170 205 Q165 165 175 148" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M200 205 Q198 162 200 145" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M225 205 Q228 163 222 148" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M248 210 Q255 170 242 152" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+  <path d="M265 220 Q275 180 258 162" stroke="#AAAAAA" stroke-width="4" fill="none"/>
+
+  <!-- Glasses (Warhol's signature specs) -->
+  <rect x="150" y="268" width="40" height="25" rx="5" ry="5" fill="none" stroke="#333" stroke-width="3"/>
+  <rect x="210" y="268" width="40" height="25" rx="5" ry="5" fill="none" stroke="#333" stroke-width="3"/>
+  <line x1="190" y1="278" x2="210" y2="278" stroke="#333" stroke-width="3"/>
+  <line x1="150" y1="278" x2="125" y2="282" stroke="#333" stroke-width="3"/>
+  <line x1="250" y1="278" x2="275" y2="282" stroke="#333" stroke-width="3"/>
+
+  <!-- Eyes behind glasses -->
+  <ellipse cx="170" cy="281" rx="12" ry="9" fill="white"/>
+  <ellipse cx="230" cy="281" rx="12" ry="9" fill="white"/>
+  <circle cx="172" cy="282" r="5" fill="#5D4037"/>
+  <circle cx="232" cy="282" r="5" fill="#5D4037"/>
+  <circle cx="174" cy="280" r="2" fill="black"/>
+  <circle cx="234" cy="280" r="2" fill="black"/>
+
+  <!-- Eyebrows -->
+  <path d="M152 264 Q170 258 190 262" stroke="#888" stroke-width="3" fill="none"/>
+  <path d="M210 262 Q230 257 250 263" stroke="#888" stroke-width="3" fill="none"/>
+
+  <!-- Nose -->
+  <ellipse cx="200" cy="305" rx="8" ry="5" fill="#E0A882"/>
+  <path d="M193 298 Q200 310 207 298" stroke="#C8956C" stroke-width="2" fill="none"/>
+
+  <!-- Mouth open, eating -->
+  <path d="M170 330 Q200 345 230 330" stroke="#C8956C" stroke-width="2" fill="#CC4444"/>
+  <path d="M170 330 Q200 320 230 330" fill="#F5CBA7"/>
+  <!-- Teeth -->
+  <path d="M175 330 Q200 322 225 330" fill="white" stroke="#ddd" stroke-width="1"/>
+  <!-- Tongue -->
+  <ellipse cx="200" cy="337" rx="18" ry="8" fill="#E05050"/>
+
+  <!-- LEFT ARM holding hamburger -->
+  <path d="M90 390 Q50 370 30 340" stroke="#111" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <!-- Left hand -->
+  <ellipse cx="30" cy="332" rx="22" ry="18" fill="#F5CBA7"/>
+
+  <!-- HAMBURGER -->
+  <!-- Top bun -->
+  <ellipse cx="80" cy="295" rx="55" ry="28" fill="#D4813A"/>
+  <ellipse cx="80" cy="280" rx="52" ry="22" fill="#E8973E"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="65" cy="275" rx="5" ry="2.5" fill="#C8722A" transform="rotate(-20,65,275)"/>
+  <ellipse cx="85" cy="270" rx="5" ry="2.5" fill="#C8722A" transform="rotate(10,85,270)"/>
+  <ellipse cx="100" cy="278" rx="5" ry="2.5" fill="#C8722A" transform="rotate(-10,100,278)"/>
+  <ellipse cx="72" cy="265" rx="4" ry="2" fill="#C8722A" transform="rotate(15,72,265)"/>
+
+  <!-- Lettuce -->
+  <path d="M28 300 Q45 290 60 298 Q75 305 90 296 Q105 287 120 298 Q130 305 135 300" 
+        stroke="#4CAF50" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Tomato -->
+  <rect x="30" y="300" width="105" height="10" rx="3" fill="#E53935" opacity="0.85"/>
+
+  <!-- Cheese -->
+  <rect x="25" y="308" width="112" height="8" rx="2" fill="#FDD835"/>
+
+  <!-- Patty -->
+  <rect x="28" y="314" width="107" height="15" rx="6" fill="#6D4C41"/>
+
+  <!-- Bottom bun -->
+  <ellipse cx="80" cy="332" rx="55" ry="14" fill="#E8973E"/>
+  <ellipse cx="80" cy="336" rx="52" ry="10" fill="#D4813A"/>
+
+  <!-- Pop art label -->
+  <rect x="270" y="30" width="110" height="40" rx="5" fill="#FF3EA5"/>
+  <text x="325" y="47" font-family="Arial Black, sans-serif" font-size="11" font-weight="bold" 
+        text-anchor="middle" fill="white">ANDY</text>
+  <text x="325" y="62" font-family="Arial Black, sans-serif" font-size="11" font-weight="bold" 
+        text-anchor="middle" fill="white">WARHOL</text>
+
+  <!-- Pop art exclamation -->
+  <text x="340" y="120" font-family="Arial Black, sans-serif" font-size="36" 
+        font-weight="bold" fill="#FF3EA5" stroke="#111" stroke-width="2">YUM!</text>
+
+  <!-- Outline for pop art feel -->
+  <ellipse cx="200" cy="280" rx="85" ry="95" fill="none" stroke="#111" stroke-width="3"/>
+  <ellipse cx="200" cy="210" rx="88" ry="55" fill="none" stroke="#111" stroke-width="3"/>
+</svg>
