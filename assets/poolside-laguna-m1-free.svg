@@ -1,0 +1,53 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f0f0f0"/>
+  
+  <!-- Andy Warhol's distinctive hair (platinum blonde) -->
+  <ellipse cx="200" cy="100" rx="60" ry="70" fill="#E5E4E2" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Face outline -->
+  <circle cx="200" cy="180" r="50" fill="#FDBCB4" stroke="#E0AC69" stroke-width="2"/>
+  
+  <!-- Eyes - distinctive squinty style -->
+  <ellipse cx="185" cy="170" rx="8" ry="5" fill="#000"/>
+  <ellipse cx="215" cy="170" rx="8" ry="5" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M170 155 Q185 150 200 155" stroke="#333" stroke-width="3" fill="none"/>
+  <path d="M200 155 Q215 150 230 155" stroke="#333" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M200 175 Q195 190 200 200 Q205 190 200 175" fill="#E0AC69"/>
+  
+  <!-- Mouth with hamburger -->
+  <path d="M180 210 Q200 225 220 210" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(185, 205)">
+    <rect x="-15" y="-5" width="30" height="10" fill="#D2691E" rx="2"/>
+    <rect x="-14" y="-3" width="28" height="2" fill="#FF6B6B"/>
+    <rect x="-14" y="1" width="28" height="2" fill="#228B22"/>
+    <circle cx="-5" cy="0" r="3" fill="#FFD700"/>
+  </g>
+  
+  <!-- Body/Shirt -->
+  <rect x="150" y="230" width="100" height="120" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+  
+  <!-- Arms holding hamburger -->
+  <path d="M250 250 Q280 230 300 250" stroke="#FDBCB4" stroke-width="15" fill="none" stroke-linecap="round"/>
+  <path d="M150 250 Q120 230 100 250" stroke="#FDBCB4" stroke-width="15" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hands -->
+  <circle cx="310" cy="255" r="12" fill="#FDBCB4" stroke="#E0AC69" stroke-width="2"/>
+  <circle cx="90" cy="255" r="12" fill="#FDBCB4" stroke="#E0AC69" stroke-width="2"/>
+  
+  <!-- Pop art style text -->
+  <text x="200" y="400" font-family="Arial, sans-serif" font-size="24" fill="#FF6B6B" text-anchor="middle" font-weight="bold">ANDY</text>
+  <text x="200" y="430" font-family="Arial, sans-serif" font-size="24" fill="#4ECDC4" text-anchor="middle" font-weight="bold">BURGER</text>
+  
+  <!-- Pop art dots decoration -->
+  <circle cx="100" cy="100" r="8" fill="#FF6B6B"/>
+  <circle cx="300" cy="100" r="8" fill="#4ECDC4"/>
+  <circle cx="80" cy="300" r="6" fill="#FFE66D"/>
+  <circle cx="320" cy="300" r="6" fill="#45B7D1"/>
+</svg>

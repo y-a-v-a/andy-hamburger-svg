@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Andy Warhol eating a hamburger – SVG cartoon illustration -->
+<svg width="800" height="600"
+     viewBox="0 0 800 600"
+     xmlns="http://www.w3.org/2000/svg"
+     style="background:#f9f9f9">
+
+  <!-- 
+      1. Background & simple ground line
+      -->
+  <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+  <line x1="0" y1="560" x2="800" y2="560" stroke="#999999" stroke-width="2"/>
+
+  <!-- 
+      2. Andy Warhol’s head & body (white shirt, black tie)
+      -->
+  <!-- Face (ellipse) -->
+  <ellipse cx="400" cy="250" rx="180" ry="120" fill="#ffffff" 
+           opacity="0.9"/>
+
+  <!-- Face outline (slightly darker) -->
+  <ellipse cx="400" cy="250" rx="170" ry="110" fill="none" 
+           stroke="#333333" stroke-width="6"/>
+
+  <!-- Eyes (small circles) -->
+  <circle cx="340" cy="210" r="15" fill="#000000"/>
+  <circle cx="460" cy="210" r="15" fill="#000000"/>
+
+  <!-- Eyebrows -->
+  <path d="M 330,190 Q 340,180 350,190" fill="none" stroke="#000000" stroke-width="4"/>
+  <path d="M 450,190 Q 460,180 470,190" fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Mouth (curved line) -->
+  <path d="M 400,230 Q 390,240 400,250 Q 410,240 400,230" 
+        fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Suit collar (triangle) -->
+  <polygon points="360,210 400,210 400,190" fill="#ffffff" opacity="0.7"/>
+  <polygon points="440,210 400,210 400,190" fill="#ffffff" opacity="0.7"/>
+
+  <!-- White shirt collar -->
+  <polygon points="355,220 360,210 400,210" fill="#ffffff"/>
+  <polygon points="445,220 440,210 400,210" fill="#ffffff"/>
+
+  <!-- Thin black tie (horizontal band) -->
+  <rect x="340" y="260" width="120" height="30" fill="#000000"/>
+
+  <!-- 
+      3. Andy’s shoes (simple ovals)
+      -->
+  <ellipse cx="400" cy="550" rx="80" ry="30" fill="#ffffff" opacity="0.9"/>
+  <ellipse cx="400" cy="550" rx="70" ry="25" fill="#000000"/>
+
+  <!-- 
+      4. The hamburger
+      -->
+  <!-- Bottom bun (ellipse) -->
+  <ellipse cx="500" cy="410" rx="130" ry="40" fill="#d69a6a"/>
+
+  <!-- Top bun (smaller ellipse) -->
+  <ellipse cx="500" cy="310" rx="130" ry="40" fill="#d69a6a"/>
+
+  <!-- Beef patty (rectangle) -->
+  <rect x="460" y="340" width="120" height="30" fill="#c91e1e"/>
+
+  <!-- Lettuce & tomato (green circle + red circle) -->
+  <circle cx="500" cy="350" r="12" fill="#39a54a"/>
+  <circle cx="500" cy="350" r="10" fill="#9a1e1e"/>
+
+  <!-- Ketchup (droplet) -->
+  <path d="M 495,355 Q 500,360 505,355" 
+        fill="#ff0000"/>
+
+  <!-- Pickles (green cylinders) -->
+  <rect x="470" y="300" width="20" height="60" fill="#39a54a" rx="3"/>
+  <rect x="530" y="300" width="20" height="60" fill="#39a54a" rx="3"/>
+
+  <!-- 
+      5. Hand holding the burger
+      -->
+  <!-- Left hand (finger outline) -->
+  <path d="M 360,430 
+           Q 380,460 400,430 
+           Q 420,460 440,430 
+           Q 460,450 480,430 
+           Q 500,460 520,430 
+           L 510,380" 
+        stroke="#000000" stroke-width="4" fill="none"/>
+
+  <!-- Hand holding the burger (simple circle) -->
+  <circle cx="500" cy="420" r="8" fill="#000000"/>
+
+  <!-- 
+      6. Title (caption)
+      -->
+  <text x="400" y="580"
+        font-family="sans-serif"
+        font-size="24"
+        text-anchor="middle"
+        fill="#000000">
+    Andy Warhol eats a hamburger
+  </text>
+
+  <!-- 
+      7. Optional extra detail – Andy’s iconic glasses‑like glasses‑
+      -->
+  <!-- Squinting “Warhol” glasses shape -->
+  <path d="M 335,210 Q 340,215 345,210 
+           Q 350,215 355,210 
+           Q 360,215 365,210 
+           Q 370,215 375,210 
+           Q 380,215 385,210" 
+        fill="none" stroke="#000000" stroke-width="3"/>
+
+</svg>

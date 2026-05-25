@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background - Pop art style -->
+  <rect width="500" height="600" fill="#FFD700"/>
+  
+  <!-- Neck -->
+  <rect x="210" y="380" width="80" height="60" fill="#F5DEB3"/>
+  
+  <!-- Turtleneck sweater -->
+  <rect x="150" y="420" width="200" height="180" fill="#1a1a1a"/>
+  <rect x="200" y="380" width="100" height="60" rx="10" fill="#1a1a1a"/>
+  
+  <!-- Face -->
+  <ellipse cx="250" cy="300" rx="90" ry="110" fill="#F5DEB3"/>
+  
+  <!-- Iconic silver/white wig - spiky -->
+  <path d="M160,280 Q140,200 170,170 Q180,140 200,150 Q210,120 230,130 
+           Q240,110 250,120 Q260,105 270,125 Q290,115 295,140 
+           Q310,130 320,155 Q340,160 340,190 Q360,210 340,280 
+           Q335,250 320,260 Q310,240 295,255 Q280,235 265,250 
+           Q250,230 240,250 Q225,235 215,255 Q200,240 190,260 
+           Q175,250 168,270 Z" fill="#E8E8E8"/>
+  
+  <!-- More wig texture strands -->
+  <path d="M165,265 Q155,220 175,185" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M185,255 Q175,200 195,165" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M210,248 Q200,190 220,145" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M250,245 Q245,180 255,125" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M290,250 Q295,190 285,145" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M310,258 Q320,200 305,165" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  <path d="M335,268 Q345,220 330,190" stroke="#CCCCCC" stroke-width="3" fill="none"/>
+  
+  <!-- Glasses -->
+  <rect x="185" y="275" width="55" height="45" rx="8" fill="none" stroke="#333" stroke-width="4"/>
+  <rect x="260" y="275" width="55" height="45" rx="8" fill="none" stroke="#333" stroke-width="4"/>
+  <line x1="240" y1="295" x2="260" y2="295" stroke="#333" stroke-width="4"/>
+  <line x1="185" y1="290" x2="170" y2="285" stroke="#333" stroke-width="3"/>
+  <line x1="315" y1="290" x2="330" y2="285" stroke="#333" stroke-width="3"/>
+  
+  <!-- Glass lenses (slightly tinted) -->
+  <rect x="187" y="277" width="51" height="41" rx="6" fill="#D4E8D4" opacity="0.4"/>
+  <rect x="262" y="277" width="51" height="41" rx="6" fill="#D4E8D4" opacity="0.4"/>
+  
+  <!-- Eyes behind glasses -->
+  <circle cx="212" cy="298" r="5" fill="#2c1810"/>
+  <circle cx="287" cy="298" r="5" fill="#2c1810"/>
+  <circle cx="213" cy="296" r="2" fill="white"/>
+  <circle cx="288" cy="296" r="2" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M190,268 Q212,260 238,268" stroke="#888" stroke-width="3" fill="none"/>
+  <path d="M262,268 Q287,260 310,268" stroke="#888" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M248,310 Q244,330 242,340 Q248,345 252,346 Q256,344 258,340 Q256,330 252,310" 
+        fill="none" stroke="#C4A882" stroke-width="2"/>
+  <ellipse cx="245" cy="343" rx="4" ry="3" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  <ellipse cx="255" cy="343" rx="4" ry="3" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  
+  <!-- Mouth (open, eating) -->
+  <path d="M230,365 Q240,370 250,368 Q260,370 270,365 Q272,375 268,380 Q250,388 232,380 Q228,375 230,365" 
+        fill="#8B0000"/>
+  <!-- Teeth -->
+  <rect x="238" y="365" width="24" height="8" rx="2" fill="white"/>
+  
+  <!-- Lines around mouth -->
+  <path d="M220,360 Q225,365 230,365" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  <path d="M280,360 Q275,365 270,365" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  
+  <!-- Ears -->
+  <ellipse cx="160" cy="305" rx="12" ry="20" fill="#F5DEB3"/>
+  <ellipse cx="162" cy="305" rx="6" ry="12" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  <ellipse cx="340" cy="305" rx="12" ry="20" fill="#F5DEB3"/>
+  <ellipse cx="338" cy="305" rx="6" ry="12" fill="none" stroke="#C4A882" stroke-width="1.5"/>
+  
+  <!-- Hand holding hamburger -->
+  <path d="M90,440 Q80,430 85,415 Q90,400 105,400 Q115,395 125,400 
+           Q135,395 140,405 Q150,400 155,410 Q160,405 165,415 
+           L168,440 L165,450 Q140,455 110,450 Z" fill="#F5DEB3" stroke="#C4A882" stroke-width="1.5"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(100, 385)">
+    <!-- Top bun -->
+    <path d="M0,20 Q0,0 40,-2 Q80,-2 120,0 Q160,0 160,20 Z" fill="#D2691E"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="30" cy="8" rx="4" ry="3" fill="#FFDEAD" transform="rotate(-20,30,8)"/>
+    <ellipse cx="60" cy="4" rx="4" ry="3" fill="#FFDEAD" transform="rotate(15,60,4)"/>
+    <ellipse cx="90" cy="6" rx="4" ry="3" fill="#FFDEAD" transform="rotate(-10,90,6)"/>
+    <ellipse cx="120" cy="8" rx="4" ry="3" fill="#FFDEAD" transform="rotate(25,120,8)"/>
+    <ellipse cx="145" cy="12" rx="4" ry="3" fill="#FFDEAD" transform="rotate(-5,145,12)"/>
+    
+    <!-- Lettuce -->
+    <path d="M-5,20 Q10,25 20,20 Q30,28 40,20 Q50,26 60,20 Q70,28 80,20 
+             Q90,26 100,20 Q110,28 120,20 Q130,26 140,20 Q150,28 165,20 
+             L165,28 L-5,28 Z" fill="#228B22"/>
+    
+    <!-- Tomato -->
+    <rect x="-3" y="28" width="166" height="8" fill="#FF6347" rx="2"/>
+    
+    <!-- Cheese (slightly melted) -->
+    <path d="M-5,36 L165,36 L165,42 Q140,48 120,42 Q100,48 80,42 Q60,48 40,42 Q20,48 -5,42 Z" 
+          fill="#FFD700"/>
+    
+    <!-- Burger patty -->
+    <rect x="-2" y="42" width="164" height="18" rx="4" fill="#4a2c0a"/>
+    
+    <!-- Bottom bun -->
+    <path d="M0,60 Q0,75 40,77 Q80,77 120,75 Q160,75 160,60 Z" fill="#D2691E"/>
+  </g>
+  
+  <!-- Pop art halftone dots in background -->
+  <g opacity="0.15">
+    <circle cx="50" cy="50" r="8" fill="#FF0000"/>
+    <circle cx="100" cy="50" r="8" fill="#FF0000"/>
+    <circle cx="150" cy="50" r="8" fill="#FF0000"/>
+    <circle cx="400" cy="50" r="8" fill="#FF0000"/>
+    <circle cx="450" cy="50" r="8" fill="#FF0000"/>
+    <circle cx="50" cy="100" r="8" fill="#FF0000"/>
+    <circle cx="450" cy="100" r="8" fill="#FF0000"/>
+    <circle cx="50" cy="150" r="8" fill="#FF0000"/>
+    <circle cx="450" cy="150" r="8" fill="#FF0000"/>
+    <circle cx="50" cy="500" r="8" fill="#FF0000"/>
+    <circle cx="100" cy="500" r="8" fill="#FF0000"/>
+    <circle cx="400" cy="500" r="8" fill="#FF0000"/>
+    <circle cx="450" cy="500" r="8" fill="#FF0000"/>
+    <circle cx="50" cy="550" r="8" fill="#FF0000"/>
+    <circle cx="450" cy="550" r="8" fill="#FF0000"/>
+  </g>
+  
+  <!-- Title text in pop art style -->
+  <text x="250" y="560" text-anchor="middle" font-family="Arial Black, sans-serif" 
+        font-size="28" fill="#FF1493" stroke="#1a1a1a" stroke-width="1.5">
+    ANDY WARHOL
+  </text>
+  <text x="250" y="590" text-anchor="middle" font-family="Arial Black, sans-serif" 
+        font-size="18" fill="#FF4500" stroke="#1a1a1a" stroke-width="1">
+    "HAMBURGER IS AMERICA"
+  </text>
+</svg>

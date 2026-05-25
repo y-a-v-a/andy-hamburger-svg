@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFD700"/>
+  
+  <!-- Warhol's Face -->
+  <g transform="translate(100, 50)">
+    <!-- Face outline -->
+    <ellipse cx="100" cy="120" rx="80" ry="100" fill="#F5DEB3" stroke="#000" stroke-width="2"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="70" cy="90" rx="15" ry="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+    <ellipse cx="130" cy="90" rx="15" ry="20" fill="#FFF" stroke="#000" stroke-width="2"/>
+    <circle cx="70" cy="95" r="8" fill="#000"/>
+    <circle cx="130" cy="95" r="8" fill="#000"/>
+    
+    <!-- Nose -->
+    <path d="M100 110 Q90 130 100 140 Q110 130 100 110" fill="none" stroke="#000" stroke-width="2"/>
+    
+    <!-- Mouth -->
+    <path d="M70 160 Q100 180 130 160" fill="none" stroke="#000" stroke-width="3"/>
+    
+    <!-- Hair -->
+    <path d="M20 80 Q100 20 180 80" fill="#8B4513" stroke="#000" stroke-width="2"/>
+    <path d="M30 100 Q100 40 170 100" fill="#8B4513" stroke="#000" stroke-width="2"/>
+  </g>
+  
+  <!-- Hamburger -->
+  <g transform="translate(120, 280)">
+    <!-- Top bun -->
+    <ellipse cx="80" cy="20" rx="70" ry="25" fill="#D2691E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="80" cy="15" rx="60" ry="15" fill="#F4A460"/>
+    
+    <!-- Lettuce -->
+    <path d="M10 30 Q80 50 150 30 Q80 40 10 30" fill="#32CD32" stroke="#000" stroke-width="1"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="80" cy="45" rx="50" ry="10" fill="#FF6347" stroke="#000" stroke-width="1"/>
+    
+    <!-- Cheese -->
+    <rect x="20" y="55" width="120" height="15" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    
+    <!-- Patty -->
+    <ellipse cx="80" cy="75" rx="60" ry="15" fill="#8B4513" stroke="#000" stroke-width="2"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="80" cy="90" rx="70" ry="20" fill="#D2691E" stroke="#000" stroke-width="2"/>
+    <ellipse cx="80" cy="95" rx="60" ry="10" fill="#F4A460"/>
+  </g>
+  
+  <!-- Hand holding burger -->
+  <g transform="translate(50, 300)">
+    <ellipse cx="60" cy="60" rx="40" ry="50" fill="#F5DEB3" stroke="#000" stroke-width="2"/>
+    <path d="M20 40 Q30 20 40 40" fill="#F5DEB3" stroke="#000" stroke-width="1"/>
+    <path d="M40 30 Q50 10 60 30" fill="#F5DEB3" stroke="#000" stroke-width="1"/>
+    <path d="M60 30 Q70 10 80 30" fill="#F5DEB3" stroke="#000" stroke-width="1"/>
+    <path d="M80 40 Q90 20 100 40" fill="#F5DEB3" stroke="#000" stroke-width="1"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="450" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000">ANDY WARHOL</text>
+  <text x="200" y="480" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#000">EATING A HAMBURGER</text>
+</svg>
