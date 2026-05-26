@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Background - Pop Art Style -->
+  <rect x="0" y="0" width="600" height="600" fill="#FFD700"/>
+  
+  <!-- Offset color background blocks for pop art effect -->
+  <rect x="0" y="0" width="300" height="300" fill="#FF6B6B" opacity="0.3"/>
+  <rect x="300" y="300" width="300" height="300" fill="#4ECDC4" opacity="0.3"/>
+  
+  <!-- Body -->
+  <rect x="200" y="300" width="200" height="250" rx="10" fill="#FFF"/>
+  <rect x="200" y="300" width="200" height="250" rx="10" fill="#E8D5B7" opacity="0.5"/>
+  
+  <!-- Jacket / Shirt - Warhol's signature look -->
+  <rect x="200" y="350" width="200" height="200" rx="5" fill="#2C2C2C"/>
+  <rect x="210" y="360" width="180" height="180" rx="3" fill="#333"/>
+  
+  <!-- Collar - turtleneck -->
+  <rect x="240" y="310" width="120" height="50" rx="25" fill="#1a1a1a"/>
+  
+  <!-- Head -->
+  <ellipse cx="300" cy="250" rx="100" ry="110" fill="#FDBCB4"/>
+  
+  <!-- Hair - Warhol's iconic silver/wig hair -->
+  <ellipse cx="300" cy="170" rx="110" ry="80" fill="#C0C0C0"/>
+  <ellipse cx="260" cy="160" rx="50" ry="60" fill="#D4D4D4"/>
+  <ellipse cx="340" cy="160" rx="50" ry="60" fill="#B8B8B8"/>
+  <ellipse cx="300" cy="155" rx="80" ry="55" fill="#E0E0E0"/>
+  <ellipse cx="230" cy="175" rx="35" ry="50" fill="#A8A8A8"/>
+  <ellipse cx="370" cy="175" rx="35" ry="50" fill="#B0B0B0"/>
+  
+  <!-- Messy hair strands -->
+  <ellipse cx="220" cy="195" rx="25" ry="40" fill="#C8C8C8" transform="rotate(-15,220,195)"/>
+  <ellipse cx="380" cy="190" rx="25" ry="40" fill="#C0C0C0" transform="rotate(15,380,190)"/>
+  
+  <!-- Face -->
+  <ellipse cx="300" cy="250" rx="85" ry="90" fill="#FDBCB4"/>
+  
+  <!-- Sunglasses - Warhol's signature dark glasses -->
+  <rect x="225" y="215" width="65" height="40" rx="10" fill="#1a1a1a"/>
+  <rect x="310" y="215" width="65" height="40" rx="10" fill="#1a1a1a"/>
+  <rect x="289" y="225" width="22" height="20" rx="5" fill="#1a1a1a"/>
+  
+  <!-- Sunglass reflection -->
+  <rect x="235" y="220" width="20" height="8" rx="4" fill="#444" opacity="0.5"/>
+  <rect x="320" y="220" width="20" height="8" rx="4" fill="#444" opacity="0.5"/>
+  
+  <!-- Nose -->
+  <ellipse cx="300" cy="270" rx="8" ry="5" fill="#E8A090"/>
+  
+  <!-- Mouth - slight smirk -->
+  <path d="M270 290 Q285 305 300 295 Q315 305 330 290" fill="none" stroke="#8B4513" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Chin -->
+  <ellipse cx="300" cy="320" rx="40" ry="15" fill="#FDBCB4"/>
+  
+  <!-- Right Arm - holding hamburger, raised to mouth -->
+  <path d="M400 370 Q450 340 430 290 Q420 260 390 280" fill="#FDBCB4" stroke="#E8A090" stroke-width="2"/>
+  <!-- Hand -->
+  <ellipse cx="390" cy="280" rx="20" ry="15" fill="#FDBCB4"/>
+  
+  <!-- Hamburger -->
+  <rect x="360" y="255" width="70" height="50" rx="8" fill="#D2691E"/>
+  <!-- Top bun -->
+  <ellipse cx="395" cy="255" rx="38" ry="15" fill="#F4A460"/>
+  <ellipse cx="395" cy="255" rx="38" ry="15" fill="#DEB887" opacity="0.5"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="380" cy="250" rx="3" ry="2" fill="#FFF8DC"/>
+  <ellipse cx="395" cy="247" rx="3" ry="2" fill="#FFF8DC"/>
+  <ellipse cx="408" cy="251" rx="3" ry="2" fill="#FFF8DC"/>
+  <!-- Patty -->
+  <rect x="365" y="275" width="60" height="12" rx="4" fill="#5C4033"/>
+  <!-- Lettuce -->
+  <path d="M365 270 Q380 265 395 270 Q410 265 425 270" fill="#228B22" stroke="#2E8B57" stroke-width="1"/>
+  <!-- Tomato slice -->
+  <rect x="370" y="287" width="50" height="5" rx="2" fill="#FF4500"/>
+  <!-- Bottom bun -->
+  <ellipse cx="395" cy="305" rx="35" ry="10" fill="#F4A460"/>
+  
+  <!-- Fingers on hamburger -->
+  <ellipse cx="380" cy="275" rx="5" ry="8" fill="#FDBCB4"/>
+  <ellipse cx="393" cy="273" rx="5" ry="8" fill="#FDBCB4"/>
+  <ellipse cx="406" cy="275" rx="5" ry="8" fill="#FDBCB4"/>
+  
+  <!-- Left Arm -->
+  <path d="M200 370 Q150 400 170 450" fill="none" stroke="#FDBCB4" stroke-width="25" stroke-linecap="round"/>
+  <ellipse cx="170" cy="455" rx="15" ry="12" fill="#FDBCB4"/>
+  
+  <!-- Pop art dots pattern - Warhol style -->
+  <circle cx="50" cy="50" r="5" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="70" cy="50" r="5" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="90" cy="50" r="5" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="50" cy="70" r="5" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="70" cy="70" r="5" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="90" cy="70" r="5" fill="#FF6B6B" opacity="0.6"/>
+  
+  <circle cx="510" cy="550" r="5" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="530" cy="550" r="5" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="550" cy="550" r="5" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="510" cy="530" r="5" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="530" cy="530" r="5" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="550" cy="530" r="5" fill="#4ECDC4" opacity="0.6"/>
+  
+  <!-- Pop art text bubble -->
+  <rect x="50" y="450" width="180" height="60" rx="15" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <text x="140" y="485" font-family="Arial Black, sans-serif" font-size="16" fill="#000" text-anchor="middle" font-weight="bold">POP!</text>
+  
+  <!-- Signature style offset effect -->
+  <rect x="198" y="298" width="204" height="254" rx="12" fill="none" stroke="#FF0066" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Floor shadow -->
+  <ellipse cx="300" cy="555" rx="150" ry="15" fill="#000" opacity="0.15"/>
+</svg>

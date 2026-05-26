@@ -21,6 +21,7 @@ if (!API_KEY) {
 }
 
 const LIMIT = Number(process.env.LIMIT ?? 5);
+const TIMEOUT_MS = Number(process.env.TIMEOUT ?? 180) * 1000;
 const FORCE = process.env.FORCE === "1";
 const ONLY = (process.env.ONLY ?? "")
   .split(",")
@@ -121,6 +122,7 @@ async function ask(modelId) {
       model: modelId,
       messages: [{ role: "user", content: PROMPT }],
     }),
+    signal: AbortSignal.timeout(TIMEOUT_MS),
   });
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {

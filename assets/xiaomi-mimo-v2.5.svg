@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#FFD700"/>
+  
+  <!-- Pop art halftone pattern -->
+  <defs>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="3" fill="#FFA500" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="600" fill="url(#dots)"/>
+  
+  <!-- Body / Black Turtleneck -->
+  <rect x="175" y="380" width="150" height="220" rx="10" fill="#1a1a1a"/>
+  <rect x="140" y="400" width="60" height="200" rx="10" fill="#1a1a1a" transform="rotate(-15, 170, 400)"/>
+  <rect x="300" y="400" width="60" height="200" rx="10" fill="#1a1a1a" transform="rotate(15, 330, 400)"/>
+  
+  <!-- Neck -->
+  <rect x="215" y="340" width="70" height="60" rx="10" fill="#F5DEB3"/>
+  
+  <!-- Head -->
+  <ellipse cx="250" cy="270" rx="90" ry="100" fill="#F5DEB3"/>
+  
+  <!-- Silver/White Wig - iconic Warhol hair -->
+  <ellipse cx="250" cy="210" rx="100" ry="70" fill="#E8E8E8"/>
+  <ellipse cx="250" cy="195" rx="95" ry="55" fill="#F0F0F0"/>
+  <!-- Wig texture lines -->
+  <path d="M170 200 Q200 180 250 185 Q300 180 330 200" stroke="#D0D0D0" stroke-width="3" fill="none"/>
+  <path d="M165 220 Q200 200 250 205 Q300 200 335 220" stroke="#D0D0D0" stroke-width="2" fill="none"/>
+  
+  <!-- Glasses - thick black frames -->
+  <rect x="195" y="255" width="50" height="40" rx="8" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  <rect x="255" y="255" width="50" height="40" rx="8" fill="none" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="245" y1="270" x2="255" y2="270" stroke="#1a1a1a" stroke-width="5"/>
+  <line x1="195" y1="270" x2="175" y2="260" stroke="#1a1a1a" stroke-width="4"/>
+  <line x1="305" y1="270" x2="325" y2="260" stroke="#1a1a1a" stroke-width="4"/>
+  
+  <!-- Eyes behind glasses -->
+  <ellipse cx="220" cy="275" rx="8" ry="6" fill="#4a3728"/>
+  <ellipse cx="280" cy="275" rx="8" ry="6" fill="#4a3728"/>
+  <circle cx="222" cy="273" r="2" fill="white"/>
+  <circle cx="282" cy="273" r="2" fill="white"/>
+  
+  <!-- Nose -->
+  <path d="M245 290 Q250 305 255 290" stroke="#D4A574" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth - slightly open, about to eat -->
+  <ellipse cx="250" cy="325" rx="20" ry="12" fill="#8B0000"/>
+  <ellipse cx="250" cy="320" rx="18" ry="6" fill="#F5DEB3"/>
+  
+  <!-- Left hand holding burger -->
+  <!-- Wrist -->
+  <rect x="80" y="340" width="40" height="80" rx="15" fill="#F5DEB3" transform="rotate(25, 100, 380)"/>
+  <!-- Fingers -->
+  <ellipse cx="100" cy="350" rx="12" ry="20" fill="#F5DEB3" transform="rotate(30, 100, 350)"/>
+  
+  <!-- Right hand -->
+  <rect x="380" y="340" width="40" height="80" rx="15" fill="#F5DEB3" transform="rotate(-25, 400, 380)"/>
+  <ellipse cx="400" cy="350" rx="12" ry="20" fill="#F5DEB3" transform="rotate(-30, 400, 350)"/>
+  
+  <!-- HAMBURGER -->
+  <!-- Bottom bun -->
+  <ellipse cx="250" cy="370" rx="55" ry="15" fill="#D2691E"/>
+  <path d="M195 370 Q195 385 250 385 Q305 385 305 370" fill="#C4820E"/>
+  
+  <!-- Lettuce -->
+  <path d="M190 360 Q210 350 230 365 Q250 350 270 365 Q290 350 310 360" fill="#228B22"/>
+  
+  <!-- Tomato -->
+  <rect x="195" y="345" width="110" height="15" rx="5" fill="#FF4500"/>
+  
+  <!-- Cheese -->
+  <path d="M190 340 L310 340 L315 350 L185 350 Z" fill="#FFD700"/>
+  <path d="M310 340 L320 350 L310 350 Z" fill="#FFD700"/>
+  
+  <!-- Patty -->
+  <ellipse cx="250" cy="335" rx="58" ry="12" fill="#8B4513"/>
+  <ellipse cx="250" cy="333" rx="55" ry="10" fill="#654321"/>
+  
+  <!-- Top bun -->
+  <path d="M195 330 Q195 290 250 285 Q305 290 305 330 Z" fill="#D2691E"/>
+  <path d="M200 325 Q200 295 250 290 Q300 295 300 325 Z" fill="#E8920D"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="225" cy="300" rx="4" ry="3" fill="#FFFACD" transform="rotate(-20, 225, 300)"/>
+  <ellipse cx="255" cy="295" rx="4" ry="3" fill="#FFFACD" transform="rotate(10, 255, 295)"/>
+  <ellipse cx="275" cy="305" rx="4" ry="3" fill="#FFFACD" transform="rotate(25, 275, 305)"/>
+  <ellipse cx="240" cy="310" rx="3" ry="2" fill="#FFFACD"/>
+  
+  <!-- Pop Art Text -->
+  <text x="250" y="540" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" fill="#1a1a1a">HAMBURGER</text>
+  <text x="250" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1a1a1a">15 minutes of fame</text>
+  
+  <!-- Decorative pop art stars -->
+  <text x="50" y="80" font-size="40" fill="#FF1493">★</text>
+  <text x="420" y="100" font-size="35" fill="#FF1493">★</text>
+  <text x="430" y="500" font-size="30" fill="#FF69B4">★</text>
+  <text x="60" y="520" font-size="25" fill="#FF69B4">★</text>
+</svg>

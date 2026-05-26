@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background with Warhol-style gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6ec7" />
+      <stop offset="100%" stop-color="#00b4f1" />
+    </linearGradient>
+    <filter id="outline">
+      <feStroke style="stroke: #000; stroke-width: 3" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)" />
+  
+  <!-- Andy Warhol figure -->
+  <g transform="translate(200, 250)">
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="50" fill="#f0c8a0" stroke="#000" stroke-width="2" />
+    
+    <!-- Hair (iconic white/bleach blonde) -->
+    <path d="M-40,-110 Q-20,-130 0,-120 Q20,-130 40,-110 Q30,-90 0,-95 Q-30,-90 -40,-110" 
+          fill="#f8f8f8" stroke="#000" stroke-width="1.5" />
+    
+    <!-- Glasses -->
+    <circle cx="-20" cy="-80" r="12" fill="none" stroke="#000" stroke-width="3" />
+    <circle cx="20" cy="-80" r="12" fill="none" stroke="#000" stroke-width="3" />
+    <line x1="-8" y1="-80" x2="8" y2="-80" stroke="#000" stroke-width="3" />
+    
+    <!-- Shirt/collar -->
+    <path d="M-60,0 Q0,20 60,0 L40,80 L-40,80 Z" fill="#e52521" stroke="#000" stroke-width="2" />
+    <polygon points="-20,0 20,0 0,20" fill="#fff" stroke="#000" stroke-width="1" />
+    
+    <!-- Hamburger -->
+    <g transform="translate(40, 20) rotate(15)">
+      <!-- Top bun -->
+      <ellipse cx="0" cy="-10" rx="25" ry="15" fill="#f4a460" stroke="#8b4513" stroke-width="2" />
+      <!-- Lettuce -->
+      <path d="M-25,-5 Q-15,-12 0,-8 Q15,-12 25,-5 L20,5 Q10,12 0,8 Q-10,12 -20,5 Z" 
+            fill="#32cd32" stroke="#228b22" stroke-width="1" />
+      <!-- Patty -->
+      <ellipse cx="0" cy="10" rx="22" ry="8" fill="#8b4513" stroke="#654321" stroke-width="2" />
+      <!-- Bottom bun -->
+      <ellipse cx="0" cy="20" rx="25" ry="12" fill="#f4a460" stroke="#8b4513" stroke-width="2" />
+      <!-- Sesame seeds -->
+      <circle cx="-10" cy="-12" r="2" fill="#fff" />
+      <circle cx="5" cy="-14" r="2" fill="#fff" />
+      <circle cx="15" cy="-11" r="2" fill="#fff" />
+    </g>
+    
+    <!-- Right arm holding burger -->
+    <path d="M30,30 Q60,30 70,20 Q80,10 75,0" fill="none" stroke="#f0c8a0" stroke-width="12" 
+          stroke-linecap="round" />
+    
+    <!-- Left arm -->
+    <path d="M-30,30 Q-60,40 -70,60" fill="none" stroke="#f0c8a0" stroke-width="12" 
+          stroke-linecap="round" />
+    
+    <!-- Mouth area (open as if eating) -->
+    <path d="M-15,-60 Q0,-50 15,-60 Q10,-45 0,-40 Q-10,-45 -15,-60" 
+          fill="#fff" stroke="#000" stroke-width="1.5" />
+  </g>
+  
+  <!-- Pop art dots background -->
+  <g opacity="0.2">
+    <circle cx="50" cy="50" r="3" fill="#fff" />
+    <circle cx="150" cy="80" r="4" fill="#fff" />
+    <circle cx="300" cy="120" r="3" fill="#fff" />
+    <circle cx="100" cy="200" r="4" fill="#fff" />
+    <circle cx="350" cy="300" r="3" fill="#fff" />
+    <circle cx="200" cy="400" r="4" fill="#fff" />
+  </g>
+  
+  <!-- Warhol-inspired text -->
+  <text x="200" y="480" text-anchor="middle" font-family="Arial Black, sans-serif" 
+        font-size="24" fill="#fff" stroke="#000" stroke-width="1">
+    ANDY EATS
+  </text>
+</svg>

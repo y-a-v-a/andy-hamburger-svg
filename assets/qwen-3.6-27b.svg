@@ -103,6 +103,6 @@
   </g>
 
   <!-- Hand Hint (Stylized) -->
-  <path d="M 380 380 C 360 360 340 365 325 375" fill="none" stroke="#FFDAB9" stroke-width="18" stroke-linecap="round" stroke="#000"/>
+  <path d="M 380 380 C 360 360 340 365 325 375" fill="none" stroke="#FFDAB9" stroke-width="18" stroke-linecap="round"/>
   <path d="M 380 380 C 360 360 340 365 325 375" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
 </svg>
