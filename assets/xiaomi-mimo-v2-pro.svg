@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background - pop art halftone style dots -->
+  <rect width="500" height="500" fill="#FF69B4"/>
+  <circle cx="20" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="60" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="100" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="140" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="180" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="220" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="260" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="300" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="340" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="380" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="420" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+  <circle cx="460" cy="20" r="8" fill="#FF1493" opacity="0.5"/>
+
+  <!-- More background dots -->
+  <circle cx="40" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="80" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="120" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="160" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="200" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="240" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="280" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="320" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="360" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="400" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="440" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+  <circle cx="480" cy="50" r="8" fill="#FF1493" opacity="0.4"/>
+
+  <!-- Body / Shirt -->
+  <path d="M 160 350 Q 160 280 250 270 Q 340 280 340 350 L 340 500 L 160 500 Z" fill="#4169E1" stroke="#000" stroke-width="3"/>
+
+  <!-- Collar -->
+  <path d="M 210 275 L 250 310 L 290 275" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M 205 278 L 210 275 L 250 305 Z" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <path d="M 295 278 L 290 275 L 250 305 Z" fill="#FFD700" stroke="#000" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="230" y="240" width="40" height="40" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- Hair - iconic messy silver/white hair -->
+  <ellipse cx="250" cy="140" rx="95" ry="75" fill="#C0C0C0" stroke="#000" stroke-width="3"/>
+  <ellipse cx="180" cy="130" rx="30" ry="50" fill="#C0C0C0" stroke="#000" stroke-width="2"/>
+  <ellipse cx="320" cy="130" rx="30" ry="50" fill="#C0C0C0" stroke="#000" stroke-width="2"/>
+  <ellipse cx="250" cy="95" rx="70" ry="30" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <ellipse cx="220" cy="85" rx="20" ry="15" fill="#D3D3D3" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="280" cy="85" rx="20" ry="15" fill="#D3D3D3" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="190" cy="100" rx="15" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="310" cy="100" rx="15" ry="20" fill="#D3D3D3" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Face -->
+  <ellipse cx="250" cy="185" rx="65" ry="70" fill="#FFDAB9" stroke="#000" stroke-width="3"/>
+
+  <!-- Eyes - wide open, pop art style -->
+  <ellipse cx="225" cy="170" rx="18" ry="14" fill="white" stroke="#000" stroke-width="2.5"/>
+  <ellipse cx="275" cy="170" rx="18" ry="14" fill="white" stroke="#000" stroke-width="2.5"/>
+  <circle cx="228" cy="170" r="7" fill="#4169E1"/>
+  <circle cx="278" cy="170" r="7" fill="#4169E1"/>
+  <circle cx="230" cy="168" r="3" fill="#000"/>
+  <circle cx="280" cy="168" r="3" fill="#000"/>
+  <circle cx="231" cy="166" r="1.5" fill="white"/>
+  <circle cx="281" cy="166" r="1.5" fill="white"/>
+
+  <!-- Eyebrows - thin, arched -->
+  <path d="M 205 152 Q 225 144 245 152" fill="none" stroke="#000" stroke-width="2.5"/>
+  <path d="M 255 152 Q 275 144 295 152" fill="none" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Nose -->
+  <path d="M 248 180 Q 240 200 235 208 Q 250 212 265 208 Q 260 200 252 180" fill="#F0C8A0" stroke="#000" stroke-width="2"/>
+
+  <!-- Mouth - open wide eating burger -->
+  <ellipse cx="250" cy="232" rx="30" ry="18" fill="#8B0000" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Teeth hint -->
+  <rect x="235" y="220" width="30" height="6" rx="2" fill="white" stroke="#000" stroke-width="1"/>
+
+  <!-- Tongue -->
+  <ellipse cx="250" cy="240" rx="12" ry="8" fill="#FF6B6B" stroke="#000" stroke-width="1"/>
+
+  <!-- HAMBURGER being eaten - held with both hands -->
+  <!-- Left hand -->
+  <path d="M 155 250 Q 140 230 150 210 Q 155 200 165 210 Q 170 220 160 240" fill="#FFDAB9" stroke="#000" stroke-width="2.5"/>
+  <path d="M 160 205 Q 155 195 162 192 Q 168 195 165 205" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+  <path d="M 165 208 Q 160 198 168 195 Q 174 198 170 208" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- Right hand -->
+  <path d="M 345 250 Q 360 230 350 210 Q 345 200 335 210 Q 330 220 340 240" fill="#FFDAB9" stroke="#000" stroke-width="2.5"/>
+  <path d="M 340 205 Q 345 195 338 192 Q 332 195 335 205" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+  <path d="M 335 208 Q 340 198 332 195 Q 326 198 330 208" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+
+  <!-- Burger - Top bun -->
+  <ellipse cx="250" cy="210" rx="75" ry="22" fill="#D2691E" stroke="#000" stroke-width="3"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="220" cy="204" rx="4" ry="2.5" fill="#FFFACD" stroke="#DAA520" stroke-width="0.5" transform="rotate(-20 220 204)"/>
+  <ellipse cx="260" cy="200" rx="4" ry="2.5" fill="#FFFACD" stroke="#DAA520" stroke-width="0.5" transform="rotate(15 260 200)"/>
+  <ellipse cx="290" cy="208" rx="4" ry="2.5" fill="#FFFACD" stroke="#DAA520" stroke-width="0.5" transform="rotate(-10 290 208)"/>
+  <ellipse cx="235" cy="198" rx="4" ry="2.5" fill="#FFFACD" stroke="#DAA520" stroke-width="0.5" transform="rotate(25 235 198)"/>
+
+  <!-- Lettuce -->
+  <path d="M 175 218 Q 185 210 195 218 Q 205 210 215 218 Q 225 210 235 218 Q 245 210 255 218 Q 265 210 275 218 Q 285 210 295 218 Q 305 210 315 218 Q 325 210 325 218 L 325 224 L 175 224 Z" fill="#32CD32" stroke="#000" stroke-width="2"/>
+
+  <!-- Tomato -->
+  <rect x="180" y="224" width="140" height="10" rx="3" fill="#FF0000" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Cheese - dripping -->
+  <path d="M 178 234 L 322 234 L 322 242 Q 310 250 300 242 Q 280 255 270 242 Q 250 252 240 242 Q 220 255 210 242 Q 190 250 178 242 Z" fill="#FFD700" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Patty -->
+  <rect x="182" y="242" width="136" height="14" rx="4" fill="#8B4513" stroke="#000" stroke-width="2"/>
+
+  <!-- Bottom bun -->
+  <ellipse cx="250" cy="260" rx="75" ry="14" fill="#D2691E" stroke="#000" stroke-width="3"/>
+  <rect x="175" y="252" width="150" height="8" fill="#D2691E" stroke="none"/>
+
+  <!-- Warhol's signature pop art style name/label -->
+  <rect x="15" y="430" width="160" height="50" fill="#FFFF00" stroke="#000" stroke-width="3"/>
+  <text x="95" y="462" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">ANDY</text>
+  <text x="95" y="448" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#FF0000" text-anchor="middle">★ POP ART ★</text>
+
+  <!-- Additional pop art star decorations -->
+  <polygon points="400,80 410,60 420,80 440,80 425,93 430,113 410,100 390,113 395,93 380,80" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <polygon points="440,350 447,335 454,350 470,350 458,360 462,375 447,365 432,375 436,360 424,350" fill="#00FF00" stroke="#000" stroke-width="1.5"/>
+  <polygon points="60,120 67,105 74,120 90,120 78,130 82,145 67,135 52,145 56,130 44,120" fill="#FF6347" stroke="#000" stroke-width="1.5"/>
+
+  <!-- Pop art dots on body -->
+  <circle cx="200" cy="350" r="12" fill="#FF1493" opacity="0.6"/>
+  <circle cx="300" cy="370" r="12" fill="#FF1493" opacity="0.6"/>
+  <circle cx="250" cy="400" r="12" fill="#FF1493" opacity="0.6"/>
+  <circle cx="180" cy="420" r="10" fill="#FF1493" opacity="0.5"/>
+  <circle cx="320" cy="420" r="10" fill="#FF1493" opacity="0.5"/>
+
+  <!-- Bold outline effect on face for pop art feel -->
+  <ellipse cx="250" cy="185" rx="68" ry="73" fill="none" stroke="#000" stroke-width="1" opacity="0.3"/>
+</svg>

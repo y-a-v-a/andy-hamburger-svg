@@ -1,0 +1,43 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Andy Warhol's Head -->
+  <circle cx="150" cy="120" r="40" fill="#FFDAB9"/>
+  <!-- Hair -->
+  <path d="M110 120 Q110 80 150 80 Q190 80 190 120" fill="#000000"/>
+  <!-- Eyes -->
+  <circle cx="135" cy="115" r="5" fill="#ffffff"/>
+  <circle cx="137" cy="115" r="2.5" fill="#000"/>
+  <circle cx="165" cy="115" r="5" fill="#ffffff"/>
+  <circle cx="167" cy="115" r="2.5" fill="#000"/>
+  <!-- Eyebrows -->
+  <path d="M128 105 Q135 100 142 105" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M158 105 Q165 100 172 105" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <path d="M150 125 L148 138 Q150 140 152 138" stroke="#000" stroke-width="2" fill="none"/>
+  <!-- Mouth (closed) -->
+  <path d="M140 150 Q150 158 160 150" stroke="#000" stroke-width="3" fill="none"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(220, 180) rotate(10)">
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="60" rx="50" ry="20" fill="#D2691E"/>
+    <!-- Meat patty -->
+    <ellipse cx="0" cy="30" rx="35" ry="15" fill="#8B0000"/>
+    <!-- Cheese -->
+    <ellipse cx="0" cy="20" rx="38" ry="12" fill="#FFD700"/>
+    <!-- Lettuce -->
+    <path d="M-35 15 Q0 5 35 15 Q30 25 0 30 Q-30 25 -35 15" fill="#32CD32"/>
+    <!-- Top bun -->
+    <ellipse cx="0" cy="-5" rx="45" ry="18" fill="#F5DEB3"/>
+    <!-- Sesame seeds -->
+    <circle cx="-15" cy="-10" r="2" fill="#000"/>
+    <circle cx="5" cy="-15" r="1.5" fill="#000"/>
+    <circle cx="18" cy="-8" r="2" fill="#000"/>
+  </g>
+
+  <!-- Warhol-style caption -->
+  <text x="20" y="380" font-family="Arial, sans-serif" font-size="24" fill="#000">Andy Warhol</text>
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="18" fill="#555">© Pop Art 1962</text>
+</svg>

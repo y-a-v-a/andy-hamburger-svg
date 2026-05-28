@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Pop-art background -->
+  <rect width="400" height="500" fill="#ff6ec7"/>
+  <circle cx="200" cy="200" r="180" fill="#ffe600" opacity="0.6"/>
+  
+  <!-- Warhol's signature white/silver hair -->
+  <ellipse cx="200" cy="130" rx="80" ry="70" fill="#f0f0f0"/>
+  <path d="M 130 130 Q 140 80 180 75 Q 220 70 260 90 Q 285 110 280 140 L 275 155 Q 260 110 220 105 Q 180 100 150 130 Z" fill="#e8e8e8"/>
+  <!-- Hair strands -->
+  <path d="M 140 110 L 135 90 M 160 95 L 158 75 M 180 88 L 182 70 M 210 88 L 215 72 M 240 95 L 248 78 M 260 110 L 270 95" stroke="#ffffff" stroke-width="2" fill="none"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="200" rx="65" ry="80" fill="#fce4c4"/>
+  
+  <!-- Iconic round glasses -->
+  <circle cx="175" cy="195" r="22" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="225" cy="195" r="22" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="197" y1="195" x2="203" y2="195" stroke="#000" stroke-width="3"/>
+  <circle cx="175" cy="195" r="20" fill="#a8d8ff" opacity="0.4"/>
+  <circle cx="225" cy="195" r="20" fill="#a8d8ff" opacity="0.4"/>
+  
+  <!-- Eyes behind glasses -->
+  <circle cx="175" cy="195" r="3" fill="#333"/>
+  <circle cx="225" cy="195" r="3" fill="#333"/>
+  
+  <!-- Nose -->
+  <path d="M 200 210 Q 195 230 200 245 Q 205 247 210 243" fill="none" stroke="#c89a7a" stroke-width="2"/>
+  
+  <!-- Mouth open eating burger -->
+  <ellipse cx="200" cy="265" rx="22" ry="12" fill="#5a1a1a"/>
+  <path d="M 185 262 Q 200 258 215 262" stroke="#fce4c4" stroke-width="2" fill="none"/>
+  
+  <!-- Neck -->
+  <rect x="180" y="275" width="40" height="30" fill="#fce4c4"/>
+  
+  <!-- Black turtleneck (Warhol style) -->
+  <path d="M 130 305 Q 200 295 270 305 L 285 380 L 115 380 Z" fill="#1a1a1a"/>
+  <ellipse cx="200" cy="305" rx="35" ry="12" fill="#1a1a1a"/>
+  
+  <!-- Hand holding burger -->
+  <ellipse cx="155" cy="290" rx="18" ry="22" fill="#fce4c4" transform="rotate(-20 155 290)"/>
+  <ellipse cx="245" cy="290" rx="18" ry="22" fill="#fce4c4" transform="rotate(20 245 290)"/>
+  
+  <!-- Hamburger -->
+  <!-- Top bun -->
+  <path d="M 145 250 Q 200 215 255 250 L 255 265 L 145 265 Z" fill="#e8a55c"/>
+  <ellipse cx="200" cy="248" rx="55" ry="18" fill="#f0b870"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="175" cy="240" rx="3" ry="2" fill="#fff5dc"/>
+  <ellipse cx="195" cy="235" rx="3" ry="2" fill="#fff5dc"/>
+  <ellipse cx="215" cy="238" rx="3" ry="2" fill="#fff5dc"/>
+  <ellipse cx="230" cy="245" rx="3" ry="2" fill="#fff5dc"/>
+  <ellipse cx="160" cy="248" rx="3" ry="2" fill="#fff5dc"/>
+  
+  <!-- Lettuce -->
+  <path d="M 140 265 Q 160 260 180 268 Q 200 260 220 268 Q 240 260 260 265 L 260 273 L 140 273 Z" fill="#7cb342"/>
+  
+  <!-- Cheese -->
+  <path d="M 140 273 L 260 273 L 263 282 Q 230 285 200 282 Q 170 285 137 282 Z" fill="#ffc107"/>
+  
+  <!-- Patty -->
+  <rect x="140" y="282" width="120" height="14" fill="#6b3410"/>
+  <ellipse cx="200" cy="282" rx="60" ry="4" fill="#8b4513"/>
+  
+  <!-- Bottom bun -->
+  <path d="M 145 296 Q 200 320 255 296 L 255 296 Z" fill="#e8a55c"/>
+  <ellipse cx="200" cy="298" rx="55" ry="10" fill="#d49a4f"/>
+  
+  <!-- Pop-art signature elements -->
+  <text x="20" y="40" font-family="Arial Black, sans-serif" font-size="24" fill="#000" font-weight="bold">POP!</text>
+  <text x="290" y="470" font-family="Arial Black, sans-serif" font-size="18" fill="#000" font-style="italic">- Andy</text>
+  
+  <!-- Decorative dots (Lichtenstein/Warhol style) -->
+  <circle cx="50" cy="100" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="70" cy="120" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="350" cy="100" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="330" cy="130" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="50" cy="400" r="4" fill="#000" opacity="0.3"/>
+  <circle cx="350" cy="400" r="4" fill="#000" opacity="0.3"/>
+</svg>

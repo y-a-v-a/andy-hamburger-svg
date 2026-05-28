@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Pop art background with quadrants -->
+  <rect x="0" y="0" width="200" height="200" fill="#ff6ec7"/>
+  <rect x="200" y="0" width="200" height="200" fill="#ffeb3b"/>
+  <rect x="0" y="200" width="200" height="200" fill="#00bcd4"/>
+  <rect x="200" y="200" width="200" height="200" fill="#ff5722"/>
+  
+  <!-- Decorative dots (pop art style) -->
+  <g fill="#fff" opacity="0.3">
+    <circle cx="40" cy="40" r="8"/>
+    <circle cx="80" cy="60" r="5"/>
+    <circle cx="340" cy="50" r="7"/>
+    <circle cx="370" cy="100" r="6"/>
+    <circle cx="50" cy="340" r="6"/>
+    <circle cx="350" cy="350" r="8"/>
+  </g>
+  
+  <!-- Neck -->
+  <rect x="175" y="270" width="50" height="40" fill="#f4c8a8"/>
+  
+  <!-- Shirt collar (black turtleneck - Warhol's signature) -->
+  <path d="M 130 310 L 270 310 L 290 400 L 110 400 Z" fill="#1a1a1a"/>
+  <ellipse cx="200" cy="310" rx="40" ry="10" fill="#2a2a2a"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="200" rx="70" ry="85" fill="#f4c8a8"/>
+  
+  <!-- Iconic white/silver hair (Warhol's wig) -->
+  <path d="M 130 175 Q 125 110 165 95 Q 180 70 220 80 Q 270 85 275 140 Q 278 170 270 185 Q 265 155 255 145 Q 240 160 220 155 Q 195 165 175 155 Q 155 150 145 165 Q 138 175 130 175 Z" 
+        fill="#e8e8e8"/>
+  <path d="M 130 175 Q 135 145 150 155 M 270 185 Q 268 160 258 165 M 145 165 Q 160 155 175 162" 
+        stroke="#c0c0c0" stroke-width="2" fill="none"/>
+  
+  <!-- Hair strands/texture -->
+  <path d="M 140 170 Q 145 185 142 200 M 260 175 Q 258 190 262 205" 
+        stroke="#d0d0d0" stroke-width="2" fill="none"/>
+  
+  <!-- Ears -->
+  <ellipse cx="132" cy="210" rx="8" ry="14" fill="#f4c8a8"/>
+  <ellipse cx="268" cy="210" rx="8" ry="14" fill="#f4c8a8"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 160 185 Q 175 180 190 184" stroke="#3a2a1a" stroke-width="2.5" fill="none"/>
+  <path d="M 210 184 Q 225 180 240 185" stroke="#3a2a1a" stroke-width="2.5" fill="none"/>
+  
+  <!-- Glasses (Warhol's iconic black frames) -->
+  <g stroke="#000" stroke-width="3" fill="none">
+    <rect x="150" y="195" width="40" height="30" rx="4"/>
+    <rect x="210" y="195" width="40" height="30" rx="4"/>
+    <line x1="190" y1="210" x2="210" y2="210"/>
+    <line x1="150" y1="208" x2="135" y2="205"/>
+    <line x1="250" y1="208" x2="265" y2="205"/>
+  </g>
+  <!-- Glasses lenses (slight tint) -->
+  <rect x="152" y="197" width="36" height="26" rx="3" fill="#a0c0d0" opacity="0.3"/>
+  <rect x="212" y="197" width="36" height="26" rx="3" fill="#a0c0d0" opacity="0.3"/>
+  
+  <!-- Eyes behind glasses -->
+  <circle cx="170" cy="210" r="3" fill="#2a3a4a"/>
+  <circle cx="230" cy="210" r="3" fill="#2a3a4a"/>
+  
+  <!-- Nose -->
+  <path d="M 200 220 Q 195 245 200 255 Q 205 258 210 252" stroke="#d4a888" stroke-width="2" fill="none"/>
+  
+  <!-- Mouth open, biting burger -->
+  <ellipse cx="200" cy="275" rx="22" ry="8" fill="#5a2020"/>
+  <!-- Teeth -->
+  <rect x="185" y="270" width="30" height="5" fill="#fff"/>
+  
+  <!-- HAMBURGER being eaten (positioned at mouth) -->
+  <!-- Top bun -->
+  <path d="M 155 258 Q 200 235 245 258 L 245 270 L 155 270 Z" fill="#d49a5c"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="170" cy="252" rx="2" ry="1.2" fill="#fff5dc" transform="rotate(-20 170 252)"/>
+  <ellipse cx="185" cy="246" rx="2" ry="1.2" fill="#fff5dc" transform="rotate(-10 185 246)"/>
+  <ellipse cx="200" cy="243" rx="2" ry="1.2" fill="#fff5dc"/>
+  <ellipse cx="215" cy="246" rx="2" ry="1.2" fill="#fff5dc" transform="rotate(10 215 246)"/>
+  <ellipse cx="230" cy="252" rx="2" ry="1.2" fill="#fff5dc" transform="rotate(20 230 252)"/>
+  
+  <!-- Lettuce -->
+  <path d="M 152 268 Q 160 275 168 268 Q 176 276 184 268 Q 192 276 200 268 Q 208 276 216 268 Q 224 276 232 268 Q 240 275 248 268 L 248 275 L 152 275 Z" fill="#7cb342"/>
+  
+  <!-- Cheese -->
+  <path d="M 150 274 L 250 274 L 252 282 Q 200 285 148 282 Z" fill="#ffc107"/>
+  
+  <!-- Patty -->
+  <path d="M 148 281 Q 200 278 252 281 L 254 292 Q 200 295 146 292 Z" fill="#6b3410"/>
+  
+  <!-- Bottom bun -->
+  <path d="M 146 291 Q 200 295 254 291 L 250 305 Q 200 310 150 305 Z" fill="#c88a4c"/>
+  
+  <!-- Hand holding burger -->
+  <ellipse cx="135" cy="295" rx="18" ry="12" fill="#f4c8a8" transform="rotate(-20 135 295)"/>
+  <ellipse cx="265" cy="295" rx="18" ry="12" fill="#f4c8a8" transform="rotate(20 265 295)"/>
+  <!-- Fingers -->
+  <path d="M 125 285 Q 130 278 138 282 M 130 278 Q 135 270 143 275 M 138 275 Q 145 268 150 275" 
+        stroke="#e0b090" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 275 285 Q 270 278 262 282 M 270 278 Q 265 270 257 275 M 262 275 Q 255 268 250 275" 
+        stroke="#e0b090" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Title -->
+  <text x="200" y="385" text-anchor="middle" font-family="Impact, sans-serif" font-size="16" fill="#fff" stroke="#000" stroke-width="0.5">WARHOL EATS</text>
+</svg>

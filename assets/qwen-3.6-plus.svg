@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f4f1ea"/>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="200" cy="490" rx="85" ry="12" fill="#000" opacity="0.08"/>
+  
+  <!-- Body: Black Turtleneck -->
+  <path d="M 140 270 Q 200 245 260 270 L 260 500 L 140 500 Z" fill="#1a1a1a"/>
+  <path d="M 172 265 Q 200 285 228 265 Q 200 255 172 265 Z" fill="#0d0d0d"/>
+  
+  <!-- Neck -->
+  <rect x="184" y="230" width="32" height="40" fill="#f2d5c2"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="190" rx="52" ry="62" fill="#f2d5c2"/>
+  
+  <!-- Wig Layers (Iconic Silver Shag) -->
+  <g fill="#b0b0b0">
+    <path d="M 138 185 Q 125 110 168 90 Q 192 80 215 92 Q 248 112 262 185 Q 275 160 248 135 Q 225 115 200 125 Q 175 115 155 138 Q 128 162 138 185 Z"/>
+    <path d="M 148 165 Q 132 125 165 105 Q 185 95 200 100 Q 215 95 235 105 Q 268 125 252 165 Q 240 155 215 145 Q 195 140 175 150 Q 160 160 148 165 Z"/>
+    <!-- Side strands -->
+    <path d="M 145 190 Q 128 175 140 155" fill="none" stroke="#9a9a9a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M 255 190 Q 272 175 260 155" fill="none" stroke="#9a9a9a" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Wire-Rimmed Glasses -->
+  <g stroke="#222" stroke-width="2.2" fill="none">
+    <circle cx="178" cy="195" r="21"/>
+    <circle cx="222" cy="195" r="21"/>
+    <path d="M 198 192 Q 200 189 202 192"/>
+    <line x1="157" y1="192" x2="138" y2="180"/>
+    <line x1="243" y1="192" x2="262" y2="180"/>
+  </g>
+  
+  <!-- Eyes -->
+  <circle cx="178" cy="195" r="3.5" fill="#111"/>
+  <circle cx="222" cy="195" r="3.5" fill="#111"/>
+  
+  <!-- Nose -->
+  <path d="M 200 210 Q 193 225 200 230 Q 207 225 200 210 Z" fill="#e5c2ae"/>
+  
+  <!-- Mouth (Slightly pursed, positioned near burger) -->
+  <path d="M 188 250 Q 200 258 212 250 Q 200 246 188 250 Z" fill="#b83a3a"/>
+  
+  <!-- Hamburger -->
+  <g id="burger">
+    <!-- Bottom Bun -->
+    <ellipse cx="200" cy="275" rx="40" ry="15" fill="#c98535"/>
+    <!-- Patty -->
+    <rect x="160" y="258" width="80" height="16" rx="8" fill="#4a2e1b"/>
+    <!-- Lettuce -->
+    <path d="M 156 252 Q 180 244 200 254 Q 220 244 244 252 Q 232 260 200 256 Q 168 260 156 252 Z" fill="#5c7a3a"/>
+    <!-- Cheese -->
+    <polygon points="163,252 200,246 237,252 225,263 175,263" fill="#e6b62a"/>
+    <!-- Top Bun -->
+    <path d="M 160 250 Q 172 218 200 212 Q 228 218 240 250 Z" fill="#c98535"/>
+    <!-- Sesame Seeds -->
+    <g fill="#f5e6c8">
+      <ellipse cx="184" cy="230" rx="3.5" ry="2" transform="rotate(12 184 230)"/>
+      <ellipse cx="208" cy="224" rx="3.5" ry="2" transform="rotate(-18 208 224)"/>
+      <ellipse cx="226" cy="233" rx="3.5" ry="2" transform="rotate(28 226 233)"/>
+      <ellipse cx="196" cy="241" rx="3.5" ry="2" transform="rotate(-8 196 241)"/>
+      <ellipse cx="216" cy="243" rx="3.5" ry="2" transform="rotate(35 216 243)"/>
+    </g>
+    <!-- Bite Mark (Left side cutout matching skin tone) -->
+    <path d="M 160 245 Q 175 255 166 272 Q 182 260 194 248 Q 182 238 160 245 Z" fill="#f2d5c2"/>
+  </g>
+  
+  <!-- Hands (Gripping burger from sides) -->
+  <g fill="#f2d5c2">
+    <!-- Left Hand -->
+    <path d="M 138 265 Q 155 235 175 248 Q 165 268 138 265 Z"/>
+    <!-- Right Hand -->
+    <path d="M 262 265 Q 245 235 225 248 Q 235 268 262 265 Z"/>
+    <!-- Thumbs (Over front of burger) -->
+    <path d="M 170 242 Q 182 230 188 245 Q 178 250 170 242 Z"/>
+    <path d="M 230 242 Q 218 230 212 245 Q 222 250 230 242 Z"/>
+  </g>
+  
+  <!-- Subtle Pop-Art Grid Overlay (Optional stylistic touch) -->
+  <g stroke="#000" stroke-width="0.5" opacity="0.04">
+    <line x1="0" y1="0" x2="400" y2="500"/>
+    <line x1="400" y1="0" x2="0" y2="500"/>
+    <line x1="100" y1="0" x2="100" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="300" y1="0" x2="300" y2="500"/>
+    <line x1="0" y1="125" x2="400" y2="125"/>
+    <line x1="0" y1="250" x2="400" y2="250"/>
+    <line x1="0" y1="375" x2="400" y2="375"/>
+  </g>
+</svg>

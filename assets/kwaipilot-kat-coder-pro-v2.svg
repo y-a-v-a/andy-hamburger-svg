@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFE4E1"/>
+  
+  <!-- Warhol's face (stylized) -->
+  <g id="warhol">
+    <!-- Hair (blonde wig) -->
+    <path d="M100,100 Q150,50 200,80 Q250,50 300,100 L300,180 Q250,150 200,160 Q150,150 100,180 Z" 
+          fill="#FFD700" stroke="#000" stroke-width="2"/>
+    
+    <!-- Face -->
+    <circle cx="200" cy="180" r="60" fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+    
+    <!-- Sunglasses -->
+    <rect x="150" y="160" width="100" height="30" rx="5" fill="#000"/>
+    <circle cx="175" cy="175" r="10" fill="#87CEEB"/>
+    <circle cx="225" cy="175" r="10" fill="#87CEEB"/>
+    
+    <!-- Mouth (eating) -->
+    <path d="M180,220 Q200,240 220,220" fill="none" stroke="#000" stroke-width="3"/>
+    <path d="M185,225 Q200,235 215,225" fill="#FF6347" stroke="#000" stroke-width="1"/>
+  </g>
+  
+  <!-- Hamburger -->
+  <g id="burger" transform="translate(140, 280)">
+    <!-- Bottom bun -->
+    <rect x="0" y="80" width="120" height="20" rx="10" fill="#DEB887" stroke="#000" stroke-width="2"/>
+    
+    <!-- Lettuce -->
+    <path d="M10,80 Q30,60 50,80 Q70,60 90,80 Q110,60 110,80" 
+          fill="#32CD32" stroke="#000" stroke-width="1"/>
+    
+    <!-- Cheese -->
+    <rect x="15" y="65" width="90" height="15" fill="#FFD700" stroke="#000" stroke-width="1"/>
+    
+    <!-- Patty -->
+    <rect x="20" y="45" width="80" height="20" rx="5" fill="#8B4513" stroke="#000" stroke-width="2"/>
+    
+    <!-- Top bun -->
+    <path d="M0,45 Q60,0 120,45" fill="#DEB887" stroke="#000" stroke-width="2"/>
+    
+    <!-- Sesame seeds -->
+    <circle cx="30" cy="30" r="2" fill="#FFF8DC"/>
+    <circle cx="60" cy="20" r="2" fill="#FFF8DC"/>
+    <circle cx="90" cy="30" r="2" fill="#FFF8DC"/>
+    <circle cx="45" cy="35" r="2" fill="#FFF8DC"/>
+    <circle cx="75" cy="35" r="2" fill="#FFF8DC"/>
+  </g>
+  
+  <!-- Warhol's hand holding burger -->
+  <g id="hand">
+    <path d="M160,260 Q140,280 160,300 L180,300 Q200,280 180,260 Z" 
+          fill="#FFDAB9" stroke="#000" stroke-width="2"/>
+    <circle cx="170" cy="270" r="5" fill="#000"/>
+  </g>
+  
+  <!-- Warhol's body -->
+  <rect x="120" y="320" width="160" height="180" rx="20" fill="#000080" stroke="#000" stroke-width="2"/>
+  
+  <!-- Collar -->
+  <path d="M160,320 L200,340 L240,320" fill="none" stroke="#FFF" stroke-width="3"/>
+  
+  <!-- Text label -->
+  <text x="200" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#000">
+    "I EAT THE SAME THING EVERY DAY"
+  </text>
+  
+  <!-- Warhol signature style dots -->
+  <g fill="#FF1493">
+    <circle cx="50" cy="50" r="3"/>
+    <circle cx="350" cy="50" r="3"/>
+    <circle cx="50" cy="450" r="3"/>
+    <circle cx="350" cy="450" r="3"/>
+    <circle cx="200" cy="30" r="3"/>
+    <circle cx="200" cy="470" r="3"/>
+  </g>
+</svg>

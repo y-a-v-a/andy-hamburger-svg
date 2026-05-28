@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <!-- Halftone pattern for screenprint vibe -->
+    <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="rgba(0,0,0,0.35)"/>
+      <circle cx="6" cy="6" r="1.2" fill="rgba(0,0,0,0.35)"/>
+    </pattern>
+
+    <!-- Pop-art shadows / grain -->
+    <filter id="screenprint" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix type="matrix" values="
+        1 0 0 0 0
+        0 1 0 0 0
+        0 0 1 0 0
+        0 0 0 .25 0" in="noise" result="noiseAlpha"/>
+      <feBlend mode="multiply" in="SourceGraphic" in2="noiseAlpha"/>
+    </filter>
+
+    <style>
+      .ink { stroke:#0b0b0b; stroke-width:4; stroke-linejoin:round; }
+      .label { font-family: Arial, Helvetica, sans-serif; font-weight: 900; letter-spacing: 2px; }
+    </style>
+  </defs>
+
+  <!-- Background: comic/pop grid -->
+  <rect width="800" height="600" fill="#F5F1FF"/>
+
+  <g opacity="0.9">
+    <rect x="40" y="40" width="720" height="520" fill="none" class="ink" />
+    <g transform="translate(60,60)">
+      <!-- Four-screenprint panels -->
+      <g>
+        <rect x="0" y="0" width="340" height="240" fill="#FF3EA5" opacity="0.95"/>
+        <rect x="0" y="0" width="340" height="240" fill="url(#halftone)" opacity="0.35"/>
+        <rect x="0" y="0" width="340" height="240" fill="none" class="ink"/>
+      </g>
+      <g transform="translate(360,0)">
+        <rect x="0" y="0" width="340" height="240" fill="#23D5FF" opacity="0.95"/>
+        <rect x="0" y="0" width="340" height="240" fill="url(#halftone)" opacity="0.35"/>
+        <rect x="0" y="0" width="340" height="240" fill="none" class="ink"/>
+      </g>
+      <g transform="translate(0,260)">
+        <rect x="0" y="0" width="340" height="240" fill="#FFE64A" opacity="0.95"/>
+        <rect x="0" y="0" width="340" height="240" fill="url(#halftone)" opacity="0.35"/>
+        <rect x="0" y="0" width="340" height="240" fill="none" class="ink"/>
+      </g>
+      <g transform="translate(360,260)">
+        <rect x="0" y="0" width="340" height="240" fill="#9B5CFF" opacity="0.95"/>
+        <rect x="0" y="0" width="340" height="240" fill="url(#halftone)" opacity="0.35"/>
+        <rect x="0" y="0" width="340" height="240" fill="none" class="ink"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Subject (generic person) repeated in panels -->
+  <g filter="url(#screenprint)" opacity="0.98">
+    <!-- Reusable group: torso + head + burger -->
+    <g id="person">
+      <!-- Neck / shoulders -->
+      <path d="M330 390
+               C340 350 360 330 400 325
+               C440 330 460 350 470 390
+               C480 430 455 470 400 475
+               C345 470 320 430 330 390 Z"
+            fill="#FFD1A8" class="ink"/>
+
+      <!-- Head -->
+      <path d="M400 140
+               C465 140 520 210 500 295
+               C485 360 450 395 400 395
+               C350 395 315 360 300 295
+               C280 210 335 140 400 140 Z"
+            fill="#FFD1A8" class="ink"/>
+
+      <!-- Hair -->
+      <path d="M295 215
+               C315 150 360 115 400 112
+               C455 108 505 150 520 210
+               C505 200 485 195 470 200
+               C452 170 420 160 400 160
+               C380 160 348 170 330 200
+               C315 195 305 200 295 215 Z"
+            fill="#1B1B1B" class="ink"/>
+
+      <!-- Eyes -->
+      <g>
+        <ellipse cx="350" cy="270" rx="18" ry="10" fill="#FFFFFF" class="ink"/>
+        <ellipse cx="450" cy="270" rx="18" ry="10" fill="#FFFFFF" class="ink"/>
+        <circle cx="355" cy="272" r="6" fill="#0B0B0B"/>
+        <circle cx="455" cy="272" r="6" fill="#0B0B0B"/>
+        <path d="M335 265 C350 255 365 255 380 265" fill="none" class="ink" opacity="0.5"/>
+        <path d="M435 265 C450 255 465 255 480 265" fill="none" class="ink" opacity="0.5"/>
+      </g>
+
+      <!-- Nose + mouth -->
+      <path d="M390 295
+               C380 315 380 330 395 338"
+            fill="none" class="ink"/>
+      <path d="M375 360
+               C385 380 415 380 425 360"
+            fill="none" class="ink"/>
+      <path d="M392 348
+               C408 352 417 352 435 340"
+            fill="none" class="ink" opacity="0.35"/>
+
+      <!-- Burger in front of mouth -->
+      <g transform="translate(0,0)">
+        <!-- Top bun -->
+        <path d="M290 365
+                 C310 330 350 315 400 315
+                 C450 315 490 330 510 365
+                 C495 385 465 395 400 395
+                 C335 395 305 385 290 365 Z"
+              fill="#FF8A3D" class="ink"/>
+        <!-- Cheese -->
+        <path d="M305 378
+                 C325 360 355 355 400 355
+                 C445 355 475 360 495 378
+                 C475 402 430 410 400 410
+                 C370 410 325 402 305 378 Z"
+              fill="#FFD64A" class="ink"/>
+        <!-- Patty -->
+        <path d="M315 410
+                 C340 390 365 385 400 385
+                 C435 385 460 390 485 410
+                 C470 430 440 445 400 445
+                 C360 445 330 430 315 410 Z"
+              fill="#3B1F12" class="ink"/>
+        <!-- Bottom bun -->
+        <path d="M295 435
+                 C320 470 355 485 400 485
+                 C445 485 480 470 505 435
+                 C485 450 450 460 400 460
+                 C350 460 315 450 295 435 Z"
+              fill="#FFB066" class="ink"/>
+
+        <!-- Lettuce -->
+        <path d="M320 396
+                 C340 385 360 380 400 380
+                 C440 380 460 385 480 396
+                 C450 405 425 410 400 410
+                 C375 410 350 405 320 396 Z"
+              fill="#2ECC71" class="ink"/>
+
+        <!-- Sesame seeds -->
+        <g fill="#FFFFFF" opacity="0.9" class="ink" stroke-width="2">
+          <circle cx="355" cy="352" r="3"/>
+          <circle cx="370" cy="360" r="3"/>
+          <circle cx="390" cy="349" r="3"/>
+          <circle cx="410" cy="355" r="3"/>
+          <circle cx="430" cy="348" r="3"/>
+          <circle cx="450" cy="358" r="3"/>
+          <circle cx="465" cy="352" r="3"/>
+        </g>
+      </g>
+
+      <!-- Forearm-ish hint -->
+      <path d="M480 420
+               C535 420 555 455 540 485
+               C520 525 475 510 460 470"
+            fill="#FFD1A8" class="ink" opacity="0.9"/>
+    </g>
+
+    <!-- Place the person into each panel with slight offsets and hue shifts -->
+    <g transform="translate(80,80)">
+      <use href="#person" transform="translate(0,0) scale(0.95)"/>
+      <text x="20" y="210" fill="#0b0b0b" class="label" font-size="18" opacity="0.85">POP</text>
+    </g>
+
+    <g transform="translate(440,80)">
+      <use href="#person" transform="translate(0,0) scale(0.95)"/>
+      <!-- overlay dots -->
+      <rect x="0" y="0" width="340" height="240" fill="url(#halftone)" opacity="0.25"/>
+      <text x="20" y="210" fill="#0b0b0b" class="label" font-size="18" opacity="0.85">ART</text>
+    </g>
+
+    <g transform="translate(80,340)">
+      <use href="#person" transform="translate(0,-10) scale(0.95)"/>
+      <text x="20" y="210" fill="#0b0b0b" class="label" font-size="18" opacity="0.85">BURGER</text>
+    </g>
+
+    <g transform="translate(440,340)">
+      <use href="#person" transform="translate(0,-10) scale(0.95)"/>
+      <text x="20" y="210" fill="#0b0b0b" class="label" font-size="18" opacity="0.85">TASTE</text>
+    </g>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="48" text-anchor="middle" fill="#0b0b0b" class="label" font-size="22">
+    POP-ART HAMBURGER MOMENT
+  </text>
+</svg>

@@ -22,6 +22,8 @@ if (!API_KEY) {
 
 const LIMIT = Number(process.env.LIMIT ?? 5);
 const TIMEOUT_MS = Number(process.env.TIMEOUT ?? 180) * 1000;
+const SLEEP_MS = Number(process.env.SLEEP ?? 2) * 1000;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const FORCE = process.env.FORCE === "1";
 const ONLY = (process.env.ONLY ?? "")
   .split(",")
@@ -41,6 +43,14 @@ const ALIASES = {
   "baidu/cobuddy:free": "baidu-cobuddy.svg-free.svg",
   "inclusionai/ring-2.6-1t": "inclusionai-ring-2.6-1t-free.svg",
 };
+
+// Models that consistently fail to produce a usable SVG. Add ids here to
+// permanently skip them. The SKIP env var (comma-separated) appends extras.
+const SKIP = new Set([
+  "openai/gpt-5.5-pro",
+  "deepseek/deepseek-v4-flash:free",
+  ...(process.env.SKIP ?? "").split(",").map((s) => s.trim()).filter(Boolean),
+]);
 
 const clean = (s) =>
   s.replace(/[:]/g, "-").replace(/[^a-z0-9.-]+/gi, "-").replace(/-+/g, "-").replace(/^-|-$/g, "").toLowerCase();
@@ -157,6 +167,10 @@ const DRY = process.env.DRY === "1";
   let saved = 0;
   for (const m of models) {
     if (done >= LIMIT) break;
+    if (SKIP.has(m.id)) {
+      console.log(`skip ${m.id} (skip-list)`);
+      continue;
+    }
     const hit = !FORCE && existingFor(m.id, existing);
     if (hit) {
       console.log(`skip ${m.id} (matches ${hit})`);
@@ -174,14 +188,15 @@ const DRY = process.env.DRY === "1";
       const svg = extractSvg(text);
       if (!svg) {
         console.log("no <svg> in response");
-        continue;
+      } else {
+        fs.writeFileSync(out, svg);
+        saved++;
+        console.log(`saved ${path.relative(ROOT, out)}`);
       }
-      fs.writeFileSync(out, svg);
-      saved++;
-      console.log(`saved ${path.relative(ROOT, out)}`);
     } catch (err) {
       console.log(`error: ${err.message}`);
     }
+    if (done < LIMIT) await sleep(SLEEP_MS);
   }
   console.log(`\nDone. ${saved} SVG(s) saved.`);
 })();

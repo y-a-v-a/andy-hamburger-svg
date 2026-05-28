@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#f0e0d0"/>
+  
+  <!-- Pop art style border -->
+  <rect x="10" y="10" width="480" height="580" fill="none" stroke="#e3242b" stroke-width="6"/>
+  
+  <!-- Body / Suit jacket -->
+  <path d="M150 600 L150 420 Q150 380 180 360 L200 350 L250 340 L300 350 L320 360 Q350 380 350 420 L350 600 Z" fill="#1a1a1a"/>
+  
+  <!-- Shirt collar -->
+  <path d="M210 355 L250 390 L290 355 L280 340 L250 345 L220 340 Z" fill="white"/>
+  
+  <!-- Tie -->
+  <path d="M245 365 L250 390 L255 365 L260 460 L250 470 L240 460 Z" fill="#2a2a2a"/>
+  
+  <!-- Neck -->
+  <rect x="230" y="300" width="40" height="55" rx="5" fill="#f5cba7"/>
+  
+  <!-- Head shape -->
+  <ellipse cx="250" cy="240" rx="75" ry="90" fill="#f5cba7"/>
+  
+  <!-- Andy's iconic wild silver/white hair -->
+  <path d="M175 240 Q170 150 195 120 Q210 95 230 100 Q240 80 260 85 Q280 75 300 95 Q320 100 325 130 Q340 150 335 200 Q340 180 330 160 Q335 140 320 115 Q325 90 295 80 Q275 65 255 75 Q235 70 215 85 Q195 85 185 110 Q165 140 170 200 Z" fill="#e8e8e8"/>
+  
+  <!-- More hair volume - sides -->
+  <path d="M170 200 Q160 170 170 150 Q165 190 175 220 Q172 240 175 250" fill="#dcdcdc" stroke="#d0d0d0" stroke-width="1"/>
+  <path d="M335 200 Q345 175 335 155 Q340 190 330 220 Q332 240 328 250" fill="#dcdcdc" stroke="#d0d0d0" stroke-width="1"/>
+  
+  <!-- Hair texture lines -->
+  <path d="M195 120 Q200 100 220 95" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  <path d="M210 110 Q225 90 245 88" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  <path d="M260 87 Q280 82 300 100" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  <path d="M305 105 Q320 115 322 135" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  <path d="M180 160 Q178 180 180 200" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  <path d="M325 160 Q330 180 325 200" fill="none" stroke="#ccc" stroke-width="1.5"/>
+  
+  <!-- Ears -->
+  <ellipse cx="175" cy="250" rx="12" ry="18" fill="#f0b890"/>
+  <ellipse cx="325" cy="250" rx="12" ry="18" fill="#f0b890"/>
+  
+  <!-- Eyebrows -->
+  <path d="M205 215 Q220 205 240 210" fill="none" stroke="#888" stroke-width="2.5"/>
+  <path d="M260 210 Q280 205 295 215" fill="none" stroke="#888" stroke-width="2.5"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="225" cy="230" rx="14" ry="9" fill="white"/>
+  <ellipse cx="275" cy="230" rx="14" ry="9" fill="white"/>
+  <circle cx="225" cy="231" r="5" fill="#5a4a3a"/>
+  <circle cx="275" cy="231" r="5" fill="#5a4a3a"/>
+  <circle cx="226" cy="229" r="2" fill="black"/>
+  <circle cx="276" cy="229" r="2" fill="black"/>
+  <!-- Glasses frames -->
+  <rect x="207" y="218" width="36" height="26" rx="5" fill="none" stroke="#333" stroke-width="2.5"/>
+  <rect x="257" y="218" width="36" height="26" rx="5" fill="none" stroke="#333" stroke-width="2.5"/>
+  <line x1="243" y1="230" x2="257" y2="230" stroke="#333" stroke-width="2"/>
+  <line x1="207" y1="230" x2="180" y2="235" stroke="#333" stroke-width="2"/>
+  <line x1="293" y1="230" x2="320" y2="235" stroke="#333" stroke-width="2"/>
+  
+  <!-- Nose -->
+  <path d="M248 240 Q243 260 240 270 Q245 275 255 275 Q260 270 255 260 Z" fill="#edbb99" stroke="#d4a574" stroke-width="0.5"/>
+  
+  <!-- Mouth open - eating -->
+  <ellipse cx="250" cy="298" rx="22" ry="14" fill="#8b0000"/>
+  <ellipse cx="250" cy="293" rx="20" ry="5" fill="#ffcccc"/>
+  <!-- Teeth -->
+  <rect x="235" y="288" width="30" height="6" rx="2" fill="white"/>
+  
+  <!-- Cheek lines / gaunt face -->
+  <path d="M200 260 Q195 280 200 300" fill="none" stroke="#e0a87a" stroke-width="1"/>
+  <path d="M300 260 Q305 280 300 300" fill="none" stroke="#e0a87a" stroke-width="1"/>
+  
+  <!-- Left arm holding hamburger -->
+  <path d="M180 420 Q140 400 120 370 Q110 350 115 330 L130 310 Q135 300 145 305 L160 315" fill="#1a1a1a" stroke="#111" stroke-width="1"/>
+  
+  <!-- Left hand -->
+  <path d="M115 330 Q105 320 100 310 Q95 305 100 300 Q108 295 112 305 L120 315" fill="#f5cba7"/>
+  <path d="M100 310 Q92 305 95 295 Q100 290 105 298" fill="#f5cba7"/>
+  
+  <!-- Right arm holding hamburger -->
+  <path d="M320 420 Q360 400 380 370 Q390 350 385 330 L370 310 Q365 300 355 305 L340 315" fill="#1a1a1a" stroke="#111" stroke-width="1"/>
+  
+  <!-- Right hand -->
+  <path d="M385 330 Q395 320 400 310 Q405 305 400 300 Q392 295 388 305 L380 315" fill="#f5cba7"/>
+  <path d="M400 310 Q408 305 405 295 Q400 290 395 298" fill="#f5cba7"/>
+  
+  <!-- HAMBURGER -->
+  <!-- Top bun -->
+  <path d="M80 290 Q80 255 150 245 Q200 238 250 235 Q300 238 350 245 Q420 255 420 290 Z" fill="#c8850e"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="180" cy="262" rx="5" ry="3" fill="#f5e6c8" transform="rotate(-15,180,262)"/>
+  <ellipse cx="250" cy="250" rx="5" ry="3" fill="#f5e6c8" transform="rotate(10,250,250)"/>
+  <ellipse cx="310" cy="258" rx="5" ry="3" fill="#f5e6c8" transform="rotate(20,310,258)"/>
+  <ellipse cx="220" cy="255" rx="4" ry="2.5" fill="#f5e6c8" transform="rotate(-5,220,255)"/>
+  <ellipse cx="350" cy="268" rx="5" ry="3" fill="#f5e6c8" transform="rotate(5,350,268)"/>
+  <ellipse cx="140" cy="270" rx="4" ry="2.5" fill="#f5e6c8"/>
+  <ellipse cx="280" cy="248" rx="4" ry="2.5" fill="#f5e6c8" transform="rotate(-10,280,248)"/>
+  
+  <!-- Lettuce -->
+  <path d="M75 293 Q100 285 130 290 Q160 280 190 292 Q220 283 250 290 Q280 282 310 292 Q340 284 370 290 Q400 283 425 293 Q420 300 400 298 Q370 305 340 298 Q310 306 280 298 Q250 306 220 298 Q190 305 160 298 Q130 304 100 298 Q80 302 75 293 Z" fill="#4a8c3f"/>
+  
+  <!-- Tomato -->
+  <rect x="85" y="297" width="330" height="12" rx="3" fill="#cc2222"/>
+  
+  <!-- Cheese (slightly melted, hanging over) -->
+  <path d="M80 309 L420 309 L425 315 Q400 318 380 322 Q360 318 340 322 Q320 318 300 316 L200 316 Q160 318 140 322 Q120 318 100 322 Q85 318 75 315 Z" fill="#ffd700"/>
+  
+  <!-- Patty -->
+  <rect x="85" y="316" width="330" height="20" rx="4" fill="#6b3210"/>
+  <path d="M90 320 Q150 318 250 319 Q350 318 410 320" fill="none" stroke="#5a280d" stroke-width="1"/>
+  
+  <!-- Bottom bun -->
+  <path d="M85 336 L415 336 Q420 340 420 350 Q420 360 400 362 Q350 365 250 365 Q150 365 100 362 Q80 360 80 350 Q80 340 85 336 Z" fill="#b87a0a"/>
+  
+  <!-- Ketchup drip -->
+  <path d="M350 309 Q355 315 352 325" fill="none" stroke="#cc2222" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="352" cy="328" r="3" fill="#cc2222"/>
+  
+  <!-- Pop Art text -->
+  <text x="250" y="50" text-anchor="middle" font-family="Impact, sans-serif" font-size="36" fill="#e3242b" stroke="#1a1a1a" stroke-width="1.5">
+    POP!
+  </text>
+  
+  <!-- Halftone dot pattern overlay for pop art effect -->
+  <g opacity="0.06">
+    <pattern id="dots" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.5" fill="black"/>
+    </pattern>
+    <rect x="10" y="10" width="480" height="580" fill="url(#dots)"/>
+  </g>
+  
+  <!-- Signature style text at bottom -->
+  <text x="250" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#333" font-style="italic">
+    "I just watch myself eat on television." — Andy Warhol
+  </text>
+</svg>

@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420">
+  <!-- Pop-art inspired bright background (Warhol loved vibrant, high-contrast colors) -->
+  <rect width="520" height="420" fill="#FF99BB" />
+
+  <!-- Body: black turtleneck/jacket (Warhol's signature look) - positioned left-center -->
+  <rect 
+    x="65" 
+    y="245" 
+    rx="35" 
+    ry="55" 
+    width="175" 
+    height="205" 
+    fill="#1C2526" 
+    stroke="#26334A" 
+    stroke-width="18" />
+
+  <!-- Turtleneck collar detail (black high neck) -->
+  <rect 
+    x="135" 
+    y="235" 
+    width="55" 
+    height="38" 
+    rx="18" 
+    fill="#111111" />
+
+  <!-- Neck (pale skin tone) -->
+  <rect 
+    x="157" 
+    y="225" 
+    width="42" 
+    height="32" 
+    rx="12" 
+    fill="#FCC8A8" />
+
+  <!-- Hair: iconic fluffy silver Warhol wig (drawn first so head overlaps bottom) -->
+  <!-- Main voluminous hair shape -->
+  <ellipse cx="200" cy="125" rx="112" ry="78" fill="#EBEBEB" />
+  
+  <!-- Extra hair volume on top and sides for the messy wig look -->
+  <ellipse cx="125" cy="108" rx="48" ry="62" fill="#EBEBEB" />
+  <ellipse cx="275" cy="115" rx="52" ry="58" fill="#EBEBEB" />
+  <ellipse cx="185" cy="73" rx="68" ry="41" fill="#EBEBEB" />
+  <ellipse cx="230" cy="68" rx="45" ry="38" fill="#EBEBEB" />
+
+  <!-- Head/face (pale skin, slightly elongated) - centered left of canvas -->
+  <ellipse 
+    cx="195" 
+    cy="175" 
+    rx="78" 
+    ry="92" 
+    fill="#FCC8A8" 
+    stroke="#26334A" 
+    stroke-width="10" />
+
+  <!-- Ears (simple) -->
+  <!-- Left ear (viewer's left = subject's right) -->
+  <ellipse cx="115" cy="175" rx="17" ry="29" fill="#FCC8A8" stroke="#26334A" stroke-width="8" />
+  <!-- Right ear -->
+  <ellipse cx="275" cy="175" rx="16" ry="27" fill="#FCC8A8" stroke="#26334A" stroke-width="8" />
+
+  <!-- Iconic sunglasses (thick black frames, dark lenses - his most recognizable feature) -->
+  <!-- Left lens (darker tint) -->
+  <rect 
+    x="130" 
+    y="145" 
+    width="55" 
+    height="26" 
+    rx="4" 
+    fill="#1C2C2F" 
+    stroke="#111111" 
+    stroke-width="7" />
+  
+  <!-- Right lens -->
+  <rect 
+    x="205" 
+    y="145" 
+    width="55" 
+    height="26" 
+    rx="4" 
+    fill="#1C2C2F" 
+    stroke="#111111" 
+    stroke-width="7" />
+
+  <!-- Glasses bridge and outer frame accents -->
+  <rect 
+    x="183" 
+    y="152" 
+    width="19" 
+    height="9" 
+    fill="#111111" />
+  
+  <!-- Sunglasses side arms (extending back) -->
+  <path d="M 125 153 L 95 145" fill="transparent" stroke="#111111" stroke-width="5" />
+  <path d="M 262 153 L 295 140" fill="transparent" stroke="#111111" stroke-width="5" />
+
+  <!-- Eyebrows (slightly raised, expressive - above the glasses) -->
+  <path d="M 135 125 Q 155 117 180 125" fill="transparent" stroke="#26334A" stroke-width="6.5" stroke-linecap="round" />
+  <path d="M 212 124 Q 235 115 265 127" fill="transparent" stroke="#26334A" stroke-width="6.5" stroke-linecap="round" />
+
+  <!-- Simple nose (subtle, Warhol-esque minimalism) -->
+  <path d="M 195 177 L 195 205" fill="transparent" stroke="#E9B38F" stroke-width="5" />
+
+  <!-- Mouth: slightly open, ready to take a bite (curved, expressive red) -->
+  <path d="M 145 222 Q 175 237 205 222" fill="#E36B5E" stroke="#26334A" stroke-width="4" />
+
+  <!-- Left arm (his left arm, viewer's right side of body) bringing the burger to his mouth -->
+  <!-- Jacket sleeve (black, curved from right shoulder area) -->
+  <path 
+    d="M 245 255 
+       Q 295 275 325 245" 
+    fill="none" 
+    stroke="#1C2526" 
+    stroke-width="48" 
+    stroke-linecap="round" />
+
+  <!-- Hand (skin tone, simplified, holding the burger) - positioned between face and burger -->
+  <ellipse 
+    cx="335" 
+    cy="235" 
+    rx="29" 
+    ry="24" 
+    transform="rotate(-40 340 245)" 
+    fill="#FCC8A8" 
+    stroke="#26334A" 
+    stroke-width="6" />
+
+  <!-- Fingers curled around burger (simple overlapping shapes) -->
+  <rect 
+    x="355" 
+    y="215" 
+    width="14" 
+    height="26" 
+    rx="7" 
+    transform="rotate(-35 355 235)" 
+    fill="#FCC8A8" />
+
+  <!-- Hamburger (juicy, layered, positioned to the right of his face/mouth so he's "eating" it) -->
+  <!-- Top bun (golden with sesame seeds, slightly bitten-into feel by proximity to mouth) -->
+  <path 
+    d="M 355 177 
+       C 355 155 385 145 425 157 
+       C 460 167 475 180 475 195 
+       L 365 197 Z" 
+    fill="#E9B76F" 
+    stroke="#26334A" 
+    stroke-width="10" />
+
+  <!-- Sesame seeds on top bun (scattered, classic burger look) -->
+  <ellipse cx="375" cy="163" rx="5" ry="3.5" fill="#FFF2C8" transform="rotate(-25 375 163)" />
+  <ellipse cx="395" cy="157" rx="4" ry="5" fill="#FFF2C8" transform="rotate(40 395 157)" />
+  <ellipse cx="415" cy="161" rx="6" ry="3" fill="#FFF2C8" />
+  <ellipse cx="445" cy="166" rx="4" ry="4" fill="#FFF2C8" transform="rotate(35 445 166)" />
+  <ellipse cx="460" cy="175" rx="5" ry="3" fill="#FFF2C8" />
+
+  <!-- Lettuce (wavy, bright green - popping out from under the bun) -->
+  <path 
+    d="M 357 195 
+       C 355 182 340 177 365 173 
+       C 375 165 395 180 415 172 
+       C 435 165 455 175 472 190 
+       C 480 200 465 205 455 205 
+       L 370 205 Z" 
+    fill="#3EB06A" 
+    stroke="#26334A" 
+    stroke-width="4" />
+
+  <!-- Cheese (melty orange-yellow slice hanging over the patty) -->
+  <path 
+    d="M 360 205 
+       L 365 217 
+       L 375 223 
+       L 435 222 
+       L 465 212 
+       L 475 205 
+       L 455 198 
+       L 375 200 Z" 
+    fill="#FFCB3D" 
+    stroke="#26334A" 
+    stroke-width="4" />
+
+  <!-- Tomato slice (red layer for extra pop and realism) -->
+  <ellipse 
+    cx="415" 
+    cy="223" 
+    rx="46" 
+    ry="9" 
+    fill="#EF4A3F" 
+    stroke="#26334A" 
+    stroke-width="4" />
+
+  <!-- Beef patty (thick, dark brown, grilled look) -->
+  <rect 
+    x="365" 
+    y="227" 
+    width="95" 
+    height="23" 
+    rx="11" 
+    fill="#4A2C1F" 
+    stroke="#26334A" 
+    stroke-width="7" />
+
+  <!-- Bottom bun (curved, toasted brown) -->
+  <path 
+    d="M 360 255 
+       C 365 272 375 280 410 283 
+       C 445 280 470 265 475 250 
+       L 465 242 
+       C 445 250 390 250 370 240 Z" 
+    fill="#E9B76F" 
+    stroke="#26334A" 
+    stroke-width="9" />
+
+  <!-- Warhol signature / pop art text (bottom right, in his bold stylized font vibe) -->
+  <text 
+    x="335" 
+    y="365" 
+    font-family="'Helvetica' 'Arial' sans-serif" 
+    font-size="21" 
+    font-style="italic" 
+    fill="#222222" 
+    letter-spacing="-1">A. Warhol</text>
+  
+  <text 
+    x="355" 
+    y="390" 
+    font-family="'Impact' 'Arial Black' sans-serif" 
+    font-size="15.5" 
+    fill="#222222" 
+    letter-spacing="3">POP</text>
+
+</svg>

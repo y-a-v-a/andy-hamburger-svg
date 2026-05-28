@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <defs>
+    <style>
+      .outline { stroke: #111; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .txt { font-family: Arial, Helvetica, sans-serif; font-weight: 700; }
+    </style>
+
+    <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffde59"/>
+      <stop offset="50%" stop-color="#ff5fa2"/>
+      <stop offset="100%" stop-color="#7c4dff"/>
+    </linearGradient>
+
+    <radialGradient id="faceGrad" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#ffd8c2"/>
+      <stop offset="100%" stop-color="#f2b08d"/>
+    </radialGradient>
+
+    <linearGradient id="burgerBun" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7c96a"/>
+      <stop offset="100%" stop-color="#d9952f"/>
+    </linearGradient>
+
+    <linearGradient id="shirtGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#00d1b2"/>
+      <stop offset="100%" stop-color="#0077ff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="900" fill="url(#bgGrad)"/>
+  <g opacity="0.25">
+    <circle cx="120" cy="120" r="70" fill="#fff"/>
+    <circle cx="780" cy="160" r="90" fill="#fff"/>
+    <circle cx="180" cy="760" r="110" fill="#fff"/>
+    <circle cx="760" cy="730" r="80" fill="#fff"/>
+  </g>
+
+  <!-- Pop-art halftone dots -->
+  <g fill="#111" opacity="0.18">
+    <circle cx="80" cy="300" r="6"/><circle cx="110" cy="330" r="6"/><circle cx="140" cy="300" r="6"/>
+    <circle cx="720" cy="280" r="6"/><circle cx="750" cy="310" r="6"/><circle cx="780" cy="280" r="6"/>
+    <circle cx="120" cy="620" r="6"/><circle cx="150" cy="650" r="6"/><circle cx="180" cy="620" r="6"/>
+  </g>
+
+  <!-- Andy's shoulders / shirt -->
+  <path d="M220 760 C250 640, 340 580, 450 580 C560 580, 650 640, 680 760
+           L680 900 L220 900 Z"
+        fill="url(#shirtGrad)" class="outline"/>
+
+  <!-- Neck -->
+  <rect x="408" y="455" width="84" height="110" rx="28" fill="url(#faceGrad)" class="outline"/>
+
+  <!-- Head -->
+  <ellipse cx="450" cy="330" rx="170" ry="210" fill="url(#faceGrad)" class="outline"/>
+
+  <!-- Hair (silver wig) -->
+  <path d="M290 300
+           C300 185, 370 120, 450 120
+           C535 120, 610 175, 620 295
+           C590 260, 560 255, 530 245
+           C500 235, 470 230, 450 230
+           C420 230, 388 235, 355 245
+           C325 255, 305 270, 290 300 Z"
+        fill="#d7d7d7" class="outline"/>
+  <path d="M315 285
+           C335 220, 385 180, 450 175
+           C520 180, 575 220, 595 285
+           C560 270, 535 265, 505 258
+           C480 252, 468 250, 450 250
+           C430 250, 410 252, 385 258
+           C355 265, 335 270, 315 285 Z"
+        fill="#f2f2f2" opacity="0.55"/>
+
+  <!-- Face details -->
+  <ellipse cx="395" cy="335" rx="18" ry="24" fill="#fff" class="outline"/>
+  <ellipse cx="505" cy="335" rx="18" ry="24" fill="#fff" class="outline"/>
+  <circle cx="401" cy="342" r="7" fill="#111"/>
+  <circle cx="511" cy="342" r="7" fill="#111"/>
+
+  <path d="M420 390 C438 402, 462 402, 480 390" fill="none" class="outline"/>
+  <path d="M442 355 C445 365, 445 370, 440 376" fill="none" class="outline" opacity="0.8"/>
+  <path d="M458 355 C455 365, 455 370, 460 376" fill="none" class="outline" opacity="0.8"/>
+
+  <!-- Mouth / bite -->
+  <path d="M395 445 C425 480, 475 480, 505 445
+           C485 430, 475 425, 450 425
+           C425 425, 415 430, 395 445 Z"
+        fill="#9a3c2f" class="outline"/>
+  <path d="M410 442 C435 458, 465 458, 490 442" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Arm and hand holding burger -->
+  <path d="M590 610
+           C650 585, 690 540, 705 495
+           C715 466, 714 440, 700 418"
+        fill="none" class="outline"/>
+  <path d="M689 420
+           C661 440, 645 470, 634 507
+           C624 540, 622 572, 628 604"
+        fill="none" class="outline" opacity="0.0"/>
+
+  <!-- Forearm -->
+  <path d="M595 612
+           C640 590, 680 553, 697 514
+           C707 491, 710 466, 705 438"
+        fill="none" class="outline"/>
+
+  <!-- Sleeve -->
+  <path d="M560 610 C590 640, 625 653, 665 650
+           L645 700 C605 705, 562 685, 530 650 Z"
+        fill="#00c2ff" class="outline"/>
+
+  <!-- Hand -->
+  <path d="M688 423
+           C713 420, 735 432, 742 454
+           C748 475, 742 494, 724 507
+           C709 519, 688 517, 673 507
+           C660 498, 653 484, 654 468
+           C655 446, 667 428, 688 423 Z"
+        fill="url(#faceGrad)" class="outline"/>
+  <path d="M675 451 C690 458, 707 459, 723 454" fill="none" class="outline" opacity="0.7"/>
+  <path d="M677 473 C694 480, 709 480, 725 474" fill="none" class="outline" opacity="0.7"/>
+
+  <!-- Burger -->
+  <g transform="translate(675 415) rotate(-8)">
+    <!-- bottom bun -->
+    <path d="M-140 85 C-120 50, -40 35, 30 35 C100 35, 170 50, 190 85
+             C160 110, 120 120, 30 120 C-60 120, -100 110, -140 85 Z"
+          fill="url(#burgerBun)" class="outline"/>
+    <!-- patty -->
+    <rect x="-115" y="65" width="260" height="35" rx="16" fill="#6b3e24" class="outline"/>
+    <!-- cheese -->
+    <path d="M-80 60 L-10 60 L20 88 L55 60 L110 60 L110 80 L40 80 L10 108 L-25 80 L-80 80 Z"
+          fill="#ffd400" class="outline"/>
+    <!-- lettuce -->
+    <path d="M-118 58 C-95 35, -60 40, -35 50
+             C-10 25, 20 30, 40 47
+             C65 30, 105 35, 125 55
+             C145 40, 175 45, 190 62
+             L190 70 C170 85, 145 82, 128 75
+             C105 95, 68 92, 50 78
+             C28 92, -10 92, -30 77
+             C-55 92, -92 92, -112 74 Z"
+          fill="#33cc66" class="outline"/>
+    <!-- top bun -->
+    <path d="M-130 45 C-105 -20, -40 -50, 30 -50
+             C100 -50, 165 -20, 190 45
+             C150 70, 115 80, 30 80
+             C-55 80, -95 70, -130 45 Z"
+          fill="url(#burgerBun)" class="outline"/>
+    <!-- sesame seeds -->
+    <g fill="#fff3c9" opacity="0.95">
+      <ellipse cx="-60" cy="-10" rx="10" ry="4" transform="rotate(-18 -60 -10)"/>
+      <ellipse cx="-20" cy="-28" rx="10" ry="4" transform="rotate(12 -20 -28)"/>
+      <ellipse cx="20" cy="-18" rx="10" ry="4" transform="rotate(-8 20 -18)"/>
+      <ellipse cx="60" cy="-30" rx="10" ry="4" transform="rotate(20 60 -30)"/>
+      <ellipse cx="98" cy="-12" rx="10" ry="4" transform="rotate(-15 98 -12)"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <text x="450" y="860" font-size="54" text-anchor="middle" fill="#111" class="txt"
+        stroke="#fff" stroke-width="3" paint-order="stroke">
+    ANDY WARHOL
+  </text>
+
+  <text x="450" y="805" font-size="28" text-anchor="middle" fill="#111" class="txt"
+        opacity="0.9">
+    POP ART BURGER
+  </text>
+</svg>
