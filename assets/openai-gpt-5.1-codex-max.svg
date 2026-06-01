@@ -1,0 +1,97 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffedc3" />
+      <stop offset="100%" stop-color="#f8d07a" />
+    </linearGradient>
+    <linearGradient id="hairHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8ad4ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffc3ff" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#background)" />
+
+  <!-- Text Title -->
+  <text x="50%" y="40" text-anchor="middle" style="font-family: sans-serif; font-size: 20px; fill: #5e5e5e;">
+    Andy Warhol eating a hamburger
+  </text>
+
+  <!-- Head Outline -->
+  <ellipse cx="250" cy="230" rx="90" ry="110" fill="#f6d9c7" stroke="#cfa890" stroke-width="2"/>
+
+  <!-- Hair (Warhol style, pastel colors) -->
+  <g id="hair">
+    <path d="M165 160 Q180 70 220 90 Q260 110 310 80 Q350 60 360 110
+             Q370 150 320 150 Q290 155 270 150 Q240 145 220 140 Q180 130 165 160 Z"
+          fill="url(#hairHighlight)" stroke="#ed9bf5" stroke-width="2"/>
+    <path d="M170 170 Q190 150 210 155 Q230 160 250 158 Q280 155 310 170 Q330 180 340 190
+             Q330 140 280 140 Q240 135 200 145 Q180 150 170 170 Z"
+          fill="#fff4ff" stroke="#e8cfff" stroke-width="2"/>
+  </g>
+
+  <!-- Glasses -->
+  <g id="glasses">
+    <rect x="190" y="200" width="45" height="25" rx="4" ry="4" fill="#1c1c1c"/>
+    <rect x="265" y="200" width="45" height="25" rx="4" ry="4" fill="#1c1c1c"/>
+    <line x1="235" y1="212" x2="265" y2="212" stroke="#1c1c1c" stroke-width="4" />
+    <line x1="185" y1="212" x2="190" y2="212" stroke="#1c1c1c" stroke-width="4" />
+    <line x1="310" y1="212" x2="315" y2="212" stroke="#1c1c1c" stroke-width="4" />
+  </g>
+
+  <!-- Nose -->
+  <path d="M240 205 Q250 215 250 230 Q245 235 235 230" fill="none" stroke="#cfa890" stroke-width="2"/>
+
+  <!-- Mouth -->
+  <path d="M218 260 Q240 280 262 260" fill="#e9959e" stroke="#d26574" stroke-width="2" />
+
+  <!-- Hamburger -->
+  <!-- Bun top -->
+  <ellipse cx="320" cy="280" rx="45" ry="20" fill="#f3c676" stroke="#e3a841" stroke-width="2"/>
+  <!-- Lettuce -->
+  <path d="M280 287 Q300 297 320 290 Q340 300 360 287
+           Q360 295 340 303 Q320 295 300 303 Q280 295 280 287 Z"
+        fill="#7bcf71" stroke="#4da24e" stroke-width="2"/>
+  <!-- Patty -->
+  <rect x="280" y="292" width="80" height="18" rx="4" ry="4" fill="#7b4c29" stroke="#623b1f" stroke-width="2"/>
+  <!-- Bun bottom -->
+  <ellipse cx="320" cy="310" rx="45" ry="16" fill="#f3c676" stroke="#e3a841" stroke-width="2"/>
+
+  <!-- Hands holding burger -->
+  <ellipse cx="340" cy="310" rx="12" ry="8" fill="#f6d9c7" stroke="#cfa890" stroke-width="2"/>
+  <ellipse cx="300" cy="310" rx="12" ry="8" fill="#f6d9c7" stroke="#cfa890" stroke-width="2"/>
+
+  <!-- Shoulders and Shirt -->
+  <path d="M160 300 Q180 260 220 270 Q250 280 280 270 Q320 260 340 300
+           L340 370 L160 370 Z"
+        fill="#3f80c4" stroke="#2c65a0" stroke-width="3" />
+  <!-- Shirt collar -->
+  <path d="M220 270 L250 310 L280 270" fill="#eff4fa" stroke="#d5dde7" stroke-width="2" />
+  <rect x="237" y="290" width="26" height="80" fill="#eff4fa" stroke="#d5dde7" stroke-width="2" />
+
+  <!-- Tie -->
+  <path d="M245 310 L255 310 L248 360 L252 360 Z"
+        fill="#e46d6d" stroke="#b54d4d" stroke-width="2" />
+
+  <!-- Arms -->
+  <path d="M160 310 Q170 330 170 360 Q170 380 200 370 Q225 360 240 340
+           Q245 330 250 320 Q255 305 260 290 Q240 300 225 295 Q200 290 160 310 Z"
+        fill="#f6d9c7" stroke="#cfa890" stroke-width="2" />
+  <path d="M340 310 Q330 330 330 360 Q330 380 300 370 Q275 360 260 340
+           Q255 330 250 320 Q245 305 240 290 Q260 300 275 295 Q300 290 340 310 Z"
+        fill="#f6d9c7" stroke="#cfa890" stroke-width="2" />
+
+  <!-- Simple shading on cheeks -->
+  <circle cx="205" cy="230" r="10" fill="#f2b5af" opacity="0.5"/>
+  <circle cx="295" cy="230" r="10" fill="#f2b5af" opacity="0.5"/>
+
+  <!-- Minimal signature on bottom-right -->
+  <text x="98%" y="98%" text-anchor="end" style="font-family: cursive; font-size: 14px; fill: #666;">
+    AW
+  </text>
+
+</svg>

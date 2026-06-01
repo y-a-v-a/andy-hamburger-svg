@@ -1,0 +1,63 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (Pop Art style colors) -->
+  <rect width="600" height="600" fill="#f7d046"/>
+  <circle cx="300" cy="300" r="250" fill="#ff4fa3" opacity="0.15"/>
+
+  <!-- Hair (iconic white wig style) -->
+  <path d="M180 180 
+           Q220 80 300 110 
+           Q380 70 420 180 
+           Q400 150 350 170 
+           Q300 150 250 170 
+           Q200 150 180 180 Z"
+        fill="#f2f2f2" stroke="#000" stroke-width="3"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="260" rx="120" ry="140" fill="#ffd1dc" stroke="#000" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <ellipse cx="260" cy="250" rx="15" ry="10" fill="#fff" stroke="#000" stroke-width="2"/>
+  <ellipse cx="340" cy="250" rx="15" ry="10" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="260" cy="250" r="5" fill="#000"/>
+  <circle cx="340" cy="250" r="5" fill="#000"/>
+
+  <!-- Nose -->
+  <line x1="300" y1="260" x2="290" y2="300" stroke="#000" stroke-width="2"/>
+
+  <!-- Mouth (partially open, biting burger) -->
+  <path d="M250 320 Q300 350 350 320" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Neck -->
+  <rect x="270" y="380" width="60" height="60" fill="#ffd1dc" stroke="#000" stroke-width="3"/>
+
+  <!-- Shirt -->
+  <rect x="200" y="440" width="200" height="120" fill="#00c2ff"/>
+  <text x="300" y="510" text-anchor="middle" font-size="28" font-family="Arial" fill="#000">
+    POP
+  </text>
+
+  <!-- Hamburger -->
+  <g transform="translate(230,310)">
+    <!-- Bottom Bun -->
+    <ellipse cx="70" cy="60" rx="80" ry="25" fill="#d99a2b" stroke="#000" stroke-width="2"/>
+    <!-- Patty -->
+    <rect x="-10" y="40" width="160" height="20" fill="#5a2c0b"/>
+    <!-- Lettuce -->
+    <rect x="-10" y="35" width="160" height="10" fill="#3cb043"/>
+    <!-- Top Bun -->
+    <ellipse cx="70" cy="35" rx="80" ry="30" fill="#e3ad3d" stroke="#000" stroke-width="2"/>
+    <!-- Sesame Seeds -->
+    <circle cx="40" cy="25" r="3" fill="#fff"/>
+    <circle cx="80" cy="20" r="3" fill="#fff"/>
+    <circle cx="100" cy="28" r="3" fill="#fff"/>
+  </g>
+
+  <!-- Hand holding burger -->
+  <path d="M220 360 
+           Q210 340 230 330 
+           Q260 320 270 340 
+           Q250 350 240 370 Z"
+        fill="#ffd1dc" stroke="#000" stroke-width="2"/>
+
+</svg>

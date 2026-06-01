@@ -1,0 +1,61 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="#FFECED"/>
+  
+  <!-- Andy Warhol's head -->
+  <ellipse cx="200" cy="160" rx="80" ry="100" fill="#F8F0E3"/>
+  
+  <!-- Silver wig -->
+  <ellipse cx="200" cy="100" rx="85" ry="60" fill="#E0E0E0"/>
+  <ellipse cx="200" cy="90" rx="75" ry="50" fill="#F0F0F0"/>
+  
+  <!-- Sunglasses -->
+  <rect x="130" y="140" width="60" height="30" rx="5" fill="#111111"/>
+  <rect x="210" y="140" width="60" height="30" rx="5" fill="#111111"/>
+  <rect x="185" y="145" width="30" height="10" fill="#111111"/>
+  <!-- Sunglass highlights -->
+  <ellipse cx="150" cy="150" rx="10" ry="5" fill="#AAAAAA"/>
+  <ellipse cx="250" cy="150" rx="10" ry="5" fill="#AAAAAA"/>
+  
+  <!-- Nose -->
+  <path d="M 200 180 Q 210 190, 200 200" stroke="#E8D0B3" stroke-width="3" fill="none"/>
+  
+  <!-- Mouth (open) -->
+  <ellipse cx="200" cy="230" rx="25" ry="15" fill="#C44"/>
+  
+  <!-- Hand -->
+  <ellipse cx="270" cy="250" rx="30" ry="20" fill="#F8F0E3"/>
+  <ellipse cx="280" cy="250" rx="20" ry="15" fill="#F8F0E3"/>
+  
+  <!-- Hamburger -->
+  <!-- Bottom bun -->
+  <ellipse cx="230" cy="240" rx="40" ry="15" fill="#E8B040"/>
+  <!-- Patty -->
+  <ellipse cx="230" cy="225" rx="38" ry="12" fill="#8B4513"/>
+  <!-- Cheese -->
+  <rect x="192" y="215" width="76" height="8" fill="#FFD700"/>
+  <!-- Lettuce -->
+  <path d="M 192 210 Q 230 200, 268 210" stroke="#90EE90" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Tomato -->
+  <ellipse cx="230" cy="205" rx="35" ry="10" fill="#FF6347"/>
+  <!-- Top bun with sesame seeds -->
+  <ellipse cx="230" cy="190" rx="40" ry="15" fill="#F0C030"/>
+  <ellipse cx="210" cy="185" rx="4" ry="2" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="180" rx="4" ry="2" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="185" rx="4" ry="2" fill="#FFFFFF"/>
+  
+  <!-- Bite mark in burger -->
+  <path d="M 200 190 A 10 8 0 0 1 190 200" stroke="#F8F0E3" stroke-width="6" fill="none"/>
+  
+  <!-- Black turtleneck collar -->
+  <rect x="120" y="250" width="160" height="30" fill="#111111"/>
+  <ellipse cx="200" cy="250" rx="80" ry="20" fill="#111111"/>
+  
+  <!-- Warhol's signature -->
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#333">© ANDY WARHOL</text>
+  
+  <!-- Pop art color splashes -->
+  <circle cx="80" cy="80" r="30" fill="#FF69B4" opacity="0.6"/>
+  <circle cx="320" cy="100" r="40" fill="#00CED1" opacity="0.6"/>
+  <circle cx="100" cy="300" r="35" fill="#FFD700" opacity="0.6"/>
+</svg>

@@ -1,0 +1,78 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Background - Pop Art Cyan -->
+  <rect width="500" height="600" fill="#00FFFF" />
+  
+  <!-- Definition for bold outlines -->
+  <defs>
+    <style type="text/css"><![CDATA[
+      .outline { stroke: #000000; stroke-width: 4; fill: none; stroke-linejoin: round; }
+      .fill-skin { fill: #FFE0BD; }
+      .fill-hair { fill: #E0E0E0; }
+      .fill-glasses { fill: #111111; }
+      .fill-bun { fill: #E8A838; }
+      .fill-meat { fill: #5C3317; }
+      .fill-lettuce { fill: #4CAF50; }
+      .fill-cheese { fill: #FFD700; }
+      .fill-shirt { fill: #000000; }
+    ]]></style>
+  </defs>
+
+  <!-- Shirt/Shoulders -->
+  <path class="outline fill-shirt" d="M150,600 L150,450 Q250,480 350,450 L350,600 Z" />
+
+  <!-- Neck -->
+  <rect x="220" y="420" width="60" height="60" class="fill-skin outline" />
+
+  <!-- Face Shape -->
+  <ellipse cx="250" cy="300" rx="90" ry="110" class="fill-skin outline" />
+
+  <!-- Hair (The Iconic Wig) -->
+  <path class="outline fill-hair" d="M160,300 Q140,200 180,150 Q250,120 320,150 Q360,200 340,300 Q330,250 250,240 Q170,250 160,300 Z" />
+  <path class="outline fill-hair" d="M180,150 Q160,100 200,80 Q250,60 300,80 Q340,100 320,150" />
+  <path class="fill-hair" d="M200,80 Q250,90 300,80" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Sunglasses -->
+  <g transform="translate(0, 10)">
+    <rect x="190" y="290" width="50" height="35" rx="5" class="fill-glasses outline" />
+    <rect x="260" y="290" width="50" height="35" rx="5" class="fill-glasses outline" />
+    <line x1="240" y1="305" x2="260" y2="305" stroke="black" stroke-width="4" />
+  </g>
+
+  <!-- Nose -->
+  <path d="M250,330 L235,360 L265,360 Z" class="fill-skin outline" />
+
+  <!-- Mouth (Open for bite) -->
+  <ellipse cx="250" cy="390" rx="20" ry="15" fill="#5C1F1F" stroke="black" stroke-width="4" />
+
+  <!-- Hand Holding Burger -->
+  <path class="fill-skin outline" d="M320,450 Q300,480 310,500 L340,500 Q350,470 330,450 Z" />
+
+  <!-- The Hamburger -->
+  <g transform="translate(0, 20)">
+    <!-- Bottom Bun -->
+    <path class="outline fill-bun" d="M280,480 L320,480 L330,500 Q330,510 320,510 L280,510 Q270,510 270,500 Z" />
+    
+    <!-- Lettuce -->
+    <path class="outline fill-lettuce" d="M275,470 Q285,460 295,470 Q305,460 315,470 Q325,460 335,470 L335,480 L275,480 Z" />
+    
+    <!-- Patty -->
+    <rect x="280" y="455" width="50" height="15" rx="5" class="outline fill-meat" />
+    
+    <!-- Cheese -->
+    <path class="outline fill-cheese" d="M278,455 L332,455 L335,465 L325,465 L320,475 L310,465 L280,465 Z" />
+    
+    <!-- Top Bun -->
+    <path class="outline fill-bun" d="M280,440 L330,440 Q340,440 335,455 L275,455 Q270,440 280,440 Z" />
+    <!-- Sesame Seeds -->
+    <circle cx="290" cy="445" r="2" fill="white" />
+    <circle cx="310" cy="445" r="2" fill="white" />
+    <circle cx="325" cy="448" r="2" fill="white" />
+  </g>
+
+  <!-- Shadow/Depth Elements (Screen print style) -->
+  <path d="M160,300 L160,320 Q170,350 180,300" fill="#000000" opacity="0.1" />
+  <path d="M340,300 L340,320 Q330,350 320,300" fill="#000000" opacity="0.1" />
+  
+  <!-- Text Signature Style -->
+  <text x="250" y="580" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="black" font-style="italic">Pop Art Burger ©</text>
+</svg>

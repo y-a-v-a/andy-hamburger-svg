@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#26d7ff"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+
+    <style>
+      .outline{stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#111;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .skin{fill:#ffd2b0}
+      .shirt{fill:#111}
+      .white{fill:#fff}
+      .none{fill:none}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="900" height="600" fill="url(#bg)"/>
+
+  <!-- Pop-art frame -->
+  <rect x="35" y="35" width="830" height="530" fill="none" stroke="#111" stroke-width="8"/>
+  <rect x="55" y="55" width="790" height="490" fill="rgba(255,255,255,0.08)" stroke="#111" stroke-width="4"/>
+
+  <!-- Table -->
+  <g filter="url(#shadow)">
+    <path class="outline" fill="#ffe85a"
+          d="M120,470 C210,430 310,430 400,470
+             C510,520 650,520 780,470
+             L780,560 L120,560 Z"/>
+    <path class="thin" fill="none" d="M145,500 C270,470 330,470 455,500"/>
+    <path class="thin" fill="none" d="M495,505 C610,475 690,475 760,500"/>
+  </g>
+
+  <!-- Andy Warhol (stylized illustration) -->
+  <g transform="translate(120,80)" filter="url(#shadow)">
+    <!-- Body / jacket -->
+    <path class="outline shirt"
+          d="M210,420
+             C200,340 220,300 260,270
+             C295,245 345,245 380,270
+             C420,300 440,340 430,420
+             C390,440 250,440 210,420 Z"/>
+    <!-- Collar -->
+    <path class="outline white"
+          d="M285,300 L315,345 L265,350 Z"/>
+    <path class="outline white"
+          d="M355,300 L325,345 L375,350 Z"/>
+
+    <!-- Neck -->
+    <path class="outline skin" d="M295,300 C292,330 358,330 355,300 L355,270 L295,270 Z"/>
+
+    <!-- Head -->
+    <path class="outline skin"
+          d="M240,210
+             C240,145 275,110 325,110
+             C385,110 415,150 415,215
+             C415,275 380,310 325,310
+             C270,310 240,270 240,210 Z"/>
+
+    <!-- Hair (Warhol-like silver wig) -->
+    <path class="outline" fill="#d9d9df"
+          d="M240,205
+             C235,130 275,85 330,85
+             C395,85 435,130 425,205
+             C405,160 380,150 355,140
+             C325,125 295,130 270,150
+             C255,162 245,180 240,205 Z"/>
+    <path class="thin none" d="M270,150 C295,135 330,130 360,145"/>
+    <path class="thin none" d="M290,115 C315,100 355,100 380,120"/>
+    <path class="thin none" d="M405,170 C390,150 365,140 345,135"/>
+
+    <!-- Glasses -->
+    <rect x="268" y="185" width="95" height="58" rx="12" class="outline" fill="rgba(255,255,255,0.22)"/>
+    <rect x="365" y="185" width="95" height="58" rx="12" class="outline" fill="rgba(255,255,255,0.22)"/>
+    <path class="outline none" d="M363,212 L365,212"/>
+    <path class="outline none" d="M260,210 C240,210 230,220 225,230"/>
+    <path class="outline none" d="M470,210 C490,210 500,220 505,230"/>
+
+    <!-- Eyes -->
+    <path class="thin none" d="M295,220 C310,205 330,205 345,220"/>
+    <path class="thin none" d="M392,220 C407,205 427,205 442,220"/>
+    <circle cx="320" cy="222" r="4" fill="#111"/>
+    <circle cx="417" cy="222" r="4" fill="#111"/>
+
+    <!-- Nose -->
+    <path class="thin none" d="M355,230 C345,250 350,262 365,270"/>
+
+    <!-- Mouth (open, about to bite) -->
+    <path class="outline" fill="#b45a5a"
+          d="M310,285
+             C330,270 360,270 380,285
+             C370,305 320,305 310,285 Z"/>
+    <path class="thin none" d="M315,286 C335,294 355,294 375,286"/>
+
+    <!-- Hand holding burger -->
+    <g transform="translate(420,250)">
+      <!-- Forearm -->
+      <path class="outline skin"
+            d="M-60,110
+               C-35,85 -15,70 10,70
+               C35,70 55,90 50,120
+               C40,170 -30,165 -60,110 Z"/>
+      <!-- Thumb -->
+      <path class="outline skin"
+            d="M10,98
+               C25,88 40,90 45,105
+               C50,120 35,130 20,125 Z"/>
+
+      <!-- Burger -->
+      <g transform="translate(10,20)">
+        <!-- Top bun -->
+        <path class="outline" fill="#f3b66a"
+              d="M-85,85
+                 C-85,40 -35,15 20,15
+                 C75,15 125,40 125,85
+                 C80,100 -40,100 -85,85 Z"/>
+        <!-- Sesame seeds -->
+        <g fill="#fff" opacity="0.9">
+          <ellipse cx="-30" cy="45" rx="7" ry="4"/>
+          <ellipse cx="-5" cy="35" rx="7" ry="4"/>
+          <ellipse cx="20" cy="45" rx="7" ry="4"/>
+          <ellipse cx="45" cy="35" rx="7" ry="4"/>
+          <ellipse cx="70" cy="50" rx="7" ry="4"/>
+        </g>
+
+        <!-- Lettuce -->
+        <path class="outline" fill="#46d06a"
+              d="M-80,95
+                 C-60,110 -40,80 -20,100
+                 C0,120 20,85 40,100
+                 C60,115 85,85 115,98
+                 L115,115 L-80,115 Z"/>
+        <!-- Cheese -->
+        <path class="outline" fill="#ffdf3a"
+              d="M-70,115 L110,115 L85,135 L40,125 L10,140 L-15,125 L-45,140 Z"/>
+        <!-- Patty -->
+        <rect x="-70" y="135" width="180" height="28" rx="12" class="outline" fill="#7a3d2c"/>
+        <!-- Bottom bun -->
+        <path class="outline" fill="#eaa95b"
+              d="M-80,165
+                 C-70,205 105,205 115,165
+                 C75,150 -40,150 -80,165 Z"/>
+
+        <!-- Bite mark near Warhol's mouth -->
+        <path class="outline" fill="#f3b66a"
+              d="M-85,82
+                 C-75,65 -65,60 -55,70
+                 C-48,55 -35,55 -30,72
+                 C-18,60 -8,62 -5,78
+                 C-20,92 -55,95 -85,82 Z"/>
+      </g>
+
+      <!-- Fingers -->
+      <path class="outline skin"
+            d="M-70,120
+               C-85,115 -92,130 -85,145
+               C-78,160 -55,155 -55,138 Z"/>
+      <path class="outline skin"
+            d="M-45,135
+               C-60,130 -67,145 -60,160
+               C-53,175 -30,170 -30,153 Z"/>
+      <path class="outline skin"
+            d="M-20,140
+               C-35,135 -42,150 -35,165
+               C-28,180 -5,175 -5,158 Z"/>
+    </g>
+
+    <!-- Little "crumb" dots for style -->
+    <g fill="#111" opacity="0.35">
+      <circle cx="465" cy="300" r="3"/>
+      <circle cx="480" cy="315" r="2.5"/>
+      <circle cx="455" cy="320" r="2"/>
+    </g>
+  </g>
+
+  <!-- Caption -->
+  <g transform="translate(70,520)">
+    <rect x="0" y="0" width="760" height="55" fill="rgba(255,255,255,0.18)" stroke="#111" stroke-width="4"/>
+    <text x="20" y="36" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#111">
+      Andy Warhol (stylized) eating a hamburger
+    </text>
+  </g>
+</svg>

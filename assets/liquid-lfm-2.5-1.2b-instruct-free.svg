@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warhol's face as a circle -->
+  <circle cx="95" cy="60" r="30" fill="#ffffff" />
+
+  <!-- Background color -->
+  <rect width="100%" height="100%" fill="#f0f0f0" />
+
+  <!-- Warhol's head -->
+  <ellipse cx="100" cy="100" rx="30" ry="15" fill="#000000" />
+
+  <!-- Eyes -->
+  <circle cx="65" cy="80" r="5" fill="#000000" />
+  <circle cx="135" cy="80" r="5" fill="#000000" />
+
+  <!-- Warhol's hands -->
+  <g transform="translate(100,100)">
+    <path d="M50,30 Q65,30 85,30" fill="white" />
+    <path d="M50,70 Q65,70 85,70" fill="white" />
+    <path d="M30,15 Q35,15 45,15" fill="white" />
+  </g>
+
+  <!-- Hamburger inside Warhol's mouth -->
+  <circle cx="100" cy="120" r="10" fill="#ffffff" />
+  <path d="M90,110 Q95,110 100,110" fill="white" />
+  <path d="M90,140 Q90,140 100,140" fill="white" />
+
+  <!-- Plain hamburger -->
+  <path d="M90,90 Q95,90 100,90" fill="#cccccc" />
+</svg>

@@ -1,0 +1,94 @@
+<svg width="500" height="600" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Silver Gradient for Wig -->
+    <linearGradient id="silverWig" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0c0c0;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Skin Tone -->
+    <style>
+      .skin { fill: #f5d0b0; }
+      .black-clothes { fill: #1a1a1a; }
+      .sunglasses { fill: #000000; }
+      .burger-bun { fill: #e6a15c; stroke: #b56e28; stroke-width: 2; }
+      .lettuce { fill: #76c958; stroke: #3e8e26; stroke-width: 2; }
+      .tomato { fill: #e74c3c; stroke: #c0392b; stroke-width: 2; }
+      .patty { fill: #5d4037; stroke: #3e2723; stroke-width: 2; }
+      .cheese { fill: #f1c40f; stroke: #f39c12; stroke-width: 2; }
+      .outline { fill: none; stroke: #000; stroke-width: 3; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="600" fill="#FFD700" />
+  
+  <!-- Shadow/Backdrop Circle (Pop Art Style) -->
+  <circle cx="250" cy="280" r="220" fill="#FF69B4" opacity="0.8" />
+
+  <!-- Body / Turtleneck -->
+  <path d="M150,600 L150,450 Q150,400 250,400 Q350,400 350,450 L350,600 Z" class="black-clothes" />
+  
+  <!-- Neck -->
+  <rect x="220" y="380" width="60" height="60" class="skin" />
+
+  <!-- Head Shape -->
+  <ellipse cx="250" cy="260" rx="90" ry="110" class="skin" />
+
+  <!-- The Wig (Messy Silver Layers) -->
+  <g fill="url(#silverWig)" stroke="#999" stroke-width="2">
+    <path d="M140,260 Q130,150 200,140 Q250,120 300,140 Q370,150 360,260 Q360,200 320,180 Q250,160 180,180 Q140,200 140,260 Z" />
+    <!-- Strands hanging down -->
+    <path d="M160,250 Q150,300 170,320" fill="none" stroke="#999" stroke-width="8" stroke-linecap="round"/>
+    <path d="M340,250 Q350,300 330,320" fill="none" stroke="#999" stroke-width="8" stroke-linecap="round"/>
+    <path d="M250,140 Q250,100 250,160" fill="none" stroke="#ccc" stroke-width="10" stroke-linecap="round"/>
+    <path d="M200,145 Q190,90 210,150" fill="none" stroke="#ccc" stroke-width="8" stroke-linecap="round"/>
+    <path d="M300,145 Q310,90 290,150" fill="none" stroke="#ccc" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Sunglasses -->
+  <path d="M190,250 L240,250 L235,280 L195,280 Z" class="sunglasses" />
+  <path d="M260,250 L310,250 L305,280 L265,280 Z" class="sunglasses" />
+  <line x1="240" y1="265" x2="260" y2="265" stroke="#000" stroke-width="3" />
+
+  <!-- Mouth (Slightly open) -->
+  <path d="M235,310 Q250,325 265,310" fill="#d35454" stroke="#000" stroke-width="2" />
+
+  <!-- Hand Holding Burger -->
+  <g transform="translate(280, 380) rotate(-20)">
+    <path d="M0,0 Q-20,40 10,60 Q40,40 30,0 Z" class="skin" stroke="#000" stroke-width="2"/>
+    <!-- Fingers -->
+    <ellipse cx="10" cy="10" rx="8" ry="15" class="skin" stroke="#000" stroke-width="2"/>
+    <ellipse cx="25" cy="15" rx="8" ry="15" class="skin" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- The Hamburger Group -->
+  <g transform="translate(260, 360) rotate(-15)">
+    
+    <!-- Top Bun -->
+    <path d="M-40,0 Q-40,-30 0,-30 Q40,-30 40,0 L40,10 L-40,10 Z" class="burger-bun" />
+    <!-- Sesame Seeds -->
+    <circle cx="-20" cy="-15" r="2" fill="#fff" />
+    <circle cx="0" cy="-20" r="2" fill="#fff" />
+    <circle cx="20" cy="-15" r="2" fill="#fff" />
+
+    <!-- Lettuce -->
+    <path d="M-42,10 Q-30,5 -20,12 Q-10,5 0,12 Q10,5 20,12 Q30,5 42,10 L42,20 L-42,20 Z" class="lettuce" />
+
+    <!-- Tomato -->
+    <rect x="-38" y="20" width="76" height="10" class="tomato" rx="2" />
+
+    <!-- Patty -->
+    <ellipse cx="0" cy="38" rx="42" ry="12" class="patty" />
+
+    <!-- Cheese -->
+    <path d="M-35,35 L35,35 L38,45 L25,45 L20,50 L-20,50 L-25,45 L-38,45 Z" class="cheese" />
+
+    <!-- Bottom Bun -->
+    <path d="M-40,45 L40,45 Q40,70 0,70 Q-40,70 -40,45 Z" class="burger-bun" />
+  </g>
+
+  <!-- Signature Style Text -->
+  <text x="250" y="550" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle" fill="#000" opacity="0.6">WARHOL '82</text>
+</svg>

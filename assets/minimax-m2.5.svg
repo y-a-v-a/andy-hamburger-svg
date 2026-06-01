@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background: Pop‑art style pattern -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  <defs>
+    <pattern id="pop" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="20" height="20" fill="#ffcc00"/>
+      <rect x="20" y="0" width="20" height="20" fill="#ff6666"/>
+      <rect x="0" y="20" width="20" height="20" fill="#66ccff"/>
+      <rect x="20" y="20" width="20" height="20" fill="#cc66ff"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="url(#pop)" opacity="0.3"/>
+
+  <!-- Andy Warhol -->
+  <!-- Hair / Wig -->
+  <path d="M130,120 C110,120 90,150 90,190 C90,230 110,260 130,260 L270,260 C290,260 310,230 310,190 C310,150 290,120 270,120 Q200,80 130,120 Z" fill="#d4d4d4"/>
+  <path d="M130,120 Q200,80 270,120" fill="none" stroke="#b0b0b0" stroke-width="3"/>
+
+  <!-- Face shape -->
+  <ellipse cx="200" cy="210" rx="85" ry="100" fill="#ffe0bd"/>
+
+  <!-- Sunglasses -->
+  <g fill="#222">
+    <rect x="145" y="180" width="50" height="30" rx="5"/>
+    <rect x="205" y="180" width="50" height="30" rx="5"/>
+    <rect x="190" y="190" width="20" height="4"/>
+  </g>
+  <!-- Reflection on sunglasses -->
+  <path d="M150,185 L165,195" stroke="white" stroke-width="2" opacity="0.6"/>
+  <path d="M210,185 L225,195" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- Nose -->
+  <path d="M190,210 Q200,230 210,210" fill="none" stroke="#cba580" stroke-width="2"/>
+
+  <!-- Mouth (open, about to bite) -->
+  <path d="M175,250 Q200,270 225,250" fill="none" stroke="#c05858" stroke-width="3"/>
+
+  <!-- Burger -->
+  <g transform="translate(230, 220)">
+    <!-- Bottom bun -->
+    <path d="M0,30 Q25,40 50,30 L50,35 Q25,45 0,35 Z" fill="#e6a15c"/>
+    <!-- Patty -->
+    <rect x="2" y="20" width="46" height="8" rx="2" fill="#8b4513"/>
+    <!-- Lettuce -->
+    <path d="M0,20 Q10,15 20,20 Q30,15 40,20 Q50,15 50,20" fill="#4caf50"/>
+    <!-- Cheese -->
+    <path d="M0,18 L5,12 L45,12 L50,18 Z" fill="#ffeb3b"/>
+    <!-- Top bun -->
+    <path d="M0,12 Q25,0 50,12 Q25,5 0,12 Z" fill="#e6a15c"/>
+    <!-- Sesame seeds -->
+    <circle cx="12" cy="8" r="1.5" fill="#fff8e1"/>
+    <circle cx="25" cy="5" r="1.5" fill="#fff8e1"/>
+    <circle cx="38" cy="8" r="1.5" fill="#fff8e1"/>
+  </g>
+
+  <!-- Hand holding burger (simple) -->
+  <path d="M230,250 Q240,260 260,250" fill="none" stroke="#ffe0bd" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Text: "Andy Warhol" in his signature style -->
+  <text x="200" y="380" font-family="Courier New, monospace" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">ANDY WARHOL</text>
+</svg>

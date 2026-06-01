@@ -1,0 +1,34 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background in Warhol-style color blocks -->
+  <rect x="0" y="0" width="250" height="250" fill="pink"/>
+  <rect x="250" y="0" width="250" height="250" fill="yellow"/>
+  <rect x="0" y="250" width="250" height="250" fill="cyan"/>
+  <rect x="250" y="250" width="250" height="250" fill="magenta"/>
+
+  <!-- Andy's face (simplified pop-art style) -->
+  <circle cx="250" cy="180" r="60" fill="white" stroke="black" stroke-width="2"/>
+  <!-- Hair -->
+  <ellipse cx="250" cy="130" rx="70" ry="40" fill="white"/>
+  <circle cx="250" cy="120" r="50" fill="white"/>
+  <!-- Signature silver hair spot -->
+  <circle cx="260" cy="140" r="8" fill="lightgray"/>
+
+  <!-- Features -->
+  <circle cx="230" cy="170" r="5" fill="black"/> <!-- Eye -->
+  <circle cx="270" cy="170" r="5" fill="black"/> <!-- Eye -->
+  <line x1="240" y1="190" x2="260" y2="190" stroke="black" stroke-width="2"/> <!-- Mouth -->
+
+  <!-- Hamburger -->
+  <ellipse cx="320" cy="190" rx="40" ry="15" fill="#c87f3e"/> <!-- Top bun -->
+  <ellipse cx="320" cy="210" rx="38" ry="12" fill="#8b4513"/> <!-- Meat -->
+  <ellipse cx="320" cy="222" rx="36" ry="8" fill="yellow"/> <!-- Cheese -->
+  <ellipse cx="320" cy="232" rx="40" ry="12" fill="#c87f3e"/> <!-- Bottom bun -->
+
+  <!-- Hand reaching -->
+  <path d="M290,195 Q305,200 315,195" stroke="black" stroke-width="4" fill="none"/>
+
+  <!-- Caption in Warhol style -->
+  <text x="120" y="400" font-family="Arial, sans-serif" font-size="24" fill="black">
+    Andy Eats Pop
+  </text>
+</svg>

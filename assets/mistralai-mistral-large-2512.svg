@@ -1,0 +1,32 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background (Warhol-style color blocks) -->
+    <rect x="0" y="0" width="500" height="500" fill="#FFD700" />
+
+    <!-- Andy Warhol's face (stylized) -->
+    <circle cx="250" cy="200" r="80" fill="#FF69B4" stroke="#000" stroke-width="3" />
+    <rect x="200" y="120" width="100" height="40" rx="20" fill="#FF69B4" stroke="#000" stroke-width="3" />
+    <circle cx="220" cy="180" r="15" fill="#000" />
+    <circle cx="280" cy="180" r="15" fill="#000" />
+    <path d="M 220 220 Q 250 240 280 220" stroke="#000" stroke-width="3" fill="none" />
+
+    <!-- Hair (Warhol's signature silver wig) -->
+    <path d="M 150 100 Q 250 50 350 100 Q 350 150 250 150 Q 150 150 150 100" fill="#C0C0C0" stroke="#000" stroke-width="3" />
+
+    <!-- Hamburger -->
+    <ellipse cx="300" cy="300" rx="60" ry="30" fill="#F4A460" stroke="#000" stroke-width="3" />
+    <ellipse cx="300" cy="290" rx="50" ry="20" fill="#8B4513" />
+    <ellipse cx="300" cy="310" rx="50" ry="20" fill="#FFD700" />
+    <rect x="270" y="280" width="60" height="10" rx="5" fill="#FF6347" />
+
+    <!-- Hand holding the burger -->
+    <path d="M 200 250 Q 250 280 300 300 L 320 320 Q 280 300 250 280 Z" fill="#FF69B4" stroke="#000" stroke-width="3" />
+    <rect x="280" y="290" width="40" height="20" rx="10" fill="#FF69B4" stroke="#000" stroke-width="3" />
+
+    <!-- Warhol-style dots (background texture) -->
+    <circle cx="50" cy="50" r="10" fill="#FF0000" />
+    <circle cx="450" cy="50" r="10" fill="#00FF00" />
+    <circle cx="50" cy="450" r="10" fill="#0000FF" />
+    <circle cx="450" cy="450" r="10" fill="#FFFF00" />
+    <circle cx="250" cy="50" r="10" fill="#FF00FF" />
+    <circle cx="250" cy="450" r="10" fill="#00FFFF" />
+</svg>

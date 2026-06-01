@@ -1,0 +1,63 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f8f8f8"/>
+  
+  <!-- Andy Warhol's face -->
+  <circle cx="200" cy="180" r="60" fill="#f4c2a1" stroke="#000" stroke-width="2"/>
+  
+  <!-- Hair -->
+  <path d="M140 140 Q160 120 200 125 Q240 120 260 140 L260 160 Q230 150 200 155 Q170 150 140 160 Z" fill="#333"/>
+  
+  <!-- Glasses -->
+  <ellipse cx="175" cy="170" rx="25" ry="20" fill="none" stroke="#000" stroke-width="3"/>
+  <ellipse cx="225" cy="170" rx="25" ry="20" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="200" y1="170" x2="200" y2="170" stroke="#000" stroke-width="3"/>
+  <line x1="150" y1="165" x2="130" y2="155" stroke="#000" stroke-width="3"/>
+  <line x1="250" y1="165" x2="270" y2="155" stroke="#000" stroke-width="3"/>
+  
+  <!-- Eyes -->
+  <circle cx="170" cy="170" r="3" fill="#000"/>
+  <circle cx="220" cy="170" r="3" fill="#000"/>
+  
+  <!-- Mouth -->
+  <path d="M170 195 Q200 210 230 195" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Body -->
+  <rect x="150" y="240" width="100" height="120" fill="#333" rx="10"/>
+  
+  <!-- Arms -->
+  <rect x="130" y="250" width="20" height="80" fill="#f4c2a1" rx="10"/>
+  <rect x="250" y="250" width="20" height="80" fill="#f4c2a1" rx="10"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(280, 260)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="35" ry="10" fill="#d2691e"/>
+    <ellipse cx="0" cy="2" rx="30" ry="8" fill="#8b4513"/>
+    
+    <!-- Lettuce -->
+    <path d="M-30 -5 Q-20 -15 0 -12 Q20 -15 30 -5 L30 0 L-30 0 Z" fill="#90ee90"/>
+    
+    <!-- Cheese -->
+    <rect x="-30" y="0" width="60" height="8" fill="#ffd700" rx="2"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="12" rx="30" ry="8" fill="#8b4513"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="22" rx="35" ry="10" fill="#d2691e"/>
+    <ellipse cx="0" cy="20" rx="30" ry="8" fill="#8b4513"/>
+    
+    <!-- Sesame seeds on top bun -->
+    <circle cx="-15" cy="-5" r="2" fill="#fff"/>
+    <circle cx="-5" cy="-8" r="2" fill="#fff"/>
+    <circle cx="5" cy="-6" r="2" fill="#fff"/>
+    <circle cx="15" cy="-4" r="2" fill="#fff"/>
+  </g>
+  
+  <!-- Hand holding hamburger -->
+  <ellipse cx="280" cy="290" rx="15" ry="10" fill="#f4c2a1"/>
+  
+  <!-- Signature style text -->
+  <text x="200" y="380" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Andy Warhol</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg width="600" height="600" viewBox="0 0 600 600"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="#f7f2e8"/>
+
+  <!-- Hair (Warhol style) -->
+  <path d="M140 140 Q200 40 300 60 Q400 40 460 140 Q470 230 440 280 Q380 230 300 250 Q220 230 160 280 Q130 230 140 140"
+        fill="#dcdcdc" stroke="#333" stroke-width="3"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="260" rx="110" ry="140" fill="#f1c27d" stroke="#333" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <ellipse cx="260" cy="240" rx="15" ry="8" fill="#333"/>
+  <ellipse cx="340" cy="240" rx="15" ry="8" fill="#333"/>
+
+  <!-- Nose -->
+  <path d="M300 250 Q290 285 300 300 Q310 285 300 250" fill="#d89b66" stroke="#333" stroke-width="2"/>
+
+  <!-- Mouth (open) -->
+  <path d="M250 320 Q300 360 350 320" fill="none" stroke="#333" stroke-width="4"/>
+
+  <!-- Hamburger -->
+  <!-- Top bun -->
+  <path d="M220 330 Q300 280 380 330" fill="#f4b042" stroke="#333" stroke-width="3"/>
+  <!-- Lettuce -->
+  <path d="M230 335 Q250 350 270 340 Q300 360 330 340 Q350 350 370 335"
+        fill="#7bc043" stroke="#333" stroke-width="2"/>
+  <!-- Patty -->
+  <rect x="240" y="340" width="120" height="25" rx="10" fill="#8b4513" stroke="#333" stroke-width="2"/>
+  <!-- Bottom bun -->
+  <path d="M230 365 Q300 390 370 365" fill="#f4b042" stroke="#333" stroke-width="3"/>
+
+  <!-- Hand holding burger -->
+  <path d="M210 360 Q180 370 190 410 Q210 440 260 420" fill="#f1c27d" stroke="#333" stroke-width="3"/>
+
+  <!-- Shirt -->
+  <rect x="160" y="400" width="280" height="180" fill="#6fa8dc" stroke="#333" stroke-width="3"/>
+  <line x1="300" y1="400" x2="300" y2="580" stroke="#333" stroke-width="3"/>
+
+  <!-- Signature style text -->
+  <text x="360" y="570" font-size="20" font-family="Helvetica" fill="#333">
+    Andy Warhol
+  </text>
+</svg>

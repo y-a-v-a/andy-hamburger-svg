@@ -1,0 +1,50 @@
+<svg width="600" height="800" viewBox="0 0 600 800"
+     xmlns="http://www.w3.org/2000/svg"
+     style="background:#f9f9f9">
+
+  <!-- ==== Background ==== -->
+  <rect width="100%" height="100%" fill="#fafafa"/>
+
+  <!-- ==== Andy Warhol Portrait ==== -->
+  <!-- Face -->
+  <ellipse cx="300" cy="250" rx="130" ry="170" fill="#ffcccc"/>
+  <!-- Hair (pop‑art blocky) -->
+  <path d="M150,140 Q200,70 250,130 L150,140 Z" fill="#ff5555"/>
+  <!-- Ears (two triangles) -->
+  <path d="M130,110 L150,70 L170,110 Z" fill="#ff5555"/>
+  <path d="M470,110 L450,70 L430,110 Z" fill="#ff5555"/>
+  <!-- Glasses (two black circles) -->
+  <circle cx="260" cy="240" r="20" fill="#111"/>
+  <circle cx="340" cy="240" r="20" fill="#111"/>
+  <!-- Mouth -->
+  <path d="M260,340 Q300,380 340,340" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Nose -->
+  <polygon points="285,285 300,295 315,285" fill="#111"/>
+
+  <!-- ==== Hamburger ==== -->
+  <!-- Bottom bun -->
+  <rect x="230" y="380" width="140" height="30" rx="10" fill="#d2691e"/>
+  <!-- Lettuce -->
+  <path d="M260,410 Q280,425 300,410 Q280,400 260,410 Z" fill="#7cfc00"/>
+  <!-- Patty -->
+  <ellipse cx="290" cy="425" rx="50" ry="30" fill="#777"/>
+  <!-- Cheese slice -->
+  <path d="M260,435 L320,435 L310,415 L280,415 Z" fill="#ffcc00"/>
+  <!-- Top bun -->
+  <rect x="230" y="455" width="140" height="30" rx="10" fill="#d2691e"/>
+
+  <!-- ==== Shadow (optional pop‑art “drop shadow”) ==== -->
+  <path d="M300,250 L500,250 L500,340 L300,340 Z" fill="#777" opacity="0.2"/>
+
+  <!-- ==== Decorative Pop‑Art “Bold Outline” ==== -->
+  <g stroke="#000" stroke-width="6" fill="none">
+    <ellipse cx="300" cy="250" rx="130" ry="170"/>
+    <path d="M150,140 Q200,70 250,130 L150,140 Z"/>
+    <path d="M470,110 L450,70 L430,110 Z"/>
+    <circle cx="260" cy="240" r="20"/>
+    <circle cx="340" cy="240" r="20"/>
+    <path d="M260,340 Q300,380 340,340"/>
+    <polygon points="285,285 300,295 315,285"/>
+  </g>
+
+</svg>

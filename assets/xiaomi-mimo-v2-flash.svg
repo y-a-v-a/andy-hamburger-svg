@@ -1,0 +1,89 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Vibrant Pop Art Color -->
+  <rect width="100%" height="100%" fill="#FFD700" />
+
+  <!-- Definitions for reusable shapes -->
+  <defs>
+    <!-- The Wig Shape -->
+    <path id="wig" d="M130,180 Q250,100 370,180 Q360,220 350,230 L340,220 L330,240 L320,210 L310,235 L300,215 L290,240 L280,220 L270,245 L260,225 L250,250 L240,225 L230,245 L220,220 L210,240 L200,215 L190,235 L180,210 L170,240 L160,220 L150,230 Q140,220 130,180 Z" fill="#2C2C2C" />
+  </defs>
+
+  <!-- Main Figure Group -->
+  <g id="warhol">
+    
+    <!-- Neck and Shirt -->
+    <rect x="220" y="320" width="60" height="150" fill="#FFFFFF" />
+    <rect x="200" y="320" width="100" height="40" fill="#FFFFFF" /> <!-- Collar base -->
+
+    <!-- Head Shape -->
+    <ellipse cx="250" cy="250" rx="80" ry="100" fill="#F5DEB3" stroke="#2C2C2C" stroke-width="2" />
+
+    <!-- The Wig -->
+    <use href="#wig" />
+
+    <!-- Sunglasses -->
+    <!-- Left Lens -->
+    <rect x="185" y="235" width="50" height="35" rx="5" fill="#000000" />
+    <rect x="190" y="240" width="15" height="10" fill="#FFFFFF" opacity="0.5" /> <!-- Reflection -->
+    <!-- Right Lens -->
+    <rect x="265" y="235" width="50" height="35" rx="5" fill="#000000" />
+    <rect x="270" y="240" width="15" height="10" fill="#FFFFFF" opacity="0.5" /> <!-- Reflection -->
+    <!-- Bridge -->
+    <path d="M235,245 L265,245" stroke="#000000" stroke-width="4" />
+    <!-- Arms of glasses -->
+    <path d="M185,245 L160,240" stroke="#000000" stroke-width="4" />
+    <path d="M315,245 L340,240" stroke="#000000" stroke-width="4" />
+
+    <!-- Facial Features (Minimalist) -->
+    <!-- Nose -->
+    <path d="M245,260 L255,260 L250,280" fill="#E6C8A0" />
+    <!-- Mouth -->
+    <path d="M220,300 Q250,315 280,300" stroke="#8B4513" stroke-width="2" fill="none" />
+    
+    <!-- Burger Hand (Left) -->
+    <path d="M130,350 Q110,320 130,300 L140,290 L150,310" fill="#F5DEB3" stroke="#2C2C2C" stroke-width="2" />
+    
+    <!-- Hamburger -->
+    <g id="burger">
+      <!-- Bottom Bun -->
+      <path d="M120,280 Q180,290 240,280 L240,295 Q180,305 120,295 Z" fill="#D2691E" stroke="#2C2C2C" stroke-width="2" />
+      <!-- Patty -->
+      <path d="M120,275 L240,275 L245,285 L115,285 Z" fill="#8B4513" stroke="#2C2C2C" stroke-width="2" />
+      <!-- Lettuce -->
+      <path d="M115,270 Q150,265 180,270 Q210,265 245,270 L240,278 L120,278 Z" fill="#32CD32" stroke="#2C2C2C" stroke-width="2" />
+      <!-- Top Bun -->
+      <path d="M120,250 Q180,230 240,250 L240,270 Q180,285 120,270 Z" fill="#D2691E" stroke="#2C2C2C" stroke-width="2" />
+      <!-- Sesame Seeds -->
+      <circle cx="150" cy="255" r="3" fill="#FFF8DC" stroke="#2C2C2C" stroke-width="1" />
+      <circle cx="180" cy="248" r="3" fill="#FFF8DC" stroke="#2C2C2C" stroke-width="1" />
+      <circle cx="210" cy="255" r="3" fill="#FFF8DC" stroke="#2C2C2C" stroke-width="1" />
+      <circle cx="225" cy="262" r="3" fill="#FFF8DC" stroke="#2C2C2C" stroke-width="1" />
+    </g>
+
+    <!-- Bite Mark on Burger (Stylized) -->
+    <path d="M200,255 Q210,265 200,275 Q190,265 200,255" fill="#FFD700" />
+
+    <!-- Right Arm/Hand holding a drink -->
+    <path d="M340,330 L360,320 L370,380 L330,390 Z" fill="#F5DEB3" stroke="#2C2C2C" stroke-width="2" />
+    
+    <!-- Coca-Cola Style Cup -->
+    <rect x="325" y="350" width="50" height="60" fill="#FFFFFF" stroke="#2C2C2C" stroke-width="2" />
+    <rect x="330" y="360" width="40" height="30" fill="#DC143C" /> <!-- Red Drink -->
+    <!-- Straw -->
+    <rect x="355" y="320" width="6" height="50" fill="#FF0000" transform="rotate(5, 358, 320)" />
+
+  </g>
+
+  <!-- Pop Art Dots Overlay (CMYK) -->
+  <g opacity="0.3">
+    <circle cx="0" cy="0" r="20" fill="#00FFFF" />
+    <!-- Creating a dot pattern grid manually for style -->
+    <circle cx="50" cy="50" r="15" fill="#FF00FF" />
+    <circle cx="150" cy="100" r="20" fill="#FFFF00" />
+    <circle cx="450" cy="50" r="15" fill="#00FFFF" />
+    <circle cx="400" cy="150" r="20" fill="#FF00FF" />
+    <circle cx="100" cy="450" r="15" fill="#FFFF00" />
+    <circle cx="450" cy="450" r="10" fill="#00FFFF" />
+  </g>
+
+</svg>

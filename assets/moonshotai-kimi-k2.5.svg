@@ -1,0 +1,85 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#E74C3C"/>
+  <rect x="50" y="50" width="700" height="500" fill="#F39C12" opacity="0.3"/>
+  
+  <!-- Andy Warhol figure -->
+  <g transform="translate(400, 300)">
+    <!-- Shoulders/Body -->
+    <path d="M -120 180 Q -100 120 0 120 Q 100 120 120 180 L 120 250 L -120 250 Z" fill="#2C3E50"/>
+    
+    <!-- Neck -->
+    <rect x="-30" y="80" width="60" height="50" fill="#F5E6D3"/>
+    
+    <!-- Face shape -->
+    <ellipse cx="0" cy="0" rx="75" ry="95" fill="#F5E6D3"/>
+    
+    <!-- Wig (Iconic white/silver hair) -->
+    <path d="M -80 -20 Q -85 -80 -40 -100 Q 0 -115 40 -100 Q 85 -80 80 -20 Q 82 -10 78 10 Q 75 20 70 15 Q 75 -10 70 -40 Q 65 -70 40 -80 Q 0 -90 -40 -80 Q -65 -70 -70 -40 Q -75 -10 -70 15 Q -75 20 -78 10 Q -82 -10 -80 -20" 
+          fill="#ECF0F1" stroke="#BDC3C7" stroke-width="2"/>
+    <!-- Hair texture lines -->
+    <path d="M -60 -60 Q -40 -70 -20 -65" fill="none" stroke="#BDC3C7" stroke-width="1"/>
+    <path d="M 20 -65 Q 40 -70 60 -60" fill="none" stroke="#BDC3C7" stroke-width="1"/>
+    
+    <!-- Glasses (Iconic round frames) -->
+    <g fill="none" stroke="#2C3E50" stroke-width="4">
+      <circle cx="-25" cy="-10" r="22"/>
+      <circle cx="25" cy="-10" r="22"/>
+      <line x1="-3" y1="-10" x2="3" y2="-10"/>
+    </g>
+    <!-- Eyes -->
+    <circle cx="-25" cy="-10" r="3" fill="#2C3E50"/>
+    <circle cx="25" cy="-10" r="3" fill="#2C3E50"/>
+    
+    <!-- Eyebrows -->
+    <path d="M -40 -35 Q -25 -40 -10 -35" fill="none" stroke="#7F8C8D" stroke-width="2"/>
+    <path d="M 10 -35 Q 25 -40 40 -35" fill="none" stroke="#7F8C8D" stroke-width="2"/>
+    
+    <!-- Nose -->
+    <path d="M -5 10 Q 0 25 5 10" fill="none" stroke="#D5B5A5" stroke-width="2"/>
+    
+    <!-- Mouth (slightly open for burger) -->
+    <ellipse cx="0" cy="45" rx="15" ry="8" fill="#C0392B"/>
+    <path d="M -12 42 Q 0 48 12 42" fill="none" stroke="#A93226" stroke-width="2"/>
+    
+    <!-- Hands holding burger -->
+    <g transform="translate(0, 120)">
+      <!-- Left hand -->
+      <ellipse cx="-40" cy="0" rx="20" ry="25" fill="#F5E6D3" transform="rotate(-20 -40 0)"/>
+      <!-- Right hand -->
+      <ellipse cx="40" cy="0" rx="20" ry="25" fill="#F5E6D3" transform="rotate(20 40 0)"/>
+      
+      <!-- Burger -->
+      <g transform="translate(0, -10)">
+        <!-- Bottom bun -->
+        <path d="M -35 20 Q 0 30 35 20 L 35 10 Q 0 20 -35 10 Z" fill="#D4A373"/>
+        <!-- Meat patty -->
+        <rect x="-38" y="5" width="76" height="12" rx="3" fill="#5D4037"/>
+        <!-- Cheese -->
+        <path d="M -35 8 L 35 8 L 30 12 L -30 12 Z" fill="#F1C40F"/>
+        <!-- Lettuce/Tomato -->
+        <rect x="-36" y="2" width="72" height="6" rx="2" fill="#E74C3C"/>
+        <!-- Top bun -->
+        <path d="M -38 2 Q -38 -25 0 -25 Q 38 -25 38 2 Z" fill="#D4A373"/>
+        <!-- Sesame seeds -->
+        <circle cx="-15" cy="-15" r="1.5" fill="#FEF9E7"/>
+        <circle cx="10" cy="-18" r="1.5" fill="#FEF9E7"/>
+        <circle cx="0" cy="-10" r="1.5" fill="#FEF9E7"/>
+        <circle cx="20" cy="-12" r="1.5" fill="#FEF9E7"/>
+        <circle cx="-20" cy="-8" r="1.5" fill="#FEF9E7"/>
+      </g>
+      
+      <!-- Fingers wrapping around -->
+      <path d="M -50 -15 Q -30 -20 -20 -10" fill="none" stroke="#E5D5C5" stroke-width="3"/>
+      <path d="M 50 -15 Q 30 -20 20 -10" fill="none" stroke="#E5D5C5" stroke-width="3"/>
+    </g>
+  </g>
+  
+  <!-- Pop art style text -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold" letter-spacing="2">ANDY WARHOL</text>
+  
+  <!-- Decorative elements (Warhol style) -->
+  <circle cx="100" cy="100" r="40" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="700" cy="500" r="60" fill="#FFFFFF" opacity="0.2"/>
+  <rect x="650" y="100" width="80" height="80" fill="#C0392B" opacity="0.4" transform="rotate(15 690 140)"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Background with Warhol's color palette -->
+  <rect width="600" height="600" fill="#FF4444" />
+
+  <!-- Warhol's face (simplified) -->
+  <circle cx="300" cy="200" r="100" fill="#FFD700" stroke="#000" stroke-width="5" />
+  <circle cx="280" cy="180" r="20" fill="#000" />
+  <circle cx="320" cy="180" r="20" fill="#000" />
+  <path d="M280 200 Q300 220 320 200" stroke="#000" stroke-width="3" fill="none" />
+
+  <!-- Warhol's iconic hair (black with white highlights) -->
+  <path d="M250 100 Q300 50 350 100 Q300 150 250 100" fill="#000" />
+  <path d="M260 90 Q300 40 340 90" fill="#FFFFFF" opacity="0.7" />
+  <path d="M270 80 Q300 30 330 80" fill="#FFFFFF" opacity="0.5" />
+
+  <!-- Warhol's glasses -->
+  <rect x="270" y="170" width="60" height="15" fill="#000" rx="5" />
+  <circle cx="290" cy="175" r="5" fill="#FFFFFF" />
+  <circle cx="310" cy="175" r="5" fill="#FFFFFF" />
+
+  <!-- Hamburger (Warhol-style) -->
+  <rect x="200" y="300" width="200" height="100" fill="#FF8800" rx="10" />
+  <rect x="210" y="310" width="180" height="80" fill="#FFD700" rx="5" />
+  <rect x="220" y="320" width="160" height="60" fill="#FF4444" rx="3" />
+  <rect x="230" y="330" width="140" height="40" fill="#000" rx="2" />
+
+  <!-- Hamburger bun -->
+  <rect x="200" y="300" width="200" height="20" fill="#FFD700" rx="10" />
+  <rect x="200" y="400" width="200" height="20" fill="#FFD700" rx="10" />
+  <rect x="200" y="320" width="200" height="20" fill="#FF8800" rx="10" />
+
+  <!-- Hamburger patty -->
+  <rect x="230" y="320" width="140" height="40" fill="#FF4444" rx="5" />
+
+  <!-- Layers of cheese -->
+  <rect x="240" y="330" width="120" height="30" fill="#FFFF00" rx="3" />
+  <rect x="250" y="340" width="100" height="20" fill="#FFFF00" rx="2" />
+
+  <!-- Lettuce -->
+  <path d="M220 350 Q250 330 280 350 Q310 370 340 350" fill="#7CFC00" />
+
+  <!-- Andy Warhol's iconic mustache -->
+  <path d="M280 220 Q300 230 320 220" stroke="#000" stroke-width="5" fill="none" />
+
+  <!-- Hand holding the burger -->
+  <path d="M200 350 Q250 300 300 350" stroke="#FFD700" stroke-width="10" fill="none" />
+  <path d="M300 350 Q350 300 400 350" stroke="#FFD700" stroke-width="10" fill="none" />
+  <path d="M350 350 Q370 330 390 350" stroke="#FFD700" stroke-width="10" fill="none" />
+
+  <!-- Warhol's signature style - repeated elements -->
+  <g transform="translate(400, 100)">
+    <circle cx="0" cy="0" r="30" fill="#FF4444" />
+    <circle cx="0" cy="0" r="30" fill="#FFD700" />
+    <circle cx="0" cy="0" r="30" fill="#000" />
+  </g>
+
+  <g transform="translate(450, 150)">
+    <rect x="-20" y="-20" width="40" height="40" fill="#FF8800" rx="5" />
+    <rect x="-15" y="-15" width="30" height="30" fill="#FFD700" rx="3" />
+  </g>
+
+  <!-- Text overlay (Warhol-style) -->
+  <text x="300" y="550" font-family="Arial" font-size="30" text-anchor="middle" fill="#000" font-weight="bold">ANDY WARHOL EATS</text>
+  <text x="300" y="590" font-family="Arial" font-size="20" text-anchor="middle" fill="#FFD700">A HAMBURGER</text>
+
+  <!-- Warhol's iconic "Campbell's Soup Cans" style repetition -->
+  <g transform="translate(500, 200)">
+    <rect x="0" y="0" width="40" height="60" fill="#FF4444" rx="5" />
+    <rect x="5" y="5" width="30" height="50" fill="#FFD700" rx="3" />
+    <rect x="10" y="10" width="20" height="30" fill="#FF8800" rx="2" />
+  </g>
+</svg>

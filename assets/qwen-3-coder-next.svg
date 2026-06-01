@@ -1,0 +1,134 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for Patterns and Gradients -->
+  <defs>
+    <!-- Gold Gradient for the "Famous" look -->
+    <linearGradient id="goldSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE066;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Red Gradient for Hair -->
+    <linearGradient id="redHair" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Ben-Day Dot Pattern (Yellow) -->
+    <pattern id="dotPatternYellow" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#FFFF00" opacity="0.6"/>
+    </pattern>
+
+    <!-- Ben-Day Dot Pattern (Pink) -->
+    <pattern id="dotPatternPink" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#FF69B4" opacity="0.5"/>
+    </pattern>
+
+    <!-- Bun Gradient -->
+    <radialGradient id="bunGradient">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#DAA520;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </radialGradient>
+
+    <!-- Meat Gradient -->
+    <radialGradient id="meatGradient">
+      <stop offset="0%" style="stop-color:#CD5C5C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </radialGradient>
+
+    <!-- Lettuce Gradient -->
+    <linearGradient id="lettuceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90EE90;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#228B22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Bold Pink with Ben-Day dots -->
+  <rect width="500" height="500" fill="#FF69B4" />
+  <rect width="500" height="500" fill="url(#dotPatternPink)" />
+
+  <!-- Group 1: The Double Portrait (Left Side - "Negative" / Right Side - "Positive") -->
+  <g transform="translate(0,0)">
+    
+    <!-- THE HAMBURGER (Center Stage) -->
+    <!-- Lettuce -->
+    <path d="M 220 380 Q 250 340 280 380 Z" fill="url(#lettuceGradient)" stroke="#006400" stroke-width="2"/>
+    <!-- Cheese (Yellow Triangle) -->
+    <path d="M 220 380 Q 250 360 280 380 L 280 390 L 220 390 Z" fill="#FFD700" stroke="#B8860B" stroke-width="2"/>
+    <!-- Patty -->
+    <ellipse cx="250" cy="400" rx="65" ry="15" fill="url(#meatGradient)" stroke="#4B0000" stroke-width="2"/>
+    <!-- Bottom Bun -->
+    <path d="M 190 400 Q 250 460 310 400 L 310 410 Q 250 470 190 410 Z" fill="url(#bunGradient)" stroke="#8B4513" stroke-width="3"/>
+    
+    <!-- Sesame Seeds (Ben-Day style) -->
+    <circle cx="230" cy="405" r="3" fill="#F5DEB3" opacity="0.8"/>
+    <circle cx="270" cy="402" r="3" fill="#F5DEB3" opacity="0.8"/>
+    <circle cx="250" cy="410" r="3" fill="#F5DEB3" opacity="0.8"/>
+    <circle cx="220" cy="395" r="3" fill="#F5DEB3" opacity="0.8"/>
+    <circle cx="280" cy="395" r="3" fill="#F5DEB3" opacity="0.8"/>
+
+    <!-- THE ARTIST: Left Profile (White/Gold Base) -->
+    <g transform="translate(50, 80)">
+      <!-- Hair -->
+      <path d="M 0 50 Q 30 0 70 20 L 90 50 L 80 120 Q 50 130 20 110 Z" fill="url(#redHair)" />
+      <!-- Head -->
+      <ellipse cx="45" cy="85" rx="45" ry="55" fill="url(#goldSkin)" />
+      <!-- Glasses -->
+      <rect x="15" y="70" width="25" height="15" rx="5" fill="black" stroke="white" stroke-width="1"/>
+      <rect x="55" y="70" width="25" height="15" rx="5" fill="black" stroke="white" stroke-width="1"/>
+      <line x1="40" y1="77" x2="55" y2="77" stroke="black" stroke-width="2"/>
+      <!-- Nose -->
+      <path d="M 45 85 L 45 100" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+      <!-- Mustache -->
+      <path d="M 35 105 Q 45 115 55 105" stroke="black" stroke-width="2" fill="none"/>
+      <!-- Mouth (Holding Burger) -->
+      <path d="M 40 120 Q 50 130 60 120" stroke="black" stroke-width="2" fill="none"/>
+      
+      <!-- Body -->
+      <path d="M 0 140 Q 45 250 90 140 L 90 250 L 0 250 Z" fill="#1E90FF"/> <!-- Blue Suit Shirt -->
+      <path d="M 20 140 Q 45 200 70 140" fill="#1E90FF"/> <!-- Collar -->
+      <rect x="20" y="150" width="50" height="100" fill="black" opacity="0.2"/> <!-- Shadow/Depth -->
+      
+      <!-- Arm reaching to burger -->
+      <path d="M 80 160 Q 200 150 220 390" stroke="url(#goldSkin)" stroke-width="25" stroke-linecap="round"/>
+    </g>
+
+    <!-- The Artist: Right Profile (Color Field Style - Vibrant Blue & Red) -->
+    <g transform="translate(300, 80)">
+      <!-- Hair (Red) -->
+      <path d="M 0 50 Q 30 0 70 20 L 90 50 L 80 120 Q 50 130 20 110 Z" fill="url(#redHair)" />
+      <!-- Head (Blue Gradient) -->
+      <linearGradient id="blueSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+         <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+         <stop offset="100%" style="stop-color:#0000CD;stop-opacity:1" />
+      </linearGradient>
+      <ellipse cx="45" cy="85" rx="45" ry="55" fill="url(#blueSkin)" />
+      <!-- Glasses (White Frame for contrast) -->
+      <rect x="15" y="70" width="25" height="15" rx="5" fill="white" stroke="black" stroke-width="2"/>
+      <rect x="55" y="70" width="25" height="15" rx="5" fill="white" stroke="black" stroke-width="2"/>
+      <line x1="40" y1="77" x2="55" y2="77" stroke="black" stroke-width="2"/>
+      <!-- Nose -->
+      <path d="M 45 85 L 45 100" stroke="#0000CD" stroke-width="4" stroke-linecap="round"/>
+      <!-- Mustache -->
+      <path d="M 35 105 Q 45 115 55 105" stroke="black" stroke-width="2" fill="none"/>
+      <!-- Mouth -->
+      <path d="M 40 120 Q 50 130 60 120" stroke="black" stroke-width="2" fill="none"/>
+
+      <!-- Body (Purple Suit) -->
+      <path d="M 0 140 Q 45 250 90 140 L 90 250 L 0 250 Z" fill="#4B0082"/> 
+      <path d="M 20 140 Q 45 200 70 140" fill="#4B0082"/>
+      
+      <!-- Arm reaching to burger -->
+      <path d="M 80 160 Q 200 150 220 390" stroke="url(#blueSkin)" stroke-width="25" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Warhol Signature Doodles -->
+  <text x="400" y="490" font-family="Courier New" font-size="12" fill="white" opacity="0.7" style="writing-mode: tb;">Andy Warhol 196X</text>
+  <circle cx="450" cy="50" r="5" fill="white" opacity="0.8"/>
+  <circle cx="470" cy="70" r="8" fill="white" opacity="0.8"/>
+  <circle cx="430" cy="90" r="6" fill="white" opacity="0.8"/>
+
+  <!-- Text Title in Bold Font -->
+  <text x="50" y="50" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="32" fill="white" text-shadow="2px 2px 0px #000000" opacity="0.8">HAMBURGER STACK</text>
+</svg>

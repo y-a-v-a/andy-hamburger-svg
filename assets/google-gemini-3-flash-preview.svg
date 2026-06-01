@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Pop Art Style -->
+  <rect width="400" height="400" fill="#FFD700" />
+  
+  <!-- Warhol's Signature Wig -->
+  <path d="M120,150 Q110,80 200,70 Q290,80 280,150 L290,180 Q250,170 200,175 Q150,170 110,180 Z" fill="#E0E0E0" stroke="black" stroke-width="2"/>
+  
+  <!-- Face -->
+  <path d="M140,150 Q140,280 200,280 Q260,280 260,150" fill="#FFE0BD" stroke="black" stroke-width="2"/>
+  
+  <!-- Iconic Glasses -->
+  <g fill="none" stroke="black" stroke-width="4">
+    <rect x="155" y="180" width="40" height="30" rx="5" fill="black" />
+    <rect x="205" y="180" width="40" height="30" rx="5" fill="black" />
+    <line x1="195" y1="195" x2="205" y2="195" />
+  </g>
+
+  <!-- Turtleneck -->
+  <rect x="150" y="270" width="100" height="130" fill="black" />
+
+  <!-- The Hamburger -->
+  <g transform="translate(160, 240)">
+    <!-- Bottom Bun -->
+    <path d="M5,40 Q5,50 40,50 Q75,50 75,40 Z" fill="#D2691E" stroke="black" />
+    <!-- Patty -->
+    <rect x="2" y="32" width="76" height="8" rx="4" fill="#5D4037" />
+    <!-- Cheese -->
+    <rect x="0" y="28" width="80" height="4" fill="#FFD700" />
+    <!-- Lettuce -->
+    <path d="M0,28 Q10,20 20,28 Q30,20 40,28 Q50,20 60,28 Q70,20 80,28" fill="#4CAF50" stroke="#2E7D32" />
+    <!-- Top Bun -->
+    <path d="M5,25 Q5,0 40,0 Q75,0 75,25 Z" fill="#D2691E" stroke="black" />
+    <!-- Sesame Seeds -->
+    <circle cx="25" cy="8" r="1.5" fill="#F5F5DC" />
+    <circle cx="40" cy="5" r="1.5" fill="#F5F5DC" />
+    <circle cx="55" cy="10" r="1.5" fill="#F5F5DC" />
+  </g>
+
+  <!-- Hand holding the burger -->
+  <path d="M140,280 Q130,240 165,245" fill="none" stroke="#FFE0BD" stroke-width="12" stroke-linecap="round" />
+  <path d="M260,280 Q270,240 235,245" fill="none" stroke="#FFE0BD" stroke-width="12" stroke-linecap="round" />
+
+  <!-- Mouth/Expression -->
+  <line x1="190" y1="230" x2="210" y2="230" stroke="black" stroke-width="2" stroke-linecap="round" />
+  
+</svg>

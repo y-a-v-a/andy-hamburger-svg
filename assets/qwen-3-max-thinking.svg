@@ -1,0 +1,52 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFD700"/>
+  
+  <!-- Warhol's face base -->
+  <circle cx="200" cy="180" r="80" fill="#F8D5B7"/>
+  
+  <!-- Hair (silver wig) -->
+  <path d="M120 130 Q200 60 280 130 Q270 100 200 80 Q130 100 120 130" fill="#C0C0C0" stroke="#A9A9A9" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="170" rx="15" ry="20" fill="white"/>
+  <ellipse cx="230" cy="170" rx="15" ry="20" fill="white"/>
+  <circle cx="170" cy="170" r="7" fill="#2E294E"/>
+  <circle cx="230" cy="170" r="7" fill="#2E294E"/>
+  
+  <!-- Nose -->
+  <path d="M190 190 Q200 210 210 190" fill="#F8D5B7" stroke="#D4A59A" stroke-width="2"/>
+  
+  <!-- Mouth (with hamburger) -->
+  <path d="M170 230 Q200 250 230 230" fill="none" stroke="#D4A59A" stroke-width="3"/>
+  
+  <!-- Hamburger -->
+  <!-- Top bun -->
+  <ellipse cx="250" cy="220" rx="30" ry="15" fill="#D2B48C"/>
+  <ellipse cx="250" cy="218" rx="25" ry="10" fill="#E6C5A0"/>
+  
+  <!-- Lettuce -->
+  <path d="M225 225 Q235 220 250 225 Q265 220 275 225 Q270 230 250 230 Q230 230 225 225" fill="#4CAF50"/>
+  
+  <!-- Patty -->
+  <ellipse cx="250" cy="235" rx="28" ry="10" fill="#795548"/>
+  
+  <!-- Cheese -->
+  <path d="M222 238 L278 238 L275 242 L225 242 Z" fill="#FFC107"/>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="250" cy="248" rx="30" ry="12" fill="#D2B48C"/>
+  <ellipse cx="250" cy="246" rx="25" ry="8" fill="#E6C5A0"/>
+  
+  <!-- Hand holding burger -->
+  <ellipse cx="250" cy="265" rx="20" ry="15" fill="#F8D5B7"/>
+  <rect x="235" y="275" width="30" height="30" fill="#F8D5B7" rx="5"/>
+  
+  <!-- Collar/Neck -->
+  <path d="M120 260 L200 300 L280 260 L260 280 L200 320 L140 280 Z" fill="#000080"/>
+  
+  <!-- Signature dots (Warhol style) -->
+  <circle cx="150" cy="120" r="5" fill="#FF0000"/>
+  <circle cx="250" cy="120" r="5" fill="#00FF00"/>
+  <circle cx="200" cy="320" r="5" fill="#FF00FF"/>
+</svg>

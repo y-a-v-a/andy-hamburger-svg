@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+
+  <!-- Table -->
+  <rect x="200" y="500" width="400" height="20" fill="#8B4513"/>
+  <rect x="210" y="450" width="380" height="50" fill="#A0522D"/>
+
+  <!-- Chair -->
+  <rect x="250" y="420" width="30" height="80" fill="#8B4513"/>
+  <rect x="350" y="420" width="30" height="80" fill="#8B4513"/>
+  <rect x="450" y="420" width="30" height="80" fill="#8B4513"/>
+  <rect x="300" y="380" width="200" height="20" fill="#8B4513"/>
+
+  <!-- Andy Warhol -->
+  <!-- Body -->
+  <ellipse cx="400" cy="380" rx="60" ry="100" fill="#FFDAB9"/>
+  <rect x="340" y="320" width="120" height="60" fill="#FFDAB9"/> <!-- Neck -->
+
+  <!-- Head -->
+  <circle cx="400" cy="250" r="80" fill="#FFDAB9"/>
+
+  <!-- Hair -->
+  <path d="M320 250 C320 190, 480 190, 480 250 L480 220 C480 160, 320 160, 320 220 Z" fill="#000000"/>
+
+  <!-- Glasses -->
+  <ellipse cx="360" cy="250" rx="30" ry="20" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  <ellipse cx="440" cy="250" rx="30" ry="20" fill="#FFFFFF" stroke="#000" stroke-width="3"/>
+  <line x1="390" y1="250" x2="410" y2="250" stroke="#000" stroke-width="3"/>
+
+  <!-- Mustache -->
+  <path d="M360 280 Q400 300 440 280" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Arms -->
+  <path d="M340 380 Q300 420 280 440" fill="none" stroke="#FFDAB9" stroke-width="30" stroke-linecap="round"/>
+  <path d="M460 380 Q500 420 520 440" fill="none" stroke="#FFDAB9" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- Hand holding burger -->
+  <path d="M280 440 Q260 470 240 490" fill="none" stroke="#FFDAB9" stroke-width="30" stroke-linecap="round"/>
+  
+  <!-- Hamburger in hand -->
+  <g transform="translate(240 490)">
+    <!-- Top Bun -->
+    <ellipse cx="0" cy="-20" rx="40" ry="15" fill="#D2B48C" stroke="#000" stroke-width="2"/>
+    <!-- Sesame Seeds -->
+    <circle cx="-20" cy="-22" r="3" fill="#FFF8DC"/>
+    <circle cx="0" cy="-25" r="3" fill="#FFF8DC"/>
+    <circle cx="20" cy="-20" r="3" fill="#FFF8DC"/>
+    
+    <!-- Lettuce -->
+    <ellipse cx="0" cy="0" rx="35" ry="8" fill="#90EE90" stroke="#228B22" stroke-width="1"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="15" rx="35" ry="8" fill="#FF6347" stroke="#8B0000" stroke-width="1"/>
+    
+    <!-- Cheese -->
+    <ellipse cx="0" cy="30" rx="35" ry="5" fill="#FFF8DC" stroke="#DEB887" stroke-width="1"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="40" rx="35" ry="10" fill="#8B4513" stroke="#000" stroke-width="1"/>
+    
+    <!-- Bottom Bun -->
+    <ellipse cx="0" cy="60" rx="40" ry="15" fill="#D2B48C" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Soda Can (optional) -->
+  <rect x="550" y="460" width="40" height="60" rx="10" fill="#FF4500" stroke="#000" stroke-width="2"/>
+  <rect x="560" y="470" width="20" height="30" rx="5" fill="#FFFAF0" stroke="#000" stroke-width="1"/>
+  <text x="565" y="500" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">C</text>
+
+  <!-- Speech Bubble (optional) -->
+  <path d="M600 150 Q650 100 700 150 Q650 200 600 150 Z" fill="white" stroke="#000"/>
+  <text x="650" y="140" font-family="Arial" font-size="18" fill="#000" text-anchor="middle">Mmm!</text>
+</svg>
