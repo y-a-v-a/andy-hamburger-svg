@@ -1,0 +1,74 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Definitions for gradients or patterns (kept simple for static look) -->
+  <style>
+    .outline { stroke: black; stroke-width: 4; fill: none; }
+    .fill-pop { stroke: black; stroke-width: 2; }
+    .bg { fill: #FF0099; }
+  </style>
+
+  <!-- Background (Cyan/Blue) -->
+  <rect width="500" height="500" fill="#00FFFF" />
+
+  <!-- Character Group -->
+  <g transform="translate(250, 250)">
+    
+    <!-- Suit -->
+    <path d="M-100,250 L100,250 L80,400 L-80,400 Z" class="fill-pop" fill="#000000" />
+
+    <!-- Hand Holding Burger -->
+    <circle cx="-40" cy="200" r="25" class="fill-pop" fill="#FFCC99" />
+    <line x1="-40" y1="225" x2="-60" y2="250" stroke="black" stroke-width="4" />
+
+    <!-- Hamburger -->
+    <g transform="translate(-20, 200) rotate(-10)">
+      <!-- Bottom Bun -->
+      <ellipse cx="0" cy="40" rx="30" ry="10" class="fill-pop" fill="#D2691E" />
+      <!-- Cheese -->
+      <rect x="-28" y="25" width="56" height="10" class="fill-pop" fill="#FFFF00" rx="5" />
+      <!-- Patty -->
+      <rect x="-30" y="15" width="60" height="12" class="fill-pop" fill="#8B4513" rx="5" />
+      <!-- Lettuce -->
+      <path d="M-30,10 Q0,5 30,10 L25,18 Q0,10 -25,18 Z" class="fill-pop" fill="#00FF00" />
+      <!-- Top Bun -->
+      <ellipse cx="0" cy="0" rx="30" ry="10" class="fill-pop" fill="#D2691E" />
+      <circle cx="0" cy="-2" r="5" fill="#D2691E" />
+      <circle cx="10" cy="-5" r="4" fill="#D2691E" />
+      <circle cx="-8" cy="-3" r="3" fill="#D2691E" />
+    </g>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-50" rx="50" ry="60" class="fill-pop" fill="#FFCC99" />
+
+    <!-- Hair (Warhol Stripes) -->
+    <g class="outline" fill="white">
+      <rect x="-55" y="-90" width="110" height="10" fill="#000000" />
+      <rect x="-55" y="-80" width="110" height="10" fill="#FFCC99" />
+      <rect x="-55" y="-70" width="110" height="10" fill="#000000" />
+      <rect x="-55" y="-60" width="110" height="10" fill="#FFCC99" />
+      <rect x="-55" y="-50" width="110" height="10" fill="#000000" />
+      <!-- Sides -->
+      <rect x="-60" y="-100" width="10" height="60" fill="#000000" />
+      <rect x="50" y="-100" width="10" height="60" fill="#000000" />
+    </g>
+
+    <!-- Face Features (Silkscreen Style) -->
+    <circle cx="-15" cy="-55" r="6" fill="#000000" /> <!-- Left Eye -->
+    <circle cx="15" cy="-55" r="6" fill="#000000" />  <!-- Right Eye -->
+    <line x1="-20" y1="-50" x2="-10" y2="-45" stroke="black" stroke-width="3" /> <!-- Left Brow -->
+    <line x1="10" y1="-50" x2="20" y2="-45" stroke="black" stroke-width="3" />   <!-- Right Brow -->
+    
+    <!-- Nose -->
+    <line x1="0" y1="-50" x2="0" y2="-30" stroke="black" stroke-width="2" />
+    <circle cx="-5" cy="-32" r="2" fill="black" />
+    <circle cx="5" cy="-32" r="2" fill="black" />
+
+    <!-- Mouth -->
+    <path d="M-10,-25 Q0,-30 10,-25" fill="none" stroke="black" stroke-width="3" stroke-linecap="round" />
+
+    <!-- Glasses (Warhol Signature) -->
+    <ellipse cx="-15" cy="-55" rx="12" ry="10" fill="none" stroke="black" stroke-width="3" />
+    <ellipse cx="15" cy="-55" rx="12" ry="10" fill="none" stroke="black" stroke-width="3" />
+    <line x1="-27" y1="-55" x2="-40" y2="-55" stroke="black" stroke-width="3" />
+    <line x1="27" y1="-55" x2="40" y2="-55" stroke="black" stroke-width="3" />
+  </g>
+</svg>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#1a1a1a"/>
+  
+  <!-- 2x2 Grid of Warhol portraits, each in different colors -->
+  
+  <!-- TOP LEFT - Pink/Yellow -->
+  <g transform="translate(0,0)">
+    <rect x="10" y="10" width="385" height="385" fill="#FF6B9D"/>
+    <!-- Face -->
+    <ellipse cx="202" cy="220" rx="110" ry="125" fill="#FDB9C8"/>
+    <!-- Hair (white/silver) -->
+    <path d="M 100 180 Q 95 100 150 85 Q 200 70 250 85 Q 305 100 305 175 Q 305 140 280 130 Q 250 120 200 125 Q 150 130 130 145 Q 105 165 100 180 Z" fill="#E8E8E8"/>
+    <!-- Glasses -->
+    <circle cx="165" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <circle cx="240" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <line x1="193" y1="220" x2="212" y2="220" stroke="#000" stroke-width="4"/>
+    <!-- Eyes -->
+    <circle cx="165" cy="220" r="6" fill="#000"/>
+    <circle cx="240" cy="220" r="6" fill="#000"/>
+    <!-- Nose -->
+    <path d="M 200 235 Q 195 260 200 270" stroke="#000" stroke-width="2" fill="none"/>
+    <!-- Mouth eating burger -->
+    <ellipse cx="200" cy="295" rx="35" ry="15" fill="#8B0000"/>
+    <!-- Hamburger -->
+    <g transform="translate(200, 330)">
+      <!-- Top bun -->
+      <ellipse cx="0" cy="-20" rx="55" ry="22" fill="#F4A460"/>
+      <ellipse cx="0" cy="-25" rx="55" ry="18" fill="#D2691E"/>
+      <!-- Sesame seeds -->
+      <ellipse cx="-20" cy="-30" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="15" cy="-32" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="-5" cy="-28" rx="3" ry="2" fill="#FFF8DC"/>
+      <!-- Lettuce -->
+      <path d="M -55 -5 Q -40 5 -25 -5 Q -10 5 5 -5 Q 20 5 35 -5 Q 50 5 55 -5" fill="#7CFC00" stroke="#228B22" stroke-width="1"/>
+      <!-- Cheese -->
+      <rect x="-58" y="0" width="116" height="8" fill="#FFD700"/>
+      <!-- Patty -->
+      <ellipse cx="0" cy="12" rx="55" ry="10" fill="#654321"/>
+      <!-- Bottom bun -->
+      <ellipse cx="0" cy="22" rx="55" ry="12" fill="#D2691E"/>
+    </g>
+    <!-- Hand -->
+    <ellipse cx="135" cy="340" rx="20" ry="15" fill="#FDB9C8" stroke="#000" stroke-width="2"/>
+    <!-- Title text -->
+    <text x="202" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">CHOMP</text>
+  </g>
+  
+  <!-- TOP RIGHT - Blue/Orange -->
+  <g transform="translate(400,0)">
+    <rect x="5" y="10" width="385" height="385" fill="#4ECDC4"/>
+    <!-- Face -->
+    <ellipse cx="202" cy="220" rx="110" ry="125" fill="#FFE4B5"/>
+    <!-- Hair -->
+    <path d="M 100 180 Q 95 100 150 85 Q 200 70 250 85 Q 305 100 305 175 Q 305 140 280 130 Q 250 120 200 125 Q 150 130 130 145 Q 105 165 100 180 Z" fill="#F0F0F0"/>
+    <!-- Glasses -->
+    <circle cx="165" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <circle cx="240" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <line x1="193" y1="220" x2="212" y2="220" stroke="#000" stroke-width="4"/>
+    <!-- Eyes -->
+    <circle cx="165" cy="220" r="6" fill="#000"/>
+    <circle cx="240" cy="220" r="6" fill="#000"/>
+    <!-- Nose -->
+    <path d="M 200 235 Q 195 260 200 270" stroke="#000" stroke-width="2" fill="none"/>
+    <!-- Mouth -->
+    <ellipse cx="200" cy="295" rx="35" ry="15" fill="#8B0000"/>
+    <!-- Hamburger -->
+    <g transform="translate(200, 330)">
+      <ellipse cx="0" cy="-20" rx="55" ry="22" fill="#F4A460"/>
+      <ellipse cx="0" cy="-25" rx="55" ry="18" fill="#D2691E"/>
+      <ellipse cx="-20" cy="-30" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="15" cy="-32" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="-5" cy="-28" rx="3" ry="2" fill="#FFF8DC"/>
+      <path d="M -55 -5 Q -40 5 -25 -5 Q -10 5 5 -5 Q 20 5 35 -5 Q 50 5 55 -5" fill="#7CFC00" stroke="#228B22" stroke-width="1"/>
+      <rect x="-58" y="0" width="116" height="8" fill="#FFD700"/>
+      <ellipse cx="0" cy="12" rx="55" ry="10" fill="#654321"/>
+      <ellipse cx="0" cy="22" rx="55" ry="12" fill="#D2691E"/>
+    </g>
+    <!-- Hand -->
+    <ellipse cx="135" cy="340" rx="20" ry="15" fill="#FFE4B5" stroke="#000" stroke-width="2"/>
+    <text x="202" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">YUM</text>
+  </g>
+  
+  <!-- BOTTOM LEFT - Yellow/Purple -->
+  <g transform="translate(0,400)">
+    <rect x="10" y="5" width="385" height="385" fill="#FFD93D"/>
+    <!-- Face -->
+    <ellipse cx="202" cy="220" rx="110" ry="125" fill="#FFB6C1"/>
+    <!-- Hair -->
+    <path d="M 100 180 Q 95 100 150 85 Q 200 70 250 85 Q 305 100 305 175 Q 305 140 280 130 Q 250 120 200 125 Q 150 130 130 145 Q 105 165 100 180 Z" fill="#FAFAFA"/>
+    <!-- Glasses -->
+    <circle cx="165" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <circle cx="240" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <line x1="193" y1="220" x2="212" y2="220" stroke="#000" stroke-width="4"/>
+    <!-- Eyes -->
+    <circle cx="165" cy="220" r="6" fill="#000"/>
+    <circle cx="240" cy="220" r="6" fill="#000"/>
+    <!-- Nose -->
+    <path d="M 200 235 Q 195 260 200 270" stroke="#000" stroke-width="2" fill="none"/>
+    <!-- Mouth -->
+    <ellipse cx="200" cy="295" rx="35" ry="15" fill="#8B0000"/>
+    <!-- Hamburger -->
+    <g transform="translate(200, 330)">
+      <ellipse cx="0" cy="-20" rx="55" ry="22" fill="#F4A460"/>
+      <ellipse cx="0" cy="-25" rx="55" ry="18" fill="#D2691E"/>
+      <ellipse cx="-20" cy="-30" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="15" cy="-32" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="-5" cy="-28" rx="3" ry="2" fill="#FFF8DC"/>
+      <path d="M -55 -5 Q -40 5 -25 -5 Q -10 5 5 -5 Q 20 5 35 -5 Q 50 5 55 -5" fill="#7CFC00" stroke="#228B22" stroke-width="1"/>
+      <rect x="-58" y="0" width="116" height="8" fill="#FFD700"/>
+      <ellipse cx="0" cy="12" rx="55" ry="10" fill="#654321"/>
+      <ellipse cx="0" cy="22" rx="55" ry="12" fill="#D2691E"/>
+    </g>
+    <!-- Hand -->
+    <ellipse cx="135" cy="340" rx="20" ry="15" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+    <text x="202" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">MUNCH</text>
+  </g>
+  
+  <!-- BOTTOM RIGHT - Green/Pink -->
+  <g transform="translate(400,400)">
+    <rect x="5" y="5" width="385" height="385" fill="#C589E8"/>
+    <!-- Face -->
+    <ellipse cx="202" cy="220" rx="110" ry="125" fill="#FFC0CB"/>
+    <!-- Hair -->
+    <path d="M 100 180 Q 95 100 150 85 Q 200 70 250 85 Q 305 100 305 175 Q 305 140 280 130 Q 250 120 200 125 Q 150 130 130 145 Q 105 165 100 180 Z" fill="#FFFFFF"/>
+    <!-- Glasses -->
+    <circle cx="165" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <circle cx="240" cy="220" r="28" fill="none" stroke="#000" stroke-width="4"/>
+    <line x1="193" y1="220" x2="212" y2="220" stroke="#000" stroke-width="4"/>
+    <!-- Eyes -->
+    <circle cx="165" cy="220" r="6" fill="#000"/>
+    <circle cx="240" cy="220" r="6" fill="#000"/>
+    <!-- Nose -->
+    <path d="M 200 235 Q 195 260 200 270" stroke="#000" stroke-width="2" fill="none"/>
+    <!-- Mouth -->
+    <ellipse cx="200" cy="295" rx="35" ry="15" fill="#8B0000"/>
+    <!-- Hamburger -->
+    <g transform="translate(200, 330)">
+      <ellipse cx="0" cy="-20" rx="55" ry="22" fill="#F4A460"/>
+      <ellipse cx="0" cy="-25" rx="55" ry="18" fill="#D2691E"/>
+      <ellipse cx="-20" cy="-30" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="15" cy="-32" rx="3" ry="2" fill="#FFF8DC"/>
+      <ellipse cx="-5" cy="-28" rx="3" ry="2" fill="#FFF8DC"/>
+      <path d="M -55 -5 Q -40 5 -25 -5 Q -10 5 5 -5 Q 20 5 35 -5 Q 50 5 55 -5" fill="#7CFC00" stroke="#228B22" stroke-width="1"/>
+      <rect x="-58" y="0" width="116" height="8" fill="#FFD700"/>
+      <ellipse cx="0" cy="12" rx="55" ry="10" fill="#654321"/>
+      <ellipse cx="0" cy="22" rx="55" ry="12" fill="#D2691E"/>
+    </g>
+    <!-- Hand -->
+    <ellipse cx="135" cy="340" rx="20" ry="15" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+    <text x="202" y="380" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#000" text-anchor="middle">NOM</text>
+  </g>
+  
+  <!-- Title at top -->
+  <text x="400" y="795" font-family="Arial Black, sans-serif" font-size="14" font-weight="bold" fill="#FFF" text-anchor="middle" letter-spacing="2">ANDY WARHOL: THE BURGER SERIES, 2024</text>
+</svg>

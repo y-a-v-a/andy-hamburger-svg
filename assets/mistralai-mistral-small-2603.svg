@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background with Warhol-style drips and splashes -->
+  <defs>
+    <pattern id="dripPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <path d="M0,10 Q5,0 10,10 Q15,20 20,10 Q25,0 30,10 Q35,20 40,10" fill="none" stroke="#ff00ff" stroke-width="1.5"/>
+      <path d="M0,20 Q5,30 10,20 Q15,10 20,20 Q25,30 30,20 Q35,10 40,20" fill="none" stroke="#00ffff" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="400" height="300" fill="#1a1a1a"/>
+
+  <!-- Drips and splashes -->
+  <rect width="400" height="300" fill="url(#dripPattern)" opacity="0.3"/>
+
+  <!-- Hamburguer (Warhol-style) -->
+  <g id="burger">
+    <!-- Bun top -->
+    <ellipse cx="250" cy="180" rx="80" ry="25" fill="#f5f0d8" stroke="#333" stroke-width="2"/>
+    <ellipse cx="250" cy="180" rx="75" ry="22" fill="#e6d6ad" stroke="#333" stroke-width="1"/>
+
+    <!-- Patty -->
+    <ellipse cx="250" cy="180" rx="65" ry="18" fill="#8B4513" stroke="#333" stroke-width="1"/>
+    <path d="M185,175 Q220,165 250,175 Q280,185 315,175" fill="#ffffff" opacity="0.1"/>
+
+    <!-- Cheese -->
+    <ellipse cx="250" cy="180" rx="55" ry="15" fill="#ffd700" stroke="#333" stroke-width="1"/>
+
+    <!-- Lettuce -->
+    <ellipse cx="250" cy="180" rx="50" ry="12" fill="#7cfc00" stroke="#333" stroke-width="1"/>
+
+    <!-- Tomato -->
+    <ellipse cx="250" cy="180" rx="45" ry="10" fill="#ff6347" stroke="#333" stroke-width="1"/>
+
+    <!-- Bun bottom -->
+    <ellipse cx="250" cy="185" rx="85" ry="25" fill="#f5f0d8" stroke="#333" stroke-width="2"/>
+    <ellipse cx="250" cy="185" rx="80" ry="22" fill="#e6d6ad" stroke="#333" stroke-width="1"/>
+
+    <!-- Sesame seeds -->
+    <g fill="#f5d547">
+      <circle cx="210" cy="175" r="1.5"/>
+      <circle cx="290" cy="175" r="1.5"/>
+      <circle cx="230" cy="175" r="1.5"/>
+      <circle cx="270" cy="175" r="1.5"/>
+      <circle cx="210" cy="185" r="1.5"/>
+      <circle cx="290" cy="185" r="1.5"/>
+    </g>
+  </g>
+
+  <!-- Andy Warhol's face (Andy's signature wig and sunglasses) -->
+  <g id="andy-face">
+    <!-- Hair (pop-art colored) -->
+    <ellipse cx="150" cy="140" rx="60" ry="40" fill="#9900ff"/>
+
+    <!-- Sideburns -->
+    <path d="M100,150 Q90,140 80,150 Q70,160 60,150" fill="#9900ff"/>
+    <path d="M200,150 Q210,140 220,150 Q230,160 240,150" fill="#9900ff"/>
+
+    <!-- Face -->
+    <ellipse cx="150" cy="140" rx="40" ry="45" fill="#ffe8e8"/>
+
+    <!-- Sunglasses -->
+    <rect x="110" y="130" width="80" height="25" rx="12" fill="#000000"/>
+    <rect x="125" y="140" width="15" height="25" rx="7" fill="#000000"/>
+    <rect x="160" y="140" width="15" height="25" rx="7" fill="#000000"/>
+
+    <!-- Nose -->
+    <ellipse cx="150" cy="145" rx="8" ry="12" fill="#ffe8e8"/>
+
+    <!-- Mouth (warhol eating burger) -->
+    <path d="M135,165 Q150,170 165,165" stroke="#cc0000" stroke-width="3" fill="none"/>
+    <path d="M130,160 Q145,155 160,160" stroke="#cc0000" stroke-width="2" fill="none"/>
+
+    <!-- Hand holding burger -->
+    <path d="M120,190 Q100,170 80,180 Q60,190 70,210" stroke="#ffe8e8" stroke-width="8" fill="none"/>
+    <path d="M120,190 Q110,200 115,220" stroke="#ffe8e8" stroke-width="10" fill="none"/>
+  </g>
+
+  <!-- Warhol's signature stamp -->
+  <text x="320" y="290" font-family="Courier New" font-size="12" fill="#ff00ff">© ANDY WARHOL 1960s</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bright pop yellow background, classic Warhol color palette -->
+  <rect width="400" height="400" fill="#FFEB3B" stroke="#000" stroke-width="4"/>
+  
+  <!-- Playful pop art accent dots in corners, a nod to Warhol's repetitive bold color blocks -->
+  <circle cx="30" cy="30" r="15" fill="#FF5722"/>
+  <circle cx="370" cy="30" r="12" fill="#2196F3"/>
+  <circle cx="30" cy="370" r="10" fill="#4CAF50"/>
+  <circle cx="370" cy="370" r="18" fill="#E91E63"/>
+  
+  <!-- Dark shirt (Warhol's signature turtleneck/blazer) -->
+  <path d="M125,210 C125,200 150,190 200,190 C250,190 275,200 275,210 L280,400 L120,400 Z" 
+        fill="#1A1A1A" stroke="#000" stroke-width="3"/>
+  <!-- Small white napkin peeking from collar for natural detail -->
+  <path d="M200,195 L210,210 L190,210 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bleached silver short hair, Warhol's iconic look -->
+  <path d="M125,130 C125,70 160,40 200,40 C240,40 275,70 275,130 L270,110 
+           C270,80 240,60 200,60 C160,60 130,80 130,110 Z" 
+        fill="#E0E0E0" stroke="#000" stroke-width="3"/>
+  
+  <!-- Pale skin face -->
+  <ellipse cx="200" cy="140" rx="70" ry="85" 
+           fill="#FFE4C4" stroke="#000" stroke-width="3"/>
+  
+  <!-- Minimal facial features -->
+  <path d="M155,110 Q165,105 175,110" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <path d="M225,110 Q235,105 245,110" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="165" cy="125" rx="8" ry="5" fill="#000"/>
+  <ellipse cx="235" cy="125" rx="8" ry="5" fill="#000"/>
+  <path d="M200,140 Q205,155 200,160 Q195,155 200,140" fill="#C0A080" stroke="#000" stroke-width="2"/>
+  <path d="M180,175 Q200,185 220,175" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right hand holding the burger -->
+  <path d="M80,280 C70,270 60,260 50,250 L40,240 C35,235 30,230 25,225 
+           L20,220 C15,218 10,215 5,212 L0,210 V400 H80 Z" 
+        fill="#FFE4C4" stroke="#000" stroke-width="3"/>
+  <!-- Fingers wrapped around the bun -->
+  <path d="M40,220 Q30,210 20,200" fill="none" stroke="#FFE4C4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M30,225 Q20,215 10,205" fill="none" stroke="#FFE4C4" stroke-width="8" stroke-linecap="round"/>
+  <path d="M20,230 Q10,220 0,210" fill="none" stroke="#FFE4C4" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Classic hamburger, aligned with Warhol's focus on American consumer icons -->
+  <ellipse cx="180" cy="220" rx="55" ry="20" fill="#D2691E" stroke="#000" stroke-width="3"/>
+  <ellipse cx="180" cy="205" rx="50" ry="18" fill="#8B4513" stroke="#000" stroke-width="3"/>
+  <path d="M130,205 C130,200 140,195 180,195 C220,195 230,200 230,205 L230,210 
+           C230,215 220,210 180,210 C140,210 130,215 130,210 Z" 
+        fill="#FFA500" stroke="#000" stroke-width="3"/>
+  <ellipse cx="180" cy="192" rx="45" ry="12" fill="#FF0000" stroke="#000" stroke-width="3"/>
+  <path d="M135,190 C140,185 150,182 160,188 C170,194 180,180 190,188 
+           C200,194 210,182 220,188 C225,190 230,192 225,195 
+           C220,198 210,195 200,190 C190,185 180,195 170,190 
+           C160,185 150,195 140,190 C135,188 130,190 135,190 Z" 
+        fill="#228B22" stroke="#000" stroke-width="3"/>
+  <ellipse cx="180" cy="175" rx="55" ry="20" fill="#DAA520" stroke="#000" stroke-width="3"/>
+  <!-- Sesame seeds -->
+  <circle cx="160" cy="170" r="3" fill="#FFF"/>
+  <circle cx="190" cy="168" r="3" fill="#FFF"/>
+  <circle cx="175" cy="172" r="2" fill="#FFF"/>
+  <circle cx="205" cy="173" r="2" fill="#FFF"/>
+  <circle cx="150" cy="174" r="2" fill="#FFF"/>
+  
+  <!-- Playful signature nod -->
+  <text x="350" y="390" font-family="Arial, sans-serif" font-size="12" fill="#000" text-anchor="end">AW '24</text>
+</svg>

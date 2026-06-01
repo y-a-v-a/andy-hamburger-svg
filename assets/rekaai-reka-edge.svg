@@ -1,0 +1,23 @@
+<svg width="800" height="600">
+  <!-- Body -->
+  <rect x="100" y="100" width="200" height="300" fill="red"/>
+  <text x="120" y="150" font-family="Times New Roman" font-size="30" text-transform="none">
+    Andy Warhol
+  </text>
+  
+  <!-- Pop Art -->
+  <g d="m" r="45" x="100" y="100" xvol="0" yvol="0">
+    <text x="110" y="150" font-family="Times New Roman" font-size="30" text-transform="none">
+      Pop Art
+    </text>
+  </g>
+  
+  <!-- Icon -->
+  <circle cx="200" cy="200" r="30" fill="yellow" text="Burger">
+  </circle>
+  
+  <!-- Text -->
+  <text x="230" y="200" font-family="Times New Roman" font-size="40" text-transform="none">
+    HappyBurger
+  </text>
+</svg>

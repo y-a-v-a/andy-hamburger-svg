@@ -1,0 +1,95 @@
+<svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Halftone pattern -->
+    <pattern id="halftone" x="0" y="0" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.5" fill="#000000"/>
+    </pattern>
+    
+    <!-- Brown circle for bun -->
+    <radialGradient id="bunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5C3000;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="600" fill="#000000"/>
+  
+  <!-- Warhol Hansel Style Face -->
+  <circle cx="300" cy="280" r="120" fill="#FFD700" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Dark eyeliner -->
+  <circle cx="250" cy="270" r="30" fill="none" stroke="#000000" stroke-width="8"/>
+  <circle cx="350" cy="270" r="30" fill="none" stroke="#000000" stroke-width="8"/>
+  
+  <!-- Eyes -->
+  <circle cx="265" cy="270" r="15" fill="#000000"/>
+  <circle cx="335" cy="270" r="15" fill="#000000"/>
+  
+  <!-- Warhol Eyeglasses -->
+  <ellipse cx="300" cy="285" rx="100" ry="25" fill="#000000"/>
+  <line x1="260" y1="285" x2="340" y2="285" stroke="#000000" stroke-width="8"/>
+  <circle cx="290" cy="285" r="5" fill="#CCCCCC"/>
+  <circle cx="310" cy="285" r="5" fill="#CCCCCC"/>
+  
+  <!-- Nose -->
+  <polygon points="295,315 300,340 305,315" fill="#FFFFFF"/>
+  
+  <!-- Mouth -->
+  <path d="M 270,345 Q 300,375 330,345" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Halftone nose area -->
+  <rect x="260" y="315" width="80" height="40" fill="url(#halftone)"/>
+  
+  <!-- Warhol's Signature Straight Hair -->
+  <path d="M 160,180 L 150,150 L 180,150 L 200,185 L 230,185 L 250,200 L 280,185 L 310,185 L 340,200 L 370,185 L 400,185 L 420,150 L 450,150 L 440,180 Z" 
+        fill="#000000" stroke="#000000" stroke-width="4"/>
+  
+  <!-- Shoulder White Lines -->
+  <path d="M 190,380 L 220,400 L 380,380 L 360,400" fill="none" stroke="#FFFFFF" stroke-width="6"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(300, 450)">
+    <!-- Bottom Bun -->
+    <ellipse cx="0" cy="-50" rx="60" ry="35" fill="url(#bunGrad)" stroke="#8B4513" stroke-width="2"/>
+    
+    <!-- Bottom Lettuce -->
+    <path d="M -35,-35 Q -25,-60 -15,-65 Q 0,-70 15,-65 Q 25,-60 35,-35" fill="#32CD32"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="-80" rx="50" ry="25" fill="#654321" stroke="#3D2817" stroke-width="1"/>
+    
+    <!-- Middle Bun -->
+    <ellipse cx="0" cy="-115" rx="58" ry="32" fill="#8B4513" stroke="#5C3000" stroke-width="2"/>
+    
+    <!-- Cheese -->
+    <ellipse cx="0" cy="-118" rx="56" ry="10" fill="#FFE842" stroke="#DAA520" stroke-width="1"/>
+    
+    <!-- Top Bun -->
+    <ellipse cx="0" cy="-145" rx="60" ry="35" fill="#8B4513" stroke="#5C3000" stroke-width="2"/>
+    
+    <!-- Ketchup on top bun -->
+    <path d="M -65,-140 Q -40,-160 -25,-165 Q -5,-160 20,-165 Q 40,-160 55,-140 L 30,-160 L 55,-145 L 30,-165 Z" fill="#FF0000"/>
+    
+    <!-- Signature lines on bun -->
+    <line x1="-55" y1="-145" x2="-55" y2="-140" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="20" y1="-145" x2="20" y2="-140" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="-30" y1="-145" x2="-25" y2="-140" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  
+  <!-- Speech Bubble Lines -->
+  <path d="M 200,350 L 230,350" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M 230,350 L 260,350 L 260,370 L 240,370 L 240,360 Z" fill="#FFFFFF"/>
+  
+  <!-- Artistic texture elements -->
+  <circle cx="150" cy="450" r="15" fill="#000000" opacity="0.5"/>
+  <circle cx="450" cy="480" r="10" fill="#000000" opacity="0.3"/>
+  <circle cx="350" cy="200" r="8" fill="#000000" opacity="0.4"/>
+  
+  <!-- Title/Signature -->
+  <text x="100" y="550" 
+        fill="#FFD700" font-family="Arial, Helvetica, sans-serif" 
+        font-size="18" font-weight="bold">
+    ANDY WARHOL
+  </text>
+</svg>

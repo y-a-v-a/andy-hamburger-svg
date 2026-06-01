@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Background: Vibrant Pop Art Cyan -->
+  <rect width="400" height="500" fill="#00FFFF" />
+
+  <!-- Definitions for Reuse -->
+  <defs>
+    <filter id="dropShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(50, 50)" filter="url(#dropShadow)">
+    
+    <!-- Hair (The iconic white wig) -->
+    <path d="M100,120 C80,120 70,150 70,200 C70,280 90,320 100,330 L100,120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <path d="M200,120 C220,120 230,150 230,200 C230,280 210,320 200,330 L200,120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <path d="M100,120 L200,120 C220,100 180,80 150,80 C120,80 80,100 100,120 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+    <path d="M100,330 L200,330 C190,350 140,350 130,330 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+
+    <!-- Face -->
+    <ellipse cx="150" cy="200" rx="60" ry="80" fill="#FFD1DC" stroke="#000000" stroke-width="3"/>
+
+    <!-- Sunglasses (Iconic look) -->
+    <rect x="105" y="180" width="40" height="25" rx="5" fill="#000000" stroke="#000000" stroke-width="2"/>
+    <rect x="155" y="180" width="40" height="25" rx="5" fill="#000000" stroke="#000000" stroke-width="2"/>
+    <line x1="145" y1="192" x2="155" y2="192" stroke="#000000" stroke-width="2"/>
+
+    <!-- Mouth -->
+    <path d="M135,250 Q150,260 165,250" fill="none" stroke="#000000" stroke-width="2"/>
+    <path d="M135,250 L165,250 L160,260 Q150,265 140,260 Z" fill="#FF0000" stroke="#000000" stroke-width="2"/>
+
+    <!-- The Hamburger -->
+    <g transform="translate(110, 250)">
+      <!-- Bottom Bun -->
+      <path d="M0,0 Q40,-10 80,0 L80,10 Q40,15 0,10 Z" fill="#E0995E" stroke="#000000" stroke-width="3"/>
+      <!-- Lettuce -->
+      <path d="M5,10 Q15,20 25,10 Q35,20 45,10 Q55,20 65,10 Q75,20 80,10" fill="#00AA00" stroke="#000000" stroke-width="2"/>
+      <!-- Cheese -->
+      <rect x="0" y="10" width="80" height="10" fill="#FFCC00" stroke="#000000" stroke-width="2"/>
+      <!-- Patty -->
+      <rect x="5" y="15" width="70" height="15" fill="#5C3A21" stroke="#000000" stroke-width="2"/>
+      <!-- Top Bun -->
+      <path d="M0,30 Q40,70 80,30 L80,35 Q40,75 0,35 Z" fill="#E0995E" stroke="#000000" stroke-width="3"/>
+      <!-- Sesame Seeds -->
+      <circle cx="20" cy="40" r="2" fill="#FFF8DC" stroke="#000000" stroke-width="1"/>
+      <circle cx="40" cy="35" r="2" fill="#FFF8DC" stroke="#000000" stroke-width="1"/>
+      <circle cx="60" cy="42" r="2" fill="#FFF8DC" stroke="#000000" stroke-width="1"/>
+    </g>
+
+    <!-- Hands holding the burger -->
+    <path d="M80,350 Q70,320 100,300" fill="none" stroke="#FFD1DC" stroke-width="15" stroke-linecap="round"/>
+    <path d="M220,350 Q230,320 200,300" fill="none" stroke="#FFD1DC" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="95" cy="300" r="10" fill="#FFD1DC" stroke="#000000" stroke-width="2"/>
+    <circle cx="205" cy="300" r="10" fill="#FFD1DC" stroke="#000000" stroke-width="2"/>
+
+  </g>
+  
+  <!-- Pop Art Text -->
+  <text x="200" y="480" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#000000" text-anchor="middle">WARHOL</text>
+</svg>

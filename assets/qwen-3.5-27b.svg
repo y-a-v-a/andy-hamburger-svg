@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#f4f4f4"/>
+  
+  <!-- Title/Description -->
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>A Pop Art style vector illustration of Andy Warhol.</desc>
+
+  <!-- Warhol's Suit (Back Layer) -->
+  <path d="M150 350 L250 450 L350 350 L350 500 L150 500 Z" fill="#1a1a1a"/>
+  
+  <!-- Warhol's Shirt -->
+  <path d="M210 350 L250 390 L290 350 L290 500 L210 500 Z" fill="#ffffff"/>
+  
+  <!-- Warhol's Tie -->
+  <path d="M240 350 L250 450 L260 350 Z" fill="#ff0055"/>
+
+  <!-- Warhol's Arm -->
+  <path d="M350 350 L400 400 L380 420 L340 380 Z" fill="#ffe0bd"/>
+
+  <!-- The Hamburger -->
+  <g id="burger" transform="translate(360, 380)">
+    <!-- Top Bun -->
+    <ellipse cx="0" cy="-15" rx="35" ry="20" fill="#f5c566"/>
+    <path d="M-35 -15 Q0 -40 35 -15" fill="#f5c566"/>
+    <!-- Sesame Seeds -->
+    <circle cx="-20" cy="-20" r="2" fill="#333"/>
+    <circle cx="0" cy="-25" r="2" fill="#333"/>
+    <circle cx="20" cy="-20" r="2" fill="#333"/>
+    <!-- Lettuce -->
+    <path d="M-30 -5 Q0 10 30 -5 L30 5 Q0 -5 -30 5 Z" fill="#76c900"/>
+    <!-- Tomato -->
+    <ellipse cx="0" cy="5" rx="30" ry="8" fill="#ff4500"/>
+    <!-- Cheese -->
+    <path d="M-30 10 L-30 18 L30 18 L30 10 Z" fill="#ffcc00"/>
+    <!-- Patty -->
+    <ellipse cx="0" cy="18" rx="32" ry="10" fill="#6f4e37"/>
+    <!-- Bottom Bun -->
+    <ellipse cx="0" cy="28" rx="35" ry="15" fill="#f5c566"/>
+  </g>
+
+  <!-- Warhol's Face -->
+  <ellipse cx="250" cy="200" rx="70" ry="85" fill="#ffe0bd"/>
+  
+  <!-- Warhol's Hair (Iconic Blonde Wig) -->
+  <path d="M160 180 Q150 100 250 80 Q350 100 340 180 L340 220 L160 220 Z" fill="#f8f0d0"/>
+  <path d="M160 180 Q250 120 340 180 L340 220 L160 220 Z" fill="#f8f0d0"/>
+  
+  <!-- Warhol's Glasses -->
+  <g fill="#000000">
+    <rect x="190" y="180" width="50" height="25" rx="5"/>
+    <rect x="260" y="180" width="50" height="25" rx="5"/>
+    <rect x="245" y="190" width="10" height="5"/>
+  </g>
+  
+  <!-- Warhol's Nose -->
+  <path d="M250 205 L245 235 L255 235 Z" fill="#dcb896"/>
+  
+  <!-- Warhol's Mouth -->
+  <path d="M230 255 Q250 265 270 255" stroke="#dcb896" stroke-width="3" fill="none"/>
+  
+  <!-- Warhol's Hand (Holding Burger) -->
+  <path d="M380 380 L410 360 L420 390 L390 410 Z" fill="#ffe0bd"/>
+  <path d="M380 380 Q400 350 420 390" fill="none" stroke="#ffe0bd" stroke-width="2"/>
+
+  <!-- Pop Art Outline Effect (Optional) -->
+  <rect width="500" height="500" fill="none" stroke="#000" stroke-width="2"/>
+</svg>

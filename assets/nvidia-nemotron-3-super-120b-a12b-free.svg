@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="400" height="400"
+     viewBox="0 0 400 400"
+     style="background:#fff">
+
+  <!-- Andy Warhol‑style head -->
+  <circle cx="200" cy="150" r="80" fill="#f5deb3" stroke="#333" stroke-width="2"/>
+  <!-- Hair (signature silver‑white wig) -->
+  <path d="M120 110
+           q20 -30 60 0
+           q20 -30 60 0"
+        fill="#e0e0e0" stroke="#333" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="170" cy="140" r="8" fill="#000"/>
+  <circle cx="230" cy="140" r="8" fill="#000"/>
+  <!-- Eyebrows -->
+  <path d="M150 120 q20 -10 40 0" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M210 120 q20 -10 40 0" stroke="#333" stroke-width="2" fill="none"/>
+  <!-- Nose -->
+  <path d="M190 150
+           q5 5 0 10
+           q-5 5 -10 0 Z"
+        fill="#f5deb3" stroke="#333" stroke-width="1"/>
+  <!-- Mouth (smiling, open for bite) -->
+  <path d="M170 180
+           q20 10 40 0
+           q20 -10 40 0"
+        fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <!-- Top bun (with a bite taken out) -->
+  <path d="M260 190
+           a30 20 0 0 1 -60 0
+           l0 -10
+           a30 20 0 0 0 60 0
+           z"
+        fill="#deb887" stroke="#333" stroke-width="2"/>
+  <!-- Bite mark -->
+  <path d="M230 190
+           q10 -15 20 0
+           q10 15 20 0"
+        fill="#fff" stroke="none"/>
+  <!-- Lettuce (green wavy line) -->
+  <path d="M230 195
+           q5 -5 10 0
+           q5 5 10 0
+           q5 -5 10 0
+           q5 5 10 0"
+        fill="none" stroke="#90ee90" stroke-width="4"/>
+  <!-- Patty -->
+  <ellipse cx="230" cy="210" rx="30" ry="12" fill="#8b4513" stroke="#333" stroke-width="2"/>
+  <!-- Bottom bun -->
+  <ellipse cx="230" cy="230" rx="30" ry="12" fill="#deb887" stroke="#333" stroke-width="2"/>
+
+  <!-- Optional: a simple shadow under the figure -->
+  <ellipse cx="200" cy="240" rx="70" ry="10" fill="rgba(0,0,0,0.2)" />
+
+</svg>

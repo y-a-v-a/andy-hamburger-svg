@@ -1,0 +1,85 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: Warhol Style Pop Art Yellow -->
+  <rect x="0" y="0" width="600" height="600" fill="#F7E600" />
+
+  <defs>
+    <!-- Simple Pop Art Outline Style -->
+    <style>
+      .outline { stroke: #000000; stroke-width: 5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-skin { fill: #FFDDB8; }
+      .fill-hair { fill: #D3D3D3; stroke: #000000; stroke-width: 3; }
+      .fill-clothes { fill: #2C2C2C; }
+      .fill-patty { fill: #5D4037; }
+      .fill-bun { fill: #FBC02D; }
+      .fill-lettuce { fill: #7CB342; }
+      .fill-cheese { fill: #FFD54F; }
+      .fill-tomato { fill: #D32F2F; }
+    </style>
+  </defs>
+
+  <!-- GROUP: The Hamburger -->
+  <g id="burger">
+    <!-- Top Bun (Shadow) -->
+    <path d="M420 380 Q 440 350, 470 360 Q 500 380, 480 410" fill="#FBC02D" class="outline"/>
+    <!-- Lettuce -->
+    <path d="M415 390 Q 440 370, 475 395 Q 490 410, 470 420" fill="#7CB342" class="outline" opacity="0.9"/>
+    <!-- Tomato -->
+    <rect x="420" y="410" width="50" height="10" rx="3" fill="#D32F2F" class="outline"/>
+    <!-- Patty -->
+    <rect x="415" y="425" width="60" height="15" rx="3" fill="#5D4037" class="outline"/>
+    <!-- Cheese -->
+    <path d="M420 435 Q 445 440, 470 438" fill="#FFD54F" class="outline" opacity="0.8"/>
+    <!-- Bottom Bun -->
+    <rect x="410" y="440" width="80" height="25" rx="5" fill="#FBC02D" class="outline"/>
+  </g>
+
+  <!-- GROUP: Face -->
+  <rect x="100" y="50" width="400" height="550" /> <!-- Hidden background rect to clear bg if needed -->
+  
+  <!-- Head Shape -->
+  <ellipse cx="300" cy="280" rx="130" ry="150" class="fill-skin" />
+
+  <!-- Neck -->
+  <rect x="320" y="420" width="60" height="80" class="fill-clothes" />
+
+  <!-- Shoulders -->
+  <path d="M230 430 L 300 550 L 370 430 Z" class="fill-clothes" />
+  <path d="M230 430 C 230 500, 200 600, 100 600 L 500 600 C 400 600, 370 500, 370 430 Z" fill="#222222" />
+  <!-- Shirt V Neck -->
+  <path d="M230 430 Q 300 500, 370 430 Z" fill="#000000" />
+
+  <!-- Silver Hair (Bowl Cut Style) -->
+  <path d="M190 200 Q 180 300, 200 220 Q 300 150, 400 220 Q 420 300, 410 200 Q 300 120, 190 200" class="fill-hair"/>
+
+  <!-- Glasses -->
+  <g stroke="#000" stroke-width="4" fill="none">
+    <ellipse cx="250" cy="260" rx="40" ry="25" />
+    <ellipse cx="350" cy="260" rx="40" ry="25" />
+    <line x1="290" y1="260" x2="310" y2="260" stroke-width="4" /> <!-- Bridge -->
+  </g>
+  <!-- Reflections on glasses -->
+  <circle cx="260" cy="250" r="5" fill="white" opacity="0.7" />
+  <circle cx="360" cy="250" r="5" fill="white" opacity="0.7" />
+
+  <!-- Goatee -->
+  <path d="M280 310 h40 v20 a20 20 0 v-20 z" fill="#333333" /> 
+  <!-- Mustache -->
+  <path d="M260 295 q20 10 40 0 q-20 -10 -40 0" fill="#333333" />
+
+  <!-- Ears -->
+  <ellipse cx="175" cy="280" rx="20" ry="25" class="fill-skin" />
+  <ellipse cx="425" cy="280" rx="20" ry="25" class="fill-skin" />
+
+  <!-- Hand Holding Burger -->
+  <g transform="rotate(-30 300 400)">
+      <path d="M300 380 L 320 420 L 350 410" fill="none" stroke="#000" stroke-width="10" stroke-linecap="round" class="fill-skin outline"/>
+      <path d="M410 385 L 440 360" fill="none" stroke="#000" stroke-width="10" stroke-linecap="round" class="fill-skin outline"/>
+  </g>
+  
+  <!-- Shadow on face for flat pop art look -->
+  <path d="M200 300 L 230 350 L 200 400 L 170 350 Z" fill="#D4A388" opacity="0.5" />
+  <path d="M300 300 L 330 350 L 300 400 L 270 350 Z" fill="#D4A388" opacity="0.5" />
+
+  <!-- Pop Art "Campbell's Soup" Text Style (Optional Artistic Signature) -->
+  <text x="300" y="580" font-family="Sans-serif" font-size="24" text-anchor="middle" fill="black" font-weight="bold">W.A.R.</text>
+</svg>
