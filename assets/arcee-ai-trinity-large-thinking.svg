@@ -46,7 +46,7 @@
     <ellipse cx="0" cy="25" rx="5" ry="8" fill="#ffe0bd"/>
     
     <!-- Mouth (eating) -->
-    <ellipse cx="0" cy="40" rx="15" cy="42" rx="10" ry="4" fill="#ff6b6b"/>
+    <ellipse cx="0" cy="40" rx="15" ry="4" fill="#ff6b6b"/>
     
     <!-- Hand holding burger -->
     <ellipse cx="45" cy="30" rx="15" ry="10" fill="#ffe0bd"/>
