@@ -5,7 +5,7 @@
     viewBox="0 0 800 1000"
     style="background:#f5f0f5;"
 >
-  <!-- ------------------- Title ------------------- -->
+  <!-- Title -->
   <text
     x="50%"
     y="20"
@@ -15,7 +15,7 @@
     fill="#111"
   >Andy Warhol eating a hamburger</text>
 
-  <!-- ------------------- Andy Warhol ------------------- -->
+  <!-- Andy Warhol -->
   <!-- Head -->
   <ellipse
     cx="400"
@@ -124,7 +124,7 @@
     />
   </g>
 
-  <!-- ------------------- Hamburger ------------------- -->
+  <!-- Hamburger -->
   <!-- Whole hamburger shape -->
   <rect
     x="150"
@@ -242,7 +242,7 @@
       cy="520"
       rx="80"
       ry="55"
-      fill="rgba(255,204,204,0.7)"   <!-- pinkish skin -->
+      fill="rgba(255,204,204,0.7)"
       opacity="0.8"
     />
     <!-- Finger outline -->
@@ -266,7 +266,7 @@
     />
   </g>
 
-  <!-- ------------------- Andy’s name (art credit) ------------------- -->
+  <!-- Andy’s name (art credit) -->
   <text
     x="50%"
     y="940"

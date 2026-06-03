@@ -1,1 +1,46 @@
-<svg width=\"400\" height=\"400\" viewBox=\"0 0 400 400\" xmlns=\"http://www.w3.org/2000/svg\">\n  <style>\n    .warhol-skin { fill: #FDD7A0; }\n    .warhol-hair { fill: #8B4513; }\n    .warhol-shirt { fill: #808080; }\n    .hamburger-bun { fill: #F4D35E; }\n    .hamburger-patty { fill: #8B4513; }\n    .hamburger-lettuce { fill: #6B8E23; }\n    .hamburger-tomato { fill: #DC143C; }\n    .line-art { stroke: black; stroke-width: 2; fill: none; }\n  </style>\n\n  <!-- Andy Warhol's face (simplified) -->\n  <g id=\"andy\">\n    <circle class=\"warhol-skin\" cx=\"200\" cy=\"150\" r=\"80\"/>\n    <path class=\"warhol-hair\" d=\"M130 100 C 100 50, 300 50, 270 100 L 270 150 C 270 200, 130 200, 130 150 Z\"/>\n    <ellipse class=\"line-art\" cx=\"170\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"white\"/>\n    <ellipse class=\"line-art\" cx=\"230\" cy=\"130\" rx=\"10\" ry=\"15\" fill=\"white\"/>\n    <circle cx=\"170\" cy=\"130\" r=\"5\"/>\n    <circle cx=\"230\" cy=\"130\" r=\"5\"/>\n    <path class=\"line-art\" d=\"M180 170 C 190 190, 210 190, 220 170\"/>\n  </g>\n\n  <!-- Andy's body (simplified) -->\n  <rect class=\"warhol-shirt\" x=\"150\" y=\"220\" width=\"100\" height=\"120\"/>\n  <line class=\"line-art\" x1=\"150\" y1=\"220\" x2=\"150\" y2=\"340\"/>\n  <line class=\"line-art\" x1=\"250\" y1=\"220\" x2=\"250\" y2=\"340\"/>\n  <line class=\"line-art\" x1=\"150\" y1=\"340\" x2=\"250\" y2=\"340\"/>\n\n  <!-- Hamburger in hand -->\n  <g id=\"hamburger\">\n    <ellipse class=\"hamburger-bun\" cx=\"280\" cy=\"200\" rx=\"40\" ry=\"20\" transform=\"rotate(-15 280 200)\"/>\n    <rect class=\"hamburger-patty\" x=\"245\" y=\"200\" width=\"70\" height=\"15\" transform=\"rotate(-15 280 200)\"/>\n    <rect class=\"hamburger-lettuce\" x=\"245\" y=\"195\" width=\"70\" height=\"10\" transform=\"rotate(-15 280 200)\"/>\n    <rect class=\"hamburger-tomato\" x=\"250\" y=\"192\" width=\"60\" height=\"5\" transform=\"rotate(-15 280 200)\"/>\n    <ellipse class=\"hamburger-bun\" cx=\"280\" cy=\"190\" rx=\"40\" ry=\"20\" transform=\"rotate(-15 280 190)\"/>\n  </g>\n\n  <!-- Hand holding the burger (simplified) -->\n  <path class=\"warhol-skin\" d=\"M240 220 Q 280 230, 310 210 Q 300 180, 260 190 Z\"/>\n\n  <!-- Outline for Andy and hamburger -->\n  <use href=\"#andy\" class=\"line-art\"/>\n  <use href=\"#hamburger\" class=\"line-art\"/>\n  <path class=\"line-art\" d=\"M240 220 Q 280 230, 310 210 Q 300 180, 260 190 Z\"/>\n</svg>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .warhol-skin { fill: #FDD7A0; }
+    .warhol-hair { fill: #8B4513; }
+    .warhol-shirt { fill: #808080; }
+    .hamburger-bun { fill: #F4D35E; }
+    .hamburger-patty { fill: #8B4513; }
+    .hamburger-lettuce { fill: #6B8E23; }
+    .hamburger-tomato { fill: #DC143C; }
+    .line-art { stroke: black; stroke-width: 2; fill: none; }
+  </style>
+
+  <!-- Andy Warhol's face (simplified) -->
+  <g id="andy">
+    <circle class="warhol-skin" cx="200" cy="150" r="80"/>
+    <path class="warhol-hair" d="M130 100 C 100 50, 300 50, 270 100 L 270 150 C 270 200, 130 200, 130 150 Z"/>
+    <ellipse class="line-art" cx="170" cy="130" rx="10" ry="15" fill="white"/>
+    <ellipse class="line-art" cx="230" cy="130" rx="10" ry="15" fill="white"/>
+    <circle cx="170" cy="130" r="5"/>
+    <circle cx="230" cy="130" r="5"/>
+    <path class="line-art" d="M180 170 C 190 190, 210 190, 220 170"/>
+  </g>
+
+  <!-- Andy's body (simplified) -->
+  <rect class="warhol-shirt" x="150" y="220" width="100" height="120"/>
+  <line class="line-art" x1="150" y1="220" x2="150" y2="340"/>
+  <line class="line-art" x1="250" y1="220" x2="250" y2="340"/>
+  <line class="line-art" x1="150" y1="340" x2="250" y2="340"/>
+
+  <!-- Hamburger in hand -->
+  <g id="hamburger">
+    <ellipse class="hamburger-bun" cx="280" cy="200" rx="40" ry="20" transform="rotate(-15 280 200)"/>
+    <rect class="hamburger-patty" x="245" y="200" width="70" height="15" transform="rotate(-15 280 200)"/>
+    <rect class="hamburger-lettuce" x="245" y="195" width="70" height="10" transform="rotate(-15 280 200)"/>
+    <rect class="hamburger-tomato" x="250" y="192" width="60" height="5" transform="rotate(-15 280 200)"/>
+    <ellipse class="hamburger-bun" cx="280" cy="190" rx="40" ry="20" transform="rotate(-15 280 190)"/>
+  </g>
+
+  <!-- Hand holding the burger (simplified) -->
+  <path class="warhol-skin" d="M240 220 Q 280 230, 310 210 Q 300 180, 260 190 Z"/>
+
+  <!-- Outline for Andy and hamburger -->
+  <use href="#andy" class="line-art"/>
+  <use href="#hamburger" class="line-art"/>
+  <path class="line-art" d="M240 220 Q 280 230, 310 210 Q 300 180, 260 190 Z"/>
+</svg>
