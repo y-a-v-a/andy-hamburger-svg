@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Andy Warhol -->
+  <circle cx="200" cy="150" r="50" fill="#ffffff" stroke="black" stroke-width="2"/>
+  <rect x="150" y="130" width="100" height="90" fill="#dddddd" stroke="black" stroke-width="2"/>
+  <circle cx="180" cy="160" r="8" fill="black"/>
+  <circle cx="220" cy="160" r="8" fill="black"/>
+  <line x1="190" y1="180" x2="210" y2="180" stroke="black" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <rect x="300" y="200" width="100" height="80" fill="tan" stroke="black" stroke-width="1"/>
+  <ellipse cx="350" cy="240" rx="30" ry="20" fill="brown"/>
+  <ellipse cx="400" cy="240" rx="30" ry="20" fill="brown"/>
+  <rect x="340" y="250" width="40" height="10" fill="green"/>
+  <circle cx="325" cy="270" r="10" fill="black"/> <!-- Hand (holding hamburger) -->
+  <line x1="325" y1="270" x2="335" y2="250" stroke="black" stroke-width="2"/>
+  <line x1="335" y1="250" x2="345" y2="260" stroke="black" stroke-width="2"/>
+  <line x1="345" y1="260" x2="355" y2="270" stroke="black" stroke-width="2"/>
+
+  <!-- Text -->
+  <text x="250" y="350" font-family="Arial" font-size="16" fill="black">Eating a Hamburger</text>
+</svg>

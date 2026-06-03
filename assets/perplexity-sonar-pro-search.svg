@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <!-- Background split into bold pop colors -->
+  <rect x="0" y="0" width="400" height="600" fill="#ff0080"/>
+  <rect x="400" y="0" width="400" height="600" fill="#00e5ff"/>
+
+  <!-- Table -->
+  <rect x="0" y="380" width="800" height="220" fill="#ffe600"/>
+
+  <!-- Simplified head (NOT a likeness of Warhol) -->
+  <circle cx="400" cy="210" r="90" fill="#ffd1a9" stroke="#000000" stroke-width="4"/>
+
+  <!-- Hair: abstract, blocky, pop style (not Warhol's actual hair) -->
+  <rect x="320" y="110" width="160" height="70" fill="#0000ff"/>
+  <rect x="310" y="125" width="50" height="60" fill="#00ff5a"/>
+  <rect x="440" y="125" width="50" height="60" fill="#ff0000"/>
+
+  <!-- Eyes -->
+  <circle cx="370" cy="205" r="8" fill="#000000"/>
+  <circle cx="430" cy="205" r="8" fill="#000000"/>
+
+  <!-- Nose -->
+  <path d="M400 210 C395 225 405 235 400 245" fill="none" stroke="#000000" stroke-width="3"/>
+
+  <!-- Mouth -->
+  <path d="M370 255 Q400 275 430 255" fill="none" stroke="#000000" stroke-width="4"/>
+
+  <!-- Torso jacket -->
+  <rect x="330" y="270" width="140" height="150" fill="#0024ff"/>
+
+  <!-- Shirt and tie, pop colors rather than realistic suit -->
+  <rect x="365" y="270" width="70" height="80" fill="#ffffff"/>
+  <path d="M400 270 L380 310 L420 310 Z" fill="#ff0000"/>
+  <rect x="395" y="310" width="10" height="60" fill="#ff0000"/>
+
+  <!-- Arms -->
+  <!-- Left arm -->
+  <path d="M330 290 Q290 320 300 360" fill="#0024ff"/>
+  <rect x="290" y="340" width="40" height="20" fill="#ffd1a9"/>
+
+  <!-- Right arm -->
+  <path d="M470 290 Q510 320 500 360" fill="#0024ff"/>
+  <rect x="470" y="340" width="40" height="20" fill="#ffd1a9"/>
+
+  <!-- Hamburger near mouth (held by both hands) -->
+  <g transform="translate(360,260)">
+    <!-- Bun top -->
+    <ellipse cx="40" cy="10" rx="45" ry="18" fill="#ffcc66" stroke="#000000" stroke-width="2"/>
+    <!-- Lettuce -->
+    <rect x="0" y="18" width="80" height="8" fill="#00cc44"/>
+    <!-- Patty -->
+    <rect x="5" y="26" width="70" height="10" fill="#8b4513"/>
+    <!-- Bun bottom -->
+    <rect x="0" y="36" width="80" height="14" fill="#ffb347" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Hands holding burger -->
+  <circle cx="360" cy="285" r="16" fill="#ffd1a9" stroke="#000000" stroke-width="2"/>
+  <circle cx="440" cy="285" r="16" fill="#ffd1a9" stroke="#000000" stroke-width="2"/>
+
+  <!-- Ketchup bottle on table -->
+  <rect x="520" y="310" width="30" height="80" fill="#ff0022" stroke="#000000" stroke-width="3"/>
+  <polygon points="535,285 525,310 545,310" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+
+  <!-- Pop-art blocks on table to echo Warhol-like color blocking (non-specific) -->
+  <rect x="80" y="410" width="80" height="80" fill="#00ff5a"/>
+  <rect x="200" y="420" width="90" height="90" fill="#ff8800"/>
+  <rect x="330" y="420" width="70" height="70" fill="#ff00ff"/>
+  <rect x="430" y="430" width="110" height="70" fill="#00ffcc"/>
+  <rect x="570" y="410" width="90" height="90" fill="#9900ff"/>
+
+  <!-- Caption text: neutral, not using the name "Andy Warhol" in the artwork -->
+  <text x="400" y="560" text-anchor="middle"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="28"
+        fill="#000000">
+    POP STYLE BURGER
+  </text>
+</svg>

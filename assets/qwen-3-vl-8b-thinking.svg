@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background with subtle grid pattern -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 L 20 0 20 20" fill="none" stroke="#eee" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- Andy Warhol's Head -->
+  <circle cx="190" cy="220" r="55" fill="#e6e6e6" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Hair -->
+  <path d="M130 180 Q 150 150 190 150 Q 230 150 250 180 Q 270 210 250 250 Q 230 270 190 270 Q 150 270 130 250 Q 110 230 130 180" 
+        fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Eyes -->
+  <circle cx="155" cy="200" r="7" fill="black"/>
+  <circle cx="205" cy="200" r="7" fill="black"/>
+  
+  <!-- Mustache -->
+  <path d="M150 215 L 175 210 L 200 215 L 225 210 L 250 215" 
+        stroke="black" stroke-width="2.5" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M155 225 L 245 225" stroke="black" stroke-width="2" fill="none"/>
+  
+  <!-- Hamburger -->
+  <!-- Bottom Bun -->
+  <rect x="120" y="280" width="80" height="25" rx="5" fill="#ffe0b2" stroke="#333"/>
+  
+  <!-- Patty -->
+  <rect x="125" y="290" width="70" height="30" rx="5" fill="#a64b00" stroke="#333"/>
+  
+  <!-- Lettuce -->
+  <path d="M150 310 L 180 315 L 180 320 L 150 325" fill="#4caf50" stroke="none"/>
+  <path d="M190 310 L 220 315 L 220 320 L 190 325" fill="#4caf50" stroke="none"/>
+  
+  <!-- Top Bun -->
+  <rect x="120" y="325" width="80" height="20" rx="5" fill="#ffe0b2" stroke="#333"/>
+  
+  <!-- Bite Mark -->
+  <path d="M125 335 L 155 330 L 155 325" fill="white" stroke="none"/>
+  
+  <!-- Sauce -->
+  <path d="M175 325 L 175 335" stroke="red" stroke-width="1.5" fill="none"/>
+  
+  <!-- Lipstick -->
+  <circle cx="170" cy="265" r="8" fill="none" stroke="red" stroke-width="1.5"/>
+  <circle cx="210" cy="265" r="8" fill="none" stroke="red" stroke-width="1.5"/>
+  
+  <!-- Bite Effect -->
+  <path d="M120 330 Q 140 325 160 325 Q 180 325 200 330" stroke="black" stroke-width="1" fill="none"/>
+  <circle cx="160" cy="320" r="2" fill="red" stroke="none"/>
+  
+  <!-- Pop Art Style Elements -->
+  <line x1="150" y1="350" x2="150" y2="380" stroke="#e6e6e6" stroke-width="1"/>
+  <circle cx="210" cy="350" r="3" fill="#e6e6e6"/>
+  <circle cx="250" cy="350" r="3" fill="#e6e6e6"/>
+</svg>

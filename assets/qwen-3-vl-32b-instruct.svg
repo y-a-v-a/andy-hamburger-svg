@@ -1,0 +1,53 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fff0f0" />
+
+  <!-- Andy Warhol's head -->
+  <circle cx="250" cy="180" r="70" fill="#ffd700" stroke="#000" stroke-width="2" />
+
+  <!-- Hair (blond, wavy) -->
+  <path d="M250 110 C230 100, 220 130, 200 140 C180 150, 170 170, 160 180 C150 190, 140 200, 130 210 C120 220, 110 230, 100 240 C90 250, 80 260, 70 270 C60 280, 50 290, 40 300 C30 310, 20 320, 10 330 L10 340 L250 340 L490 330 L490 320 C480 310, 470 300, 460 290 C450 280, 440 270, 430 260 C420 250, 410 240, 400 230 C390 220, 380 210, 370 200 C360 190, 350 180, 340 170 C330 160, 320 150, 310 140 C300 130, 290 120, 280 110 C270 100, 260 90, 250 110 Z" 
+        fill="#ffcc00" stroke="#000" stroke-width="1" />
+
+  <!-- Glasses -->
+  <ellipse cx="250" cy="160" rx="50" ry="10" fill="none" stroke="#000" stroke-width="2" />
+  <circle cx="200" cy="155" r="8" fill="#000" />
+  <circle cx="300" cy="155" r="8" fill="#000" />
+
+  <!-- Face -->
+  <circle cx="250" cy="180" r="60" fill="#fff" stroke="#000" stroke-width="1" />
+
+  <!-- Mouth (eating hamburger) -->
+  <path d="M240 210 C240 220, 245 230, 250 230 C255 230, 260 220, 260 210 C260 200, 255 190, 250 190 C245 190, 240 200, 240 210 Z" 
+        fill="#ff6600" stroke="#000" stroke-width="1" />
+
+  <!-- Hamburger in mouth -->
+  <rect x="245" y="205" width="10" height="15" fill="#b34d00" />
+  <rect x="245" y="210" width="10" height="10" fill="#f5f5f5" />
+  <rect x="245" y="220" width="10" height="5" fill="#c0c0c0" />
+  <rect x="245" y="225" width="10" height="5" fill="#8b4513" />
+
+  <!-- Suit -->
+  <rect x="150" y="230" width="200" height="180" fill="#000080" stroke="#000" stroke-width="2" />
+
+  <!-- Tie -->
+  <rect x="240" y="250" width="20" height="100" fill="#ff0000" />
+
+  <!-- Shirt -->
+  <rect x="220" y="250" width="40" height="100" fill="#fff" />
+
+  <!-- Hamburger (in hand) -->
+  <rect x="280" y="250" width="40" height="50" fill="#b34d00" />
+  <rect x="285" y="260" width="30" height="10" fill="#8b4513" />
+  <rect x="285" y="270" width="30" height="10" fill="#f5f5f5" />
+  <rect x="285" y="280" width="30" height="10" fill="#8b4513" />
+  <rect x="280" y="300" width="40" height="50" fill="#b34d00" />
+
+  <!-- Hand holding hamburger -->
+  <path d="M280 250 C270 240, 260 240, 250 250 C240 260, 240 270, 250 280 C260 290, 270 290, 280 280 Z" 
+        fill="#e6b85c" stroke="#000" stroke-width="1" />
+
+  <!-- Text: "Andy Warhol" -->
+  <text x="250" y="420" font-family="Arial" font-size="24" fill="#000" text-anchor="middle">Andy Warhol</text>
+  <text x="250" y="450" font-family="Arial" font-size="18" fill="#000" text-anchor="middle">Eating a Hamburger</text>
+</svg>

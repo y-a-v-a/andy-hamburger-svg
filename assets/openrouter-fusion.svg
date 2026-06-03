@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Pop-art background quadrants (Warhol style) -->
+  <rect x="0" y="0" width="200" height="200" fill="#ff5da2"/>
+  <rect x="200" y="0" width="200" height="200" fill="#ffd23f"/>
+  <rect x="0" y="200" width="200" height="200" fill="#3fc1c9"/>
+  <rect x="200" y="200" width="200" height="200" fill="#f08a5d"/>
+
+  <!-- Subtle halftone dots -->
+  <g fill="#ffffff" opacity="0.25">
+    <circle cx="30" cy="30" r="4"/>
+    <circle cx="70" cy="30" r="4"/>
+    <circle cx="330" cy="40" r="4"/>
+    <circle cx="370" cy="80" r="4"/>
+    <circle cx="40" cy="360" r="4"/>
+    <circle cx="360" cy="350" r="4"/>
+  </g>
+
+  <!-- ANDY WARHOL -->
+  <g>
+    <!-- Neck -->
+    <rect x="178" y="250" width="44" height="60" fill="#f1c9a5"/>
+
+    <!-- Black turtleneck shirt -->
+    <path d="M120 360 Q120 300 178 295 L222 295 Q280 300 280 360 Z" fill="#1a1a1a"/>
+    <rect x="120" y="350" width="160" height="50" fill="#1a1a1a"/>
+
+    <!-- Face -->
+    <ellipse cx="200" cy="200" rx="62" ry="74" fill="#f1c9a5"/>
+
+    <!-- Iconic silver-white wig -->
+    <path d="M134 195
+             Q120 110 200 105
+             Q282 110 266 195
+             Q270 150 240 135
+             Q255 165 235 175
+             Q245 140 200 132
+             Q155 140 165 175
+             Q145 165 160 135
+             Q130 150 134 195 Z"
+          fill="#e8e8ec" stroke="#cfcfd6" stroke-width="1.5"/>
+
+    <!-- Glasses (Warhol's signature dark frames) -->
+    <g stroke="#111" stroke-width="4" fill="none">
+      <rect x="158" y="178" width="36" height="26" rx="6" fill="#cfe8f0"/>
+      <rect x="206" y="178" width="36" height="26" rx="6" fill="#cfe8f0"/>
+      <line x1="194" y1="190" x2="206" y2="190"/>
+      <line x1="158" y1="186" x2="142" y2="182"/>
+      <line x1="242" y1="186" x2="258" y2="182"/>
+    </g>
+
+    <!-- Eyebrows -->
+    <path d="M160 172 Q176 166 192 172" stroke="#9a9a9a" stroke-width="3" fill="none"/>
+    <path d="M208 172 Q224 166 240 172" stroke="#9a9a9a" stroke-width="3" fill="none"/>
+
+    <!-- Nose -->
+    <path d="M200 200 L194 224 Q200 230 206 224 Z" fill="#e0b48f"/>
+
+    <!-- Mouth open, eating -->
+    <path d="M182 244 Q200 262 218 244 Q200 252 182 244 Z" fill="#7a2f2f"/>
+    <ellipse cx="200" cy="248" rx="14" ry="7" fill="#5c1f1f"/>
+  </g>
+
+  <!-- HAMBURGER being held up to the mouth -->
+  <g transform="translate(230,235) rotate(-12)">
+    <!-- Top bun -->
+    <path d="M0 20 Q40 -18 80 20 Z" fill="#e8a64d" stroke="#c47f2a" stroke-width="2"/>
+    <!-- Sesame seeds -->
+    <g fill="#fff3d6">
+      <ellipse cx="25" cy="5" rx="3" ry="1.6" transform="rotate(20 25 5)"/>
+      <ellipse cx="45" cy="-2" rx="3" ry="1.6" transform="rotate(-15 45 -2)"/>
+      <ellipse cx="60" cy="8" rx="3" ry="1.6" transform="rotate(35 60 8)"/>
+      <ellipse cx="38" cy="12" rx="3" ry="1.6"/>
+    </g>
+    <!-- Lettuce -->
+    <path d="M-2 20 Q10 28 22 20 Q34 28 46 20 Q58 28 70 20 Q78 26 82 20 L82 26 L-2 26 Z" fill="#7cbf5a"/>
+    <!-- Tomato -->
+    <rect x="-2" y="26" width="84" height="6" fill="#e94f4f"/>
+    <!-- Patty -->
+    <rect x="0" y="32" width="80" height="9" rx="4" fill="#6b3f24"/>
+    <!-- Cheese -->
+    <path d="M2 41 L16 50 L34 41 L52 50 L70 41 L78 47 L78 41 Z" fill="#ffc02e"/>
+    <!-- Bottom bun -->
+    <path d="M2 42 Q40 56 78 42 L78 47 Q40 60 2 47 Z" fill="#d99a45" stroke="#c47f2a" stroke-width="2"/>
+  </g>
+
+  <!-- Hand holding the burger -->
+  <g transform="translate(252,300) rotate(-10)">
+    <ellipse cx="0" cy="0" rx="26" ry="18" fill="#f1c9a5"/>
+    <rect x="-22" y="-26" width="9" height="20" rx="4" fill="#f1c9a5"/>
+    <rect x="-10" y="-30" width="9" height="24" rx="4" fill="#f1c9a5"/>
+    <rect x="2" y="-30" width="9" height="24" rx="4" fill="#f1c9a5"/>
+    <rect x="14" y="-26" width="9" height="20" rx="4" fill="#f1c9a5"/>
+  </g>
+
+  <!-- Pop-art style signature text -->
+  <text x="200" y="388" font-family="Helvetica, Arial, sans-serif" font-size="16"
+        font-weight="bold" fill="#fff" text-anchor="middle"
+        style="letter-spacing:2px">ANDY WARHOL</text>
+</svg>

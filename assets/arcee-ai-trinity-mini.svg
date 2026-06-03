@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Andy Warhol Portrait -->
+  <defs>
+    <pattern id="warholPattern" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F5F5DC"/>
+      <rect width="10" height="10" fill="#F5F5DC" transform="translate(5,5) rotate(45)"/>
+    </pattern>
+  </defs>
+
+  <!-- Background: Grid of Warhol's signature colors -->
+  <rect width="100%" height="100%" fill="#F5F5DC"/>
+  <rect x="0" y="0" width="400" height="400" fill="url(#warholPattern)"/>
+
+  <!-- Andy Warhol's Face -->
+  <g fill="none" stroke="#000" stroke-width="1">
+    <!-- Glasses -->
+    <circle cx="100" cy="100" r="30" fill="#FFFFFF"/>
+    <circle cx="100" cy="100" r="25" fill="#000000"/>
+    <circle cx="100" cy="100" r="20" fill="#FFFFFF"/>
+    <circle cx="100" cy="100" r="15" fill="#000000"/>
+    <circle cx="100" cy="100" r="10" fill="#FFFFFF"/>
+    <circle cx="100" cy="100" r="5" fill="#000000"/>
+    
+    <!-- Hair (simplified) -->
+    <path d="M 50,80 Q 70,60 100,80 Q 130,60 150,80 Q 170,60 190,80 Q 210,60 230,80 Q 250,60 270,80 Q 290,60 310,80 Q 330,60 350,80" fill="#D3D3D3"/>
+    
+    <!-- Face Outline -->
+    <circle cx="200" cy="200" r="100" fill="#FFFFFF"/>
+    <circle cx="200" cy="200" r="95" fill="#D3D3D3"/>
+    
+    <!-- Mouth -->
+    <path d="M 150,250 Q 200,240 250,250" stroke="#000" stroke-width="2" fill="#FFFFFF"/>
+    
+    <!-- Nose -->
+    <path d="M 200,180 C 190,200 210,200 200,220" stroke="#000" stroke-width="2" fill="#FFFFFF"/>
+    
+    <!-- Eyes (simplified) -->
+    <circle cx="150" cy="180" r="20" fill="#FFFFFF"/>
+    <circle cx="250" cy="180" r="20" fill="#FFFFFF"/>
+    <circle cx="150" cy="180" r="15" fill="#000000"/>
+    <circle cx="250" cy="180" r="15" fill="#000000"/>
+    
+    <!-- Eyebrows -->
+    <path d="M 120,160 Q 140,140 160,160 Q 180,140 200,160 Q 220,140 240,160 Q 260,140 280,160 Q 300,140 320,160" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Hamburger -->
+  <g fill="#FF6B6B" stroke="#000" stroke-width="2">
+    <!-- Bun Top -->
+    <rect x="250" y="250" width="80" height="20" rx="10"/>
+    
+    <!-- Hamburger Patty -->
+    <rect x="260" y="270" width="60" height="20"/>
+    
+    <!-- Cheese -->
+    <rect x="260" y="290" width="60" height="10" rx="5"/>
+    
+    <!-- Lettuce -->
+    <rect x="260" y="310" width="60" height="5" rx="2.5"/>
+    
+    <!-- Tomato -->
+    <rect x="260" y="315" width="60" height="5" rx="2.5"/>
+    
+    <!-- Bun Bottom -->
+    <rect x="250" y="320" width="80" height="20" rx="10"/>
+    
+    <!-- Ketchup (optional detail) -->
+    <rect x="300" y="310" width="10" height="5" fill="#FF0000"/>
+  </g>
+
+  <!-- Andy's Hand Holding the Burger -->
+  <g fill="#FFFFFF" stroke="#000" stroke-width="2">
+    <!-- Forearm -->
+    <rect x="180" y="250" width="20" height="50"/>
+    
+    <!-- Hand -->
+    <circle cx="200" cy="300" r="20"/>
+    
+    <!-- Fingers -->
+    <path d="M 190,310 Q 200,320 210,310" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 190,320 Q 200,330 210,320" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 190,330 Q 200,340 210,330" stroke="#000" stroke-width="2" fill="none"/>
+    
+    <!-- Thumb -->
+    <path d="M 170,310 Q 180,320 190,310" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 170,320 Q 180,330 190,320" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M 170,330 Q 180,340 190,330" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Andy's Arm -->
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- Arm Outline -->
+    <path d="M 180,250 Q 160,200 140,250 Q 120,200 100,250 Q 80,200 60,250 Q 40,200 20,250" stroke="#000" stroke-width="2"/>
+    
+    <!-- Elbow -->
+    <circle cx="140" cy="250" r="10"/>
+    
+    <!-- Shoulder -->
+    <circle cx="100" cy="200" r="10"/>
+  </g>
+
+  <!-- Andy's Shirt Collar -->
+  <rect x="180" y="200" width="40" height="10" fill="#000"/>
+  
+  <!-- Andy's Shirt Collar Button -->
+  <circle cx="200" cy="205" r="3" fill="#000"/>
+</svg>

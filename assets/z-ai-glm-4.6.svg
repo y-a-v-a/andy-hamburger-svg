@@ -1,0 +1,78 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with pop art style -->
+  <rect width="400" height="400" fill="#FFD700"/>
+  <rect x="20" y="20" width="180" height="180" fill="#FF69B4" opacity="0.3"/>
+  <rect x="200" y="200" width="180" height="180" fill="#00CED1" opacity="0.3"/>
+  
+  <!-- Andy Warhol figure -->
+  <g id="andy">
+    <!-- Hair/Silver wig -->
+    <ellipse cx="200" cy="140" rx="75" ry="60" fill="#C0C0C0"/>
+    <ellipse cx="200" cy="130" rx="70" ry="50" fill="#E5E5E5"/>
+    
+    <!-- Face -->
+    <ellipse cx="200" cy="180" rx="65" ry="70" fill="#FDBCB4"/>
+    
+    <!-- Glasses -->
+    <rect x="145" y="165" width="50" height="40" rx="5" fill="none" stroke="#333" stroke-width="3"/>
+    <rect x="205" y="165" width="50" height="40" rx="5" fill="none" stroke="#333" stroke-width="3"/>
+    <line x1="195" y1="185" x2="205" y2="185" stroke="#333" stroke-width="3"/>
+    
+    <!-- Eyes behind glasses -->
+    <circle cx="170" cy="185" r="8" fill="#4169E1"/>
+    <circle cx="230" cy="185" r="8" fill="#4169E1"/>
+    
+    <!-- Nose -->
+    <path d="M200 200 L195 215 L205 215" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Mouth eating hamburger -->
+    <ellipse cx="200" cy="235" rx="35" ry="20" fill="#FF1493"/>
+    
+    <!-- Hamburger in mouth -->
+    <g transform="translate(200, 230)">
+      <!-- Top bun -->
+      <path d="M-25 -10 Q-25 -20 -15 -20 L15 -20 Q25 -20 25 -10" fill="#D2691E"/>
+      <ellipse cx="0" cy="-10" rx="25" ry="8" fill="#8B4513"/>
+      
+      <!-- Lettuce -->
+      <path d="M-20 -5 Q-15 -8 -10 -5 Q-5 -8 0 -5 Q5 -8 10 -5 Q15 -8 20 -5" fill="#90EE90"/>
+      
+      <!-- Patty -->
+      <ellipse cx="0" cy="0" rx="22" ry="6" fill="#8B0000"/>
+      
+      <!-- Bottom bun -->
+      <ellipse cx="0" cy="6" rx="25" ry="8" fill="#D2691E"/>
+    </g>
+    
+    <!-- Hand holding hamburger -->
+    <ellipse cx="250" cy="250" rx="30" ry="40" fill="#FDBCB4" transform="rotate(30 250 250)"/>
+    
+    <!-- Fingers -->
+    <rect x="265" y="235" width="8" height="25" rx="4" fill="#FDBCB4" transform="rotate(20 269 247)"/>
+    <rect x="270" y="240" width="8" height="20" rx="4" fill="#FDBCB4" transform="rotate(10 274 250)"/>
+    <rect x="275" y="245" width="8" height="18" rx="4" fill="#FDBCB4"/>
+  </g>
+  
+  <!-- Pop art style elements -->
+  <g id="decorations">
+    <!-- Campbell's soup can reference (small) -->
+    <rect x="320" y="50" width="40" height="60" fill="#FF0000" rx="2"/>
+    <rect x="325" y="55" width="30" height="8" fill="#FFF"/>
+    <text x="340" y="62" font-family="Arial, sans-serif" font-size="6" fill="#FF0000" text-anchor="middle">CAMPBELL'S</text>
+    <text x="340" y="85" font-family="Arial, sans-serif" font-size="5" fill="#FFF" text-anchor="middle">TOMATO</text>
+    
+    <!-- Banana reference -->
+    <path d="M50 320 Q70 310 80 330 Q85 340 75 345" fill="#FFFF00" stroke="#333" stroke-width="1"/>
+    
+    <!-- Marilyn Monroe reference (simplified) -->
+    <circle cx="80" cy="80" r="25" fill="#FF69B4" opacity="0.5"/>
+    <circle cx="80" cy="80" r="20" fill="#FFB6C1"/>
+    <circle cx="75" cy="75" r="2" fill="#000"/>
+    <circle cx="85" cy="75" r="2" fill="#000"/>
+    <path d="M75 90 Q80 95 85 90" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle" font-weight="bold">WARHOL EATS</text>
+  <text x="200" y="375" font-family="font-family: Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">POP ART DINER</text>
+</svg>

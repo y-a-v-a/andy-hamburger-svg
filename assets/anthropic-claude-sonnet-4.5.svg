@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#FFD700"/>
+  
+  <!-- Warhol's iconic white hair -->
+  <ellipse cx="400" cy="200" rx="90" ry="70" fill="#E8E8E8"/>
+  <path d="M 310 180 Q 290 160 300 140 Q 320 120 350 130 Q 380 110 400 115 Q 420 110 450 130 Q 480 120 500 140 Q 510 160 490 180 Z" fill="#F5F5F5"/>
+  
+  <!-- Face -->
+  <ellipse cx="400" cy="240" rx="80" ry="95" fill="#FFD1B3"/>
+  
+  <!-- Glasses (iconic) -->
+  <rect x="320" y="220" width="70" height="50" fill="none" stroke="#000" stroke-width="3" rx="5"/>
+  <rect x="410" y="220" width="70" height="50" fill="none" stroke="#000" stroke-width="3" rx="5"/>
+  <line x1="390" y1="240" x2="410" y2="240" stroke="#000" stroke-width="3"/>
+  
+  <!-- Eyes behind glasses -->
+  <circle cx="350" cy="240" r="8" fill="#000"/>
+  <circle cx="445" cy="240" r="8" fill="#000"/>
+  
+  <!-- Nose -->
+  <path d="M 400 250 L 395 275 L 405 275 Z" fill="#FFB89D"/>
+  
+  <!-- Mouth (eating) -->
+  <ellipse cx="400" cy="295" rx="25" ry="15" fill="#8B4513"/>
+  
+  <!-- Body/Shirt -->
+  <rect x="320" y="320" width="160" height="180" fill="#000"/>
+  <path d="M 340 320 L 340 500 L 460 500 L 460 320" fill="#1a1a1a"/>
+  
+  <!-- Arms -->
+  <rect x="260" y="340" width="60" height="25" fill="#FFD1B3" transform="rotate(-20 290 352)"/>
+  <rect x="480" y="340" width="60" height="25" fill="#FFD1B3" transform="rotate(20 510 352)"/>
+  
+  <!-- Hands -->
+  <ellipse cx="265" cy="360" rx="20" ry="18" fill="#FFD1B3"/>
+  <ellipse cx="535" cy="360" rx="20" ry="18" fill="#FFD1B3"/>
+  
+  <!-- Hamburger in hands -->
+  <g transform="translate(400, 350)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="-15" rx="50" ry="20" fill="#D2691E"/>
+    <ellipse cx="0" cy="-15" rx="50" ry="18" fill="#DAA520"/>
+    <!-- Sesame seeds -->
+    <circle cx="-20" cy="-15" r="2" fill="#F5DEB3"/>
+    <circle cx="-5" cy="-18" r="2" fill="#F5DEB3"/>
+    <circle cx="10" cy="-16" r="2" fill="#F5DEB3"/>
+    <circle cx="25" cy="-14" r="2" fill="#F5DEB3"/>
+    
+    <!-- Lettuce -->
+    <path d="M -45 -5 Q -50 0 -45 5 L 45 5 Q 50 0 45 -5 Z" fill="#90EE90"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="8" rx="48" ry="6" fill="#FF6347"/>
+    
+    <!-- Cheese -->
+    <rect x="-46" y="12" width="92" height="5" fill="#FFD700"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="20" rx="47" ry="8" fill="#8B4513"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="28" rx="50" ry="15" fill="#D2691E"/>
+  </g>
+  
+  <!-- Pop art style dots (Lichtenstein influence) -->
+  <circle cx="100" cy="100" r="4" fill="#FF1493" opacity="0.6"/>
+  <circle cx="120" cy="120" r="4" fill="#FF1493" opacity="0.6"/>
+  <circle cx="700" cy="150" r="4" fill="#00CED1" opacity="0.6"/>
+  <circle cx="680" cy="130" r="4" fill="#00CED1" opacity="0.6"/>
+  <circle cx="150" cy="500" r="4" fill="#FF1493" opacity="0.6"/>
+  <circle cx="650" cy="480" r="4" fill="#00CED1" opacity="0.6"/>
+</svg>

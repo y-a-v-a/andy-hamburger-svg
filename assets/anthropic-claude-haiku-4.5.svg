@@ -1,0 +1,88 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFD700"/>
+  
+  <!-- Head -->
+  <circle cx="200" cy="120" r="70" fill="#F4A460"/>
+  
+  <!-- Hair (iconic silver wig) -->
+  <path d="M 130 100 Q 130 40 200 40 Q 270 40 270 100" fill="#C0C0C0" stroke="#808080" stroke-width="2"/>
+  <ellipse cx="200" cy="55" rx="55" ry="35" fill="#E8E8E8"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="130" rx="50" ry="55" fill="#F5DEB3"/>
+  
+  <!-- Eyes (characteristic blank stare) -->
+  <circle cx="175" cy="105" r="8" fill="#000"/>
+  <circle cx="225" cy="105" r="8" fill="#000"/>
+  <circle cx="177" cy="103" r="3" fill="#FFF"/>
+  <circle cx="227" cy="103" r="3" fill="#FFF"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 165 95 Q 175 90 185 95" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 215 95 Q 225 90 235 95" stroke="#000" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <line x1="200" y1="115" x2="200" y2="135" stroke="#D2691E" stroke-width="2"/>
+  <ellipse cx="195" cy="135" rx="4" ry="3" fill="#D2691E"/>
+  <ellipse cx="205" cy="135" rx="4" ry="3" fill="#D2691E"/>
+  
+  <!-- Mouth (holding burger) -->
+  <ellipse cx="200" cy="155" rx="15" ry="12" fill="#8B4513"/>
+  
+  <!-- Body -->
+  <rect x="140" y="180" width="120" height="100" fill="#1a1a1a" rx="5"/>
+  
+  <!-- Shirt detail -->
+  <line x1="200" y1="180" x2="200" y2="280" stroke="#333" stroke-width="1"/>
+  
+  <!-- Arms -->
+  <ellipse cx="110" cy="220" rx="25" ry="50" fill="#F5DEB3" transform="rotate(-25 110 220)"/>
+  <ellipse cx="290" cy="220" rx="25" ry="50" fill="#F5DEB3" transform="rotate(25 290 220)"/>
+  
+  <!-- Hands -->
+  <circle cx="90" cy="260" r="18" fill="#F5DEB3"/>
+  <circle cx="310" cy="260" r="18" fill="#F5DEB3"/>
+  
+  <!-- HAMBURGER -->
+  <!-- Top bun -->
+  <ellipse cx="130" cy="250" rx="35" ry="20" fill="#CD853F"/>
+  <ellipse cx="130" cy="248" rx="35" ry="15" fill="#DAA520"/>
+  <!-- Sesame seeds -->
+  <circle cx="115" cy="245" r="2" fill="#FFE4B5"/>
+  <circle cx="125" cy="243" r="2" fill="#FFE4B5"/>
+  <circle cx="135" cy="244" r="2" fill="#FFE4B5"/>
+  <circle cx="145" cy="246" r="2" fill="#FFE4B5"/>
+  
+  <!-- Lettuce -->
+  <ellipse cx="130" cy="265" rx="38" ry="8" fill="#228B22"/>
+  <path d="M 95 265 Q 100 268 105 265 Q 110 268 115 265 Q 120 268 125 265 Q 130 268 135 265 Q 140 268 145 265 Q 150 268 155 265 Q 160 268 165 265" stroke="#32CD32" stroke-width="1" fill="none"/>
+  
+  <!-- Cheese -->
+  <rect x="100" y="270" width="60" height="10" fill="#FFD700"/>
+  
+  <!-- Patty -->
+  <ellipse cx="130" cy="285" rx="38" ry="12" fill="#8B4513"/>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="130" cy="300" rx="38" ry="18" fill="#CD853F"/>
+  <ellipse cx="130" cy="302" rx="38" ry="12" fill="#8B6914"/>
+  
+  <!-- Tomato slice (showing) -->
+  <ellipse cx="130" cy="278" rx="35" ry="6" fill="#DC143C"/>
+  
+  <!-- Dripping sauce -->
+  <path d="M 120 310 Q 118 320 120 330" stroke="#8B0000" stroke-width="3" fill="none"/>
+  <path d="M 135 310 Q 133 320 135 330" stroke="#8B0000" stroke-width="2" fill="none"/>
+  
+  <!-- Signature Warhol style border -->
+  <rect x="10" y="10" width="380" height="480" fill="none" stroke="#000" stroke-width="3"/>
+  
+  <!-- Pop art style text -->
+  <text x="200" y="420" font-size="24" font-weight="bold" text-anchor="middle" fill="#000" font-family="Arial, sans-serif">
+    ANDY EATS
+  </text>
+  <text x="200" y="455" font-size="28" font-weight="bold" text-anchor="middle" fill="#FF1493" font-family="Arial, sans-serif">
+    HAMBURGER
+  </text>
+</svg>

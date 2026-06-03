@@ -1,0 +1,46 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#F5F5F5"/>
+
+  <!-- Andy Warhol -->
+  <!-- Head -->
+  <ellipse cx="200" cy="120" rx="50" ry="40" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+  <!-- Glasses -->
+  <circle cx="170" cy="120" r="15" fill="#000000"/>
+  <circle cx="230" cy="120" r="15" fill="#000000"/>
+  <!-- Hair -->
+  <path d="M150 80 Q130 60 140 100 Q170 140 180 100 Q190 60 200 80" fill="#000000"/>
+  <!-- Face details -->
+  <ellipse cx="200" cy="140" rx="30" ry="20" fill="#F0D9C9"/>
+  <!-- Shirt -->
+  <rect x="140" y="160" width="120" height="60" fill="#000000"/>
+  <!-- Arms -->
+  <rect x="110" y="160" width="10" height="40" fill="#F0D9C9"/>
+  <rect x="280" y="160" width="10" height="40" fill="#F0D9C9"/>
+
+  <!-- Hamburger -->
+  <!-- Bun -->
+  <ellipse cx="200" cy="250" rx="30" ry="15" fill="#F5DEB3"/>
+  <ellipse cx="200" cy="250" rx="25" ry="10" fill="#F4A460"/>
+  <!-- Sesame seeds -->
+  <circle cx="195" cy="245" r="2" fill="#8B4513"/>
+  <circle cx="205" cy="245" r="2" fill="#8B4513"/>
+  <!-- Lettuce -->
+  <path d="M180 270 Q190 260 185 280 Q180 290 170 280 Q160 290 165 270" fill="#7CFC00"/>
+  <!-- Cheese -->
+  <rect x="185" y="260" width="30" height="5" fill="#FFD700"/>
+  <!-- Tomato -->
+  <ellipse cx="200" cy="265" rx="15" ry="3" fill="#FF4500"/>
+  <!-- Patty -->
+  <ellipse cx="200" cy="270" rx="20" ry="5" fill="#8B4513"/>
+
+  <!-- Eating action -->
+  <path d="M200 290 Q210 300 220 290" stroke="#000000" stroke-width="2" fill="none"/>
+  <text x="220" y="305" font-family="Arial" font-size="14" fill="#000000">Mmm...</text>
+
+  <!-- Pop art dots -->
+  <circle cx="50" cy="50" r="5" fill="#FF0000"/>
+  <circle cx="350" cy="50" r="5" fill="#0000FF"/>
+  <circle cx="50" cy="350" r="5" fill="#FF00FF"/>
+  <circle cx="350" cy="350" r="5" fill="#00FFFF"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f5f5f0"/>
+
+  <!-- Stylized Warhol Hair -->
+  <path d="M80,110 C60,70 100,30 160,60
+           C200,20 250,40 280,90
+           C320,80 350,120 300,150
+           C320,190 280,220 240,200
+           C210,230 160,220 140,195
+           C90,240 40,210 80,110"
+        fill="#f3f2f2" stroke="#3c3c3c" stroke-width="2"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="80" ry="85" fill="#f9d7b9" stroke="#d0a68a" stroke-width="2"/>
+  <ellipse cx="170" cy="160" rx="10" ry="12" fill="#2f2f2f"/>
+  <ellipse cx="230" cy="160" rx="10" ry="12" fill="#2f2f2f"/>
+  <path d="M165,210 C185,225 215,225 235,210" stroke="#a45b4d" stroke-width="4" fill="none"/>
+
+  <!-- Glasses -->
+  <rect x="140" y="145" width="60" height="40" rx="8" fill="none" stroke="#3f3f3f" stroke-width="3"/>
+  <rect x="210" y="145" width="60" height="40" rx="8" fill="none" stroke="#3f3f3f" stroke-width="3"/>
+  <line x1="200" y1="165" x2="210" y2="165" stroke="#3f3f3f" stroke-width="3"/>
+
+  <!-- Body -->
+  <path d="M120,260 Q200,220 280,260 L260,350 H140 Z" fill="#1f1f1f"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(200,250)">
+    <path d="M-45,5 Q0,-20 45,5" fill="#d6953a"/>
+    <rect x="-45" y="5" width="90" height="18" rx="9" fill="#8c4c24"/>
+    <rect x="-45" y="18" width="90" height="10" fill="#3a8f3a"/>
+    <rect x="-45" y="28" width="90" height="14" fill="#cf6d1e"/>
+    <path d="M-45,42 Q0,65 45,42" fill="#deb245"/>
+    <circle cx="-30" cy="50" r="2" fill="#fff2b0"/>
+    <circle cx="-5" cy="55" r="2" fill="#fff2b0"/>
+    <circle cx="25" cy="50" r="2" fill="#fff2b0"/>
+  </g>
+
+  <!-- Hands -->
+  <ellipse cx="140" cy="260" rx="25" ry="18" fill="#f9d7b9"/>
+  <ellipse cx="260" cy="260" rx="25" ry="18" fill="#f9d7b9"/>
+
+  <!-- Stylized Kirchner-esque background lines -->
+  <path d="M40,360 Q100,330 160,360" stroke="#c93f3f" stroke-width="5" fill="none"/>
+  <path d="M240,360 Q300,330 360,360" stroke="#3f6dc9" stroke-width="5" fill="none"/>
+</svg>

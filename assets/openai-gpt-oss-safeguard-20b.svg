@@ -1,0 +1,47 @@
+<svg width="300px" height="250px" viewBox="0 0 300 250"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#fff"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="70" r="30" fill="#ffe0bd"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="65" r="5" fill="#000"/>
+  <circle cx="160" cy="65" r="5" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M140,80 Q150,90 160,80" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Body -->
+  <rect x="125" y="100" width="50" height="80" fill="#4b9c9c"/>
+
+  <!-- Arms -->
+  <rect x="110" y="120" width="15" height="30" fill="#ffe0bd"/>
+  <rect x="175" y="120" width="15" height="30" fill="#ffe0bd"/>
+
+  <!-- Leg -->
+  <rect x="130" y="180" width="10" height="40" fill="#4b9c9c"/>
+  <rect x="160" y="180" width="10" height="40" fill="#4b9c9c"/>
+
+  <!-- Hamburger -->
+  <g id="hamburger">
+    <!-- Bottom bun -->
+    <ellipse cx="140" cy="125" rx="40" ry="15" fill="#f4d35e"/>
+    <!-- Patty -->
+    <ellipse cx="140" cy="120" rx="35" ry="10" fill="#8f3f37"/>
+    <!-- Top bun -->
+    <ellipse cx="140" cy="115" rx="40" ry="15" fill="#f4d35e"/>
+    <!-- Sesame seeds -->
+    <circle cx="130" cy="112" r="2" fill="#d9e1b3"/>
+    <circle cx="140" cy="112" r="2" fill="#d9e1b3"/>
+    <circle cx="150" cy="112" r="2" fill="#d9e1b3"/>
+  </g>
+
+  <!-- Text label -->
+  <text x="150" y="240" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">
+    Andy Warhol eating a hamburger
+  </text>
+</svg>

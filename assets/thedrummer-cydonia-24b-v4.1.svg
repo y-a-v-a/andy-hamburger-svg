@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewport="0 0 400 600" width="400" height="600">
+    <!-- Andy Warhol -->
+    <g id="warhol">
+        <!-- Hair -->
+        <path fill="#rgb(200, 200, 100)" d="M150,60 L170,80 L190,75 L230,85 L250,70 L270,65 L260,40 L250,35 L230,45 L200,40 L175,35 L150,45 Z"/>
+        
+        <!-- Face -->
+        <circle cx="200" cy="200" r="80" fill="#f7d4d4" stroke="#b32d2d" stroke-width="2"/>
+        
+        <!-- Eyebrows -->
+        <path fill="#555" d="M180,130 Q200,150 220,130"/>
+        <path fill="#555" d="M185,120 Q200,140 215,120"/>
+        
+        <!-- Eyes -->
+        <circle cx="180" cy="170" r="15" fill="#eee" stroke="#555" stroke-width="2"/>
+        <circle cx="187" cy="170" r="5" fill="#000"/>
+        
+        <circle cx="220" cy="170" r="15" fill="#eee" stroke="#555" stroke-width="2"/>
+        <circle cx="227" cy="170" r="5" fill="#000"/>
+        
+        <!-- Nose -->
+        <path fill="#e52a02" d="M200,185 L207,195 L200,205"/>
+        
+        <!-- Mouth -->
+        <path d="M185,210 Q200,220 215,210" fill="none" stroke="#b32d2d" stroke-width="2"/>
+        <path d="M200,215 L200,225" fill="none" stroke="#b32d2d" stroke-width="2"/>
+        
+        <!-- Glasses frame -->
+        <rect x="165" y="145" width="70" height="20" rx="10" ry="10" fill="#444" stroke="#444" stroke-width="2"/>
+        <circle cx="182.5" cy="155" r="7" fill="#eee"/>
+        <circle cx="217.5" cy="155" r="7" fill="#eee"/>
+    </g>
+    
+    <!-- Hamburger -->
+    <g id="hamburger" transform="translate(150, 300)">
+        <!-- Bottom bun -->
+        <path fill="#f0d090" d="M0,20 L20,10 L40,5 L60,10 L80,20 L80,0 L0,0 Z"/>
+        
+        <!-- Patty -->
+        <path fill="#5a2d2d" d="M10,15 L70,15 L70,35 L10,35 Z" rx="5" ry="5"/>
+        
+        <!-- Top bun -->
+        <path fill="#f0d090" d="M0,0 L20,-10 L40,-15 L60,-10 L80,0 L80,20 L0,20 Z"/>
+        
+        <!-- Cheese -->
+        <path fill="#f0e880" d="M15,15 Q55,0 95,15 Q55,30 15,15" opacity="0.8"/>
+        
+        <!-- Lettuce -->
+        <path fill="#3a9c20" d="M15,15 Q55,5 95,15" opacity="0.7"/>
+        <path fill="#3a9c20" d="M15,35 Q55,45 95,35" opacity="0.7"/>
+    </g>
+    
+    <!-- Andy's hand holding hamburger -->
+    <g id="hand" transform="translate(140, 300)">
+        <!-- Thumb -->
+        <rect x="0" y="5" width="15" height="30" rx="5" ry="5" fill="#f7d4d4" stroke="#b32d2d" stroke-width="1"/>
+        
+        <!-- Fingers -->
+        <path d="M15,10 Q30,15 45,20 Q60,25 75,30" fill="#f7d4d4" stroke="#b32d2d" stroke-width="1"/>
+        <path d="M15,20 Q30,25 45,30 Q60,35 75,40" fill="#f7d4d4" stroke="#b32d2d" stroke-width="1"/>
+    </g>
+    
+    <!-- Pop art style elements -->
+    <rect x="50" y="50" width="300" height="200" fill="none" stroke="#e20e0e" stroke-width="5" stroke-dasharray="5,5"/>
+    <rect x="60" y="60" width="280" height="180" fill="none" stroke="#0e3ee2" stroke-width="5" stroke-dasharray="5,5"/>
+    
+    <text x="200" y="580" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">
+        Andy Warhol: Pop Icon Eating Pop Culture
+    </text>
+</svg>

@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" aria-label="Andy Warhol eating a hamburger in pop art style">
+  <!-- Background with subtle repeated hamburger motif -->
+  <rect width="800" height="600" fill="#f5f5f5"/>
+  <g fill="#e0e0e0" opacity="0.15">
+    <circle cx="100" cy="150" r="30"/>
+    <rect x="85" y="120" width="30" height="15" rx="3"/>
+    <circle cx="150" cy="150" r="30"/>
+    <rect x="135" y="120" width="30" height="15" rx="3"/>
+    <circle cx="200" cy="150" r="30"/>
+    <rect x="185" y="120" width="30" height="15" rx="3"/>
+    
+    <circle cx="100" cy="350" r="30"/>
+    <rect x="85" y="320" width="30" height="15" rx="3"/>
+    <circle cx="150" cy="350" r="30"/>
+    <rect x="135" y="320" width="30" height="15" rx="3"/>
+    <circle cx="200" cy="350" r="30"/>
+    <rect x="185" y="320" width="30" height="15" rx="3"/>
+    
+    <circle cx="600" cy="150" r="30"/>
+    <rect x="585" y="120" width="30" height="15" rx="3"/>
+    <circle cx="650" cy="150" r="30"/>
+    <rect x="635" y="120" width="30" height="15" rx="3"/>
+    <circle cx="700" cy="150" r="30"/>
+    <rect x="685" y="120" width="30" height="15" rx="3"/>
+  </g>
+
+  <!-- Andy Warhol portrait (simplified pop art style) -->
+  <g transform="translate(300 150)">
+    <!-- Silver wig -->
+    <ellipse cx="100" cy="40" rx="70" ry="50" fill="#e0e0e0" stroke="#333" stroke-width="2"/>
+    <path d="M40 40 C40 20 60 10 100 10 C140 10 160 20 160 40" fill="#f5f5f5" stroke="#333" stroke-width="2"/>
+    
+    <!-- Face -->
+    <circle cx="100" cy="100" r="60" fill="#ffe0bd" stroke="#333" stroke-width="2"/>
+    
+    <!-- Eyes -->
+    <circle cx="75" cy="90" r="8" fill="#333"/>
+    <circle cx="125" cy="90" r="8" fill="#333"/>
+    
+    <!-- Mouth (eating pose) -->
+    <path d="M70 130 Q100 150 130 130" fill="none" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="100" cy="132" r="15" fill="#ff6b6b" stroke="#333" stroke-width="1"/>
+    
+    <!-- Iconic glasses -->
+    <circle cx="75" cy="90" r="12" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="125" cy="90" r="12" fill="none" stroke="#333" stroke-width="1.5"/>
+    <line x1="87" y1="90" x2="113" y2="90" stroke="#333" stroke-width="1.5"/>
+  </g>
+
+  <!-- Hamburger -->
+  <g transform="translate(450 250)">
+    <!-- Bottom bun -->
+    <rect x="20" y="50" width="60" height="15" rx="5" fill="#d4a76a" stroke="#8b5a2b" stroke-width="1"/>
+    
+    <!-- Patty -->
+    <rect x="20" y="35" width="60" height="15" fill="#5e2c04" stroke="#333" stroke-width="0.5"/>
+    
+    <!-- Lettuce -->
+    <path d="M20 30 Q35 20 40 30 Q45 20 50 30 Q55 20 60 30 Q65 20 80 30" fill="#4caf50" stroke="#2e7d32" stroke-width="0.5"/>
+    
+    <!-- Top bun -->
+    <path d="M20 30 Q40 10 50 5 Q60 10 80 30" fill="#d4a76a" stroke="#8b5a2b" stroke-width="1"/>
+    
+    <!-- Hand holding -->
+    <path d="M0 40 Q15 50 20 50" fill="#ffe0bd" stroke="#333" stroke-width="1"/>
+  </g>
+
+  <!-- Steam lines (showing freshness) -->
+  <g stroke="#aaa" stroke-width="2" stroke-linecap="round">
+    <path d="M480 220 Q490 200 480 180"/>
+    <path d="M500 220 Q510 190 500 170"/>
+    <path d="M520 220 Q530 200 520 180"/>
+  </g>
+
+  <!-- Thought bubble with hamburger icon -->
+  <g fill="white" stroke="#333" stroke-width="1">
+    <circle cx="220" cy="250" r="35"/>
+    <path d="M245 270 L260 285 L235 285 Z" fill="#fff"/>
+    <circle cx="220" cy="250" r="20" fill="#ffcc5c"/>
+    <rect x="210" y="235" width="20" height="8" fill="#8b5a2b"/>
+  </g>
+  
+  <!-- Warhol signature style text -->
+  <text x="400" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#c2185b" font-weight="bold">
+    POP LUNCH
+  </text>
+</svg>

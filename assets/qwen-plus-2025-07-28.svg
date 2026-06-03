@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+
+  <!-- Warhol Face (stylized) -->
+  <g transform="translate(400, 150)">
+    <!-- Face outline -->
+    <circle cx="0" cy="0" r="80" fill="#ffdf8a" stroke="black" stroke-width="3"/>
+
+    <!-- Hair -->
+    <ellipse cx="0" cy="-50" rx="90" ry="60" fill="white" stroke="black" stroke-width="2"/>
+    <text x="0" y="-30" font-family="Arial" font-size="100" fill="black">✿</text>
+
+    <!-- Glasses (minimalist) -->
+    <circle cx="-25" cy="-10" r="15" fill="none" stroke="black" stroke-width="2"/>
+    <circle cx="25" cy="-10" r="15" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="-10" y1="-10" x2="10" y2="-10" stroke="black" stroke-width="2"/>
+
+    <!-- Eyes -->
+    <circle cx="-25" cy="-10" r="5" fill="black"/>
+    <circle cx="25" cy="-10" r="5" fill="black"/>
+
+    <!-- Mouth (slightly open with burger) -->
+    <path d="M -20 30 Q 0 50 20 30" fill="none" stroke="black" stroke-width="2"/>
+
+    <!-- Hamburger held near mouth -->
+    <g transform="translate(0, 60)">
+      <!-- Bun top -->
+      <ellipse rx="40" ry="15" fill="#d4a76a" stroke="black" stroke-width="1"/>
+      <!-- Lettuce -->
+      <ellipse rx="38" ry="8" fill="green" stroke="black" stroke-width="0.5"/>
+      <!-- Patty -->
+      <ellipse rx="35" ry="10" fill="#8b4513" stroke="black" stroke-width="0.5"/>
+      <!-- Cheese -->
+      <ellipse rx="34" ry="5" fill="orange" stroke="black" stroke-width="0.5"/>
+      <!-- Bun bottom -->
+      <ellipse rx="40" ry="12" cy="8" fill="#d4a76a" stroke="black" stroke-width="1"/>
+    </g>
+
+    <!-- Hands (simplified) -->
+    <path d="M 40 60 Q 60 80 55 100" stroke="black" stroke-width="3" fill="none"/>
+    <path d="M -40 60 Q -60 80 -55 100" stroke="black" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Pop Art Color Panels (background style) -->
+  <rect x="100" y="400" width="150" height="100" fill="red"/>
+  <rect x="260" y="400" width="150" height="100" fill="yellow"/>
+  <rect x="420" y="400" width="150" height="100" fill="blue"/>
+  <rect x="580" y="400" width="150" height="100" fill="purple"/>
+
+  <!-- Text -->
+  <text x="400" y="550" font-family="Impact" font-size="32" text-anchor="middle" fill="black">
+    ANDY WARHOL EATS a BURGER
+  </text>
+</svg>

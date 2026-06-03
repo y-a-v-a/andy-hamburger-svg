@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+
+  <!-- Andy Warhol's Head -->
+  <circle cx="150" cy="150" r="100" fill="#ffcccc" stroke="#000" stroke-width="2"/>
+
+  <!-- Andy Warhol's Eyes -->
+  <circle cx="130" cy="130" r="10" fill="#000"/>
+  <circle cx="170" cy="130" r="10" fill="#000"/>
+
+  <!-- Andy Warhol's Mouth -->
+  <path d="M130 170 Q150 190 170 170" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Hamburger -->
+  <rect x="200" y="100" width="100" height="50" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+  <rect x="210" y="150" width="80" height="20" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  <rect x="200" y="170" width="100" height="20" fill="#ffcc00" stroke="#000" stroke-width="2"/>
+
+  <!-- Text -->
+  <text x="20" y="380" font-size="20" fill="#000">Andy Warhol eating a hamburger</text>
+</svg>

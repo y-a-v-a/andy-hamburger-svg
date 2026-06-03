@@ -1,0 +1,171 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="800"
+  height="600"
+  viewBox="0 0 800 600">
+
+  <!-- Background split into bold color blocks -->
+  <rect x="0" y="0" width="400" height="300" fill="#ff4081"/>
+  <rect x="400" y="0" width="400" height="300" fill="#40c4ff"/>
+  <rect x="0" y="300" width="400" height="300" fill="#ffeb3b"/>
+  <rect x="400" y="300" width="400" height="300" fill="#4caf50"/>
+
+  <!-- Repeated panels for pop-art feel -->
+  <!-- Panel 1 (top-left) -->
+  <g transform="translate(0,0)">
+    <!-- Simplified head (generic, not realistic) -->
+    <circle cx="200" cy="140" r="80" fill="#ffe0b2" stroke="#000" stroke-width="3"/>
+
+    <!-- Simple stylized hair (bright color, no specific likeness) -->
+    <path d="M130 85
+             C160 40, 240 40, 270 85
+             L270 70
+             C240 30, 160 30, 130 70
+             Z"
+          fill="#ffeb3b" stroke="#000" stroke-width="3"/>
+
+    <!-- Abstract sunglasses -->
+    <rect x="150" y="120" width="40" height="20" fill="#000" />
+    <rect x="210" y="120" width="40" height="20" fill="#000" />
+    <rect x="190" y="125" width="10" height="5" fill="#000" />
+
+    <!-- Nose (simple line) -->
+    <path d="M200 135 L200 155" stroke="#000" stroke-width="2"/>
+
+    <!-- Mouth partly hidden behind burger -->
+    <path d="M180 170 Q200 185 220 170" stroke="#000" stroke-width="3" fill="none"/>
+
+    <!-- Hamburger in front of mouth -->
+    <g transform="translate(160,170)">
+      <!-- Top bun -->
+      <ellipse cx="40" cy="10" rx="45" ry="16" fill="#ffb74d" stroke="#000" stroke-width="2"/>
+      <!-- Sesame seeds -->
+      <ellipse cx="25" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="40" cy="3" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="55" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <!-- Lettuce -->
+      <path d="M0 18 C10 25, 20 18, 30 24
+               C40 18, 50 25, 60 18
+               C70 24, 80 18, 90 24
+               L90 30 L0 30 Z"
+            fill="#66bb6a" stroke="#000" stroke-width="2"/>
+      <!-- Patty -->
+      <rect x="0" y="30" width="90" height="12" rx="4" ry="4" fill="#5d4037" stroke="#000" stroke-width="2"/>
+      <!-- Cheese -->
+      <path d="M5 42 L85 42 L75 52 L15 52 Z"
+            fill="#ffeb3b" stroke="#000" stroke-width="2"/>
+      <!-- Bottom bun -->
+      <rect x="0" y="52" width="90" height="14" rx="6" ry="6" fill="#ffcc80" stroke="#000" stroke-width="2"/>
+    </g>
+
+    <!-- Simple hands holding the burger -->
+    <ellipse cx="170" cy="210" rx="20" ry="16" fill="#ffe0b2" stroke="#000" stroke-width="2"/>
+    <ellipse cx="230" cy="210" rx="20" ry="16" fill="#ffe0b2" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Panel 2 (top-right) with different colors -->
+  <g transform="translate(400,0)">
+    <circle cx="200" cy="140" r="80" fill="#ffccbc" stroke="#000" stroke-width="3"/>
+    <path d="M130 85
+             C160 40, 240 40, 270 85
+             L270 70
+             C240 20, 160 20, 130 70
+             Z"
+          fill="#e91e63" stroke="#000" stroke-width="3"/>
+    <rect x="150" y="120" width="40" height="20" fill="#212121" />
+    <rect x="210" y="120" width="40" height="20" fill="#212121" />
+    <rect x="190" y="125" width="10" height="5" fill="#212121" />
+    <path d="M200 135 L200 155" stroke="#000" stroke-width="2"/>
+    <path d="M180 170 Q200 185 220 170" stroke="#000" stroke-width="3" fill="none"/>
+
+    <g transform="translate(160,170)">
+      <ellipse cx="40" cy="10" rx="45" ry="16" fill="#ffca28" stroke="#000" stroke-width="2"/>
+      <ellipse cx="25" cy="5" rx="4" ry="2" fill="#fff8e1" />
+      <ellipse cx="40" cy="3" rx="4" ry="2" fill="#fff8e1" />
+      <ellipse cx="55" cy="5" rx="4" ry="2" fill="#fff8e1" />
+      <path d="M0 18 C10 25, 20 18, 30 24
+               C40 18, 50 25, 60 18
+               C70 24, 80 18, 90 24
+               L90 30 L0 30 Z"
+            fill="#8bc34a" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="30" width="90" height="12" rx="4" ry="4" fill="#4e342e" stroke="#000" stroke-width="2"/>
+      <path d="M5 42 L85 42 L75 52 L15 52 Z"
+            fill="#ffeb3b" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="52" width="90" height="14" rx="6" ry="6" fill="#ffe082" stroke="#000" stroke-width="2"/>
+    </g>
+
+    <ellipse cx="170" cy="210" rx="20" ry="16" fill="#ffccbc" stroke="#000" stroke-width="2"/>
+    <ellipse cx="230" cy="210" rx="20" ry="16" fill="#ffccbc" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Panel 3 (bottom-left) with inverted colors -->
+  <g transform="translate(0,300)">
+    <circle cx="200" cy="140" r="80" fill="#fff3e0" stroke="#000" stroke-width="3"/>
+    <path d="M130 85
+             C160 40, 240 40, 270 85
+             L270 70
+             C240 25, 160 25, 130 70
+             Z"
+          fill="#03a9f4" stroke="#000" stroke-width="3"/>
+    <rect x="150" y="120" width="40" height="20" fill="#000" />
+    <rect x="210" y="120" width="40" height="20" fill="#000" />
+    <rect x="190" y="125" width="10" height="5" fill="#000" />
+    <path d="M200 135 L200 155" stroke="#000" stroke-width="2"/>
+    <path d="M180 170 Q200 185 220 170" stroke="#000" stroke-width="3" fill="none"/>
+
+    <g transform="translate(160,170)">
+      <ellipse cx="40" cy="10" rx="45" ry="16" fill="#ffb74d" stroke="#000" stroke-width="2"/>
+      <ellipse cx="25" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="40" cy="3" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="55" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <path d="M0 18 C10 25, 20 18, 30 24
+               C40 18, 50 25, 60 18
+               C70 24, 80 18, 90 24
+               L90 30 L0 30 Z"
+            fill="#aed581" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="30" width="90" height="12" rx="4" ry="4" fill="#6d4c41" stroke="#000" stroke-width="2"/>
+      <path d="M5 42 L85 42 L75 52 L15 52 Z"
+            fill="#fff176" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="52" width="90" height="14" rx="6" ry="6" fill="#ffe0b2" stroke="#000" stroke-width="2"/>
+    </g>
+
+    <ellipse cx="170" cy="210" rx="20" ry="16" fill="#fff3e0" stroke="#000" stroke-width="2"/>
+    <ellipse cx="230" cy="210" rx="20" ry="16" fill="#fff3e0" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Panel 4 (bottom-right) -->
+  <g transform="translate(400,300)">
+    <circle cx="200" cy="140" r="80" fill="#ffe0b2" stroke="#000" stroke-width="3"/>
+    <path d="M130 85
+             C160 40, 240 40, 270 85
+             L270 70
+             C240 35, 160 35, 130 70
+             Z"
+          fill="#9c27b0" stroke="#000" stroke-width="3"/>
+    <rect x="150" y="120" width="40" height="20" fill="#212121" />
+    <rect x="210" y="120" width="40" height="20" fill="#212121" />
+    <rect x="190" y="125" width="10" height="5" fill="#212121" />
+    <path d="M200 135 L200 155" stroke="#000" stroke-width="2"/>
+    <path d="M180 170 Q200 185 220 170" stroke="#000" stroke-width="3" fill="none"/>
+
+    <g transform="translate(160,170)">
+      <ellipse cx="40" cy="10" rx="45" ry="16" fill="#ffb300" stroke="#000" stroke-width="2"/>
+      <ellipse cx="25" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="40" cy="3" rx="4" ry="2" fill="#fffde7" />
+      <ellipse cx="55" cy="5" rx="4" ry="2" fill="#fffde7" />
+      <path d="M0 18 C10 25, 20 18, 30 24
+               C40 18, 50 25, 60 18
+               C70 24, 80 18, 90 24
+               L90 30 L0 30 Z"
+            fill="#7cb342" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="30" width="90" height="12" rx="4" ry="4" fill="#5d4037" stroke="#000" stroke-width="2"/>
+      <path d="M5 42 L85 42 L75 52 L15 52 Z"
+            fill="#fbc02d" stroke="#000" stroke-width="2"/>
+      <rect x="0" y="52" width="90" height="14" rx="6" ry="6" fill="#ffcc80" stroke="#000" stroke-width="2"/>
+    </g>
+
+    <ellipse cx="170" cy="210" rx="20" ry="16" fill="#ffe0b2" stroke="#000" stroke-width="2"/>
+    <ellipse cx="230" cy="210" rx="20" ry="16" fill="#ffe0b2" stroke="#000" stroke-width="2"/>
+  </g>
+
+</svg>

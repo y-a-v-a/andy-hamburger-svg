@@ -1,0 +1,93 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background with Warhol-style colored panels -->
+  <rect width="800" height="600" fill="#FF6B9D"/>
+  <rect x="200" width="200" height="600" fill="#00C2FF"/>
+  <rect x="400" width="200" height="600" fill="#FFDD00"/>
+  <rect x="600" width="200" height="600" fill="#9D4EFF"/>
+  
+  <!-- Warhol portrait panel 1 (pink background) -->
+  <g transform="translate(50, 100)">
+    <!-- Face -->
+    <ellipse cx="75" cy="100" rx="60" ry="70" fill="#FFE8C5"/>
+    <!-- Hair -->
+    <path d="M15,80 Q40,20 75,40 Q110,20 135,80" fill="#FFA500"/>
+    <ellipse cx="75" cy="40" rx="60" ry="25" fill="#FFA500"/>
+    <!-- Sunglasses -->
+    <rect x="40" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="85" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="75" y="90" width="10" height="5" fill="#333"/>
+    <!-- Hamburger -->
+    <rect x="60" y="140" width="30" height="15" fill="#8B4513" rx="3"/>
+    <rect x="55" y="130" width="40" height="10" fill="#FFD700" rx="2"/>
+    <rect x="50" y="155" width="50" height="8" fill="#8B4513" rx="2"/>
+    <rect x="53" y="148" width="44" height="7" fill="#228B22" rx="2"/>
+    <!-- Hand -->
+    <ellipse cx="95" cy="145" rx="8" ry="5" fill="#FFE8C5"/>
+  </g>
+  
+  <!-- Warhol portrait panel 2 (blue background) -->
+  <g transform="translate(250, 100)">
+    <ellipse cx="75" cy="100" rx="60" ry="70" fill="#E8D5B5"/>
+    <path d="M15,80 Q40,20 75,40 Q110,20 135,80" fill="#FF8C00"/>
+    <ellipse cx="75" cy="40" rx="60" ry="25" fill="#FF8C00"/>
+    <rect x="40" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="85" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="75" y="90" width="10" height="5" fill="#333"/>
+    <!-- Hamburger with different colors -->
+    <rect x="60" y="140" width="30" height="15" fill="#A0522D" rx="3"/>
+    <rect x="55" y="130" width="40" height="10" fill="#FFEC8B" rx="2"/>
+    <rect x="50" y="155" width="50" height="8" fill="#A0522D" rx="2"/>
+    <rect x="53" y="148" width="44" height="7" fill="#32CD32" rx="2"/>
+    <ellipse cx="95" cy="145" rx="8" ry="5" fill="#E8D5B5"/>
+  </g>
+  
+  <!-- Warhol portrait panel 3 (yellow background) -->
+  <g transform="translate(450, 100)">
+    <ellipse cx="75" cy="100" rx="60" ry="70" fill="#F0D0A0"/>
+    <path d="M15,80 Q40,20 75,40 Q110,20 135,80" fill="#FF7700"/>
+    <ellipse cx="75" cy="40" rx="60" ry="25" fill="#FF7700"/>
+    <rect x="40" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="85" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="75" y="90" width="10" height="5" fill="#333"/>
+    <!-- Hamburger -->
+    <rect x="60" y="140" width="30" height="15" fill="#8B5A2B" rx="3"/>
+    <rect x="55" y="130" width="40" height="10" fill="#FFFACD" rx="2"/>
+    <rect x="50" y="155" width="50" height="8" fill="#8B5A2B" rx="2"/>
+    <rect x="53" y="148" width="44" height="7" fill="#7CFC00" rx="2"/>
+    <ellipse cx="95" cy="145" rx="8" ry="5" fill="#F0D0A0"/>
+  </g>
+  
+  <!-- Warhol portrait panel 4 (purple background) -->
+  <g transform="translate(650, 100)">
+    <ellipse cx="75" cy="100" rx="60" ry="70" fill="#E8C895"/>
+    <path d="M15,80 Q40,20 75,40 Q110,20 135,80" fill="#FF6600"/>
+    <ellipse cx="75" cy="40" rx="60" ry="25" fill="#FF6600"/>
+    <rect x="40" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="85" y="85" width="35" height="20" rx="5" fill="#1a1a1a"/>
+    <rect x="75" y="90" width="10" height="5" fill="#333"/>
+    <!-- Hamburger -->
+    <rect x="60" y="140" width="30" height="15" fill="#D2691E" rx="3"/>
+    <rect x="55" y="130" width="40" height="10" fill="#FFFFE0" rx="2"/>
+    <rect x="50" y="155" width="50" height="8" fill="#D2691E" rx="2"/>
+    <rect x="53" y="148" width="44" height="7" fill="#90EE90" rx="2"/>
+    <ellipse cx="95" cy="145" rx="8" ry="5" fill="#E8C895"/>
+  </g>
+  
+  <!-- Title in Warhol style -->
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" stroke="black" stroke-width="1">
+    ANDY WARHOL EATS A HAMBURGER
+  </text>
+  
+  <!-- Pop art dots in background -->
+  <g opacity="0.3">
+    <circle cx="100" cy="400" r="15" fill="white"/>
+    <circle cx="180" cy="450" r="12" fill="white"/>
+    <circle cx="250" cy="380" r="10" fill="white"/>
+    <circle cx="320" cy="420" r="14" fill="white"/>
+    <circle cx="400" cy="380" r="11" fill="white"/>
+    <circle cx="480" cy="450" r="13" fill="white"/>
+    <circle cx="550" cy="400" r="9" fill="white"/>
+    <circle cx="620" cy="380" r="16" fill="white"/>
+    <circle cx="700" cy="420" r="12" fill="white"/>
+  </g>
+</svg>

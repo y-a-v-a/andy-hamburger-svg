@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Andy Warhol -->
+  <circle cx="100" cy="100" r="80" fill="black"/>
+  <circle cx="100" cy="100" r="70" fill="white" opacity="0.5"/>
+  <!-- Hamburger -->
+  <rect x="50" y="80" width="100" height="80" fill="brown"/>
+  <rect x="70" y="100" width="60" height="60" fill="red"/>
+  <rect x="130" y="100" width="60" height="60" fill="red"/>
+  <rect x="90" y="150" width="20" height="20" fill="yellow"/>
+</svg>
