@@ -1,0 +1,62 @@
+<svg width="400" height="400"
+     viewBox="0 0 400 400"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Background – bright pop‑art colour -->
+  <rect width="100%" height="100%" fill="#ffe600"/>
+
+  <!-- Head – bold outline, pale skin tone -->
+  <circle cx="200" cy="130" r="50" fill="#f5c6a5" stroke="#222" stroke-width="4"/>
+
+  <!-- Hair – simple blocky style, dark -->
+  <path d="M150 115
+           Q200 80 250 115
+           L250 95
+           Q200 60 150 95 Z"
+        fill="#2c2c2c" stroke="#222" stroke-width="3"/>
+
+  <!-- Glasses – thick black frames -->
+  <rect x="155" y="115" width="35" height="15" fill="none" stroke="#000" stroke-width="4"/>
+  <rect x="210" y="115" width="35" height="15" fill="none" stroke="#000" stroke-width="4"/>
+  <line x1="190" y1="122.5" x2="210" y2="122.5" stroke="#000" stroke-width="4"/>
+
+  <!-- Body – classic Warhol shirt: a bright, single‑color T‑shirt -->
+  <rect x="160" y="180" width="80" height="100" fill="#ff1493" stroke="#222" stroke-width="3"/>
+
+  <!-- Arms – holding a hamburger -->
+  <line x1="160" y1="210" x2="120" y2="250"
+        stroke="#f5c6a5" stroke-width="12" stroke-linecap="round"/>
+  <line x1="240" y1="210" x2="280" y2="250"
+        stroke="#f5c6a5" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Hamburger – simple layered shape -->
+  <g transform="translate(120,250)">
+    <!-- Bun top -->
+    <ellipse cx="0" cy="0" rx="30" ry="12" fill="#d2a679" stroke="#422" stroke-width="2"/>
+    <!-- Lettuce -->
+    <path d="M-30 0 Q-20 5 -10 0 T10 0 T30 0"
+          fill="#83c341" stroke="none"/>
+    <!-- Patty -->
+    <ellipse cx="0" cy="8" rx="28" ry="8" fill="#5c3a21" stroke="#422" stroke-width="1"/>
+    <!-- Bun bottom -->
+    <ellipse cx="0" cy="18" rx="30" ry="10" fill="#d2a679" stroke="#422" stroke-width="2"/>
+  </g>
+
+  <!-- Legs – simple simple rectangles -->
+  <rect x="180" y="280" width="20" height="60" fill="#ff1493" stroke="#222" stroke-width="3"/>
+  <rect x="200" y="280" width="20" height="60" fill="#ff1493" stroke="#222" stroke-width="3"/>
+
+  <!-- Feet – oval shoes -->
+  <ellipse cx="190" cy="345" rx="15" ry="7" fill="#000"/>
+  <ellipse cx="210" cy="345" rx="15" ry="7" fill="#000"/>
+
+  <!-- Caption – pop‑art style bubble text -->
+  <text x="200" y="380" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24"
+        fill="#222"
+        transform="rotate(-5 200,380)">
+    Andy’s Lunch Break
+  </text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background (Warhol-style grid) -->
+  <rect width="500" height="500" fill="#f0f0f0" />
+
+  <!-- Warhol's face (simplified) -->
+  <circle cx="250" cy="200" r="80" fill="#f0e68c" stroke="#000" stroke-width="2" />
+  <circle cx="220" cy="180" r="10" fill="#000" /> <!-- Left eye -->
+  <circle cx="280" cy="180" r="10" fill="#000" /> <!-- Right eye -->
+  <path d="M220 220 Q250 240 280 220" stroke="#000" stroke-width="2" fill="none" /> <!-- Mouth -->
+
+  <!-- Hamburger -->
+  <rect x="200" y="250" width="100" height="20" fill="#8b4513" /> <!-- Bun top -->
+  <rect x="190" y="270" width="120" height="30" fill="#8b4513" /> <!-- Bun bottom -->
+  <rect x="200" y="280" width="100" height="10" fill="#800000" /> <!-- Patty -->
+  <rect x="210" y="290" width="80" height="5" fill="#ffffff" /> <!-- Cheese -->
+  <rect x="220" y="300" width="60" height="5" fill="#008000" /> <!-- Lettuce -->
+
+  <!-- Warhol's hair (spiky) -->
+  <path d="M200 100 L220 80 L240 100 L220 120 Z" fill="#ff6347" />
+  <path d="M260 100 L280 80 L300 100 L280 120 Z" fill="#ff6347" />
+
+  <!-- Warhol's glasses (optional) -->
+  <rect x="215" y="170" width="30" height="5" fill="#000" />
+  <rect x="265" y="170" width="30" height="5" fill="#000" />
+
+  <!-- Warhol's signature (simplified) -->
+  <text x="250" y="450" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">Andy Warhol</text>
+  <text x="250" y="480" font-family="Arial" font-size="15" text-anchor="middle" fill="#000">Eating a Hamburger</text>
+</svg>

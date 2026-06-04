@@ -1,0 +1,67 @@
+<svg width="600" height="600" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" style="background-color:#E6D3F5;">
+
+  <!--
+    SVG depiction of Andy Warhol eating a hamburger.
+    Style inspired by Warhol's own Pop Art aesthetic:
+    - Flat, bold colors
+    - Strong black outlines
+    - Focus on iconic, recognizable shapes
+  -->
+
+  <style>
+    .outline { stroke: #000000; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <g id="scene">
+
+    <!-- Table -->
+    <rect x="0" y="450" width="600" height="150" fill="#4A90E2" />
+
+    <!-- Warhol's Torso (Jacket and Tie) -->
+    <g id="torso" transform="translate(0, 50)">
+      <path class="outline" fill="#222222" d="M 150,220 C 130,280 120,400 120,400 H 480 C 480,400 470,280 450,220 L 330,220 L 300,180 L 270,220 Z" />
+      <path class="outline" fill="#FFFFFF" d="M 270,220 L 300,180 L 330,220 L 300,260 Z" />
+      <path class="outline" fill="#000000" d="M 300,260 L 300,350 L 290,360 H 310 L 300,350 Z" />
+    </g>
+
+    <!-- Warhol's Head and Hands -->
+    <g id="figure">
+      <!-- Left Hand -->
+      <path class="outline" fill="#FDEFE2" d="M 180,330 C 160,320 150,340 155,360 L 170,390 C 180,395 210,380 210,360 Z" />
+
+      <!-- Head -->
+      <path class="outline" fill="#FDEFE2" d="M 215,200 C 190,230 190,320 230,350 C 250,365 350,365 370,350 C 410,320 410,230 385,200 C 350,150 250,150 215,200 Z" />
+      <!-- Neck -->
+      <path class="outline" fill="#FDEFE2" d="M 270,350 C 270,360 270,380 270,380 L 330,380 C 330,380 330,360 330,350 Z" />
+      
+      <!-- Iconic Wig -->
+      <path class="outline" fill="#E5E4E2" d="M 190,210 C 170,150 250,80 300,85 C 350,90 430,150 410,210 C 400,230 370,180 300,180 C 230,180 200,230 190,210 Z" />
+      <!-- Wig detail lines -->
+      <path d="M 250,110 Q 230,150 240,180 M 300,90 Q 310,140 300,180 M 350,110 Q 370,150 360,180" fill="none" stroke="#a0a0a0" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- Glasses -->
+      <path fill="#000000" d="M 220,230 C 200,230 195,280 220,285 L 280,285 L 280,230 Z M 320,230 L 320,285 L 380,285 C 405,280 400,230 380,230 Z M 280,245 L 320,245" />
+
+      <!-- Right Hand -->
+      <path class="outline" fill="#FDEFE2" d="M 390,330 C 410,320 420,340 415,360 L 400,390 C 390,395 360,380 360,360 Z" />
+    </g>
+
+    <!-- Hamburger -->
+    <g id="hamburger" transform="translate(160, 240) rotate(10 140 140)" >
+      <!-- Bottom Bun -->
+      <path class="outline" fill="#D29B69" d="M 100,160 C 100,150 200,150 200,160 L 195,170 L 105,170 Z" />
+      <!-- Patty -->
+      <path class="outline" fill="#654321" d="M 105,150 C 105,140 195,140 195,150 L 195,160 L 105,160 Z"/>
+      <!-- Ketchup -->
+      <path class="outline" fill="#C00000" d="M 110,140 C 115,145 125,142 130,140 C 140,148 155,145 160,140 C 170,143 185,146 190,140 L 192,148 L 108,148 Z" />
+      <!-- Top Bun -->
+      <path class="outline" fill="#D29B69" d="M 105,140 C 100,110 200,110 195,140 Z" />
+      <!-- Sesame Seeds -->
+      <circle cx="150" cy="115" r="2.5" fill="#F1E3D3"/>
+      <circle cx="130" cy="125" r="2.5" fill="#F1E3D3"/>
+      <circle cx="175" cy="128" r="2.5" fill="#F1E3D3"/>
+      <circle cx="160" cy="135" r="2" fill="#F1E3D3"/>
+    </g>
+
+  </g>
+</svg>

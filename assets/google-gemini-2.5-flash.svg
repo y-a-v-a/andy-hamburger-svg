@@ -1,0 +1,80 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Basic Warhol-esque styling */
+    .face-color { fill: #FF0099; } /* Hot Pink */
+    .hair-color { fill: #CCCCCC; } /* Silver-Gray */
+    .shirt-color { fill: #00CCFF; } /* Bright Blue */
+    .burger-bun-top { fill: #FFD700; } /* Gold */
+    .burger-bun-bottom { fill: #FFD700; } /* Gold */
+    .burger-patty { fill: #8B4513; } /* Saddle Brown */
+    .burger-cheese { fill: #FFA500; } /* Orange */
+    .burger-lettuce { fill: #32CD32; } /* Lime Green */
+    .burger-tomato { fill: #FF0000; } /* Red */
+    .outline { stroke: black; stroke-width: 3; stroke-linejoin: round; stroke-linecap: round; }
+    .shadow { fill: rgba(0,0,0,0.2); }
+    .background-pop { fill: #FFFF00; } /* Bright Yellow */
+  </style>
+
+  <!-- Background Pop Art Color -->
+  <rect x="0" y="0" width="800" height="600" class="background-pop" />
+
+  <!-- Andy Warhol's Head (Simplified) -->
+  <g transform="translate(300, 150)">
+    <!-- Shadow for depth, Warhol style -->
+    <path d="M 120 100 C 180 60, 240 60, 300 100 C 320 180, 280 260, 210 280 C 140 260, 100 180, 120 100 Z" class="shadow" transform="translate(10, 15)" />
+
+    <!-- Hair -->
+    <path d="M 120 100 C 180 60, 240 60, 300 100 C 320 180, 280 260, 210 280 C 140 260, 100 180, 120 100 Z" class="hair-color outline" />
+
+    <!-- Face -->
+    <path d="M 140 120 C 170 100, 250 100, 280 120 Q 290 200, 210 240 Q 130 200, 140 120 Z" class="face-color outline" />
+
+    <!-- Eyes -->
+    <rect x="170" y="150" width="30" height="15" fill="black" class="outline" />
+    <rect x="230" y="150" width="30" height="15" fill="black" class="outline" />
+
+    <!-- Nose -->
+    <path d="M 210 175 Q 200 190, 210 205 Q 220 190, 210 175 Z" fill="black" class="outline" />
+
+    <!-- Mouth - currently eating the burger -->
+    <ellipse cx="210" cy="225" rx="40" ry="25" fill="black" class="outline" />
+     <path d="M 170 225 A 40 25 0 0 1 250 225 L 250 200 A 40 25 0 0 0 170 200 Z" fill="#8B0000" class="outline" /> <!-- Lips indication -->
+  </g>
+
+  <!-- Burger (simplified and close to mouth) -->
+  <g transform="translate(250, 380)">
+    <!-- Bottom Bun -->
+    <ellipse cx="100" cy="50" rx="70" ry="30" class="burger-bun-bottom outline" />
+
+    <!-- Lettuce -->
+    <path d="M 30 50 Q 50 20, 100 30 Q 150 20, 170 50 Q 150 60, 100 50 Q 50 60, 30 50 Z" class="burger-lettuce outline" transform="translate(0, -10)" />
+
+    <!-- Tomato -->
+    <ellipse cx="100" cy="30" rx="60" ry="15" class="burger-tomato outline" transform="translate(0, -10)" />
+
+    <!-- Cheese -->
+    <rect x="40" y="10" width="120" height="20" class="burger-cheese outline" transform="translate(0, -10)" />
+
+    <!-- Patty -->
+    <ellipse cx="100" cy="10" rx="65" ry="25" class="burger-patty outline" transform="translate(0, -10)" />
+
+    <!-- Top Bun -->
+    <path d="M 30 0 A 70 30 0 0 1 170 0 Q 180 -30, 100 -50 Q 20 -30, 30 0 Z" class="burger-bun-top outline" transform="translate(0, -20)" />
+
+    <!-- Small sesame seeds (optional, but adds detail) -->
+    <circle cx="70" cy="-35" r="3" fill="#8B4513" />
+    <circle cx="110" cy="-40" r="3" fill="#8B4513" />
+    <circle cx="140" cy="-30" r="3" fill="#8B4513" />
+  </g>
+
+  <!-- Neck -->
+  <rect x="410" y="380" width="20" height="50" class="face-color outline" />
+
+  <!-- Shoulder/Shirt -->
+  <path d="M 350 400 Q 400 380, 490 400 L 510 500 Q 450 520, 330 500 Z" class="shirt-color outline" />
+
+  <!-- Title/Signature -->
+  <text x="50" y="550" font-family="Impact, sans-serif" font-size="40" fill="gray" transform="rotate(-5 50 550)">WARHOL eats BURGER</text>
+  <text x="60" y="555" font-family="Impact, sans-serif" font-size="40" fill="black" transform="rotate(-5 60 555)">WARHOL eats BURGER</text>
+
+</svg>

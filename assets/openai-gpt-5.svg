@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A stylized vector illustration of Andy Warhol with white hair and dark clothing, seated at a table and taking a bite of a hamburger. Bright pop-color background panels and a ketchup bottle on the table. No brands or logos.</desc>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3dd6ff"/>
+      <stop offset="50%" stop-color="#ffe75a"/>
+      <stop offset="100%" stop-color="#ff5db1"/>
+    </linearGradient>
+
+    <clipPath id="panelClip">
+      <rect x="0" y="0" width="800" height="420" rx="8" ry="8"/>
+    </clipPath>
+
+    <style>
+      .stroke { stroke:#1a1a1a; stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+      .nostroke { stroke:none; }
+    </style>
+  </defs>
+
+  <!-- Background panels -->
+  <g clip-path="url(#panelClip)">
+    <rect x="0" y="0" width="800" height="420" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="400" height="420" fill="#a6ff59" opacity="0.35"/>
+    <rect x="400" y="0" width="400" height="420" fill="#ff5db1" opacity="0.2"/>
+    <rect x="0" y="210" width="800" height="210" fill="#3dd6ff" opacity="0.12"/>
+  </g>
+
+  <!-- Table -->
+  <rect x="0" y="420" width="800" height="180" fill="#f3e9d7"/>
+  <rect x="0" y="420" width="800" height="180" fill="none" class="stroke" opacity="0.25"/>
+
+  <!-- Figure group -->
+  <g id="warhol" transform="translate(400,305)">
+    <!-- Shoulders/jacket -->
+    <path class="nostroke" fill="#111" d="M -170,130 C -150,60 -110,20 -30,0 L 30,0 C 110,20 150,60 170,130 L 170,190 L -170,190 Z"/>
+    <path class="stroke" fill="none" d="M -170,130 C -150,60 -110,20 -30,0 L 30,0 C 110,20 150,60 170,130"/>
+
+    <!-- Neck and turtleneck -->
+    <rect x="-32" y="-10" width="64" height="36" fill="#f6d0b8" class="stroke"/>
+    <rect x="-46" y="20" width="92" height="42" rx="6" ry="6" fill="#000" class="stroke"/>
+
+    <!-- Head -->
+    <ellipse cx="0" cy="-70" rx="78" ry="96" fill="#f6d0b8" class="stroke"/>
+
+    <!-- Hair (white wig) -->
+    <path d="M -98,-95 C -76,-150 -16,-170 0,-170 C 22,-170 66,-154 90,-120 C 106,-96 120,-66 112,-36 C 96,-42 76,-46 56,-44 C 30,-42 12,-36 0,-36 C -12,-36 -30,-42 -56,-44 C -76,-46 -96,-42 -112,-36 C -118,-58 -114,-76 -106,-90 Z"
+          fill="#fff" class="stroke"/>
+    <!-- Hair fringe tufts -->
+    <path d="M -70,-130 L -84,-146 M -42,-148 L -48,-168 M 18,-155 L 14,-174 M 56,-138 L 70,-154"
+          stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.9"/>
+
+    <!-- Ears -->
+    <ellipse cx="-70" cy="-66" rx="10" ry="16" fill="#f2bea1" class="stroke"/>
+    <ellipse cx="70" cy="-66" rx="10" ry="16" fill="#f2bea1" class="stroke"/>
+
+    <!-- Glasses -->
+    <g>
+      <rect x="-56" y="-96" width="48" height="32" rx="6" ry="6" fill="#cde7ff" opacity="0.7" class="stroke"/>
+      <rect x="8" y="-96" width="48" height="32" rx="6" ry="6" fill="#cde7ff" opacity="0.7" class="stroke"/>
+      <line x1="-8" y1="-80" x2="8" y2="-80" class="stroke"/>
+      <path d="M -56,-96 C -62,-102 -74,-106 -86,-104" class="stroke" fill="none"/>
+      <path d="M 104,-104 C 92,-106 80,-102 74,-96" class="stroke" fill="none"/>
+    </g>
+
+    <!-- Eyes -->
+    <circle cx="-32" cy="-80" r="3" fill="#1a1a1a"/>
+    <circle cx="32" cy="-80" r="3" fill="#1a1a1a"/>
+
+    <!-- Nose -->
+    <path d="M 0,-88 C -2,-72 -4,-62 0,-58 C 6,-52 0,-48 -8,-48" fill="none" class="stroke"/>
+
+    <!-- Mouth (slightly open, about to bite) -->
+    <path d="M -6,-34 Q 0,-30 10,-32" class="stroke" fill="none"/>
+
+    <!-- Right arm and hand holding burger -->
+    <g transform="translate(54,40)">
+      <!-- Sleeve -->
+      <path d="M -14,-8 C 32,-36 68,-44 116,-40 L 124,-8 C 90,-10 58,-2 18,18 Z" fill="#111" class="stroke"/>
+      <!-- Hand -->
+      <path d="M 106,-12 C 118,-12 126,-4 126,8 C 126,20 118,30 104,30 C 92,30 82,22 80,10 C 78,0 84,-8 94,-12 Z"
+            fill="#f6d0b8" class="stroke"/>
+      <!-- Burger -->
+      <g transform="translate(100,4)">
+        <!-- top bun -->
+        <path d="M -42,-6 C -40,-24 -16,-34 0,-34 C 16,-34 40,-24 42,-6 Q 0,-10 -42,-6 Z"
+              fill="#f2b654" class="stroke"/>
+        <!-- sesame seeds -->
+        <g fill="#fff" opacity="0.8">
+          <ellipse cx="-22" cy="-22" rx="3" ry="1.6"/>
+          <ellipse cx="-8" cy="-26" rx="3" ry="1.6"/>
+          <ellipse cx="8" cy="-24" rx="3" ry="1.6"/>
+          <ellipse cx="22" cy="-22" rx="3" ry="1.6"/>
+          <ellipse cx="0" cy="-20" rx="3" ry="1.6"/>
+        </g>
+        <!-- fillings -->
+        <rect x="-40" y="-6" width="80" height="6" rx="3" ry="3" fill="#4c2b14"/>
+        <rect x="-40" y="0" width="80" height="4" rx="2" ry="2" fill="#3aa655"/>
+        <rect x="-40" y="4" width="80" height="4" rx="2" ry="2" fill="#e23e3e"/>
+        <!-- bottom bun -->
+        <rect x="-42" y="8" width="84" height="10" rx="4" ry="4" fill="#e9a94d" class="stroke"/>
+      </g>
+    </g>
+
+    <!-- Left arm resting on table -->
+    <g transform="translate(-120,78)">
+      <path d="M -30,26 C -14,2 12,-10 40,-10 C 76,-10 112,18 124,44 L 106,58 C 96,36 72,20 40,20 C 20,20 2,26 -18,40 Z"
+            fill="#111" class="stroke"/>
+      <!-- Left hand on table -->
+      <path d="M 130,60 C 146,60 154,70 154,82 C 154,94 146,104 132,104 C 118,104 108,96 106,84 C 104,72 112,60 130,60 Z"
+            fill="#f6d0b8" class="stroke"/>
+    </g>
+  </g>
+
+  <!-- Ketchup bottle on table -->
+  <g transform="translate(560,466)">
+    <rect x="-20" y="-4" width="40" height="80" rx="8" ry="8" fill="#d32b2b" class="stroke"/>
+    <rect x="-14" y="10" width="28" height="30" rx="4" ry="4" fill="#f3e9d7" opacity="0.9" class="stroke"/>
+    <path d="M -10,-10 L 10,-10 L 6,-26 L -6,-26 Z" fill="#b71c1c" class="stroke"/>
+    <circle cx="0" cy="28" r="6" fill="#d32b2b" opacity="0.7"/>
+  </g>
+
+  <!-- Plate on table -->
+  <g transform="translate(310,476)">
+    <ellipse cx="0" cy="48" rx="80" ry="18" fill="#e8e0cf"/>
+    <ellipse cx="0" cy="48" rx="80" ry="18" fill="none" class="stroke" opacity="0.3"/>
+  </g>
+
+  <!-- Subtle shadows -->
+  <ellipse cx="400" cy="520" rx="190" ry="24" fill="#000" opacity="0.08"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="background:#ff6fab">
+  <!-- Andy Warhol Silhouette -->
+  <rect x="100" y="90" width="200" height="180" fill="#000" stroke="#fff" stroke-width="8"/>
+  
+  <!-- Signature White Hair -->
+  <path d="M120 70 Q200 10, 280 70" fill="none" stroke="#fff" stroke-width="25" stroke-linecap="round"/>
+  
+  <!-- Sunglasses -->
+  <rect x="130" y="130" width="60" height="40" fill="#1b75bc"/>
+  <rect x="210" y="130" width="60" height="40" fill="#1b75bc"/>
+  <rect x="190" y="140" width="20" height="20" fill="#000"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(170 230)">
+    <!-- Tomato -->
+    <circle cx="30" cy="-25" r="35" fill="#ed1c24"/>
+    
+    <!-- Cheese -->
+    <rect x="-5" y="-5" width="70" height="10" fill="#fff200" rx="3"/>
+    
+    <!-- Patty -->
+    <rect x="-10" y="0" width="80" height="15" fill="#89421a" rx="8"/>
+    
+    <!-- Lettuce -->
+    <path d="M-10 15 Q15 25, 70 15" fill="#00a64f" stroke="#00833f" stroke-width="3"/>
+    
+    <!-- Bottom Bun -->
+    <path d="M-10 25 Q18 35, 70 25" fill="#e89e42" stroke="#d08a35" stroke-width="3"/>
+    
+    <!-- Hand -->
+    <path d="M50 15 Q120 40, 110 30" fill="none" stroke="#fad6c6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-20 15 Q-60 10, -10 30" fill="none" stroke="#fad6c6" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Pop Art Dots -->
+  <circle cx="70" cy="320" r="25" fill="#fff200"/>
+  <circle cx="140" cy="340" r="35" fill="#1b75bc"/>
+  <circle cx="250" cy="320" r="25" fill="#ed1c24"/>
+  <circle cx="325" cy="340" r="35" fill="#00a64f"/>
+  
+  <!-- Warhol Signature -->
+  <text x="200" y="380" text-anchor="middle" font-family="Helvetica" font-size="10" fill="#fff">
+    © Warhol 1962
+  </text>
+</svg>

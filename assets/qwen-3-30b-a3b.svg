@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Andy Warhol's Head -->
+  <circle cx="100" cy="50" r="30" fill="#ffe5b4" stroke="#333" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="85" cy="45" r="5" fill="#333"/>
+  <circle cx="115" cy="45" r="5" fill="#333"/>
+  <!-- Mouth -->
+  <path d="M 85 60 Q 100 70 115 60" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Body -->
+  <rect x="80" y="80" width="40" height="60" fill="#005f73" stroke="#333" stroke-width="2"/>
+  <!-- Hamburger -->
+  <!-- Bun -->
+  <rect x="130" y="100" width="20" height="10" fill="#b86d2f"/>
+  <rect x="130" y="110" width="20" height="10" fill="#b86d2f"/>
+  <!-- Patty -->
+  <rect x="130" y="120" width="20" height="10" fill="#c41e3a"/>
+  <!-- Lettuce -->
+  <rect x="130" y="90" width="20" height="10" fill="#4caf50"/>
+  <!-- Tomato -->
+  <circle cx="140" cy="95" r="5" fill="#ff3b30"/>
+</svg>

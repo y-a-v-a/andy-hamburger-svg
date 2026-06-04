@@ -1,0 +1,112 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with Warhol-style dots -->
+  <rect width="400" height="400" fill="#FF6B6B"/>
+  
+  <!-- Dots pattern -->
+  <g opacity="0.3">
+    <circle cx="50" cy="50" r="8" fill="#FFE66D"/>
+    <circle cx="150" cy="50" r="8" fill="#4ECDC4"/>
+    <circle cx="250" cy="50" r="8" fill="#FFE66D"/>
+    <circle cx="350" cy="50" r="8" fill="#4ECDC4"/>
+    
+    <circle cx="50" cy="150" r="8" fill="#4ECDC4"/>
+    <circle cx="150" cy="150" r="8" fill="#FFE66D"/>
+    <circle cx="250" cy="150" r="8" fill="#4ECDC4"/>
+    <circle cx="350" cy="150" r="8" fill="#FFE66D"/>
+    
+    <circle cx="50" cy="250" r="8" fill="#FFE66D"/>
+    <circle cx="150" cy="250" r="8" fill="#4ECDC4"/>
+    <circle cx="250" cy="250" r="8" fill="#FFE66D"/>
+    <circle cx="350" cy="250" r="8" fill="#4ECDC4"/>
+    
+    <circle cx="50" cy="350" r="8" fill="#4ECDC4"/>
+    <circle cx="150" cy="350" r="8" fill="#FFE66D"/>
+    <circle cx="250" cy="350" r="8" fill="#4ECDC4"/>
+    <circle cx="350" cy="350" r="8" fill="#FFE66D"/>
+  </g>
+  
+  <!-- Warhol's head -->
+  <ellipse cx="200" cy="150" rx="80" ry="90" fill="#F4E6D7"/>
+  
+  <!-- Warhol's hair -->
+  <path d="M 120 120 Q 140 80, 200 70 Q 260 80, 280 120 Q 270 100, 250 95 Q 220 90, 200 95 Q 180 90, 150 95 Q 130 100, 120 120" 
+        fill="#C0C0C0"/>
+  
+  <!-- Warhol's face features -->
+  <!-- Eyes -->
+  <ellipse cx="170" cy="140" rx="25" ry="30" fill="white" stroke="#333" stroke-width="3"/>
+  <ellipse cx="230" cy="140" rx="25" ry="30" fill="white" stroke="#333" stroke-width="3"/>
+  
+  <!-- Pupils -->
+  <circle cx="170" cy="140" r="12" fill="#333"/>
+  <circle cx="230" cy="140" r="12" fill="#333"/>
+  
+  <!-- Glasses frames -->
+  <rect x="145" y="125" width="50" height="30" rx="5" fill="none" stroke="#333" stroke-width="4"/>
+  <rect x="205" y="125" width="50" height="30" rx="5" fill="none" stroke="#333" stroke-width="4"/>
+  <line x1="195" y1="140" x2="205" y2="140" stroke="#333" stroke-width="4"/>
+  
+  <!-- Nose -->
+  <path d="M 200 160 Q 190 180, 200 190" fill="none" stroke="#333" stroke-width="2"/>
+  
+  <!-- Mouth (eating expression) -->
+  <ellipse cx="200" cy="200" rx="30" ry="20" fill="#333"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(250, 250)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="50" ry="20" fill="#D4A574"/>
+    <ellipse cx="0" cy="-5" rx="50" ry="20" fill="#F4E6D7"/>
+    
+    <!-- Sesame seeds -->
+    <circle cx="-20" cy="-10" r="3" fill="#FFF"/>
+    <circle cx="0" cy="-8" r="3" fill="#FFF"/>
+    <circle cx="20" cy="-10" r="3" fill="#FFF"/>
+    <circle cx="-10" cy="-5" r="3" fill="#FFF"/>
+    <circle cx="10" cy="-5" r="3" fill="#FFF"/>
+    
+    <!-- Lettuce -->
+    <path d="M -45 5 Q -40 0, -35 5 Q -30 0, -25 5 Q -20 0, -15 5 Q -10 0, -5 5 Q 0 0, 5 5 Q 10 0, 15 5 Q 20 0, 25 5 Q 30 0, 35 5 Q 40 0, 45 5" 
+          fill="#90EE90" stroke="#7CFC00" stroke-width="1"/>
+    
+    <!-- Tomato slice -->
+    <ellipse cx="0" cy="15" rx="45" ry="8" fill="#FF6347"/>
+    
+    <!-- Cheese -->
+    <ellipse cx="0" cy="25" rx="45" ry="6" fill="#FFD700"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="35" rx="45" ry="10" fill="#8B4513"/>
+    <ellipse cx="0" cy="33" rx="45" ry="8" fill="#A0522D"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="45" rx="45" ry="15" fill="#D4A574"/>
+    <ellipse cx="0" cy="40" rx="45" ry="15" fill="#F4E6D7"/>
+  </g>
+  
+  <!-- Warhol's hand holding hamburger -->
+  <g transform="translate(280, 280) rotate(-30)">
+    <!-- Arm -->
+    <rect x="-10" y="0" width="20" height="60" rx="10" fill="#F4E6D7"/>
+    
+    <!-- Hand -->
+    <ellipse cx="0" cy="70" rx="25" ry="20" fill="#F4E6D7"/>
+    
+    <!-- Fingers gripping burger -->
+    <rect x="-15" y="65" width="8" height="20" rx="4" fill="#F4E6D7" transform="rotate(-20 -11 75)"/>
+    <rect x="7" y="65" width="8" height="20" rx="4" fill="#F4E6D7" transform="rotate(20 11 75)"/>
+  </g>
+  
+  <!-- Warhol's iconic striped shirt -->
+  <rect x="120" y="200" width="160" height="100" fill="#0000FF"/>
+  <rect x="120" y="210" width="160" height="10" fill="#000080"/>
+  <rect x="120" y="230" width="160" height="10" fill="#000080"/>
+  <rect x="120" y="250" width="160" height="10" fill="#000080"/>
+  <rect x="120" y="270" width="160" height="10" fill="#000080"/>
+  <rect x="120" y="290" width="160" height="10" fill="#000080"/>
+  
+  <!-- Quote pop art text -->
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">
+    EVERYBODY EATS
+  </text>
+</svg>

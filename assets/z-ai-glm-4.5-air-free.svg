@@ -1,0 +1,114 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F5F5F5"/>
+  
+  <!-- Warhol's face -->
+  <circle cx="200" cy="180" r="60" fill="#FFE5B4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Blond wig -->
+  <path d="M 140 140 Q 140 110, 200 110 Q 260 110, 260 140 Q 255 130, 200 130 Q 145 130, 140 140" 
+        fill="#FFD700" stroke="#333" stroke-width="2"/>
+  <path d="M 140 140 Q 130 150, 130 170 L 140 170 Q 135 155, 140 140" 
+        fill="#FFD700" stroke="#333" stroke-width="2"/>
+  <path d="M 260 140 Q 270 150, 270 170 L 260 170 Q 265 155, 260 140" 
+        fill="#FFD700" stroke="#333" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <g stroke="#333" stroke-width="3" fill="none">
+    <path d="M 170 170 L 170 180"/>
+    <path d="M 230 170 L 230 180"/>
+  </g>
+  
+  <!-- Glasses -->
+  <g stroke="#333" stroke-width="2" fill="none">
+    <rect x="160" y="165" width="35" height="25" rx="5"/>
+    <rect x="205" y="165" width="35" height="25" rx="5"/>
+    <line x1="195" y1="177.5" x2="205" y2="177.5"/>
+  </g>
+  
+  <!-- Nose -->
+  <line x1="200" y1="190" x2="200" y2="200" stroke="#333" stroke-width="2"/>
+  
+  <!-- Mouth -->
+  <path d="M 185 210 Q 200 220, 215 210" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(280, 200)">
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="35" ry="12" fill="#D4A574" stroke="#333" stroke-width="2"/>
+    <path d="M -35 0 Q -35 10, -30 10 L 30 10 Q 35 10, 35 0" fill="#E5C4A1"/>
+    
+    <!-- Sesame seeds -->
+    <circle cx="-20" cy="-3" r="2" fill="#FFF"/>
+    <circle cx="-5" cy="-5" r="2" fill="#FFF"/>
+    <circle cx="10" cy="-3" r="2" fill="#FFF"/>
+    <circle cx="25" cy="-4" r="2" fill="#FFF"/>
+    
+    <!-- Lettuce -->
+    <ellipse cx="0" cy="10" rx="33" ry="8" fill="#90EE90" stroke="#333" stroke-width="2"/>
+    <path d="M -30 10 Q -25 15, -20 10 L -10 10 Q -5 15, 0 10 L 10 10 Q 15 15, 20 10 L 30 10 Q 35 15, 30 10" 
+          fill="#7CFC00" opacity="0.7"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="20" rx="32" ry="7" fill="#FF6B6B" stroke="#333" stroke-width="2"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="30" rx="32" ry="10" fill="#8B4513" stroke="#333" stroke-width="2"/>
+    <ellipse cx="-15" cy="30" rx="8" ry="3" fill="#654321"/>
+    <ellipse cx="15" cy="30" rx="8" ry="3" fill="#654321"/>
+    
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="40" rx="35" ry="12" fill="#D4A574" stroke="#333" stroke-width="2"/>
+    <path d="M -35 40 Q -35 50, -30 50 L 30 50 Q 35 50, 35 40" fill="#E5C4A1"/>
+  </g>
+  
+  <!-- Hand holding hamburger -->
+  <g transform="translate(240, 250)">
+    <!-- Arm -->
+    <rect x="0" y="0" width="40" height="15" rx="7" fill="#FFE5B4" stroke="#333" stroke-width="2"/>
+    
+    <!-- Hand -->
+    <ellipse cx="5" cy="-10" rx="15" ry="12" fill="#FFE5B4" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- Warhol's suit -->
+  <g>
+    <!-- Collar -->
+    <path d="M 180 220 L 190 240 L 200 235 L 210 240 L 220 220" 
+          fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Shirt -->
+    <rect x="190" y="240" width="20" height="40" fill="#FFF" stroke="#333" stroke-width="2"/>
+    
+    <!-- Tie -->
+    <path d="M 195 240 L 195 260 L 200 275 L 205 260 L 205 240" 
+          fill="#DC143C" stroke="#333" stroke-width="1"/>
+    
+    <!-- Jacket -->
+    <path d="M 160 240 Q 160 280, 180 290 L 180 320 L 220 320 L 220 290 Q 240 280, 240 240" 
+          fill="#1E3A8A" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- Pop art elements -->
+  <g opacity="0.3">
+    <rect x="20" y="20" width="60" height="60" fill="#FF69B4" transform="rotate(15 50 50)"/>
+    <rect x="320" y="320" width="60" height="60" fill="#00CED1" transform="rotate(-15 350 350)"/>
+    <circle cx="50" cy="350" r="30" fill="#FFD700"/>
+    <circle cx="350" cy="50" r="30" fill="#FF6347"/>
+  </g>
+  
+  <!-- Warhol signature style dots -->
+  <g fill="#333" opacity="0.6">
+    <circle cx="80" cy="80" r="3"/>
+    <circle cx="90" cy="80" r="3"/>
+    <circle cx="100" cy="80" r="3"/>
+    <circle cx="110" cy="80" r="3"/>
+    <circle cx="120" cy="80" r="3"/>
+    
+    <circle cx="280" cy="320" r="3"/>
+    <circle cx="290" cy="320" r="3"/>
+    <circle cx="300" cy="320" r="3"/>
+    <circle cx="310" cy="320" r="3"/>
+    <circle cx="320" cy="320" r="3"/>
+  </g>
+</svg>

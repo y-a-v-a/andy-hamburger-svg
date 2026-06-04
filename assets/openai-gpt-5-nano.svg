@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Stylized Andy Warhol eating a hamburger in pop-art style">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#bde0ff"/>
+
+  <!-- Hair (behind the head) -->
+  <path d="M120,170 C90,120 140,70 240,60 C320,52 360,60 420,90 C470,120 520,170 520,210 C480,240 420,270 360,270 C300,270 260,260 210,240 C190,230 150,210 120,170 Z" fill="#ffffff"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="260" rx="120" ry="135" fill="#fbd7c6"/>
+
+  <!-- Ears -->
+  <ellipse cx="178" cy="260" rx="24" ry="28" fill="#fbd7c6"/>
+  <ellipse cx="422" cy="260" rx="24" ry="28" fill="#fbd7c6"/>
+
+  <!-- Hair highlights (soft) -->
+  <path d="M260,110 C200,130 170,170 210,210 C240,240 320,250 360,210 C400,170 360,140 320,120 C300,112 290,110 260,110 Z" fill="#f4f4f4"/>
+
+  <!-- Glasses -->
+  <rect x="230" y="210" width="80" height="26" rx="6" fill="#000"/>
+  <rect x="320" y="210" width="80" height="26" rx="6" fill="#000"/>
+  <rect x="304" y="216" width="12" height="6" fill="#000"/>
+  <circle cx="242" cy="222" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="324" cy="222" r="3" fill="#fff" opacity="0.8"/>
+
+  <!-- Nose -->
+  <path d="M294,238 C300,244 306,244 310,238" fill="none" stroke="#8a5d3a" stroke-width="3"/>
+
+  <!-- Mouth -->
+  <path d="M260,260 C270,270 290,270 300,270" fill="none" stroke="#c25a5a" stroke-width="2.5"/>
+
+  <!-- Hamburger (left of mouth) -->
+  <ellipse cx="240" cy="284" rx="40" ry="14" fill="#f5c07a"/>
+  <ellipse cx="240" cy="296" rx="40" ry="14" fill="#2ecc71"/>
+  <rect x="202" y="296" width="76" height="14" rx="4" fill="#ffd166"/>
+  <rect x="208" y="308" width="64" height="14" rx="4" fill="#8b4d2a"/>
+  <ellipse cx="240" cy="312" rx="40" ry="14" fill="#f5c07a"/>
+</svg>

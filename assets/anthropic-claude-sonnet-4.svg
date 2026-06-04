@@ -1,0 +1,74 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FF6B9D"/>
+  
+  <!-- Andy Warhol's iconic white/silver hair -->
+  <ellipse cx="200" cy="120" rx="80" ry="60" fill="#E8E8E8"/>
+  <ellipse cx="200" cy="110" rx="75" ry="55" fill="#F5F5F5"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="160" rx="60" ry="70" fill="#FFD1B5"/>
+  
+  <!-- Glasses (iconic black frames) -->
+  <ellipse cx="180" cy="145" rx="18" ry="15" fill="none" stroke="#000" stroke-width="3"/>
+  <ellipse cx="220" cy="145" rx="18" ry="15" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="198" y1="145" x2="202" y2="145" stroke="#000" stroke-width="3"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="145" r="3" fill="#000"/>
+  <circle cx="220" cy="145" r="3" fill="#000"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="165" rx="3" ry="8" fill="#FFB088"/>
+  
+  <!-- Hamburger -->
+  <!-- Top bun -->
+  <ellipse cx="280" cy="220" rx="35" ry="20" fill="#D2691E"/>
+  <circle cx="270" cy="215" r="2" fill="#8B4513"/>
+  <circle cx="285" cy="218" r="1.5" fill="#8B4513"/>
+  <circle cx="290" cy="210" r="1" fill="#8B4513"/>
+  
+  <!-- Lettuce -->
+  <ellipse cx="280" cy="235" rx="38" ry="8" fill="#32CD32"/>
+  
+  <!-- Tomato -->
+  <ellipse cx="280" cy="242" rx="36" ry="6" fill="#FF6347"/>
+  
+  <!-- Cheese -->
+  <ellipse cx="280" cy="248" rx="37" ry="5" fill="#FFD700"/>
+  
+  <!-- Meat patty -->
+  <ellipse cx="280" cy="255" rx="35" ry="12" fill="#8B4513"/>
+  
+  <!-- Bottom bun -->
+  <ellipse cx="280" cy="270" rx="35" ry="18" fill="#D2691E"/>
+  
+  <!-- Hands holding burger -->
+  <ellipse cx="240" cy="250" rx="12" ry="20" fill="#FFD1B5"/>
+  <ellipse cx="320" cy="250" rx="12" ry="20" fill="#FFD1B5"/>
+  
+  <!-- Fingers -->
+  <ellipse cx="235" cy="235" rx="4" ry="12" fill="#FFD1B5"/>
+  <ellipse cx="245" cy="235" rx="4" ry="12" fill="#FFD1B5"/>
+  <ellipse cx="325" cy="235" rx="4" ry="12" fill="#FFD1B5"/>
+  <ellipse cx="315" cy="235" rx="4" ry="12" fill="#FFD1B5"/>
+  
+  <!-- Mouth (partially open, about to bite) -->
+  <ellipse cx="200" cy="185" rx="8" ry="6" fill="#8B0000"/>
+  
+  <!-- Body/Shirt (simple geometric shape) -->
+  <rect x="140" y="220" width="120" height="180" fill="#000"/>
+  
+  <!-- Pop art style dots (Ben-Day dots) -->
+  <circle cx="50" cy="50" r="3" fill="#00FFFF" opacity="0.7"/>
+  <circle cx="70" cy="80" r="3" fill="#00FFFF" opacity="0.7"/>
+  <circle cx="90" cy="60" r="3" fill="#00FFFF" opacity="0.7"/>
+  <circle cx="350" cy="100" r="3" fill="#FFFF00" opacity="0.7"/>
+  <circle cx="330" cy="130" r="3" fill="#FFFF00" opacity="0.7"/>
+  <circle cx="370" cy="150" r="3" fill="#FFFF00" opacity="0.7"/>
+  
+  <!-- More decorative dots -->
+  <circle cx="60" cy="350" r="4" fill="#00FF00" opacity="0.6"/>
+  <circle cx="340" cy="380" r="4" fill="#FF00FF" opacity="0.6"/>
+  <circle cx="30" cy="300" r="3" fill="#00FFFF" opacity="0.7"/>
+</svg>

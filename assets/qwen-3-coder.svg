@@ -1,0 +1,38 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Andy Warhol style: bold color block) -->
+  <rect width="100%" height="100%" fill="#f5f5dc"/>
+
+  <!-- Andy's Head -->
+  <ellipse cx="100" cy="150" rx="50" ry="60" fill="#f0c090"/>
+
+  <!-- Andy's Hair -->
+  <path d="M60,100 Q100,60 140,100 L130,130 Q100,110 70,130 Z" fill="#f0f0f0"/>
+
+  <!-- Glasses -->
+  <rect x="60" y="140" width="80" height="30" rx="15" fill="none" stroke="black" stroke-width="3"/>
+  <line x1="100" y1="140" x2="100" y2="170" stroke="black" stroke-width="3"/>
+
+  <!-- Mouth -->
+  <rect x="80" y="180" width="40" height="10" rx="5" fill="#c03030"/>
+
+  <!-- Hamburger in hand -->
+  <!-- Arm -->
+  <rect x="150" y="170" width="60" height="15" fill="#f0c090" transform="rotate(-20 150 170)"/>
+  
+  <!-- Bun Top -->
+  <ellipse cx="220" cy="185" rx="20" ry="10" fill="#e0c080"/>
+  
+  <!-- Patty -->
+  <rect x="200" y="185" width="40" height="8" fill="#603010"/>
+  
+  <!-- Lettuce -->
+  <path d="M200,193 Q210,198 220,193 Q230,198 240,193" fill="#60a060"/>
+  
+  <!-- Bun Bottom -->
+  <ellipse cx="220" cy="200" rx="20" ry="10" fill="#e0c080"/>
+
+  <!-- Pop Art Style Title -->
+  <text x="200" y="40" font-family="Arial" font-size="20" fill="#404040" text-anchor="middle">
+    ANDY WARHOL EATS BURGER
+  </text>
+</svg>

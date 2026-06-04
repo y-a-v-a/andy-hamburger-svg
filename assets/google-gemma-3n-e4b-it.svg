@@ -1,0 +1,44 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background (simplified, Warhol-esque color) -->
+  <rect width="100%" height="100%" fill="#FF69B4" /> <!-- Hot Pink -->
+
+  <!-- Andy Warhol's Face -->
+  <ellipse cx="250" cy="180" rx="80" ry="100" fill="#FFFFFF" stroke="#000000" stroke-width="3"/> <!-- White face, black outline -->
+
+  <!-- Warhol's Eyes (Pop Art Style) -->
+  <circle cx="220" cy="160" r="15" fill="#000000"/>
+  <circle cx="280" cy="160" r="15" fill="#000000"/>
+  <circle cx="220" cy="160" r="5" fill="white"/>
+  <circle cx="280" cy="160" r="5" fill="white"/>
+
+  <!-- Warhol's Mouth (Bold, Black Line) -->
+  <path d="M 230 210 Q 250 220, 270 210" stroke="#000000" stroke-width="4" fill="none"/>
+
+
+  <!-- Hamburger -->
+  <rect x="200" y="220" width="100" height="50" fill="#800000" stroke="#000000" stroke-width="2"/> <!-- Bun Bottom -->
+  <rect x="200" y="170" width="100" height="50" fill="#800000" stroke="#000000" stroke-width="2"/> <!-- Bun Top -->
+
+  <!-- Patty -->
+  <ellipse cx="250" cy="220" rx="40" ry="20" fill="#A0522D" stroke="#000000" stroke-width="2"/>  <!-- Brownish Patty -->
+
+  <!-- Cheese (yellow blob) -->
+  <ellipse cx="250" cy="220" rx="20" ry="10" fill="#FFFF00" stroke="#000000" stroke-width="1"/>
+
+  <!-- Lettuce (green) -->
+  <rect x="200" y="170" width="80" height="20" fill="#008000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Tomato (red) -->
+  <circle cx="250" cy="170" r="15" fill="#FF0000" stroke="#000000" stroke-width="1"/>
+
+  <!-- Pickles (green) -->
+  <rect x="250" y="170" width="10" height="15" fill="#008000" stroke="#000000" stroke-width="1"/>
+  <rect x="250" y="170" width="10" height="15" fill="#008000" stroke="#000000" stroke-width="1"/>
+    <!-- Main/Holding the Burger -->
+  <ellipse cx="250" cy="220" rx="50" ry="20" fill="#DAA520" stroke="#000000" stroke-width="2" />
+
+
+
+
+</svg>

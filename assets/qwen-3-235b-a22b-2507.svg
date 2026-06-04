@@ -1,0 +1,82 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .head { fill: #ffdbac; }
+    .wig { fill: #eeeeee; }
+    .glasses { fill: #000000; }
+    .lens { fill: #a0d8f1; }
+    .mouth { fill: #ff8acc; }
+    .hamburger { fill: #8B4513; }
+    .bun { fill: #deb887; }
+    .lettuce { fill: #7cfc00; }
+    .cheese { fill: #ffd700; }
+    .text { font-family: 'Impact', sans-serif; fill: red; font-size: 24px; }
+  </style>
+
+  <!-- Background (split colors, pop art style) -->
+  <rect x="0" y="0" width="400" height="600" fill="#f0f" opacity="0.2"/>
+  <rect x="400" y="0" width="400" height="600" fill="#0ff" opacity="0.1"/>
+
+  <!-- Andy's Wig (big and silver) -->
+  <ellipse cx="400" cy="150" rx="120" ry="100" class="wig" />
+  <path d="M280,150 Q340,80 400,100 Q460,80 520,150 Q460,170 400,170 Q340,170 280,150" fill="#e0e0e0"/>
+
+  <!-- Head -->
+  <circle cx="400" cy="200" r="60" class="head"/>
+
+  <!-- Glasses -->
+  <ellipse cx="375" cy="190" rx="25" ry="20" class="glasses"/>
+  <ellipse cx="425" cy="190" rx="25" ry="20" class="glasses"/>
+  <rect x="400" y="185" width="3" height="10" fill="black"/>
+  <circle cx="375" cy="190" r="10" class="lens"/>
+  <circle cx="425" cy="190" r="10" class="lens"/>
+
+  <!-- Simple Mouth (open, showing bite of burger) -->
+  <ellipse cx="400" cy="225" rx="15" ry="10" class="mouth"/>
+  <line x1="385" y1="225" x2="415" y2="225" stroke="black" stroke-width="1"/>
+
+  <!-- Arm holding burger -->
+  <path d="M420,250 L470,300 L465,310 L425,270" fill="#ffdbac" stroke="black" stroke-width="1"/>
+
+  <!-- Hamburger (simplified stack) -->
+  <!-- Bottom bun -->
+  <ellipse cx="480" cy="320" rx="35" ry="15" class="bun" stroke="black" stroke-width="1"/>
+  <!-- Patty -->
+  <ellipse cx="480" cy="310" rx="30" ry="10" class="hamburger"/>
+  <!-- Cheese -->
+  <ellipse cx="480" cy="305" rx="28" ry="6" class="cheese"/>
+  <!-- Lettuce -->
+  <path d="M450,302 Q460,295 470,302 Q480,295 490,302 Q500,298 510,302" fill="#7cfc00" stroke="black" stroke-width="0.5"/>
+  <!-- Top bun -->
+  <path d="M445,300 Q480,280 515,300 L515,308 Q480,325 445,308 Z" class="bun" stroke="black" stroke-width="1"/>
+
+  <!-- Speech bubble -->
+  <path d="M330,160 L310,130 L340,130 L350,100 L370,130 L400,130 Z" fill="white" stroke="black"/>
+  <text x="325" y="125" class="text">Mmm... Pop Art!</text>
+
+  <!-- Signature-style repetition (small burgers in grid) -->
+  <g opacity="0.2">
+    <!-- Top row -->
+    <use href="#burger" x="50" y="400"/>
+    <use href="#burger" x="150" y="400"/>
+    <use href="#burger" x="250" y="400"/>
+    <!-- Bottom row -->
+    <use href="#burger" x="50" y="500"/>
+    <use href="#burger" x="150" y="500"/>
+    <use href="#burger" x="250" y="500"/>
+  </g>
+
+  <!-- Define reusable burger symbol -->
+  <defs>
+    <g id="burger">
+      <ellipse rx="15" ry="5" class="bun" cx="0" cy="0"/>
+      <ellipse rx="12" ry="4" class="hamburger" cx="0" cy="-8"/>
+      <ellipse rx="10" ry="2" class="cheese" cx="0" cy="-10"/>
+      <ellipse rx="15" ry="5" class="bun" cx="0" cy="-16"/>
+    </g>
+  </defs>
+
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="30" text-anchor="middle" fill="black" opacity="0.7">
+    Andy Warhol Eats a Hamburger
+  </text>
+</svg>

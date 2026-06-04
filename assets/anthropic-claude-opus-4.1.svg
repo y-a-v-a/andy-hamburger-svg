@@ -1,0 +1,51 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFD700"/>
+  
+  <!-- Hair (iconic silver/white wig) -->
+  <ellipse cx="200" cy="120" rx="90" ry="70" fill="#E8E8E8"/>
+  <path d="M 110 100 Q 120 80, 140 85 T 170 80 T 200 75 T 230 80 T 260 85 T 290 100" 
+        fill="#E8E8E8" stroke="none"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="160" rx="65" ry="75" fill="#FDBCB4"/>
+  
+  <!-- Glasses (iconic black frames) -->
+  <rect x="155" y="140" width="35" height="30" fill="none" stroke="#000" stroke-width="4" rx="5"/>
+  <rect x="210" y="140" width="35" height="30" fill="none" stroke="#000" stroke-width="4" rx="5"/>
+  <line x1="190" y1="155" x2="210" y2="155" stroke="#000" stroke-width="4"/>
+  
+  <!-- Eyes -->
+  <circle cx="172" cy="155" r="5" fill="#000"/>
+  <circle cx="228" cy="155" r="5" fill="#000"/>
+  
+  <!-- Nose -->
+  <path d="M 200 165 L 195 180 L 200 182" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Mouth (open, eating) -->
+  <ellipse cx="200" cy="195" rx="15" ry="8" fill="#000"/>
+  
+  <!-- Body (black turtleneck - Warhol's signature look) -->
+  <rect x="140" y="230" width="120" height="120" fill="#000" rx="10"/>
+  
+  <!-- Arms -->
+  <rect x="100" y="250" width="40" height="80" fill="#000" rx="15"/>
+  <rect x="260" y="250" width="40" height="80" fill="#000" rx="15"/>
+  
+  <!-- Hands -->
+  <circle cx="120" cy="330" r="20" fill="#FDBCB4"/>
+  <circle cx="280" cy="330" r="20" fill="#FDBCB4"/>
+  
+  <!-- Hamburger -->
+  <ellipse cx="200" cy="210" rx="40" ry="15" fill="#8B4513"/> <!-- Top bun -->
+  <rect x="165" y="210" width="70" height="8" fill="#90EE90"/> <!-- Lettuce -->
+  <rect x="165" y="218" width="70" height="6" fill="#8B0000"/> <!-- Patty -->
+  <rect x="165" y="224" width="70" height="4" fill="#FFD700"/> <!-- Cheese -->
+  <ellipse cx="200" cy="230" rx="40" ry="12" fill="#D2691E"/> <!-- Bottom bun -->
+  
+  <!-- Pop art style dots in background -->
+  <circle cx="50" cy="50" r="20" fill="#FF69B4" opacity="0.5"/>
+  <circle cx="350" cy="50" r="20" fill="#00CED1" opacity="0.5"/>
+  <circle cx="50" cy="350" r="20" fill="#FF1493" opacity="0.5"/>
+  <circle cx="350" cy="350" r="20" fill="#32CD32" opacity="0.5"/>
+</svg>

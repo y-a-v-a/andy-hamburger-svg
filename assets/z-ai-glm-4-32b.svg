@@ -1,0 +1,42 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFF1E6" />
+  
+  <!-- Warhol's face outline -->
+  <ellipse cx="200" cy="180" rx="100" ry="110" fill="#FFE0BD" stroke="#000" stroke-width="3" />
+  
+  <!-- Hair -->
+  <path d="M140,120 C120,80 180,60 200,60 C220,60 280,80 260,120" fill="#000" />
+  
+  <!-- Glasses -->
+  <ellipse cx="160" cy="160" rx="25" ry="20" fill="none" stroke="#000" stroke-width="3" />
+  <ellipse cx="240" cy="160" rx="25" ry="20" fill="none" stroke="#000" stroke-width="3" />
+  <line x1="185" y1="160" x2="215" y2="160" stroke="#000" stroke-width="3" />
+  
+  <!-- Nose -->
+  <path d="M200,170 C205,180 210,190 200,195 C190,190 195,180 200,170" fill="#FFE0BD" stroke="#000" stroke-width="2" />
+  
+  <!-- Mouth - showing hamburger -->
+  <path d="M160,210 C180,200 220,200 240,210" fill="none" stroke="#000" stroke-width="2" />
+  
+  <!-- Hamburger - partially visible in mouth -->
+  <rect x="160" y="210" width="80" height="40" rx="5" fill="#8B4513" /> <!-- Bottom bun -->
+  <rect x="165" y="205" width="70" height="10" fill="#8BC34A" /> <!-- Lettuce -->
+  <rect x="165" y="195" width="70" height="15" fill="#FFA000" /> <!-- Cheese -->
+  <rect x="165" y="180" width="70" height="20" fill="#8D6E63" /> <!-- Patty -->
+  <rect x="165" y="175" width="70" height="5" fill="#8BC34A" /> <!-- Top bun -->
+  
+  <!-- Pop Art Elements -->
+  <!-- Color blocks -->
+  <rect x="0" y="0" width="200" height="200" fill="#FF0000" opacity="0.1" />
+  <rect x="200" y="0" width="200" height="200" fill="#00FF00" opacity="0.1" />
+  <rect x="0" y="200" width="200" height="200" fill="#0000FF" opacity="0.1" />
+  <rect x="200" y="200" width="200" height="200" fill="#FFFF00" opacity="0.1" />
+  
+  <!-- Grid lines -->
+  <line x1="200" y1="0" x2="200" y2="400" stroke="#000" stroke-width="1" opacity="0.3" />
+  <line x1="0" y1="200" x2="400" y2="200" stroke="#000" stroke-width="1" opacity="0.3" />
+  
+  <!-- Copyright symbol -->
+  <text x="20" y="380" font-family="Arial" font-size="12" fill="#000">© 2023</text>
+</svg>

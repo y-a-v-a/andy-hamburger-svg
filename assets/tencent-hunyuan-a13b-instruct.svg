@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#f0f0f0"/>
+
+  <!-- Andy Warhol's face -->
+  <circle cx="150" cy="120" r="60" fill="#FFD700"/> <!-- Head -->
+  <ellipse cx="130" cy="110" rx="5" ry="8" fill="#000"/> <!-- Left eye -->
+  <ellipse cx="170" cy="110" rx="5" ry="8" fill="#000"/> <!-- Right eye -->
+  <path d="M140 140 Q150 150 160 140" stroke="#000" stroke-width="2" fill="transparent"/> <!-- Smile -->
+
+  <!-- Hamburger -->
+  <g transform="translate(80, 180)">
+    <!-- Top bun -->
+    <ellipse cx="70" cy="30" rx="40" ry="15" fill="#D2B48C"/>
+    <!-- Patty -->
+    <rect x="30" y="15" width="80" height="10" rx="5" ry="5" fill="#8B4513"/>
+    <!-- Lettuce -->
+    <ellipse cx="70" cy="15" rx="35" ry="8" fill="#32CD32"/>
+    <!-- Cheese slice -->
+    <ellipse cx="70" cy="10" rx="35" ry="5" fill="#FFA500"/>
+    <!-- Bottom bun -->
+    <ellipse cx="70" cy="0" rx="40" ry="15" fill="#D2B48C"/>
+  </g>
+
+  <!-- Dripper lines -->
+  <path d="M50 0 L50 60" stroke="#000" stroke-width="2"/>
+  <path d="M90 0 L90 60" stroke="#000" stroke-width="2"/>
+  <path d="M130 0 L130 60" stroke="#000" stroke-width="2"/>
+  <path d="M170 0 L170 60" stroke="#000" stroke-width="2"/>
+  <path d="M210 0 L210 60" stroke="#000" stroke-width="2"/>
+  <path d="M250 0 L250 60" stroke="#000" stroke-width="2"/>
+
+  <!-- Andy Warhol's signature -->
+  <text x="140" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#000">Andy Warhol</text>
+</svg>

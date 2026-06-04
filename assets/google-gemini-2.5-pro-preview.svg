@@ -1,0 +1,96 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>An SVG illustration of Andy Warhol eating a hamburger in a pop art style, featuring his iconic hair, glasses, and a bottle of ketchup.</desc>
+
+  <!--
+    SVG depiction of Andy Warhol eating a hamburger.
+    Style: Pop Art - flat colors, bold outlines.
+    Inspired by: Jørgen Leth's "66 Scenes of America" and Warhol's own work.
+  -->
+
+  <style>
+    .outline {
+      stroke: #000000;
+      stroke-width: 6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="#F7DC6F" />
+
+  <!-- Table -->
+  <path d="M 0 550 L 600 520 L 600 600 L 0 600 Z" fill="#A0522D" stroke="#000" stroke-width="4"/>
+
+  <!-- Ketchup Bottle (a nod to Warhol's interest in consumer products) -->
+  <g id="ketchup-bottle" transform="translate(450, 410)">
+    <!-- Bottle Body -->
+    <path d="M 0,110 C 0,110 5,60 15,40 L 15,20 C 15,10 25,0 35,0 C 45,0 55,10 55,20 L 55,40 C 65,60 70,110 70,110 Z" fill="#D92C2C" class="outline"/>
+    <!-- Label -->
+    <rect x="5" y="50" width="60" height="40" fill="#FDFEFE" />
+    <text x="35" y="75" font-size="14" font-weight="bold" text-anchor="middle">KETCHUP</text>
+    <!-- Cap -->
+    <rect x="20" y="-8" width="30" height="10" fill="#FDFEFE" class="outline" />
+  </g>
+
+  <!-- Warhol's Body -->
+  <path d="M 120,600 V 350 C 150,280 450,280 480,350 V 600 Z" fill="#1C1C1C" class="outline" />
+
+  <!-- Hands & Burger -->
+  <g id="hands-and-burger" transform="translate(230, 310)">
+    <!-- Left Hand -->
+    <path d="M -30,20 C -60,20 -80,50 -70,80 L -20,90 C -10,60 -30,20 -30,20 Z" fill="#FDEBD0" class="outline"/>
+    <!-- Right Hand -->
+    <path d="M 170,20 C 200,20 220,50 210,80 L 160,90 C 150,60 170,20 170,20 Z" fill="#FDEBD0" class="outline"/>
+
+    <!-- Burger -->
+    <g id="hamburger" class="outline">
+      <!-- Bottom Bun -->
+      <path d="M 0,80 C 0,60 140,60 140,80 L 130,90 L 10,90 Z" fill="#F5CBA7"/>
+      <!-- Patty -->
+      <path d="M 10,60 C 10,50 130,50 130,60 L 130,75 L 10,75 Z" fill="#6E2C00"/>
+      <!-- Top Bun -->
+      <path d="M 10,60 C 10,10 130,10 130,60 Z" fill="#F5CBA7"/>
+      <!-- Sesame Seeds -->
+      <circle cx="40" cy="30" r="2" fill="#D2B48C"/>
+      <circle cx="70" cy="20" r="2" fill="#D2B48C"/>
+      <circle cx="100" cy="40" r="2" fill="#D2B48C"/>
+      <circle cx="55" cy="45" r="2" fill="#D2B48C"/>
+      <circle cx="85" cy="50" r="2" fill="#D2B48C"/>
+    </g>
+  </g>
+
+  <!-- Warhol's Head -->
+  <g id="head">
+    <!-- Neck -->
+    <rect x="270" y="270" width="60" height="70" fill="#FDEBD0" class="outline"/>
+
+    <!-- Face -->
+    <path d="M 200,300 C 180,200 420,200 400,300 C 420,400 180,400 200,300 Z" fill="#FDEBD0" class="outline"/>
+
+    <!-- Mouth Area (near burger) -->
+    <path d="M 300,340 C 305,350 295,350 300,340" fill="none" stroke="#000" stroke-width="4"/>
+
+    <!-- Glasses -->
+    <g id="glasses" fill="#1C1C1C" class="outline" stroke-linejoin="miter">
+      <circle cx="260" cy="280" r="45"/>
+      <circle cx="360" cy="280" r="45"/>
+      <path d="M 305,280 H 315" stroke-width="8"/>
+    </g>
+
+    <!-- Hair (The most important part!) -->
+    <path d="M 150,250 
+             C 120,150 180,80 250,100 
+             S 280,60 320,80 
+             C 380,100 450,80 480,150 
+             S 520,250 460,260 
+             C 450,220 420,180 400,190 
+             S 360,150 340,170 
+             C 300,140 250,160 230,190 
+             S 200,220 200,260 
+             C 180,220 150,200 150,250 Z" 
+          fill="#E5E7E9" class="outline"/>
+  </g>
+
+</svg>
