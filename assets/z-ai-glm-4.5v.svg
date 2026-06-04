@@ -1,0 +1,53 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f8f8"/>
+  
+  <!-- Andy Warhol's face and head -->
+  <circle cx="150" cy="120" r="60" fill="#ffd6b3"/>
+  
+  <!-- Sunglasses -->
+  <path d="M100 110 L200 110 Q210 115 200 120 L100 120 Q90 115 100 110 Z" fill="#000"/>
+  <ellipse cx="130" cy="115" rx="15" ry="10" fill="#fff"/>
+  <ellipse cx="170" cy="115" rx="15" ry="10" fill="#fff"/>
+  <circle cx="128" cy="113" r="4" fill="#000"/>
+  <circle cx="168" cy="113" r="4" fill="#000"/>
+  
+  <!-- Hair -->
+  <path d="M80 50 Q70 30 100 40 Q130 20 160 35 Q190 25 220 45 Q240 35 230 55 Q250 65 240 85 Q260 95 250 105 Q270 115 260 125 Q280 135 270 145 Q290 155 280 165 Q300 175 290 185 Q310 195 300 205 Q320 215 310 225 Q330 235 320 245 Q340 255 330 265 Q350 275 340 285 Q360 295 350 305 Q370 315 360 325" 
+        fill="#ffcc00" stroke="#e6b800" stroke-width="2"/>
+  
+  <!-- Body (simplified) -->
+  <rect x="120" y="180" width="60" height="80" fill="#333"/>
+  <rect x="110" y="160" width="80" height="20" fill="#666"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(250, 140)">
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="30" rx="35" ry="12" fill="#d2691e"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="22" rx="32" ry="8" fill="#8B4513"/>
+    
+    <!-- Cheese -->
+    <ellipse cx="0" cy="18" rx="30" ry="6" fill="#FFD700"/>
+    
+    <!-- Lettuce -->
+    <ellipse cx="0" cy="14" rx="28" ry="5" fill="#90EE90"/>
+    
+    <!-- Top bun -->
+    <ellipse cx="0" cy="8" rx="33" ry="10" fill="#DAA520"/>
+    <ellipse cx="0" cy="6" rx="31" ry="8" fill="#F4A460"/>
+    
+    <!-- Sesame seeds on top bun -->
+    <circle cx="-15" cy="4" r="2" fill="#FFFACD"/>
+    <circle cx="-5" cy="3" r="2" fill="#FFFACD"/>
+    <circle cx="5" cy="5" r="2" fill="#FFFACD"/>
+    <circle cx="15" cy="4" r="2" fill="#FFFACD"/>
+  </g>
+  
+  <!-- Arm reaching for hamburger -->
+  <path d="M180 200 Q230 180 250 160" stroke="#ffd6b3" stroke-width="15" fill="none"/>
+  
+  <!-- Hand holding burger -->
+  <circle cx="250" cy="160" r="12" fill="#ffd6b3"/>
+</svg>

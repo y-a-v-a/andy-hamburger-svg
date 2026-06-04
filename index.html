@@ -38,6 +38,7 @@ main figure figcaption {
   font-size: 0.8em;
   opacity: 0.6;
 }
+main figure figcaption a { color: inherit; }
 footer {
   text-align: center;
   padding: 0.5rem;
@@ -51,6 +52,7 @@ footer {
 <footer>"Andy Warhol eating a Hamburger SVGs by AI models" by <a href="https://y-a-v-a.org" style="color:inherit">y-a-v-a.org</a> and <a href="https://ax710.org" style="color:inherit">ax710.org</a>, 2026, CC BY-SA 4.0 <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-left: 3px; vertical-align: text-bottom;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-left: 3px; vertical-align: text-bottom;"></a></footer>
 <script>
 const svgs = [
+  "ai21-jamba-large-1.7.svg",
   "aion-labs-aion-2.0.svg",
   "amazon-nova-2-lite-v1.svg",
   "amazon-nova-premier-v1.svg",
@@ -77,6 +79,7 @@ const svgs = [
   "chatgpt-andy-warhol-hamburger.svg",
   "claude-warhol-hamburger.svg",
   "deepcogito-cogito-v2.1-671b.svg",
+  "deepseek-chat-v3.1.svg",
   "deepseek-v3.1-terminus.svg",
   "deepseek-v3.2-exp.svg",
   "deepseek-v3_2.svg",
@@ -117,13 +120,17 @@ const svgs = [
   "mistralai-ministral-8b-2512.svg",
   "mistralai-mistral-large-2512.svg",
   "mistralai-mistral-medium-3-5.svg",
+  "mistralai-mistral-medium-3.1.svg",
   "mistralai-mistral-small-2603.svg",
   "mistralai-voxtral-small-24b-2507.svg",
+  "moonshotai-kimi-k2-0905.svg",
   "moonshotai-kimi-k2-thinking.svg",
   "moonshotai-kimi-k2.5.svg",
   "moonshotai-kimi-latest.svg",
   "nemotron-3-nano-30b-a3b.svg",
   "nex-agi-deepseek-v3.1-nex-n1.svg",
+  "nousresearch-hermes-4-405b.svg",
+  "nousresearch-hermes-4-70b.svg",
   "nvidia-llama-3.3-nemotron-super-49b-v1.5.svg",
   "nvidia-nemotron-3-nano-30b-a3b-free.svg",
   "nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free.svg",
@@ -131,6 +138,7 @@ const svgs = [
   "nvidia-nemotron-3-super-120b-a12b.svg",
   "nvidia-nemotron-nano-9b-v2-free.svg",
   "nvidia-nemotron-nano-9b-v2.svg",
+  "openai-gpt-5-chat.svg",
   "openai-gpt-5-codex.svg",
   "openai-gpt-5.1-chat.svg",
   "openai-gpt-5.1-codex-max.svg",
@@ -159,6 +167,7 @@ const svgs = [
   "poolside-laguna-m1-free.svg",
   "poolside-laguna-xs2-free.svg",
   "prime-intellect-3.svg",
+  "qwen-3-30b-a3b-thinking-2507.svg",
   "qwen-3-coder-flash.svg",
   "qwen-3-coder-next.svg",
   "qwen-3-coder-plus.svg",
@@ -204,6 +213,7 @@ const svgs = [
   "xiaomi-mimo-v2-omni.svg",
   "xiaomi-mimo-v2-pro.svg",
   "xiaomi-mimo-v2.5.svg",
+  "z-ai-glm-4.5v.svg",
   "z-ai-glm-4.6.svg",
   "z-ai-glm-4.6v.svg",
   "z-ai-glm-4.7-flash.svg",
@@ -221,7 +231,7 @@ else {
   let i = 0;
   function show() {
     const name = svgs[i].replace(/\.svg$/, '');
-    stage.innerHTML = `<figure><object data="assets/${svgs[i]}" type="image/svg+xml"></object><figcaption>${name}</figcaption></figure>`;
+    stage.innerHTML = `<figure><object data="assets/${svgs[i]}" type="image/svg+xml"></object><figcaption><a href="assets/${svgs[i]}" download>${name}</a></figcaption></figure>`;
     i = (i + 1) % svgs.length;
   }
   show();

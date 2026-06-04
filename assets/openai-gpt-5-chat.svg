@@ -1,0 +1,31 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background in pop colors -->
+  <rect width="300" height="300" fill="#ffcc00"/>
+  <circle cx="150" cy="150" r="120" fill="#ff0066"/>
+
+  <!-- Stylized face -->
+  <circle cx="150" cy="120" r="40" fill="#ffe0b3" stroke="#000" stroke-width="2"/>
+  <circle cx="135" cy="115" r="5" fill="#000"/>
+  <circle cx="165" cy="115" r="5" fill="#000"/>
+  <path d="M130 135 Q150 150, 170 135" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Stylized hair (bright color, pop-art look) -->
+  <path d="M110 90 Q150 60, 190 90 Q150 70, 110 90 Z" fill="#00ccff" stroke="#000" stroke-width="2"/>
+
+  <!-- Hands holding hamburger -->
+  <circle cx="120" cy="160" r="15" fill="#ffe0b3" stroke="#000" stroke-width="2"/>
+  <circle cx="180" cy="160" r="15" fill="#ffe0b3" stroke="#000" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(150,160)">
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="#c68642" stroke="#000" stroke-width="2"/>
+    <rect x="-25" y="-8" width="50" height="6" fill="#b5651d"/>
+    <ellipse cx="0" cy="5" rx="30" ry="10" fill="#f5c542" stroke="#000" stroke-width="2"/>
+  </g>
+
+  <!-- Pop-art text caption -->
+  <text x="50%" y="275" font-family="Helvetica, Arial, sans-serif" font-size="20"
+        fill="#000" text-anchor="middle">POP BURGER!</text>
+
+</svg>

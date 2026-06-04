@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Andy Warhol's head (simplified, iconic) -->
+  <circle cx="200" cy="150" r="100" fill="#FFD8B1" stroke="#000" stroke-width="2"/>
+  <!-- Hair -->
+  <path d="M150,150 Q200,120 250,150 Q280,160 280,180 Q250,200 200,200 Q150,200 120,180 Q120,160 150,150 Z" fill="#D4AF37"/>
+  <!-- Eyes -->
+  <ellipse cx="180" cy="140" rx="25" ry="15" fill="none" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="220" cy="140" rx="25" ry="15" fill="none" stroke="#000" stroke-width="1.5"/>
+  <!-- Mouth -->
+  <path d="M170,170 Q200,175 230,170" fill="none" stroke="#D22" stroke-width="3"/>
+  <!-- Hamburger (simplified) -->
+  <rect x="170" y="220" width="60" height="10" fill="#A67C52" rx="2" stroke="#000" stroke-width="0.5"/>
+  <rect x="155" y="230" width="90" height="10" fill="#E6C27A" rx="2" stroke="#000" stroke-width="0.5"/>
+  <rect x="155" y="240" width="90" height="15" fill="#C33" rx="1" stroke="#000" stroke-width="0.5"/>
+  <rect x="155" y="255" width="90" height="10" fill="#D04040" rx="1" stroke="#000" stroke-width="0.5"/>
+  <rect x="155" y="265" width="90" height="10" fill="#E6C27A" rx="2" stroke="#000" stroke-width="0.5"/>
+  <!-- Warhol text (inspired by his silkscreen style) -->
+  <text x="200" y="370" font-family="Arial" font-size="24" text-anchor="middle" fill="#000" font-weight="bold">Andy Warhol</text>
+  <text x="200" y="390" font-family="Arial" font-size="20" text-anchor="middle" fill="#2E8B57">EATS HAMBURGER</text>
+  <!-- Color accents (like Warhol's multi-colored silkscreens) -->
+  <rect x="50" y="50" width="80" height="80" fill="#FFD700" opacity="0.7"/>
+  <rect x="50" y="150" width="80" height="80" fill="#FF6B6B" opacity="0.7"/>
+  <rect x="150" y="50" width="80" height="80" fill="#4ECDC4" opacity="0.7"/>
+  <rect x="150" y="150" width="80" height="80" fill="#FFA07A" opacity="0.7"/>
+  <rect x="250" y="50" width="80" height="80" fill="#8A2BE2" opacity="0.7"/>
+  <rect x="250" y="150" width="80" height="80" fill="#E9C46A" opacity="0.7"/>
+</svg>

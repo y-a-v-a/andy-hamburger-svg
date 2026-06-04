@@ -1,0 +1,36 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .outline { fill: none; stroke: black; stroke-width: 2; }
+    .fill { fill: #ffcc00; stroke: none; }
+    .face { fill: #fdd7d7; }
+    .hair { fill: #ffd700; }
+    .burger { fill: #b37600; }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#e6e6e6" />
+
+  <!-- Andy Warhol silhouette -->
+  <g transform="translate(150, 100)">
+    <rect x="0" y="0" width="150" height="300" class="outline" /> <!-- Body -->
+    <circle cx="75" cy="50" r="30" class="face" /> <!-- Head -->
+    <rect x="50" y="60" width="50" height="20" class="hair" /> <!-- Hair -->
+    <path d="M50 100 L75 120 L100 100" class="outline" /> <!-- Arms -->
+  </g>
+
+  <!-- Hamburger -->
+  <g transform="translate(400, 250)">
+    <circle cx="0" cy="0" r="40" class="burger" /> <!-- Patty -->
+    <ellipse cx="0" cy="50" rx="50" ry="10" class="fill" /> <!-- Bun top -->
+    <ellipse cx="0" cy="80" rx="55" ry="15" class="fill" /> <!-- Bun bottom -->
+    <path d="M-30 60 L0 50 L30 60 M-20 65 L0 75 L20 65" class="outline" /> <!-- Lettuce and details -->
+  </g>
+
+  <!-- Andy's hand reaching for the burger -->
+  <line x1="250" y1="200" x2="350" y2="270" class="outline" stroke-width="3" /> <!-- Arm -->
+
+  <!-- Label -->
+  <text x="350" y="100" font-family="Arial" font-size="20" fill="black" text-anchor="middle">
+    Andy Warhol eats a hamburger
+  </text>
+</svg>

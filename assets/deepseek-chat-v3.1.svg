@@ -1,0 +1,72 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#FFD700"/>
+  
+  <!-- Andy Warhol Portrait -->
+  <g id="warhol">
+    <!-- Face -->
+    <ellipse cx="200" cy="200" rx="100" ry="120" fill="#FF6B6B"/>
+    
+    <!-- Sunglasses -->
+    <rect x="130" y="170" width="140" height="40" fill="#000" rx="5"/>
+    <rect x="150" y="170" width="5" height="40" fill="#FFD700"/>
+    <rect x="245" y="170" width="5" height="40" fill="#FFD700"/>
+    
+    <!-- Hair -->
+    <path d="M100,150 Q150,100 200,140 Q250,100 300,150 L300,120 L100,120 Z" fill="#000"/>
+    
+    <!-- Mouth (eating hamburger) -->
+    <ellipse cx="200" cy="240" rx="40" ry="20" fill="#FF8A65"/>
+    
+    <!-- Signature white shirt collar -->
+    <path d="M160,280 L200,300 L240,280 L240,320 L160,320 Z" fill="#FFF"/>
+  </g>
+  
+  <!-- Hamburger -->
+  <g id="hamburger">
+    <!-- Bottom bun -->
+    <ellipse cx="200" cy="260" rx="50" ry="15" fill="#E67E22"/>
+    
+    <!-- Patty -->
+    <ellipse cx="200" cy="250" rx="45" ry="12" fill="#8B4513"/>
+    
+    <!-- Cheese -->
+    <rect x="155" y="245" width="90" height="5" fill="#FFD700" rx="2"/>
+    
+    <!-- Lettuce -->
+    <path d="M155,240 Q200,235 245,240" stroke="#7CFC00" stroke-width="4" fill="none"/>
+    
+    <!-- Top bun (partially eaten) -->
+    <ellipse cx="200" cy="235" rx="40" ry="10" fill="#E67E22"/>
+    <ellipse cx="200" cy="230" rx="35" ry="8" fill="#E67E22"/>
+  </g>
+  
+  <!-- Hand holding hamburger -->
+  <g id="hand">
+    <!-- Arm -->
+    <rect x="230" y="280" width="60" height="20" fill="#FF6B6B" rx="10" transform="rotate(-30 230 280)"/>
+    
+    <!-- Hand -->
+    <ellipse cx="280" cy="290" rx="15" ry="20" fill="#FF6B6B" transform="rotate(-30 280 290)"/>
+    
+    <!-- Fingers -->
+    <ellipse cx="290" cy="280" rx="8" ry="12" fill="#FF6B6B" transform="rotate(-20 290 280)"/>
+    <ellipse cx="295" cy="270" rx="6" ry="10" fill="#FF6B6B" transform="rotate(-10 295 270)"/>
+  </g>
+  
+  <!-- Warhol-style pop art elements -->
+  <rect x="20" y="350" width="80" height="80" fill="#FF6B6B" opacity="0.6"/>
+  <rect x="120" y="350" width="80" height="80" fill="#FFD700" opacity="0.6"/>
+  <rect x="220" y="350" width="80" height="80" fill="#7CFC00" opacity="0.6"/>
+  <rect x="320" y="350" width="60" height="80" fill="#3498DB" opacity="0.6"/>
+  
+  <!-- Campbell's Soup Can reference -->
+  <rect x="50" y="400" width="30" height="50" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <rect x="50" y="400" width="30" height="15" fill="#FF0000"/>
+  <text x="65" y="430" font-family="Arial" font-size="8" text-anchor="middle" fill="#000">CAMPBELL'S</text>
+  
+  <!-- Warhol signature text -->
+  <text x="200" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#000" font-style="italic">
+    Andy Warhol, 2023
+  </text>
+</svg>

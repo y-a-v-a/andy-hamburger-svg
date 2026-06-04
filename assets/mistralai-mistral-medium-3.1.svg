@@ -1,0 +1,53 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (Warhol-style gradient) -->
+  <rect width="500" height="500" fill="url(#warholGradient)" />
+
+  <!-- Gradient for background -->
+  <defs>
+    <linearGradient id="warholGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF00FF" />
+      <stop offset="50%" stop-color="#00FFFF" />
+      <stop offset="100%" stop-color="#FFFF00" />
+    </linearGradient>
+
+    <!-- Clipping path for Warhol's face -->
+    <clipPath id="warholFaceClip">
+      <path d="M150,100 C200,50 250,50 300,100 C350,150 350,250 300,300 C250,350 200,350 150,300 C100,250 100,150 150,100 Z" />
+    </clipPath>
+
+    <!-- Hamburger layers -->
+    <g id="hamburger">
+      <rect x="300" y="250" width="120" height="30" rx="15" fill="#FF9E40" /> <!-- Bun bottom -->
+      <rect x="305" y="240" width="110" height="10" rx="5" fill="#8B4513" /> <!-- Patty -->
+      <rect x="310" y="230" width="100" height="10" rx="5" fill="#FFFF00" /> <!-- Cheese -->
+      <rect x="315" y="220" width="90" height="10" rx="5" fill="#90EE90" /> <!-- Lettuce -->
+      <rect x="300" y="210" width="120" height="20" rx="10" fill="#FF9E40" /> <!-- Bun top -->
+    </g>
+  </defs>
+
+  <!-- Warhol's face (stylized) -->
+  <g clip-path="url(#warholFaceClip)">
+    <image href="data:image/svg+xml;base64,...[placeholder for Warhol's face]..." x="120" y="70" width="200" height="250" />
+    <!-- Fallback: Simple face if image fails -->
+    <circle cx="200" cy="180" r="30" fill="white" stroke="black" stroke-width="2" /> <!-- Eye -->
+    <circle cx="260" cy="180" r="30" fill="white" stroke="black" stroke-width="2" /> <!-- Eye -->
+    <path d="M200,220 Q230,250 260,220" stroke="black" stroke-width="2" fill="none" /> <!-- Mouth -->
+    <path d="M150,100 C200,50 250,50 300,100 C350,150 350,250 300,300 C250,350 200,350 150,300 C100,250 100,150 150,100 Z" fill="none" stroke="#333" stroke-width="3" /> <!-- Face outline -->
+  </g>
+
+  <!-- Hair (stylized) -->
+  <path d="M120,100 Q150,20 180,50 Q210,30 240,60 Q270,40 300,90 L280,150 Q250,120 220,140 Q190,130 160,150 Q130,140 120,100 Z" fill="#666" />
+
+  <!-- Hamburger in hand -->
+  <use href="#hamburger" x="0" y="0" />
+  <path d="M280,300 L320,350 L360,300" stroke="#8B4513" stroke-width="5" fill="none" /> <!-- Arm holding burger -->
+
+  <!-- Pop Art halftone dots (background effect) -->
+  <circle cx="50" cy="50" r="10" fill="#FF00FF" opacity="0.7" />
+  <circle cx="100" cy="120" r="15" fill="#00FFFF" opacity="0.7" />
+  <circle cx="400" cy="80" r="20" fill="#FFFF00" opacity="0.7" />
+  <circle cx="450" cy="400" r="12" fill="#FF00FF" opacity="0.7" />
+
+  <!-- Text (optional) -->
+  <text x="250" y="480" font-family="Arial" font-size="20" text-anchor="middle" fill="black">"Mmm... Pop Art"</text>
+</svg>

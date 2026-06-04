@@ -1,0 +1,16 @@
+<svg width="300" height="200">
+  <circle cx="100" cy="100" r="40" fill="LightSalmon"/> <!-- Head -->
+  
+  <rect x="80" y="120" width="40" height="60" fill="White"/> <!-- Body -->
+  <rect x="80" y="140" width="40" height="20" fill="LightBlue"/> <!-- Shirt -->
+  <rect x="80" y="120" width="40" height="20" fill="SandyBrown"/> <!-- Hair -->
+  
+  <circle cx="110" cy="110" r="3" fill="Black"/> <!-- Eye -->
+  <path d="M100,120 C120,130 120,150 100,160" stroke="Red" fill="none" stroke-width="3"/> <!-- Mouth with hamburger -->
+  
+  <rect x="70" y="130" width="20" height="10" fill="Sienna"/> <!-- Hamburger bun top -->
+  <rect x="70" y="140" width="20" height="5" fill="DarkGreen"/> <!-- Lettuce -->
+  <rect x="70" y="145" width="20" height="3" fill="Coral"/> <!-- Tomato -->
+  <rect x="70" y="148" width="20" height="4" fill="Sienna"/> <!-- Hamburger patty -->
+  <rect x="70" y="152" width="20" height="8" fill="Sienna"/> <!-- Hamburger bun bottom -->
+</svg>

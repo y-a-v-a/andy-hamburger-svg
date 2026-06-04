@@ -1,0 +1,157 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Background with pop art dotted pattern -->
+        <defs>
+            <pattern id="popArtPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+                <circle cx="20" cy="20" r="3" fill="#FFD1DC"/>
+                <circle cx="10" cy="10" r="2" fill="#FFB6C1"/>
+                <circle cx="30" cy="30" r="2" fill="#FFA6C9"/>
+            </pattern>
+            
+            <!-- Gradient for hair -->
+            <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#D2B48C;stop-opacity:1" />
+                <stop offset="50%" style="stop-color:#F5DEB3;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#D2691E;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        
+        <!-- Background -->
+        <rect width="800" height="600" fill="#FFE4E1"/>
+        <rect width="800" height="600" fill="url(#popArtPattern)" opacity="0.4"/>
+        
+        <!-- Title text -->
+        <text x="400" y="50" font-family="'Impact', 'Arial Black', sans-serif" font-size="24" 
+              text-anchor="middle" fill="#FF1493" letter-spacing="2">
+            ANDY WARHOL EATING A HAMBURGER
+        </text>
+        
+        <!-- Warhol's figure (centered) -->
+        <!-- Shirt (black turtleneck) -->
+        <rect x="250" y="300" width="300" height="250" fill="#1a1a1a" rx="10"/>
+        
+        <!-- Shirt collar detail -->
+        <rect x="270" y="300" width="260" height="30" fill="#2a2a2a"/>
+        <rect x="270" y="300" width="260" height="30" fill="none" stroke="#404040" stroke-width="2"/>
+        
+        <!-- Neck -->
+        <rect x="340" y="280" width="120" height="40" fill="#F5DEB3"/>
+        
+        <!-- Face shape (Warhol's distinctively angular face) -->
+        <ellipse cx="400" cy="200" rx="90" ry="110" fill="#F5DEB3"/>
+        <path d="M 310 200 Q 310 150, 350 130 L 450 130 Q 490 150, 490 200" fill="#F5DEB3"/>
+        
+        <!-- Warhol's iconic wig (gradient hair) -->
+        <path d="M 320 130 Q 320 80, 370 70 L 430 70 Q 480 80, 480 130 L 470 150 L 330 150 Z" 
+              fill="url(#hairGradient)" stroke="#D2691E" stroke-width="2"/>
+        <!-- Wig texture lines -->
+        <path d="M 340 90 Q 350 100, 350 120" stroke="#D2691E" stroke-width="2" fill="none"/>
+        <path d="M 380 85 Q 380 95, 385 115" stroke="#D2691E" stroke-width="2" fill="none"/>
+        <path d="M 420 85 Q 420 95, 420 118" stroke="#D2691E" stroke-width="2" fill="none"/>
+        
+        <!-- Eyes (Warhol's distinctive eyes with heavy eyeliner effect) -->
+        <ellipse cx="370" cy="170" rx="18" ry="12" fill="#000"/>
+        <ellipse cx="430" cy="170" rx="18" ry="12" fill="#000"/>
+        <!-- Eye highlights -->
+        <ellipse cx="375" cy="167" rx="4" ry="3" fill="#FFF"/>
+        <ellipse cx="435" cy="167" rx="4" ry="3" fill="#FFF"/>
+        <!-- Eye bags -->
+        <ellipse cx="370" cy="185" rx="15" ry="5" fill="#E6D3A3" opacity="0.6"/>
+        <ellipse cx="430" cy="185" rx="15" ry="5" fill="#E6D3A3" opacity="0.6"/>
+        
+        <!-- Nose (Warhol's signature nose shape) -->
+        <path d="M 398 185 L 385 200 L 402 200 L 398 185 Z" fill="#E6D3A3" opacity="0.8"/>
+        <path d="M 398 185 L 402 200 L 415 200 L 398 185 Z" fill="#D4C4A8" opacity="0.6"/>
+        
+        <!-- Mouth (chewing expression) -->
+        <ellipse cx="400" cy="220" rx="25" ry="18" fill="#8B0000"/>
+        <ellipse cx="400" cy="223" rx="20" ry="12" fill="#DC143C"/>
+        <!-- Teeth -->
+        <rect x="385" y="218" width="30" height="4" fill="#FFF" rx="1"/>
+        <!-- Chewing expression lines -->
+        <path d="M 385 225 Q 400 230, 415 225" stroke="#8B0000" stroke-width="2" fill="none"/>
+        
+        <!-- Warhol's glasses -->
+        <rect x="345" y="160" width="50" height="30" fill="none" stroke="#000" stroke-width="3" rx="5"/>
+        <rect x="405" y="160" width="50" height="30" fill="none" stroke="#000" stroke-width="3" rx="5"/>
+        <line x1="395" y1="175" x2="405" y2="175" stroke="#000" stroke-width="3"/>
+        <!-- Glasses reflection -->
+        <rect x="350" y="165" width="15" height="10" fill="#FFF" opacity="0.3"/>
+        <rect x="410" y="165" width="15" height="10" fill="#FFF" opacity="0.3"/>
+        
+        <!-- Arms raised to hold hamburger -->
+        <ellipse cx="280" cy="320" rx="40" ry="80" fill="#1a1a1a" transform="rotate(-30 280 320)"/>
+        <ellipse cx="520" cy="320" rx="40" ry="80" fill="#1a1a1a" transform="rotate(30 520 320)"/>
+        
+        <!-- Hands (simplified) -->
+        <ellipse cx="250" cy="280" rx="25" ry="35" fill="#F5DEB3" transform="rotate(-45 250 280)"/>
+        <ellipse cx="550" cy="280" rx="25" ry="35" fill="#F5DEB3" transform="rotate(45 550 280)"/>
+        
+        <!-- Hamburger (held up to mouth) -->
+        <!-- Top bun -->
+        <ellipse cx="400" cy="260" rx="60" ry="25" fill="#D2691E" stroke="#CD853F" stroke-width="3"/>
+        <ellipse cx="400" cy="255" rx="60" ry="20" fill="#F4A460"/>
+        <!-- Sesame seeds -->
+        <ellipse cx="380" cy="250" rx="2" ry="1" fill="#FFF8DC"/>
+        <ellipse cx="395" cy="248" rx="2" ry="1" fill="#FFF8DC"/>
+        <ellipse cx="410" cy="249" rx="2" ry="1" fill="#FFF8DAC"/>
+        <ellipse cx="425" cy="251" rx="2" ry="1" fill="#FFFADC"/>
+        <ellipse cx="385" cy="258" rx="2" ry="1" fill="#FFF8DC"/>
+        <ellipse cx="415" cy="257" rx="2" ry="1" fill="#FFF8DC"/>
+        
+        <!-- Lettuce -->
+        <path d="M 340 268 Q 350 265, 370 268 L 380 270 L 420 270 L 430 268 Q 450 265, 460 268" 
+              fill="#9ACD32" stroke="#8FBC8F" stroke-width="1"/>
+        
+        <!-- Tomato -->
+        <ellipse cx="400" cy="275" rx="45" ry="8" fill="#FF6347" stroke="#FF4500" stroke-width="1"/>
+        
+        <!-- Cheese -->
+        <path d="M 350 277 Q 380 275, 420 277 L 450 277 L 440 282 L 360 282 Z" 
+              fill="#FFD700" stroke="#FFC107" stroke-width="1"/>
+        
+        <!-- Meat patty -->
+        <ellipse cx="400" cy="285" rx="50" ry="8" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+        
+        <!-- Bottom bun -->
+        <ellipse cx="400" cy="295" rx="55" ry="18" fill="#D2691E"/>
+        <ellipse cx="400" cy="300" rx="55" ry="15" fill="#CD853F"/>
+        
+        <!-- Hamburger wrapper (pop art style) -->
+        <path d="M 340 280 Q 340 320, 350 325 L 450 325 Q 460 320, 460 280"
+              fill="none" stroke="#FF1493" stroke-width="4" stroke-dasharray="5,5"/>
+        
+        <!-- Burger height lines (indicating thickness) -->
+        <path d="M 350 270 L 350 290" stroke="#FF1493" stroke-width="2"/>
+        <path d="M 450 270 L 450 290" stroke="#FF1493" stroke-width="2"/>
+        
+        <!-- Pop art style bite marks (if any) -->
+        <path d="M 420 250 Q 425 245, 428 250 L 428 260 Q 425 265, 420 260 Z" 
+              fill="#F4A460" stroke="#D2691E" stroke-width="1"/>
+        
+        <!-- Warhol's signature -->
+        <text x="100" y="550" font-family="'Brush Script MT', cursive" font-size="28" 
+              fill="#FF1493" transform="rotate(-5 100 550)">
+            Andy Warhol
+        </text>
+        
+        <!-- Pop art repetitive elements -->
+        <circle cx="700" cy="100" r="15" fill="#FFD1DC" opacity="0.8"/>
+        <circle cx="720" cy="120" r="12" fill="#FFB6C1" opacity="0.8"/>
+        <circle cx="680" cy="130" r="10" fill="#FFA6C9" opacity="0.7"/>
+        <circle cx="740" cy="90" r="8" fill="#FF69B4" opacity="0.6"/>
+        
+        <!-- Caption text in Warhol's style -->
+        <text x="400" y="580" font-family="'Impact', 'Arial Black', sans-serif" font-size="16" 
+              text-anchor="middle" fill="#FF1493" letter-spacing="1">
+            "I LOVE LOS ANGELES. I LOVE HOLLYWOOD. THEY'RE BEAUTIFUL. EVERYBODY'S PLASTIC, BUT I LOVE PLASTIC. I WANT TO BE PLASTIC."
+        </text>
+        
+        <!-- Warhol's iconic sunglasses reflection effect -->
+        <rect x="350" y="165" width="40" height="20" fill="#FF1493" opacity="0.1"/>
+        <rect x="410" y="165" width="40" height="20" fill="#FFD700" opacity="0.1"/>
+        
+        <!-- Hamburger steam (pop art style) -->
+        <path d="M 390 240 Q 395 235, 390 230" stroke="#87CEEB" stroke-width="3" fill="none"/>
+        <path d="M 400 238 Q 405 233, 400 228" stroke="#87CEEB" stroke-width="3" fill="none"/>
+        <path d="M 410 240 Q 415 235, 410 230" stroke="#87CEEB" stroke-width="3" fill="none"/>
+    </svg>
