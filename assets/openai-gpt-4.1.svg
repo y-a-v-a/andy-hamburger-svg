@@ -1,0 +1,42 @@
+<svg viewBox="0 0 440 440" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#ffe" />
+  <!-- Warhol's Hair -->
+  <ellipse cx="220" cy="100" rx="90" ry="50" fill="#fffec6" stroke="#ffd700" stroke-width="4"/>
+  <!-- Warhol's Face -->
+  <ellipse cx="220" cy="160" rx="60" ry="72" fill="#fbead1" stroke="#e5c36d" stroke-width="2"/>
+  <!-- Glasses -->
+  <rect x="165" y="130" width="35" height="15" rx="6" fill="#222"/>
+  <rect x="240" y="130" width="35" height="15" rx="6" fill="#222"/>
+  <rect x="200" y="136" width="40" height="5" fill="#444"/>
+  <!-- Nose -->
+  <ellipse cx="220" cy="175" rx="9" ry="6" fill="#eac39a"/>
+  <!-- Mouth (open, about to bite) -->
+  <ellipse cx="220" cy="200" rx="14" ry="7" fill="#c44" />
+  <ellipse cx="220" cy="205" rx="7" ry="2" fill="#a22"/>
+  <!-- Warhol's Body / Suit -->
+  <rect x="160" y="230" width="120" height="140" rx="40" fill="#333"/>
+  <rect x="170" y="350" width="100" height="50" rx="20" fill="#132"/>
+  <!-- Tie -->
+  <rect x="215" y="270" width="10" height="60" fill="#ed1c24"/>
+  <polygon points="220,320 212,355 228,355" fill="#d51820" />
+  <!-- Hamburger Bun Top -->
+  <ellipse cx="220" cy="250" rx="36" ry="18" fill="#ffe287" stroke="#d4a94a" stroke-width="2"/>
+  <!-- Hamburger Lettuce & Tomato -->
+  <ellipse cx="220" cy="262" rx="28" ry="7" fill="#62b155"/>
+  <ellipse cx="220" cy="265" rx="22" ry="4" fill="#d9334c"/>
+  <!-- Hamburger Patty -->
+  <ellipse cx="220" cy="270" rx="24" ry="6" fill="#875031"/>
+  <!-- Hamburger Bun Bottom -->
+  <ellipse cx="220" cy="276" rx="32" ry="8" fill="#ffe287" stroke="#d4a94a" stroke-width="2"/>
+  <!-- Warhol's Hand holding hamburger -->
+  <ellipse cx="220" cy="265" rx="20" ry="13" fill="#fbead1" opacity="0.8"/>
+  <ellipse cx="200" cy="260" rx="5" ry="3" fill="#fbead1"/>
+  <ellipse cx="213" cy="272" rx="6" ry="2" fill="#dab882"/>
+  <!-- Pop-art color dots background -->
+  <circle cx="60" cy="60" r="16" fill="#f55" opacity="0.22"/>
+  <circle cx="390" cy="90" r="20" fill="#2ad" opacity="0.14"/>
+  <circle cx="410" cy="340" r="14" fill="#f4a" opacity="0.19"/>
+  <circle cx="70" cy="400" r="18" fill="#d5c" opacity="0.17"/>
+  <!-- Name -->
+  <text x="220" y="420" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#000" text-anchor="middle">Andy Warhol</text>
+</svg>

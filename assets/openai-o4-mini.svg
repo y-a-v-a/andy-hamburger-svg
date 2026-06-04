@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200" height="200" viewBox="0 0 200 200">
+  <!-- background -->
+  <rect width="200" height="200" fill="#f0f0f0"/>
+
+  <!-- hair -->
+  <ellipse cx="100" cy="50" rx="50" ry="30" fill="#ffeb3b"/>
+
+  <!-- face -->
+  <ellipse cx="100" cy="90" rx="40" ry="50" fill="#ffe0bd" stroke="#ccaa88" stroke-width="1"/>
+
+  <!-- glasses -->
+  <rect x="70" y="75" width="20" height="10" fill="#000"/>
+  <rect x="110" y="75" width="20" height="10" fill="#000"/>
+  <line x1="90" y1="80" x2="110" y2="80" stroke="#000" stroke-width="2"/>
+
+  <!-- nose -->
+  <line x1="100" y1="85" x2="100" y2="95" stroke="#cc9955" stroke-width="2"/>
+
+  <!-- hand (simple ellipse) -->
+  <ellipse cx="140" cy="105" rx="8" ry="5" fill="#ffe0bd"/>
+
+  <!-- burger -->
+  <g transform="translate(75,95)">
+    <!-- top bun -->
+    <rect x="0" y="0" width="50" height="15" rx="5" ry="5" fill="#f4a460" stroke="#d38f4a" stroke-width="1"/>
+    <!-- lettuce -->
+    <path d="M0,15 q5,5 10,0 t10,0 t10,0 t10,0" fill="#7CFC00"/>
+    <!-- patty -->
+    <rect x="0" y="20" width="50" height="7" fill="#8B4513"/>
+    <!-- bottom bun -->
+    <rect x="0" y="27" width="50" height="10" rx="5" ry="5" fill="#d2b48c" stroke="#bfa16b" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#FFF1DF"/>
+
+  <!-- Andy's Head -->
+  <circle cx="200" cy="200" r="80" fill="#D4EDD4"/>
+  <circle cx="202" cy="202" r="78" fill="#EDE8B5"/>
+  <circle cx="198" cy="198" r="75" fill="#F2F2F2"/>
+
+  <!-- Andy's Thick Eyebrows -->
+  <path d="M130 160 Q180 140 230 160" stroke="#000000" stroke-width="10" fill="none"/>
+  <path d="M130 240 Q180 260 230 240" stroke="#000000" stroke-width="10" fill="none"/>
+
+  <!-- Andy's Eyes (Simplified) -->
+  <circle cx="185" cy="170" r="10" fill="#000000"/>
+  <circle cx="220" cy="170" r="10" fill="#000000"/>
+
+  <!-- Andy's Glasses Frame -->
+  <rect x="135" y="150" width="30" height="30" fill="#6666FF" rx="10"/>
+  <rect x="225" y="150" width="30" height="30" fill="#6666FF" rx="10"/>
+  <path d="M165 165 Q180 175 195 165" stroke="#A020F0" stroke-width="5" fill="none"/>
+  <path d="M205 165 Q220 175 235 165" stroke="#A020F0" stroke-width="5" fill="none"/>
+
+  <!-- Andy's Mouth -->
+  <path d="M170 250 Q195 270 220 250" stroke="#000000" stroke-width="6" fill="none"/>
+
+  <!-- Andy's Hair (Antennas) -->
+  <path d="M175 130 Q185 110 195 130" stroke="#000000" stroke-width="6" fill="none"/>
+
+  <!-- Andy's Shirt -->
+  <rect x="140" y="275" width="120" height="70" fill="#E0E0E0" rx="10"/>
+
+  <!-- Hamburger (Held in Hand) -->
+  <!-- Bottom Bun -->
+  <ellipse cx="350" cy="230" rx="40" ry="20" fill="#F5D9A1"/>
+  <!-- Patty -->
+  <ellipse cx="350" cy="200" rx="35" ry="10" fill="#C58C2B"/>
+  <!-- Top Bun -->
+  <ellipse cx="350" cy="170" rx="40" ry="20" fill="#F5D9A1"/>
+  <!-- Tomato -->
+  <ellipse cx="350" cy="150" rx="15" ry="8" fill="#FF9185"/>
+  <!-- Lettuce -->
+  <path d="M330 140 L338 120 L350 150 L362 120 L370 140 Z" fill="#66FF66"/>
+  <!-- Condiments -->
+  <ellipse cx="355" cy="168" rx="2" ry="1" fill="#000000"/>
+  <ellipse cx="345" cy="168" rx="2" ry="1" fill="#000000"/>
+
+  <!-- Andy's Hand Holding the Burger -->
+  <path d="M200 250 C220 255 240 260 260 270 C270 260 280 250 300 240" stroke="#808080" stroke-width="5" fill="none"/>
+
+  <!-- Optional Background Decor (Pop Art Style) -->
+  <path d="M0 400 Q200 200 0 0" fill="#FFD14A" opacity="0.3"/>
+  <path d="M600 400 Q400 200 600 0" fill="#4AA3FF" opacity="0.3"/>
+
+</svg>

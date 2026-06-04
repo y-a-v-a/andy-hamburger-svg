@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 400 400"
+     width="400" height="400">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="400" fill="#fbe9e7"/>
+
+  <!-- Simple pop-art color blocks (Warhol vibe) -->
+  <rect x="0"   y="0"   width="200" height="200" fill="#ffcdd2"/>
+  <rect x="200" y="0"   width="200" height="200" fill="#bbdefb"/>
+  <rect x="0"   y="200" width="200" height="200" fill="#c8e6c9"/>
+  <rect x="200" y="200" width="200" height="200" fill="#fff9c4"/>
+
+  <!-- Group everything so we can move/scale easily if needed -->
+  <g id="warhol" transform="translate(110,80)">
+
+    <!-- Hair -->
+    <path d="
+      M0 40
+      c10 -30 70 -30 80 0
+      l0 25
+      c-5 10 -75 10 -80 0
+      z"
+      fill="#eeeeee"/>
+
+    <!-- Head -->
+    <circle cx="40" cy="90" r="40" fill="#fce0d6" stroke="#d7b6aa" stroke-width="2"/>
+
+    <!-- Sunglasses -->
+    <g fill="#000000">
+      <rect x="12" y="75" width="22" height="14" rx="3"/>
+      <rect x="46" y="75" width="22" height="14" rx="3"/>
+      <rect x="34" y="80" width="12" height="4"/> <!-- bridge -->
+    </g>
+
+    <!-- Nose -->
+    <path d="M40 90 q1 9 -3 12" stroke="#d7b6aa" stroke-width="2" fill="none"/>
+
+    <!-- Mouth (open, ready to take a bite) -->
+    <path d="M30 112 q10 6 20 0" stroke="#b86262" stroke-width="3" fill="none"/>
+
+    <!-- Torso (turtleneck-ish sweater) -->
+    <path d="
+      M5 130
+      q35 15 70 0
+      l0 50
+      q-35 20 -70 0
+      z" fill="#c62828"/>
+
+    <!-- Right arm holding the burger -->
+    <g id="arm-burger" transform="translate(70,110) rotate(-15)">
+      <!-- Arm -->
+      <path d="
+        M0 0
+        q30 10 45 40
+        l-12 8
+        q-16 -25 -33 -33
+        z" fill="#c62828"/>
+
+      <!-- Hand -->
+      <ellipse cx="46" cy="45" rx="10" ry="12" fill="#fce0d6" stroke="#d7b6aa" stroke-width="1"/>
+
+      <!-- Burger -->
+      <g id="burger" transform="translate(60,40) scale(0.9)">
+        <!-- Bottom bun -->
+        <ellipse cx="0" cy="20" rx="28" ry="8" fill="#d8a156"/>
+        <!-- Patty -->
+        <rect x="-25" y="8" width="50" height="12" rx="4" fill="#6d4c41"/>
+        <!-- Cheese -->
+        <rect x="-25" y="4" width="50" height="6" fill="#ffeb3b"/>
+        <!-- Lettuce -->
+        <ellipse cx="0" cy="4" rx="28" ry="6" fill="#8bc34a"/>
+        <!-- Top bun -->
+        <ellipse cx="0" cy="0" rx="28" ry="10" fill="#f4b66e"/>
+        <!-- Sesame seeds -->
+        <g fill="#fffde7">
+          <circle cx="-10" cy="-3" r="1.2"/>
+          <circle cx="0"   cy="-4" r="1.2"/>
+          <circle cx="10"  cy="-2" r="1.2"/>
+          <circle cx="-4"  cy="0"  r="1.2"/>
+          <circle cx="6"   cy="1"  r="1.2"/>
+        </g>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- Signature label (optional decorative text) -->
+  <text x="200" y="390" font-family="Helvetica,Arial,sans-serif"
+        font-size="14" text-anchor="middle" fill="#424242">
+    Stylized illustration – not affiliated with/endorsed by The Andy Warhol Foundation
+  </text>
+
+</svg>

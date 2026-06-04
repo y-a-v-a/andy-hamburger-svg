@@ -61,6 +61,7 @@ const SKIP = new Set([
   "google/gemma-4-26b-a4b-it:free",
   "google/gemma-4-31b-it:free",
   "inception/mercury-2",
+  "meta-llama/llama-guard-4-12b",
   "minimax/minimax-m2-her",
   "minimax/minimax-m2.1",
   "moonshotai/kimi-k2.6",
