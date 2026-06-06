@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 800"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">Andy Warhol eating a hamburger - pop art style vector illustration</title>
+  <desc id="desc">
+    Stylized portrait of Andy Warhol with his signature light wig and dark sunglasses,
+    holding a hamburger near his mouth against a bright, color-blocked background with halftone dots.
+  </desc>
+
+  <defs>
+    <!-- Simple halftone-style pattern for pop-art background -->
+    <pattern id="halftone" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="20" height="20" fill="#fefefe"/>
+      <circle cx="5" cy="5" r="2.5" fill="#ff4b6e"/>
+      <circle cx="15" cy="15" r="2.5" fill="#ff4b6e"/>
+    </pattern>
+  </defs>
+
+  <!-- Background color blocks -->
+  <rect x="0" y="0" width="800" height="800" fill="#12c2e9"/>
+  <rect x="0" y="400" width="800" height="400" fill="#f9f04a"/>
+  <rect x="400" y="0" width="400" height="400" fill="url(#halftone)"/>
+
+  <!-- Warhol figure group -->
+  <g id="warhol"
+     transform="translate(200,140)"
+     stroke="#000000"
+     stroke-width="6"
+     stroke-linejoin="round"
+     stroke-linecap="round"
+     fill="none">
+
+    <!-- Neck and shoulders -->
+    <rect x="150" y="260" width="100" height="80"
+          fill="#fbd2a4" stroke="none"/>
+    <rect x="110" y="320" width="180" height="140" rx="20" ry="20"
+          fill="#222222" stroke="#000000"/>
+
+    <!-- Head -->
+    <rect x="130" y="160" width="140" height="120" rx="25" ry="25"
+          fill="#fbd2a4" stroke="#000000"/>
+
+    <!-- Hair / wig -->
+    <path d="M120 170
+             C 120 130 300 130 300 170
+             L 300 150
+             C 260 120 220 110 200 110
+             C 180 110 140 120 120 150
+             Z"
+          fill="#f5f5f5" stroke="#000000"/>
+
+    <!-- Sunglasses -->
+    <rect x="145" y="195" width="55" height="35" rx="8" ry="8"
+          fill="#111111" stroke="#000000"/>
+    <rect x="200" y="195" width="55" height="35" rx="8" ry="8"
+          fill="#111111" stroke="#000000"/>
+    <rect x="195" y="205" width="10" height="15"
+          fill="#111111" stroke="#000000"/>
+    <path d="M150 190 L 190 185"
+          stroke="#000000" stroke-width="4"/>
+    <path d="M210 185 L 250 190"
+          stroke="#000000" stroke-width="4"/>
+
+    <!-- Nose -->
+    <path d="M200 215
+             Q 205 235 200 242"
+          stroke="#000000" stroke-width="4"/>
+
+    <!-- Mouth (slightly open, about to bite) -->
+    <path d="M185 255
+             Q 200 265 215 255
+             Q 200 275 185 255
+             Z"
+          fill="#e53935" stroke="#000000"/>
+
+    <!-- Right hand holding burger -->
+    <g id="hand-burger" transform="translate(40,260)">
+
+      <!-- Hand -->
+      <path d="M210 40
+               C 230 35 240 35 255 40
+               L 255 75
+               C 240 80 230 80 210 75
+               Z"
+            fill="#fbd2a4" stroke="#000000"/>
+
+      <!-- Burger -->
+      <g id="burger" transform="translate(210,20)">
+
+        <!-- Bottom bun -->
+        <rect x="-40" y="40" width="80" height="22" rx="10" ry="10"
+              fill="#f4a259" stroke="#000000"/>
+
+        <!-- Patty -->
+        <rect x="-38" y="30" width="76" height="14" rx="6" ry="6"
+              fill="#5d4037" stroke="#000000"/>
+
+        <!-- Lettuce -->
+        <path d="M-38 28
+                 C -30 22 -20 24 -10 22
+                 C 0 24 10 20 20 22
+                 C 30 20 38 24 38 28
+                 L 38 30
+                 L -38 30
+                 Z"
+              fill="#66bb6a" stroke="#000000"/>
+
+        <!-- Cheese -->
+        <path d="M-34 26
+                 L 34 26
+                 L 28 32
+                 L -28 32
+                 Z"
+              fill="#ffeb3b" stroke="#000000"/>
+
+        <!-- Top bun -->
+        <path d="M-40 26
+                 C -40 10 40 10 40 26
+                 L 40 40
+                 L -40 40
+                 Z"
+              fill="#ffb74d" stroke="#000000"/>
+
+        <!-- Sesame seeds -->
+        <ellipse cx="-20" cy="20" rx="3" ry="2"
+                 fill="#ffe0b2" stroke="#000000" stroke-width="1"/>
+        <ellipse cx="-5" cy="16" rx="3" ry="2"
+                 fill="#ffe0b2" stroke="#000000" stroke-width="1"/>
+        <ellipse cx="10" cy="19" rx="3" ry="2"
+                 fill="#ffe0b2" stroke="#000000" stroke-width="1"/>
+        <ellipse cx="25" cy="15" rx="3" ry="2"
+                 fill="#ffe0b2" stroke="#000000" stroke-width="1"/>
+
+      </g>
+    </g>
+
+    <!-- Left shoulder / arm (simplified) -->
+    <path d="M130 340
+             C 90 360 80 380 90 420
+             L 120 420
+             C 115 390 120 365 140 350
+             Z"
+          fill="#222222" stroke="#000000"/>
+
+  </g>
+
+  <!-- Caption text in pop-art style -->
+  <text x="50" y="760"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="32"
+        font-weight="bold"
+        fill="#111111">
+    Eat like Andy
+  </text>
+</svg>

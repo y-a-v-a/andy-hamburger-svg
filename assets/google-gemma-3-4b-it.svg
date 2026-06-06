@@ -1,0 +1,57 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>A stylized image of Andy Warhol enjoying a hamburger, in his signature pop art style.</desc>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0e68c" />  <!-- Light Beige -->
+
+  <!-- Andy Warhol - Silhouetted Head & Shoulders -->
+  <ellipse cx="250" cy="200" rx="80" ry="100" fill="#000000" stroke="#000000" stroke-width="2" />
+  <circle cx="230" cy="160" r="50" fill="#000000" />  <!-- Eyes -->
+  <circle cx="270" cy="160" r="30" fill="#000000" /> <!-- Second Eye -->
+  <path d="M 230 170 L 240 180 L 250 170 Z" fill="#000000" /> <!-- Mouth - simple grin -->
+
+
+  <!-- Hamburger -->
+  <ellipse cx="380" cy="200" rx="70" ry="50" fill="#c0392b" /> <!-- Burger bun - reddish brown -->
+  <ellipse cx="350" cy="190" rx="40" ry="30" fill="#d35400" />  <!-- Burger patty - darker brown -->
+  <rect x="360" y="210" width="60" height="30" fill="#fff" /> <!-- Lettuce -->
+  <rect x="390" y="210" width="30" height="30" fill="#f0e68c" /> <!-- Tomato -->
+  <ellipse cx="380" cy="220" rx="20" ry="10" fill="#900" /> <!-- Sesame Seeds -->
+
+  <!-- Warhol's Hand (simple) -->
+  <rect x="200" y="220" width="20" height="30" fill="#000000" />
+
+  <!-- Text - Warhol's Name (simple) -->
+  <text x="100" y="350" font-size="20" font-family="sans-serif" fill="#000000">Andy</text>
+  <text x="180" y="350" font-size="20" font-family="sans-serif" fill="#000000">Warhol</text>
+
+
+  <!-- Style - Make it "Pop Art" -->
+  <style>
+    .warhol-effect {
+      filter: drop-shadow(5px 5px 5px black);
+    }
+  </style>
+  <defs>
+    <filter id="warhol-shadow" x="-5px" y="-5px" width="10px" height="10px">
+      <feOffset dx="5" dy="5" result="offsetShadow" />
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feBlend in="offsetShadow" in2="blur" operator="overlay" />
+    </filter>
+  </defs>
+
+  <!-- Apply the Warhol effect -->
+  <ellipse cx="250" cy="200" rx="80" ry="100" fill="#000000" stroke="#000000" stroke-width="2" class="warhol-effect"/>
+  <circle cx="230" cy="160" r="50" fill="#000000" class="warhol-effect"/>
+  <circle cx="270" cy="160" r="30" fill="#000000" class="warhol-effect"/>
+  <path d="M 230 170 L 240 180 L 250 170 Z" fill="#000000" class="warhol-effect"/>
+  <ellipse cx="380" cy="200" rx="70" ry="50" fill="#c0392b" class="warhol-effect"/>
+  <ellipse cx="350" cy="190" rx="40" ry="30" fill="#d35400" class="warhol-effect"/>
+  <rect x="360" y="210" width="60" height="30" fill="#fff" class="warhol-effect"/>
+  <rect x="390" y="210" width="30" height="30" fill="#f0e68c" class="warhol-effect"/>
+  <ellipse cx="380" cy="220" rx="20" ry="10" fill="#900" class="warhol-effect"/>
+  <rect x="200" y="220" width="20" height="30" fill="#000000" class="warhol-effect"/>
+  <text x="100" y="350" font-size="20" font-family="sans-serif" fill="#000000" class="warhol-effect"/>
+  <text x="180" y="350" font-size="20" font-family="sans-serif" fill="#000000" class="warhol-effect"/>
+</svg>

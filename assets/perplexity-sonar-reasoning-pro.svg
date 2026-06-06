@@ -1,0 +1,152 @@
+<svg
+  width="600"
+  height="600"
+  viewBox="0 0 600 600"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title desc">
+
+  <title id="title">Stylized illustration of Andy Warhol eating a hamburger</title>
+  <desc id="desc">
+    Pop-art inspired vector of a man with white hair and sunglasses, sitting at a table,
+    holding a hamburger.
+  </desc>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="600" fill="#ffeb3b" />
+
+  <!-- Split background for pop-art feel -->
+  <rect x="0" y="0" width="300" height="600" fill="#ff4081" opacity="0.15" />
+  <rect x="300" y="0" width="300" height="600" fill="#40c4ff" opacity="0.15" />
+
+  <!-- Table -->
+  <rect x="0" y="360" width="600" height="140" fill="#f5f5f5" />
+  <rect x="0" y="360" width="600" height="10" fill="#e0e0e0" />
+
+  <!-- Torso -->
+  <rect x="210" y="260" width="180" height="140" rx="20" ry="20" fill="#212121" />
+  <!-- Shirt collar -->
+  <polygon points="260,260 300,300 340,260" fill="#fafafa" />
+  <!-- Tie -->
+  <rect x="292" y="300" width="16" height="120" fill="#ff5722" />
+  <line x1="292" y1="320" x2="308" y2="330" stroke="#ffffff" stroke-width="3" />
+  <line x1="292" y1="340" x2="308" y2="350" stroke="#ffffff" stroke-width="3" />
+  <line x1="292" y1="360" x2="308" y2="370" stroke="#ffffff" stroke-width="3" />
+
+  <!-- Neck -->
+  <rect x="280" y="240" width="40" height="30" fill="#f5cba7" />
+
+  <!-- Head -->
+  <circle cx="300" cy="200" r="60" fill="#f5cba7" />
+
+  <!-- Hair (white, iconic style) -->
+  <path
+    d="
+      M240,190
+      C250,140 280,130 300,130
+      C320,130 350,140 360,190
+      C345,180 335,178 320,180
+      C310,182 295,185 280,182
+      C265,180 255,180 240,190
+      Z"
+    fill="#ffffff"
+  />
+  <!-- Hair spikes -->
+  <path d="M260,130 L250,110 L270,120 Z" fill="#ffffff" />
+  <path d="M290,125 L285,105 L305,120 Z" fill="#ffffff" />
+  <path d="M320,125 L325,105 L340,122 Z" fill="#ffffff" />
+  <path d="M345,135 L360,115 L355,140 Z" fill="#ffffff" />
+
+  <!-- Glasses -->
+  <rect x="260" y="185" width="40" height="25" rx="4" ry="4" fill="#212121" />
+  <rect x="300" y="185" width="40" height="25" rx="4" ry="4" fill="#212121" />
+  <rect x="262" y="187" width="36" height="21" fill="#424242" />
+  <rect x="302" y="187" width="36" height="21" fill="#424242" />
+  <rect x="300" y="193" width="4" height="10" fill="#212121" />
+  <!-- Nose (simple line) -->
+  <path d="M298,200 C300,210 302,212 302,218" stroke="#d98860" stroke-width="2" fill="none" />
+  <!-- Mouth (subtle line) -->
+  <path d="M285,230 C295,236 305,236 315,230" stroke="#c0392b" stroke-width="2" fill="none" />
+
+  <!-- Arms -->
+  <!-- Left arm -->
+  <path
+    d="M210,280
+       C190,310 190,330 210,350
+       L230,350
+       C215,330 215,310 230,290 Z"
+    fill="#212121"
+  />
+  <!-- Right arm -->
+  <path
+    d="M390,280
+       C410,310 410,330 390,350
+       L370,350
+       C385,330 385,310 370,290 Z"
+    fill="#212121"
+  />
+
+  <!-- Hands holding burger -->
+  <ellipse cx="255" cy="340" rx="24" ry="16" fill="#f5cba7" />
+  <ellipse cx="345" cy="340" rx="24" ry="16" fill="#f5cba7" />
+
+  <!-- Burger (centered between hands) -->
+  <!-- Bottom bun -->
+  <ellipse cx="300" cy="340" rx="40" ry="16" fill="#f4a460" />
+  <!-- Patty -->
+  <ellipse cx="300" cy="332" rx="36" ry="10" fill="#5d4037" />
+  <!-- Lettuce -->
+  <path
+    d="M264,326
+       C270,320 275,322 282,320
+       C289,318 296,320 304,318
+       C312,316 320,318 336,322
+       C332,325 328,327 320,328
+       C312,329 296,330 280,330
+       C272,330 268,329 264,326 Z"
+    fill="#66bb6a"
+  />
+  <!-- Top bun -->
+  <ellipse cx="300" cy="322" rx="40" ry="16" fill="#f4a460" />
+  <!-- Sesame seeds -->
+  <ellipse cx="285" cy="316" rx="3" ry="2" fill="#ffe0b2" />
+  <ellipse cx="295" cy="312" rx="3" ry="2" fill="#ffe0b2" />
+  <ellipse cx="305" cy="316" rx="3" ry="2" fill="#ffe0b2" />
+  <ellipse cx="315" cy="312" rx="3" ry="2" fill="#ffe0b2" />
+  <ellipse cx="275" cy="312" rx="3" ry="2" fill="#ffe0b2" />
+  <ellipse cx="325" cy="316" rx="3" ry="2" fill="#ffe0b2" />
+
+  <!-- Ketchup bottle on table (generic, no branding) -->
+  <rect x="400" y="290" width="32" height="80" rx="6" ry="6" fill="#e53935" />
+  <rect x="408" y="280" width="16" height="14" rx="3" ry="3" fill="#f5f5f5" />
+  <circle cx="416" cy="308" r="8" fill="#fafafa" opacity="0.8" />
+
+  <!-- Paper bag on table (generic) -->
+  <rect x="160" y="295" width="55" height="75" fill="#d7ccc8" />
+  <polygon points="160,295 215,295 210,280 165,280" fill="#bcaaa4" />
+
+  <!-- Minimal pop-art accent dots behind head -->
+  <g fill="#ff5722" opacity="0.5">
+    <circle cx="120" cy="120" r="4" />
+    <circle cx="140" cy="140" r="4" />
+    <circle cx="160" cy="120" r="4" />
+    <circle cx="120" cy="160" r="4" />
+    <circle cx="450" cy="110" r="4" />
+    <circle cx="470" cy="130" r="4" />
+    <circle cx="490" cy="110" r="4" />
+    <circle cx="470" cy="150" r="4" />
+  </g>
+
+  <!-- Caption text -->
+  <text
+    x="300"
+    y="530"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="22"
+    fill="#212121"
+  >
+    ANDY WARHOL EATING A HAMBURGER
+  </text>
+
+</svg>

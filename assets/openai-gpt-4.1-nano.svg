@@ -1,0 +1,51 @@
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="100" r="70" fill="#ffe0b2" stroke="#333" stroke-width="3"/>
+  
+  <!-- Hair -->
+  <rect x="80" y="30" width="140" height="60" fill="#222"/>
+  
+  <!-- Face details -->
+  <!-- Left eye -->
+  <circle cx="115" cy="90" r="8" fill="#fff"/>
+  <circle cx="115" cy="90" r="3" fill="#000"/>
+  <!-- Right eye -->
+  <circle cx="185" cy="90" r="8" fill="#fff"/>
+  <circle cx="185" cy="90" r="3" fill="#000"/>
+  <!-- Nose -->
+  <path d="M150 100 Q147 115 150 115 Q153 115 150 100" fill="#e0ac69"/>
+  <!-- Mouth -->
+  <path d="M130 130 Q150 150 170 130" stroke="#800000" stroke-width="4" fill="none"/>
+  
+  <!-- Body -->
+  <rect x="100" y="170" width="100" height="160" fill="#87CEFA" stroke="#333" stroke-width="2"/>
+  
+  <!-- Hamburger -->
+  <g>
+    <!-- Bun top -->
+    <ellipse cx="150" cy="200" rx="70" ry="15" fill="#D2691E"/>
+    <!-- Lettuce -->
+    <ellipse cx="150" cy="210" rx="60" ry="8" fill="#228B22"/>
+    <!-- Patty -->
+    <rect x="90" y="218" width="120" height="12" fill="#8B4513" rx="3" ry="3"/>
+    <!-- Bun bottom -->
+    <ellipse cx="150" cy="230" rx="70" ry="10" fill="#D2691E"/>
+  </g>
+
+  <!-- Hands holding the hamburger -->
+  <circle cx="100" cy="350" r="20" fill="#ffe0b2" stroke="#333" stroke-width="2"/>
+  <circle cx="200" cy="350" r="20" fill="#ffe0b2" stroke="#333" stroke-width="2"/>
+  
+  <!-- Forearms -->
+  <rect x="80" y="330" width="30" height="30" fill="#ffe0b2"/>
+  <rect x="190" y="330" width="30" height="30" fill="#ffe0b2"/>
+  
+  <!-- Hands -->
+  <circle cx="95" cy="315" r="5" fill="#ffe0b2"/>
+  <circle cx="205" cy="315" r="5" fill="#ffe0b2"/>
+
+</svg>

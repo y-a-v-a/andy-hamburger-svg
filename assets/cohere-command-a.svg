@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#ffffff"/>
+
+  <!-- Andy Warhol's Face -->
+  <circle cx="100" cy="80" r="40" fill="#FFD700" stroke="#000" stroke-width="2"/>
+  <!-- Hair -->
+  <rect x="80" y="60" width="40" height="20" rx="10" fill="#000"/>
+  <!-- Eyes -->
+  <circle cx="90" cy="75" r="5" fill="#000"/>
+  <circle cx="110" cy="75" r="5" fill="#000"/>
+  <!-- Mouth (eating hamburger) -->
+  <rect x="90" y="90" width="20" height="10" rx="5" fill="#FF4500"/>
+
+  <!-- Hamburger -->
+  <rect x="85" y="100" width="30" height="10" fill="#8B4513"/> <!-- Bottom bun -->
+  <rect x="85" y="95" width="30" height="5" fill="#FF6347"/>   <!-- Patty -->
+  <rect x="85" y="90" width="30" height="5" fill="#FFD700"/>  <!-- Cheese -->
+  <rect x="85" y="85" width="30" height="10" fill="#8B4513"/> <!-- Top bun -->
+
+  <!-- Andy's Body -->
+  <rect x="90" y="120" width="20" height="40" fill="#FFD700" stroke="#000" stroke-width="2"/>
+
+  <!-- Table -->
+  <rect x="70" y="160" width="60" height="10" fill="#8B4513" stroke="#000" stroke-width="2"/>
+
+  <!-- Warhol's Signature Style: Pop Art Dots -->
+  <circle cx="30" cy="30" r="5" fill="#FF0000"/>
+  <circle cx="40" cy="40" r="5" fill="#00FF00"/>
+  <circle cx="50" cy="35" r="5" fill="#0000FF"/>
+  <circle cx="170" cy="30" r="5" fill="#FF00FF"/>
+  <circle cx="160" cy="40" r="5" fill="#FFFF00"/>
+  <circle cx="150" cy="35" r="5" fill="#00FFFF"/>
+</svg>

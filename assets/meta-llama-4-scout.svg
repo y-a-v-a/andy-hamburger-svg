@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f0f0f0" />
+  
+  <!-- Andy Warhol -->
+  <circle cx="200" cy="150" r="50" fill="#ffffff" />
+  <path d="M 220 170 L 180 170" stroke="#000" stroke-width="2" />
+  <circle cx="210" cy="120" r="10" fill="#000" />
+  <circle cx="190" cy="120" r="10" fill="#000" />
+  
+  <!-- Hamburger -->
+  <ellipse cx="250" cy="200" rx="40" ry="20" fill="#brown" />
+  <path d="M 250 220 L 290 220 L 270 240 Z" fill="#brown" />
+  <rect x="230" y="240" width="40" height="20" fill="#brown" />
+  
+  <!-- Bite Line -->
+  <path d="M 260 200 L 270 210" stroke="#000" stroke-width="2" />
+  
+  <!-- Warhol's Hands and Hamburger Interaction -->
+  <path d="M 200 230 L 240 250" stroke="#000" stroke-width="2" />
+  
+  <!-- Additional Details -->
+  <text x="150" y="280" font-size="20">Andy Warhol</text>
+</svg>
