@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+  <style>
+    .background { fill: #fff; }
+    .hair { fill: #silver; stroke: #333; stroke-width: 2; }
+    .glasses { fill: none; stroke: #000; stroke-width: 2; }
+    .patty { fill: #8b4513; }
+    .bun { fill: #eba135; }
+    .cheese { fill: #ffdb00; }
+    .lettuce { fill: #00ff00; }
+    .hand { fill: #ffa500; }
+  </style>
+
+  <!-- Background -->
+  <rect class="background" x="0" y="0" width="400" height="400"/>
+
+  <!-- Andy Warhol -->
+  <g id="andy-warhol">
+    <!-- Head -->
+    <circle cx="100" cy="100" r="50" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    
+    <!-- Glasses -->
+    <rect class="glasses" x="70" y="70" width="30" height="20"/>
+    <rect class="glasses" x="120" y="70" width="30" height="20"/>
+    
+    <!-- Hair -->
+    <circle class="hair" cx="100" cy="60" r="30"/>
+  </g>
+
+  <!-- Hamburger -->
+  <g id="hamburger" transform="translate(150,150)">
+    <!-- Bottom Bun -->
+    <circle class="bun" cx="0" cy="0" r="30"/>
+    
+    <!-- Patty -->
+    <rect class="patty" x="-25" y="10" width="50" height="20"/>
+    
+    <!-- Lettuce -->
+    <circle class="lettuce" cx="0" cy="35" r="20"/>
+    
+    <!-- Cheese -->
+    <rect class="cheese" x="-20" y="50" width="40" height="10"/>
+    
+    <!-- Top Bun -->
+    <circle class="bun" cx="0" cy="65" r="30"/>
+  </g>
+
+  <!-- Hand -->
+  <ellipse class="hand" cx="200" cy="150" rx="15" ry="10"/>
+
+  <!-- Text -->
+  <text x="10" y="20" fill="black">Andy Warhol eating a hamburger</text>
+</svg>

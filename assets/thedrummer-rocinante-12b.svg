@@ -1,0 +1,26 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/XLink">
+    <!-- Background color -->
+    <rect width="500" height="600" fill="white" pointer-events="none"/>
+
+    <!-- Andy Warhol head -->
+    <path d="M175,280 L125,370 Q130,400 135,420 Q140,440 140,460 Q140,480 145,500 Q150,520 160,540 Q170,560 185,570 Q200,580 215,590 Q230,590 245,580 Q260,560 275,540 Q285,520 295,500 Q305,480 310,460 Q320,440 320,420 Q325,400 330,370 L325,280 Z" fill="lightgrey" stroke="black"/>
+
+    <!-- Hair -->
+    <path d="M100,300 L140,320 L180,300 L220,320 L260,300 L300,320 L340,300 L380,320 L420,300 Z" fill="black" stroke="black"/>
+
+    <!-- Glasses -->
+    <circle cx="165" cy="430" r="15" fill="black"/>
+    <line x1="145" y1="440" x2="185" y2="440" style="stroke: black; stroke-width: 2"/>
+    <rect x="150" y="425" width="25" height="20" fill="white"/>
+
+    <!-- Hamburger -->
+    <circle cx="225" cy="500" r="30" fill="brown"/>
+    <circle cx="245" cy="460" r="20" fill="paleyellow"/>
+    <circle cx="225" cy="430" r="15" fill="white"/>
+    <line x1="230" y1="410" x2="230" y2="430" style="stroke: black; stroke-width: 2"/>
+
+    <!-- Text -->
+    <text x="50%" y="50" text-anchor="middle" fill="black" font-family="Verdana, sans-serif" font-size="30">
+        Andy Warhol Eating a Hamburger
+    </text>
+</svg>

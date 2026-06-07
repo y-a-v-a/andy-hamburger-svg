@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background (Warhol-style color blocks) -->
+  <rect x="0" y="0" width="500" height="500" fill="#FFD700" />
+
+  <!-- Andy Warhol's face (simplified pop art style) -->
+  <g id="warhol">
+    <!-- Head (pink) -->
+    <ellipse cx="250" cy="200" rx="100" ry="120" fill="#FF69B4" stroke="#000" stroke-width="3" />
+
+    <!-- Hair (black) -->
+    <path d="M150,100 Q250,50 350,100 Q350,150 250,180 Q150,150 150,100" fill="#000" />
+
+    <!-- Eyes (blue) -->
+    <ellipse cx="220" cy="180" rx="15" ry="20" fill="#1E90FF" />
+    <ellipse cx="280" cy="180" rx="15" ry="20" fill="#1E90FF" />
+    <circle cx="225" cy="175" r="5" fill="#000" />
+    <circle cx="285" cy="175" r="5" fill="#000" />
+
+    <!-- Nose (red) -->
+    <path d="M250,190 Q260,210 250,220 Q240,210 250,190" fill="#FF0000" />
+
+    <!-- Mouth (eating hamburger) -->
+    <path d="M230,240 Q250,260 270,240" fill="#FF6347" stroke="#000" stroke-width="2" />
+    <path d="M230,240 Q250,230 270,240" fill="none" stroke="#000" stroke-width="2" />
+
+    <!-- Eyebrows (black) -->
+    <path d="M200,160 Q220,150 240,160" stroke="#000" stroke-width="3" fill="none" />
+    <path d="M260,160 Q280,150 300,160" stroke="#000" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Hamburger (pop art style) -->
+  <g id="hamburger">
+    <!-- Top bun (yellow) -->
+    <ellipse cx="250" cy="280" rx="60" ry="20" fill="#FFA500" stroke="#000" stroke-width="2" />
+
+    <!-- Lettuce (green) -->
+    <path d="M190,280 Q250,270 310,280 Q310,290 250,300 Q190,290 190,280" fill="#32CD32" stroke="#000" stroke-width="2" />
+
+    <!-- Patty (brown) -->
+    <ellipse cx="250" cy="300" rx="50" ry="15" fill="#8B4513" stroke="#000" stroke-width="2" />
+
+    <!-- Cheese (yellow) -->
+    <ellipse cx="250" cy="305" rx="45" ry="10" fill="#FFD700" stroke="#000" stroke-width="2" />
+
+    <!-- Bottom bun (yellow) -->
+    <ellipse cx="250" cy="320" rx="60" ry="20" fill="#FFA500" stroke="#000" stroke-width="2" />
+
+    <!-- Sesame seeds (white) -->
+    <circle cx="230" cy="275" r="3" fill="#FFF" />
+    <circle cx="270" cy="270" r="3" fill="#FFF" />
+    <circle cx="240" cy="285" r="3" fill="#FFF" />
+    <circle cx="260" cy="280" r="3" fill="#FFF" />
+  </g>
+
+  <!-- Warhol's hand (holding hamburger) -->
+  <g id="hand">
+    <path d="M300,280 Q350,250 380,280 Q380,320 350,350 Q320,320 300,280" fill="#FFD700" stroke="#000" stroke-width="2" />
+    <path d="M380,280 L380,320" stroke="#000" stroke-width="2" />
+  </g>
+
+  <!-- Warhol-style signature -->
+  <text x="400" y="480" font-family="Arial" font-size="16" fill="#000" font-weight="bold">WARHOL</text>
+</svg>

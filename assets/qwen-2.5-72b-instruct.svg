@@ -1,0 +1,19 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Andy Warhol's Profile -->
+  <path d="M150 50 C 120 50, 100 80, 100 100 C 100 120, 120 150, 150 150 C 180 150, 200 120, 200 100 C 200 80, 180 50, 150 50 Z" fill="#F5F5F5" stroke="#000" stroke-width="2"/>
+  
+  <!-- Andy Warhol's Facial Features -->
+  <circle cx="135" cy="90" r="5" fill="#000" />
+  <circle cx="165" cy="90" r="5" fill="#000" />
+  <path d="M130 110 Q 150 120 170 110" stroke="#000" stroke-width="2" fill="none" />
+  
+  <!-- Hamburger -->
+  <rect x="125" y="170" width="50" height="10" fill="#FF7F50" />
+  <rect x="125" y="180" width="50" height="10" fill="#7F462C" />
+  <rect x="125" y="190" width="50" height="10" fill="#FF7F50" />
+  <rect x="125" y="200" width="50" height="10" fill="#7F462C" />
+  
+  <!-- Andy Warhol's Arm Holding the Hamburger -->
+  <path d="M150 150 C 150 150, 130 210, 140 210" stroke="#000" stroke-width="5" fill="none" />
+  <path d="M140 210 L 150 210" stroke="#000" stroke-width="5" fill="none" />
+</svg>

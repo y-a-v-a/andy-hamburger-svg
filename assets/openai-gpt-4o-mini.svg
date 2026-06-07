@@ -1,0 +1,22 @@
+<svg
+  width="200px"
+  height="200px"
+  viewBox="0 0 200 200"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+>
+  <g fill="none" stroke="black" stroke-width="2">
+    <!-- Top bun -->
+    <path d="M50,40 Q100,10 150,40 Q160,45 50,45 Q40,45 50,40 Z" fill="#D2B000"/>
+    <!-- Lettuce -->
+    <ellipse cx="100" cy="65" rx="70" ry="10" fill="#66CDAA"/>
+    <!-- Tomato -->
+    <ellipse cx="100" cy="75" rx="70" ry="5" fill="#FF6347"/>
+    <!-- Patty -->
+    <rect x="50" y="80" width="100" height="15" fill="#7B3F00"/>
+    <!-- Cheese -->
+    <path d="M50,80 L150,80 L120,85 L80,85 Z" fill="#FFD700"/>
+    <!-- Bottom bun -->
+    <path d="M50,100 Q100,130 150,100 Q160,95 50,95 Q40,95 50,100 Z" fill="#D2B000"/>
+  </g>
+</svg>

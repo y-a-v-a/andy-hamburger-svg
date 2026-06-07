@@ -1,0 +1,13 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Andy Warhol's head - stylized-->
+  <circle cx="250" cy="150" r="100" fill="#FFD700" />
+  <circle cx="220" cy="180" r="20" fill="#000" /> 
+  <path d="M240 190 L260 190 L250 210 Z" fill="#000" />
+
+  <!-- Hamburger (stylized) -->
+  <rect x="150" y="250" width="200" height="100" fill="#E0B060" />
+  <rect x="180" y="280" width="60" height="40" fill="#D25F3A"/>
+  <circle cx="210" y="310" r="15" fill="#FFFFFF" />
+
+</svg>

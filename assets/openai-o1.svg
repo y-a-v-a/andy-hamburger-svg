@@ -1,0 +1,61 @@
+<svg version="1.1" width="300" height="300"
+     viewBox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>A simplified, stylized illustration of Andy Warhol taking a bite out of a hamburger.</desc>
+
+  <!-- Background -->
+  <rect width="300" height="300" fill="#ffffff" />
+
+  <!-- Hair (stylized spiky shape) -->
+  <path d="M80,80 
+           C100,30 180,30 200,80 
+           C220,135 150,65 130,90 
+           C120,100 90,100 80,80 Z"
+        fill="#c0c0c0" stroke="#000000" stroke-width="2"/>
+
+  <!-- Face (simple oval/head shape) -->
+  <ellipse cx="140" cy="130" rx="40" ry="45"
+           fill="#f2d7c4" stroke="#000000" stroke-width="2" />
+
+  <!-- Sunglasses -->
+  <path d="M110,120
+           C105,115 115,110 120,115 
+           L140,115
+           C145,110 155,115 150,120
+           L110,120 Z"
+        fill="#000000" />
+  <rect x="125" y="119" width="10" height="2" fill="#000000" />
+
+  <!-- Mouth area (slightly open) -->
+  <path d="M130,145 
+           C135,148 145,148 150,145 
+           C150,150 135,150 130,145 Z"
+        fill="#9b5a3c" stroke="#000000" stroke-width="1"/>
+
+  <!-- Hamburger (two buns + patty) -->
+  <!-- Positioned so it appears he is bringing it to his mouth -->
+  <path d="M160,140 
+           C175,135 190,135 205,140 
+           C205,145 175,150 160,145 Z"
+        fill="#cfa75f" stroke="#000000" stroke-width="1"/>
+  <path d="M160,145 
+           C175,150 190,150 205,145 
+           C205,140 175,135 160,140 Z"
+        fill="#8b4513" stroke="#000000" stroke-width="1"/>
+
+  <!-- Arm and hand (simple shape) -->
+  <path d="M145,170 
+           L150,160 
+           C170,150 190,150 210,160
+           L205,165 
+           C185,155 165,155 150,165 
+           L145,175 Z"
+        fill="#f2d7c4" stroke="#000000" stroke-width="1" />
+
+  <!-- Torso (rough rectangle for body) -->
+  <rect x="100" y="170" width="80" height="70" 
+        fill="#000000" stroke="#000000" stroke-width="1" />
+
+</svg>

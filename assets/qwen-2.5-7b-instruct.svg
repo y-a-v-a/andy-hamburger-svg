@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#FFD700" />
+
+  <!-- Andy Warhol Head -->
+  <g>
+    <path d="M250 190 q0 -50 -40 -85 q-40 -35 -80 -45 q-55 -10 -80 0 q-60 35 -105 35 l0 0 c-20 0 -45 -15 -60 -45 q-40 -35 -80 -45 q-80 -15 -120 0 q-50 35 -75 60 q-25 25 -35 55 q-10 30 -15 55" fill="#FF8000"/>
+    <circle cx="250" cy="250" r="150" fill="#000000"/>
+    <ellipse cx="250" cy="260" rx="50" ry="30" fill="#FF8000"/>
+    <rect x="245" y="265" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="245" y="275" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="245" y="285" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="265" y="265" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="265" y="275" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="265" y="285" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="285" y="265" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="285" y="275" width="15" height="10" fill="#FFFFFF"/>
+    <rect x="285" y="285" width="15" height="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Hamburger -->
+  <path d="M350 100 q20 -30 50 -45 q75 -15 130 0 q75 30 130 45 q20 40 45 65 q35 65 75 120 q40 0 60 -20 q40 0 60 -20 q40 0 60 -20" fill="#FFD700"/>
+  <path d="M350 150 q0 -20 -30 -40 q-65 -35 -130 -50 q-75 -20 -150 0 q-25 5 -40 10 q-50 20 -80 20 q-60 0 -100 -20 q-75 0 -135 -65 q-70 -50 -150 -105 q-60 -55 -125 -110" stroke="#000000" stroke-width="2" fill="#FFD700"/>
+  <circle cx="380" cy="200" r="40" fill="#FFFFFF"/>
+  <circle cx="380" cy="200" r="30" fill="#FF0000"/>
+  
+  <!-- Description -->
+  <text x="250" y="350" font-family="Arial" font-size="20" fill="#000000">Andy Warhol</text>
+  <text x="350" y="350" font-family="Arial" font-size="20" fill="#000000">Eating a Hamburger</text>
+</svg>

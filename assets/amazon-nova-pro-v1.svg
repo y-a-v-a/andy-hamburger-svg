@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="200" height="200" fill="#f0f0f0"/>
+
+    <!-- Andy Warhol Head -->
+    <circle cx="100" cy="80" r="40" fill="#ffeb3b"/>
+    
+    <!-- Eyes -->
+    <circle cx="85" cy="75" r="5" fill="black"/>
+    <circle cx="115" cy="75" r="5" fill="black"/>
+    
+    <!-- Nose -->
+    <polygon points="100,90 95,100 105,100" fill="black"/>
+    
+    <!-- Open Mouth -->
+    <path d="M85,110 Q95,130 100,130 Q105,130 115,110" stroke="black" stroke-width="2" fill="none"/>
+    
+    <!-- Hamburger -->
+    <rect x="90" y="90" width="20" height="40" fill="brown"/>
+    <circle cx="100" cy="120" r="15" fill="red"/>
+    <rect x="85" y="115" width="30" height="10" fill="white"/>
+</svg>

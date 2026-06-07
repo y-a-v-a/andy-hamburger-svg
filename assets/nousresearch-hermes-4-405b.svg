@@ -1,4 +1,4 @@
-<svg width="300" height="200">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
   <circle cx="100" cy="100" r="40" fill="LightSalmon"/> <!-- Head -->
   
   <rect x="80" y="120" width="40" height="60" fill="White"/> <!-- Body -->

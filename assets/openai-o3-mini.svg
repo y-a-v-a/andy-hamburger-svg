@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>A simplified SVG illustration of Andy Warhol with his signature pop art style, complete with bold hair, glasses, and an open mouth taking a bite of a hamburger.</desc>
+  
+  <!-- Background -->
+  <rect width="500" height="500" fill="#F0F0F0" />
+  
+  <!-- Andy's Head -->
+  <circle cx="250" cy="150" r="80" fill="#FAD7A0" stroke="black" stroke-width="2"/>
+  
+  <!-- Bold, Pop-Art Hair -->
+  <!-- A colorful hair swoop over the head -->
+  <path d="M170,140 Q250,40 330,140 Z" fill="orange" stroke="black" stroke-width="2"/>
+  <!-- Extra detail (optional) -->
+  <path d="M180,130 Q250,30 320,130" fill="none" stroke="red" stroke-width="3" />
+  
+  <!-- Signature Glasses -->
+  <circle cx="220" cy="150" r="15" fill="none" stroke="black" stroke-width="3"/>
+  <circle cx="280" cy="150" r="15" fill="none" stroke="black" stroke-width="3"/>
+  <!-- Bridge of Glasses -->
+  <rect x="235" y="145" width="30" height="10" fill="black"/>
+  <!-- Pupils -->
+  <circle cx="220" cy="150" r="5" fill="black"/>
+  <circle cx="280" cy="150" r="5" fill="black"/>
+  
+  <!-- Open Mouth (Ready for a Bite) -->
+  <ellipse cx="250" cy="185" rx="25" ry="10" fill="#D9534F" stroke="black" stroke-width="2"/>
+  
+  <!-- Hamburger Being Eaten -->
+  <g transform="translate(270,180)">
+    <!-- Top Bun -->
+    <ellipse cx="0" cy="0" rx="20" ry="10" fill="#F5C16C" stroke="black" stroke-width="1"/>
+    <!-- Burger Patty -->
+    <ellipse cx="0" cy="12" rx="18" ry="6" fill="#8B4513" stroke="black" stroke-width="1"/>
+    <!-- A touch of Lettuce -->
+    <path d="M -15 20 Q 0 25, 15 20" fill="green" stroke="green" stroke-width="1"/>
+    <!-- Bottom Bun -->
+    <ellipse cx="0" cy="28" rx="20" ry="10" fill="#F5C16C" stroke="black" stroke-width="1"/>
+  </g>
+  
+  <!-- Andy’s Hand (Holding the Hamburger) -->
+  <!-- A simple curved stroke representing the arm/hand joining the face with the burger -->
+  <path d="M260,175 Q265,190 270,180" fill="none" stroke="#FAD7A0" stroke-width="8" stroke-linecap="round"/>
+</svg>

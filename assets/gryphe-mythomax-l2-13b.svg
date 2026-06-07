@@ -1,0 +1,22 @@
+<svg width="200" height="200" viewBox="0 0 200 200">
+  <g fill="#fff">
+    <rect x="10" y="10" width="180" height="180"></rect>
+    <g transform="translate(10 10) scale(0.5)">
+      <circle cx="40" cy="40" r="30" fill="#000"></circle>
+      <circle cx="30" cy="25" r="20" fill="#ffd700"></circle>
+      <text x="30" y="35" font-size="20" fill="#000">WARHOL</text>
+      <path d="M12.5,48.5 L31.5,20 L60,48.5" stroke="#000" stroke-width="4"></path>
+      <path d="M12.5,50.5 L31.5,60 L60,50.5" stroke="#000" stroke-width="4"></path>
+      <path d="M67,48.5 L55.5,20 L67,48.5" stroke="#000" stroke-width="4"></path>
+      <path d="M67,50.5 L55.5,60 L67,50.5" stroke="#000" stroke-width="4"></path>
+      <circle cx="40" cy="50" r="4" fill="red"></circle>
+      <text x="52" y="57.5" font-size="10" fill="#fff">BURGER</text>
+      <use xlink:href="#hat" x="3" y="22" fill="#fff"></use>
+    </g>
+    <circle cx="80" cy="80" r="30" fill="#606060"></circle>
+    <rect x="80" y="90" width="100" height="80" fill="#000"></rect>
+    <image x="82.5" y="90" height="70" width="70" xlink:href="clipboard:andywarhol.jpg" alt="Andy Warhol"></image>
+    <circle cx="80" cy="90" r="20" fill="#ffd700"></circle>
+    <circle cx="80" cy="100" r="30" fill="#000"></circle>
+  </g>
+</svg>

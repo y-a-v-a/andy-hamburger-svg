@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 1000 700" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A stylized pop-art illustration of Andy Warhol sitting at a table eating a hamburger.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7d6e0"/>
+      <stop offset="50%" stop-color="#d7e8ff"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+
+    <linearGradient id="table" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5e34"/>
+      <stop offset="100%" stop-color="#5f3b1f"/>
+    </linearGradient>
+
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6c36a"/>
+      <stop offset="100%" stop-color="#d8922d"/>
+    </linearGradient>
+
+    <linearGradient id="bunBottom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#efb85a"/>
+      <stop offset="100%" stop-color="#c67f1f"/>
+    </linearGradient>
+
+    <style>
+      .outline { stroke: #111; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+      .thin { stroke: #111; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="700" fill="url(#bg)"/>
+  <circle cx="120" cy="110" r="46" fill="#ff4d6d" opacity="0.85"/>
+  <circle cx="880" cy="120" r="58" fill="#7c3aed" opacity="0.75"/>
+  <circle cx="820" cy="540" r="35" fill="#22c55e" opacity="0.6"/>
+  <circle cx="180" cy="560" r="28" fill="#f59e0b" opacity="0.55"/>
+
+  <rect x="0" y="470" width="1000" height="230" fill="#f3efe7"/>
+  <rect x="90" y="400" width="820" height="34" rx="10" fill="#d9d9d9" opacity="0.7"/>
+
+  <rect x="150" y="430" width="700" height="120" rx="16" fill="url(#table)" class="outline"/>
+  <rect x="190" y="540" width="24" height="120" fill="#4b2e18"/>
+  <rect x="786" y="540" width="24" height="120" fill="#4b2e18"/>
+
+  <ellipse cx="500" cy="355" rx="155" ry="185" fill="#f2c7a8" class="outline"/>
+  <ellipse cx="500" cy="375" rx="145" ry="170" fill="#ffd8bb" opacity="0.22"/>
+
+  <path d="M390 245 C420 170, 580 170, 610 245 C590 220, 560 214, 500 214 C440 214, 410 220, 390 245 Z" fill="#f3f3f3" class="outline"/>
+  <path d="M402 240 C420 195, 560 195, 598 240" fill="none" class="thin"/>
+  <path d="M405 200 C440 150, 550 150, 595 200" fill="none" class="thin"/>
+
+  <ellipse cx="460" cy="330" rx="18" ry="24" fill="#111"/>
+  <ellipse cx="540" cy="330" rx="18" ry="24" fill="#111"/>
+  <circle cx="454" cy="324" r="5" fill="#fff"/>
+  <circle cx="534" cy="324" r="5" fill="#fff"/>
+  <path d="M470 380 C490 392, 510 392, 530 380" fill="none" class="outline"/>
+  <path d="M435 362 C455 355, 470 355, 485 362" fill="none" class="thin"/>
+  <path d="M515 362 C530 355, 545 355, 565 362" fill="none" class="thin"/>
+
+  <path d="M480 345 C490 352, 510 352, 520 345" fill="none" class="thin"/>
+  <path d="M495 368 C500 372, 505 372, 510 368" fill="none" class="thin"/>
+
+  <path d="M350 510 C370 450, 425 430, 470 430 L530 430 C575 430, 630 450, 650 510 L650 615 L350 615 Z" fill="#dbe7ff" class="outline"/>
+  <path d="M350 510 C390 485, 610 485, 650 510" fill="none" class="thin"/>
+  <path d="M390 430 L390 615" fill="none" class="thin"/>
+  <path d="M610 430 L610 615" fill="none" class="thin"/>
+
+  <path d="M350 540 C300 510, 285 480, 275 445 C290 430, 325 430, 350 445" fill="#dbe7ff" class="outline"/>
+  <path d="M650 540 C700 510, 715 480, 725 445 C710 430, 675 430, 650 445" fill="#dbe7ff" class="outline"/>
+
+  <path d="M275 448 C245 435, 225 420, 215 395" fill="none" class="outline"/>
+  <path d="M725 448 C755 435, 775 420, 785 395" fill="none" class="outline"/>
+
+  <path d="M215 395 C235 388, 252 395, 262 410" fill="none" class="thin"/>
+  <path d="M785 395 C765 388, 748 395, 738 410" fill="none" class="thin"/>
+
+  <g transform="translate(620 410) rotate(10)">
+    <ellipse cx="0" cy="90" rx="95" ry="68" fill="#f0c18b" class="outline"/>
+    <ellipse cx="0" cy="65" rx="92" ry="26" fill="url(#bunTop)" class="outline"/>
+    <path d="M-66 60 C-30 45, 30 45, 66 60" fill="none" class="thin"/>
+    <path d="M-58 52 C-34 34, 34 34, 58 52" fill="none" class="thin"/>
+
+    <ellipse cx="0" cy="92" rx="83" ry="16" fill="#8b5a2b" class="outline"/>
+    <rect x="-72" y="82" width="144" height="16" rx="8" fill="#3b7f3b"/>
+    <rect x="-68" y="100" width="136" height="14" rx="7" fill="#8a4a2a"/>
+    <rect x="-74" y="114" width="148" height="14" rx="7" fill="#f2c94c"/>
+    <ellipse cx="0" cy="132" rx="90" ry="24" fill="url(#bunBottom)" class="outline"/>
+
+    <path d="M-35 58 C-10 66, 10 66, 35 58" fill="none" class="thin"/>
+  </g>
+
+  <path d="M575 365 C610 360, 640 370, 665 390" fill="none" class="outline"/>
+  <path d="M590 377 C625 390, 645 405, 660 428" fill="none" class="outline"/>
+
+  <path d="M670 392 C700 398, 720 415, 735 440" fill="none" class="outline"/>
+  <path d="M665 428 C690 445, 705 463, 714 487" fill="none" class="outline"/>
+
+  <path d="M720 415 C734 405, 748 404, 760 409" fill="none" class="thin"/>
+  <path d="M706 462 C718 452, 732 450, 746 454" fill="none" class="thin"/>
+
+  <text x="70" y="90" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#111">POP ART</text>
+  <text x="70" y="125" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#111">Andy Warhol eating a hamburger</text>
+</svg>

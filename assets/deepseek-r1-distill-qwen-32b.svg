@@ -1,0 +1,38 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <title>Andy Warhol Eating a Hamburger</title>
+  
+  <!-- Burger -->
+  <g transform="translate(150,150)">
+    <!-- Bun (Bottom) -->
+    <rect x="0" y="0" width="100" height="20" fill="#deb887" rx="10"/>
+    <!-- Lettuce -->
+    <rect x="15" y="25" width="70" height="10" fill="#b2d8b2" rx="5"/>
+    <!-- Tomato -->
+    <rect x="15" y="35" width="70" height="10" fill="#ff4444" rx="5"/>
+    <!-- Cheese -->
+    <rect x="15" y="45" width="70" height="10" fill="#ffff00" rx="5"/>
+    <!-- Patty -->
+    <rect x="15" y="55" width="70" height="10" fill="#4d2f00" rx="5"/>
+    <!-- Bun (Top) -->
+    <rect x="0" y="65" width="100" height="20" fill="#deb887" rx="10"/>
+  </g>
+  
+  <!-- Andy Warhol's Head -->
+  <g transform="translate(150,100)">
+    <!-- Face -->
+    <circle cx="50" cy="100" r="50" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    <!-- Wig -->
+    <rect x="0" y="0" width="100" height="80" fill="#663300" rx="10"/>
+    <!-- Eyes -->
+    <circle cx="30" cy="80" r="8" fill="#000000"/>
+    <circle cx="70" cy="80" r="8" fill="#000000"/>
+    <!-- Nose -->
+    <rect x="45" y="75" width="10" height="5" fill="#000000"/>
+  </g>
+  
+  <!-- Ear -->
+  <g transform="translate(250,100)">
+    <circle cx="30" cy="40" r="15" fill="#ffffff" stroke="#000000" stroke-width="2"/>
+    <circle cx="30" cy="40" r="5" fill="#000000"/>
+  </g>
+</svg>

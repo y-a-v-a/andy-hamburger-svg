@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#C3BCB5" rx="10px" />
+
+  <!-- Warhol's face -->
+  <circle cx="300" cy="200" r="150" fill="white" stroke="black" stroke-width="2px" />
+  <circle cx="250" cy="230" r="20" fill="#403737" />
+  <circle cx="350" cy="230" r="20" fill="#403737" />
+  <path d="M290,350 L330,350 L330,400 L290,400 Z" fill="#403737" />
+  
+  <!-- Warhol's silhouette -->
+  <rect x="200" y="50" width="200" height="500" fill="#403737" rx="20px" />
+  
+  <!-- Plate -->
+  <circle cx="700" cy="250" r="150" fill="#E3E7ED" stroke="black" stroke-width="2px" />
+  
+  <!-- Hamburger -->
+  <rect x="620" y="150" width="120" height="40" fill="#76BF81" rx="10px" />
+  <rect x="630" y="160" width="100" height="10" fill="#000080" rx="2px" />
+  <circle cx="640" cy="170" r="5" fill="#F7D2C4" />
+  <circle cx="660" cy="170" r="5" fill="#F7D2C4" />
+  <circle cx="680" cy="170" r="5" fill="#F7D2C4" />
+  <rect x="630" y="190" width="100" height="30" fill="#F7D2C4" rx="5px" />
+  
+  <!-- Warhol's hand -->
+  <rect x="460" y="270" width="100" height="30" fill="#403737" rx="5px" />
+  <path d="M470,300 L480,310 L490,300 L510,310 L520,300 L490,290 Z" fill="#403737" />
+  
+</svg>

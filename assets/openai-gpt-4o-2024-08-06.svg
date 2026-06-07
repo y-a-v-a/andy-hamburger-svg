@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+     <!-- Background -->
+     <rect width="100%" height="100%" fill="white" />
+     
+     <!-- Andy Warhol's Head -->
+     <circle cx="250" cy="150" r="50" fill="peachpuff" stroke="black" stroke-width="2"/>
+     
+     <!-- Glasses -->
+     <rect x="220" y="130" width="20" height="10" fill="black"/>
+     <rect x="260" y="130" width="20" height="10" fill="black"/>
+     
+     <!-- Hamburger -->
+     <ellipse cx="250" cy="300" rx="30" ry="10" fill="saddlebrown"/>
+     <rect x="220" y="290" width="60" height="20" fill="brown"/>
+   </svg>

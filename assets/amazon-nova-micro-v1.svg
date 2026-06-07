@@ -1,0 +1,31 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="#fff"/>
+  
+  <!-- Andy Warhol's Face -->
+  <ellipse cx="250" cy="250" rx="120" ry="150" fill="#8A5C3F"/>
+
+  <!-- Eyes -->
+  <circle cx="185" cy="210" r="20" fill="#000"/>
+  <circle cx="315" cy="210" r="20" fill="#000"/>
+  
+  <!-- Nose -->
+  <path d="M 250 220 Q 250 235 240 240 Q 230 245 230 260 Q 240 275 250 265 Q 260 275 260 260 Q 250 245 250 235" fill="#8A5C3F" stroke="#000" stroke-width="2"/>
+
+  <!-- Mouth -->
+  <path d="M 210 260 Q 250 280 290 260" fill="transparent" stroke="#E63946" stroke-width="20"/>
+  
+  <!-- Tongue -->
+  <path d="M 250 260 Q 250 300 270 330" fill="transparent" stroke="#E63946" stroke-width="20"/>
+
+  <!-- Hamburger -->
+  <circle cx="400" cy="300" r="40" fill="#FF0000"/> <!-- Hamburger bun -->
+  <ellipse cx="400" cy="300" rx="35" ry="10" fill="#FFA500"/> <!-- Top half of patty -->
+  <ellipse cx="400" cy="310" rx="30" ry="10" fill="#FFA500"/> <!-- Bottom half of patty -->
+  <circle cx="400" cy="325" r="40" fill="#FF0000"/> <!-- Lower bun -->
+
+  <!-- Let's spice it up with some leaves -->
+  <polygon points="385,275 395,255 405,275" fill="#228B22"/>
+  <polygon points="415,275 425,255 435,275" fill="#228B22"/>
+</svg>

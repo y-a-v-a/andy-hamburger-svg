@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+
+  <!-- Andy Warhol's head (simplified) -->
+  <circle cx="200" cy="120" r="40" fill="#f5d5b0" stroke="#333" stroke-width="2"/>
+  <circle cx="185" cy="115" r="5" fill="#000"/>
+  <circle cx="215" cy="115" r="5" fill="#000"/>
+  <path d="M 180 130 Q 200 140 220 130" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Sunglasses -->
+  <rect x="170" y="110" width="60" height="20" rx="10" fill="#000"/>
+  <circle cx="180" cy="110" r="8" fill="#000"/>
+  <circle cx="220" cy="110" r="8" fill="#000"/>
+
+  <!-- Hair (simplified) -->
+  <path d="M 160 80 Q 200 60 240 80 Q 220 100 200 90 Q 180 100 160 80" fill="#6a5acd"/>
+
+  <!-- Hamburger -->
+  <rect x="180" y="180" width="40" height="20" rx="5" fill="#d2691e"/>
+  <rect x="175" y="175" width="50" height="10" fill="#fff" stroke="#333" stroke-width="1"/>
+  <circle cx="185" cy="170" r="3" fill="#fff"/>
+  <circle cx="215" cy="170" r="3" fill="#fff"/>
+  <rect x="180" y="165" width="40" height="5" fill="#fff" stroke="#333" stroke-width="1"/>
+
+  <!-- Hand holding burger -->
+  <path d="M 220 160 Q 240 150 250 160 Q 260 170 250 180 Q 240 190 220 180 Q 210 170 220 160" fill="#f5d5b0" stroke="#333" stroke-width="2"/>
+
+  <!-- Text (optional) -->
+  <text x="200" y="250" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">Andy Warhol enjoying a hamburger</text>
+</svg>

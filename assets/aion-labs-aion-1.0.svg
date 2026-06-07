@@ -1,0 +1,53 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pop art background -->
+  <rect width="400" height="400" fill="#f0e6ff"/>
+  <rect x="0" y="0" width="400" height="100" fill="#ffccf9"/>
+  <rect x="0" y="100" width="400" height="100" fill="#ccfffc"/>
+  <rect x="0" y="200" width="400" height="100" fill="#fffccc"/>
+  <rect x="0" y="300" width="400" height="100" fill="#d9ffcc"/>
+
+  <!-- Andy's head -->
+  <circle cx="200" cy="150" r="80" fill="#fff2cc"/>
+  <!-- White wig hair -->
+  <ellipse cx="200" cy="70" rx="90" ry="40" fill="white"/>
+  <ellipse cx="200" cy="80" rx="85" ry="35" fill="white"/>
+  <!-- Sunglasses -->
+  <rect x="140" y="130" width="50" height="25" rx="5" fill="black"/>
+  <rect x="210" y="130" width="50" height="25" rx="5" fill="black"/>
+  <line x1="190" y1="142" x2="210" y2="142" stroke="black" stroke-width="3"/>
+  <!-- Nose -->
+  <polyline points="195,155 200,165 205,155" fill="none" stroke="black" stroke-width="2"/>
+  <!-- Mouth (open for burger) -->
+  <ellipse cx="200" cy="190" rx="30" ry="15" fill="none" stroke="black" stroke-width="2"/>
+  <ellipse cx="200" cy="190" rx="28" ry="13" fill="#ff6666"/>
+
+  <!-- Hamburger being eaten -->
+  <!-- Bottom bun in mouth -->
+  <ellipse cx="200" cy="195" rx="25" ry="10" fill="#e6b85c"/>
+  <!-- Patty -->
+  <ellipse cx="200" cy="185" rx="28" ry="8" fill="#8b4513"/>
+  <!-- Cheese -->
+  <polygon points="172,180 228,180 225,175 175,175" fill="#ffcc00"/>
+  <!-- Lettuce -->
+  <path d="M 172 175 Q 185 170, 200 172 Q 215 170, 228 175" fill="#90ee90" stroke="#70c070" stroke-width="1"/>
+  <!-- Top bun -->
+  <ellipse cx="200" cy="170" rx="30" ry="12" fill="#e6b85c"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="185" cy="165" rx="3" ry="1.5" fill="white"/>
+  <ellipse cx="200" cy="163" rx="3" ry="1.5" fill="white"/>
+  <ellipse cx="215" cy="165" rx="3" ry="1.5" fill="white"/>
+
+  <!-- Striped shirt collar -->
+  <rect x="170" y="220" width="60" height="10" fill="#333"/>
+  <rect x="170" y="230" width="60" height="10" fill="#ff3366"/>
+  <rect x="170" y="240" width="60" height="10" fill="#333"/>
+  <rect x="170" y="250" width="60" height="10" fill="#33ccff"/>
+
+  <!-- Hands holding burger -->
+  <ellipse cx="160" cy="170" rx="15" ry="8" fill="#fff2cc" transform="rotate(-20 160 170)"/>
+  <ellipse cx="240" cy="170" rx="15" ry="8" fill="#fff2cc" transform="rotate(20 240 170)"/>
+
+  <!-- Text: Warhol style -->
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="black" font-weight="bold">ANDY</text>
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="black" font-weight="bold">BURGER</text>
+</svg>

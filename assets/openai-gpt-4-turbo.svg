@@ -1,0 +1,22 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="200"
+    height="200"
+    viewBox="0 0 200 200">
+    <!-- Table -->
+    <rect x="10" y="150" width="180" height="20" fill="#8B4513"/>
+    <!-- Person (Andy Warhol) -->
+    <circle cx="100" cy="120" r="20" fill="#FFC0CB"/>
+    <!-- Body -->
+    <rect x="90" y="140" width="20" height="40" fill="#6495ED"/>
+    <!-- Hamburger on the table -->
+    <ellipse cx="140" cy="145" rx="15" ry="5" fill="#DAA520"/>
+    <!-- Arms -->
+    <rect x="80" y="140" width="10" height="30" fill="#6495ED" transform="rotate(30 90,140)" /> <!-- Left arm -->
+    <rect x="110" y="140" width="10" height="30" fill="#6495ED" transform="rotate(-30 110,140)" /> <!-- Right arm -->
+    <!-- Eyes -->
+    <circle cx="95" cy="115" r="3" fill="#000"/>
+    <circle cx="105" cy="115" r="3" fill="#000"/>
+    <!-- Hair - You can add style or color to make it look more like Andy Warhol -->
+    <rect x="80" y="100" width="40" height="10" fill="#000" />
+</svg>

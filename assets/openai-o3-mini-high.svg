@@ -1,0 +1,49 @@
+<svg width="400" height="400" viewBox="0 0 400 400"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFEB3B"/>
+  
+  <!-- Andy Warhol Face Group -->
+  <g id="warhol">
+    <!-- Face circle -->
+    <circle cx="200" cy="200" r="100" fill="#FFD1DC" stroke="#000" stroke-width="2"/>
+    
+    <!-- Hair (stylized as a bold black band across the top) -->
+    <rect x="140" y="80" width="120" height="40" fill="black"/>
+    
+    <!-- Glasses (two white rectangular lenses with black frames) -->
+    <rect x="160" y="180" width="30" height="20" fill="white" stroke="black" stroke-width="2"/>
+    <rect x="210" y="180" width="30" height="20" fill="white" stroke="black" stroke-width="2"/>
+    <line x1="190" y1="190" x2="210" y2="190" stroke="black" stroke-width="2"/>
+    
+    <!-- Mouth (a simple curved smile) -->
+    <path d="M170,230 Q200,250 230,230" stroke="black" stroke-width="2" fill="transparent"/>
+  </g>
+  
+  <!-- Hand and Hamburger Group -->
+  <g id="hand-hamburger">
+    <!-- Stylized hand (an ellipse suggesting a forearm/hand) -->
+    <ellipse cx="250" cy="235" rx="12" ry="8" fill="#FFD1DC" stroke="black" stroke-width="2"/>
+    
+    <!-- Hamburger Group, positioned near the mouth and held by the hand -->
+    <g id="hamburger" transform="translate(245,230)">
+      <!-- Bottom bun -->
+      <ellipse cx="0" cy="0" rx="15" ry="8" fill="#F4A460" stroke="black" stroke-width="1"/>
+      <!-- Patty -->
+      <rect x="-15" y="-8" width="30" height="8" fill="#8B4513" stroke="black" stroke-width="1"/>
+      <!-- Top bun -->
+      <ellipse cx="0" cy="-8" rx="15" ry="8" fill="#F4A460" stroke="black" stroke-width="1"/>
+      <!-- Lettuce detail (a wavy line over the patty) -->
+      <path d="M-15,-8 Q0,-12 15,-8" fill="#32CD32" stroke="black" stroke-width="0.5"/>
+      <!-- A “bite” mark on the top bun (a small circle in the same skin tone as Warhol’s face)
+           suggesting he’s taking a bite -->
+      <circle cx="5" cy="-8" r="3" fill="#FFD1DC"/>
+    </g>
+  </g>
+  
+  <!-- Caption Text -->
+  <text x="200" y="380" font-family="Arial" font-size="16"
+        fill="black" text-anchor="middle">
+    Andy Warhol Eating a Hamburger
+  </text>
+</svg>

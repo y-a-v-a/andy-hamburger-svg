@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Head -->
+  <circle cx="100" cy="60" r="40" fill="#f2c9b1" stroke="#e1b495" stroke-width="2" />
+  <!-- Eyes -->
+  <circle cx="85" cy="55" r="5" fill="#333" />
+  <circle cx="115" cy="55" r="5" fill="#333" />
+  <!-- Mouth eating a hamburger -->
+  <path d="M70 85 C85 105, 115 105, 130 85" fill="#f06148" />
+  <!-- Hamburger bun top -->
+  <ellipse cx="100" cy="110" rx="50" ry="15" fill="#d2a679" />
+  <!-- Hamburger lettuce -->
+  <ellipse cx="100" cy="120" rx="50" ry="10" fill="#74c166" />
+  <!-- Hamburger patty -->
+  <ellipse cx="100" cy="130" rx="50" ry="15" fill="#8e4b28" />
+  <!-- Hamburger bun bottom -->
+  <ellipse cx="100" cy="140" rx="50" ry="10" fill="#d2a679" />
+</svg>

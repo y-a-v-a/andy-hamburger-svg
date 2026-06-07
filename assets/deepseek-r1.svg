@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFD700"/>
+  
+  <!-- Andy Warhol -->
+  <g transform="translate(150, 100)">
+    <!-- Silver wig -->
+    <path d="M50,10 Q30,0 10,20 Q0,50 20,70 Q50,80 70,60 Q80,40 70,20 Q60,0 50,10Z" fill="#C0C0C0"/>
+    
+    <!-- Face -->
+    <circle cx="50" cy="50" r="40" fill="#F5E7D3"/>
+    
+    <!-- Sunglasses -->
+    <rect x="20" y="45" width="25" height="15" rx="5" fill="#222"/>
+    <rect x="55" y="45" width="25" height="15" rx="5" fill="#222"/>
+    <line x1="45" y1="52" x2="55" y2="52" stroke="#222" stroke-width="2"/>
+    
+    <!-- Nose -->
+    <line x1="50" y1="60" x2="50" y2="75" stroke="#D8B98C" stroke-width="3"/>
+    
+    <!-- Open mouth -->
+    <ellipse cx="50" cy="90" rx="15" ry="8" fill="#E75480"/>
+    
+    <!-- Black turtleneck -->
+    <rect x="30" y="100" width="40" height="60" fill="#000"/>
+  </g>
+  
+  <!-- Hamburger -->
+  <g transform="translate(220, 80)">
+    <!-- Bottom bun -->
+    <path d="M0,40 Q20,60 40,40 L40,30 Q20,10 0,30 Z" fill="#E8B878"/>
+    
+    <!-- Patty -->
+    <rect x="5" y="30" width="30" height="8" fill="#8B4513" rx="3"/>
+    
+    <!-- Cheese -->
+    <path d="M5,22 L15,18 L25,22 L35,18 L35,26 L5,26 Z" fill="#FFD700"/>
+    
+    <!-- Lettuce -->
+    <path d="M5,20 Q10,15 15,20 Q20,25 25,20 Q30,15 35,20 L35,24 Q30,28 25,24 Q20,30 15,24 Q10,28 5,24 Z" fill="#7CFC00"/>
+    
+    <!-- Tomato -->
+    <circle cx="20" cy="16" r="8" fill="#FF6347"/>
+    
+    <!-- Top bun -->
+    <path d="M0,10 Q20,-10 40,10 L40,20 Q20,40 0,20 Z" fill="#E8B878"/>
+    
+    <!-- Sesame seeds -->
+    <circle cx="10" cy="8" r="2" fill="#FFF"/>
+    <circle cx="30" cy="12" r="2" fill="#FFF"/>
+  </g>
+  
+  <!-- Warhol signature text -->
+  <text x="200" y="380" font-family="Helvetica" font-size="20" text-anchor="middle" fill="black">Warhol</text>
+</svg>

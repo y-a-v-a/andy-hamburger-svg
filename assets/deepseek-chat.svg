@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background in Warhol's pop-art colors -->
+  <rect width="400" height="400" fill="#FF00FF" />
+  
+  <!-- Andy Warhol's face (simplified) -->
+  <circle cx="200" cy="150" r="80" fill="#F5D742" />
+  <circle cx="170" cy="130" r="10" fill="#000" /> <!-- Left eye -->
+  <circle cx="230" cy="130" r="10" fill="#000" /> <!-- Right eye -->
+  <path d="M170 180 Q200 200 230 180" stroke="#000" stroke-width="3" fill="none" /> <!-- Mouth -->
+  
+  <!-- Signature white wig -->
+  <path d="M130 70 Q200 30 270 70 Q250 120 200 100 Q150 120 130 70" fill="#FFFFFF" stroke="#000" stroke-width="2" />
+  
+  <!-- Hamburger in hand -->
+  <rect x="150" y="200" width="100" height="30" rx="5" fill="#8B4513" /> <!-- Bun bottom -->
+  <rect x="150" y="190" width="100" height="10" rx="3" fill="#FF6347" /> <!-- Patty -->
+  <rect x="150" y="180" width="100" height="10" rx="5" fill="#F5D742" /> <!-- Bun top -->
+  <rect x="160" y="185" width="20" height="5" fill="#228B22" /> <!-- Lettuce -->
+  <rect x="190" y="185" width="20" height="5" fill="#FFD700" /> <!-- Cheese -->
+  
+  <!-- Warhol's hand holding the burger -->
+  <path d="M140 220 Q120 230 130 240 Q140 250 150 240" fill="#F5D742" stroke="#000" stroke-width="2" />
+  <path d="M260 220 Q280 230 270 240 Q260 250 250 240" fill="#F5D742" stroke="#000" stroke-width="2" />
+  
+  <!-- Warhol-style text -->
+  <text x="200" y="300" font-family="Arial" font-size="20" text-anchor="middle" fill="#000">ANDY WARHOL</text>
+  <text x="200" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#000">EATS A HAMBURGER</text>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f4e9" />
+
+  <!-- Optional halftone background (commented out for clarity — uncomment to enable) -->
+  <!--
+  <defs>
+    <pattern id="halftone" x="0" y="0" width="4" height="4" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#e0d6c8" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#halftone)" />
+  -->
+
+  <!-- Warhol's head -->
+  <circle cx="250" cy="140" r="80" fill="#f9d9b5" stroke="#d9b794" stroke-width="2" />
+
+  <!-- Silver wig (stylized geometric shape) -->
+  <path d="M170,110 
+           C150,80 140,60 170,50 
+           C200,40 230,45 250,40 
+           C270,45 300,40 330,50 
+           C360,60 350,80 330,110 
+           L320,120 L310,110 L300,120 L290,110 L280,120 L270,110 L260,120 L250,110 L240,120 L230,110 L220,120 L210,110 L200,120 L190,110 Z" 
+        fill="#e0e0e0" stroke="#b0b0b0" stroke-width="1.5" />
+
+  <!-- Glasses -->
+  <circle cx="225" cy="135" r="12" fill="none" stroke="#222" stroke-width="3" />
+  <circle cx="275" cy="135" r="12" fill="none" stroke="#222" stroke-width="3" />
+  <line x1="237" y1="135" x2="263" y2="135" stroke="#222" stroke-width="3" />
+
+  <!-- Eyes -->
+  <circle cx="225" cy="135" r="4" fill="#333" />
+  <circle cx="275" cy="135" r="4" fill="#333" />
+
+  <!-- Mouth (simple smile) -->
+  <path d="M240 165 Q250 175 260 165" fill="none" stroke="#c23a3a" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Neck & turtleneck -->
+  <rect x="230" y="210" width="40" height="30" fill="#1a1a1a" />
+  <path d="M225 210 Q250 225 275 210" fill="none" stroke="#1a1a1a" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Hamburger (held in front, slightly overlapping neck) -->
+  <!-- Bottom bun -->
+  <path d="M220 250 Q250 270 280 250 Q275 255 250 265 Q225 255 220 250 Z" fill="#e6c27e" stroke="#d4a85c" stroke-width="1.5" />
+  <!-- Sesame seeds -->
+  <circle cx="235" cy="252" r="2" fill="#333" />
+  <circle cx="248" cy="255" r="2" fill="#333" />
+  <circle cx="262" cy="253" r="2" fill="#333" />
+  <circle cx="272" cy="256" r="2" fill="#333" />
+
+  <!-- Lettuce -->
+  <path d="M225 245 Q235 240 245 245 Q240 238 250 240 Q260 238 265 245 Q260 240 250 242 Q240 240 225 245 Z" fill="#7cc97c" stroke="#5da35d" stroke-width="0.5" />
+
+  <!-- Tomato slice -->
+  <ellipse cx="250" cy="247" rx="15" ry="6" fill="#f76e6e" stroke="#d64e4e" stroke-width="0.5" />
+  <!-- Tomato seeds -->
+  <circle cx="245" cy="246" r="1.2" fill="#333" />
+  <circle cx="250" cy="246" r="1.2" fill="#333" />
+  <circle cx="255" cy="246" r="1.2" fill="#333" />
+
+  <!-- Cheese slice -->
+  <path d="M230 248 Q240 245 250 248 Q245 243 255 245 Q260 243 265 248 Q260 245 250 248 Q240 245 230 248 Z" fill="#ffd700" stroke="#e6c200" stroke-width="0.5" />
+
+  <!-- Top bun -->
+  <path d="M220 240 Q250 220 280 240 Q275 235 250 225 Q225 235 220 240 Z" fill="#e6c27e" stroke="#d4a85c" stroke-width="1.5" />
+
+  <!-- Condiment drip (ketchup) -->
+  <path d="M248 240 Q249 245 248 250" fill="none" stroke="#d32f2f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="248" cy="252" r="1.5" fill="#d32f2f" />
+
+  <!-- Warhol's hand (simplified) -->
+  <path d="M270 245 Q285 240 290 245 Q288 250 285 255 Q282 260 278 262 Q274 264 270 260 Q266 256 265 252 Q265 248 270 245 Z" fill="#f9d9b5" stroke="#d9b794" stroke-width="1" />
+
+  <!-- Signature (in Warhol style) -->
+  <text x="370" y="390" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c23a3a">© WARHOL 1982</text>
+
+  <!-- Subtle "POP" in corner -->
+  <text x="20" y="390" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e64e4e" opacity="0.7">POP</text>
+</svg>

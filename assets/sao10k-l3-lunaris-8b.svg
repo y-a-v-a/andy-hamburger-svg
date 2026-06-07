@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warhol's face -->
+  <rect x="115" y="110" width="120" height="100" rx="10" fill="#FFFFFF" />
+  <rect x="130" y="140" width="40" height="20" rx="5" fill="#D32D2E" />
+  <rect x="190" y="150" width="30" height="15" rx="3" fill="#D32D2E" />
+  <circle cx="170" cy="165" r="10" fill="#004348" />
+  <path d="M75.375 143.313L134 166.75L170 180.375L134 194.875L75.375 212.313L70 211.5L70 211L75.375 210.5L80 210L85 211L80 211.5L75.375 212.313Z" fill="#004348" />
+  
+  <!-- Burger -->
+  <rect x="220" y="240" width="50" height="30" rx="5" fill="#FF9644" />
+  <rect x="235" y="260" width="40" height="10" rx="2" fill="#F2C464" />
+  <circle cx="255" cy="265" r="5" fill="#F2C464" />
+  
+  <!-- Chewing motion -->
+  <path d="M225 265C221.93 267.1 219.29 269.07 217.19 270.57L243.58 295.98L235 300.42V305.83H231.49L248.33 305.83L249.5 304.9Z" fill="#003B3F" stroke="#FF9644" stroke-width="2" />
+</svg>

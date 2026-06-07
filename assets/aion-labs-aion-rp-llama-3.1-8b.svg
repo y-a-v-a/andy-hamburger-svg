@@ -1,0 +1,19 @@
+<svg width="225" height="300">
+  <image href="andy-warhol.png" width="225" height="300"/>
+  <g transform="translate(100,100)">
+    <circle cx="0" cy="0" r="40" fill="lightblue"/>
+    <text x="-10" y="10">Andy Warhol</text>
+    <text x="-10" y="30">would never</text>
+    <text x="-10" y="50">admit to eating</text>
+    <text x="-10" y="70">fast food</text>
+    <text x="-10" y="90">but maybe...</text>
+    <text x="-10" y="110">he secretly</text>
+    <text x="-10" y="130">enjoys a</text>
+    <text x="-10" y="150">delicious</text>
+    <text x="-10" y="170">hamburger</text>
+    <text x="-10" y="190">from time to</text>
+    <text x="-10" y="210">time</text>
+  </g>
+
+  <image href="hamburger.png" x="50" y="80" width="75" height="50"/>
+</svg>
