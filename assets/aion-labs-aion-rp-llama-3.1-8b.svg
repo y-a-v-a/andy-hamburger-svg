@@ -1,19 +1,10 @@
-<svg width="225" height="300">
-  <image href="andy-warhol.png" width="225" height="300"/>
-  <g transform="translate(100,100)">
-    <circle cx="0" cy="0" r="40" fill="lightblue"/>
-    <text x="-10" y="10">Andy Warhol</text>
-    <text x="-10" y="30">would never</text>
-    <text x="-10" y="50">admit to eating</text>
-    <text x="-10" y="70">fast food</text>
-    <text x="-10" y="90">but maybe...</text>
-    <text x="-10" y="110">he secretly</text>
-    <text x="-10" y="130">enjoys a</text>
-    <text x="-10" y="150">delicious</text>
-    <text x="-10" y="170">hamburger</text>
-    <text x="-10" y="190">from time to</text>
-    <text x="-10" y="210">time</text>
-  </g>
-
-  <image href="hamburger.png" x="50" y="80" width="75" height="50"/>
+<svg width="800" height="500">
+ <rect width="100%" height="100%" fill="blue" />
+ <image href="andy-warhol.jpg" width="30%" height="30%" x="20%" y="20%"/>
+ <circle cx="50%" cy="30%" r="30" fill="red"/>
+ <text x="15%" y="40%" fill="white" font-size="20">Andy Warhol</text>
+ <text x="45%" y="50%" fill="white" font-size="30">EATS</text>
+ <text x="60%" y="50%" fill="white" font-size="30">A</text>
+ <text x="65%" y="50%" fill="white" font-size="30">HAMBURGER</text>
+ <text x="70%" y="50%" fill="white" font-size="30">.</text>
 </svg>
