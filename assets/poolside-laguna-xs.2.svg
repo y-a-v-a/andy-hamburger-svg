@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#f0f0f0"/>
+  
+  <!-- Andy Warhol's head and face -->
+  <circle cx="250" cy="180" r="80" fill="#fdbcb4"/>
+  
+  <!-- Hair -->
+  <path d="M180,140 Q250,100 320,140 L300,160 Q250,150 200,160 Z" fill="#333333"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="220" cy="170" rx="15" ry="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <ellipse cx="220" cy="170" rx="8" ry="12" fill="#333333"/>
+  <ellipse cx="280" cy="170" rx="15" ry="20" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <ellipse cx="280" cy="170" rx="8" ry="12" fill="#333333"/>
+  
+  <!-- Eyebrows -->
+  <path d="M190,150 Q220,145 250,150" stroke="#333333" stroke-width="3" fill="none"/>
+  <path d="M250,150 Q280,145 310,150" stroke="#333333" stroke-width="3" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M230,195 Q250,205 270,195" stroke="#333333" stroke-width="2" fill="none"/>
+  
+  <!-- Mustache -->
+  <path d="M235,200 Q250,203 265,200" stroke="#333333" stroke-width="4" fill="none"/>
+  
+  <!-- Body - shirt -->
+  <path d="M180,260 L320,260 Q340,260 320,280 L200,280 Q180,280 180,260 Z" fill="#4169e1"/>
+  
+  <!-- Left arm -->
+  <path d="M180,260 Q140,280 160,320" stroke="#4169e1" stroke-width="20" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right arm - holding burger -->
+  <path d="M320,260 Q360,280 340,340" stroke="#4169e1" stroke-width="20" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hamburger -->
+  <!-- Bottom bun -->
+  <ellipse cx="330" cy="350" rx="60" ry="25" fill="#d2691e"/>
+  
+  <!-- Lettuce -->
+  <ellipse cx="330" cy="340" rx="50" ry="15" fill="#228b22"/>
+  
+  <!-- Cheese slice -->
+  <path d="M280,340 Q330,335 380,340 L380,350 Q330,355 280,350 Z" fill="#ffd700"/>
+  
+  <!-- Beef patty -->
+  <ellipse cx="330" cy="330" rx="45" ry="15" fill="#8b4513"/>
+  
+  <!-- Top bun -->
+  <ellipse cx="330" cy="320" rx="60" ry="25" fill="#d2691e"/>
+  
+  <!-- Bite mark -->
+  <path d="M360,335 Q370,330 365,325" stroke="#fdbcb4" stroke-width="3" fill="none"/>
+  
+  <!-- Pop Art Background Elements -->
+  <circle cx="80" cy="100" r="20" fill="#ff0000"/>
+  <circle cx="420" cy="80" r="25" fill="#00ff00"/>
+  <circle cx="100" cy="500" r="18" fill="#0000ff"/>
+  <circle cx="400" cy="520" r="22" fill="#ffff00"/>
+  
+  <!-- Speech bubble -->
+  <path d="M250,100 L250,60 Q250,40 270,40 L290,35 L290,40 Q310,40 310,60 L310,100 Z" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+  <text x="260" y="75" font-family="Arial" font-size="12" fill="#333333">Yum!</text>
+  
+  <!-- Title -->
+  <text x="250" y="560" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#333333">Andy Warhol Eating a Hamburger</text>
+  <text x="250" y="585" font-family="Arial" font-size="12" text-anchor="middle" fill="#666666">Pop Art SVG Illustration</text>
+</svg>

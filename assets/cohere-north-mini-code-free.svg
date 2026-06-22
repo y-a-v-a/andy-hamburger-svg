@@ -1,0 +1,50 @@
+<svg width="400" height="500" viewBox="0 0 400 500"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background – a vibrant pop‑art grid -->
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="500" fill="url(#grid)"/>
+
+  <!-- Warhol's head (stylized, with his signature blonde hair and round sunglasses) -->
+  <circle cx="200" cy="150" r="70" fill="#fff200"/> <!-- hair highlight -->
+  <!-- Hair – a simple blob; you can replace with a more elaborate path if desired -->
+  <path d="M130,120 Q160,90 200,100 Q240,90 270,120"
+        fill="#ff0000"/>
+  <!-- Sunglasses -->
+  <rect x="150" y="130" width="100" height="30" rx="15" fill="#222"/>
+  <!-- Eyes -->
+  <circle cx="170" cy="135" r="5" fill="#fff"/>
+  <circle cx="230" cy="135" r="5" fill="#fff"/>
+  <!-- Pupils -->
+  <circle cx="170" cy="135" r="2.5" fill="#000"/>
+  <circle cx="230" cy="135" r="2.5" fill="#000"/>
+
+  <!-- Body (simple jersey‑style shirt) -->
+  <rect x="150" y="180" width="100" height="120" rx="10" fill="#00ff00"/>
+
+  <!-- Arms holding the hamburger -->
+  <rect x="130" y="240" width="20" height="80" rx="10" fill="#fff200"/>
+  <rect x="250" y="240" width="20" height="80" rx="10" fill="#fff200"/>
+
+  <!-- Hamburger -->
+  <!-- Bun top -->
+  <rect x="170" y="300" width="60" height="8" rx="4" fill="#deb887"/>
+  <!-- Patty -->
+  <rect x="180" y="310" width="40" height="10" fill="#8b0000"/>
+  <!-- Cheese slice -->
+  <rect x="180" y="322" width="40" height="6" fill="#ffdf00"/>
+  <!-- Lettuce (two layers) -->
+  <rect x="180" y="330" width="40" height="4" fill="#a8d08d"/>
+  <rect x="180" y="336" width="40" height="4" fill="#a8d08d"/>
+  <!-- Bun bottom -->
+  <rect x="170" y="350" width="60" height="8" rx="4" fill="#deb887"/>
+
+  <!-- Warhol’s smiling mouth -->
+  <path d="M200,190 Q200,200 200,210" stroke="#000" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Simple shadow/footprint to imply he's standing -->
+  <ellipse cx="200" cy="470" rx="60" ry="10" fill="#ddd"/>
+</svg>

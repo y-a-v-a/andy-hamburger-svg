@@ -1,0 +1,30 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f5f5f5" />
+
+  <!-- Warhol's Wig -->
+  <path d="M150 100 Q160 80 170 100 Q180 80 190 100 Q200 80 210 100 Q220 80 230 100 Q240 80 250 100 Q260 80 270 100 Q280 80 290 100 Q300 80 310 100 Q320 80 330 100 Q340 80 350 100 Q350 120 340 140 Q330 160 320 140 Q310 160 300 140 Q290 160 280 140 Q270 160 260 140 Q250 160 240 140 Q230 160 220 140 Q210 160 200 140 Q190 160 180 140 Q170 160 160 140 Q150 160 150 120 Z" fill="#c0c0c0" stroke="#000" stroke-width="1"/>
+
+  <!-- Warhol's Face -->
+  <circle cx="250" cy="180" r="50" fill="#ffe4c4" stroke="#000" stroke-width="2"/>
+  <path d="M230 170 Q250 190 270 170" fill="none" stroke="#000" stroke-width="2"/> <!-- Mouth -->
+
+  <!-- Eyes -->
+  <circle cx="235" cy="160" r="8" fill="#fff" stroke="#000"/>
+  <circle cx="265" cy="160" r="8" fill="#fff" stroke="#000"/>
+  <circle cx="235" cy="160" r="4" fill="#000"/>
+  <circle cx="265" cy="160" r="4" fill="#000"/>
+
+  <!-- Hands -->
+  <path d="M200 200 Q180 220 160 200" fill="#ffe4c4" stroke="#000" stroke-width="2"/>
+  <path d="M300 200 Q320 220 340 200" fill="#ffe4c4" stroke="#000" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <rect x="180" y="220" width="140" height="60" rx="15" ry="15" fill="#ff6b6b" stroke="#000" stroke-width="2"/>
+  <rect x="190" y="230" width="120" height="15" fill="#ffd93d" stroke="#000" stroke-width="1"/> <!-- Cheese -->
+  <rect x="190" y="245" width="120" height="10" fill="#6b8e23" stroke="#000" stroke-width="1"/> <!-- Lettuce -->
+  <rect x="190" y="255" width="120" height="5" fill="#8b4513" stroke="#000" stroke-width="1"/> <!-- Patty -->
+
+  <!-- Text -->
+  <text x="250" y="50" font-family="Arial" font-size="24" fill="#ff0000" text-anchor="middle">HAMBURGER</text>
+</svg>

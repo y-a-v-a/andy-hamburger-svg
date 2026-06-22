@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A stylized pop-art portrait of Andy Warhol biting into a hamburger.</desc>
+
+  <defs>
+    <pattern id="halftone" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="7" cy="7" r="4" fill="#ffffff" opacity="0.35"/>
+    </pattern>
+
+    <linearGradient id="skinGrad" x1="0" y1="230" x2="0" y2="475" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd6b8"/>
+      <stop offset="1" stop-color="#e9a580"/>
+    </linearGradient>
+
+    <linearGradient id="topBun" x1="0" y1="330" x2="0" y2="405" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe08a"/>
+      <stop offset="1" stop-color="#c97922"/>
+    </linearGradient>
+
+    <linearGradient id="bottomBun" x1="0" y1="455" x2="0" y2="510" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd27a"/>
+      <stop offset="1" stop-color="#b86b24"/>
+    </linearGradient>
+
+    <mask id="burgerBite" maskUnits="userSpaceOnUse" x="300" y="310" width="360" height="230">
+      <rect x="300" y="310" width="360" height="230" fill="white"/>
+      <circle cx="390" cy="395" r="43" fill="black"/>
+    </mask>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- Pop-art background -->
+  <rect width="800" height="800" fill="#ff2e63"/>
+  <rect x="0" y="0" width="400" height="400" fill="#ffe66d"/>
+  <rect x="400" y="0" width="400" height="400" fill="#00e5ff"/>
+  <rect x="0" y="400" width="400" height="400" fill="#ff2e63"/>
+  <rect x="400" y="400" width="400" height="400" fill="#39ff14"/>
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#111111" stroke-width="7"/>
+  <line x1="400" y1="0" x2="400" y2="800" stroke="#111111" stroke-width="7"/>
+  <rect width="800" height="800" fill="url(#halftone)" opacity="0.45"/>
+
+  <!-- Speech bubble -->
+  <g stroke="#111111" stroke-width="5" stroke-linejoin="round">
+    <path d="M535 92 H690 C710 92 720 105 720 125 V178 C720 198 710 210 690 210 H535 C515 210 505 198 505 178 V125 C505 105 515 92 535 92 Z" fill="#ffffff"/>
+    <path d="M548 210 L515 255 L585 220 Z" fill="#ffffff"/>
+    <text x="612" y="158" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="50" fill="#ff2e63">POP!</text>
+  </g>
+
+  <!-- Andy Warhol figure -->
+  <g id="andy" filter="url(#shadow)">
+    <!-- Body / turtleneck -->
+    <path d="M270 760 C278 650 325 585 400 585 C475 585 522 650 530 760 Z" fill="#111111"/>
+    <path d="M330 585 C350 625 378 650 400 650 C422 650 450 625 470 585 C455 610 430 630 400 630 C370 630 345 610 330 585 Z" fill="#111111"/>
+
+    <!-- Neck -->
+    <path d="M350 450 L450 450 L442 575 C420 600 380 600 358 575 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+
+    <!-- Ears -->
+    <path d="M285 308 C265 315 260 355 280 366 C299 376 306 342 296 315 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5"/>
+    <path d="M515 308 C535 315 540 355 520 366 C501 376 494 342 504 315 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5"/>
+
+    <!-- Silver wig -->
+    <g stroke="#111111" stroke-width="5" stroke-linejoin="round">
+      <path d="M296 285 C270 250 280 205 315 178 C350 150 405 145 450 160 C500 178 530 215 525 262 C555 245 565 220 560 195 C590 225 585 275 545 310 C525 326 505 315 500 295 C480 325 420 330 375 315 C345 305 320 310 305 330 C292 315 290 300 296 285 Z" fill="#dfe6ef"/>
+      <path d="M315 220 C340 190 390 180 430 200 C465 218 485 245 480 275 C440 250 365 250 315 220 Z" fill="#f7fbff" opacity="0.95"/>
+      <path d="M315 288 C355 308 430 308 480 286" fill="none" stroke="#aab6c5" stroke-width="6" opacity="0.65"/>
+    </g>
+
+    <!-- Face -->
+    <ellipse cx="400" cy="318" rx="92" ry="115" fill="url(#skinGrad)" stroke="#111111" stroke-width="5"/>
+    <path d="M315 330 C330 300 350 285 380 280" fill="none" stroke="#d99570" stroke-width="5" opacity="0.45"/>
+    <path d="M485 330 C470 300 450 285 420 280" fill="none" stroke="#d99570" stroke-width="5" opacity="0.35"/>
+
+    <!-- Eyes, nose, subtle mouth guide -->
+    <ellipse cx="360" cy="316" rx="7" ry="5" fill="#111111"/>
+    <ellipse cx="440" cy="316" rx="7" ry="5" fill="#111111"/>
+    <path d="M400 318 C397 338 390 352 378 362" fill="none" stroke="#b96f4b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M382 365 C390 371 408 371 416 365" fill="none" stroke="#b96f4b" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Glasses -->
+    <g fill="none" stroke="#111111" stroke-width="6" stroke-linejoin="round">
+      <rect x="320" y="286" width="74" height="46" rx="8"/>
+      <rect x="406" y="286" width="74" height="46" rx="8"/>
+      <line x1="394" y1="309" x2="406" y2="309"/>
+      <line x1="320" y1="309" x2="296" y2="298"/>
+      <line x1="480" y1="309" x2="504" y2="298"/>
+    </g>
+
+    <!-- Sleeve and hand -->
+    <path d="M610 760 C665 690 705 650 735 635 C758 665 766 720 750 760 Z" fill="#111111"/>
+    <path d="M575 520 C625 490 690 510 710 555 C735 610 690 675 625 675 C585 675 558 645 560 605 C562 565 565 535 575 520 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M528 405 C565 388 605 400 616 426 C598 448 558 451 528 428 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M535 442 C575 426 612 438 622 461 C600 480 560 481 535 462 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M548 477 C585 465 622 478 630 498 C608 512 570 512 548 497 Z" fill="url(#skinGrad)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+
+    <!-- Hamburger -->
+    <g id="burger" mask="url(#burgerBite)">
+      <path d="M350 390 C355 350 405 330 475 330 C540 330 590 350 600 392 C565 415 395 415 350 390 Z" fill="url(#topBun)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M328 405 C375 420 470 420 530 402 L542 426 C485 445 370 445 315 421 Z" fill="#39d982" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M322 420 C375 438 475 438 542 414 L548 440 C485 460 360 460 310 434 Z" fill="#e94242" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M326 436 C382 452 478 452 545 430 L555 462 C486 482 358 482 306 456 Z" fill="#6f3b1f" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M320 456 C375 480 485 480 555 456 C548 492 500 510 438 510 C376 510 328 492 320 456 Z" fill="url(#bottomBun)" stroke="#111111" stroke-width="5" stroke-linejoin="round"/>
+
+      <!-- Sesame seeds -->
+      <ellipse cx="405" cy="355" rx="4" ry="8" fill="#fff3b0" transform="rotate(-20 405 355)"/>
+      <ellipse cx="455" cy="348" rx="4" ry="8" fill="#fff3b0" transform="rotate(18 455 348)"/>
+      <ellipse cx="510" cy="365" rx="4" ry="8" fill="#fff3b0" transform="rotate(35 510 365)"/>
+      <ellipse cx="475" cy="385" rx="4" ry="8" fill="#fff3b0" transform="rotate(-12 475 385)"/>
+      <ellipse cx="390" cy="380" rx="4" ry="8" fill="#fff3b0" transform="rotate(20 390 380)"/>
+    </g>
+
+    <!-- Bite / open mouth -->
+    <ellipse cx="390" cy="395" rx="40" ry="33" fill="#a61230" stroke="#111111" stroke-width="5"/>
+    <path d="M322 383 C338 374 365 374 381 383" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M333 404 C350 413 372 410 386 397" fill="none" stroke="#ff7f99" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

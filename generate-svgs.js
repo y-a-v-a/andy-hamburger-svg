@@ -51,6 +51,7 @@ const SKIP = new Set([
   "anthracite-org/magnum-v4-72b",
   "anthropic/claude-3-haiku",
   "anthropic/claude-3.5-haiku",
+  "anthropic/claude-fable-5",
   "arcee-ai/coder-large",
   "arcee-ai/maestro-reasoning",
   "arcee-ai/spotlight",
@@ -83,7 +84,9 @@ const SKIP = new Set([
   "mistralai/mistral-small-3.1-24b-instruct",
   "moonshotai/kimi-k2.6",
   "moonshotai/kimi-k2.6:free",
+  "moonshotai/kimi-k2.7-code",
   "morph/morph-v3-fast",
+  "nex-agi/nex-n2-pro:free",
   "nousresearch/hermes-3-llama-3.1-405b:free",
   "nousresearch/hermes-3-llama-3.1-70b",
   "nvidia/nemotron-3-ultra-550b-a55b",
@@ -114,7 +117,9 @@ const SKIP = new Set([
   "thedrummer/unslopnemo-12b",
   "undi95/remm-slerp-l2-13b",
   "z-ai/glm-5.1",
+  "z-ai/glm-5.2",
   "z-ai/glm-5v-turbo",
+  "~anthropic/claude-fable-latest",
   ...(process.env.SKIP ?? "").split(",").map((s) => s.trim()).filter(Boolean),
 ]);
 
