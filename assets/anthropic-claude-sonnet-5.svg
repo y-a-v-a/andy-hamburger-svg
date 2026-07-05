@@ -1,0 +1,60 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFD700"/>
+  
+  <!-- Warhol's hair -->
+  <ellipse cx="200" cy="120" rx="90" ry="70" fill="#E8E8E8"/>
+  <ellipse cx="200" cy="110" rx="95" ry="60" fill="#F5F5F5"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="160" rx="65" ry="80" fill="#FFDBAC"/>
+  
+  <!-- Sunglasses -->
+  <ellipse cx="175" cy="150" rx="22" ry="16" fill="#000000"/>
+  <ellipse cx="225" cy="150" rx="22" ry="16" fill="#000000"/>
+  <rect x="195" y="148" width="10" height="4" fill="#000000"/>
+  
+  <!-- Nose -->
+  <path d="M 200 155 L 195 190 L 210 190 Z" fill="#F0C8A0" opacity="0.5"/>
+  
+  <!-- Mouth (open, eating) -->
+  <ellipse cx="200" cy="210" rx="20" ry="15" fill="#8B4545"/>
+  
+  <!-- Collar/Turtleneck -->
+  <path d="M 130 240 Q 200 220 270 240 L 270 300 L 130 300 Z" fill="#2C2C2C"/>
+  
+  <!-- Hamburger -->
+  <g transform="translate(150, 195)">
+    <!-- Bottom bun -->
+    <ellipse cx="40" cy="35" rx="45" ry="15" fill="#DEB887"/>
+    <!-- Lettuce -->
+    <path d="M 0 25 Q 20 15 40 25 Q 60 15 80 25 L 80 30 L 0 30 Z" fill="#90C695"/>
+    <!-- Patty -->
+    <ellipse cx="40" cy="20" rx="42" ry="10" fill="#6B4226"/>
+    <!-- Cheese -->
+    <path d="M 5 15 L 75 15 L 70 22 L 10 22 Z" fill="#FFD700"/>
+    <!-- Tomato -->
+    <ellipse cx="40" cy="12" rx="35" ry="6" fill="#E74C3C"/>
+    <!-- Top bun -->
+    <ellipse cx="40" cy="5" rx="45" ry="18" fill="#DEB887"/>
+    <ellipse cx="40" cy="0" rx="40" ry="14" fill="#F0C888"/>
+    <!-- Sesame seeds -->
+    <circle cx="20" cy="-3" r="2" fill="#FFF8DC"/>
+    <circle cx="35" cy="-6" r="2" fill="#FFF8DC"/>
+    <circle cx="50" cy="-3" r="2" fill="#FFF8DC"/>
+    <circle cx="60" cy="-5" r="2" fill="#FFF8DC"/>
+  </g>
+  
+  <!-- Warhol's hand holding burger -->
+  <ellipse cx="140" cy="230" rx="18" ry="25" fill="#FFDBAC" transform="rotate(-20 140 230)"/>
+  <ellipse cx="255" cy="225" rx="16" ry="22" fill="#FFDBAC" transform="rotate(15 255 225)"/>
+  
+  <!-- Pop art style dots background accent -->
+  <circle cx="50" cy="50" r="8" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="350" cy="60" r="8" fill="#4ECDC4" opacity="0.6"/>
+  <circle cx="340" cy="340" r="8" fill="#FF6B6B" opacity="0.6"/>
+  <circle cx="60" cy="350" r="8" fill="#4ECDC4" opacity="0.6"/>
+  
+  <!-- Text label -->
+  <text x="200" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#000000">ANDY EATS</text>
+</svg>

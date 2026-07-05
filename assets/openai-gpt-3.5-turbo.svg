@@ -1,0 +1,8 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="300" height="300" fill="#f2dd8c" />
+  <circle cx="200" cy="200" r="100" fill="#f15f3f" />
+  <rect x="150" y="180" width="100" height="40" fill="#000" />
+  <circle cx="200" cy="160" r="5" fill="#fff" />
+  <text x="120" y="260" font-family="Arial" font-size="20" fill="#000">Andy Warhol</text>
+  <text x="150" y="290" font-family="Arial" font-size="16" fill="#000">eating a hamburger</text>
+</svg>
