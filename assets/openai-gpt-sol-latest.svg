@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="800" viewBox="0 0 800 800"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol Eating a Hamburger</title>
+  <desc id="desc">
+    A stylized pop-art portrait of Andy Warhol taking a bite from a hamburger.
+  </desc>
+
+  <defs>
+    <pattern id="halftone" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3.2" fill="#14213d" opacity=".22"/>
+    </pattern>
+
+    <linearGradient id="bunTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#e98b2a"/>
+    </linearGradient>
+
+    <linearGradient id="faceTone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe5d9"/>
+      <stop offset="1" stop-color="#ff9eb5"/>
+    </linearGradient>
+
+    <filter id="roughShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feOffset dx="10" dy="12"/>
+      <feGaussianBlur stdDeviation="0.8"/>
+      <feFlood flood-color="#14213d"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Pop-art background -->
+  <rect width="800" height="800" fill="#ff2e88"/>
+  <rect x="0" y="0" width="400" height="400" fill="#20c7d9"/>
+  <rect x="400" y="400" width="400" height="400" fill="#ffd500"/>
+  <path d="M0 610 L800 190 L800 330 L0 750 Z" fill="#7a39ff" opacity=".72"/>
+  <rect width="800" height="800" fill="url(#halftone)"/>
+
+  <!-- Graphic frame -->
+  <rect x="28" y="28" width="744" height="744"
+        fill="none" stroke="#14213d" stroke-width="16"/>
+
+  <!-- Shoulders and black turtleneck -->
+  <path d="M170 795
+           C185 635 255 575 340 555
+           L465 555
+           C565 580 635 650 658 795 Z"
+        fill="#11131a" stroke="#14213d" stroke-width="10"/>
+
+  <path d="M325 548
+           C330 620 350 672 400 688
+           C450 672 470 620 475 548 Z"
+        fill="#090a0d" stroke="#ff2e88" stroke-width="7"/>
+
+  <!-- Neck -->
+  <path d="M335 470 L465 470 L474 590
+           C440 622 364 622 326 590 Z"
+        fill="url(#faceTone)" stroke="#14213d" stroke-width="9"/>
+
+  <!-- Ears -->
+  <ellipse cx="258" cy="350" rx="42" ry="69"
+           fill="#ffb3c7" stroke="#14213d" stroke-width="9"/>
+  <ellipse cx="535" cy="350" rx="42" ry="69"
+           fill="#ffb3c7" stroke="#14213d" stroke-width="9"/>
+  <path d="M254 332 Q282 343 258 386"
+        fill="none" stroke="#d84a78" stroke-width="8"/>
+  <path d="M539 332 Q512 343 535 386"
+        fill="none" stroke="#d84a78" stroke-width="8"/>
+
+  <!-- Face -->
+  <path d="M275 225
+           C308 174 479 169 520 238
+           C548 285 535 428 479 493
+           C448 529 361 530 323 493
+           C270 440 245 285 275 225 Z"
+        fill="url(#faceTone)"
+        stroke="#14213d" stroke-width="11"
+        filter="url(#roughShadow)"/>
+
+  <!-- Pop-art face shadow -->
+  <path d="M405 199
+           C482 203 525 242 526 319
+           C527 410 486 487 423 510
+           C455 451 453 386 437 344
+           C421 299 394 253 405 199 Z"
+        fill="#35d0ba" opacity=".58"/>
+
+  <!-- Iconic platinum hair -->
+  <path d="M260 270
+           C233 220 262 182 302 172
+           C294 140 331 121 357 142
+           C370 104 410 105 427 139
+           C451 111 486 129 484 161
+           C525 155 551 191 531 223
+           C561 243 546 280 519 292
+           L506 241
+           L479 267 L461 213
+           L425 250 L397 193
+           L367 248 L333 204
+           L316 264 L285 233 Z"
+        fill="#f4f4ed" stroke="#14213d" stroke-width="11"
+        stroke-linejoin="round"/>
+
+  <path d="M281 211 L323 175 M327 205 L362 151
+           M373 203 L405 145 M416 204 L452 157
+           M461 211 L492 180"
+        fill="none" stroke="#a8b2c1" stroke-width="8"/>
+
+  <!-- Eyebrows -->
+  <path d="M301 304 Q345 278 378 305"
+        fill="none" stroke="#14213d" stroke-width="11"/>
+  <path d="M422 304 Q465 278 500 308"
+        fill="none" stroke="#14213d" stroke-width="11"/>
+
+  <!-- Eyes -->
+  <path d="M303 326 Q341 304 378 328 Q341 351 303 326 Z"
+        fill="#fff" stroke="#14213d" stroke-width="7"/>
+  <circle cx="344" cy="328" r="12" fill="#4cc9f0" stroke="#14213d" stroke-width="5"/>
+  <circle cx="344" cy="328" r="5" fill="#14213d"/>
+
+  <path d="M421 328 Q461 304 498 330 Q459 352 421 328 Z"
+        fill="#fff" stroke="#14213d" stroke-width="7"/>
+  <circle cx="459" cy="329" r="12" fill="#4cc9f0" stroke="#14213d" stroke-width="5"/>
+  <circle cx="459" cy="329" r="5" fill="#14213d"/>
+
+  <!-- Nose -->
+  <path d="M402 329
+           C389 366 384 392 397 407
+           Q416 416 432 401"
+        fill="none" stroke="#14213d" stroke-width="8"
+        stroke-linecap="round"/>
+
+  <!-- Open mouth taking a bite -->
+  <path d="M350 442
+           Q400 409 458 438
+           Q429 493 382 490
+           Q354 478 350 442 Z"
+        fill="#14213d" stroke="#14213d" stroke-width="8"/>
+
+  <path d="M365 442 Q402 425 445 440
+           Q404 454 365 442 Z"
+        fill="#fff4ea"/>
+
+  <path d="M380 479 Q410 457 438 477
+           Q410 494 380 479 Z"
+        fill="#ff3b6b"/>
+
+  <!-- Hand holding hamburger -->
+  <path d="M555 612
+           C579 595 602 607 599 630
+           C620 611 646 624 638 648
+           C660 634 681 651 667 674
+           C688 672 698 695 678 711
+           C646 737 579 733 536 701
+           C510 681 512 635 555 612 Z"
+        fill="#ffb3c7" stroke="#14213d" stroke-width="10"/>
+
+  <path d="M535 688
+           Q488 652 469 596
+           Q465 576 483 569
+           Q504 566 514 590
+           L548 650 Z"
+        fill="#ffb3c7" stroke="#14213d" stroke-width="10"/>
+
+  <!-- Hamburger angled toward mouth -->
+  <g transform="translate(438 445) rotate(-18)" filter="url(#roughShadow)">
+    <!-- Top bun with bite removed using background-colored circles -->
+    <path d="M0 82
+             C8 24 56 0 119 0
+             C182 0 227 29 236 82
+             Z"
+          fill="url(#bunTop)" stroke="#14213d" stroke-width="9"/>
+
+    <!-- Sesame seeds -->
+    <g fill="#fff2b2" stroke="#c67c22" stroke-width="2">
+      <ellipse cx="48" cy="45" rx="7" ry="3" transform="rotate(-25 48 45)"/>
+      <ellipse cx="79" cy="25" rx="7" ry="3" transform="rotate(18 79 25)"/>
+      <ellipse cx="115" cy="43" rx="7" ry="3" transform="rotate(-12 115 43)"/>
+      <ellipse cx="152" cy="24" rx="7" ry="3" transform="rotate(24 152 24)"/>
+      <ellipse cx="185" cy="48" rx="7" ry="3" transform="rotate(-20 185 48)"/>
+    </g>
+
+    <!-- Lettuce -->
+    <path d="M3 83
+             Q20 68 39 84 Q58 101 78 82
+             Q99 65 119 84 Q139 102 159 82
+             Q179 66 198 84 Q217 99 235 82
+             L229 105 L7 106 Z"
+          fill="#70e000" stroke="#14213d" stroke-width="8"/>
+
+    <!-- Cheese -->
+    <path d="M13 103 L224 103 L214 136
+             L167 129 L143 151 L116 130
+             L69 143 L18 130 Z"
+          fill="#ffd500" stroke="#14213d" stroke-width="8"/>
+
+    <!-- Patty -->
+    <path d="M12 127
+             Q119 105 225 127
+             L218 164
+             Q120 181 17 163 Z"
+          fill="#6f2b1e" stroke="#14213d" stroke-width="9"/>
+
+    <!-- Tomato -->
+    <path d="M22 164 Q118 147 215 164 L211 184
+             Q116 198 25 183 Z"
+          fill="#ff334f" stroke="#14213d" stroke-width="7"/>
+
+    <!-- Bottom bun -->
+    <path d="M24 184
+             Q119 172 211 184
+             L202 218
+             Q120 240 34 216 Z"
+          fill="#e98b2a" stroke="#14213d" stroke-width="9"/>
+
+    <!-- Bite marks -->
+    <circle cx="8" cy="64" r="22" fill="#ff9eb5"/>
+    <circle cx="2" cy="91" r="18" fill="#ff9eb5"/>
+    <circle cx="11" cy="116" r="18" fill="#ff9eb5"/>
+  </g>
+
+  <!-- Crumbs -->
+  <g fill="#ffd166" stroke="#14213d" stroke-width="4">
+    <circle cx="467" cy="427" r="7"/>
+    <circle cx="494" cy="408" r="5"/>
+    <circle cx="520" cy="430" r="6"/>
+  </g>
+
+  <!-- Caption -->
+  <g transform="rotate(-4 400 730)">
+    <rect x="210" y="700" width="380" height="66"
+          fill="#f8f5e4" stroke="#14213d" stroke-width="8"/>
+    <text x="400" y="746"
+          text-anchor="middle"
+          font-family="Arial Black, Impact, sans-serif"
+          font-size="38"
+          letter-spacing="4"
+          fill="#ff2e88"
+          stroke="#14213d"
+          stroke-width="1.5">
+      POP ART, POP BITE!
+    </text>
+  </g>
+</svg>
