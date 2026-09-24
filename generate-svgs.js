@@ -10,9 +10,45 @@
 //   FORCE               if "1", regenerate even when the output already exists
 //   ONLY                comma-separated substrings; only models whose id matches
 //                       at least one are queried (e.g. ONLY=claude,gpt,llama)
+//
+// Args:
+//   --add-skip <id>     add a model id to skip.json and exit (repeatable)
 
 const fs = require("node:fs");
 const path = require("node:path");
+
+const ROOT = __dirname;
+const ASSETS = path.join(ROOT, "assets");
+const SKIP_FILE = path.join(ROOT, "skip.json");
+
+// `--add-skip <id>` (repeatable, or --add-skip=<id>) appends model ids to
+// skip.json, keeping it sorted and deduplicated, then exits.
+const argv = process.argv.slice(2);
+const addSkip = [];
+for (let i = 0; i < argv.length; i++) {
+  if (argv[i] === "--add-skip") {
+    if (!argv[i + 1] || argv[i + 1].startsWith("--")) {
+      console.error("--add-skip requires a model id");
+      process.exit(1);
+    }
+    addSkip.push(argv[++i]);
+  } else if (argv[i].startsWith("--add-skip=")) {
+    addSkip.push(argv[i].slice("--add-skip=".length));
+  }
+}
+if (addSkip.length) {
+  const list = JSON.parse(fs.readFileSync(SKIP_FILE, "utf8"));
+  for (const id of addSkip.map((s) => s.trim()).filter(Boolean)) {
+    if (list.includes(id)) console.log(`already skipped: ${id}`);
+    else {
+      list.push(id);
+      console.log(`added to skip list: ${id}`);
+    }
+  }
+  list.sort();
+  fs.writeFileSync(SKIP_FILE, JSON.stringify(list, null, 2) + "\n");
+  process.exit(0);
+}
 
 const API_KEY = process.env.OPENROUTER_API_KEY;
 if (!API_KEY) {
@@ -33,9 +69,6 @@ const PROMPT =
   process.env.PROMPT ??
   "Can you write an svg file depicting Andy Warhol eating a hamburger?";
 
-const ROOT = __dirname;
-const ASSETS = path.join(ROOT, "assets");
-
 // Manual overrides — keys are OpenRouter model ids, values are the existing
 // filename to treat as "already done". Add entries when fuzzy matching misses.
 const ALIASES = {
@@ -47,7 +80,7 @@ const ALIASES = {
 // Models that consistently fail to produce a usable SVG. Add ids to skip.json
 // to permanently skip them. The SKIP env var (comma-separated) appends extras.
 const SKIP = new Set([
-  ...JSON.parse(fs.readFileSync(path.join(ROOT, "skip.json"), "utf8")),
+  ...JSON.parse(fs.readFileSync(SKIP_FILE, "utf8")),
   ...(process.env.SKIP ?? "").split(",").map((s) => s.trim()).filter(Boolean),
 ]);
 
