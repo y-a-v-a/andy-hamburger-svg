@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.3" fill="#20204a" opacity=".48"/>
+    </pattern>
+    <pattern id="smallDots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.4" fill="#f23c78" opacity=".48"/>
+    </pattern>
+    <clipPath id="poster">
+      <rect x="18" y="18" width="764" height="764" rx="8"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#poster)">
+    <!-- Pop-art backdrop -->
+    <rect width="800" height="800" fill="#f8db36"/>
+    <circle cx="386" cy="359" r="278" fill="#f3447d"/>
+    <path d="M0 0H800V800H0Z" fill="url(#dots)" opacity=".55"/>
+    <g stroke="#20204a" stroke-width="5" opacity=".42">
+      <path d="M0 185L800 590"/>
+      <path d="M30 0L610 800"/>
+      <path d="M380 0L800 500"/>
+      <path d="M0 545L800 255"/>
+      <path d="M130 800L800 80"/>
+    </g>
+    <path d="M0 0H800V800H0Z" fill="url(#smallDots)" opacity=".35"/>
+
+    <!-- Jacket and shoulders -->
+    <path d="M112 800Q130 634 249 583Q311 557 380 558Q472 555 544 593Q670 658 694 800Z"
+          fill="#244cba" stroke="#20204a" stroke-width="9"/>
+    <path d="M289 582L379 710L465 581L512 800H238Z"
+          fill="#fff5d7" stroke="#20204a" stroke-width="8"/>
+    <path d="M380 710L380 800" stroke="#20204a" stroke-width="7"/>
+    <path d="M141 693Q203 650 258 655M617 687Q568 649 514 653"
+          fill="none" stroke="#52d4d0" stroke-width="12"/>
+
+    <!-- Neck -->
+    <path d="M310 488L311 590Q379 642 451 583L435 478Z"
+          fill="#eaa06e" stroke="#20204a" stroke-width="8"/>
+    <path d="M315 536Q381 572 444 531" fill="none" stroke="#b95d55" stroke-width="6"/>
+
+    <!-- Hair behind head -->
+    <path d="M236 182Q197 138 222 93Q249 56 289 81Q302 29 351 52Q391 18 424 62Q470 43 488 93Q535 91 543 140Q581 171 550 216L535 357L239 365Z"
+          fill="#f3eee0" stroke="#20204a" stroke-width="9"/>
+    <path d="M234 160Q270 130 292 82M279 177Q323 133 337 59M344 174Q389 107 418 65M405 174Q466 124 484 96M463 192Q514 159 541 136"
+          fill="none" stroke="#aaa9a3" stroke-width="8" stroke-linecap="round"/>
+    <path d="M218 195Q201 259 229 327M250 189Q225 279 250 370M511 183Q551 245 527 342"
+          fill="none" stroke="#d0ccc1" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- Ears and face -->
+    <ellipse cx="249" cy="340" rx="34" ry="51" fill="#eaa06e" stroke="#20204a" stroke-width="7"/>
+    <ellipse cx="506" cy="337" rx="31" ry="48" fill="#eaa06e" stroke="#20204a" stroke-width="7"/>
+    <path d="M259 218Q285 174 370 174Q455 177 489 235L484 365Q474 463 399 511Q358 516 323 483Q270 433 259 354Z"
+          fill="#f2b27a" stroke="#20204a" stroke-width="9"/>
+    <path d="M274 263Q316 229 349 253M402 247Q439 228 469 252"
+          fill="none" stroke="#20204a" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="320" cy="277" rx="8" ry="11" fill="#20204a"/>
+    <ellipse cx="433" cy="273" rx="8" ry="11" fill="#20204a"/>
+    <path d="M380 278Q365 337 351 360Q370 377 394 366"
+          fill="none" stroke="#a9574d" stroke-width="7" stroke-linecap="round"/>
+    <path d="M335 414Q373 437 411 410" fill="none" stroke="#20204a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M267 310Q299 300 334 310M407 304Q445 295 475 307"
+          fill="none" stroke="#ed765e" stroke-width="5" opacity=".75"/>
+
+    <!-- Silver hair fringe -->
+    <path d="M238 223Q228 169 262 137Q284 119 305 133Q329 91 362 112Q390 78 418 112Q452 99 468 134Q500 135 511 176Q480 158 456 179Q427 197 402 176Q372 206 343 177Q309 205 282 183Q260 210 238 223Z"
+          fill="#f5f0df" stroke="#20204a" stroke-width="8"/>
+    <path d="M269 166Q292 142 308 137M329 164Q350 127 365 117M390 158Q415 128 431 126M447 165Q472 153 489 174"
+          fill="none" stroke="#b7b4ac" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Hamburger, held up to his mouth -->
+    <g stroke="#20204a" stroke-width="7" stroke-linejoin="round">
+      <path d="M451 334Q467 282 526 274Q584 269 618 316L605 348L463 354Z"
+            fill="#f6a52d"/>
+      <path d="M453 334Q477 318 493 328Q509 338 525 325Q541 312 558 328Q578 344 613 321L608 349Q579 365 556 350Q535 337 514 354Q489 369 459 352Z"
+            fill="#63b94b"/>
+      <path d="M460 350L610 347L601 370Q573 388 546 373Q523 359 501 377Q480 389 463 371Z"
+            fill="#f4cf41"/>
+      <path d="M464 369Q483 354 504 367Q526 383 548 365Q572 348 605 366L600 389Q584 421 536 422Q486 420 467 391Z"
+            fill="#8d3d2b"/>
+      <path d="M467 390Q492 379 512 392Q535 407 558 386Q580 369 602 389L596 409Q581 434 536 435Q489 433 471 410Z"
+            fill="#f4cf41"/>
+      <path d="M474 407Q503 397 529 411Q551 422 578 404Q592 398 600 406Q590 448 537 451Q488 449 474 407Z"
+            fill="#f6a52d"/>
+      <g fill="#fff1c9" stroke="none">
+        <ellipse cx="501" cy="307" rx="4" ry="7" transform="rotate(-22 501 307)"/>
+        <ellipse cx="534" cy="295" rx="4" ry="7" transform="rotate(18 534 295)"/>
+        <ellipse cx="568" cy="308" rx="4" ry="7" transform="rotate(-18 568 308)"/>
+      </g>
+    </g>
+
+    <!-- Hand wrapped around the burger -->
+    <path d="M548 440Q566 430 578 438L611 450Q626 458 615 473Q608 483 594 478L616 489Q630 498 619 512Q610 523 594 515L608 526Q619 539 606 549Q595 558 580 547L590 557Q595 572 581 579Q567 586 549 568L515 532Q499 514 505 492Q509 470 525 456Z"
+          fill="#eaa06e" stroke="#20204a" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M550 468Q568 474 589 488M540 490Q559 499 582 515M535 514Q552 525 570 541"
+          fill="none" stroke="#b95d55" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Pop-art accents -->
+    <path d="M96 271L133 254L119 292Z" fill="#52d4d0" stroke="#20204a" stroke-width="5"/>
+    <path d="M658 224L692 241L660 258Z" fill="#52d4d0" stroke="#20204a" stroke-width="5"/>
+    <path d="M157 405L187 391L180 424Z" fill="#f8db36" stroke="#20204a" stroke-width="5"/>
+    <text x="55" y="100" font-family="Arial, sans-serif" font-size="28" font-weight="900"
+          fill="#20204a" transform="rotate(-8 55 100)">POP!</text>
+    <text x="624" y="670" font-family="Arial, sans-serif" font-size="22" font-weight="900"
+          fill="#20204a" transform="rotate(8 624 670)">YUM!</text>
+  </g>
+
+  <!-- Poster border -->
+  <rect x="18" y="18" width="764" height="764" rx="8"
+        fill="none" stroke="#20204a" stroke-width="12"/>
+</svg>

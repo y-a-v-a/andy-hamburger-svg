@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A colorful pop-art portrait of Andy Warhol, with silver hair and dark sunglasses, taking a bite of a hamburger.</desc>
+
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.4" fill="#ed496e" opacity=".55"/>
+    </pattern>
+    <clipPath id="panel">
+      <rect x="35" y="35" width="730" height="730" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Pop-art background -->
+  <rect width="800" height="800" fill="#20202c"/>
+  <g clip-path="url(#panel)">
+    <rect x="35" y="35" width="730" height="730" fill="#f9cd42"/>
+    <path d="M35 35H765V360L35 585Z" fill="#f36b8b"/>
+    <path d="M35 585 765 360V765H35Z" fill="#5ed3cb"/>
+    <path d="M35 35H765V765H35Z" fill="url(#dots)"/>
+    <circle cx="414" cy="379" r="283" fill="#ffe887" stroke="#20202c" stroke-width="9"/>
+    <path d="M62 615 192 580M615 136l113-42M649 580l104 52"
+          stroke="#20202c" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Jacket and shoulders -->
+  <path d="M142 765Q151 590 242 528L307 496H434L515 529Q637 600 657 765Z"
+        fill="#293460" stroke="#20202c" stroke-width="10"/>
+  <path d="M302 499 377 618 443 500 407 475H341Z"
+        fill="#f7a2ad" stroke="#20202c" stroke-width="8"/>
+  <path d="M377 617 328 765H451Z" fill="#171922" stroke="#20202c" stroke-width="7"/>
+  <path d="m248 529 113 168-86-40-21 108H142Q150 594 248 529Z"
+        fill="#384676" stroke="#20202c" stroke-width="8"/>
+  <path d="m493 529-112 169 91-41 20 108h165q-18-160-164-236Z"
+        fill="#384676" stroke="#20202c" stroke-width="8"/>
+
+  <!-- Neck, ears, and face -->
+  <path d="M327 444v65q47 57 97-1v-72Z"
+        fill="#e9a7a0" stroke="#20202c" stroke-width="8"/>
+  <path d="M260 322q-34-31-43 1-4 36 35 53M469 316q30-31 42 1 6 35-37 56"
+        fill="#f8c8b5" stroke="#20202c" stroke-width="8"/>
+  <path d="M255 229q17-94 119-97 112 3 115 105l-14 140q-12 75-92 105-94-17-123-99Z"
+        fill="#f8c8b5" stroke="#20202c" stroke-width="9"/>
+  <path d="M275 356q13 72 75 95M453 354q-8 65-54 91"
+        fill="none" stroke="#e78f99" stroke-width="9" stroke-linecap="round"/>
+  <path d="m381 304-16 54 25 7" fill="none" stroke="#bb7181"
+        stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Signature silver hair -->
+  <path d="m239 300-15-54-21 12 16-51-28 2 38-42-10-19 47-10-4-28 43 15 17-34 34 21 29-33 30 31 36-20 17 37 42-9-4 36 37 15-25 29 21 35-34-4-9 49-19-31-7-58-27 11-4-38-28 28-13-35-25 37-19-28-25 35-23-28-25 39-16-8-17 51Z"
+        fill="#f2f3e8" stroke="#20202c" stroke-width="10" stroke-linejoin="round"/>
+  <path d="m236 202 55-42-19 54 52-64-9 69 44-86 5 73 35-72 11 66 38-54-2 60 34-28"
+        fill="none" stroke="#9ab0b6" stroke-width="8" stroke-linecap="round"/>
+  <path d="m258 259 22-35m184 10 17 37" stroke="#9ab0b6"
+        stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Sunglasses -->
+  <path d="M255 285q48-20 103-2l3 20q-7 50-50 52-45-2-56-46Zm126-2q51-18 101 2l-5 25q-11 44-54 45-42-2-45-52Z"
+        fill="#242634" stroke="#20202c" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M360 293q9-9 20 0M253 291l-18-5m247 5 18-5"
+        fill="none" stroke="#20202c" stroke-width="9" stroke-linecap="round"/>
+  <path d="m270 297 27-10m96 7 25-9" stroke="#8bcdd4"
+        stroke-width="6" stroke-linecap="round" opacity=".8"/>
+
+  <!-- Open mouth, partly obscured by the burger -->
+  <path d="M330 390q29-22 57 1-17 27-47 17Z"
+        fill="#4b2331" stroke="#20202c" stroke-width="6"/>
+  <path d="M341 393q15-6 30 0" fill="none" stroke="#fff0dd"
+        stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Arm reaching up -->
+  <path d="M634 765q19-89-5-173-15-52-58-89l-80 64q53 50 47 106l-22 92Z"
+        fill="#384676" stroke="#20202c" stroke-width="10"/>
+
+  <!-- Hand holding the hamburger -->
+  <path d="M479 439q-28-7-40 16l-22 47q-5 14 8 20 10 5 19-6l-5 15q-2 15 13 19 13 4 20-10 1 17 17 18 15 0 18-16 9 11 23 5 15-7 10-24l-20-64q-8-23-41-20Z"
+        fill="#f8c8b5" stroke="#20202c" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m447 482-8 34m35-29-4 45m34-46 4 43"
+        stroke="#c47d84" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Hamburger, pressed against his mouth -->
+  <path d="M344 385q10-48 90-53 91-5 116 53Z"
+        fill="#eaa65a" stroke="#20202c" stroke-width="8"/>
+  <path d="M356 371q53-39 137-17" fill="none"
+        stroke="#ffd694" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#fff0be">
+    <ellipse cx="397" cy="355" rx="7" ry="3" transform="rotate(-22 397 355)"/>
+    <ellipse cx="429" cy="346" rx="7" ry="3" transform="rotate(18 429 346)"/>
+    <ellipse cx="459" cy="357" rx="7" ry="3" transform="rotate(-18 459 357)"/>
+    <ellipse cx="491" cy="365" rx="7" ry="3" transform="rotate(22 491 365)"/>
+  </g>
+  <path d="M343 387q19-9 38 2 13-12 28 0 16-10 32 1 18-11 36 0 20-10 40 0 19-8 34-2l-4 20H345Z"
+        fill="#6dbd5e" stroke="#20202c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M346 400q55 9 100 1 53 10 102-1v18q-103 22-202 0Z"
+        fill="#7b3d30" stroke="#20202c" stroke-width="7"/>
+  <path d="M350 417q100 14 195 0l-4 14q-88 17-185 1Z"
+        fill="#f7cf4d" stroke="#20202c" stroke-width="5"/>
+  <path d="M352 429q92 13 188 0 2 22-20 31-69 20-142 0-25-8-26-31Z"
+        fill="#e9a25b" stroke="#20202c" stroke-width="8"/>
+  <path d="M379 449q70 17 138-1" fill="none"
+        stroke="#ffd391" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Poster accents -->
+  <g fill="#20202c" font-family="Arial, Helvetica, sans-serif" font-weight="900">
+    <text x="65" y="105" font-size="49" letter-spacing="-3">POP!</text>
+    <text x="76" y="714" font-size="53" letter-spacing="-3">LUNCH</text>
+  </g>
+  <path d="m646 174 8 25 25 8-25 8-8 25-8-25-25-8 25-8Z"
+        fill="#fff6d7" stroke="#20202c" stroke-width="6"/>
+  <rect x="35" y="35" width="730" height="730" rx="18"
+        fill="none" stroke="#20202c" stroke-width="12"/>
+</svg>

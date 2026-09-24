@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4f0e6"/>
+      <stop offset="100%" stop-color="#e0d9c8"/>
+    </linearGradient>
+    <linearGradient id="burger" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#c8a87c"/>
+      <stop offset="100%" stop-color="#b8956a"/>
+    </linearGradient>
+    <linearGradient id="meat" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b4513"/>
+      <stop offset="100%" stop-color="#6b3410"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#bg)" rx="12"/>
+
+  <!-- Hamburger bun top -->
+  <ellipse cx="200" cy="230" rx="120" ry="28" fill="#d9c49a" stroke="#b8a074" stroke-width="2"/>
+  <ellipse cx="200" cy="226" rx="110" ry="24" fill="#efe2c8" stroke="#c8b490" stroke-width="1"/>
+
+  <!-- Hamburger bun bottom -->
+  <ellipse cx="200" cy="340" rx="120" ry="28" fill="#c6a97e" stroke="#a89060" stroke-width="2"/>
+  <ellipse cx="200" cy="336" rx="110" ry="24" fill="#d9c49a" stroke="#b8a074" stroke-width="1"/>
+
+  <!-- Lettuce -->
+  <ellipse cx="200" cy="285" rx="80" ry="30" fill="#a8d8a8" opacity="0.85" stroke="#6a9a6a" stroke-width="1"/>
+  <ellipse cx="200" cy="290" rx="70" ry="26" fill="#b8e0b8" opacity="0.7" stroke="#7ab07a" stroke-width="1"/>
+
+  <!-- Meat patty -->
+  <ellipse cx="200" cy="305" rx="70" ry="22" fill="url(#meat)" stroke="#5a2d0a" stroke-width="1.5"/>
+  <ellipse cx="200" cy="303" rx="60" ry="16" fill="#9a5a2a" opacity="0.6" stroke="#4a2508" stroke-width="1"/>
+
+  <!-- Cheese slice -->
+  <ellipse cx="200" cy="320" rx="68" ry="18" fill="#f0d080" opacity="0.9" stroke="#d0a050" stroke-width="1"/>
+  <ellipse cx="200" cy="322" rx="58" ry="14" fill="#f8d890" opacity="0.7" stroke="#e0b060" stroke-width="1"/>
+
+  <!-- Tomato slice -->
+  <ellipse cx="200" cy="260" rx="55" ry="18" fill="#ff6b5e" opacity="0.9" stroke="#d65a4a" stroke-width="1"/>
+  <ellipse cx="200" cy="262" rx="50" ry="14" fill="#ff8a7a" opacity="0.7" stroke="#c64a3a" stroke-width="1"/>
+  <!-- Tomato seeds -->
+  <circle cx="190" cy="262" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="200" cy="258" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="210" cy="262" r="2" fill="#fff" opacity="0.6"/>
+
+  <!-- Pickles (front) -->
+  <ellipse cx="188" cy="295" rx="20" ry="10" fill="#d9c4a0" stroke="#b8a074" stroke-width="1"/>
+  <ellipse cx="188" cy="295" rx="16" ry="8" fill="#f0e0c0" opacity="0.9"/>
+  <ellipse cx="212" cy="295" rx="20" ry="10" fill="#d9c4a0" stroke="#b8a074" stroke-width="1"/>
+  <ellipse cx="212" cy="295" rx="16" ry="8" fill="#f0e0c0" opacity="0.9"/>
+
+  <!-- Face outline (minimalist, Warhol-esque) -->
+  <circle cx="200" cy="140" r="55" fill="none" stroke="#4a3520" stroke-width="4"/>
+  <circle cx="200" cy="125" r="6" fill="#f0e0c0" stroke="#b8a074" stroke-width="1"/>
+  <circle cx="200" cy="155" r="6" fill="#f0e0c0" stroke="#b8a074" stroke-width="1"/>
+  <path d="M175 170 Q200 195 225 170" fill="#4a3520" stroke="#3a2510" stroke-width="2"/>
+  <path d="M170 175 Q175 180 180 185" fill="#3a2510"/>
+  <path d="M220 175 Q225 180 230 185" fill="#3a2510"/>
+
+  <!-- Mouth (cooling, slight open) -->
+  <path d="M185 195 Q200 205 215 195" fill="none" stroke="#3a2510" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Hamburger reaching toward mouth -->
+  <rect x="190" y="185" width="20" height="40" rx="4" fill="url(#burger)" stroke="#9a7a4a" stroke-width="1.5"/>
+  <rect x="188" y="183" width="24" height="36" rx="3" fill="#c8a87c" stroke="#b8956a" stroke-width="1"/>
+
+  <!-- Eyebrows (bold, graphic) -->
+  <path d="M168 110 Q180 95 196 108" fill="none" stroke="#3a2510" stroke-width="4" stroke-linecap="round"/>
+  <path d="M232 108 Q220 95 232 110" fill="none" stroke="#3a2510" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Warhol-style bold color blocks (background accents) -->
+  <rect x="0" y="0" width="400" height="8" fill="#c0392b"/>
+  <rect x="0" y="492" width="400" height="8" fill="#2c3e50"/>
+</svg>
