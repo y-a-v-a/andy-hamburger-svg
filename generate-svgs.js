@@ -10,9 +10,45 @@
 //   FORCE               if "1", regenerate even when the output already exists
 //   ONLY                comma-separated substrings; only models whose id matches
 //                       at least one are queried (e.g. ONLY=claude,gpt,llama)
+//
+// Args:
+//   --add-skip <id>     add a model id to skip.json and exit (repeatable)
 
 const fs = require("node:fs");
 const path = require("node:path");
+
+const ROOT = __dirname;
+const ASSETS = path.join(ROOT, "assets");
+const SKIP_FILE = path.join(ROOT, "skip.json");
+
+// `--add-skip <id>` (repeatable, or --add-skip=<id>) appends model ids to
+// skip.json, keeping it sorted and deduplicated, then exits.
+const argv = process.argv.slice(2);
+const addSkip = [];
+for (let i = 0; i < argv.length; i++) {
+  if (argv[i] === "--add-skip") {
+    if (!argv[i + 1] || argv[i + 1].startsWith("--")) {
+      console.error("--add-skip requires a model id");
+      process.exit(1);
+    }
+    addSkip.push(argv[++i]);
+  } else if (argv[i].startsWith("--add-skip=")) {
+    addSkip.push(argv[i].slice("--add-skip=".length));
+  }
+}
+if (addSkip.length) {
+  const list = JSON.parse(fs.readFileSync(SKIP_FILE, "utf8"));
+  for (const id of addSkip.map((s) => s.trim()).filter(Boolean)) {
+    if (list.includes(id)) console.log(`already skipped: ${id}`);
+    else {
+      list.push(id);
+      console.log(`added to skip list: ${id}`);
+    }
+  }
+  list.sort();
+  fs.writeFileSync(SKIP_FILE, JSON.stringify(list, null, 2) + "\n");
+  process.exit(0);
+}
 
 const API_KEY = process.env.OPENROUTER_API_KEY;
 if (!API_KEY) {
@@ -33,9 +69,6 @@ const PROMPT =
   process.env.PROMPT ??
   "Can you write an svg file depicting Andy Warhol eating a hamburger?";
 
-const ROOT = __dirname;
-const ASSETS = path.join(ROOT, "assets");
-
 // Manual overrides — keys are OpenRouter model ids, values are the existing
 // filename to treat as "already done". Add entries when fuzzy matching misses.
 const ALIASES = {
@@ -44,82 +77,10 @@ const ALIASES = {
   "inclusionai/ring-2.6-1t": "inclusionai-ring-2.6-1t-free.svg",
 };
 
-// Models that consistently fail to produce a usable SVG. Add ids here to
-// permanently skip them. The SKIP env var (comma-separated) appends extras.
+// Models that consistently fail to produce a usable SVG. Add ids to skip.json
+// to permanently skip them. The SKIP env var (comma-separated) appends extras.
 const SKIP = new Set([
-  "allenai/olmo-3-32b-think",
-  "anthracite-org/magnum-v4-72b",
-  "anthropic/claude-3-haiku",
-  "anthropic/claude-3.5-haiku",
-  "anthropic/claude-fable-5",
-  "arcee-ai/coder-large",
-  "arcee-ai/maestro-reasoning",
-  "arcee-ai/spotlight",
-  "arcee-ai/virtuoso-large",
-  "baidu/ernie-4.5-vl-28b-a3b",
-  "bytedance-seed/seed-2.0-mini",
-  "bytedance/ui-tars-1.5-7b",
-  "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-  "cohere/command-r-plus-08-2024",
-  "deepseek/deepseek-v4-flash:free",
-  "essentialai/rnj-1-instruct",
-  "google/gemini-3.1-pro-preview",
-  "google/gemini-3.1-pro-preview-customtools",
-  "google/gemma-4-26b-a4b-it:free",
-  "google/gemma-4-31b-it:free",
-  "inception/mercury-2",
-  "inflection/inflection-3-pi",
-  "inflection/inflection-3-productivity",
-  "mancer/weaver",
-  "meta-llama/llama-3.2-1b-instruct",
-  "meta-llama/llama-3.2-3b-instruct",
-  "meta-llama/llama-3.2-3b-instruct:free",
-  "meta-llama/llama-3.3-70b-instruct:free",
-  "meta-llama/llama-guard-3-8b",
-  "meta-llama/llama-guard-4-12b",
-  "minimax/minimax-01",
-  "minimax/minimax-m1",
-  "minimax/minimax-m2-her",
-  "minimax/minimax-m2.1",
-  "mistralai/mistral-small-3.1-24b-instruct",
-  "moonshotai/kimi-k2.6",
-  "moonshotai/kimi-k2.6:free",
-  "moonshotai/kimi-k2.7-code",
-  "morph/morph-v3-fast",
-  "nex-agi/nex-n2-pro:free",
-  "nousresearch/hermes-3-llama-3.1-405b:free",
-  "nousresearch/hermes-3-llama-3.1-70b",
-  "nvidia/nemotron-3-ultra-550b-a55b",
-  "nvidia/nemotron-3-ultra-550b-a55b:free",
-  "nvidia/nemotron-3.5-content-safety:free",
-  "nvidia/nemotron-nano-12b-v2-vl:free",
-  "openai/gpt-3.5-turbo-instruct",
-  "openai/gpt-4",
-  "openai/gpt-4-turbo-preview",
-  "openai/gpt-5-pro",
-  "openai/gpt-5.4",
-  "openai/gpt-5.4-pro",
-  "openai/gpt-5.5-pro",
-  "openai/gpt-oss-20b:free",
-  "openai/o1-pro",
-  "openai/o3-deep-research",
-  "openai/o4-mini-deep-research",
-  "openrouter/pareto-code",
-  "qwen/qwen-2.5-coder-32b-instruct",
-  "qwen/qwen3-coder:free",
-  "qwen/qwen3-next-80b-a3b-instruct:free",
-  "qwen/qwen3-vl-235b-a22b-thinking",
-  "qwen/qwen3.7-plus",
-  "rekaai/reka-flash-3",
-  "relace/relace-apply-3",
-  "sao10k/l3.3-euryale-70b",
-  "thedrummer/skyfall-36b-v2",
-  "thedrummer/unslopnemo-12b",
-  "undi95/remm-slerp-l2-13b",
-  "z-ai/glm-5.1",
-  "z-ai/glm-5.2",
-  "z-ai/glm-5v-turbo",
-  "~anthropic/claude-fable-latest",
+  ...JSON.parse(fs.readFileSync(SKIP_FILE, "utf8")),
   ...(process.env.SKIP ?? "").split(",").map((s) => s.trim()).filter(Boolean),
 ]);
 
