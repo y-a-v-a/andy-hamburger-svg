@@ -13,6 +13,7 @@
 //
 // Args:
 //   --add-skip <id>     add a model id to skip.json and exit (repeatable)
+//   -h, --help          print usage and exit
 
 const fs = require("node:fs");
 const path = require("node:path");
@@ -24,6 +25,39 @@ const SKIP_FILE = path.join(ROOT, "skip.json");
 // `--add-skip <id>` (repeatable, or --add-skip=<id>) appends model ids to
 // skip.json, keeping it sorted and deduplicated, then exits.
 const argv = process.argv.slice(2);
+
+if (argv.includes("--help") || argv.includes("-h")) {
+  console.log(`Usage: node generate-svgs.js [options]
+
+Asks every text->text model on OpenRouter to draw Andy Warhol eating a
+hamburger as an SVG, and saves the first <svg>...</svg> block in each
+response to assets/<slug>.svg. Models that already have an SVG, or are
+listed in skip.json, are skipped.
+
+Options:
+  --add-skip <id>     add a model id to skip.json and exit (repeatable,
+                      also accepts --add-skip=<id>)
+  -h, --help          show this help and exit
+
+Environment variables:
+  OPENROUTER_API_KEY  required, also for DRY runs (not for --add-skip/--help)
+  LIMIT               max number of models to query this run (default 5)
+  PROMPT              override the base prompt
+  FORCE=1             regenerate even when the output already exists
+  ONLY                comma-separated substrings; only models whose id
+                      matches at least one are queried (e.g. ONLY=claude,gpt)
+  SKIP                comma-separated model ids to skip for this run only
+  DRY=1               list which models would be queried, without calling them
+  TIMEOUT             request timeout in seconds (default 180)
+  SLEEP               pause between requests in seconds (default 2)
+
+Examples:
+  LIMIT=10 node generate-svgs.js
+  ONLY=claude DRY=1 node generate-svgs.js
+  node generate-svgs.js --add-skip some-vendor/some-model`);
+  process.exit(0);
+}
+
 const addSkip = [];
 for (let i = 0; i < argv.length; i++) {
   if (argv[i] === "--add-skip") {

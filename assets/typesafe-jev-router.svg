@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Drop shadow for the hamburger -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="8" stdDeviation="5" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <!-- Drop shadow for the glasses -->
+    <filter id="glasses-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <!-- Gradient for the face -->
+    <radialGradient id="face-gradient" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFF0E5" />
+      <stop offset="100%" stop-color="#FFD6B8" />
+    </radialGradient>
+    <!-- Gradient for the hair -->
+    <linearGradient id="hair-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F0F0F0" />
+      <stop offset="100%" stop-color="#D0D0D0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background: Pop Art Style -->
+  <rect width="800" height="800" fill="#FF1493" /> <!-- Deep Pink -->
+  <circle cx="400" cy="400" r="320" fill="#FFD700" /> <!-- Bright Yellow -->
+
+  <!-- Torso / Turtleneck -->
+  <path d="M 120 800 Q 120 600 320 550 L 480 550 Q 680 600 680 800 Z" fill="#1A1A1A" />
+  <!-- Turtleneck Collar -->
+  <path d="M 320 560 Q 400 520 480 560 L 500 620 Q 400 650 300 620 Z" fill="#1A1A1A" />
+
+  <!-- Neck -->
+  <rect x="360" y="460" width="80" height="100" fill="#FFD6B8" />
+
+  <!-- Face -->
+  <ellipse cx="400" cy="350" rx="110" ry="130" fill="url(#face-gradient)" />
+  
+  <!-- Cheek/Contour Lines for Depth -->
+  <path d="M 295 380 Q 310 430 330 440" fill="none" stroke="#E6A873" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 505 380 Q 490 430 470 440" fill="none" stroke="#E6A873" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 350 470 Q 400 490 450 470" fill="none" stroke="#E6A873" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- Mouth (Open, behind the burger) -->
+  <ellipse cx="400" cy="460" rx="45" ry="25" fill="#5C1A1A" />
+  <!-- Tongue -->
+  <ellipse cx="400" cy="470" rx="25" ry="10" fill="#D35B5B" />
+  <!-- Teeth -->
+  <path d="M 360 450 Q 400 460 440 450" fill="none" stroke="#FFF" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Nose -->
+  <path d="M 400 340 L 385 395 L 415 395" fill="none" stroke="#D1A08A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="385" cy="395" r="5" fill="#D1A08A" />
+  <circle cx="415" cy="395" r="5" fill="#D1A08A" />
+
+  <!-- Eyebrows -->
+  <path d="M 320 285 Q 340 270 365 285" fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" />
+  <path d="M 480 285 Q 460 270 435 285" fill="none" stroke="#1A1A1A" stroke-width="8" stroke-linecap="round" />
+
+  <!-- Iconic Hair (The Wig) -->
+  <g fill="url(#hair-gradient)" stroke="#B0B0B0" stroke-width="3" stroke-linejoin="round">
+    <!-- Main wig shape -->
+    <path d="M 260 350 Q 230 220 300 150 Q 350 110 400 120 Q 450 110 500 150 Q 570 220 540 350 L 520 280 L 490 220 L 460 240 L 430 190 L 400 230 L 370 190 L 340 240 L 310 220 L 280 280 Z" />
+    <!-- Spikes / Messy texture on top -->
+    <path d="M 290 180 L 310 100 L 330 160" />
+    <path d="M 360 140 L 380 70 L 400 130" />
+    <path d="M 440 130 L 460 80 L 480 160" />
+    <path d="M 510 180 L 530 120 L 540 200" />
+  </g>
+
+  <!-- Glasses -->
+  <g filter="url(#glasses-shadow)">
+    <!-- Left Lens -->
+    <rect x="295" y="300" width="90" height="65" rx="15" fill="#1A1A1A" stroke="#000" stroke-width="12" />
+    <!-- Right Lens -->
+    <rect x="415" y="300" width="90" height="65" rx="15" fill="#1A1A1A" stroke="#000" stroke-width="12" />
+    <!-- Bridge -->
+    <line x1="385" y1="320" x2="415" y2="320" stroke="#000" stroke-width="12" stroke-linecap="round" />
+    <!-- Temples (arms) -->
+    <line x1="295" y1="330" x2="270" y2="330" stroke="#000" stroke-width="12" stroke-linecap="round" />
+    <line x1="505" y1="330" x2="530" y2="330" stroke="#000" stroke-width="12" stroke-linecap="round" />
+    
+    <!-- Lens Glare -->
+    <polygon points="305 310, 325 310, 305 330" fill="#FFFFFF" opacity="0.2" />
+    <polygon points="425 310, 445 310, 425 330" fill="#FFFFFF" opacity="0.2" />
+    
+    <!-- Eyes (Subtle, behind tinted lenses) -->
+    <circle cx="340" cy="330" r="8" fill="#000" opacity="0.6" />
+    <circle cx="460" cy="330" r="8" fill="#000" opacity="0.6" />
+  </g>
+
+  <!-- The Hamburger -->
+  <g filter="url(#shadow)">
+    <!-- Bottom Bun -->
+    <path d="M 310 510 Q 310 550 400 550 Q 490 550 490 510 L 480 495 Q 400 515 320 495 Z" fill="#E8A559" />
+    <!-- Bottom Bun Detail -->
+    <path d="M 320 510 Q 400 525 480 510" fill="none" stroke="#C27E3A" stroke-width="3" opacity="0.5" />
+
+    <!-- Beef Patty -->
+    <rect x="305" y="480" width="190" height="28" rx="10" fill="#4A2511" />
+    <!-- Patty Texture -->
+    <line x1="320" y1="490" x2="480" y2="490" stroke="#2E1508" stroke-width="4" opacity="0.4" />
+    <line x1="330" y1="498" x2="470" y2="498" stroke="#2E1508" stroke-width="2" opacity="0.3" />
+
+    <!-- Melted Cheese -->
+    <path d="M 300 468 L 500 468 L 495 490 L 305 490 Z" fill="#FFC300" />
+    <!-- Cheese Drips -->
+    <path d="M 320 468 Q 320 505 330 510 Q 340 505 340 468" fill="#FFC300" />
+    <path d="M 460 468 Q 460 505 470 510 Q 480 505 480 468" fill="#FFC300" />
+
+    <!-- Tomato Slice -->
+    <rect x="312" y="455" width="176" height="15" rx="6" fill="#D62828" />
+    <line x1="320" y1="462" x2="480" y2="462" stroke="#A11A1A" stroke-width="2" opacity="0.5" />
+
+    <!-- Lettuce -->
+    <path d="M 300 450 Q 320 435 340 450 Q 360 435 380 450 Q 400 435 420 450 Q 440 435 460 450 Q 480 435 500 450 L 500 460 L 300 460 Z" fill="#2A9D8F" />
+    <!-- Lettuce Texture -->
+    <path d="M 320 450 Q 330 455 340 450 M 380 450 Q 390 455 400 450 M 440 450 Q 450 455 460 450" fill="none" stroke="#1E756A" stroke-width="3" />
+
+    <!-- Ketchup & Mustard -->
+    <path d="M 330 475 Q 350 465 370 475 Q 390 485 410 475 Q 430 465 450 475 Q 470 485 480 475" fill="none" stroke="#FF0000" stroke-width="6" stroke-linecap="round" />
+    <path d="M 340 482 Q 360 472 380 482 Q 400 492 420 482 Q 440 472 460 482" fill="none" stroke="#FFD700" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Top Bun -->
+    <path d="M 305 445 Q 305 360 400 360 Q 495 360 495 445 Z" fill="#E8A559" />
+    <!-- Top Bun Highlight -->
+    <path d="M 330 430 Q 350 380 400 380 Q 450 380 470 430" fill="none" stroke="#F7C07A" stroke-width="8" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Sesame Seeds -->
+    <ellipse cx="350" cy="395" rx="7" ry="3.5" fill="#FFF" transform="rotate(-20 350 395)" />
+    <ellipse cx="400" cy="385" rx="7" ry="3.5" fill="#FFF" />
+    <ellipse cx="450" cy="395" rx="7" ry="3.5" fill="#FFF" transform="rotate(20 450 395)" />
+    <ellipse cx="370" cy="420" rx="7" ry="3.5" fill="#FFF" transform="rotate(-35 370 420)" />
+    <ellipse cx="430" cy="420" rx="7" ry="3.5" fill="#FFF" transform="rotate(35 430 420)" />
+    <ellipse cx="400" cy="415" rx="7" ry="3.5" fill="#FFF" />
+  </g>
+
+  <!-- Hands Holding the Burger -->
+  <!-- Left Hand -->
+  <g>
+    <!-- Palm and fingers wrapping around -->
+    <path d="M 270 480 Q 240 440 270 420 Q 290 410 305 430 L 305 520 Q 270 530 270 480 Z" fill="#FFD6B8" />
+    <!-- Fingers details -->
+    <path d="M 305 430 Q 295 450 305 470" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+    <path d="M 305 450 Q 295 470 305 490" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+    <path d="M 305 470 Q 295 490 305 510" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  <!-- Right Hand -->
+  <g>
+    <!-- Palm and fingers wrapping around -->
+    <path d="M 530 480 Q 560 440 530 420 Q 510 410 495 430 L 495 520 Q 530 530 530 480 Z" fill="#FFD6B8" />
+    <!-- Fingers details -->
+    <path d="M 495 430 Q 505 450 495 470" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+    <path d="M 495 450 Q 505 470 495 490" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+    <path d="M 495 470 Q 505 490 495 510" fill="none" stroke="#D1A08A" stroke-width="5" stroke-linecap="round" />
+  </g>
+
+  <!-- Highlighting details over hands -->
+  <path d="M 270 480 Q 240 440 270 420" fill="none" stroke="#FFE0C8" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 530 480 Q 560 440 530 420" fill="none" stroke="#FFE0C8" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+</svg>
