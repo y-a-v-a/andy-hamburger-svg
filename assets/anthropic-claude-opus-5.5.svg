@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <!-- Pop-art halftone dots -->
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="4" fill="#ff5fa2" opacity="0.55"/>
+    </pattern>
+    <radialGradient id="skin" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#fbe9e0"/>
+      <stop offset="100%" stop-color="#eccbbd"/>
+    </radialGradient>
+    <linearGradient id="wig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9c9d2"/>
+    </linearGradient>
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0a94a"/>
+      <stop offset="100%" stop-color="#c9781f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="700" fill="#ffe14d"/>
+  <rect width="600" height="700" fill="url(#dots)"/>
+
+  <!-- Body: black turtleneck / jacket -->
+  <path d="M120,700 L145,530 Q165,450 262,428 L338,428 Q435,450 455,530 L480,700 Z"
+        fill="#161616"/>
+  <!-- Turtleneck collar -->
+  <path d="M262,400 L338,400 L345,445 Q300,460 255,445 Z" fill="#222"/>
+  <path d="M258,420 Q300,432 342,420" stroke="#3a3a3a" stroke-width="3" fill="none"/>
+  <path d="M256,434 Q300,446 344,434" stroke="#3a3a3a" stroke-width="3" fill="none"/>
+
+  <!-- Neck -->
+  <rect x="275" y="370" width="50" height="40" fill="#eccbbd"/>
+
+  <!-- Ears -->
+  <ellipse cx="220" cy="295" rx="14" ry="24" fill="#eccbbd" stroke="#b08a7a" stroke-width="2"/>
+  <ellipse cx="380" cy="295" rx="14" ry="24" fill="#eccbbd" stroke="#b08a7a" stroke-width="2"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="290" rx="80" ry="100" fill="url(#skin)" stroke="#b08a7a" stroke-width="2"/>
+
+  <!-- Cheek blush -->
+  <ellipse cx="252" cy="330" rx="16" ry="9" fill="#f4a7a7" opacity="0.5"/>
+
+  <!-- Eyebrows -->
+  <path d="M245,250 Q265,242 285,250" stroke="#aaa" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M315,250 Q335,242 355,250" stroke="#aaa" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (looking at the burger) -->
+  <ellipse cx="268" cy="275" rx="10" ry="6" fill="#fff"/>
+  <ellipse cx="332" cy="275" rx="10" ry="6" fill="#fff"/>
+  <circle cx="272" cy="277" r="4" fill="#3b2f2f"/>
+  <circle cx="336" cy="277" r="4" fill="#3b2f2f"/>
+
+  <!-- Clear glasses -->
+  <rect x="240" y="258" width="55" height="38" rx="12" fill="#dff3ff" fill-opacity="0.3"
+        stroke="#9a8f86" stroke-width="3"/>
+  <rect x="305" y="258" width="55" height="38" rx="12" fill="#dff3ff" fill-opacity="0.3"
+        stroke="#9a8f86" stroke-width="3"/>
+  <path d="M295,272 Q300,266 305,272" stroke="#9a8f86" stroke-width="3" fill="none"/>
+  <line x1="240" y1="270" x2="222" y2="276" stroke="#9a8f86" stroke-width="3"/>
+  <line x1="360" y1="270" x2="378" y2="276" stroke="#9a8f86" stroke-width="3"/>
+
+  <!-- Nose -->
+  <path d="M300,285 Q296,310 290,322 Q300,330 310,322" stroke="#b08a7a" stroke-width="3"
+        fill="none" stroke-linecap="round"/>
+
+  <!-- Open mouth (biting) -->
+  <ellipse cx="300" cy="352" rx="22" ry="14" fill="#6b1f2a"/>
+  <path d="M280,346 Q300,340 320,346" stroke="#fff" stroke-width="4" fill="none"/>
+
+  <!-- Silver wig -->
+  <path d="M212,300
+           L205,240 L182,222 L208,205 L196,165 L234,174 L236,130 L268,156
+           L288,110 L310,150 L342,116 L352,160 L390,138 L384,180 L420,186
+           L396,216 L410,262 L388,300
+           L382,238 L368,252 L360,228 L342,246 L330,222 L312,244 L300,220
+           L286,244 L270,222 L256,248 L244,228 L230,252 L218,236 Z"
+        fill="url(#wig)" stroke="#9c9ca8" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Wig texture strands -->
+  <path d="M250,190 L262,165 M290,180 L292,140 M325,185 L338,150 M360,200 L378,175 M225,210 L215,190"
+        stroke="#b3b3be" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Arms -->
+  <path d="M160,540 Q175,450 250,400" stroke="#161616" stroke-width="52" fill="none" stroke-linecap="round"/>
+  <path d="M440,540 Q450,450 425,395" stroke="#161616" stroke-width="52" fill="none" stroke-linecap="round"/>
+
+  <!-- Hamburger (held at mouth, tilted) -->
+  <g transform="translate(348,360) rotate(-8)">
+    <!-- Bottom bun -->
+    <path d="M-78,28 L78,28 Q76,48 60,50 L-60,50 Q-76,48 -78,28 Z" fill="url(#bun)"
+          stroke="#8a4f12" stroke-width="2"/>
+    <!-- Patty -->
+    <rect x="-82" y="10" width="164" height="20" rx="9" fill="#5a2e12" stroke="#3a1c08" stroke-width="2"/>
+    <!-- Cheese -->
+    <path d="M-80,8 L80,8 L72,20 L58,10 L40,24 L20,10 L0,22 L-20,10 L-40,24 L-58,10 L-72,20 Z"
+          fill="#ffc21a" stroke="#d99a00" stroke-width="1.5"/>
+    <!-- Tomato -->
+    <rect x="-76" y="0" width="152" height="9" rx="4" fill="#e53935"/>
+    <!-- Lettuce -->
+    <path d="M-84,0 Q-74,-10 -64,0 Q-54,-10 -44,0 Q-34,-10 -24,0 Q-14,-10 -4,0 Q6,-10 16,0
+             Q26,-10 36,0 Q46,-10 56,0 Q66,-10 76,0 Q82,-6 86,0 Z"
+          fill="#6cc24a" stroke="#3e8e2a" stroke-width="2"/>
+    <!-- Top bun -->
+    <path d="M-80,-2 Q-80,-62 0,-66 Q80,-62 80,-2 Z" fill="url(#bun)" stroke="#8a4f12" stroke-width="2"/>
+    <!-- Sesame seeds -->
+    <g fill="#fff6d6">
+      <ellipse cx="-40" cy="-38" rx="4" ry="2" transform="rotate(-20 -40 -38)"/>
+      <ellipse cx="-15" cy="-52" rx="4" ry="2" transform="rotate(15 -15 -52)"/>
+      <ellipse cx="12" cy="-40" rx="4" ry="2" transform="rotate(-10 12 -40)"/>
+      <ellipse cx="38" cy="-50" rx="4" ry="2" transform="rotate(25 38 -50)"/>
+      <ellipse cx="55" cy="-28" rx="4" ry="2" transform="rotate(-30 55 -28)"/>
+      <ellipse cx="-58" cy="-18" rx="4" ry="2" transform="rotate(10 -58 -18)"/>
+      <ellipse cx="0" cy="-22" rx="4" ry="2" transform="rotate(35 0 -22)"/>
+    </g>
+  </g>
+
+  <!-- Hands gripping the burger -->
+  <g fill="#eccbbd" stroke="#b08a7a" stroke-width="2">
+    <ellipse cx="262" cy="385" rx="24" ry="30"/>
+    <ellipse cx="428" cy="370" rx="24" ry="30"/>
+  </g>
+  <!-- Finger lines -->
+  <path d="M272,370 L285,368 M274,383 L288,382 M272,396 L285,396" stroke="#b08a7a" stroke-width="2"/>
+  <path d="M418,355 L405,354 M416,368 L402,368 M418,381 L405,382" stroke="#b08a7a" stroke-width="2"/>
+
+  <!-- Table -->
+  <rect x="0" y="610" width="600" height="90" fill="#e8e8e8"/>
+  <rect x="0" y="606" width="600" height="8" fill="#bbb"/>
+
+  <!-- Ketchup bottle -->
+  <g transform="translate(70,470)">
+    <path d="M15,0 L35,0 L35,25 Q55,45 55,80 L55,140 L-5,140 L-5,80 Q-5,45 15,25 Z"
+          fill="#d32f2f" stroke="#8e1b1b" stroke-width="2"/>
+    <rect x="12" y="-18" width="26" height="20" rx="3" fill="#fff" stroke="#aaa" stroke-width="2"/>
+    <rect x="2" y="80" width="46" height="36" rx="4" fill="#fff8e1" stroke="#8e1b1b" stroke-width="1.5"/>
+    <text x="25" y="104" font-family="Arial, sans-serif" font-size="12" font-weight="bold"
+          text-anchor="middle" fill="#d32f2f">KETCHUP</text>
+  </g>
+
+  <!-- Paper bag on table -->
+  <g transform="translate(470,520)">
+    <path d="M0,0 L90,0 L95,90 L-5,90 Z" fill="#c9a36b" stroke="#8a6a3a" stroke-width="2"/>
+    <path d="M0,0 L10,-12 L20,0 L30,-12 L40,0 L50,-12 L60,0 L70,-12 L80,0 L90,-12 L90,0"
+          fill="#c9a36b" stroke="#8a6a3a" stroke-width="2"/>
+  </g>
+
+  <!-- Caption -->
+  <text x="300" y="665" font-family="Impact, Arial Black, sans-serif" font-size="30"
+        text-anchor="middle" fill="#111" letter-spacing="2">ANDY EATS A HAMBURGER</text>
+</svg>

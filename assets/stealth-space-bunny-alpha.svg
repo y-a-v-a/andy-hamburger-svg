@@ -1,0 +1,460 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="800" viewBox="0 0 800 800"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">
+    A stylized pop-art portrait of Andy Warhol with silver hair and a black
+    turtleneck, holding a hamburger near his open mouth.
+  </desc>
+
+  <defs>
+    <pattern id="halftone" width="18" height="18"
+             patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2"
+              fill="#171717" opacity="0.18"/>
+    </pattern>
+
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffef6"/>
+      <stop offset="52%" stop-color="#e8e8e1"/>
+      <stop offset="100%" stop-color="#b5b8b5"/>
+    </linearGradient>
+
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4c0a5"/>
+      <stop offset="100%" stop-color="#dc927d"/>
+    </linearGradient>
+
+    <linearGradient id="bunGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffd263"/>
+      <stop offset="100%" stop-color="#d98b32"/>
+    </linearGradient>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="9" stdDeviation="8"
+                    flood-color="#171717" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f6e6c4"/>
+
+  <!-- Pop-art sunburst -->
+  <g fill="none" stroke="#e35b4b" stroke-width="14" opacity="0.28">
+    <path d="M400 328 L400 8"/>
+    <path d="M400 328 L608 38"/>
+    <path d="M400 328 L768 180"/>
+    <path d="M400 328 L786 430"/>
+    <path d="M400 328 L640 690"/>
+    <path d="M400 328 L400 794"/>
+    <path d="M400 328 L130 670"/>
+    <path d="M400 328 L25 470"/>
+    <path d="M400 328 L70 130"/>
+  </g>
+
+  <circle cx="400" cy="328" r="286" fill="#f6c94b"/>
+  <circle cx="400" cy="328" r="286"
+          fill="url(#halftone)" opacity="0.68"/>
+  <circle cx="400" cy="328" r="304"
+          fill="none" stroke="#2c6f9c" stroke-width="6" opacity="0.55"/>
+
+  <!-- Decorative marks -->
+  <g stroke="#171717" stroke-width="5" stroke-linecap="round">
+    <path d="M63 196 L94 184" stroke="#2c6f9c"/>
+    <path d="M74 219 L111 219" stroke="#e35b4b"/>
+    <path d="M696 246 L741 246" stroke="#2c6f9c"/>
+    <path d="M683 269 L731 280" stroke="#e35b4b"/>
+  </g>
+
+  <circle cx="111" cy="153" r="9" fill="#2c6f9c"/>
+  <circle cx="704" cy="190" r="8" fill="#e35b4b"/>
+  <circle cx="87" cy="616" r="7" fill="#e35b4b"/>
+  <circle cx="724" cy="577" r="10" fill="#2c6f9c"/>
+
+  <!-- Poster typography -->
+  <g fill="#171717" font-family="Arial, Helvetica, sans-serif">
+    <text x="52" y="72" font-size="31" font-weight="900"
+          letter-spacing="5">ANDY</text>
+    <text x="52" y="106" font-size="31" font-weight="900"
+          letter-spacing="5">WARHOL</text>
+
+    <rect x="552" y="47" width="194" height="70" fill="#171717"/>
+    <text x="568" y="75" fill="#f6c94b"
+          font-size="15" font-weight="700" letter-spacing="2">A POP-ART</text>
+    <text x="568" y="101" fill="#f6e6c4"
+          font-size="15" font-weight="700" letter-spacing="3">MEAL</text>
+  </g>
+
+  <!-- Ground shadow -->
+  <ellipse cx="405" cy="760" rx="280" ry="28"
+           fill="#171717" opacity="0.2"/>
+
+  <!-- Portrait and clothing -->
+  <g id="figure"
+     stroke="#171717" stroke-width="7"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Black turtleneck body -->
+    <path d="M151 800
+             L167 614
+             C173 563 202 532 250 512
+             L307 486
+             L442 486
+             L505 508
+             C566 531 602 567 616 618
+             L649 800 Z"
+          fill="#141414" filter="url(#softShadow)"/>
+
+    <path d="M194 800 L207 623
+             C213 578 238 548 282 528"
+          fill="none" stroke="#3b3b3b" stroke-width="8" opacity="0.5"/>
+
+    <!-- Raised sleeve -->
+    <path d="M503 516
+             C535 507 559 489 583 463
+             L611 437
+             L650 474
+             L620 510
+             C591 545 564 571 538 593
+             L493 568 Z"
+          fill="#111111"/>
+
+    <path d="M548 535 L611 471"
+          fill="none" stroke="#333333" stroke-width="7" opacity="0.6"/>
+
+    <!-- Neck -->
+    <path d="M309 411
+             L303 490
+             Q348 532 412 529
+             L452 491
+             L433 410 Z"
+          fill="url(#skinGradient)"/>
+
+    <path d="M322 454 Q359 483 410 480
+             L437 461 L447 492
+             Q393 523 329 495 Z"
+          fill="#c98272" opacity="0.45" stroke="none"/>
+
+    <!-- Turtleneck collar -->
+    <path d="M294 468
+             Q337 493 379 499
+             Q425 497 455 468
+             L462 515
+             Q421 541 364 540
+             Q321 536 294 514 Z"
+          fill="#111111"/>
+
+    <path d="M311 488 Q364 511 442 488"
+          fill="none" stroke="#3a3a3a" stroke-width="6" opacity="0.6"/>
+
+    <!-- Back hair silhouette -->
+    <path d="M241 299
+             C216 259 219 191 244 146
+             C271 98 325 72 380 73
+             C444 74 493 101 520 145
+             C546 187 537 242 506 292
+             L480 315 L266 315 Z"
+          fill="url(#hairGradient)"/>
+
+    <!-- Ears -->
+    <path d="M250 278
+             C230 269 220 282 224 303
+             C228 328 243 343 259 334
+             L266 301 Z"
+          fill="url(#skinGradient)"/>
+
+    <path d="M503 274
+             C522 267 531 281 525 304
+             C520 326 507 340 494 332
+             L490 297 Z"
+          fill="url(#skinGradient)"/>
+
+    <!-- Face -->
+    <path d="M276 171
+             C319 139 394 132 453 158
+             C493 175 515 213 512 261
+             C510 291 500 318 506 335
+             L526 349
+             C531 354 527 363 513 365
+             C503 408 464 448 403 461
+             C341 470 292 435 266 389
+             C243 350 235 307 241 264
+             C247 224 255 192 276 171 Z"
+          fill="url(#skinGradient)"/>
+
+    <!-- Facial shadow -->
+    <path d="M250 273
+             C250 331 274 394 319 425
+             C343 442 369 452 394 458
+             C345 463 303 441 276 404
+             C246 365 235 316 241 274 Z"
+          fill="#c97f70" opacity="0.42" stroke="none"/>
+
+    <!-- Front silver hair -->
+    <path d="M243 278
+             C222 239 229 182 255 142
+             C281 101 329 77 381 77
+             C440 78 491 103 517 145
+             C538 179 532 225 505 268
+             L480 248
+             C484 218 475 188 452 169
+             C428 149 400 141 371 148
+             C337 155 310 178 291 208
+             C277 232 270 255 270 279
+             L254 295 Z"
+          fill="url(#hairGradient)"/>
+
+    <!-- Hair strands -->
+    <g fill="none" stroke="#a4a8a5" stroke-width="8">
+      <path d="M268 207 C289 169 320 143 355 133"/>
+      <path d="M299 143 C326 115 359 101 394 102"/>
+      <path d="M354 115 C392 101 434 111 465 135"/>
+      <path d="M405 113 C446 119 477 145 490 177"/>
+      <path d="M479 183 C490 205 488 229 478 250"/>
+    </g>
+
+    <g fill="none" stroke="#ffffff" stroke-width="5" opacity="0.75">
+      <path d="M275 190 C297 153 329 130 363 121"/>
+      <path d="M383 94 C421 90 455 103 481 127"/>
+      <path d="M458 153 C473 173 480 195 477 216"/>
+    </g>
+
+    <!-- Brows -->
+    <path d="M278 255 Q305 238 337 251"
+          fill="none" stroke="#4a4b49" stroke-width="8"/>
+    <path d="M395 248 Q424 232 453 246"
+          fill="none" stroke="#4a4b49" stroke-width="8"/>
+
+    <!-- Eyes -->
+    <path d="M278 267
+             Q304 250 333 264
+             Q307 282 280 273 Z"
+          fill="#fffdf4" stroke-width="5"/>
+    <path d="M395 259
+             Q423 244 451 259
+             Q426 277 399 268 Z"
+          fill="#fffdf4" stroke-width="5"/>
+
+    <circle cx="315" cy="267" r="8" fill="#171717" stroke="none"/>
+    <circle cx="431" cy="258" r="8" fill="#171717" stroke="none"/>
+    <circle cx="318" cy="264" r="2.2" fill="#ffffff" stroke="none"/>
+    <circle cx="434" cy="255" r="2.2" fill="#ffffff" stroke="none"/>
+
+    <path d="M280 264 Q305 252 330 262"
+          fill="none" stroke="#171717" stroke-width="4"/>
+    <path d="M398 256 Q423 244 449 256"
+          fill="none" stroke="#171717" stroke-width="4"/>
+
+    <!-- Nose -->
+    <path d="M378 267
+             C371 290 365 313 374 326
+             C382 335 393 332 401 324"
+          fill="none" stroke="#6f4c48" stroke-width="5"/>
+    <path d="M368 329 Q379 339 392 331"
+          fill="none" stroke="#171717" stroke-width="4"/>
+
+    <!-- Cheeks -->
+    <ellipse cx="310" cy="329" rx="18" ry="9"
+             fill="#d78377" opacity="0.42" stroke="none"/>
+    <ellipse cx="439" cy="309" rx="17" ry="8"
+             fill="#d78377" opacity="0.36" stroke="none"/>
+
+    <!-- Open mouth -->
+    <path d="M389 355
+             C410 344 440 347 461 359
+             C451 382 432 392 414 388
+             C402 381 395 368 389 355 Z"
+          fill="#2b1718" stroke-width="6"/>
+
+    <path d="M402 359
+             Q421 353 442 360
+             L437 368
+             Q419 364 407 369 Z"
+          fill="#fff8e9" stroke="none"/>
+
+    <path d="M270 357 C285 406 329 442 385 455"
+          fill="none" stroke="#a4675d" stroke-width="4" opacity="0.5"/>
+  </g>
+
+  <!-- Hand behind the hamburger -->
+  <g stroke="#171717" stroke-width="6"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M603 395
+             C614 384 631 387 642 398
+             L672 430
+             C680 440 676 452 665 456
+             C656 459 648 453 640 445
+             L622 432
+             C610 426 604 410 603 395 Z"
+          fill="url(#skinGradient)"/>
+
+    <path d="M620 409 C632 414 641 423 650 434"
+          fill="none" stroke="#b97868" stroke-width="4" opacity="0.65"/>
+  </g>
+
+  <!-- Hamburger -->
+  <g id="hamburger"
+     stroke="#211718" stroke-width="5"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <ellipse cx="530" cy="475" rx="83" ry="12"
+             fill="#171717" opacity="0.2" stroke="none"/>
+
+    <!-- Bottom bun -->
+    <path d="M460 440
+             C484 431 510 439 534 440
+             C558 441 579 435 590 443
+             C596 449 588 468 578 473
+             C554 483 483 482 466 470
+             C457 463 454 449 460 440 Z"
+          fill="#d98b32"/>
+
+    <path d="M472 454 C504 461 548 461 578 451"
+          fill="none" stroke="#f0b34d" stroke-width="7" opacity="0.8"/>
+
+    <!-- Patty -->
+    <path d="M457 419
+             C485 411 515 422 545 417
+             C565 414 584 415 592 422
+             L589 439
+             C566 447 540 441 514 445
+             C487 449 464 441 456 434 Z"
+          fill="#5a3027"/>
+
+    <path d="M475 427 L485 435
+             M507 424 L518 434
+             M548 423 L558 432"
+          fill="none" stroke="#9a5940" stroke-width="4"/>
+
+    <!-- Cheese -->
+    <path d="M454 403
+             C489 397 521 409 551 402
+             C568 399 582 400 594 404
+             L582 426
+             L568 419
+             L557 431
+             L543 419
+             L525 430
+             L511 418
+             L489 425
+             L474 415
+             L455 419 Z"
+          fill="#f6ca4f"/>
+
+    <!-- Tomato -->
+    <path d="M449 389
+             C474 383 493 395 518 390
+             C542 385 568 395 599 386
+             L592 404
+             C570 413 547 404 524 409
+             C500 414 476 403 451 408 Z"
+          fill="#df493e"/>
+
+    <!-- Lettuce -->
+    <path d="M443 377
+             C454 370 464 383 476 377
+             C488 370 498 383 510 377
+             C522 370 532 383 544 377
+             C556 370 566 383 578 377
+             C588 373 596 376 604 375
+             L598 394
+             C589 398 580 392 570 397
+             C559 402 550 393 539 398
+             C527 403 518 393 506 398
+             C494 403 484 393 472 398
+             C460 403 450 394 444 398 Z"
+          fill="#67aa4d"/>
+
+    <!-- Top bun -->
+    <path d="M438 366
+             C441 339 467 320 507 316
+             C550 312 586 329 601 357
+             C607 369 602 379 590 383
+             L453 385
+             C441 383 434 376 438 366 Z"
+          fill="url(#bunGradient)"/>
+
+    <path d="M456 348
+             C469 332 491 326 513 325"
+          fill="none" stroke="#ffe08a" stroke-width="8" opacity="0.8"/>
+
+    <!-- A small bite mark -->
+    <path d="M441 365
+             C449 357 459 357 466 363
+             C458 368 456 375 452 381
+             C442 379 435 373 441 365 Z"
+          fill="#f7d985" stroke-width="4"/>
+
+    <!-- Sesame seeds -->
+    <g fill="#fff0b6" stroke="#8c5a31" stroke-width="2">
+      <ellipse cx="477" cy="344" rx="4" ry="8"
+               transform="rotate(-24 477 344)"/>
+      <ellipse cx="501" cy="330" rx="4" ry="8"
+               transform="rotate(13 501 330)"/>
+      <ellipse cx="529" cy="329" rx="4" ry="8"
+               transform="rotate(-10 529 329)"/>
+      <ellipse cx="556" cy="339" rx="4" ry="8"
+               transform="rotate(27 556 339)"/>
+      <ellipse cx="579" cy="351" rx="4" ry="8"
+               transform="rotate(39 579 351)"/>
+      <ellipse cx="486" cy="365" rx="4" ry="7"
+               transform="rotate(-34 486 365)"/>
+    </g>
+  </g>
+
+  <!-- Fingers wrapping around the burger -->
+  <g stroke="#171717" stroke-width="6"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Thumb -->
+    <path d="M590 389
+             C600 382 612 384 619 394
+             C626 405 622 418 611 423
+             L600 420
+             C589 416 583 400 590 389 Z"
+          fill="url(#skinGradient)"/>
+
+    <path d="M601 397 Q610 400 615 408"
+          fill="none" stroke="#b97868" stroke-width="4"/>
+
+    <!-- Upper finger -->
+    <path d="M624 410
+             C634 406 644 411 651 420
+             L664 435
+             C669 442 666 450 658 452
+             C650 453 644 447 638 440
+             L627 429
+             C621 423 619 415 624 410 Z"
+          fill="url(#skinGradient)"/>
+
+    <!-- Lower finger -->
+    <path d="M633 433
+             C643 430 652 436 658 446
+             L665 459
+             C669 466 664 474 656 473
+             C648 472 643 466 638 458
+             L629 445
+             C625 440 627 436 633 433 Z"
+          fill="url(#skinGradient)"/>
+
+    <path d="M641 438 Q650 444 657 453"
+          fill="none" stroke="#b97868" stroke-width="4"/>
+  </g>
+
+  <!-- A few crumbs -->
+  <g fill="#d98b32" stroke="#211718" stroke-width="2">
+    <circle cx="426" cy="402" r="4"/>
+    <circle cx="442" cy="417" r="3"/>
+    <circle cx="409" cy="389" r="2.5"/>
+  </g>
+
+  <!-- Bottom label -->
+  <g transform="translate(535 714)">
+    <rect width="220" height="45" rx="4" fill="#e35b4b"/>
+    <text x="14" y="29"
+          fill="#fff6d9"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="15" font-weight="700"
+          letter-spacing="2">HAMBURGER</text>
+  </g>
+</svg>

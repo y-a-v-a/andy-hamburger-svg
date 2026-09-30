@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF69B4"/>
+      <stop offset="50%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FF1493"/>
+    </linearGradient>
+    <radialGradient id="faceGrad" cx="50%" cy="40%">
+      <stop offset="0%" stop-color="#FFDAB9"/>
+      <stop offset="100%" stop-color="#F5C6A0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Pop art background -->
+  <rect width="600" height="600" fill="url(#bg)"/>
+
+  <!-- Pop art dots pattern -->
+  <g opacity="0.3">
+    <circle cx="30" cy="30" r="8" fill="#FF1493"/>
+    <circle cx="90" cy="30" r="8" fill="#FF1493"/>
+    <circle cx="150" cy="30" r="8" fill="#FF1493"/>
+    <circle cx="30" cy="90" r="8" fill="#FF1493"/>
+    <circle cx="90" cy="90" r="8" fill="#FF1493"/>
+    <circle cx="510" cy="30" r="8" fill="#FF1493"/>
+    <circle cx="570" cy="30" r="8" fill="#FF1493"/>
+    <circle cx="510" cy="90" r="8" fill="#FF1493"/>
+    <circle cx="570" cy="90" r="8" fill="#FF1493"/>
+    <circle cx="30" cy="510" r="8" fill="#FF1493"/>
+    <circle cx="90" cy="510" r="8" fill="#FF1493"/>
+    <circle cx="510" cy="510" r="8" fill="#FF1493"/>
+    <circle cx="570" cy="510" r="8" fill="#FF1493"/>
+    <circle cx="30" cy="570" r="8" fill="#FF1493"/>
+    <circle cx="90" cy="570" r="8" fill="#FF1493"/>
+    <circle cx="510" cy="570" r="8" fill="#FF1493"/>
+    <circle cx="570" cy="570" r="8" fill="#FF1493"/>
+  </g>
+
+  <!-- Neck -->
+  <rect x="270" y="400" width="60" height="80" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+
+  <!-- Shirt/Collar -->
+  <path d="M240 440 L270 400 L330 400 L360 440 L350 460 L300 430 L250 460 Z" fill="#FFFFFF" stroke="#333" stroke-width="2"/>
+
+  <!-- Body/shoulders -->
+  <path d="M170 600 L240 440 L360 440 L430 600 Z" fill="#E8E8E8" stroke="#333" stroke-width="2"/>
+  <path d="M240 440 L300 480 L360 440" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Jacket lapel -->
+  <path d="M240 440 L300 500 L360 440" fill="#2C2C2C" stroke="#333" stroke-width="2"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="300" rx="90" ry="110" fill="url(#faceGrad)" stroke="#333" stroke-width="2"/>
+
+  <!-- Ears -->
+  <ellipse cx="210" cy="310" rx="18" ry="30" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+  <ellipse cx="390" cy="310" rx="18" ry="30" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+
+  <!-- White wig (Andy Warhol's iconic look) -->
+  <path d="M210 280 Q210 150 300 140 Q390 150 390 280" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="2"/>
+  <path d="M220 270 Q230 170 300 155 Q370 170 380 270" fill="#FFFFFF"/>
+  <!-- Wig strands -->
+  <path d="M230 250 Q240 180 280 165" fill="none" stroke="#DDDDDD" stroke-width="3"/>
+  <path d="M270 230 Q275 175 300 155" fill="none" stroke="#DDDDDD" stroke-width="3"/>
+  <path d="M330 230 Q325 175 300 155" fill="none" stroke="#DDDDDD" stroke-width="3"/>
+  <path d="M370 250 Q360 180 320 165" fill="none" stroke="#DDDDDD" stroke-width="3"/>
+  <!-- Side wig pieces -->
+  <path d="M210 280 Q200 300 205 330 Q215 340 220 330" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+  <path d="M390 280 Q400 300 395 330 Q385 340 380 330" fill="#F0F0F0" stroke="#CCCCCC" stroke-width="1"/>
+
+  <!-- Eyebrows -->
+  <path d="M245 270 Q265 260 285 270" fill="none" stroke="#888" stroke-width="3"/>
+  <path d="M315 270 Q335 260 355 270" fill="none" stroke="#888" stroke-width="3"/>
+
+  <!-- Glasses (Andy Warhol's iconic glasses) -->
+  <!-- Left lens -->
+  <rect x="235" y="275" width="55" height="40" rx="5" fill="#FFFFFF" fill-opacity="0.3" stroke="#333" stroke-width="3"/>
+  <!-- Right lens -->
+  <rect x="310" y="275" width="55" height="40" rx="5" fill="#FFFFFF" fill-opacity="0.3" stroke="#333" stroke-width="3"/>
+  <!-- Bridge -->
+  <path d="M290 293 Q300 288 310 293" fill="none" stroke="#333" stroke-width="3"/>
+  <!-- Temple arms -->
+  <path d="M235 290 L215 290" stroke="#333" stroke-width="3"/>
+  <path d="M365 290 L385 290" stroke="#333" stroke-width="3"/>
+
+  <!-- Eyes (looking at hamburger) -->
+  <circle cx="260" cy="295" r="7" fill="#444"/>
+  <circle cx="340" cy="295" r="7" fill="#444"/>
+  <!-- Eye highlights -->
+  <circle cx="262" cy="293" r="2.5" fill="#FFF"/>
+  <circle cx="342" cy="293" r="2.5" fill="#FFF"/>
+
+  <!-- Nose -->
+  <path d="M295 310 Q300 340 295 350" fill="none" stroke="#D4A574" stroke-width="2.5"/>
+  <path d="M305 345 Q310 350 305 355" fill="none" stroke="#D4A574" stroke-width="2"/>
+
+  <!-- Mouth (open, eating) -->
+  <ellipse cx="300" cy="375" rx="30" ry="18" fill="#C0392B" stroke="#333" stroke-width="2"/>
+  <!-- Lips -->
+  <path d="M270 375 Q285 362 300 370 Q315 362 330 375" fill="#D4565A" stroke="#333" stroke-width="2"/>
+  <!-- Lower lip -->
+  <path d="M270 375 Q285 388 300 385 Q315 388 330 375" fill="#C0392B" stroke="#333" stroke-width="2"/>
+  <!-- Teeth (visible, mouth open) -->
+  <path d="M275 372 Q290 368 300 370 Q310 368 325 372" fill="#FFF" stroke="#DDD" stroke-width="1"/>
+
+  <!-- Hamburger -->
+  <!-- Bottom bun -->
+  <path d="M420 350 Q420 375 440 380 L560 380 Q580 375 580 350 Z" fill="#E8A050" stroke="#C07030" stroke-width="2"/>
+  <!-- Patty -->
+  <rect x="425" y="335" width="150" height="18" rx="4" fill="#5C2D0E" stroke="#3E1D09" stroke-width="2"/>
+  <!-- Cheese -->
+  <path d="M425 335 L575 335 L575 340 L565 350 L545 340 L525 350 L505 340 L485 350 L465 340 L445 350 L435 340 L425 350 Z" fill="#FFD700" stroke="#E8C800" stroke-width="1"/>
+  <!-- Lettuce -->
+  <path d="M425 330 L435 325 L445 330 L455 322 L465 330 L475 324 L485 330 L495 320 L505 330 L515 324 L525 330 L535 322 L545 330 L555 324 L565 330 L575 325 L575 335 Z" fill="#7CCD7C" stroke="#5AAB5A" stroke-width="1.5"/>
+  <!-- Tomato -->
+  <rect x="430" y="318" width="140" height="10" rx="3" fill="#FF4444" stroke="#CC2222" stroke-width="1"/>
+  <!-- Top bun -->
+  <path d="M420 318 Q415 290 440 275 L560 275 Q585 290 580 318 Z" fill="#E8A050" stroke="#C07030" stroke-width="2"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="460" cy="295" rx="5" ry="3" fill="#FFF5E0" transform="rotate(-20 460 295)"/>
+  <ellipse cx="500" cy="288" rx="5" ry="3" fill="#FFF5E0" transform="rotate(10 500 288)"/>
+  <ellipse cx="540" cy="295" rx="5" ry="3" fill="#FFF5E0" transform="rotate(-15 540 295)"/>
+  <ellipse cx="480" cy="298" rx="5" ry="3" fill="#FFF5E0" transform="rotate(25 480 298)"/>
+  <ellipse cx="520" cy="300" rx="5" ry="3" fill="#FFF5E0" transform="rotate(-10 520 300)"/>
+
+  <!-- Hand holding hamburger -->
+  <!-- Fingers -->
+  <path d="M415 340 Q405 345 405 360 Q405 375 415 378 L430 378" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+  <path d="M415 378 Q410 385 415 395 Q420 400 430 398 L445 398" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+  <!-- Thumb -->
+  <path d="M440 348 Q450 340 460 342 Q465 345 460 355 L455 365" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+  <!-- Palm/back of hand -->
+  <path d="M390 345 L415 340 Q410 360 410 378 Q405 390 415 400 Q430 410 460 410 Q500 410 520 400 L520 375 Q520 355 510 345 Z" fill="#F5C6A0" stroke="#333" stroke-width="2"/>
+  <!-- Arm -->
+  <path d="M520 410 Q560 430 590 470 L600 500 L600 600 L560 600 Q540 520 510 470 L490 430 Q475 415 460 410" fill="#E8E8E8" stroke="#333" stroke-width="2"/>
+
+  <!-- Hamburger coming toward mouth - motion lines -->
+  <line x1="425" y1="370" x2="360" y2="365" stroke="#333" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <line x1="430" y1="355" x2="370" y2="345" stroke="#333" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+
+  <!-- Pop art style border -->
+  <rect x="10" y="10" width="580" height="580" fill="none" stroke="#FF1493" stroke-width="6"/>
+  <rect x="18" y="18" width="564" height="564" fill="none" stroke="#FFD700" stroke-width="3"/>
+
+  <!-- Title text in pop art style -->
+  <text x="300" y="50" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="28" font-weight="bold" fill="#FFFFFF" stroke="#333" stroke-width="1">
+    WARHOL &amp; BURGER
+  </text>
+
+  <!-- Pop art star -->
+  <polygon points="300,75 307,95 328,95 311,107 317,127 300,115 283,127 289,107 272,95 293,95" fill="#FFD700" stroke="#333" stroke-width="1.5" opacity="0.8"/>
+</svg>

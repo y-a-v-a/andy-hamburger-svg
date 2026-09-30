@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <style>
+      .skin { fill: #f5d5b8; }
+      .hair { fill: #f2e04e; }
+      .hair-shadow { fill: #e0c830; }
+      .shirt { fill: #4a90d9; }
+      .burger-top { fill: #d4944a; }
+      .burger-top-light { fill: #e8b06a; }
+      .lettuce { fill: #6abf40; }
+      .tomato { fill: #e03e3e; }
+      .patty { fill: #6b3a2a; }
+      .cheese { fill: #f5c842; }
+      .burger-bottom { fill: #c88040; }
+      .sesame { fill: #fff8e0; }
+      .glasses-frame { fill: none; stroke: #333; stroke-width: 3; }
+      .glasses-lens { fill: #d0e8f0; opacity: 0.6; }
+      .lip { fill: #d96b6b; }
+      .line { stroke: #444; stroke-width: 2; fill: none; stroke-linecap: round; }
+    </style>
+    <!-- Pop art background pattern -->
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.5" fill="#e8c8ff" opacity="0.4"/>
+    </pattern>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff69b4"/>
+      <stop offset="100%" stop-color="#9b30ff"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Pop art background -->
+  <rect width="500" height="500" fill="url(#bgGlow)"/>
+  <rect width="500" height="500" fill="url(#dots)"/>
+
+  <!-- Warhol-inspired colored background shapes -->
+  <circle cx="250" cy="280" r="160" fill="#ff1493" opacity="0.25"/>
+  <circle cx="250" cy="280" r="130" fill="#ff69b4" opacity="0.2"/>
+
+  <!-- Table / surface -->
+  <rect x="0" y="380" width="500" height="120" fill="#c0392b" rx="5"/>
+  <rect x="0" y="380" width="500" height="8" fill="#e74c3c"/>
+
+  <!-- Body / Shirt -->
+  <path d="M170 380 L170 320 Q170 290 200 280 L300 280 Q330 290 330 320 L330 380 Z" class="shirt"/>
+  <!-- Shirt collar -->
+  <path d="M225 282 L250 310 L275 282" fill="none" stroke="#2c6ab0" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <rect x="230" y="260" width="40" height="30" rx="5" class="skin"/>
+  <path d="M235 270 Q250 278 265 270" class="line" opacity="0.3"/>
+
+  <!-- Head shape -->
+  <ellipse cx="250" cy="190" rx="85" ry="95" class="skin"/>
+
+  <!-- Hair - big Andy Warhol wig -->
+  <!-- Back layer -->
+  <path d="M155 170 Q145 100 180 65 Q210 35 250 30 Q290 35 320 65 Q355 100 345 170 L345 185 Q340 120 310 90 Q280 60 250 55 Q220 60 190 90 Q160 120 155 185 Z" class="hair-shadow"/>
+  <!-- Front hair -->
+  <path d="M152 175 Q140 105 175 68 Q205 38 250 32 Q295 38 325 68 Q360 105 348 175 Q345 145 335 125 Q315 85 280 65 Q265 58 250 56 Q235 58 220 65 Q185 85 165 125 Q155 145 152 175 Z" class="hair"/>
+  <!-- Hair fringe / bangs -->
+  <path d="M165 135 Q180 105 215 90 Q235 82 250 80 Q265 82 285 90 Q320 105 335 135 Q320 115 300 100 Q280 88 250 85 Q220 88 200 100 Q180 115 165 135 Z" class="hair"/>
+  <!-- Hair texture lines -->
+  <path d="M185 140 Q200 100 225 82" class="line" stroke="#d4b830" stroke-width="1.5" opacity="0.5"/>
+  <path d="M210 135 Q225 95 250 78" class="line" stroke="#d4b830" stroke-width="1.5" opacity="0.5"/>
+  <path d="M240 135 Q260 90 285 82" class="line" stroke="#d4b830" stroke-width="1.5" opacity="0.5"/>
+  <path d="M270 138 Q295 95 315 85" class="line" stroke="#d4b830" stroke-width="1.5" opacity="0.5"/>
+  <path d="M175 148 Q185 115 205 95" class="line" stroke="#d4b830" stroke-width="1" opacity="0.4"/>
+
+  <!-- Ears -->
+  <ellipse cx="163" cy="205" rx="12" ry="18" class="skin"/>
+  <ellipse cx="337" cy="205" rx="12" ry="18" class="skin"/>
+  <path d="M162 200 Q158 205 162 210" class="line" opacity="0.3"/>
+  <path d="M338 200 Q342 205 338 210" class="line" opacity="0.3"/>
+
+  <!-- Face features -->
+
+  <!-- Eyebrows -->
+  <path d="M190 172 Q215 160 235 168" class="line" stroke="#8a6b2e" stroke-width="2.5"/>
+  <path d="M265 168 Q285 160 310 172" class="line" stroke="#8a6b2e" stroke-width="2.5"/>
+
+  <!-- Eyes -->
+  <!-- Left eye -->
+  <ellipse cx="215" cy="192" rx="18" ry="12" class="glasses-lens"/>
+  <ellipse cx="215" cy="192" rx="13" ry="9" fill="white"/>
+  <circle cx="215" cy="192" r="6" fill="#4a3080"/>
+  <circle cx="215" cy="192" r="3" fill="#1a0a3a"/>
+  <circle cx="218" cy="189" r="1.5" fill="white"/>
+  <!-- Left eyelid -->
+  <path d="M200 186 Q215 180 230 186" class="line" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Right eye -->
+  <ellipse cx="285" cy="192" rx="18" ry="12" class="glasses-lens"/>
+  <ellipse cx="285" cy="192" rx="13" ry="9" fill="white"/>
+  <circle cx="285" cy="192" r="6" fill="#4a3080"/>
+  <circle cx="285" cy="192" r="3" fill="#1a0a3a"/>
+  <circle cx="288" cy="189" r="1.5" fill="white"/>
+  <!-- Right eyelid -->
+  <path d="M270 186 Q285 180 300 186" class="line" stroke="#444" stroke-width="1.5"/>
+
+  <!-- Glasses frames -->
+  <ellipse cx="215" cy="192" rx="22" ry="16" class="glasses-frame"/>
+  <ellipse cx="285" cy="192" rx="22" ry="16" class="glasses-frame"/>
+  <line x1="237" y1="192" x2="263" y2="192" stroke="#333" stroke-width="3"/>
+  <!-- Glasses arms -->
+  <line x1="193" y1="192" x2="165" y2="200" stroke="#333" stroke-width="3"/>
+  <line x1="307" y1="192" x2="335" y2="200" stroke="#333" stroke-width="3"/>
+
+  <!-- Nose -->
+  <path d="M250 200 Q243 215 240 225 Q245 230 250 232 Q255 230 260 225 Q257 215 250 200" class="line" stroke="#c4967a" stroke-width="2"/>
+
+  <!-- Mouth / eating expression -->
+  <!-- Mouth open slightly eating -->
+  <path d="M228 248 Q240 262 250 264 Q260 262 272 248 Q265 270 250 272 Q235 270 228 248" fill="#8b2020" stroke="#6b1515" stroke-width="1.5"/>
+  <!-- Lips -->
+  <path d="M225 248 Q235 242 250 244 Q265 242 275 248 Q268 252 250 250 Q232 252 225 248 Z" class="lip"/>
+  <!-- Upper lip -->
+  <path d="M225 248 Q232 240 243 243 Q247 238 250 238 Q253 238 257 243 Q268 240 275 248" fill="none" stroke="#c06060" stroke-width="1.5"/>
+
+  <!-- Chin / jaw shadow -->
+  <path d="M215 265 Q250 280 285 265" class="line" stroke="#d4a888" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Left arm reaching toward burger -->
+  <path d="M170 340 Q140 360 130 375 Q125 385 135 395 L155 395 Q145 385 150 375 Q160 355 175 345 Z" class="shirt"/>
+  <!-- Left hand holding burger -->
+  <path d="M130 370 Q115 375 110 385 Q108 395 115 400 L145 400 Q155 395 152 385 Q148 375 138 370 Z" class="skin"/>
+
+  <!-- Right arm -->
+  <path d="M330 340 Q360 360 370 375 Q375 385 365 395 L345 395 Q355 385 350 375 Q340 355 325 345 Z" class="shirt"/>
+  <!-- Right hand raised near face -->
+  <path d="M360 340 Q375 320 380 310 Q385 300 378 295 L365 300 Q370 308 368 315 Q365 325 355 338 Z" class="skin"/>
+
+  <!-- HAMBURGER -->
+  <!-- Held near mouth, slightly to the left -->
+  <g transform="translate(100, 320) rotate(-15)">
+    <!-- Bottom bun -->
+    <path d="M0 75 Q0 68 5 65 L75 65 Q80 68 80 75 Q80 85 75 87 L5 87 Q0 85 0 75 Z" class="burger-bottom"/>
+    <!-- Patty -->
+    <path d="M2 62 L78 62 Q82 62 82 58 L82 50 Q82 46 78 46 L2 46 Q-2 46 -2 50 L-2 58 Q-2 62 2 62 Z" class="patty"/>
+    <!-- Patty texture -->
+    <path d="M8 54 Q20 50 35 55 Q50 50 65 54" class="line" stroke="#8b5038" stroke-width="1" opacity="0.5"/>
+    <path d="M12 58 Q25 55 40 58 Q55 55 68 58" class="line" stroke="#8b5038" stroke-width="1" opacity="0.5"/>
+
+    <!-- Cheese -->
+    <path d="M-2 48 Q-2 44 3 42 L77 42 Q82 44 82 48 L82 50 Q78 52 74 50 Q70 55 66 50 Q62 52 58 50 Q54 55 50 50 Q46 52 42 50 Q38 55 34 50 Q30 52 26 50 Q22 55 18 50 Q14 52 10 50 Q6 55 2 50 Z" class="cheese"/>
+
+    <!-- Tomato -->
+    <path d="M5 40 L75 40 Q78 40 78 36 Q78 32 75 32 L5 32 Q2 32 2 36 Q2 40 5 40 Z" class="tomato"/>
+
+    <!-- Lettuce -->
+    <path d="M-3 33 Q3 28 8 30 Q13 25 18 28 Q23 23 28 27 Q33 22 38 26 Q43 21 48 26 Q53 22 58 27 Q63 23 68 28 Q73 25 78 30 Q83 28 83 33 Q80 35 75 33 Q70 36 65 33 Q60 36 55 33 Q50 36 45 33 Q40 36 35 33 Q30 36 25 33 Q20 36 15 33 Q10 36 5 33 Z" class="lettuce"/>
+
+    <!-- Top bun -->
+    <path d="M5 28 Q5 10 20 3 Q28 -2 40 -4 Q52 -2 60 3 Q75 10 75 28 Q40 32 5 28 Z" class="burger-top"/>
+    <!-- Top bun highlight -->
+    <path d="M15 22 Q25 10 40 6 Q55 10 65 22 Q40 26 15 22 Z" class="burger-top-light"/>
+
+    <!-- Sesame seeds -->
+    <ellipse cx="25" cy="18" rx="3" ry="2" class="sesame" transform="rotate(-15 25 18)"/>
+    <ellipse cx="40" cy="12" rx="3" ry="2" class="sesame" transform="rotate(5 40 12)"/>
+    <ellipse cx="55" cy="16" rx="3" ry="2" class="sesame" transform="rotate(15 55 16)"/>
+    <ellipse cx="32" cy="24" rx="3" ry="2" class="sesame" transform="rotate(-10 32 24)"/>
+    <ellipse cx="50" cy="22" rx="3" ry="2" class="sesame" transform="rotate(8 50 22)"/>
+    <ellipse cx="42" cy="20" rx="2.5" ry="1.8" class="sesame" transform="rotate(-5 42 20)"/>
+    <ellipse cx="20" cy="14" rx="2.5" ry="1.8" class="sesame" transform="rotate(-20 20 14)"/>
+    <ellipse cx="62" cy="12" rx="2.5" ry="1.8" class="sesame" transform="rotate(25 62 12)"/>
+  </g>
+
+  <!-- Fingers on burger -->
+  <g transform="translate(100, 320) rotate(-15)">
+    <!-- Thumb -->
+    <ellipse cx="-5" cy="55" rx="6" ry="10" class="skin" transform="rotate(20 -5 55)"/>
+    <!-- Fingers wrapping around -->
+    <rect x="-8" y="35" width="6" height="18" rx="3" class="skin" transform="rotate(5 -5 44)"/>
+    <rect x="-8" y="42" width="6" height="18" rx="3" class="skin" transform="rotate(8 -5 51)"/>
+    <rect x="-8" y="50" width="6" height="18" rx="3" class="skin" transform="rotate(12 -5 59)"/>
+  </g>
+
+  <!-- Pop art decorative elements -->
+  <!-- Stars -->
+  <g fill="#ffd700" opacity="0.6">
+    <polygon points="430,60 435,75 450,75 438,85 443,100 430,90 417,100 422,85 410,75 425,75" />
+    <polygon points="60,80 63,89 73,89 65,95 68,105 60,98 52,105 55,95 47,89 57,89" />
+    <polygon points="440,300 443,309 453,309 445,315 448,325 440,318 432,325 435,315 427,309 437,309" />
+    <polygon points="55,300 57,306 64,306 59,310 61,317 55,313 49,317 51,310 46,306 53,306" />
+  </g>
+
+  <!-- Pop art text -->
+  <text x="250" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#fff" opacity="0.85" letter-spacing="4">ANDY LOVES</text>
+  <text x="250" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffd700" letter-spacing="6">BURGERS</text>
+</svg>

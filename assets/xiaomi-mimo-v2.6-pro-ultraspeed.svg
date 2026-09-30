@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 780" width="620" height="780">
+  <defs>
+    <!-- Pop art halftone pattern -->
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2" fill="#FF4500" opacity="0.12"/>
+    </pattern>
+    <!-- Warm radial glow -->
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFF3D0"/>
+      <stop offset="100%" stop-color="#FFE8B0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== BACKGROUND ===== -->
+  <rect width="620" height="780" fill="url(#glow)"/>
+  <rect width="620" height="780" fill="url(#dots)"/>
+
+  <!-- Decorative pop-art corner dots -->
+  <g opacity="0.3" fill="#FF4500">
+    <circle cx="25" cy="25" r="5"/><circle cx="50" cy="25" r="5"/><circle cx="75" cy="25" r="5"/>
+    <circle cx="37" cy="50" r="5"/><circle cx="62" cy="50" r="5"/>
+    <circle cx="545" cy="25" r="5"/><circle cx="570" cy="25" r="5"/><circle cx="595" cy="25" r="5"/>
+    <circle cx="558" cy="50" r="5"/><circle cx="583" cy="50" r="5"/>
+  </g>
+
+  <!-- ===== TABLE ===== -->
+  <rect x="0" y="570" width="620" height="210" fill="#5C3A1E"/>
+  <rect x="0" y="570" width="620" height="8" fill="#7A5230"/>
+  <rect x="0" y="578" width="620" height="3" fill="#8B6535" opacity="0.5"/>
+
+  <!-- ===== WARHOL'S BODY (black turtleneck) ===== -->
+  <path d="M 135 570 Q 125 510 155 455 Q 185 415 240 405 L 380 405
+           Q 435 415 465 455 Q 495 510 485 570 Z" fill="#1C1C1C"/>
+  <!-- Turtleneck collar -->
+  <ellipse cx="310" cy="410" rx="58" ry="20" fill="#2A2A2A"/>
+  <!-- Subtle fabric folds -->
+  <path d="M 200 500 Q 220 480 215 460" fill="none" stroke="#2A2A2A" stroke-width="2" opacity="0.5"/>
+  <path d="M 400 510 Q 385 490 390 465" fill="none" stroke="#2A2A2A" stroke-width="2" opacity="0.5"/>
+
+  <!-- ===== NECK ===== -->
+  <rect x="280" y="355" width="60" height="75" rx="12" fill="#FFECD2"/>
+  <path d="M 285 370 Q 310 375 335 370" fill="none" stroke="#E8D0B0" stroke-width="1.5"/>
+
+  <!-- ===== HEAD ===== -->
+  <ellipse cx="310" cy="258" rx="108" ry="128" fill="#FFECD2"/>
+
+  <!-- Ears -->
+  <ellipse cx="203" cy="275" rx="16" ry="25" fill="#FFECD2" stroke="#E0C8A8" stroke-width="1"/>
+  <ellipse cx="417" cy="275" rx="16" ry="25" fill="#FFECD2" stroke="#E0C8A8" stroke-width="1"/>
+
+  <!-- ===== SILVER WIG ===== -->
+  <!-- Main hair mass -->
+  <path d="M 200 240
+           Q 195 165 235 138
+           Q 270 115 310 110
+           Q 350 115 385 138
+           Q 425 165 420 240
+           Q 428 215 418 175
+           Q 380 132 310 128
+           Q 240 132 202 175
+           Q 192 215 200 240 Z"
+        fill="#C8C8C8" stroke="#A8A8A8" stroke-width="1.5"/>
+
+  <!-- Hair top volume -->
+  <ellipse cx="310" cy="158" rx="118" ry="52" fill="#D8D8D8" stroke="#A8A8A8" stroke-width="1"/>
+
+  <!-- Hair strand textures -->
+  <path d="M 235 155 Q 275 128 310 125 Q 345 128 385 155" fill="none" stroke="#B8B8B8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 225 180 Q 275 148 310 145 Q 345 148 395 180" fill="none" stroke="#B8B8B8" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 245 142 Q 285 118 310 116 Q 335 118 375 142" fill="none" stroke="#B8B8B8" stroke-width="1.5" opacity="0.35"/>
+  <path d="M 215 205 Q 280 165 310 162 Q 340 165 405 205" fill="none" stroke="#B8B8B8" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Hair side locks -->
+  <path d="M 200 240 Q 192 275 200 310 Q 205 290 208 265 Q 204 242 210 228" fill="#C0C0C0"/>
+  <path d="M 420 240 Q 428 275 420 310 Q 415 290 412 265 Q 416 242 410 228" fill="#C0C0C0"/>
+
+  <!-- Highlights in hair -->
+  <ellipse cx="285" cy="142" rx="30" ry="12" fill="#E8E8E8" opacity="0.4" transform="rotate(-10, 285, 142)"/>
+  <ellipse cx="340" cy="138" rx="25" ry="10" fill="#E8E8E8" opacity="0.3" transform="rotate(8, 340, 138)"/>
+
+  <!-- ===== FACIAL FEATURES ===== -->
+
+  <!-- Eyebrows -->
+  <path d="M 255 218 Q 275 208 295 215" fill="none" stroke="#B0A898" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 325 215 Q 345 208 365 218" fill="none" stroke="#B0A898" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left eye -->
+  <ellipse cx="273" cy="243" rx="21" ry="12" fill="white" stroke="#888" stroke-width="1"/>
+  <circle cx="275" cy="243" r="8" fill="#2C1810"/>
+  <circle cx="277" cy="241" r="3" fill="white"/>
+  <!-- Upper eyelid shadow -->
+  <path d="M 252 238 Q 273 227 294 238 Q 292 233 273 222 Q 254 233 252 238 Z" fill="#E8D0B8" opacity="0.4"/>
+  <!-- Lashes -->
+  <path d="M 254 236 Q 258 230 256 226" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 262 233 Q 265 227 263 224" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 280 230 Q 282 225 281 222" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 288 233 Q 291 227 289 224" fill="none" stroke="#333" stroke-width="1.2"/>
+
+  <!-- Right eye -->
+  <ellipse cx="347" cy="243" rx="21" ry="12" fill="white" stroke="#888" stroke-width="1"/>
+  <circle cx="349" cy="243" r="8" fill="#2C1810"/>
+  <circle cx="351" cy="241" r="3" fill="white"/>
+  <!-- Upper eyelid shadow -->
+  <path d="M 326 238 Q 347 227 368 238 Q 366 233 347 222 Q 328 233 326 238 Z" fill="#E8D0B8" opacity="0.4"/>
+  <!-- Lashes -->
+  <path d="M 328 236 Q 332 230 330 226" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 336 233 Q 339 227 337 224" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 354 230 Q 356 225 355 222" fill="none" stroke="#333" stroke-width="1.2"/>
+  <path d="M 362 233 Q 365 227 363 224" fill="none" stroke="#333" stroke-width="1.2"/>
+
+  <!-- Nose -->
+  <path d="M 310 250 Q 307 272 298 288 Q 304 293 310 290 Q 316 293 322 288 Q 313 272 310 250"
+        fill="none" stroke="#D4B896" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Nose tip highlight -->
+  <ellipse cx="310" cy="284" rx="6" ry="4" fill="#F0DCC0" opacity="0.6"/>
+  <!-- Nostrils -->
+  <ellipse cx="301" cy="289" rx="4" ry="2.5" fill="#D4B896"/>
+  <ellipse cx="319" cy="289" rx="4" ry="2.5" fill="#D4B896"/>
+
+  <!-- Mouth - slightly open (eating) -->
+  <!-- Upper lip -->
+  <path d="M 278 318 Q 288 310 300 312 Q 312 310 322 318"
+        fill="none" stroke="#CC8080" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Mouth opening -->
+  <path d="M 278 318 Q 288 322 300 324 Q 312 322 322 318"
+        fill="none" stroke="#CC8080" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Inner mouth -->
+  <path d="M 282 319 Q 292 316 300 317 Q 308 316 318 319 Q 312 327 300 329 Q 288 327 282 319 Z"
+        fill="#8B2020"/>
+  <!-- Teeth hint -->
+  <rect x="288" y="318" width="24" height="4" rx="1.5" fill="#F5F0E0" opacity="0.7"/>
+  <!-- Lower lip -->
+  <path d="M 278 318 Q 282 334 300 338 Q 318 334 322 318"
+        fill="none" stroke="#CC8080" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Lower lip highlight -->
+  <path d="M 288 328 Q 300 332 312 328" fill="none" stroke="#E0A0A0" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Chin definition -->
+  <path d="M 288 352 Q 310 360 332 352" fill="none" stroke="#E8D0B0" stroke-width="1.2" opacity="0.4"/>
+
+  <!-- Subtle cheek definition -->
+  <path d="M 230 275 Q 238 295 248 310" fill="none" stroke="#E8D0B0" stroke-width="1" opacity="0.3"/>
+  <path d="M 390 275 Q 382 295 372 310" fill="none" stroke="#E8D0B0" stroke-width="1" opacity="0.3"/>
+
+  <!-- ===== ARM (right arm, viewer's left) ===== -->
+  <!-- Upper arm in black sleeve -->
+  <path d="M 175 555 Q 152 505 162 448 Q 172 405 215 382"
+        fill="none" stroke="#1C1C1C" stroke-width="50" stroke-linecap="round"/>
+  <!-- Forearm -->
+  <path d="M 215 382 Q 250 362 275 348"
+        fill="none" stroke="#FFECD2" stroke-width="30" stroke-linecap="round"/>
+  <!-- Wrist cuff -->
+  <ellipse cx="222" cy="378" rx="18" ry="15" fill="#1C1C1C" transform="rotate(-35, 222, 378)"/>
+
+  <!-- ===== HAND HOLDING BURGER ===== -->
+  <!-- Palm -->
+  <ellipse cx="280" cy="342" rx="16" ry="12" fill="#FFECD2" stroke="#E0C8A8" stroke-width="1" transform="rotate(-15, 280, 342)"/>
+  <!-- Thumb -->
+  <ellipse cx="270" cy="336" rx="6" ry="10" fill="#FFECD2" stroke="#E0C8A8" stroke-width="0.8" transform="rotate(-30, 270, 336)"/>
+  <!-- Fingers wrapping around burger -->
+  <ellipse cx="272" cy="352" rx="5" ry="10" fill="#FFECD2" stroke="#E0C8A8" stroke-width="0.8" transform="rotate(20, 272, 352)"/>
+  <ellipse cx="278" cy="355" rx="5" ry="9" fill="#FFECD2" stroke="#E0C8A8" stroke-width="0.8" transform="rotate(15, 278, 355)"/>
+  <ellipse cx="284" cy="354" rx="5" ry="9" fill="#FFECD2" stroke="#E0C8A8" stroke-width="0.8" transform="rotate(10, 284, 354)"/>
+
+  <!-- ===== HAMBURGER (near mouth) ===== -->
+  <!-- Burger center approx (292, 325) -->
+
+  <!-- Bottom bun -->
+  <path d="M 248 345 Q 248 356 292 358 Q 336 356 336 345"
+        fill="#D4943A" stroke="#B07020" stroke-width="1.5"/>
+  <ellipse cx="292" cy="345" rx="44" ry="7" fill="#E8A848" stroke="#B07020" stroke-width="1.5"/>
+
+  <!-- Burger patty -->
+  <ellipse cx="292" cy="338" rx="41" ry="7" fill="#6B3A2A" stroke="#552E22" stroke-width="1"/>
+
+  <!-- Cheese -->
+  <path d="M 254 334 Q 272 330 292 331 Q 312 330 330 334
+           Q 320 337 292 335 Q 264 337 254 334" fill="#F5C542"/>
+
+  <!-- Tomato slice -->
+  <ellipse cx="292" cy="330" rx="36" ry="5" fill="#E84040" stroke="#CC3333" stroke-width="0.8"/>
+
+  <!-- Lettuce (frilly) -->
+  <path d="M 255 325 Q 268 319 280 323 Q 290 317 300 321 Q 310 317 322 323 Q 330 319 336 325
+           Q 325 328 292 327 Q 259 328 255 325"
+        fill="#5CB85C" stroke="#4A9E4A" stroke-width="1"/>
+
+  <!-- Top bun -->
+  <path d="M 248 325 Q 248 300 292 293 Q 336 300 336 325
+           Q 336 328 292 328 Q 248 328 248 325"
+        fill="#D4943A" stroke="#B07020" stroke-width="1.5"/>
+  <ellipse cx="292" cy="325" rx="44" ry="4" fill="#E8A848" stroke="#B07020" stroke-width="1.5"/>
+
+  <!-- Sesame seeds -->
+  <ellipse cx="270" cy="312" rx="3" ry="2" fill="#FFF8DC" transform="rotate(-12, 270, 312)"/>
+  <ellipse cx="290" cy="306" rx="3" ry="2" fill="#FFF8DC" transform="rotate(3, 290, 306)"/>
+  <ellipse cx="310" cy="308" rx="3" ry="2" fill="#FFF8DC" transform="rotate(10, 310, 308)"/>
+  <ellipse cx="280" cy="315" rx="3" ry="2" fill="#FFF8DC" transform="rotate(-6, 280, 315)"/>
+  <ellipse cx="302" cy="314" rx="3" ry="2" fill="#FFF8DC" transform="rotate(8, 302, 314)"/>
+  <ellipse cx="260" cy="316" rx="2.5" ry="1.8" fill="#FFF8DC" transform="rotate(-20, 260, 316)"/>
+  <ellipse cx="322" cy="313" rx="2.5" ry="1.8" fill="#FFF8DC" transform="rotate(18, 322, 313)"/>
+
+  <!-- Burger shadow on face (subtle) -->
+  <ellipse cx="292" cy="325" rx="50" ry="35" fill="black" opacity="0.03"/>
+
+  <!-- ===== LEFT ARM resting on table ===== -->
+  <path d="M 440 545 Q 475 530 505 535 Q 530 540 545 558"
+        fill="none" stroke="#1C1C1C" stroke-width="42" stroke-linecap="round"/>
+  <!-- Hand on table -->
+  <ellipse cx="555" cy="565" rx="18" ry="12" fill="#FFECD2" stroke="#E0C8A8" stroke-width="1" transform="rotate(15, 555, 565)"/>
+
+  <!-- ===== BURGER KING WRAPPER ON TABLE ===== -->
+  <!-- Crumpled wrapper -->
+  <path d="M 430 548 L 510 540 L 535 558 L 525 572 L 445 578 L 420 562 Z"
+        fill="#FF6B35" stroke="#E05525" stroke-width="1.5"/>
+  <!-- Wrapper fold lines -->
+  <path d="M 435 555 L 515 548" fill="none" stroke="#E05525" stroke-width="0.8" opacity="0.5"/>
+  <path d="M 440 568 L 525 562" fill="none" stroke="#E05525" stroke-width="0.8" opacity="0.5"/>
+  <!-- Crown logo -->
+  <path d="M 462 552 L 472 543 L 482 552 L 492 543 L 502 552"
+        fill="none" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="482" y="566" font-family="Arial, sans-serif" font-size="9" fill="white" text-anchor="middle" font-weight="bold">Burger King</text>
+
+  <!-- ===== NAPKIN ON TABLE ===== -->
+  <rect x="65" y="552" width="80" height="35" rx="4" fill="#FFFACD" stroke="#E8E0B0" stroke-width="1.2" transform="rotate(-7, 105, 569)"/>
+  <line x1="75" y1="565" x2="135" y2="560" stroke="#E8E0B0" stroke-width="0.8" opacity="0.5" transform="rotate(-7, 105, 569)"/>
+
+  <!-- ===== SODA CUP (right side) ===== -->
+  <path d="M 530 555 L 545 590 L 575 590 L 590 555 Z" fill="#E8E8E8" stroke="#CCC" stroke-width="1"/>
+  <rect x="525" y="548" width="70" height="12" rx="3" fill="#DD3333" stroke="#BB2222" stroke-width="1"/>
+  <!-- Straw -->
+  <rect x="555" y="530" width="5" height="25" rx="2" fill="#FF4444" stroke="#DD2222" stroke-width="0.5"/>
+
+  <!-- ===== POP ART STYLE TITLE BANNER ===== -->
+  <!-- Main banner -->
+  <rect x="15" y="712" width="590" height="52" rx="5" fill="#FF4500" opacity="0.92"/>
+  <rect x="18" y="715" width="584" height="46" rx="3" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  <text x="310" y="735" font-family="Arial Black, Impact, sans-serif" font-size="22" fill="white"
+        text-anchor="middle" letter-spacing="2" font-weight="bold">ANDY WARHOL</text>
+  <text x="310" y="755" font-family="Arial Black, Impact, sans-serif" font-size="18" fill="#FFD700"
+        text-anchor="middle" letter-spacing="1" font-weight="bold">EATS A HAMBURGER</text>
+
+  <!-- ===== ADDITIONAL POP ART ELEMENTS ===== -->
+  <!-- Thought bubble style annotation -->
+  <g opacity="0.15">
+    <circle cx="540" cy="120" r="45" fill="#FF4500"/>
+    <circle cx="510" cy="165" r="15" fill="#FF4500"/>
+    <circle cx="498" cy="185" r="8" fill="#FF4500"/>
+    <text x="540" y="112" font-family="Arial Black, sans-serif" font-size="11" fill="#FF4500" text-anchor="middle" font-weight="bold">"I</text>
+    <text x="540" y="126" font-family="Arial Black, sans-serif" font-size="11" fill="#FF4500" text-anchor="middle" font-weight="bold">really</text>
+    <text x="540" y="140" font-family="Arial Black, sans-serif" font-size="11" fill="#FF4500" text-anchor="middle" font-weight="bold">like</text>
+    <text x="540" y="154" font-family="Arial Black, sans-serif" font-size="11" fill="#FF4500" text-anchor="middle" font-weight="bold">it."</text>
+  </g>
+
+</svg>
