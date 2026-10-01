@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="640" height="640" viewBox="0 0 640 640"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">
+    A pop-art illustration of Andy Warhol with a silver wig and black
+    turtleneck, holding a hamburger to his mouth against a colorful background.
+  </desc>
+
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#151515" opacity=".13"/>
+    </pattern>
+    <style>
+      .ink {
+        stroke: #151515;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .detail {
+        fill: none;
+        stroke: #151515;
+        stroke-width: 3;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Screen-print-style background -->
+  <path fill="#ff5ca8" d="M0 0h320v320H0z"/>
+  <path fill="#ffe34a" d="M320 0h320v320H320z"/>
+  <path fill="#45d9dc" d="M0 320h320v320H0z"/>
+  <path fill="#ff8650" d="M320 320h320v320H320z"/>
+  <path fill="url(#dots)" d="M0 0h640v640H0z"/>
+
+  <!-- Offset print silhouette -->
+  <path d="M125 640v-80q5-105 125-130l11-54
+           q-63-66-52-169 10-122 121-132
+           128 0 143 121 15 95-55 175l9 59
+           q109 24 124 130v80z"
+        fill="#e92572" opacity=".65" transform="translate(13 8)"/>
+
+  <!-- Turtleneck and shoulders -->
+  <path class="ink" fill="#202024"
+        d="M102 640l14-100q12-82 129-109
+           l29-36h99l32 36q116 24 132 109l14 100z"/>
+  <path class="ink" fill="#303036"
+        d="M251 389q70 28 139-1l13 69
+           q-77 45-158-2z"/>
+  <path class="detail" stroke="#62626b"
+        d="M158 555l-11 85m333-91 18 91M255 450q71 29 135-1"/>
+
+  <!-- Neck -->
+  <path class="ink" fill="#efbfa0"
+        d="M274 340l-5 61q48 32 103-1l-8-67z"/>
+  <path fill="#d99580" d="M275 354q41 31 90-10l5 33q-45 32-96 4z"/>
+
+  <!-- Ears -->
+  <ellipse class="ink" cx="225" cy="272" rx="20" ry="37" fill="#f4c8aa"/>
+  <ellipse class="ink" cx="420" cy="272" rx="19" ry="36" fill="#f4c8aa"/>
+  <path class="detail" d="M222 260q15-12 11 20m185-22q-12-8-8 21"/>
+
+  <!-- Long, pale face -->
+  <path class="ink" fill="#f6cfb2"
+        d="M230 182q37-48 101-43 66 0 86 49
+           l-7 112q-5 51-36 77-24 23-52 23
+           -38-3-65-35-24-30-27-73z"/>
+  <path fill="#e3a48c"
+        d="M391 207l16 6-6 84q-6 53-42 78
+           l-16 5q42-52 48-173z"/>
+
+  <!-- Iconic silver wig -->
+  <path class="ink" fill="#e4e5eb"
+        d="M215 260l-14-45 8-24-9-14 18-22-3-18
+           26-20 9-23 27 1 21-21 28 8 29-13
+           27 14 25-1 17 24 23 9 4 27 15 19
+           -3 28 6 26-18 47-9-53-16-23
+           -5 36-21-41-12 26-19-33-22 27
+           -6-28-21 35-8-24-20 42-8-16z"/>
+  <g fill="none" stroke-linecap="round">
+    <path stroke="#a5a8b4" stroke-width="7"
+          d="M241 147l-19 66m50-88-29 69
+             m59-83-29 68m59-73-31 65
+             m62-58-22 56m50-43-15 59
+             m37-29 2 45"/>
+    <path stroke="#fff" stroke-width="5"
+          d="M248 135l-15 42m53-61-24 52
+             m60-66-28 52m57-45-21 42
+             m46-32-10 36"/>
+  </g>
+
+  <!-- Brows and watchful eyes -->
+  <path class="detail" d="M249 239q20-10 39-2m58-1q20-9 38 1"/>
+  <path class="detail" d="M251 252q17-9 34 0m62-1q17-8 32 1"/>
+  <ellipse cx="271" cy="252" rx="4" ry="5" fill="#262329"/>
+  <ellipse cx="361" cy="251" rx="4" ry="5" fill="#262329"/>
+  <path class="detail" opacity=".55"
+        d="M254 265q15 5 28-1m66 0q16 4 29-2"/>
+
+  <!-- Nose, cheek, and open mouth -->
+  <path class="detail" d="M316 250l-9 47q10 9 22 0"/>
+  <path class="detail" opacity=".45" d="M283 299l-8 17m74-17 9 12"/>
+  <path class="ink" fill="#602d35"
+        d="M307 330q22-16 46-2l-2 19q-24 13-43-2z"/>
+  <path fill="#fff4e6" d="M313 329q17-7 34 0l-2 7h-30z"/>
+
+  <!-- Arm lifting the burger -->
+  <path class="ink" fill="#25252b"
+        d="M463 622q-51-15-73-67l-37-99 63-34
+           58 105q26 43 29 73z"/>
+  <path class="ink" fill="#f4c8aa"
+        d="M356 456l-18-44q-20-10-24-30
+           -3-14 6-18 11-4 18 11l10 12
+           45-5q18-14 26-5 8 9-2 24
+           l-19 24 16 24q-24 22-58 7z"/>
+
+  <!-- Hamburger, tilted toward his mouth -->
+  <g transform="rotate(-12 367 350)">
+    <!-- Bottom bun -->
+    <path class="ink" fill="#efa447"
+          d="M296 369h144l-5 18q-6 15-65 15
+             -60 0-69-15z"/>
+
+    <!-- Beef patty -->
+    <path class="ink" fill="#663723"
+          d="M297 351q69-11 142 0l3 18
+             q-11 12-27 5-17 9-32 1
+             -18 8-35 1-18 7-34-1
+             -20 3-17-24z"/>
+    <path fill="none" stroke="#a6683b" stroke-width="3"
+          stroke-linecap="round" d="M315 360h15m24 4h20m24-5h22"/>
+
+    <!-- Cheese and tomato -->
+    <path class="ink" fill="#ffda38"
+          d="M295 343l148 2-22 14-29-4-21 18-23-18-38 2z"/>
+    <path class="ink" fill="#ef4542"
+          d="M301 333q64-9 134 0v12H301z"/>
+
+    <!-- Lettuce -->
+    <path class="ink" fill="#79c645"
+          d="M294 328l17-9 18 7 18-9 21 9
+             19-9 20 8 21-5 17 11-13 9
+             -22-5-18 7-22-6-24 7-21-8-18 6z"/>
+
+    <!-- Top bun with a bite missing at the upper left -->
+    <path class="ink" fill="#f7b957"
+          d="M297 323
+             q0-14 8-25
+             q9 8 17 1
+             q8-7 4-16
+             q20-15 46-13
+             53 2 68 53
+             q-69 14-143 0z"/>
+    <g stroke="#fff0be" stroke-width="4" stroke-linecap="round">
+      <path d="M346 289l5 3m20-10 5 3m20 8 5-2
+               m-65 15 5-2m23 5 5-3m27 4 5 2
+               m18-4 4 3"/>
+    </g>
+  </g>
+
+  <!-- Fingers wrapped over the lower edge -->
+  <path class="ink" fill="#f4c8aa"
+        d="M351 396q-11-11-5-19 5-7 14 0l14 11
+           q5-14 14-10l12 9q9-9 16-2
+           8 9-6 21-26 21-49 9z"/>
+  <path class="detail" d="M374 388l10 10m16-11 6 8"/>
+
+  <!-- Small print-caption -->
+  <rect x="27" y="557" width="209" height="56"
+        fill="#fff5dc" stroke="#151515" stroke-width="4"/>
+  <text x="42" y="581"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17" font-weight="bold" letter-spacing="2">
+    ANDY WARHOL
+  </text>
+  <text x="42" y="600"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12" letter-spacing="1.3">
+    HAMBURGER BREAK
+  </text>
+
+  <rect x="3" y="3" width="634" height="634"
+        fill="none" stroke="#151515" stroke-width="6"/>
+</svg>

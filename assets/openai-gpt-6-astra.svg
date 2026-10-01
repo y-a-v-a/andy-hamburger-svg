@@ -1,0 +1,296 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="800" viewBox="0 0 800 800"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">
+    A pop-art portrait of Andy Warhol with his silver-white wig and
+    black turtleneck, raising a hamburger to his mouth against a
+    bright pink, turquoise, and yellow background.
+  </desc>
+
+  <defs>
+    <pattern id="dots" width="16" height="16"
+             patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.3" fill="#171720" opacity=".17"/>
+    </pattern>
+
+    <pattern id="smallDots" width="9" height="9"
+             patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ac4361" opacity=".35"/>
+    </pattern>
+
+    <clipPath id="faceClip">
+      <path d="M305 229
+               Q319 187 389 195
+               Q457 193 481 250
+               L477 323
+               Q483 349 459 382
+               Q440 420 397 435
+               Q351 426 323 385
+               Q303 347 300 293Z"/>
+    </clipPath>
+
+    <style>
+      .ink {
+        stroke: #171720;
+        stroke-width: 6;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .detail {
+        fill: none;
+        stroke: #171720;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Screen-printed background -->
+  <rect width="800" height="800" fill="#ffdf3e"/>
+  <rect x="400" width="400" height="800" fill="#ff638e"/>
+  <path d="M0 475L800 170V800H0Z" fill="#48d4d0"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <rect x="23" y="23" width="754" height="754"
+        fill="none" stroke="#171720" stroke-width="7"/>
+
+  <text x="57" y="111"
+        font-family="Arial Black, Helvetica, sans-serif"
+        font-size="67" font-weight="900"
+        letter-spacing="-3" fill="#171720">ANDY.</text>
+  <text x="744" y="102" text-anchor="end"
+        font-family="monospace" font-size="18"
+        font-weight="bold" fill="#171720">POP / LUNCH</text>
+
+  <!-- Offset print silhouette -->
+  <path d="M140 719
+           Q153 508 312 479
+           L333 421
+           Q268 360 277 261
+           Q260 165 356 150
+           Q464 117 504 218
+           L510 342
+           Q536 379 515 427
+           L593 462
+           Q673 543 674 719Z"
+        fill="#f73770" opacity=".72"/>
+
+  <!-- Turtleneck and shoulders -->
+  <path class="ink" fill="#20202b"
+        d="M126 725
+           Q143 559 237 518
+           L335 481
+           L350 416
+           L434 410
+           L456 480
+           Q569 502 618 569
+           Q656 624 670 725Z"/>
+
+  <path fill="#3e3a50"
+        d="M149 715Q176 574 273 541L333 520
+           L292 585L270 725Z"/>
+  <path fill="#080c16"
+        d="M443 485Q532 505 586 566
+           L562 725H362L380 526Z"/>
+
+  <!-- Neck -->
+  <path class="ink" fill="#f2bd9e"
+        d="M348 380L440 376L440 469
+           Q400 501 346 464Z"/>
+  <path fill="#d88486"
+        d="M348 397L433 403L419 446L348 429Z"/>
+
+  <!-- Raised collar -->
+  <path class="ink" fill="#171720"
+        d="M333 448Q384 481 449 445
+           L460 495Q397 533 324 491Z"/>
+  <path d="M341 480Q393 507 442 478"
+        fill="none" stroke="#686274" stroke-width="4"/>
+
+  <!-- Ears -->
+  <path class="ink" fill="#edaa90"
+        d="M306 282Q274 265 283 319
+           Q286 345 315 346Z"/>
+  <path class="detail" d="M297 297Q287 294 299 326"/>
+
+  <!-- Face -->
+  <path class="ink" fill="#f5c8a7"
+        d="M305 229
+           Q319 187 389 195
+           Q457 193 481 250
+           L477 323
+           Q483 349 459 382
+           Q440 420 397 435
+           Q351 426 323 385
+           Q303 347 300 293Z"/>
+
+  <g clip-path="url(#faceClip)">
+    <path fill="#e79b92"
+          d="M294 231L336 249L327 335
+             Q331 398 399 435L350 454L285 383Z"/>
+    <path fill="#ffe0b9"
+          d="M366 239L437 228L463 290
+             L429 310L433 351L384 365L351 328Z"/>
+    <path fill="url(#smallDots)"
+          d="M300 306Q335 312 354 360
+             L409 430L332 430Z"/>
+    <path fill="#dc8986"
+          d="M449 329L487 319L477 389
+             L433 412L413 396Z"/>
+  </g>
+
+  <!-- Angular eyes, brows, and nose -->
+  <path class="detail" d="M325 283Q344 272 364 279"/>
+  <path class="detail" d="M409 278Q432 266 451 278"/>
+
+  <path d="M325 297Q344 287 364 296Q346 305 325 297Z"
+        fill="#fff4dc"/>
+  <path d="M409 294Q429 282 450 292Q432 302 409 294Z"
+        fill="#fff4dc"/>
+  <path class="detail" d="M325 297Q344 287 364 296"/>
+  <path class="detail" d="M409 294Q429 282 450 292"/>
+  <ellipse cx="348" cy="295" rx="4" ry="5" fill="#171720"/>
+  <ellipse cx="435" cy="291" rx="4" ry="5" fill="#171720"/>
+
+  <path class="detail"
+        d="M395 288L391 326Q394 336 414 334"/>
+  <path d="M400 338Q412 331 420 338"
+        fill="none" stroke="#a55e63" stroke-width="3"/>
+
+  <path d="M333 320L353 324M424 309L445 308"
+        fill="none" stroke="#b67978" stroke-width="3"/>
+
+  <!-- Mouth meets the burger -->
+  <path class="ink" fill="#502330"
+        d="M402 367Q428 355 451 366
+           L449 385Q423 393 405 379Z"/>
+  <path d="M410 367L447 367L443 375L412 374Z"
+        fill="#fff6df"/>
+  <path class="detail" d="M387 398Q404 406 420 401"/>
+
+  <!-- Signature silver wig -->
+  <path class="ink" fill="#f7f4eb"
+        d="M294 296
+           L279 263L286 244L272 225
+           L289 211L282 190L306 181
+           L309 161L341 157L355 137
+           L380 145L406 132L428 146
+           L454 145L469 167L491 176
+           L490 199L509 220L494 247
+           L483 272L469 255L464 226
+           L445 242L442 211L419 237
+           L419 209L393 239L390 215
+           L365 246L358 223L339 254
+           L325 243L316 276L304 263Z"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M304 222Q334 172 371 163
+             M319 234Q348 189 391 155
+             M347 218Q373 181 409 158
+             M380 218Q411 175 435 166
+             M418 205Q444 177 458 183
+             M451 209L472 195"
+          stroke="#c2c7ce" stroke-width="9"/>
+    <path d="M287 246L301 222
+             M302 190L321 176
+             M340 167L352 155
+             M465 225L480 209
+             M483 244L490 229"
+          stroke="#777e8b" stroke-width="4"/>
+  </g>
+
+  <!-- Forearm lifted toward the mouth -->
+  <path class="ink" fill="#f2bd9e"
+        d="M508 646
+           Q507 594 525 547
+           L543 478
+           L528 448
+           Q514 430 526 417
+           Q539 407 552 426
+           L564 440L574 403
+           Q579 389 590 395
+           Q601 400 595 421
+           L586 484
+           Q591 532 584 579
+           L576 654Z"/>
+  <path fill="#db8c88"
+        d="M564 485L585 463L587 523
+           L576 633L550 639Z"/>
+
+  <!-- Hamburger: bun, lettuce, cheese, patty -->
+  <g class="ink">
+    <path fill="#eaa044"
+          d="M417 388
+             Q420 357 455 347
+             Q483 334 521 344
+             Q565 353 578 389
+             Q502 407 417 388Z"/>
+
+    <path fill="#ffca6a" stroke="none"
+          d="M432 376Q444 350 490 350
+             Q540 347 560 377Q492 389 432 376Z"/>
+
+    <path fill="#63b949"
+          d="M415 391L432 388L443 397L460 390
+             L478 400L494 391L511 399L528 390
+             L547 398L568 390L583 396
+             L574 411L552 408L536 416
+             L513 410L493 417L471 409
+             L453 415L434 408L419 410Z"/>
+
+    <path fill="#dc423e"
+          d="M424 409Q499 416 574 407
+             L572 420Q498 432 424 422Z"/>
+
+    <path fill="#ffdf3e"
+          d="M422 422L573 418L557 438
+             L519 430L481 444L452 432L427 434Z"/>
+
+    <path fill="#67392d"
+          d="M425 432Q490 440 572 429
+             L574 447Q500 462 425 449Z"/>
+
+    <path fill="#efa84e"
+          d="M425 450Q495 461 576 447
+             Q574 476 548 480
+             Q484 489 444 478
+             Q427 473 425 450Z"/>
+  </g>
+
+  <!-- Sesame seeds -->
+  <g stroke="#fff2c4" stroke-width="5" stroke-linecap="round">
+    <path d="M447 367L452 363M472 357L474 363
+             M496 356L501 359M523 363L527 359
+             M548 373L552 378M478 375L483 372
+             M510 377L513 371M433 380L438 377"/>
+  </g>
+
+  <!-- Fingers curled beneath the bun -->
+  <path class="ink" fill="#f5c8a7"
+        d="M564 450
+           Q554 443 544 451
+           L519 466L483 469
+           Q470 470 472 481
+           Q475 490 491 489
+           L526 487L542 479
+           Q535 496 551 502
+           Q565 500 573 481
+           L579 466Q582 453 573 449Z"/>
+  <path class="detail" d="M496 480L525 477M551 463L542 479"/>
+
+  <!-- Sleeve overlapping wrist -->
+  <path class="ink" fill="#252430"
+        d="M490 610Q528 634 586 614
+           L605 725H467Z"/>
+  <path d="M504 635Q541 654 579 637"
+        fill="none" stroke="#666073" stroke-width="5"/>
+
+  <!-- Poster footer -->
+  <rect x="43" y="711" width="714" height="47" fill="#171720"/>
+  <text x="400" y="743" text-anchor="middle"
+        fill="#ffdf3e" font-family="Arial, Helvetica, sans-serif"
+        font-size="22" font-weight="bold" letter-spacing="6">
+    EVERYDAY, EXTRAORDINARY.
+  </text>
+</svg>

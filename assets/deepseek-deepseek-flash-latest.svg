@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background - Warhol pop art style with color blocks -->
+  <rect width="500" height="500" fill="#ffe600"/>
+  <rect x="0" y="0" width="250" height="250" fill="#ff2d95" opacity="0.85"/>
+  <rect x="250" y="250" width="250" height="250" fill="#00e0ff" opacity="0.85"/>
+  <rect x="250" y="0" width="250" height="250" fill="#ff8c00" opacity="0.6"/>
+  <rect x="0" y="250" width="250" height="250" fill="#7d00ff" opacity="0.55"/>
+
+  <!-- Fashionable turtleneck sweater -->
+  <path d="M170 480 Q175 380 200 340 Q220 315 250 315 Q280 315 300 340 Q325 380 330 480 Z"
+        fill="#111111" stroke="#000" stroke-width="3"/>
+  <!-- Turtleneck collar -->
+  <path d="M215 340 Q250 325 285 340 Q285 365 250 368 Q215 365 215 340 Z"
+        fill="#1a1a1a" stroke="#000" stroke-width="2"/>
+  <path d="M220 348 Q250 336 280 348" stroke="#333" stroke-width="1.5" fill="none"/>
+
+  <!-- Neck -->
+  <rect x="230" y="300" width="40" height="40" fill="#f2c9a0"/>
+  <path d="M230 300 L230 340 Q250 350 270 340 L270 300 Z" fill="#e8b890"/>
+
+  <!-- Head - signature Warhol style with white wig -->
+  <!-- Face shape -->
+  <path d="M195 200 Q195 140 250 130 Q305 140 305 200 Q305 265 250 285 Q195 265 195 200 Z"
+        fill="#f2c9a0" stroke="#000" stroke-width="3"/>
+
+  <!-- White wig / hair -->
+  <path d="M185 195 Q175 130 215 105 Q250 90 285 105 Q325 130 315 195 
+           Q320 160 305 145 Q290 130 250 128 Q210 130 195 145 Q180 160 185 195 Z"
+        fill="#f8f8f8" stroke="#000" stroke-width="3"/>
+  <path d="M185 195 Q170 175 178 150 Q182 130 195 120" fill="#f8f8f8" stroke="#000" stroke-width="2.5"/>
+  <path d="M315 195 Q330 175 322 150 Q318 130 305 120" fill="#f8f8f8" stroke="#000" stroke-width="2.5"/>
+  <!-- Hair spikes -->
+  <path d="M200 115 L208 95 L215 118" fill="#f8f8f8" stroke="#000" stroke-width="2"/>
+  <path d="M240 100 L248 80 L256 100" fill="#f8f8f8" stroke="#000" stroke-width="2"/>
+  <path d="M285 115 L295 95 L302 118" fill="#f8f8f8" stroke="#000" stroke-width="2"/>
+
+  <!-- Signature dark glasses (pop art style) -->
+  <ellipse cx="222" cy="195" rx="28" ry="18" fill="#111" stroke="#000" stroke-width="3"/>
+  <ellipse cx="278" cy="195" rx="28" ry="18" fill="#111" stroke="#000" stroke-width="3"/>
+  <rect x="245" y="190" width="10" height="6" fill="#111" stroke="#000" stroke-width="2"/>
+  <!-- Lens shine -->
+  <ellipse cx="215" cy="188" rx="7" ry="4" fill="#fff" opacity="0.35"/>
+  <ellipse cx="271" cy="188" rx="7" ry="4" fill="#fff" opacity="0.35"/>
+
+  <!-- Nose -->
+  <path d="M250 205 Q245 220 250 228 Q255 230 258 227" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Mouth opening to eat -->
+  <path d="M225 248 Q250 262 275 248 Q250 275 225 248 Z" fill="#7a1f1f" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Cheek color -->
+  <circle cx="205" cy="225" r="12" fill="#ff9999" opacity="0.5"/>
+  <circle cx="295" cy="225" r="12" fill="#ff9999" opacity="0.5"/>
+
+  <!-- Hand holding hamburger (right side, coming from bottom) -->
+  <path d="M320 400 Q340 380 355 360 Q365 345 370 330" fill="none" stroke="#f2c9a0" stroke-width="28" stroke-linecap="round" stroke="#000" stroke-width="30"/>
+  <path d="M320 400 Q340 380 355 360 Q365 345 370 330" fill="none" stroke="#f2c9a0" stroke-width="26" stroke-linecap="round"/>
+  <!-- Fingers -->
+  <ellipse cx="372" cy="325" rx="10" ry="14" fill="#f2c9a0" stroke="#000" stroke-width="2.5"/>
+  <ellipse cx="360" cy="318" rx="10" ry="14" fill="#f2c9a0" stroke="#000" stroke-width="2.5" transform="rotate(-15 360 318)"/>
+  <ellipse cx="382" cy="338" rx="9" ry="12" fill="#f2c9a0" stroke="#000" stroke-width="2.5"/>
+
+  <!-- Hamburger -->
+  <g transform="rotate(-8 380 290)">
+    <!-- Top bun -->
+    <path d="M330 285 Q380 245 430 285 Q425 300 380 300 Q335 300 330 285 Z"
+          fill="#e8a55c" stroke="#000" stroke-width="3"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="355" cy="272" rx="3" ry="2" fill="#fff9e6"/>
+    <ellipse cx="380" cy="265" rx="3" ry="2" fill="#fff9e6"/>
+    <ellipse cx="405" cy="272" rx="3" ry="2" fill="#fff9e6"/>
+    <ellipse cx="368" cy="260" rx="2.5" ry="1.8" fill="#fff9e6"/>
+    <ellipse cx="393" cy="260" rx="2.5" ry="1.8" fill="#fff9e6"/>
+    <!-- Lettuce -->
+    <path d="M325 300 Q350 292 380 300 Q410 292 435 300 Q430 308 420 308 Q400 314 380 310 Q360 314 340 308 Q330 308 325 300 Z"
+          fill="#5ec85e" stroke="#000" stroke-width="2.5"/>
+    <!-- Tomato -->
+    <rect x="332" y="308" width="96" height="10" rx="3" fill="#e02020" stroke="#000" stroke-width="2.5"/>
+    <!-- Cheese -->
+    <path d="M330 318 Q380 326 430 318 L435 328 Q382 336 325 328 Z"
+          fill="#ffd633" stroke="#000" stroke-width="2.5"/>
+    <!-- Patty -->
+    <rect x="328" y="326" width="104" height="16" rx="6" fill="#5a3320" stroke="#000" stroke-width="2.5"/>
+    <!-- Bottom bun -->
+    <path d="M328 342 Q380 356 432 342 Q428 368 380 372 Q332 368 328 342 Z"
+          fill="#e8a55c" stroke="#000" stroke-width="3"/>
+  </g>
+
+  <!-- Bite mark / hamburger being brought to mouth -->
+  <!-- Small piece near mouth -->
+  <path d="M282 268 Q292 262 300 270 Q296 278 286 276 Z" fill="#5a3320" stroke="#000" stroke-width="2"/>
+
+  <!-- Warhol-style signature scribble -->
+  <text x="370" y="475" font-family="cursive" font-size="22" fill="#000" font-style="italic">Andy</text>
+
+  <!-- Pop-art halftone dots overlay -->
+  <g opacity="0.18">
+    <circle cx="50" cy="50" r="4" fill="#000"/>
+    <circle cx="80" cy="50" r="4" fill="#000"/>
+    <circle cx="110" cy="50" r="4" fill="#000"/>
+    <circle cx="50" cy="80" r="4" fill="#000"/>
+    <circle cx="80" cy="80" r="4" fill="#000"/>
+    <circle cx="110" cy="80" r="4" fill="#000"/>
+    <circle cx="400" cy="420" r="4" fill="#000"/>
+    <circle cx="430" cy="420" r="4" fill="#000"/>
+    <circle cx="460" cy="420" r="4" fill="#000"/>
+    <circle cx="400" cy="450" r="4" fill="#000"/>
+    <circle cx="430" cy="450" r="4" fill="#000"/>
+    <circle cx="460" cy="450" r="4" fill="#000"/>
+  </g>
+</svg>

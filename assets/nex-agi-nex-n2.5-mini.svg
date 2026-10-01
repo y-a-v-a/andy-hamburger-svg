@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">An original pop-art vector illustration of a stylized Andy Warhol eating a hamburger.</desc>
+
+  <defs>
+    <pattern id="benDay" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2.2" fill="#111" opacity=".18"/>
+      <circle cx="16" cy="16" r="2.2" fill="#fff" opacity=".28"/>
+    </pattern>
+
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe0bd"/>
+      <stop offset=".55" stop-color="#f3b28a"/>
+      <stop offset="1" stop-color="#d98066"/>
+    </linearGradient>
+
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#222"/>
+      <stop offset=".5" stop-color="#050505"/>
+      <stop offset="1" stop-color="#222"/>
+    </linearGradient>
+
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc25a"/>
+      <stop offset="1" stop-color="#e58a20"/>
+    </linearGradient>
+
+    <linearGradient id="wig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="1" stop-color="#e6bd45"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="8" dy="10" stdDeviation="8" flood-color="#000" flood-opacity=".25"/>
+    </filter>
+
+    <g id="warholGhost">
+      <path d="M0 100 C0 40 40 10 80 10 C120 10 160 40 160 100 C160 160 120 210 80 210 C40 210 0 160 0 100Z" fill="#111"/>
+      <path d="M10 95 C-10 40 35 10 80 10 C125 10 170 40 150 95 C135 45 25 45 10 95Z" fill="#f6e38a"/>
+      <rect x="25" y="110" width="48" height="24" rx="12" fill="#111"/>
+      <rect x="87" y="110" width="48" height="24" rx="12" fill="#111"/>
+      <path d="M73 122H87" stroke="#111" stroke-width="8"/>
+      <path d="M80 210 C65 220 55 245 55 285H105C105 245 95 220 80 210Z" fill="#111"/>
+    </g>
+  </defs>
+
+  <!-- Pop-art background -->
+  <rect width="900" height="900" fill="#fff"/>
+  <path d="M0 0H900V170H0Z" fill="#00e5ff" opacity=".55"/>
+  <path d="M0 730H900V900H0Z" fill="#ff2fb3" opacity=".55"/>
+  <path d="M0 0V900H170V0Z" fill="#ffe600" opacity=".55"/>
+  <path d="M730 0H900V900H730Z" fill="#00e5ff" opacity=".45"/>
+  <rect x="120" y="105" width="660" height="690" rx="70" fill="#fff" opacity=".28"/>
+  <rect width="900" height="900" fill="url(#benDay)" opacity=".35"/>
+
+  <!-- Repeated ghost silhouettes -->
+  <g opacity=".12">
+    <use href="#warholGhost" transform="translate(80 70) scale(.35)"/>
+    <use href="#warholGhost" transform="translate(700 60) scale(.35)"/>
+    <use href="#warholGhost" transform="translate(70 650) scale(.3)"/>
+    <use href="#warholGhost" transform="translate(690 650) scale(.3)"/>
+  </g>
+
+  <!-- Ground shadow -->
+  <ellipse cx="400" cy="760" rx="240" ry="72" fill="#111" opacity=".12"/>
+
+  <!-- Shoulders and black turtleneck -->
+  <path d="M245 900 C250 720 310 620 400 600 C490 620 550 720 555 900Z"
+        fill="url(#jacket)" stroke="#111" stroke-width="8" filter="url(#shadow)"/>
+  <path d="M335 590 C365 630 435 630 465 590"
+        fill="none" stroke="#444" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Neck -->
+  <path d="M355 510 H445 V610 C420 640 380 640 355 610Z"
+        fill="url(#skin)" stroke="#111" stroke-width="7"/>
+
+  <!-- Face -->
+  <ellipse cx="400" cy="390" rx="125" ry="145"
+           fill="url(#skin)" stroke="#111" stroke-width="8" filter="url(#shadow)"/>
+  <path d="M290 325 C340 305 460 305 510 325 V365 C460 345 340 345 290 365Z"
+        fill="#fff" opacity=".18"/>
+  <path d="M290 455 C340 475 460 475 510 455 V495 C460 515 340 515 290 495Z"
+        fill="#7a211b" opacity=".2"/>
+  <circle cx="320" cy="430" r="22" fill="#ff8c69" opacity=".35"/>
+  <circle cx="480" cy="430" r="22" fill="#ff8c69" opacity=".35"/>
+
+  <!-- Blond wig -->
+  <path d="M275 400 C265 250 335 175 400 175 C465 175 535 250 525 400 C505 305 475 260 445 235 C455 310 430 330 400 315 C370 330 345 310 355 235 C325 260 295 305 275 400Z"
+        fill="url(#wig)" stroke="#111" stroke-width="8"/>
+  <path d="M283 290 C250 350 255 440 285 505 C270 420 275 350 298 305Z"
+        fill="url(#wig)" stroke="#111" stroke-width="7"/>
+  <path d="M517 290 C550 350 545 440 515 505 C530 420 525 350 502 305Z"
+        fill="url(#wig)" stroke="#111" stroke-width="7"/>
+  <path d="M330 235 C315 285 315 330 330 385" stroke="#d6a92f" stroke-width="6" fill="none" opacity=".55" stroke-linecap="round"/>
+  <path d="M470 235 C485 285 485 330 470 385" stroke="#d6a92f" stroke-width="6" fill="none" opacity=".55" stroke-linecap="round"/>
+  <path d="M400 195 V315" stroke="#d6a92f" stroke-width="5" fill="none" opacity=".45"/>
+
+  <!-- Sunglasses -->
+  <g filter="url(#shadow)" stroke="#111" stroke-width="8" stroke-linecap="round">
+    <path d="M285 360 C285 335 320 320 370 330 L370 390 C320 400 285 385 285 360Z" fill="#050505"/>
+    <path d="M515 360 C515 335 480 320 430 330 L430 390 C480 400 515 385 515 360Z" fill="#050505"/>
+    <path d="M370 355 H430" fill="none"/>
+    <rect x="310" y="350" width="55" height="20" rx="10" fill="#00e5ff" opacity=".55" transform="rotate(-10 337 360)"/>
+    <rect x="455" y="350" width="55" height="20" rx="10" fill="#ff2fb3" opacity=".55" transform="rotate(10 482 360)"/>
+  </g>
+
+  <!-- Nose -->
+  <path d="M400 385 C390 410 385 430 398 444 C408 452 420 444 420 435"
+        fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Open mouth behind burger -->
+  <path d="M330 465 C360 435 440 435 470 465 C445 525 355 525 330 465Z"
+        fill="#4b0015" stroke="#111" stroke-width="7" filter="url(#shadow)"/>
+  <path d="M360 465 C380 455 420 455 440 465"
+        fill="none" stroke="#111" stroke-width="5" opacity=".55"/>
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="600" rx="190" ry="38" fill="#fff" stroke="#111" stroke-width="7" filter="url(#shadow)"/>
+  <ellipse cx="400" cy="590" rx="145" ry="25" fill="#dff8ff" stroke="#111" stroke-width="5"/>
+
+  <!-- Hands holding burger -->
+  <g filter="url(#shadow)" stroke="#111" stroke-width="7" stroke-linejoin="round">
+    <path d="M285 430 C305 405 345 405 365 430 L355 485 C325 475 300 455 285 430Z" fill="#f3b28a"/>
+    <path d="M515 430 C495 405 455 405 435 430 L445 485 C475 475 500 455 515 430Z" fill="#f3b28a"/>
+    <path d="M310 425 C320 445 335 455 355 460" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M490 425 C480 445 465 455 445 460" fill="none" stroke="#111" stroke-width="5"/>
+  </g>
+
+  <!-- Hamburger -->
+  <g id="burger" filter="url(#shadow)" stroke="#111" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M300 425 C300 365 348 335 400 335 C452 335 500 365 500 425 C460 405 430 398 400 398 C370 398 340 405 300 425Z" fill="url(#bun)"/>
+    <path d="M300 425 C340 405 460 405 500 425 L500 438 C460 420 340 420 300 438Z" fill="#f7b95b"/>
+
+    <ellipse cx="355" cy="370" rx="8" ry="4" fill="#fff2c5" transform="rotate(-18 355 370)"/>
+    <ellipse cx="390" cy="355" rx="8" ry="4" fill="#fff2c5" transform="rotate(10 390 355)"/>
+    <ellipse cx="430" cy="360" rx="8" ry="4" fill="#fff2c5" transform="rotate(-8 430 360)"/>
+    <ellipse cx="465" cy="385" rx="8" ry="4" fill="#fff2c5" transform="rotate(18 465 385)"/>
+
+    <path d="M285 435 C315 410 335 455 370 430 C405 405 430 455 465 430 C490 445 510 445 520 435 L520 458 C480 482 320 482 280 458Z" fill="#70d83b"/>
+
+    <ellipse cx="355" cy="455" rx="48" ry="18" fill="#ff4757"/>
+    <ellipse cx="445" cy="455" rx="48" ry="18" fill="#ff4757"/>
+
+    <path d="M315 465 L485 465 L460 505 L425 480 L390 510 L355 480Z" fill="#ffd400"/>
+    <path d="M430 465 C430 485 420 490 425 505" fill="none" stroke="#ff3131" stroke-width="6" stroke-linecap="round"/>
+
+    <rect x="295" y="485" width="210" height="45" rx="20" fill="#5b2a17"/>
+
+    <path d="M315 530 C315 560 350 575 400 575 C450 575 485 560 485 530 C450 545 350 545 315 530Z" fill="url(#bun)"/>
+  </g>
+
+  <!-- Fries -->
+  <g transform="translate(610 525)" filter="url(#shadow)" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="35" width="105" height="120" fill="#ff3131"/>
+    <path d="M0 35H105V70H0Z" fill="#fff"/>
+    <path d="M20 70V0" stroke="#ff3131" stroke-width="10"/>
+    <path d="M52 70V-25" stroke="#ff3131" stroke-width="10"/>
+    <path d="M85 70V0" stroke="#ff3131" stroke-width="10"/>
+    <rect x="20" y="0" width="13" height="75" rx="6" fill="#ffe600" transform="rotate(-8 26 38)"/>
+    <rect x="48" y="-25" width="13" height="100" rx="6" fill="#ffe600" transform="rotate(4 54 25)"/>
+    <rect x="75" y="0" width="13" height="80" rx="6" fill="#ffe600" transform="rotate(12 81 40)"/>
+  </g>
+
+  <!-- Soda cup -->
+  <g transform="translate(150 525)" filter="url(#shadow)" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 35H110L94 165H26Z" fill="#00a1e1"/>
+    <path d="M-5 35H125L112 75H8Z" fill="#fff"/>
+    <rect x="52" y="-15" width="14" height="70" rx="7" fill="#ff3131" transform="rotate(6 59 20)"/>
+    <path d="M80 15 L105 55" stroke="#fff" stroke-width="7" opacity=".7"/>
+  </g>
+</svg>

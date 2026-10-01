@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f0f0f0"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="220" rx="90" ry="110" fill="#f5d0b0" stroke="#222" stroke-width="3"/>
+  
+  <!-- Silver Wig -->
+  <ellipse cx="200" cy="135" rx="95" ry="55" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+  <ellipse cx="200" cy="130" rx="85" ry="40" fill="#d4d4d4"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="170" cy="200" rx="12" ry="8" fill="#fff" stroke="#222" stroke-width="2"/>
+  <ellipse cx="230" cy="200" rx="12" ry="8" fill="#fff" stroke="#222" stroke-width="2"/>
+  <circle cx="172" cy="200" r="4" fill="#222"/>
+  <circle cx="232" cy="200" r="4" fill="#222"/>
+  
+  <!-- Eyebrows -->
+  <path d="M155 185 Q170 175 185 185" fill="none" stroke="#222" stroke-width="3"/>
+  <path d="M215 185 Q230 175 245 185" fill="none" stroke="#222" stroke-width="3"/>
+  
+  <!-- Nose -->
+  <path d="M200 210 L195 240 Q200 245 205 240" fill="none" stroke="#222" stroke-width="2"/>
+  
+  <!-- Mouth with hamburger -->
+  <path d="M170 260 Q200 280 230 260" fill="none" stroke="#222" stroke-width="2"/>
+  
+  <!-- Hamburger -->
+  <rect x="240" y="255" width="120" height="80" rx="5" fill="#d2691e" stroke="#222" stroke-width="2"/>
+  <!-- Bun top -->
+  <ellipse cx="300" cy="260" rx="60" ry="15" fill="#f4a460" stroke="#222" stroke-width="2"/>
+  <!-- Lettuce -->
+  <ellipse cx="300" cy="262" rx="55" ry="8" fill="#228b22"/>
+  <!-- Cheese -->
+  <rect x="248" y="268" width="104" height="8" rx="2" fill="#ffd700" stroke="#222" stroke-width="1"/>
+  <!-- Patty -->
+  <rect x="250" y="278" width="100" height="15" rx="3" fill="#8b4513" stroke="#222" stroke-width="1"/>
+  <!-- Bun bottom -->
+  <rect x="248" y="293" width="104" height="12" rx="4" fill="#f4a460" stroke="#222" stroke-width="2"/>
+  <!-- Sesame seeds -->
+  <circle cx="270" cy="258" r="2" fill="#fff"/>
+  <circle cx="290" cy="255" r="2" fill="#fff"/>
+  <circle cx="310" cy="257" r="2" fill="#fff"/>
+  <circle cx="330" cy="256" r="2" fill="#fff"/>
+  <circle cx="280" cy="262" r="2" fill="#fff"/>
+  <circle cx="320" cy="260" r="2" fill="#fff"/>
+  
+  <!-- Pop art dots background -->
+  <circle cx="50" cy="50" r="5" fill="#ff69b4" opacity="0.5"/>
+  <circle cx="150" cy="80" r="7" fill="#00bfff" opacity="0.5"/>
+  <circle cx="350" cy="60" r="6" fill="#ffd700" opacity="0.5"/>
+  <circle cx="320" cy="350" r="8" fill="#ff6347" opacity="0.5"/>
+  <circle cx="60" cy="330" r="5" fill="#9370db" opacity="0.5"/>
+  
+  <!-- Caption -->
+  <text x="200" y="380" text-anchor="middle" font-family="Arial" font-size="14" fill="#333" font-style="italic">Andy Warhol's Lunch</text>
+</svg>

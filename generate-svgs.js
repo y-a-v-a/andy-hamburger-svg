@@ -31,8 +31,8 @@ if (argv.includes("--help") || argv.includes("-h")) {
 
 Asks every text->text model on OpenRouter to draw Andy Warhol eating a
 hamburger as an SVG, and saves the first <svg>...</svg> block in each
-response to assets/<slug>.svg. Models that already have an SVG, or are
-listed in skip.json, are skipped.
+response to assets/<slug>.svg. Models that already have an SVG, are
+listed in skip.json, or have a ":batch" suffix are skipped.
 
 Options:
   --add-skip <id>     add a model id to skip.json and exit (repeatable,
@@ -235,6 +235,10 @@ const DRY = process.env.DRY === "1";
     if (done >= LIMIT) break;
     if (SKIP.has(m.id)) {
       console.log(`skip ${m.id} (skip-list)`);
+      continue;
+    }
+    if (m.id.endsWith(":batch")) {
+      console.log(`skip ${m.id} (batch model)`);
       continue;
     }
     const hit = !FORCE && existingFor(m.id, existing);
