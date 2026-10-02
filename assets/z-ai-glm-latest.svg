@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- Pop-art background grid -->
+  <defs>
+    <g id="panel">
+      <rect x="0" y="0" width="300" height="300" fill="currentColor"/>
+      <!-- Face -->
+      <ellipse cx="150" cy="140" rx="70" ry="85" fill="#f4c99b"/>
+      <!-- Hair / white wig -->
+      <path d="M 80 120 Q 70 40 150 30 Q 230 40 220 120 Q 225 70 150 55 Q 75 70 80 120 Z" fill="#ffffff"/>
+      <path d="M 82 90 Q 100 35 150 28 Q 200 35 218 90 Q 205 60 150 55 Q 95 60 82 90 Z" fill="#f0f0f0"/>
+      <!-- Sunglasses -->
+      <rect x="105" y="115" width="35" height="25" rx="4" fill="#111"/>
+      <rect x="160" y="115" width="35" height="25" rx="4" fill="#111"/>
+      <rect x="138" y="120" width="24" height="5" fill="#111"/>
+      <!-- Mouth open, eating -->
+      <ellipse cx="150" cy="185" rx="25" ry="18" fill="#7a2a2a"/>
+      <ellipse cx="150" cy="195" rx="18" ry="8" fill="#d94f4f"/>
+      <!-- Hand holding hamburger -->
+      <rect x="120" y="215" width="60" height="15" rx="7" fill="#e8b98a"/>
+      <!-- Burger -->
+      <path d="M 118 235 Q 118 215 150 212 Q 182 215 182 235 Z" fill="#d9913f"/>
+      <rect x="115" y="235" width="70" height="8" fill="#5aa02c"/>
+      <rect x="112" y="243" width="76" height="14" rx="5" fill="#8a4b1f"/>
+      <rect x="115" y="257" width="70" height="8" fill="#e8c548"/>
+      <path d="M 115 265 Q 115 285 150 285 Q 185 285 185 265 Z" fill="#d9913f"/>
+      <!-- Sesame seeds -->
+      <circle cx="130" cy="222" r="2" fill="#fff"/>
+      <circle cx="150" cy="218" r="2" fill="#fff"/>
+      <circle cx="170" cy="222" r="2" fill="#fff"/>
+      <!-- Text -->
+      <text x="150" y="298" font-family="Georgia, serif" font-size="14" text-anchor="middle" fill="#fff" opacity="0.85">WARHOL</text>
+    </g>
+  </defs>
+
+  <!-- Four panels, different pop colors -->
+  <use href="#panel" x="0"   y="0"   color="#ff2d78"/>
+  <use href="#panel" x="300" y="0"   color="#00c3ff"/>
+  <use href="#panel" x="0"   y="300" color="#ffd400"/>
+  <use href="#panel" x="300" y="300" color="#7bff2d"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Warhol silhouette (simple profile, iconic hair/head shape) -->
+  <g fill="#1a1a1a" stroke="#000000" stroke-width="2">
+    <path d="M150 80 
+             c-30 0 -45 15 -45 30 v120 
+             c0 15 15 30 45 30 
+             h120 
+             c30 0 45 -15 45 -30 v-120 
+             z"/>
+    <!-- Simple "Warhol" hair/head hint (short bob-like shape) -->
+    <ellipse cx="150" cy="100" rx="20" ry="15" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Hamburger (simple stacked layers) -->
+  <g fill="#d35400" stroke="#000000" stroke-width="2"> <!-- Typical Warhol orange-ish burger color -->
+    <rect x="110" y="180" width="80" height="30" rx="5"/> <!-- Top bun -->
+    <rect x="110" y="220" width="80" height="25" rx="5"/> <!-- Sesame seeds (small circle hint via rounded rect) -->
+    <rect x="110" y="245" width="80" height="20" rx="5"/> <!-- Patty -->
+    <rect x="110" y="275" width="80" height="20" rx="5"/> <!-- Bottom bun -->
+  </g>
+  
+  <!-- Warhol "eating" gesture (simple hand/finger near burger) -->
+  <g fill="#1a1a1a" stroke="#000000" stroke-width="2">
+    <!-- Arm/hand (simple line + oval) -->
+    <line x1="180" y1="150" x2="200" y2="130"/>
+    <circle cx="200" cy="135" r="8" fill="#1a1a1a"/>
+    <!-- Finger pointing/grabbing burger -->
+    <line x1="200" y1="135" x2="220" y2="120"/>
+  </g>
+  
+  <!-- Optional subtle pop-art pattern (simple repeated shape hint, not overwhelming) -->
+  <g fill="none" stroke="#000000" stroke-width="1">
+    <rect x="0" y="0" width="60" height="40" transform="translate(30,30) rotate(0)" opacity="0.2"/>
+    <rect x="0" y="0" width="60" height="40" transform="translate(120,20) rotate(0)" opacity="0.2"/>
+    <rect x="0" y="0" width="60" height="40" transform="translate(30,80) rotate(0)" opacity="0.2"/>
+  </g>
+</svg>

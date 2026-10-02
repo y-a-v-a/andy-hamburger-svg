@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#F5F5F5"/>
+  
+  <!-- Warhol-style patterned background -->
+  <g opacity="0.1">
+    <rect x="0" y="0" width="20" height="20" fill="#FF0000"/>
+    <rect x="20" y="0" width="20" height="20" fill="#FFFF00"/>
+    <rect x="40" y="0" width="20" height="20" fill="#00FF00"/>
+    <rect x="60" y="0" width="20" height="20" fill="#00FFFF"/>
+    <rect x="80" y="0" width="20" height="20" fill="#0000FF"/>
+    <rect x="100" y="0" width="20" height="20" fill="#FF00FF"/>
+    <rect x="120" y="0" width="20" height="20" fill="#FF0000"/>
+    <rect x="140" y="0" width="20" height="20" fill="#FFFF00"/>
+    <rect x="160" y="0" width="20" height="20" fill="#00FF00"/>
+    <rect x="180" y="0" width="20" height="20" fill="#00FFFF"/>
+    <rect x="200" y="0" width="20" height="20" fill="#0000FF"/>
+    <rect x="220" y="0" width="20" height="20" fill="#FF00FF"/>
+    <rect x="240" y="0" width="20" height="20" fill="#FF0000"/>
+    <rect x="260" y="0" width="20" height="20" fill="#FFFF00"/>
+    <rect x="280" y="0" width="20" height="20" fill="#00FF00"/>
+    <rect x="300" y="0" width="20" height="20" fill="#00FFFF"/>
+    <rect x="320" y="0" width="20" height="20" fill="#0000FF"/>
+    <rect x="340" y="0" width="20" height="20" fill="#FF00FF"/>
+    <rect x="360" y="0" width="20" height="20" fill="#FF0000"/>
+    
+    <!-- Repeat pattern vertically -->
+    <g transform="translate(0, 20)">
+      <rect x="0" y="0" width="20" height="20" fill="#FF0000"/>
+      <rect x="20" y="0" width="20" height="20" fill="#FFFF00"/>
+      <rect x="40" y="0" width="20" height="20" fill="#00FF00"/>
+      <rect x="60" y="0" width="20" height="20" fill="#00FFFF"/>
+      <rect x="80" y="0" width="20" height="20" fill="#0000FF"/>
+      <rect x="100" y="0" width="20" height="20" fill="#FF00FF"/>
+      <rect x="120" y="0" width="20" height="20" fill="#FF0000"/>
+      <rect x="140" y="0" width="20" height="20" fill="#FFFF00"/>
+      <rect x="160" y="0" width="20" height="20" fill="#00FF00"/>
+      <rect x="180" y="0" width="20" height="20" fill="#00FFFF"/>
+      <rect x="200" y="0" width="20" height="20" fill="#0000FF"/>
+      <rect x="220" y="0" width="20" height="20" fill="#FF00FF"/>
+      <rect x="240" y="0" width="20" height="20" fill="#FF0000"/>
+      <rect x="260" y="0" width="20" height="20" fill="#FFFF00"/>
+      <rect x="280" y="0" width="20" height="20" fill="#00FF00"/>
+      <rect x="300" y="0" width="20" height="20" fill="#00FFFF"/>
+      <rect x="320" y="0" width="20" height="20" fill="#0000FF"/>
+      <rect x="340" y="0" width="20" height="20" fill="#FF00FF"/>
+      <rect x="360" y="0" width="20" height="20" fill="#FF0000"/>
+    </g>
+  </g>
+  
+  <!-- Warhol-style portrait of Andy -->
+  <g transform="translate(200, 100)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="50" fill="#FFFFFF"/>
+    
+    <!-- Eyes -->
+    <circle cx="-15" cy="-10" r="8" fill="#000000"/>
+    <circle cx="15" cy="-10" r="8" fill="#000000"/>
+    
+    <!-- Mouth -->
+    <path d="M -12 10 Q 0 18 12 10" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Hair -->
+    <path d="M -50 -50 Q 0 -80 50 -50" stroke="#000000" stroke-width="8" fill="none"/>
+    
+    <!-- Colored facial features (Warhol style) -->
+    <circle cx="-15" cy="-10" r="6" fill="#FF0000"/> <!-- Red eye -->
+    <circle cx="15" cy="-10" r="6" fill="#00FF00"/> <!-- Green eye -->
+    <path d="M -12 10 Q 0 16 12 10" stroke="#0000FF" stroke-width="4" fill="none"/> <!-- Blue mouth -->
+  </g>
+  
+  <!-- Hamburger -->
+  <g transform="translate(100, 250)">
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="10" rx="40" ry="15" fill="#D2691E"/>
+    <ellipse cx="0" cy="10" rx="35" ry="12" fill="#F4A460"/>
+    
+    <!-- Patty -->
+    <ellipse cx="0" cy="25" rx="38" ry="12" fill="#8B4513"/>
+    <ellipse cx="0" cy="25" rx="35" ry="10" fill="#A0522D"/>
+    
+    <!-- Lettuce -->
+    <path d="M -35 20 Q -20 15, 0 20 Q 20 15, 35 20" stroke="#32CD32" stroke-width="6" fill="none"/>
+    <path d="M -30 22 Q -15 18, 0 22 Q 15 18, 30 22" stroke="#228B22" stroke-width="4" fill="none"/>
+    
+    <!-- Tomato -->
+    <ellipse cx="0" cy="28" rx="20" ry="8" fill="#FF6347"/>
+    <ellipse cx="0" cy="28" rx="16" ry="6" fill="#FF4500"/>
+    
+    <!-- Top bun -->
+    <ellipse cx="0" cy="40" rx="40" ry="15" fill="#D2691E"/>
+    <ellipse cx="0" cy="40" rx="35" ry="12" fill="#F4A460"/>
+    
+    <!-- Cheese slice -->
+    <path d="M -35 35 Q -10 30, 20 35 Q 35 30, 45 35" stroke="#FFD700" stroke-width="8" fill="none"/>
+    <path d="M -30 37 Q -5 33, 15 37 Q 30 33, 40 37" stroke="#FFA500" stroke-width="6" fill="none"/>
+  </g>
+  
+  <!-- Hand holding hamburger -->
+  <g transform="translate(160, 240)">
+    <!-- Hand -->
+    <path d="M -20 0 Q -10 -10, 0 0 Q 10 -10, 20 0" stroke="#FFDBAC" stroke-width="12" fill="none" stroke-linecap="round"/>
+    
+    <!-- Fingers -->
+    <path d="M -15 -5 Q -10 -15, -5 -5" stroke="#FFDBAC" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M 0 -3 Q 5 -13, 10 -3" stroke="#FFDBAC" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M 15 -1 Q 20 -11, 25 -1" stroke="#FFDBAC" stroke-width="10" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Text element in Warhol style -->
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#000000">
+    ANDY WARHOL EATS A HAMBURGER
+  </text>
+</svg>

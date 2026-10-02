@@ -1,0 +1,49 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Andy Warhol figure -->
+  <g transform="translate(200,150)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="40" fill="#ffcc00"/>
+    
+    <!-- Face -->
+    <ellipse cx="0" cy="-50" rx="30" ry="35" fill="#fff"/>
+    <circle cx="0" cy="-55" r="5" fill="#000"/>
+    
+    <!-- Hair -->
+    <path d="M-30,-20 Q-10,-30 0,-25 Q10,-30 30,-25 Q50,-30 60,-25 Q70,-30 80,-25 Q90,-30 100,-25 Q110,-30 120,-25 Q130,-30 140,-25 Q150,-30 160,-25 Q170,-30 180,-25 Q190,-30 200,-25 Q210,-30 220,-25 Q230,-30 240,-25 Q250,-30 260,-25 Q270,-30 280,-25 Q290,-30 300,-25 Q310,-30 320,-25 Q330,-30 340,-25 Q350,-30 360,-25 Q370,-30 380,-25 Q390,-30 400,-25" 
+          stroke="#000" stroke-width="2" fill="none"/>
+    
+    <!-- Arms and hands -->
+    <path d="M-40,-15 L-20,-25 M20,-15 L40,-25" stroke="#000" stroke-width="8" fill="none"/>
+    <ellipse cx="-20" cy="-30" rx="12" ry="8" transform="rotate(45)" fill="#000"/>
+    <ellipse cx="20" cy="-30" rx="12" ry="8" transform="rotate(-45)" fill="#000"/>
+    
+    <!-- Hamburger -->
+    <g transform="translate(80,80)">
+      <!-- Bun -->
+      <rect x="0" y="0" width="30" height="15" fill="#ffcc00"/>
+      <rect x="5" y="5" width="20" height="10" fill="#ffcc00"/>
+      
+      <!-- Beef patty -->
+      <circle cx="15" cy="15" r="8" fill="#ffcc00"/>
+      
+      <!-- Lettuce -->
+      <path d="M10,20 L10,30 M10,20 L25,20" stroke="#ffcc00" stroke-width="3" fill="none"/>
+      
+      <!-- Cheese -->
+      <ellipse cx="20" cy="25" rx="4" ry="2" fill="#fff"/>
+    </g>
+    
+    <!-- Mouth -->
+    <path d="M-30,-10 Q-20,-5 0,-5 Q20,-5 30,-10" stroke="#000" stroke-width="4" fill="none"/>
+    
+    <!-- Eyes -->
+    <circle cx="-10" cy="-15" r="2" fill="#000"/>
+    <circle cx="10" cy="-15" r="2" fill="#000"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="200" y="250" font-family="Arial" font-size="24" fill="#000">Andy Warhol Eating a Hamburger</text>
+</svg>

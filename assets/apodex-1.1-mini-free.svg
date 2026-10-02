@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500" height="600">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#7B68EE"/>
+  
+  <!-- Warhol's iconic black hair -->
+  <path d="M145,85 Q145,30 355,30 Q355,85 355,95 L355,125 Q355,140 345,150 L155,150 Q145,140 145,125 Z" fill="#000000"/>
+  
+  <!-- Bangs -->
+  <path d="M160,85 Q170,125 250,125 Q330,125 340,85" fill="none" stroke="#000000" stroke-width="1"/>
+  
+  <!-- Face -->
+  <ellipse cx="250" cy="230" rx="100" ry="130" fill="#FFE4B5"/>
+  
+  <!-- Signature black-rimmed glasses -->
+  <rect x="185" y="200" width="50" height="35" fill="#000000"/>
+  <rect x="265" y="200" width="50" height="35" fill="#000000"/>
+  <rect x="235" y="205" width="30" height="8" fill="#000000"/>
+  
+  <!-- Mouth mid-bite -->
+  <path d="M230,315 Q250,340 270,315" stroke="#000000" stroke-width="3" fill="none"/>
+  
+  <!-- Hamburger bottom bun -->
+  <path d="M180,340 Q250,370 320,340 L320,355 Q250,390 180,355 Z" fill="#D2691E"/>
+  
+  <!-- Tomato -->
+  <path d="M185,362 Q250,380 315,362 L315,375 Q250,392 185,375 Z" fill="#DC143C"/>
+  
+  <!-- Lettuce -->
+  <path d="M185,380 Q250,405 315,380 L315,395 Q250,418 185,395 Z" fill="#228B22"/>
+  
+  <!-- Patty -->
+  <path d="M190,402 Q250,425 310,402 L310,420 Q250,438 190,420 Z" fill="#8B4513"/>
+  
+  <!-- Burger top bun with sesame seeds -->
+  <path d="M180,428 Q250,462 320,428 L320,442 Q250,472 180,442 Z" fill="#F4A460"/>
+  <circle cx="200" cy="435" r="2.5" fill="#FFF"/>
+  <circle cx="220" cy="440" r="2.5" fill="#FFF"/>
+  <circle cx="240" cy="437" r="2.5" fill="#FFF"/>
+  <circle cx="260" cy="440" r="2.5" fill="#FFF"/>
+  <circle cx="280" cy="435" r="2.5" fill="#FFF"/>
+  <circle cx="300" cy="438" r="2.5" fill="#FFF"/>
+  
+  <!-- Arm/hand holding burger -->
+  <path d="M320,420 Q345,410 360,420 Q350,440 330,435" stroke="#FFE4B5" stroke-width="16" fill="none"/>
+  
+  <!-- Pop art shirt -->
+  <rect x="150" y="400" width="200" height="200" fill="#0000FF"/>
+</svg>

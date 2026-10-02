@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Pop Art Halftone Dot Pattern -->
+    <pattern id="halftone" x="0" y="0" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.2" fill="#000000" opacity="0.06"/>
+    </pattern>
+
+    <!-- Silkscreen dot pattern for background -->
+    <pattern id="pop-dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="3" fill="#E91E63" opacity="0.15"/>
+    </pattern>
+
+    <!-- Subtle paper grain filter -->
+    <filter id="paper-texture" background-color="#f4f3ef" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" result="noise"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0"/>
+      <feComposite in2="SourceGraphic" in="glare" operator="in"/>
+    </filter>
+
+    <!-- Silkscreen misregistration blur/glow -->
+    <filter id="screenprint-glow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Gradients -->
+    <radialGradient id="pop-radial" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFE600"/>
+      <stop offset="60%" stop-color="#FFD000"/>
+      <stop offset="100%" stop-color="#FFB700"/>
+    </radialGradient>
+
+    <linearGradient id="skin-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5EE"/>
+      <stop offset="60%" stop-color="#FCE4D6"/>
+      <stop offset="100%" stop-color="#E8C4B0"/>
+    </linearGradient>
+
+    <linearGradient id="silver-hair" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#EDECE8"/>
+      <stop offset="75%" stop-color="#D5D5D3"/>
+      <stop offset="100%" stop-color="#ACABA9"/>
+    </linearGradient>
+
+    <linearGradient id="ketchup-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E51A1A"/>
+      <stop offset="60%" stop-color="#B70E14"/>
+      <stop offset="100%" stop-color="#7A0005"/>
+    </linearGradient>
+
+    <linearGradient id="bun-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8A355"/>
+      <stop offset="40%" stop-color="#CE7D29"/>
+      <stop offset="100%" stop-color="#A55410"/>
+    </linearGradient>
+
+    <linearGradient id="table-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0DFD5"/>
+      <stop offset="20%" stop-color="#CBC9BE"/>
+      <stop offset="100%" stop-color="#A8A69A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ================= BACKGROUND (POPART STYLE) ================= -->
+  <!-- Pop Art Solid Canvas -->
+  <rect width="800" height="800" fill="url(#pop-radial)"/>
+  <rect width="800" height="800" fill="url(#pop-dots)"/>
+
+  <!-- Silkscreen Color Block Backdrop (Diagonal Split) -->
+  <polygon points="0,0 800,0 800,320 0,580" fill="#00E5FF" opacity="0.18"/>
+
+  <!-- ================= STUDIO / SETTING ================= -->
+  <!-- Leth 1982 Minimalist Table Surface -->
+  <polygon points="0,550 800,550 800,800 0,800" fill="url(#table-grad)"/>
+  <!-- Table Edge Rim -->
+  <line x1="0" y1="550" x2="800" y2="550" stroke="#7A786C" stroke-width="4"/>
+  <rect x="0" y="554" width="800" height="12" fill="#000000" opacity="0.12"/>
+
+  <!-- Table Halftone Overlay -->
+  <polygon points="0,550 800,550 800,800 0,800" fill="url(#halftone)" opacity="0.6"/>
+
+  <!-- Andy's Cast Shadow on Table -->
+  <ellipse cx="400" cy="680" rx="260" ry="60" fill="#000000" opacity="0.22"/>
+  <ellipse cx="400" cy="670" rx="190" ry="35" fill="#000000" opacity="0.18"/>
+
+  <!-- ================= POP ACCESSORIES ON TABLE ================= -->
+  <!-- Heinz Ketchup Bottle (Classic 1982 Leth Film Reference) -->
+  <g id="ketchup-bottle" transform="translate(140, 430)">
+    <!-- Shadow -->
+    <ellipse cx="32" cy="180" rx="35" ry="12" fill="#000000" opacity="0.3"/>
+    
+    <!-- Glass Bottle Body -->
+    <path d="M 18 65 L 12 165 C 12 175 20 180 32 180 C 44 180 52 175 52 165 L 46 65 L 40 30 L 24 30 Z" fill="url(#ketchup-grad)"/>
+    <!-- Glass Highlights / Facets -->
+    <path d="M 18 65 L 14 162 C 16 172 24 175 32 175" stroke="#FFA4A4" stroke-width="2" fill="none" opacity="0.6"/>
+    <line x1="28" y1="68" x2="25" y2="165" stroke="#FFFFFF" stroke-width="2.5" opacity="0.5" stroke-linecap="round"/>
+    <line x1="42" y1="68" x2="40" y2="160" stroke="#500002" stroke-width="3" opacity="0.7"/>
+
+    <!-- Keystone Iconic Label -->
+    <path d="M 20 95 L 44 95 L 47 125 L 32 135 L 17 125 Z" fill="#FFFFFF" stroke="#0C4A23" stroke-width="1.5"/>
+    <path d="M 23 99 L 41 99 L 44 122 L 32 130 L 20 122 Z" fill="#B70E14"/>
+    <text x="32" y="108" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="900" font-size="5" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.5">HEINZ</text>
+    <text x="32" y="115" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" font-size="3.5" fill="#FFC107" text-anchor="middle">57</text>
+    <text x="32" y="121" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" font-size="3.2" fill="#FFFFFF" text-anchor="middle">TOMATO</text>
+
+    <!-- Neck & White Cap -->
+    <rect x="25" y="12" width="14" height="18" fill="#F4F4F4" stroke="#CCCCCC" stroke-width="1"/>
+    <rect x="23" y="6" width="18" height="8" rx="2" fill="#EEEEEE" stroke="#AAAAAA" stroke-width="1"/>
+    <line x1="24" y1="10" x2="40" y2="10" stroke="#888888" stroke-width="0.8"/>
+  </g>
+
+  <!-- Crinkled Fast-Food Paper Wrapper / Box on Right -->
+  <g id="paper-wrap" transform="translate(560, 530)">
+    <polygon points="10,60 80,45 130,70 110,105 20,95" fill="#E5E0D4" stroke="#BBB5A5" stroke-width="1.5"/>
+    <polygon points="15,62 55,54 45,85 10,75" fill="#D8D2C0" opacity="0.8"/>
+    <path d="M 30,55 Q 50,48 70,52 Q 65,75 40,80 Z" fill="#BA261A" opacity="0.85"/>
+    <circle cx="50" cy="64" r="10" fill="#E8A724"/>
+    <ellipse cx="65" cy="85" rx="55" ry="16" fill="#000000" opacity="0.2"/>
+  </g>
+
+  <!-- ================= SILKSCREEN MISREGISTRATION GHOSTS (WARHOL EFFECT) ================= -->
+  <!-- Cyan & Magenta color-shift silhouettes for authentic Pop Art print feeling -->
+  <g opacity="0.25" transform="translate(-4, -3)">
+    <!-- Ghost of torso & hair in cyan -->
+    <path d="M 210,800 C 200,650 250,510 310,480 C 280,420 260,330 270,240 C 275,190 320,130 400,120 C 490,125 540,195 530,270 C 535,320 520,410 490,475 C 550,505 600,640 590,800 Z" fill="#00E5FF"/>
+  </g>
+  <g opacity="0.22" transform="translate(5, 3)">
+    <!-- Ghost in magenta -->
+    <path d="M 210,800 C 200,650 250,510 310,480 C 280,420 260,330 270,240 C 275,190 320,130 400,120 C 490,125 540,195 530,270 C 535,320 520,410 490,475 C 550,505 600,640 590,800 Z" fill="#FF0055"/>
+  </g>
+
+  <!-- ================= ANDY WARHOL FIGURE ================= -->
+  <!-- === Black Blazer / Jacket === -->
+  <g id="jacket">
+    <!-- Back of Coat / Shoulders -->
+    <path d="M 170 800 C 185 640 225 535 295 490 L 350 490 L 400 550 L 450 490 L 505 490 C 575 535 615 640 630 800 Z" fill="#18181A"/>
+
+    <!-- Screenprint High-Contrast Ink Folds (Velvet Black) -->
+    <path d="M 205 740 C 220 620 255 545 305 505 L 345 570 L 260 760 Z" fill="#0D0D0E"/>
+    <path d="M 595 740 C 580 620 545 545 495 505 L 455 570 L 540 760 Z" fill="#0D0D0E"/>
+    
+    <!-- White Dress Shirt & Collar -->
+    <polygon points="345,475 400,560 455,475 440,460 400,475 360,460" fill="#FFFFFF" stroke="#DCDCDC" stroke-width="1"/>
+    <polygon points="385,472 400,565 415,472" fill="#EAEAEA"/>
+
+    <!-- Black Knit Tie (Iconic 1982 Leth Film Look) -->
+    <polygon points="393,485 407,485 410,610 390,610" fill="#050505"/>
+    <polygon points="390,610 410,610 408,625 392,625" fill="#050505"/>
+  </g>
+
+  <!-- === Neck === -->
+  <g id="neck">
+    <path d="M 355 400 L 355 480 C 355 505 445 505 445 480 L 445 400 Z" fill="url(#skin-base)"/>
+    <!-- Deep Neck Shadow under Jaw -->
+    <path d="M 355 400 C 380 435 420 435 445 400 C 445 435 435 455 400 458 C 365 455 355 430 355 400 Z" fill="#D3A58C" opacity="0.75"/>
+    <!-- Distinct Adam's Apple & Tendons -->
+    <path d="M 395 432 L 401 442 L 407 432" stroke="#B87D60" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- === Face Structure === -->
+  <g id="head-face">
+    <!-- Base Head Contour -->
+    <path d="M 320 280 C 315 355 330 420 370 435 C 390 442 410 442 430 435 C 470 420 485 355 480 280 C 475 205 325 205 320 280 Z" fill="url(#skin-base)"/>
+
+    <!-- Cheeks and Jaw Pop Art Shading -->
+    <!-- Left Contour / Cheek Hollow -->
+    <path d="M 323 295 C 325 350 340 395 368 420 C 352 390 342 345 342 300 C 342 270 338 260 323 295 Z" fill="#DE9F80" opacity="0.7"/>
+    <!-- Right Contour -->
+    <path d="M 477 295 C 475 350 460 395 432 420 C 448 390 458 345 458 300 C 458 270 462 260 477 295 Z" fill="#DE9F80" opacity="0.7"/>
+
+    <!-- Warhol's Delicate, Pale Ears -->
+    <!-- Left Ear -->
+    <path d="M 322 275 C 310 280 305 315 315 340 C 320 350 325 345 325 335 C 318 320 318 290 324 285 Z" fill="#FAD7C5" stroke="#D3987D" stroke-width="1.5"/>
+    <!-- Right Ear -->
+    <path d="M 478 275 C 490 280 495 315 485 340 C 480 350 475 345 475 335 C 482 320 482 290 476 285 Z" fill="#FAD7C5" stroke="#D3987D" stroke-width="1.5"/>
+
+    <!-- Nose (Warhol's Iconic Broad, Bulbous-Tipped Nose) -->
+    <g id="nose">
+      <!-- Bridge Shadow -->
+      <path d="M 390 270 L 388 325 L 380 342 L 392 347 L 400 347 L 408 347 L 420 342 L 412 325 L 410 270 Z" fill="#E8A788" opacity="0.3"/>
+      <!-- Soft Bridge Highlight -->
+      <path d="M 397 265 L 396 335 L 400 340 L 404 335 L 403 265 Z" fill="#FFFFFF" opacity="0.6"/>
+      <!-- Nostril Curves & Tip -->
+      <path d="M 382 338 C 382 347 392 350 400 350 C 408 350 418 347 418 338" fill="none" stroke="#A86343" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 387 344 C 384 345 380 342 381 338 C 382 335 385 336 388 340 Z" fill="#753518"/>
+      <path d="M 413 344 C 416 345 420 342 419 338 C 418 335 415 336 412 340 Z" fill="#753518"/>
+      <ellipse cx="400" cy="339" rx="7" ry="5" fill="#FFEFE7" opacity="0.7"/>
+    </g>
+
+    <!-- Eyes (Pensive, Deadpan, Gazing Directly at Viewer) -->
+    <g id="eyes">
+      <!-- Faint, Pale Eyebrows (Characteristic of Andy) -->
+      <path d="M 345 264 C 355 258 372 258 382 263" stroke="#B8977E" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.75"/>
+      <path d="M 455 264 C 445 258 428 258 418 263" stroke="#B8977E" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.75"/>
+
+      <!-- Eye Sockets / Tired Shadows -->
+      <path d="M 342 278 C 347 292 375 292 382 280" fill="#E2A688" opacity="0.45"/>
+      <path d="M 458 278 C 453 292 425 292 418 280" fill="#E2A688" opacity="0.45"/>
+
+      <!-- Left Eye -->
+      <ellipse cx="363" cy="276" rx="14" ry="7.5" fill="#FFFFFF"/>
+      <ellipse cx="363" cy="276" rx="6.5" ry="6.5" fill="#4B3621"/>
+      <circle cx="363" cy="276" r="3.2" fill="#0B0908"/>
+      <circle cx="365" cy="274" r="1.5" fill="#FFFFFF"/> <!-- Catchlight -->
+      <!-- Heavy Upper Eyelid -->
+      <path d="M 348 275 Q 363 268 378 274" fill="none" stroke="#2C1609" stroke-width="2.8" stroke-linecap="round"/>
+      <!-- Deep Crease above Eye -->
+      <path d="M 347 269 Q 363 263 379 269" fill="none" stroke="#9C6246" stroke-width="1.4" opacity="0.7"/>
+
+      <!-- Right Eye -->
+      <ellipse cx="437" cy="276" rx="14" ry="7.5" fill="#FFFFFF"/>
+      <ellipse cx="437" cy="276" rx="6.5" ry="6.5" fill="#4B3621"/>
+      <circle cx="437" cy="276" r="3.2" fill="#0B0908"/>
+      <circle cx="439" cy="274" r="1.5" fill="#FFFFFF"/> <!-- Catchlight -->
+      <!-- Heavy Upper Eyelid -->
+      <path d="M 452 275 Q 437 268 422 274" fill="none" stroke="#2C1609" stroke-width="2.8" stroke-linecap="round"/>
+      <!-- Deep Crease above Eye -->
+      <path d="M 453 269 Q 437 263 421 269" fill="none" stroke="#9C6246" stroke-width="1.4" opacity="0.7"/>
+    </g>
+
+    <!-- Mouth & Philtrum - Poised mid-bite against the burger -->
+    <g id="mouth">
+      <!-- Philtrum -->
+      <path d="M 396 352 L 396 368 M 404 352 L 404 368" stroke="#D3987D" stroke-width="1.2" opacity="0.6"/>
+      <!-- Upper Lip (Parted delicately around the burger top) -->
+      <path d="M 382 376 C 390 370 396 371 400 373 C 404 371 410 370 418 376 C 412 380 406 381 400 380 C 394 381 388 380 382 376 Z" fill="#C97A6B"/>
+      <!-- Slight Mouth Cavity Opening for Bite -->
+      <ellipse cx="400" cy="381" rx="14" ry="5" fill="#3D1212"/>
+      <!-- Upper Teeth Visible touching Bun -->
+      <path d="M 392 379 Q 400 381 408 379 L 407 383 Q 400 384 393 383 Z" fill="#F8F8F8"/>
+      <!-- Lower Lip (Compressed Underneath Burger Rim) -->
+      <path d="M 386 408 C 393 416 407 416 414 408 C 408 411 392 411 386 408 Z" fill="#BA6C5C"/>
+    </g>
+  </g>
+
+  <!-- ================= THE HAMBURGER (HELD UP TO MOUTH) ================= -->
+  <!-- Centered precisely at Andy's lips (x=400, y=380-435) -->
+  <g id="hamburger">
+    <!-- Burger Shadow on Chest -->
+    <ellipse cx="400" cy="455" rx="85" ry="18" fill="#000000" opacity="0.35"/>
+
+    <!-- Bottom Bun -->
+    <path d="M 330 418 C 330 435 345 444 400 444 C 455 444 470 435 470 418 C 470 412 330 412 330 418 Z" fill="#C87B2E" stroke="#7A420B" stroke-width="2"/>
+    <path d="M 338 424 C 360 433 440 433 462 424" stroke="#E29C4F" stroke-width="2.5" fill="none" opacity="0.6"/>
+
+    <!-- Grilled Burger Patty -->
+    <path d="M 318 406 C 316 416 332 423 400 423 C 468 423 484 416 482 406 C 482 401 318 401 318 406 Z" fill="#4A2511" stroke="#271206" stroke-width="2.5"/>
+    <!-- Patty Texture & Char Marks -->
+    <path d="M 325 410 Q 335 414 345 409 Q 355 415 368 410 Q 385 416 400 410 Q 420 415 440 409 Q 455 415 475 409" stroke="#31170A" stroke-width="3" fill="none"/>
+
+    <!-- Melted American Cheese (Golden Yellow Corners Dripping Down) -->
+    <polygon points="325,404 350,404 362,426 375,404 425,404 445,424 458,404 475,404 465,398 335,398" fill="#FFB300" stroke="#E65100" stroke-width="1.5"/>
+    <polygon points="390,404 402,428 414,404" fill="#FFC107"/>
+
+    <!-- Ketchup Drip / Relish -->
+    <path d="M 372 407 C 372 418 382 418 382 407 Z" fill="#B70E14"/>
+    <circle cx="377" cy="414" r="1.5" fill="#FF8A80"/>
+
+    <!-- Crisp Ruffled Green Lettuce Leaf -->
+    <path d="M 315 398 C 322 408 335 404 345 408 C 358 398 370 408 382 403 C 395 409 408 400 420 408 C 435 402 448 409 460 402 C 472 408 482 402 485 396 C 485 392 315 392 315 398 Z" fill="#5DBB43" stroke="#2E7D32" stroke-width="2"/>
+    <!-- Lettuce Highlights & Ribs -->
+    <path d="M 328 402 Q 338 396 348 403 M 365 402 Q 378 396 390 403 M 428 402 Q 440 396 455 403" stroke="#A5D6A7" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Red Tomato Slices -->
+    <path d="M 330 395 C 330 388 390 388 390 395 Z" fill="#D32F2F" stroke="#8E0000" stroke-width="1.5"/>
+    <path d="M 405 395 C 405 388 470 388 470 395 Z" fill="#D32F2F" stroke="#8E0000" stroke-width="1.5"/>
+
+    <!-- Plump Top Bun (With Indentation from Andy's Bite) -->
+    <!-- The profile shows the burger pressed slightly against his mouth -->
+    <path d="M 320 395 C 318 340 365 330 392 334 C 396 348 404 348 408 334 C 435 330 482 340 480 395 C 480 402 320 402 320 395 Z" fill="url(#bun-grad)" stroke="#663300" stroke-width="2.5"/>
+
+    <!-- Bun Golden Highlights & Volume -->
+    <path d="M 335 375 C 345 348 375 340 390 342" stroke="#FFD180" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 465 375 C 455 348 425 340 410 342" stroke="#FFD180" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+    <!-- White Sesame Seeds Scattered on Bun -->
+    <g fill="#FFF8E7" stroke="#D7A15C" stroke-width="0.8">
+      <!-- Left side seeds -->
+      <ellipse cx="345" cy="365" rx="3" ry="1.5" transform="rotate(-20 345 365)"/>
+      <ellipse cx="358" cy="350" rx="3" ry="1.5" transform="rotate(15 358 350)"/>
+      <ellipse cx="370" cy="368" rx="3" ry="1.5" transform="rotate(-35 370 368)"/>
+      <ellipse cx="380" cy="352" rx="3" ry="1.5" transform="rotate(25 380 352)"/>
+      <ellipse cx="352" cy="380" rx="3" ry="1.5" transform="rotate(10 352 380)"/>
+      <!-- Right side seeds -->
+      <ellipse cx="420" cy="352" rx="3" ry="1.5" transform="rotate(-15 420 352)"/>
+      <ellipse cx="442" cy="350" rx="3" ry="1.5" transform="rotate(30 442 350)"/>
+      <ellipse cx="432" cy="368" rx="3" ry="1.5" transform="rotate(-10 432 368)"/>
+      <ellipse cx="455" cy="365" rx="3" ry="1.5" transform="rotate(40 455 365)"/>
+      <ellipse cx="448" cy="380" rx="3" ry="1.5" transform="rotate(-25 448 380)"/>
+    </g>
+  </g>
+
+  <!-- ================= ARMS & HANDS (HOLDING BURGER DELICATELY) ================= -->
+  <!-- Andy Warhol held the burger with an iconic delicate, almost timid, pale-fingered grip -->
+  <g id="hands-and-arms">
+    <!-- Left Forearm (Sleeve in black jacket) -->
+    <path d="M 230 650 L 290 550 L 330 480 L 305 460 L 250 560 L 195 650 Z" fill="#18181A"/>
+    <!-- Left White Shirt Cuff -->
+    <polygon points="318,470 332,482 324,489 310,477" fill="#FFFFFF"/>
+
+    <!-- Left Hand & Pale Fingers Gripping Bun -->
+    <!-- Thumb Underneath Bun -->
+    <path d="M 335 442 C 342 445 348 438 348 428 C 348 420 340 422 332 426 Z" fill="#FCE4D6" stroke="#D3987D" stroke-width="1.5"/>
+    <!-- Index Finger curled on top edge of bun -->
+    <path d="M 312 400 C 315 388 330 380 340 388 C 345 393 342 405 330 406 Z" fill="#FFF0E6" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Middle Finger -->
+    <path d="M 305 408 C 308 396 324 394 330 402 C 334 408 328 418 318 418 Z" fill="#FCE4D6" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Ring Finger -->
+    <path d="M 302 420 C 306 412 320 412 322 422 C 324 428 316 434 308 432 Z" fill="#F2D0BE" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Little Finger tucked -->
+    <path d="M 302 434 C 308 428 318 432 316 440 C 314 445 306 448 302 442 Z" fill="#E8BDAB" stroke="#C58567" stroke-width="1.5"/>
+
+    <!-- Right Forearm (Sleeve in black jacket) -->
+    <path d="M 570 650 L 510 550 L 470 480 L 495 460 L 550 560 L 605 650 Z" fill="#18181A"/>
+    <!-- Right White Shirt Cuff -->
+    <polygon points="482,470 468,482 476,489 490,477" fill="#FFFFFF"/>
+
+    <!-- Right Hand & Pale Fingers Gripping Bun -->
+    <!-- Right Thumb Underneath Bun -->
+    <path d="M 465 442 C 458 445 452 438 452 428 C 452 420 460 422 468 426 Z" fill="#FCE4D6" stroke="#D3987D" stroke-width="1.5"/>
+    <!-- Right Index Finger curled on top edge of bun -->
+    <path d="M 488 400 C 485 388 470 380 460 388 C 455 393 458 405 470 406 Z" fill="#FFF0E6" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Right Middle Finger -->
+    <path d="M 495 408 C 492 396 476 394 470 402 C 466 408 472 418 482 418 Z" fill="#FCE4D6" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Right Ring Finger -->
+    <path d="M 498 420 C 494 412 480 412 478 422 C 476 428 484 434 492 432 Z" fill="#F2D0BE" stroke="#C58567" stroke-width="1.8"/>
+    <!-- Right Little Finger tucked -->
+    <path d="M 498 434 C 492 428 482 432 484 440 C 486 445 494 448 498 442 Z" fill="#E8BDAB" stroke="#C58567" stroke-width="1.5"/>
+  </g>
+
+  <!-- ================= ANDY WARHOL'S ICONIC SILVER-WHITE WIG ================= -->
+  <!-- Wild, spiky, electro-shock platinum-white mop with silk-screen posterization -->
+  <g id="platinum-wig" filter="url(#screenprint-glow)">
+    <!-- Dark Silver Base / Under-hair Shadows -->
+    <path d="M 280 230 C 270 170 320 100 400 95 C 485 100 535 165 525 235 C 545 285 530 350 515 365 C 495 330 495 270 490 250 C 475 220 470 240 450 255 C 420 220 380 220 350 255 C 330 240 325 220 310 250 C 305 270 305 330 285 365 C 270 350 255 285 280 230 Z" fill="#88898C"/>
+
+    <!-- Mid-tone Platinum Strands -->
+    <path d="M 295 210 C 285 155 335 110 405 105 C 475 110 520 150 510 215 C 530 250 520 320 500 330 C 490 270 475 225 450 240 C 430 210 375 210 350 240 C 325 225 310 270 300 330 C 280 320 270 250 295 210 Z" fill="url(#silver-hair)"/>
+
+    <!-- Sharp, Spiky Foreground Tufts (Iconic Warhol Fringe & Flyaways) -->
+    <!-- Top-left spikes -->
+    <polygon points="360,115 340,65 380,105" fill="#FFFFFF"/>
+    <polygon points="325,145 290,95 345,130" fill="#EAEAEA"/>
+    <polygon points="300,180 245,140 310,170" fill="#FFFFFF"/>
+    <polygon points="275,230 220,210 285,225" fill="#DCDCDC"/>
+    <polygon points="270,270 235,280 280,285" fill="#FFFFFF"/>
+
+    <!-- Top-right spikes -->
+    <polygon points="440,115 460,65 420,105" fill="#FFFFFF"/>
+    <polygon points="475,145 510,95 455,130" fill="#EAEAEA"/>
+    <polygon points="500,180 555,140 490,170" fill="#FFFFFF"/>
+    <polygon points="525,230 580,210 515,225" fill="#DCDCDC"/>
+    <polygon points="530,270 565,280 520,285" fill="#FFFFFF"/>
+
+    <!-- Main Front Mop Bangs (Falling onto Forehead) -->
+    <!-- Left jagged bangs -->
+    <path d="M 315 220 L 335 265 L 345 235 L 365 272 L 375 240 L 395 275 L 400 235" stroke="#FFFFFF" stroke-width="4" fill="#F7F7F7"/>
+    <polygon points="315,210 338,266 345,230 368,272 378,235 398,272 400,210" fill="#FFFFFF"/>
+    <!-- Right jagged bangs -->
+    <path d="M 485 220 L 465 265 L 455 235 L 435 272 L 425 240 L 405 275 L 400 235" stroke="#FFFFFF" stroke-width="4" fill="#F7F7F7"/>
+    <polygon points="485,210 462,266 455,230 432,272 422,235 402,272 400,210" fill="#FFFFFF"/>
+
+    <!-- Graphic Silkscreen Shading Strokes Across Hair -->
+    <path d="M 330 150 Q 370 120 410 145" stroke="#B0B2B5" stroke-width="3" fill="none"/>
+    <path d="M 370 110 Q 405 85 440 115" stroke="#B0B2B5" stroke-width="3.5" fill="none"/>
+    <path d="M 310 190 Q 340 160 380 180" stroke="#B0B2B5" stroke-width="2.5" fill="none"/>
+    <path d="M 490 190 Q 460 160 420 180" stroke="#B0B2B5" stroke-width="2.5" fill="none"/>
+
+    <!-- Dazzling Pure White Highlights -->
+    <path d="M 385 95 Q 400 70 415 95 Q 400 90 385 95 Z" fill="#FFFFFF"/>
+    <path d="M 340 130 Q 365 110 385 130" stroke="#FFFFFF" stroke-width="3.5" fill="none"/>
+    <path d="M 460 130 Q 435 110 415 130" stroke="#FFFFFF" stroke-width="3.5" fill="none"/>
+  </g>
+
+  <!-- ================= POP ART GRAPHIC TEXT / STAMP OVERLAYS ================= -->
+  <!-- Warhol Silk-Screen Signature Stamp at Bottom Left -->
+  <g transform="translate(48, 720)">
+    <!-- Cyan misregistered background text -->
+    <text x="2" y="-2" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="22" fill="#00E5FF" letter-spacing="2" opacity="0.8">ANDY WARHOL</text>
+    <!-- Magenta misregistered background text -->
+    <text x="-2" y="2" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="22" fill="#FF007F" letter-spacing="2" opacity="0.8">ANDY WARHOL</text>
+    <!-- Sharp Black Stencil Text -->
+    <text x="0" y="0" font-family="'Courier New', Courier, monospace" font-weight="900" font-size="22" fill="#111111" letter-spacing="2">ANDY WARHOL</text>
+    <text x="1" y="18" font-family="'Arial Black', Gadget, sans-serif" font-weight="900" font-size="9" fill="#333333" letter-spacing="4">"EATING A HAMBURGER", 1982</text>
+  </g>
+
+  <!-- Iconic Quote Snippet at Table Corner -->
+  <g transform="translate(540, 755)">
+    <rect x="-10" y="-18" width="220" height="26" fill="#111111" rx="3"/>
+    <text x="100" y="-1" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="bold" font-size="10.5" fill="#FFE600" text-anchor="middle" letter-spacing="1">"IT'S A BURGER KING."</text>
+  </g>
+
+  <!-- Overall Pop-Art Border Frame -->
+  <rect x="0" y="0" width="800" height="800" fill="none" stroke="#111111" stroke-width="16"/>
+  <!-- Inner Registration Mark Lines (Silkscreen Artifacts) -->
+  <circle cx="25" cy="25" r="8" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <line x1="25" y1="13" x2="25" y2="37" stroke="#111111" stroke-width="1.5"/>
+  <line x1="13" y1="25" x2="37" y2="25" stroke="#111111" stroke-width="1.5"/>
+
+  <circle cx="775" cy="25" r="8" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <line x1="775" y1="13" x2="775" y2="37" stroke="#111111" stroke-width="1.5"/>
+  <line x1="763" y1="25" x2="787" y2="25" stroke="#111111" stroke-width="1.5"/>
+</svg>

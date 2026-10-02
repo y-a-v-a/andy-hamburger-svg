@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>Pop-art style portrait of Andy Warhol with white wig and round glasses, eating a hamburger.</desc>
+
+  <defs>
+    <pattern id="halftone" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="2.2" fill="#000" opacity="0.08"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7d51d"/>
+      <stop offset="100%" stop-color="#ffb300"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <circle cx="120" cy="180" r="160" fill="#ff4f9a" opacity="0.75"/>
+  <circle cx="700" cy="260" r="190" fill="#00b7ff" opacity="0.7"/>
+  <circle cx="100" cy="850" r="200" fill="#00c46a" opacity="0.65"/>
+  <circle cx="720" cy="820" r="170" fill="#ff7a00" opacity="0.7"/>
+  <rect width="800" height="1000" fill="url(#halftone)"/>
+
+  <!-- Torso -->
+  <path d="M 210 1000 L 210 780 C 210 680 300 630 400 630 C 500 630 590 680 590 780 L 590 1000 Z"
+        fill="#111" stroke="#111" stroke-width="6"/>
+
+  <!-- Neck -->
+  <rect x="355" y="560" width="90" height="120" rx="35"
+        fill="#f1c6a1" stroke="#111" stroke-width="6"/>
+
+  <!-- Turtleneck collar -->
+  <path d="M 320 650 Q 400 700 480 650 L 490 720 Q 400 770 310 720 Z"
+        fill="#222" stroke="#111" stroke-width="5"/>
+
+  <!-- Back wig -->
+  <ellipse cx="400" cy="330" rx="195" ry="225"
+           fill="#e6e6e6" stroke="#111" stroke-width="7"/>
+
+  <!-- Head -->
+  <ellipse cx="400" cy="400" rx="150" ry="200"
+           fill="#f6d1b2" stroke="#111" stroke-width="7"/>
+
+  <!-- Front wig -->
+  <ellipse cx="400" cy="220" rx="185" ry="115"
+           fill="#f2f2f2" stroke="#111" stroke-width="7"/>
+  <path d="M 245 310 C 220 370 220 480 265 570 C 285 500 285 410 270 310 Z"
+        fill="#f2f2f2" stroke="#111" stroke-width="7"/>
+  <path d="M 555 310 C 580 370 580 480 535 570 C 515 500 515 410 530 310 Z"
+        fill="#f2f2f2" stroke="#111" stroke-width="7"/>
+  <path d="M 250 300 Q 400 230 550 300 Q 530 360 500 330 Q 480 380 450 340
+           Q 420 390 400 340 Q 380 390 350 340 Q 320 380 300 330 Q 280 360 250 300 Z"
+        fill="#f2f2f2" stroke="#111" stroke-width="7"/>
+
+  <!-- Eyebrows -->
+  <path d="M 295 315 Q 340 290 385 315" fill="none" stroke="#111"
+        stroke-width="8" stroke-linecap="round"/>
+  <path d="M 415 315 Q 460 290 505 315" fill="none" stroke="#111"
+        stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Round glasses -->
+  <circle cx="340" cy="385" r="58" fill="#d9f3ff" fill-opacity="0.45"
+          stroke="#111" stroke-width="10"/>
+  <circle cx="460" cy="385" r="58" fill="#d9f3ff" fill-opacity="0.45"
+          stroke="#111" stroke-width="10"/>
+  <path d="M 398 385 L 402 385" stroke="#111" stroke-width="10" stroke-linecap="round"/>
+  <path d="M 282 385 L 255 370" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 518 385 L 545 370" stroke="#111" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="340" cy="385" r="9" fill="#111"/>
+  <circle cx="460" cy="385" r="9" fill="#111"/>
+
+  <!-- Nose -->
+  <path d="M 400 410 L 388 465 Q 400 478 425 465" fill="none"
+        stroke="#111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mouth (partly covered by burger) -->
+  <ellipse cx="400" cy="525" rx="78" ry="45"
+           fill="#7a1f2b" stroke="#111" stroke-width="8"/>
+  <path d="M 335 505 Q 400 530 465 505 L 455 520 Q 400 540 345 520 Z"
+        fill="#fff" stroke="#111" stroke-width="4"/>
+  <ellipse cx="400" cy="555" rx="40" ry="16" fill="#d94b5e"/>
+
+  <!-- Arm / sleeve -->
+  <path d="M 800 740 L 710 640 L 610 700 L 800 920 Z"
+        fill="#111" stroke="#111" stroke-width="6"/>
+
+  <!-- Hand behind burger -->
+  <ellipse cx="650" cy="660" rx="65" ry="95"
+           fill="#f1c6a1" stroke="#111" stroke-width="6"/>
+
+  <!-- Hamburger -->
+  <!-- Bottom bun -->
+  <ellipse cx="520" cy="585" rx="115" ry="38"
+           fill="#d99b4e" stroke="#111" stroke-width="7"/>
+  <!-- Patty -->
+  <ellipse cx="520" cy="548" rx="118" ry="34"
+           fill="#6b3e1e" stroke="#111" stroke-width="7"/>
+  <!-- Cheese -->
+  <path d="M 402 540 L 638 540 L 628 565 L 412 565 Z"
+        fill="#ffc531" stroke="#111" stroke-width="6"/>
+  <path d="M 430 565 Q 440 590 455 565" fill="#ffc531"
+        stroke="#111" stroke-width="5"/>
+  <path d="M 560 565 Q 575 592 590 565" fill="#ffc531"
+        stroke="#111" stroke-width="5"/>
+  <!-- Lettuce -->
+  <path d="M 390 525 Q 420 500 450 525 Q 480 500 510 525 Q 540 500 570 525
+           Q 600 500 640 525 L 635 545 L 395 545 Z"
+        fill="#4caf50" stroke="#111" stroke-width="6"/>
+  <!-- Top bun -->
+  <path d="M 392 525 Q 520 400 648 525 Z"
+        fill="#e6b05b" stroke="#111" stroke-width="7"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="470" cy="470" rx="8" ry="4" fill="#fff3c4"
+           stroke="#111" stroke-width="2" transform="rotate(-20 470 470)"/>
+  <ellipse cx="520" cy="455" rx="8" ry="4" fill="#fff3c4"
+           stroke="#111" stroke-width="2" transform="rotate(10 520 455)"/>
+  <ellipse cx="570" cy="475" rx="8" ry="4" fill="#fff3c4"
+           stroke="#111" stroke-width="2" transform="rotate(25 570 475)"/>
+  <ellipse cx="500" cy="500" rx="8" ry="4" fill="#fff3c4"
+           stroke="#111" stroke-width="2" transform="rotate(-5 500 500)"/>
+  <ellipse cx="550" cy="505" rx="8" ry="4" fill="#fff3c4"
+           stroke="#111" stroke-width="2" transform="rotate(15 550 505)"/>
+
+  <!-- Fingers over burger -->
+  <rect x="590" y="530" width="85" height="24" rx="12"
+        fill="#f1c6a1" stroke="#111" stroke-width="6"
+        transform="rotate(-12 632 542)"/>
+  <rect x="600" y="562" width="90" height="24" rx="12"
+        fill="#f1c6a1" stroke="#111" stroke-width="6"
+        transform="rotate(-5 645 574)"/>
+  <rect x="600" y="594" width="90" height="24" rx="12"
+        fill="#f1c6a1" stroke="#111" stroke-width="6"
+        transform="rotate(3 645 606)"/>
+  <rect x="595" y="626" width="85" height="24" rx="12"
+        fill="#f1c6a1" stroke="#111" stroke-width="6"
+        transform="rotate(10 637 638)"/>
+
+  <!-- Bite / mouth interaction details -->
+  <path d="M 400 490 Q 420 510 430 530" fill="none"
+        stroke="#111" stroke-width="5" opacity="0.5"/>
+  <path d="M 380 550 Q 400 565 420 555" fill="none"
+        stroke="#111" stroke-width="5" opacity="0.5"/>
+
+  <!-- Pop-art border -->
+  <rect x="20" y="20" width="760" height="960"
+        fill="none" stroke="#111" stroke-width="12"/>
+</svg>
