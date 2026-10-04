@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#FFD700"/>
+
+  <!-- Pop art color blocks -->
+  <rect x="0" y="0" width="200" height="200" fill="#FF4F81" opacity="0.15"/>
+  <rect x="200" y="200" width="200" height="200" fill="#00C9FF" opacity="0.15"/>
+
+  <!-- Hair / Wig -->
+  <path d="M110 120 Q200 60 290 120 L280 200 L120 200 Z" fill="#FFFFFF" stroke="#000" stroke-width="4"/>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="180" rx="90" ry="110" fill="#FFDBAC" stroke="#000" stroke-width="4"/>
+
+  <!-- Glasses -->
+  <ellipse cx="160" cy="170" rx="28" ry="22" fill="none" stroke="#000" stroke-width="5"/>
+  <ellipse cx="240" cy="170" rx="28" ry="22" fill="none" stroke="#000" stroke-width="5"/>
+  <line x1="188" y1="170" x2="212" y2="170" stroke="#000" stroke-width="5"/>
+
+  <!-- Eyes -->
+  <circle cx="160" cy="170" r="10" fill="#000"/>
+  <circle cx="240" cy="170" r="10" fill="#000"/>
+
+  <!-- Nose -->
+  <line x1="200" y1="175" x2="200" y2="195" stroke="#000" stroke-width="4"/>
+
+  <!-- Mouth open with hamburger -->
+  <path d="M170 230 Q200 250 230 230" fill="none" stroke="#000" stroke-width="4"/>
+  
+  <!-- Hamburger -->
+  <ellipse cx="200" cy="265" rx="45" ry="18" fill="#F4D3A1" stroke="#000" stroke-width="3"/>
+  <ellipse cx="200" cy="270" rx="45" ry="12" fill="#8B4513" stroke="#000" stroke-width="3"/>
+  <ellipse cx="200" cy="277" rx="45" ry="18" fill="#D2A679" stroke="#000" stroke-width="3"/>
+  <!-- Bite mark -->
+  <path d="M170 265 Q180 255 190 260" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Text -->
+  <text x="200" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="28" fill="#000">ANDY EATS</text>
+</svg>

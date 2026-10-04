@@ -1,0 +1,31 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#fff"/>
+  
+  <!-- Warhol‑style color strips (repetition motif) -->
+  <polygon points="0,0 300,0 300,50 0,50" fill="#ff0000"/>
+  <polygon points="0,50 300,50 300,100 0,100" fill="#ffff00"/>
+  <polygon points="0,100 300,100 300,150 0,150" fill="#00ff00"/>
+  <polygon points="0,150 300,150 300,200 0,200" fill="#0000ff"/>
+  
+  <!-- Hamburger in Warhol pop‑art style -->
+  <g fill="none" stroke="#000" stroke-width="5">
+    <!-- bun top -->
+    <ellipse cx="150" cy="180" rx="80" ry="22" fill="#ffa500"/>
+    <!-- patty -->
+    <rect x="70" y="205" width="160" height="55" fill="#c62828"/>
+    <!-- cheese -->
+    <rect x="80" y="215" width="140" height="35" fill="#ffd700"/>
+    <!-- lettuce -->
+    <path d="M 70 255 Q 160 255 250 255 L 250 275 Q 160 275 70 275 Z" fill="#66bb6a"/>
+    <!-- tomato slices -->
+    <ellipse cx="150" cy="265" rx="30" ry="14" fill="#ef5350"/>
+    <ellipse cx="100" cy="260" rx="28" ry="12" fill="#ef5350"/>
+    <ellipse cx="200" cy="260" rx="28" ry="12" fill="#ef5350"/>
+    <!-- bottom bun -->
+    <ellipse cx="150" cy="295" rx="80" ry="22" fill="#ffa500"/>
+  </g>
+  
+  <!-- Pop‑art caption -->
+  <text x="150" y="295" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#000">POP ART</text>
+</svg>

@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <title>Andy Warhol Eating a Hamburger (Pop Art Style)</title>
+
+  <defs>
+    <!-- Red halftone pattern for shirt/shadows -->
+    <pattern id="dots-red" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="3" cy="3" r="1.4" fill="#111" opacity="0.25"/>
+    </pattern>
+
+    <!-- Yellow halftone pattern for background/burger top -->
+    <pattern id="dots-yellow" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="3" cy="3" r="1.4" fill="#111" opacity="0.22"/>
+    </pattern>
+
+    <!-- Dark blue halftone pattern for background -->
+    <pattern id="dots-blue" patternUnits="userSpaceOnUse" width="6" height="6">
+      <circle cx="3" cy="3" r="1.4" fill="#fff" opacity="0.22"/>
+    </pattern>
+
+    <!-- Drop shadow reuse -->
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#FFD23F"/>
+  <rect x="0" y="0" width="800" height="800" fill="url(#dots-yellow)"/>
+
+  <!-- Border frame -->
+  <rect x="12" y="12" width="776" height="776" fill="none" stroke="#111" stroke-width="10" opacity="0.85"/>
+
+  <!-- Backdrop screen -->
+  <rect x="40" y="70" width="720" height="660" fill="#0039A5"/>
+  <rect x="40" y="70" width="720" height="660" fill="url(#dots-blue)"/>
+
+  <!-- Hair (iconic black mass with side parts) -->
+  <path d="M300 250 
+           Q320 260 340 268 
+           L460 268 
+           Q480 260 500 250 
+           L500 210 
+           Q480 240 460 250 
+           L430 250 
+           L430 200 
+           Q415 200 400 200 
+           Q385 200 370 200 
+           L370 250 
+           L340 250 
+           Q320 240 300 210 
+           Z"
+        fill="#111" stroke="#111" stroke-width="4"/>
+  <path d="M340 268 L460 268 Q470 280 465 290 L460 295 L345 295 L340 290 Q335 280 340 268 Z"
+        fill="#111" stroke="#111" stroke-width="4"/>
+
+  <!-- Head & bold outline -->
+  <g filter="url(#soft)">
+    <rect x="300" y="290" width="200" height="240" rx="48" fill="#FDDF7D" stroke="#111" stroke-width="6"/>
+    <rect x="300" y="290" width="200" height="240" rx="48" fill="url(#dots-red)" opacity="0.7"/>
+  </g>
+
+  <!-- Sunglasses (signature Warhol style) -->
+  <g stroke="#111" stroke-width="6">
+    <path d="M312 360 
+             C312 380 332 400 352 400 
+             L372 400 L372 360 Z 
+             M378 360 L378 400 
+             L422 400 L422 360 
+             Q440 360 440 380 
+             L440 400 L462 400 
+             C472 400 480 380 480 360 Z"
+          fill="#111"/>
+    <!-- Glass reflection -->
+    <path d="M320 368 Q360 375 400 368 
+             Q430 373 460 368 L460 392 
+             L452 392 Q430 385 400 390 
+             Q370 395 340 392 L332 392 Z"
+          fill="#888" opacity="0.55"/>
+  </g>
+
+  <!-- Eyes (lintel under glasses) -->
+  <g fill="#111">
+    <ellipse cx="345" cy="408" rx="6" ry="9"/>
+    <ellipse cx="455" cy="408" rx="6" ry="9"/>
+  </g>
+
+  <!-- Lips & mustache -->
+  <g stroke="#111" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M330 445 Q370 462 410 462 Q445 462 470 450"/>
+    <path d="M332 452 Q370 458 408 458 Q440 458 468 452" fill="#D72638" stroke="none"/>
+    <path d="M360 440 Q370 446 380 440" />
+  </g>
+
+  <!-- Neck -->
+  <rect x="360" y="510" width="80" height="50" fill="#FDDF7D" stroke="#111" stroke-width="6"/>
+  <rect x="360" y="510" width="80" height="50" rx="0" fill="url(#dots-red)" opacity="0.6"/>
+
+  <!-- Shoulders / shirt -->
+  <path d="M270 580 
+           Q320 560 400 560 
+           Q480 560 530 580 
+           L560 730 L240 730 Z"
+        fill="#C8102E" stroke="#111" stroke-width="6"/>
+  <rect x="270" y="580" width="290" height="150" fill="url(#dots-red)" opacity="0.55"/>
+
+  <!-- Burger -->
+  <g filter="url(#soft)">
+    <!-- Bottom bun -->
+    <rect x="250" y="620" width="220" height="32" rx="12" fill="#C8922A" stroke="#111" stroke-width="5"/>
+    <rect x="262" y="622" width="196" height="4" fill="#8C5A15" opacity="0.8"/>
+
+    <!-- Patty & lettuce -->
+    <rect x="244" y="608" width="232" height="18" fill="#6E1F1F" stroke="#111" stroke-width="5"/>
+    <path d="M244 612 Q290 600 320 610 Q350 600 380 610 Q410 600 440 610 Q470 600 480 612 L480 620 L244 620 Z"
+          fill="#3FB34F" stroke="#111" stroke-width="5"/>
+    <path d="M270 614 Q310 606 350 614 Q390 606 430 614" stroke="#2A7A33" stroke-width="2" fill="none"/>
+
+    <!-- Cheese -->
+    <path d="M250 602 L258 600 L476 600 L484 602 L478 612 L250 612 Z"
+          fill="#FFD23F" stroke="#111" stroke-width="5"/>
+    <path d="M250 602 L244 600 L244 612 L250 612 Z" fill="#FFC300" opacity="0.7"/>
+
+    <!-- Top bun -->
+    <rect x="250" y="588" width="220" height="24" rx="12" fill="#C8922A" stroke="#111" stroke-width="5"/>
+    <ellipse cx="360" cy="588" rx="70" ry="10" fill="#E1B04A" stroke="#111" stroke-width="5"/>
+    <!-- Sesame seeds -->
+    <g fill="#FFF6D9" stroke="#111" stroke-width="2">
+      <ellipse cx="300" cy="586" rx="4" ry="2.5"/>
+      <ellipse cx="340" cy="582" rx="4" ry="2.5"/>
+      <ellipse cx="380" cy="584" rx="4" ry="2.5"/>
+      <ellipse cx="412" cy="588" rx="4" ry="2.5"/>
+    </g>
+
+    <!-- Holding hand (simple fist) -->
+    <rect x="260" y="612" width="32" height="20" rx="6" fill="#FDDF7D" stroke="#111" stroke-width="6"/>
+    <rect x="260" y="612" width="32" height="20" rx="6" fill="url(#dots-red)" opacity="0.5"/>
+    <g fill="#111" opacity="0.6">
+      <circle cx="268" cy="618" r="3"/>
+      <circle cx="280" cy="616" r="3"/>
+      <circle cx="274" cy="624" r="3"/>
+      <circle cx="266" cy="626" r="3"/>
+    </g>
+  </g>
+
+  <!-- Right hand resting on table edge -->
+  <rect x="560" y="650" width="30" height="40" rx="6" fill="#FDDF7D" stroke="#111" stroke-width="6"/>
+  <rect x="560" y="650" width="30" height="40" rx="6" fill="url(#dots-red)" opacity="0.5"/>
+
+  <!-- Small table line -->
+  <line x1="200" y1="740" x2="600" y2="740" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+  <line x1="600" y1="740" x2="600" y2="760" stroke="#111" stroke-width="6"/>
+  <line x1="200" y1="740" x2="200" y2="760" stroke="#111" stroke-width="6"/>
+
+  <!-- Lower screen skirt -->
+  <path d="M40 730 Q400 700 760 730 L760 800 L40 800 Z" fill="#0039A5"/>
+  <path d="M40 730 Q400 700 760 730 L760 800 L40 800 Z" fill="url(#dots-blue)"/>
+
+  <!-- Subtle texture overlay to evoke print grain -->
+  <g opacity="0.12">
+    <rect x="0" y="0" width="20" height="20" fill="#000"/>
+    <rect x="20" y="20" width="20" height="20" fill="#000"/>
+    <rect x="40" y="40" width="20" height="20" fill="#000"/>
+    <rect x="60" y="60" width="20" height="20" fill="#000"/>
+    <rect x="80" y="80" width="20" height="20" fill="#000"/>
+    <rect x="100" y="100" width="20" height="20" fill="#000"/>
+    <rect x="120" y="120" width="20" height="20" fill="#000"/>
+    <rect x="140" y="140" width="20" height="20" fill="#000"/>
+    <rect x="160" y="160" width="20" height="20" fill="#000"/>
+    <rect x="180" y="180" width="20" height="20" fill="#000"/>
+    <rect x="200" y="200" width="20" height="20" fill="#000"/>
+    <rect x="220" y="220" width="20" height="20" fill="#000"/>
+    <rect x="240" y="240" width="20" height="20" fill="#000"/>
+    <rect x="260" y="260" width="20" height="20" fill="#000"/>
+    <rect x="280" y="280" width="20" height="20" fill="#000"/>
+    <rect x="300" y="300" width="20" height="20" fill="#000"/>
+    <rect x="320" y="320" width="20" height="20" fill="#000"/>
+    <rect x="340" y="340" width="20" height="20" fill="#000"/>
+    <rect x="360" y="360" width="20" height="20" fill="#000"/>
+    <rect x="380" y="380" width="20" height="20" fill="#000"/>
+    <rect x="400" y="400" width="20" height="20" fill="#000"/>
+    <rect x="420" y="420" width="20" height="20" fill="#000"/>
+    <rect x="440" y="440" width="20" height="20" fill="#000"/>
+    <rect x="460" y="460" width="20" height="20" fill="#000"/>
+    <rect x="480" y="480" width="20" height="20" fill="#000"/>
+    <rect x="500" y="500" width="20" height="20" fill="#000"/>
+    <rect x="520" y="520" width="20" height="20" fill="#000"/>
+    <rect x="540" y="540" width="20" height="20" fill="#000"/>
+    <rect x="560" y="560" width="20" height="20" fill="#000"/>
+    <rect x="580" y="580" width="20" height="20" fill="#000"/>
+    <rect x="600" y="600" width="20" height="20" fill="#000"/>
+    <rect x="620" y="620" width="20" height="20" fill="#000"/>
+    <rect x="640" y="640" width="20" height="20" fill="#000"/>
+    <rect x="660" y="660" width="20" height="20" fill="#000"/>
+    <rect x="680" y="680" width="20" height="20" fill="#000"/>
+    <rect x="700" y="700" width="20" height="20" fill="#000"/>
+    <rect x="720" y="720" width="20" height="20" fill="#000"/>
+    <rect x="740" y="740" width="20" height="20" fill="#000"/>
+    <rect x="760" y="760" width="20" height="20" fill="#000"/>
+  </g>
+</svg>

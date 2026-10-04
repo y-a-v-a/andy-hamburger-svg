@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <!-- Pop-art background -->
+  <rect width="400" height="500" fill="#FF1493"/>
+  
+  <!-- Torso (black jacket) -->
+  <ellipse cx="200" cy="420" rx="130" ry="160" fill="#111"/>
+  
+  <!-- Head -->
+  <ellipse cx="200" cy="185" rx="88" ry="108" fill="#FFDAB9"/>
+  
+  <!-- Signature white hair -->
+  <ellipse cx="200" cy="95" rx="95" ry="65" fill="#FFF"/>
+  <ellipse cx="135" cy="135" rx="42" ry="55" fill="#FFF"/>
+  <ellipse cx="265" cy="135" rx="42" ry="55" fill="#FFF"/>
+  
+  <!-- Glasses -->
+  <rect x="142" y="158" width="52" height="38" rx="6" fill="none" stroke="#000" stroke-width="6"/>
+  <rect x="206" y="158" width="52" height="38" rx="6" fill="none" stroke="#000" stroke-width="6"/>
+  <line x1="194" y1="177" x2="206" y2="177" stroke="#000" stroke-width="6"/>
+  
+  <!-- Eyes -->
+  <circle cx="168" cy="177" r="9" fill="#000"/>
+  <circle cx="232" cy="177" r="9" fill="#000"/>
+  
+  <!-- Nose -->
+  <ellipse cx="200" cy="205" rx="9" ry="14" fill="#E8A087"/>
+  
+  <!-- Open mouth -->
+  <ellipse cx="200" cy="245" rx="28" ry="16" fill="#8B0000"/>
+  
+  <!-- Hamburger (held to mouth) -->
+  <g transform="translate(225,215) rotate(-12)">
+    <!-- Bottom bun -->
+    <ellipse cx="0" cy="48" rx="42" ry="16" fill="#CD853F"/>
+    <!-- Patty -->
+    <ellipse cx="0" cy="32" rx="40" ry="11" fill="#5C3317"/>
+    <!-- Cheese -->
+    <path d="M-38,22 L38,22 L34,30 L-34,30 Z" fill="#FFD700"/>
+    <!-- Lettuce -->
+    <ellipse cx="0" cy="18" rx="41" ry="9" fill="#228B22"/>
+    <!-- Tomato slice -->
+    <ellipse cx="0" cy="12" rx="36" ry="6" fill="#DC143C"/>
+    <!-- Top bun -->
+    <ellipse cx="0" cy="0" rx="42" ry="20" fill="#DAA520"/>
+    <!-- Sesame seeds -->
+    <circle cx="-18" cy="-6" r="3.2" fill="#FFF8DC"/>
+    <circle cx="8" cy="-10" r="2.8" fill="#FFF8DC"/>
+    <circle cx="22" cy="-2" r="2.5" fill="#FFF8DC"/>
+    <circle cx="-5" cy="4" r="2.2" fill="#FFF8DC"/>
+  </g>
+  
+  <!-- Hand -->
+  <ellipse cx="290" cy="290" rx="32" ry="22" fill="#FFDAB9" transform="rotate(-20 290 290)"/>
+  <ellipse cx="310" cy="275" rx="12" ry="18" fill="#FFDAB9" transform="rotate(-40 310 275)"/>
+</svg>

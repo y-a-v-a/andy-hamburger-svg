@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <!-- Background -->
+  <rect width="600" height="700" fill="#FFD700"/>
+  
+  <!-- Pop art style dots in background -->
+  <g fill="#FF6347" opacity="0.6">
+    <circle cx="50" cy="50" r="8"/>
+    <circle cx="80" cy="80" r="8"/>
+    <circle cx="50" cy="110" r="8"/>
+    <circle cx="110" cy="50" r="8"/>
+    <circle cx="140" cy="80" r="8"/>
+    <circle cx="80" cy="140" r="8"/>
+    <circle cx="500" cy="80" r="8"/>
+    <circle cx="530" cy="110" r="8"/>
+    <circle cx="560" cy="80" r="8"/>
+    <circle cx="470" cy="140" r="8"/>
+    <circle cx="550" cy="50" r="8"/>
+    <circle cx="500" cy="50" r="8"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="300" y="45" text-anchor="middle" font-family="Impact, sans-serif" font-size="36" fill="#FF1493" stroke="#000" stroke-width="1">ANDY WARHOL EATS A BURGER</text>
+  
+  <!-- Body - black turtleneck/jacket -->
+  <ellipse cx="300" cy="550" rx="130" ry="160" fill="#1a1a1a"/>
+  
+  <!-- Shoulders -->
+  <ellipse cx="300" cy="450" rx="140" ry="50" fill="#1a1a1a"/>
+  
+  <!-- Neck -->
+  <rect x="270" y="330" width="60" height="50" rx="10" fill="#F5C6A0"/>
+  
+  <!-- Head -->
+  <ellipse cx="300" cy="280" rx="95" ry="110" fill="#F5C6A0"/>
+  
+  <!-- Face shape - slightly longer -->
+  <ellipse cx="300" cy="280" rx="90" ry="100" fill="#F5C6A0"/>
+  
+  <!-- Famous Warhol silver wig -->
+  <ellipse cx="300" cy="200" rx="100" ry="55" fill="#C0C0C0"/>
+  <ellipse cx="300" cy="195" rx="95" ry="50" fill="#D3D3D3"/>
+  <ellipse cx="300" cy="190" rx="85" ry="45" fill="#E8E8E8"/>
+  <!-- Wispy wig texture -->
+  <g fill="#BFBFBF" opacity="0.7">
+    <ellipse cx="220" cy="195" rx="25" ry="12" transform="rotate(-20 220 195)"/>
+    <ellipse cx="380" cy="195" rx="25" ry="12" transform="rotate(20 380 195)"/>
+    <ellipse cx="250" cy="175" rx="20" ry="10" transform="rotate(-10 250 175)"/>
+    <ellipse cx="350" cy="175" rx="20" ry="10" transform="rotate(10 350 175)"/>
+    <ellipse cx="300" cy="165" rx="30" ry="12"/>
+  </g>
+  
+  <!-- Wig spiky bits -->
+  <g fill="#D3D3D3">
+    <polygon points="200,200 180,170 210,190"/>
+    <polygon points="400,200 420,170 390,190"/>
+    <polygon points="300,165 290,140 310,160"/>
+  </g>
+  
+  <!-- Glasses -->
+  <rect x="235" y="250" width="55" height="40" rx="5" fill="none" stroke="#333" stroke-width="4"/>
+  <rect x="300" y="250" width="55" height="40" rx="5" fill="none" stroke="#333" stroke-width="4"/>
+  <line x1="290" y1="265" x2="300" y2="265" stroke="#333" stroke-width="4"/>
+  <line x1="235" y1="260" x2="220" y2="255" stroke="#333" stroke-width="3"/>
+  <line x1="355" y1="260" x2="370" y2="255" stroke="#333" stroke-width="3"/>
+  
+  <!-- Eyes behind glasses -->
+  <ellipse cx="262" cy="270" rx="12" ry="10" fill="white"/>
+  <ellipse cx="328" cy="270" rx="12" ry="10" fill="white"/>
+  <circle cx="264" cy="270" r="5" fill="#4488CC"/>
+  <circle cx="330" cy="270" r="5" fill="#4488CC"/>
+  <circle cx="264" cy="270" r="2.5" fill="#000"/>
+  <circle cx="330" cy="270" r="2.5" fill="#000"/>
+  
+  <!-- Eyebrows -->
+  <path d="M235 245 Q250 235 275 242" stroke="#555" stroke-width="3" fill="none"/>
+  <path d="M315 242 Q340 235 355 245" stroke="#555" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M295 280 Q285 310 295 320 Q305 330 315 320" fill="none" stroke="#E8B88A" stroke-width="3"/>
+  <ellipse cx="295" cy="320" rx="8" ry="5" fill="#E8B88A"/>
+  
+  <!-- Mouth - open, eating -->
+  <ellipse cx="290" cy="350" rx="30" ry="18" fill="#8B0000"/>
+  <ellipse cx="290" cy="348" rx="28" ry="15" fill="#CC3333"/>
+  <!-- Teeth -->
+  <rect x="272" y="340" width="18" height="8" rx="2" fill="white"/>
+  <rect x="292" y="340" width="18" height="8" rx="2" fill="white"/>
+  
+  <!-- Burger in/near mouth -->
+  <!-- Bottom bun -->
+  <ellipse cx="310" cy="365" rx="45" ry="15" fill="#D2A04C"/>
+  <!-- Patty -->
+  <ellipse cx="310" cy="355" rx="43" ry="12" fill="#5C3317"/>
+  <!-- Cheese -->
+  <polygon points="270,352 355,348 355,358 270,362" fill="#FFD700"/>
+  <!-- Lettuce -->
+  <ellipse cx="310" cy="345" rx="40" ry="8" fill="#32CD32"/>
+  <ellipse cx="295" cy="343" rx="15" ry="5" fill="#4CAF50" transform="rotate(-10 295 343)"/>
+  <ellipse cx="325" cy="344" rx="14" ry="5" fill="#4CAF50" transform="rotate(10 325 344)"/>
+  <!-- Tomato -->
+  <ellipse cx="310" cy="338" rx="38" ry="7" fill="#FF4444"/>
+  <!-- Top bun -->
+  <ellipse cx="305" cy="325" rx="42" ry="18" fill="#E8B84C"/>
+  <ellipse cx="305" cy="322" rx="40" ry="15" fill="#EFCA60"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="295" cy="318" rx="3" ry="2" fill="#FFFDE8" transform="rotate(-15 295 318)"/>
+  <ellipse cx="310" cy="315" rx="3" ry="2" fill="#FFFDE8"/>
+  <ellipse cx="325" cy="320" rx="3" ry="2" fill="#FFFDE8" transform="rotate(20 325 320)"/>
+  <ellipse cx="285" cy="325" rx="2.5" ry="1.5" fill="#FFFDE8" transform="rotate(-30 285 325)"/>
+  <ellipse cx="335" cy="322" rx="2.5" ry="1.5" fill="#FFFDE8" transform="rotate(15 335 322)"/>
+  
+  <!-- Hands holding burger -->
+  <!-- Left hand -->
+  <ellipse cx="240" cy="375" rx="28" ry="18" fill="#F5C6A0" transform="rotate(-30 240 375)"/>
+  <!-- Right hand -->
+  <ellipse cx="355" cy="370" rx="28" ry="18" fill="#F5C6A0" transform="rotate(25 355 370)"/>
+  
+  <!-- Fingers on left hand -->
+  <ellipse cx="225" cy="365" rx="8" ry="5" fill="#F0BB90" transform="rotate(-40 225 365)"/>
+  <ellipse cx="232" cy="358" rx="8" ry="5" fill="#F0BB90" transform="rotate(-25 232 358)"/>
+  
+  <!-- Fingers on right hand -->
+  <ellipse cx="365" cy="358" rx="8" ry="5" fill="#F0BB90" transform="rotate(30 365 358)"/>
+  <ellipse cx="372" cy="365" rx="8" ry="5" fill="#F0BB90" transform="rotate(45 372 365)"/>
+  
+  <!-- Some ketchup/mustard drips -->
+  <path d="M330 350 Q332 365 328 375" stroke="#CC0000" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M280 348 Q278 360 282 370" stroke="#FFD700" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Speech bubble -->
+  <ellipse cx="430" cy="220" rx="80" ry="45" fill="white" stroke="#333" stroke-width="2"/>
+  <polygon points="360,255 340,290 390,260" fill="white" stroke="#333" stroke-width="2"/>
+  <polygon points="363,257 348,283 385,262" fill="white"/>
+  <text x="430" y="215" text-anchor="middle" font-family="Impact, sans-serif" font-size="16" fill="#FF1493">"In the future,</text>
+  <text x="430" y="238" text-anchor="middle" font-family="Impact, sans-serif" font-size="14" fill="#FF1493">everyone will be</text>
+  <text x="430" y="258" text-anchor="middle" font-family="Impact, sans-serif" font-size="14" fill="#FF1493">famous for 15</text>
+  <text x="430" y="275" text-anchor="middle" font-family="Impact, sans-serif" font-size="12" fill="#FF1493">bites of burger"</text>
+  
+  <!-- Campbell's soup can on table/ground -->
+  <g transform="translate(450, 480)">
+    <rect x="-20" y="-40" width="40" height="80" rx="8" fill="#CC0000"/>
+    <rect x="-20" y="-40" width="40" height="80" rx="8" fill="none" stroke="#990000" stroke-width="2"/>
+    <ellipse cx="0" cy="-40" rx="20" ry="6" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+    <ellipse cx="0" cy="40" rx="20" ry="6" fill="#CC0000" stroke="#990000" stroke-width="2"/>
+    <circle cx="0" cy="-10" r="12" fill="#FFD700"/>
+    <text x="0" y="5" text-anchor="middle" font-family="serif" font-size="8" fill="#FFD700" font-weight="bold">Campbell's</text>
+    <text x="0" y="20" text-anchor="middle" font-family="serif" font-size="7" fill="#FFD700">TOMATO</text>
+    <text x="0" y="30" text-anchor="middle" font-family="serif" font-size="7" fill="#FFD700">SOUP</text>
+  </g>
+  
+  <!-- Pop art color blocks at bottom -->
+  <rect x="0" y="650" width="600" height="50" fill="#FF1493" opacity="0.5"/>
+  <rect x="0" y="645" width="600" height="5" fill="#FF6347"/>
+</svg>
