@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f0f0f0"/>
+  
+  <!-- Andy Warhol's Head -->
+  <ellipse cx="200" cy="120" rx="60" ry="70" fill="#f5d0a0" stroke="#000" stroke-width="2"/>
+  
+  <!-- Hair (Wig) -->
+  <path d="M140,80 Q160,40 200,50 Q240,40 260,80 Q250,60 200,60 Q150,60 140,80 Z" fill="#a0a0a0" stroke="#000" stroke-width="2"/>
+  
+  <!-- Glasses -->
+  <circle cx="180" cy="110" r="15" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="220" cy="110" r="15" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="195" y1="110" x2="205" y2="110" stroke="#000" stroke-width="3"/>
+  
+  <!-- Eyes -->
+  <circle cx="180" cy="110" r="3" fill="#000"/>
+  <circle cx="220" cy="110" r="3" fill="#000"/>
+  
+  <!-- Nose -->
+  <path d="M195,120 Q200,130 205,120" fill="none" stroke="#000" stroke-width="2"/>
+  
+  <!-- Mouth (open, taking a bite) -->
+  <path d="M185,160 Q200,180 215,160 Q200,170 185,160 Z" fill="#c0392b" stroke="#000" stroke-width="2"/>
+  
+  <!-- Body (Shirt) -->
+  <rect x="150" y="190" width="100" height="80" fill="#e74c3c" stroke="#000" stroke-width="2"/>
+  
+  <!-- Arms -->
+  <rect x="140" y="190" width="20" height="60" fill="#f5d0a0" stroke="#000" stroke-width="2"/>
+  <rect x="240" y="190" width="20" height="60" fill="#f5d0a0" stroke="#000" stroke-width="2"/>
+  
+  <!-- Hamburger -->
+  <!-- Bottom Bun -->
+  <path d="M250,220 Q280,210 300,230 Q280,250 250,240 Z" fill="#d4a05a" stroke="#000" stroke-width="2"/>
+  <!-- Patty -->
+  <ellipse cx="275" cy="230" rx="25" ry="10" fill="#8b4513" stroke="#000" stroke-width="2"/>
+  <!-- Cheese -->
+  <rect x="255" y="225" width="40" height="5" fill="#f1c40f" stroke="#000" stroke-width="1"/>
+  <!-- Lettuce -->
+  <path d="M255,220 Q275,210 295,220 Q275,215 255,220 Z" fill="#2ecc71" stroke="#000" stroke-width="2"/>
+  <!-- Tomato -->
+  <circle cx="275" cy="222" r="5" fill="#e74c3c" stroke="#000" stroke-width="1"/>
+  <!-- Top Bun -->
+  <path d="M250,210 Q280,200 300,220 Q280,230 250,220 Z" fill="#d4a05a" stroke="#000" stroke-width="2"/>
+  
+  <!-- Bite Mark (on the hamburger) -->
+  <path d="M270,215 Q275,225 280,215 Q275,220 270,215 Z" fill="#f0f0f0" stroke="#000" stroke-width="1"/>
+</svg>

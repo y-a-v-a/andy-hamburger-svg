@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Pop-art background -->
+  <rect width="400" height="400" fill="#FF2D95"/>
+  <circle cx="200" cy="200" r="150" fill="#FFD400"/>
+
+  <!-- Halftone dots -->
+  <g fill="#FFFFFF" opacity="0.3">
+    <circle cx="60" cy="60" r="4"/><circle cx="90" cy="60" r="4"/><circle cx="120" cy="60" r="4"/>
+    <circle cx="340" cy="60" r="4"/><circle cx="310" cy="60" r="4"/><circle cx="280" cy="60" r="4"/>
+    <circle cx="60" cy="340" r="4"/><circle cx="90" cy="340" r="4"/><circle cx="120" cy="340" r="4"/>
+    <circle cx="340" cy="340" r="4"/><circle cx="310" cy="340" r="4"/><circle cx="280" cy="340" r="4"/>
+  </g>
+
+  <!-- Body / black turtleneck -->
+  <rect x="120" y="280" width="160" height="120" rx="30" fill="#111111"/>
+  <rect x="130" y="270" width="140" height="60" rx="25" fill="#F5C99B"/>
+
+  <!-- Neck shadow -->
+  <rect x="170" y="255" width="60" height="30" fill="#E0A97D"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="190" rx="75" ry="85" fill="#F5C99B"/>
+
+  <!-- Iconic silver-white wig -->
+  <path d="M125 170 Q120 80 200 70 Q280 80 275 170 Q265 110 200 105 Q135 110 125 170 Z" fill="#E8E8E8"/>
+  <path d="M125 170 Q115 120 135 95 Q130 140 140 160 Z" fill="#D0D0D0"/>
+  <path d="M275 170 Q285 120 265 95 Q270 140 260 160 Z" fill="#D0D0D0"/>
+
+  <!-- Eyes -->
+  <g>
+    <circle cx="172" cy="185" r="14" fill="white" stroke="#222" stroke-width="2"/>
+    <circle cx="228" cy="185" r="14" fill="white" stroke="#222" stroke-width="2"/>
+    <circle cx="175" cy="186" r="5" fill="#222"/>
+    <circle cx="231" cy="186" r="5" fill="#222"/>
+    <!-- Glasses -->
+    <line x1="186" y1="185" x2="214" y2="185" stroke="#222" stroke-width="3"/>
+    <path d="M158 180 L132 172" stroke="#222" stroke-width="3" fill="none"/>
+    <path d="M242 180 L268 172" stroke="#222" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Eyebrows -->
+  <path d="M158 165 Q172 158 186 165" stroke="#555" stroke-width="4" fill="none"/>
+  <path d="M214 165 Q228 158 242 165" stroke="#555" stroke-width="4" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M200 190 L192 215 Q200 222 208 215 Z" fill="#E0A97D"/>
+
+  <!-- Cheek chewing (full mouth) -->
+  <path d="M215 230 Q228 238 226 248" stroke="#E0A97D" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth full of burger -->
+  <ellipse cx="185" cy="235" rx="20" ry="10" fill="#7A3B2E"/>
+  <ellipse cx="185" cy="232" rx="14" ry="5" fill="#C44536"/>
+
+  <!-- Hamburger held up to mouth -->
+  <g transform="translate(0,0)">
+    <!-- hands -->
+    <ellipse cx="175" cy="272" rx="16" ry="12" fill="#F5C99B"/>
+    <ellipse cx="215" cy="272" rx="16" ry="12" fill="#F5C99B"/>
+    <!-- top bun -->
+    <path d="M150 240 Q150 222 195 222 Q240 222 240 240 L240 244 L150 244 Z" fill="#E8A33D"/>
+    <!-- sesame seeds -->
+    <circle cx="170" cy="230" r="2.5" fill="#FFF3D6"/>
+    <circle cx="195" cy="227" r="2.5" fill="#FFF3D6"/>
+    <circle cx="220" cy="231" r="2.5" fill="#FFF3D6"/>
+    <!-- burger partially bitten: wavy bite edge -->
+    <path d="M150 244 Q160 252 172 244 Q184 252 195 244 Q207 252 218 244 Q229 252 240 244 L240 244 L240 252 L150 252 Z" fill="#B22222"/>
+    <rect x="150" y="252" width="90" height="8" fill="#7BB661"/>
+    <rect x="150" y="260" width="90" height="10" fill="#E8A33D"/>
+  </g>
+
+  <!-- Bottom bun peeking through fingers -->
+  <path d="M150 270 Q195 286 240 270 L240 270 L150 270 Z" fill="#D8932C"/>
+
+  <!-- Signature text -->
+  <text x="200" y="385" font-family="Helvetica, Arial, sans-serif" font-size="20"
+        font-weight="bold" text-anchor="middle" fill="#111111">andy warhol</text>
+</svg>
