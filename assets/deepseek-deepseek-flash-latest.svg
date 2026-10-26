@@ -53,7 +53,7 @@
   <circle cx="295" cy="225" r="12" fill="#ff9999" opacity="0.5"/>
 
   <!-- Hand holding hamburger (right side, coming from bottom) -->
-  <path d="M320 400 Q340 380 355 360 Q365 345 370 330" fill="none" stroke="#f2c9a0" stroke-width="28" stroke-linecap="round" stroke="#000" stroke-width="30"/>
+  <path d="M320 400 Q340 380 355 360 Q365 345 370 330" fill="none" stroke-linecap="round" stroke="#000" stroke-width="30"/>
   <path d="M320 400 Q340 380 355 360 Q365 345 370 330" fill="none" stroke="#f2c9a0" stroke-width="26" stroke-linecap="round"/>
   <!-- Fingers -->
   <ellipse cx="372" cy="325" rx="10" ry="14" fill="#f2c9a0" stroke="#000" stroke-width="2.5"/>
