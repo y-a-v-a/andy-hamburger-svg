@@ -49,4 +49,32 @@ ONLY=claude DRY=1 node generate-svgs.js
 node generate-svgs.js --add-skip some-vendor/some-model
 ```
 
+## Pipeline
+
+Install the dev dependencies once with `npm install`, then run:
+
+```sh
+OPENROUTER_API_KEY=... npm run pipeline
+```
+
+This runs the following steps in order:
+
+1. `generate-svgs.js` queries 10 models (override with `LIMIT`; the other environment variables above also apply).
+2. `validate-svgs.js --fix --reject` repairs and checks each new SVG. It adds a missing `xmlns="http://www.w3.org/2000/svg"` or `xmlns:xlink` declaration to the root `<svg>`; it fixes nothing else. Files that are still invalid are moved to `rejected/` (ignored by git).
+3. `update-svgs.sh` updates the SVG list in `index.html`.
+4. The new SVGs and `index.html` are committed as "adds new svgs". Anything else you had staged is left out of the commit. Nothing is pushed.
+
+An SVG is valid when it is well-formed XML, every namespace prefix (such as `xlink:`) is declared, and the root is `<svg>` in the `http://www.w3.org/2000/svg` namespace. These are the requirements for `index.html` to render it through `<object type="image/svg+xml">`.
+
+### Scripts
+
+| Script                 | Description                                         |
+| ---------------------- | --------------------------------------------------- |
+| `npm run pipeline`     | Generate, validate, update `index.html` and commit. |
+| `npm run generate`     | Run `generate-svgs.js` only.                        |
+| `npm run validate`     | Validate every SVG in `assets/`.                    |
+| `npm run validate:new` | Validate only untracked SVGs in `assets/`.          |
+| `npm run fix`          | Apply the safe fixes to every SVG, then validate.   |
+| `npm run update`       | Run `update-svgs.sh` only.                          |
+
 "Andy Warhol eating a Hamburger SVGs by AI models" by [y-a-v-a.org](https://y-a-v-a.org) and [ax710.org](https://ax710.org), 2026, is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).

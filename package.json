@@ -1,0 +1,27 @@
+{
+  "name": "hamburger",
+  "version": "1.0.0",
+  "description": "Andy Warhol eating a hamburger, drawn as SVG by AI models",
+  "scripts": {
+    "generate": "node generate-svgs.js",
+    "validate": "node validate-svgs.js",
+    "validate:new": "node validate-svgs.js --new",
+    "update": "./update-svgs.sh",
+    "pipeline": "node pipeline.js",
+    "fix": "node validate-svgs.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-a-v-a/andy-hamburger-svg.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/y-a-v-a/andy-hamburger-svg/issues"
+  },
+  "homepage": "https://github.com/y-a-v-a/andy-hamburger-svg#readme",
+  "devDependencies": {
+    "saxes": "6.0.0"
+  },
+  "private": true
+}
