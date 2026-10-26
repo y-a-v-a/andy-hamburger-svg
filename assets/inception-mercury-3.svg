@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <desc>A pop-art style illustration of Andy Warhol eating a hamburger.</desc>
+
+  <defs>
+    <pattern id="dotpattern" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="4" fill="#ff6392" opacity="0.3" />
+    </pattern>
+
+    <mask id="bite">
+      <rect width="600" height="600" fill="white" />
+      <circle cx="305" cy="252" r="38" fill="black" />
+    </mask>
+  </defs>
+
+  <!-- background -->
+  <rect width="600" height="600" fill="#ffe45e" />
+  <rect width="600" height="600" fill="url(#dotpattern)" />
+
+  <!-- pop-art sparkles -->
+  <path d="M60,70 l8,20 20,8 -20,8 -8,20 -8,-20 -20,-8 20,-8 z" fill="#ff6392" />
+  <path d="M540,500 l6,15 15,6 -15,6 -6,15 -6,-15 -15,-6 15,-6 z" fill="#00a8e8" />
+
+  <!-- torso / jacket -->
+  <path d="M210,340 Q230,305 280,305 L320,305 Q370,305 390,340 L430,580 L170,580 Z" fill="#1a1a1a" stroke="#000" stroke-width="3" />
+
+  <!-- white shirt -->
+  <path d="M280,310 L300,345 L320,310 L310,310 L300,327 L290,310 Z" fill="#fff" stroke="#000" stroke-width="2" />
+
+  <!-- left arm -->
+  <line x1="225" y1="350" x2="198" y2="530" stroke="#1a1a1a" stroke-width="44" stroke-linecap="round" />
+  <ellipse cx="198" cy="535" rx="20" ry="14" fill="#f2c6a0" />
+
+  <!-- neck and head -->
+  <rect x="275" y="265" width="50" height="50" fill="#f2c6a0" />
+  <ellipse cx="300" cy="190" rx="72" ry="90" fill="#f2c6a0" stroke="#000" stroke-width="2" />
+
+  <!-- Warhol’s silver wig -->
+  <g fill="#dfdfdf" stroke="#8a8a8a" stroke-width="3">
+    <circle cx="300" cy="105" r="55" />
+    <circle cx="247" cy="135" r="42" />
+    <circle cx="353" cy="135" r="42" />
+    <circle cx="222" cy="170" r="30" />
+    <circle cx="378" cy="170" r="30" />
+    <circle cx="255" cy="95" r="30" />
+    <circle cx="345" cy="95" r="30" />
+  </g>
+
+  <!-- hair swirl highlights -->
+  <g stroke="#b0b0b0" stroke-width="3" fill="none">
+    <path d="M270,80 Q285,105 275,125" />
+    <path d="M330,80 Q315,105 325,125" />
+  </g>
+
+  <!-- sunglasses -->
+  <g>
+    <rect x="223" y="178" width="64" height="34" rx="10" fill="#111" />
+    <rect x="313" y="178" width="64" height="34" rx="10" fill="#111" />
+    <path d="M287,195 L313,195" stroke="#111" stroke-width="6" />
+    <line x1="223" y1="195" x2="192" y2="195" stroke="#111" stroke-width="8" />
+    <line x1="377" y1="195" x2="408" y2="195" stroke="#111" stroke-width="8" />
+
+    <path d="M236,188 l12,-7 v16 l-12,-9 z" fill="#94d2bd" opacity="0.7" />
+    <path d="M326,188 l12,-7 v16 l-12,-9 z" fill="#94d2bd" opacity="0.7" />
+  </g>
+
+  <!-- nose -->
+  <path d="M300,214 C294,222 297,230 304,234" stroke="#d99a80" stroke-width="4" fill="none" stroke-linecap="round" />
+
+  <!-- open mouth, visible through the bite -->
+  <ellipse cx="300" cy="255" rx="18" ry="12" fill="#5c1a1a" />
+  <ellipse cx="300" cy="257" rx="9" ry="5" fill="#e56b6f" />
+
+  <!-- right arm behind burger -->
+  <line x1="380" y1="340" x2="470" y2="360" stroke="#1a1a1a" stroke-width="38" stroke-linecap="round" />
+  <line x1="470" y1="360" x2="410" y2="315" stroke="#1a1a1a" stroke-width="32" stroke-linecap="round" />
+
+  <!-- hamburger with a bite taken out -->
+  <g mask="url(#bite)">
+    <!-- bottom bun -->
+    <rect x="286" y="291" width="148" height="22" rx="8" fill="#d69a4f" stroke="#000" stroke-width="2" />
+
+    <!-- patty -->
+    <rect x="288" y="273" width="144" height="17" rx="6" fill="#7a4a31" stroke="#000" stroke-width="2" />
+
+    <!-- melted cheese -->
+    <path d="M288,251 L432,251 L432,260 L424,268 L414,258 L404,270 L394,259 L384,271 L374,260 L364,272 L354,261 L344,271 L334,260 L324,268 L314,259 L304,267 L294,260 L288,262 Z" fill="#ffd23f" stroke="#000" stroke-width="2" />
+
+    <!-- tomato -->
+    <rect x="286" y="241" width="148" height="10" rx="4" fill="#ef476f" stroke="#000" stroke-width="2" />
+
+    <!-- lettuce -->
+    <path d="M285,228 Q294,221 303,229 Q312,236 321,228 Q330,221 339,229 Q348,236 357,228 Q366,221 375,229 Q384,236 393,228 Q402,221 411,229 Q420,236 429,228 Q435,224 435,228 L435,240 L285,240 Z" fill="#7ac74f" stroke="#000" stroke-width="2" />
+
+    <!-- top bun -->
+    <path d="M292,225 Q292,170 360,170 Q428,170 428,225 Z" fill="#e8a85a" stroke="#000" stroke-width="2" />
+
+    <!-- sesame seeds -->
+    <g fill="#fff4d6" stroke="#d69a4f" stroke-width="0.5">
+      <ellipse cx="325" cy="196" rx="5" ry="3" transform="rotate(-15 325 196)" />
+      <ellipse cx="355" cy="189" rx="5" ry="3" transform="rotate(10 355 189)" />
+      <ellipse cx="385" cy="196" rx="5" ry="3" transform="rotate(-10 385 196)" />
+      <ellipse cx="340" cy="208" rx="5" ry="3" transform="rotate(15 340 208)" />
+      <ellipse cx="370" cy="208" rx="5" ry="3" transform="rotate(-20 370 208)" />
+      <ellipse cx="310" cy="208" rx="5" ry="3" transform="rotate(20 310 208)" />
+    </g>
+  </g>
+
+  <!-- hand holding the burger -->
+  <g fill="#f2c6a0" stroke="#b56576" stroke-width="2">
+    <ellipse cx="410" cy="312" rx="18" ry="14" transform="rotate(-18 410 312)" />
+    <path d="M426,305 q12,4 10,14 -8,8 -16,2 z" />
+  </g>
+
+  <!-- caption -->
+  <g>
+    <rect x="30" y="20" width="540" height="58" rx="12" fill="#fff" opacity="0.85" stroke="#000" stroke-width="2" />
+    <text x="300" y="57" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="900" fill="#111" text-anchor="middle" letter-spacing="2">Andy Warhol Eating a Hamburger</text>
+  </g>
+</svg>

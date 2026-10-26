@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <!-- Halftone pattern for Pop Art texture -->
+    <pattern id="halftone" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1" fill="black" />
+    </pattern>
+  </defs>
+
+  <!-- Background: Bright Yellow, like a soup can -->
+  <rect width="500" height="500" fill="#FFD700" />
+
+  <!-- Andy Warhol Character -->
+  
+  <!-- Head -->
+  <circle cx="250" cy="180" r="90" fill="#FFCC99" stroke="#000000" stroke-width="4"/>
+
+  <!-- Iconic Blonde Beehive Hair -->
+  <path d="M160,180 Q250,50 340,180 L340,210 Q250,230 160,210 Z" fill="#FFD700" stroke="#000000" stroke-width="3"/>
+
+  <!-- Face -->
+  <circle cx="250" cy="190" r="50" fill="#FFCC99" stroke="#000000" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <circle cx="220" cy="185" r="5" fill="#000000"/>
+  <circle cx="280" cy="185" r="5" fill="#000000"/>
+  
+  <!-- Mouth (Slightly open to suggest eating) -->
+  <path d="M230,215 Q250,220 270,215" stroke="#000000" stroke-width="3" fill="none"/>
+
+  <!-- Round Glasses -->
+  <line x1="195" y1="170" x2="305" y2="170" stroke="#000000" stroke-width="3"/>
+  <line x1="195" y1="175" x2="305" y2="175" stroke="#000000" stroke-width="3"/>
+
+  <!-- Right Hand (Holding the burger) -->
+  <path d="M310,210 Q400,210 400,280 L400,300 L310,300 Z" fill="#FFCC99" stroke="#000000" stroke-width="2"/>
+
+  <!-- The Hamburger -->
+  <!-- Positioned in the hand with a slight tilt -->
+  <g transform="translate(320, 215)">
+    <!-- Bottom Bun -->
+    <rect x="0" y="0" width="80" height="20" fill="#8B4513" stroke="#000000" stroke-width="1" style="fill: url(#halftone);"/>
+    <!-- Patty -->
+    <rect x="0" y="20" width="80" height="15" fill="#FF0000" stroke="#000000" stroke-width="1" style="fill: url(#halftone);"/>
+    <!-- Cheese -->
+    <rect x="0" y="35" width="80" height="10" fill="#FFFF00" stroke="#000000" stroke-width="1" style="fill: url(#halftone);"/>
+    <!-- Lettuce -->
+    <rect x="0" y="45" width="80" height="8" fill="#00FF00" stroke="#000000" stroke-width="1" style="fill: url(#halftone);"/>
+    <!-- Top Bun -->
+    <rect x="0" y="53" width="80" height="20" fill="#8B4513" stroke="#000000" stroke-width="1" style="fill: url(#halftone);"/>
+  </g>
+</svg>

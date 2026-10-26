@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Halftone Pattern for Pop Art Background -->
+    <pattern id="halftone" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" patternTransform="rotate(15)">
+      <circle cx="10" cy="10" r="5" fill="#FF9900" opacity="0.4" />
+    </pattern>
+    
+    <!-- Secondary Halftone for Shirt -->
+    <pattern id="shirt-dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="2" fill="#00E5FF" opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <!-- Background: Vibrant Pop Art Yellow -->
+  <rect width="100%" height="100%" fill="#FFE600" />
+  <rect width="100%" height="100%" fill="url(#halftone)" />
+
+  <!-- Dynamic Pop Art Background Shape -->
+  <polygon points="0,150 800,50 800,650 0,750" fill="#FF0055" />
+  <polygon points="0,170 800,70 800,630 0,730" fill="#00E5FF" />
+  
+  <!-- Offset CMYK Shadow for Andy (Screenprint Registration Error Effect) -->
+  <g transform="translate(-15, 15)" opacity="0.8">
+    <path d="M 150,800 L 220,500 L 580,500 L 650,800 Z" fill="#FF0055" />
+    <path d="M 160,300 C 100,150 300,50 400,80 C 550,40 680,150 620,300 Z" fill="#FF0055" />
+  </g>
+
+  <g id="andy-warhol">
+    <!-- Back of Hair/Wig (Dark Base) -->
+    <path d="M 170,350 C 120,250 180,100 300,90 C 350,60 480,60 550,110 C 650,150 660,280 600,360 Z" fill="#050505" />
+
+    <!-- Torso / Turtleneck -->
+    <path d="M 150,800 L 220,520 C 220,520 400,550 580,520 L 650,800 Z" fill="#050505" />
+    <!-- Pop Art Shirt Shading -->
+    <path d="M 180,800 L 235,540 L 350,550 L 300,800 Z" fill="url(#shirt-dots)" />
+
+    <!-- Neck & Shadow -->
+    <path d="M 310,420 L 310,540 L 490,540 L 490,420 Z" fill="#F4C2D7" />
+    <path d="M 310,420 L 490,420 L 490,490 C 420,500 350,470 310,440 Z" fill="#050505" />
+
+    <!-- Ears -->
+    <path d="M 240,300 C 210,300 210,370 250,380 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+    <path d="M 560,300 C 590,300 590,370 550,380 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+
+    <!-- Face Base -->
+    <path d="M 250,220 C 250,350 270,430 330,480 C 370,510 430,510 470,480 C 530,430 550,350 550,220 C 550,120 250,120 250,220 Z" fill="#F4C2D7" stroke="#050505" stroke-width="10" stroke-linejoin="round" />
+
+    <!-- Pop Art Face Shadows (Hot Pink & Cyan) -->
+    <!-- Cheekbone Shadow Left -->
+    <path d="M 255,300 C 280,340 310,360 310,410 C 310,440 290,440 275,410 C 260,380 252,330 255,300 Z" fill="#FF0055" />
+    <!--Jaw Shadow Right -->
+    <path d="M 545,300 C 510,350 490,400 450,460 L 470,475 C 520,430 540,360 545,300 Z" fill="#00E5FF" />
+    <!-- Heavy Black Facial Contours -->
+    <path d="M 260,340 C 290,370 300,390 295,430" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+    <path d="M 540,340 C 510,370 500,390 505,430" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+
+    <!-- Eyes (Looking Down at Burger) -->
+    <g id="eyes">
+      <!-- Left Eye -->
+      <path d="M 290,290 C 315,295 340,295 360,285" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 300,292 C 315,310 335,310 350,290 Z" fill="#050505" />
+      <path d="M 285,270 C 310,260 340,260 365,270" fill="none" stroke="#050505" stroke-width="4" stroke-linecap="round" />
+      <!-- Right Eye -->
+      <path d="M 440,285 C 460,295 485,295 510,290" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 450,290 C 465,310 485,310 500,292 Z" fill="#050505" />
+      <path d="M 435,270 C 460,260 490,260 515,270" fill="none" stroke="#050505" stroke-width="4" stroke-linecap="round" />
+      <!-- Eyebrows -->
+      <path d="M 280,245 C 310,235 340,240 365,250" fill="none" stroke="#050505" stroke-width="10" stroke-linecap="round" />
+      <path d="M 520,245 C 490,235 460,240 435,250" fill="none" stroke="#050505" stroke-width="10" stroke-linecap="round" />
+    </g>
+
+    <!-- Iconic Clear-Frame Glasses -->
+    <g id="glasses">
+      <!-- Bridge Shadow -->
+      <path d="M 380,285 L 420,285 L 415,310 L 385,310 Z" fill="#00E5FF" />
+      <!-- Left Frame -->
+      <path d="M 250,255 C 290,245 350,250 385,265 C 390,300 375,350 340,355 C 290,360 265,330 255,290 Z" fill="#FFFFFF" fill-opacity="0.25" stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" />
+      <path d="M 250,255 C 290,245 350,250 385,265 C 390,300 375,350 340,355 C 290,360 265,330 255,290 Z" fill="none" stroke="#050505" stroke-width="4" stroke-linejoin="round" />
+      <!-- Right Frame -->
+      <path d="M 550,255 C 510,245 450,250 415,265 C 410,300 425,350 460,355 C 510,360 535,330 545,290 Z" fill="#FFFFFF" fill-opacity="0.25" stroke="#FFFFFF" stroke-width="14" stroke-linejoin="round" />
+      <path d="M 550,255 C 510,245 450,250 415,265 C 410,300 425,350 460,355 C 510,360 535,330 545,290 Z" fill="none" stroke="#050505" stroke-width="4" stroke-linejoin="round" />
+      <!-- Bridge -->
+      <path d="M 380,265 L 420,265" stroke="#FFFFFF" stroke-width="12" />
+      <path d="M 380,260 L 420,260" stroke="#050505" stroke-width="4" />
+      <path d="M 382,272 L 418,272" stroke="#050505" stroke-width="4" />
+      <!-- Lens Reflections -->
+      <polygon points="270,265 300,265 280,340 265,320" fill="#FFFFFF" opacity="0.6" />
+      <polygon points="435,265 465,265 445,340 430,320" fill="#FFFFFF" opacity="0.6" />
+    </g>
+
+    <!-- Nose -->
+    <path d="M 390,275 L 375,350 C 360,360 365,380 385,380 C 395,380 400,385 405,385 C 410,385 415,380 425,380 C 445,380 440,360 425,350 L 415,300" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <!-- Nose Pop Shadow -->
+    <path d="M 380,355 C 370,365 385,375 400,375 C 415,375 425,370 425,360 Z" fill="#FF0055" />
+    <!-- Nostrils -->
+    <ellipse cx="385" cy="372" rx="8" ry="5" fill="#050505" />
+    <ellipse cx="420" cy="372" rx="8" ry="5" fill="#050505" />
+
+    <!-- Open Mouth (Taking a bite) -->
+    <g id="mouth">
+      <!-- Lips (Hot Pink) -->
+      <path d="M 340,415 C 370,400 390,405 405,405 C 420,405 440,400 465,415 C 480,440 450,480 405,480 C 360,480 325,440 340,415 Z" fill="#FF0055" stroke="#050505" stroke-width="6" />
+      <!-- Mouth Interior -->
+      <path d="M 355,420 C 380,415 430,415 450,420 C 460,440 440,465 405,465 C 370,465 345,440 355,420 Z" fill="#050505" />
+      <!-- Upper Teeth -->
+      <path d="M 365,420 L 440,420 L 435,432 L 370,432 Z" fill="#FFFFFF" stroke="#050505" stroke-width="4" stroke-linejoin="round" />
+      <!-- Tongue -->
+      <path d="M 375,450 C 390,440 415,440 430,450 C 425,460 415,463 405,463 C 390,463 380,460 375,450 Z" fill="#FF0055" />
+    </g>
+
+    <!-- Iconic Wild Silver/White Wig (Front Layers) -->
+    <g id="wig">
+      <!-- White/Silver Main Mass -->
+      <path d="M 250,240 C 200,250 160,200 140,220 C 170,150 220,100 310,100 C 300,70 420,50 490,90 C 560,70 630,130 660,190 C 620,180 600,220 560,240 C 550,180 510,160 450,190 C 470,150 400,150 350,200 C 370,160 280,160 250,240 Z" fill="#F2F4F7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      
+      <!-- Cyan Pop Art Highlights in Hair -->
+      <path d="M 190,190 C 230,140 280,120 350,130 C 300,150 250,170 240,210 Z" fill="#00E5FF" />
+      <path d="M 590,180 C 550,130 500,120 440,140 C 490,150 530,170 550,210 Z" fill="#00E5FF" />
+      
+      <!-- Dynamic Stray Hair Strands (Black & White) -->
+      <path d="M 350,180 C 310,190 280,220 260,250" fill="none" stroke="#050505" stroke-width="6" stroke-linecap="round" />
+      <path d="M 400,160 C 360,180 340,210 320,250" fill="none" stroke="#F2F4F7" stroke-width="10" stroke-linecap="round" />
+      <path d="M 400,160 C 360,180 340,210 320,250" fill="none" stroke="#050505" stroke-width="4" stroke-linecap="round" />
+      <path d="M 460,160 C 440,190 420,210 415,240" fill="none" stroke="#050505" stroke-width="6" stroke-linecap="round" />
+      <path d="M 520,170 C 510,200 500,220 480,250" fill="none" stroke="#F2F4F7" stroke-width="8" stroke-linecap="round" />
+      <path d="M 290,120 C 230,130 180,170 150,210" fill="none" stroke="#050505" stroke-width="6" stroke-linecap="round" />
+      <path d="M 480,100 C 540,110 590,140 630,180" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 360,90 C 420,80 470,110 510,150" fill="none" stroke="#050505" stroke-width="5" stroke-linecap="round" />
+    </g>
+
+    <!-- THE HAMBURGER -->
+    <!-- Positioned right in front of the mouth, tilted slightly -->
+    <g id="hamburger" transform="translate(415, 495) rotate(-8) translate(-415, -495)">
+      
+      <!-- Bottom Bun -->
+      <path d="M 320,520 C 320,560 510,560 510,520 Z" fill="#FF9900" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Bun Shadow -->
+      <path d="M 350,535 C 400,550 470,545 495,525 L 505,525 C 490,555 340,555 325,525 Z" fill="#050505" />
+
+      <!-- Burger Patty -->
+      <path d="M 305,495 C 300,510 310,525 330,525 L 500,525 C 520,525 530,510 525,495 C 520,480 310,480 305,495 Z" fill="#4A1500" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Patty Pop Art Highlights (Magenta) -->
+      <circle cx="340" cy="508" r="6" fill="#FF0055" />
+      <circle cx="360" cy="503" r="4" fill="#FF0055" />
+      <circle cx="460" cy="510" r="7" fill="#FF0055" />
+      <circle cx="435" cy="505" r="5" fill="#FF0055" />
+      <!-- Patty Shadow -->
+      <path d="M 320,515 C 380,520 450,520 515,510 C 510,522 490,523 470,523 L 340,523 Z" fill="#050505" />
+
+      <!-- Melted Cheese -->
+      <path d="M 310,490 L 340,510 L 370,492 L 415,520 L 450,492 L 485,510 L 520,490 Z" fill="#FFE600" stroke="#050505" stroke-width="6" stroke-linejoin="round" />
+
+      <!-- Tomatoes -->
+      <path d="M 315,480 C 315,495 390,495 390,480 Z" fill="#FF0055" stroke="#050505" stroke-width="6" />
+      <path d="M 410,480 C 410,495 505,495 505,480 Z" fill="#FF0055" stroke="#050505" stroke-width="6" />
+      <!-- Ketchup Drip -->
+      <path d="M 385,488 C 380,505 395,515 390,525 C 395,525 405,515 400,500 Z" fill="#FF0055" stroke="#050505" stroke-width="5" stroke-linejoin="round" />
+
+      <!-- Lettuce -->
+      <path d="M 295,480 C 310,460 330,495 350,475 C 370,455 390,495 415,475 C 440,455 460,495 485,475 C 505,460 520,490 535,475 C 515,460 315,460 295,480 Z" fill="#00FF66" stroke="#050505" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- Top Bun -->
+      <path d="M 310,470 C 310,400 520,400 520,470 Z" fill="#FF9900" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Top Bun Highlight -->
+      <path d="M 330,455 C 345,420 430,415 460,425 C 420,425 360,435 330,455 Z" fill="#FFE600" />
+      
+      <!-- Sesame Seeds -->
+      <g fill="#FFFFFF" stroke="#050505" stroke-width="3">
+        <ellipse cx="370" cy="435" rx="6" ry="3" transform="rotate(-15 370 435)" />
+        <ellipse cx="415" cy="428" rx="6" ry="3" transform="rotate(5 415 428)" />
+        <ellipse cx="460" cy="440" rx="6" ry="3" transform="rotate(25 460 440)" />
+        <ellipse cx="395" cy="448" rx="6" ry="3" transform="rotate(-5 395 448)" />
+        <ellipse cx="435" cy="445" rx="6" ry="3" transform="rotate(15 435 445)" />
+        <ellipse cx="345" cy="450" rx="6" ry="3" transform="rotate(-25 345 450)" />
+        <ellipse cx="485" cy="455" rx="6" ry="3" transform="rotate(30 485 455)" />
+      </g>
+    </g>
+
+    <!-- HANDS HOLDING THE BURGER -->
+    <!-- Left Hand (Viewer's Left) -->
+    <g id="left-hand">
+      <!-- Fingers -->
+      <path d="M 270,480 C 260,460 320,440 340,450 C 355,455 350,475 335,475 C 355,475 365,495 345,500 C 365,505 360,525 340,525 C 350,530 345,545 325,545 C 295,545 270,530 260,510 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Finger Dividers -->
+      <path d="M 335,475 L 290,480" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 345,500 L 295,505" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 340,525 L 300,525" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <!-- Palm/Wrist & Pop Shadow -->
+      <path d="M 265,490 C 250,530 260,570 280,610 L 340,590 C 330,560 345,550 345,545" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <path d="M 268,500 C 265,540 275,570 290,600 L 310,595 C 290,560 285,530 295,500 Z" fill="#00E5FF" />
+      <!-- Thumb (Behind/Underneath) -->
+      <path d="M 340,545 C 360,555 390,555 395,540 C 400,525 370,520 345,530 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      
+      <!-- Shirt Cuff Left -->
+      <path d="M 240,630 L 350,590 L 380,690 L 240,710 Z" fill="#050505" />
+      <path d="M 265,595 L 345,570 L 350,595 L 270,620 Z" fill="#FFFFFF" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+    </g>
+
+    <!-- Right Hand (Viewer's Right) -->
+    <g id="right-hand">
+      <!-- Wrist/Back of Hand -->
+      <path d="M 555,460 C 580,500 570,560 550,600 L 480,570 C 495,540 510,510 510,490 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Hand Pop Shadow (Pink) -->
+      <path d="M 550,475 C 565,510 555,555 540,590 L 520,582 C 540,550 545,510 535,480 Z" fill="#FF0055" />
+
+      <!-- Fingers Curled Over Burger -->
+      <path d="M 555,460 C 540,440 490,430 475,440 C 465,445 470,465 485,465 C 465,465 460,485 480,490 C 465,495 470,515 490,515 C 480,520 485,535 505,535 C 535,535 555,510 565,490 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <!-- Finger Dividers -->
+      <path d="M 485,465 L 535,470" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 480,490 L 530,495" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <path d="M 490,515 L 525,515" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+      <!-- Thumb Supporting Bottom -->
+      <path d="M 495,530 C 475,540 445,545 440,530 C 435,515 465,510 490,520 Z" fill="#F4C2D7" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+      <path d="M 445,530 C 465,535 480,530 495,522" fill="none" stroke="#050505" stroke-width="6" />
+
+      <!-- Shirt Cuff Right -->
+      <path d="M 590,620 L 470,570 L 440,680 L 590,710 Z" fill="#050505" />
+      <path d="M 565,590 L 475,555 L 465,580 L 555,615 Z" fill="#FFFFFF" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
+    </g>
+
+    <!-- Pop Art Action Lines / Graphics -->
+    <g stroke="#050505" stroke-width="6" stroke-linecap="round">
+      <!-- Bite Marks / Motion near Burger -->
+      <line x1="220" y1="430" x2="180" y2="410" />
+      <line x1="210" y1="455" x2="160" y2="450" />
+      <line x1="220" y1="480" x2="180" y2="495" />
+      
+      <line x1="600" y1="410" x2="640" y2="390" />
+      <line x1="610" y1="435" x2="660" y2="430" />
+      <line x1="600" y1="460" x2="640" y2="475" />
+    </g>
+    <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round">
+      <line x1="225" y1="425" x2="185" y2="405" />
+      <line x1="605" y1="405" x2="645" y2="385" />
+    </g>
+  </g>
+
+  <!-- Poster Border -->
+  <rect x="20" y="20" width="760" height="760" fill="none" stroke="#050505" stroke-width="16" />
+</svg>

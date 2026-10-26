@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Pop-art halftone dot background -->
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.5" fill="#f4b400"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="400" fill="#ffd23f"/>
+  <rect width="400" height="400" fill="url(#dots)" opacity="0.6"/>
+
+  <!-- Body: black turtleneck -->
+  <path d="M80 400 L95 315 Q200 270 305 315 L320 400 Z" fill="#111111"/>
+  <!-- Turtleneck collar -->
+  <rect x="163" y="268" width="74" height="42" rx="12" fill="#1a1a1a"/>
+
+  <!-- Neck -->
+  <rect x="180" y="215" width="40" height="60" fill="#f2c9a0"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="150" rx="65" ry="75" fill="#f5d0b0" stroke="#d9a983" stroke-width="2"/>
+
+  <!-- Silver wig -->
+  <path d="M132 150 Q120 58 200 52 Q282 58 268 150 Q262 105 200 100 Q140 105 132 150 Z"
+        fill="#c8c8cc" stroke="#9a9aa0" stroke-width="2"/>
+  <path d="M160 80 Q200 62 240 80" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Glasses -->
+  <circle cx="171" cy="148" r="24" fill="none" stroke="#111" stroke-width="4"/>
+  <circle cx="229" cy="148" r="24" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="195" y1="146" x2="205" y2="146" stroke="#111" stroke-width="4"/>
+
+  <!-- Open mouth -->
+  <ellipse cx="200" cy="208" rx="18" ry="10" fill="#6b1f1f"/>
+  <rect x="186" y="199" width="28" height="6" fill="#ffffff"/>
+
+  <!-- Hands holding the burger -->
+  <ellipse cx="128" cy="252" rx="14" ry="18" fill="#f2c9a0" stroke="#d9a983" stroke-width="2"/>
+  <ellipse cx="272" cy="252" rx="14" ry="18" fill="#f2c9a0" stroke="#d9a983" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <g>
+    <!-- Top bun -->
+    <path d="M137 240 Q200 196 263 240 Z" fill="#d9893b" stroke="#8a4b1a" stroke-width="2"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="170" cy="222" rx="3" ry="1.5" fill="#fff5d6"/>
+    <ellipse cx="195" cy="212" rx="3" ry="1.5" fill="#fff5d6"/>
+    <ellipse cx="220" cy="220" rx="3" ry="1.5" fill="#fff5d6"/>
+    <!-- Lettuce -->
+    <path d="M133 242 Q145 252 158 242 Q170 252 183 242 Q196 252 209 242 Q222 252 235 242 Q248 252 267 242 L267 250 L133 250 Z"
+          fill="#5cb85c"/>
+    <!-- Tomato -->
+    <rect x="140" y="250" width="120" height="7" rx="3" fill="#e53935"/>
+    <!-- Patty -->
+    <rect x="136" y="257" width="128" height="12" rx="5" fill="#5b3a29"/>
+    <!-- Bottom bun -->
+    <path d="M136 271 L264 271 Q262 288 250 288 L150 288 Q138 288 136 271 Z" fill="#d9893b" stroke="#8a4b1a" stroke-width="2"/>
+    <!-- Bite mark (background-colored chunk taken out of the top bun) -->
+    <circle cx="262" cy="238" r="14" fill="#ffd23f"/>
+    <circle cx="262" cy="238" r="14" fill="url(#dots)" opacity="0.6"/>
+  </g>
+</svg>

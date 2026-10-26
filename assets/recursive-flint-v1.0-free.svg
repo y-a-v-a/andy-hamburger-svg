@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#FFD700" />
+  
+  <!-- Halftone Dots -->
+  <circle cx="50" cy="50" r="8" fill="#FF6B6B" />
+  <circle cx="450" cy="50" r="8" fill="#4ECDC4" />
+  <circle cx="50" cy="450" r="8" fill="#1A535C" />
+  <circle cx="450" cy="450" r="8" fill="#FF6B6B" />
+  <circle cx="250" cy="50" r="8" fill="#4ECDC4" />
+  <circle cx="250" cy="450" r="8" fill="#1A535C" />
+
+  <!-- Starburst Background -->
+  <polygon points="350,50 370,100 430,100 390,130 410,180 350,150 290,180 310,130 270,100 330,100" fill="#FF6B6B" stroke="#000" stroke-width="3" />
+
+  <!-- Hamburger -->
+  <g>
+    <!-- Top Bun -->
+    <path d="M260,350 C260,280 360,280 360,350 Z" fill="#C19A6B" stroke="#000" stroke-width="3" />
+    
+    <!-- Sesame Seeds -->
+    <ellipse cx="290" cy="320" rx="5" ry="3" fill="#FFF" transform="rotate(-30 290 320)" />
+    <ellipse cx="310" cy="310" rx="5" ry="3" fill="#FFF" transform="rotate(20 310 310)" />
+    <ellipse cx="330" cy="325" rx="5" ry="3" fill="#FFF" transform="rotate(-60 330 325)" />
+    <ellipse cx="280" cy="335" rx="5" ry="3" fill="#FFF" transform="rotate(45 280 335)" />
+    <ellipse cx="320" cy="345" rx="5" ry="3" fill="#FFF" transform="rotate(-15 320 345)" />
+
+    <!-- Tomato -->
+    <circle cx="290" cy="390" r="12" fill="#E74C3C" stroke="#000" stroke-width="3" />
+    <circle cx="330" cy="390" r="12" fill="#E74C3C" stroke="#000" stroke-width="3" />
+
+    <!-- Lettuce -->
+    <ellipse cx="310" cy="395" rx="60" ry="15" fill="#2ECC71" stroke="#000" stroke-width="3" />
+
+    <!-- Cheese -->
+    <polygon points="260,380 360,380 350,390 270,390" fill="#FFA500" stroke="#000" stroke-width="3" />
+
+    <!-- Patty -->
+    <rect x="260" y="360" width="100" height="20" fill="#5C4033" stroke="#000" stroke-width="3" />
+
+    <!-- Bottom Bun -->
+    <rect x="260" y="340" width="100" height="20" rx="10" fill="#C19A6B" stroke="#000" stroke-width="3" />
+  </g>
+
+  <!-- Andy Warhol -->
+  <g>
+    <!-- Suit -->
+    <rect x="110" y="300" width="180" height="150" rx="30" fill="#FF6B6B" stroke="#000" stroke-width="3" />
+    
+    <!-- Shirt -->
+    <path d="M150,300 L250,300 L250,380 L150,380 Z" fill="#FFF" stroke="none" />
+    
+    <!-- Tie -->
+    <polygon points="195,300 205,300 220,380 180,380" fill="#4ECDC4" stroke="#000" stroke-width="3" />
+    
+    <!-- Neck -->
+    <rect x="175" y="240" width="50" height="50" fill="#FDBCB4" stroke="#000" stroke-width="3" />
+    
+    <!-- Head -->
+    <ellipse cx="200" cy="180" rx="55" ry="65" fill="#FDBCB4" stroke="#000" stroke-width="3" />
+    
+    <!-- Wig -->
+    <path d="M145,180 C145,60 255,60 255,180 C255,150 235,130 200,130 C165,130 145,150 145,180 Z" fill="#E0E0E0" stroke="#000" stroke-width="3" />
+    <path d="M145,180 L145,160 L155,170 L165,150 L175,170 L185,150 L195,170 L205,150 L215,170 L225,150 L235,170 L245,150 L255,170 L255,180 Z" fill="#E0E0E0" stroke="#000" stroke-width="3" />
+    
+    <!-- Glasses -->
+    <circle cx="175" cy="180" r="18" fill="none" stroke="#000" stroke-width="4" />
+    <circle cx="225" cy="180" r="18" fill="none" stroke="#000" stroke-width="4" />
+    <path d="M193,175 L207,175" stroke="#000" stroke-width="4" fill="none" />
+    <path d="M157,180 L150,170" stroke="#000" stroke-width="4" fill="none" />
+    <path d="M243,180 L250,170" stroke="#000" stroke-width="4" fill="none" />
+    
+    <!-- Eyes -->
+    <circle cx="180" cy="180" r="5" fill="#000" />
+    <circle cx="220" cy="180" r="5" fill="#000" />
+    
+    <!-- Eyebrows -->
+    <path d="M160,160 Q175,150 190,160" stroke="#000" stroke-width="5" fill="none" />
+    <path d="M210,160 Q225,150 240,160" stroke="#000" stroke-width="5" fill="none" />
+    
+    <!-- Nose -->
+    <path d="M195,180 L195,200 Q200,210 205,200 L205,180 Z" fill="#F4A8A8" stroke="#000" stroke-width="2" />
+    
+    <!-- Mouth (Open Smile) -->
+    <path d="M180,210 Q200,240 220,210 Q200,250 180,210 Z" fill="#8B4513" stroke="#000" stroke-width="2" />
+    
+    <!-- Mustache -->
+    <path d="M180,215 Q200,225 220,215" stroke="#000" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Arm and Hand -->
+  <rect x="200" y="260" width="40" height="100" rx="20" fill="#FF6B6B" stroke="#000" stroke-width="3" />
+  <circle cx="245" cy="355" r="25" fill="#FDBCB4" stroke="#000" stroke-width="3" />
+</svg>

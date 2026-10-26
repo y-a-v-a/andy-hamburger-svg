@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="640" height="640" viewBox="0 0 640 640"
+     role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">
+    A pop-art illustration of Andy Warhol with his iconic silver wig,
+    holding a hamburger to his mouth against a colorful halftone background.
+  </desc>
+
+  <defs>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#171717" opacity=".15"/>
+    </pattern>
+    <pattern id="hairLines" width="12" height="12"
+             patternUnits="userSpaceOnUse" patternTransform="rotate(18)">
+      <path d="M3 0V12" stroke="#929cab" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- Screen-printed color field -->
+  <path fill="#ffe34c" d="M0 0H640V640H0z"/>
+  <path fill="#ff639e" d="M0 0H320V352H0z"/>
+  <path fill="#52d6de" d="M320 352H640V640H320z"/>
+  <path fill="url(#dots)" d="M0 0H640V640H0z"/>
+  <circle cx="318" cy="278" r="218"
+          fill="#fff3c4" stroke="#171717" stroke-width="5"/>
+
+  <!-- Offset ink shadow -->
+  <path d="M114 640V534Q125 451 241 424L408 432
+           Q518 462 540 552V640Z"
+        fill="#e72f71" transform="translate(12 0)"/>
+
+  <!-- Jacket and shoulders -->
+  <path d="M96 640V552Q103 470 238 430L393 427
+           Q507 452 532 549L549 640Z"
+        fill="#293c79" stroke="#171717" stroke-width="6"/>
+  <path d="M234 435L194 472L230 509L207 540L267 640H337Z"
+        fill="#4966af" stroke="#171717" stroke-width="5"/>
+  <path d="M391 432L437 471L405 511L425 539L370 640H319Z"
+        fill="#4966af" stroke="#171717" stroke-width="5"/>
+
+  <!-- Neck and black turtleneck -->
+  <path d="M269 353L261 438Q316 475 371 433L356 352Z"
+        fill="#efb397" stroke="#171717" stroke-width="5"/>
+  <path d="M269 369Q317 405 359 365L363 395
+           Q316 437 265 398Z" fill="#d58c7f"/>
+  <path d="M254 420Q313 450 379 417L391 468
+           L371 640H265L243 470Z"
+        fill="#202025" stroke="#171717" stroke-width="5"/>
+  <path d="M259 442Q314 468 377 440"
+        fill="none" stroke="#55535d" stroke-width="3"/>
+
+  <!-- Silver wig silhouette -->
+  <path d="M210 316L191 280L195 243L179 250L191 204
+           L179 209L201 168L195 157L227 128L223 111
+           L266 98L279 78L308 91L338 74L357 94
+           L391 92L409 113L434 115L436 145L459 166
+           L448 192L461 225L445 241L445 281L424 319Z"
+        fill="#e8edf0" stroke="#171717" stroke-width="6"
+        stroke-linejoin="round"/>
+
+  <!-- Ears and face -->
+  <ellipse cx="232" cy="285" rx="21" ry="34"
+           fill="#efb397" stroke="#171717" stroke-width="5"/>
+  <ellipse cx="415" cy="278" rx="17" ry="31"
+           fill="#efb397" stroke="#171717" stroke-width="5"/>
+  <path d="M242 201Q276 166 331 171Q389 170 410 213
+           L404 307Q397 355 359 383Q335 400 309 387
+           Q267 370 248 326Q235 290 242 201Z"
+        fill="#f5c4a6" stroke="#171717" stroke-width="5"/>
+  <path d="M249 242Q259 327 300 361L327 388
+           Q279 377 255 338Q238 306 239 270Z"
+        fill="#df9786"/>
+
+  <!-- Warhol's shaggy fringe -->
+  <path d="M205 237L207 183L239 146L286 123L354 119
+           L408 143L430 184L420 251L405 266L400 205
+           L380 187L382 224L366 204L356 178L352 220
+           L333 197L322 176L308 215L298 193L284 227
+           L275 202L259 242L252 216L235 269L223 286
+           L222 230Z"
+        fill="#eef1f2" stroke="#171717" stroke-width="5"
+        stroke-linejoin="round"/>
+  <path d="M207 183L239 146L286 123L354 119L408 143
+           L430 184L420 251L405 266L400 205L380 187
+           L382 224L366 204L356 178L352 220L333 197
+           L322 176L308 215L298 193L284 227L275 202
+           L259 242L252 216L235 269L223 286L222 230L205 237Z"
+        fill="url(#hairLines)" opacity=".65"/>
+  <g fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round">
+    <path d="M222 187Q243 140 286 137"/>
+    <path d="M257 190Q271 155 310 131"/>
+    <path d="M319 151L338 125"/>
+    <path d="M363 139Q396 149 411 182"/>
+  </g>
+
+  <!-- Brows, eyes, and distinctive long nose -->
+  <g fill="none" stroke="#333039" stroke-linecap="round">
+    <path d="M266 258Q283 249 302 258" stroke-width="4"/>
+    <path d="M345 252Q363 244 379 253" stroke-width="4"/>
+    <path d="M268 270Q282 263 298 270" stroke-width="3"/>
+    <path d="M345 264Q359 257 374 263" stroke-width="3"/>
+    <path d="M325 263L317 302Q326 311 339 302" stroke-width="3"/>
+    <path d="M272 291L289 294M354 285L372 281"
+          stroke="#ce8d7c" stroke-width="3"/>
+  </g>
+  <ellipse cx="287" cy="269" rx="4" ry="5" fill="#171717"/>
+  <ellipse cx="360" cy="262" rx="4" ry="5" fill="#171717"/>
+  <path d="M324 327Q342 316 360 327Q350 346 332 340Z"
+        fill="#652b39" stroke="#171717" stroke-width="3"/>
+
+  <!-- Raised sleeve -->
+  <path d="M449 458Q491 469 507 521L480 586
+           Q437 584 410 553L399 503Z"
+        fill="#4966af" stroke="#171717" stroke-width="5"/>
+  <path d="M406 498L450 461L469 484L423 525Z"
+        fill="#202025" stroke="#171717" stroke-width="4"/>
+
+  <!-- Palm behind the hamburger -->
+  <path d="M416 493L386 447Q367 425 370 395
+           L378 363Q382 352 391 358L402 385
+           L431 375Q449 373 453 393L449 442L459 466Z"
+        fill="#f5c4a6" stroke="#171717" stroke-width="5"/>
+
+  <!-- Hamburger, lifted to his mouth -->
+  <g transform="rotate(-12 389 358)"
+     stroke="#171717" stroke-linejoin="round">
+    <!-- Bottom bun -->
+    <path d="M321 373H458Q457 397 433 400H345
+             Q324 397 321 373Z"
+          fill="#e9a14c" stroke-width="4"/>
+    <!-- Patty -->
+    <path d="M318 354Q336 348 353 353L448 352
+             Q469 352 463 372Q448 381 425 376
+             L339 378Q316 377 318 354Z"
+          fill="#60352c" stroke-width="4"/>
+    <!-- Cheese -->
+    <path d="M324 350L458 349L428 373L404 357L371 371Z"
+          fill="#ffd83d" stroke-width="3"/>
+    <!-- Tomato -->
+    <path d="M322 341Q389 332 458 341L456 352H324Z"
+          fill="#f14b42" stroke-width="3"/>
+    <!-- Lettuce -->
+    <path d="M317 335L330 328L345 334L360 327L376 334
+             L394 327L410 333L430 327L443 334L461 331
+             L464 341L449 346L431 340L413 347L394 341
+             L375 347L359 341L340 348L322 343Z"
+          fill="#7eb747" stroke-width="3"/>
+    <!-- Crown bun -->
+    <path d="M321 330Q326 288 389 287Q449 286 460 330
+             Q396 341 321 330Z"
+          fill="#f1b45f" stroke-width="4"/>
+    <path d="M333 317Q350 295 384 296"
+          fill="none" stroke="#ffd998" stroke-width="7"
+          stroke-linecap="round"/>
+    <g stroke="#fff1c4" stroke-width="3" stroke-linecap="round">
+      <path d="M350 311l5-3M374 303l4 3M397 300l5 2
+               M416 308l4-2M439 321l-5-2M389 319l5-2
+               M364 326l4-2M411 326l4-2"/>
+    </g>
+  </g>
+
+  <!-- Fingers curl around the near side -->
+  <path d="M438 422L456 380Q459 369 451 366
+           Q443 363 438 375L425 401
+           L434 374Q438 363 429 361Q421 359 417 372
+           L408 397L414 377Q417 367 409 365
+           Q400 364 397 376L390 405
+           Q387 423 400 437"
+        fill="#f5c4a6" stroke="#171717" stroke-width="4"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M389 429Q373 420 365 407L345 391
+           Q337 383 343 376Q349 370 358 377L384 393L401 397"
+        fill="#f5c4a6" stroke="#171717" stroke-width="4"
+        stroke-linecap="round"/>
+  <g fill="none" stroke="#cd8b7a" stroke-width="2"
+     stroke-linecap="round">
+    <path d="M400 410l8 3M413 409l8 3M426 411l8 3"/>
+  </g>
+
+  <!-- Graphic border -->
+  <path d="M8 8H632V632H8Z"
+        fill="none" stroke="#171717" stroke-width="8"/>
+</svg>

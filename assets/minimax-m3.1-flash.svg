@@ -1,0 +1,398 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="800" viewBox="0 0 800 800"
+     role="img" aria-labelledby="title description">
+
+  <title id="title">Andy Warhol Eating a Hamburger</title>
+  <desc id="description">
+    A colorful Pop Art portrait of Andy Warhol with silver hair and a black
+    turtleneck, eating a large hamburger against a halftone background.
+  </desc>
+
+  <defs>
+    <radialGradient id="background" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#fff2a8"/>
+      <stop offset="65%" stop-color="#ffd13b"/>
+      <stop offset="100%" stop-color="#f6ad35"/>
+    </radialGradient>
+
+    <linearGradient id="silverHair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="48%" stop-color="#e8e8df"/>
+      <stop offset="100%" stop-color="#b9c2c1"/>
+    </linearGradient>
+
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7bd58"/>
+      <stop offset="100%" stop-color="#dc8735"/>
+    </linearGradient>
+
+    <pattern id="halftone" width="18" height="18"
+             patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3.2" fill="#171717"/>
+    </pattern>
+
+    <pattern id="fineDots" width="12" height="12"
+             patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#171717"/>
+    </pattern>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="9" dy="12" stdDeviation="0"
+                    flood-color="#171717" flood-opacity="0.22"/>
+    </filter>
+
+    <clipPath id="posterCircle">
+      <circle cx="400" cy="390" r="332"/>
+    </clipPath>
+
+    <style>
+      .outline {
+        stroke: #171717;
+        stroke-width: 7;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .detail {
+        fill: none;
+        stroke: #171717;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .fine {
+        fill: none;
+        stroke: #171717;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+
+  <!-- Poster background -->
+  <rect width="800" height="800" fill="#f5ead3"/>
+
+  <g filter="url(#shadow)">
+    <circle cx="400" cy="390" r="332" fill="url(#background)"/>
+  </g>
+
+  <g clip-path="url(#posterCircle)">
+    <rect x="60" y="50" width="680" height="680"
+          fill="url(#halftone)" opacity="0.12"/>
+
+    <path d="M-20 275 L188 350 L0 410 Z"
+          fill="#ef476f" opacity="0.85"/>
+    <path d="M820 270 L610 350 L800 415 Z"
+          fill="#00a9c6" opacity="0.85"/>
+
+    <circle cx="90" cy="155" r="28" fill="#00a9c6"/>
+    <circle cx="710" cy="125" r="47" fill="#ef476f" opacity="0.9"/>
+    <circle cx="110" cy="610" r="20" fill="#171717"/>
+    <circle cx="702" cy="615" r="31" fill="#fff4dc"/>
+
+    <g fill="none" stroke="#171717" stroke-width="7" opacity="0.75">
+      <path d="M65 205 l34 12"/>
+      <path d="M72 235 l43 3"/>
+      <path d="M696 210 l40 -13"/>
+      <path d="M693 245 l49 -2"/>
+    </g>
+  </g>
+
+  <!-- Graphic shadow behind the figure -->
+  <path d="M117 800 L148 555
+           C161 474 228 430 327 398
+           Q403 448 484 397
+           C582 425 638 474 654 554
+           L687 800 Z"
+        fill="#00a9c6" opacity="0.75"/>
+
+  <!-- Neck -->
+  <path d="M346 314 L463 316 L471 414
+           Q404 450 337 410 Z"
+        fill="#e9ad92" class="outline"/>
+
+  <path d="M346 323 Q404 362 461 324
+           L463 352 Q405 385 347 351 Z"
+        fill="#d78f78"/>
+
+  <!-- Black turtleneck and torso -->
+  <path d="M118 800 L148 556
+           C158 477 228 431 328 400
+           Q403 448 483 399
+           C582 424 638 475 653 555
+           L687 800 Z"
+        fill="#111111" class="outline"/>
+
+  <!-- High turtleneck collar -->
+  <path d="M339 351 Q401 390 470 351
+           L485 399 Q404 447 324 400 Z"
+        fill="#242424" class="outline"/>
+
+  <path d="M348 365 Q402 397 461 365"
+        fill="none" stroke="#494949" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Bent sleeves -->
+  <path d="M216 492
+           C177 522 156 574 179 615
+           C194 644 222 651 250 632
+           L460 385"
+        fill="none" stroke="#111111" stroke-width="82"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M574 484
+           C625 516 644 565 621 608
+           C606 638 579 646 551 626
+           L528 383"
+        fill="none" stroke="#111111" stroke-width="82"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M191 546 Q178 588 205 607 L447 341"
+        fill="none" stroke="#303030" stroke-width="7"
+        stroke-linecap="round"/>
+
+  <path d="M601 536 Q616 578 588 600 L543 386"
+        fill="none" stroke="#303030" stroke-width="7"
+        stroke-linecap="round"/>
+
+  <!-- Silver hair silhouette behind the face -->
+  <path d="M277 208
+           C254 170 261 111 301 80
+           C331 57 363 64 391 53
+           C426 39 454 52 480 61
+           C523 75 545 111 536 156
+           L522 217 L490 205
+           C447 223 323 225 286 193 Z"
+        fill="url(#silverHair)" class="outline"/>
+
+  <!-- Ears -->
+  <ellipse cx="293" cy="235" rx="25" ry="38"
+           fill="#e7aa8e" class="outline"/>
+  <ellipse cx="511" cy="232" rx="24" ry="37"
+           fill="#e7aa8e" class="outline"/>
+
+  <path d="M285 226 Q301 222 302 245 Q291 253 287 242"
+        class="fine"/>
+  <path d="M502 221 Q518 216 518 239 Q509 247 505 236"
+        class="fine"/>
+
+  <!-- Face -->
+  <path d="M301 153
+           C330 121 463 113 501 153
+           C522 178 521 237 508 282
+           C494 331 450 365 405 365
+           C357 363 316 336 298 291
+           C283 252 282 185 301 153 Z"
+        fill="#efbfa5" class="outline"/>
+
+  <!-- Face shading and highlights -->
+  <path d="M303 177
+           C294 230 307 296 346 330
+           C360 342 378 352 398 358
+           C350 352 315 326 298 285
+           C284 250 285 199 303 177 Z"
+        fill="#d99780" opacity="0.85"/>
+
+  <path d="M327 251 Q346 274 369 264
+           Q359 287 332 278 Z"
+        fill="#f9cfba"/>
+
+  <path d="M430 245 Q453 258 471 244"
+        class="fine"/>
+
+  <!-- Fringe -->
+  <path d="M289 186
+           C278 145 285 107 318 83
+           C351 59 376 71 401 59
+           C428 46 455 57 480 69
+           C516 85 532 123 520 171
+           L503 207 L499 157
+           C461 173 424 168 392 151
+           C372 174 338 190 301 190
+           L294 217 Z"
+        fill="url(#silverHair)" class="outline"/>
+
+  <g fill="none" stroke="#9ca6a5" stroke-width="4"
+     stroke-linecap="round" opacity="0.8">
+    <path d="M304 167 Q300 117 343 91"/>
+    <path d="M330 168 Q334 111 377 85"/>
+    <path d="M362 161 Q378 105 408 79"/>
+    <path d="M402 143 Q432 101 458 89"/>
+    <path d="M438 142 Q472 110 492 112"/>
+    <path d="M473 153 Q503 127 505 101"/>
+  </g>
+
+  <!-- Eyebrows -->
+  <path d="M322 189 Q349 174 378 188"
+        fill="none" stroke="#c8cecb" stroke-width="10"
+        stroke-linecap="round"/>
+  <path d="M427 185 Q455 171 486 185"
+        fill="none" stroke="#c8cecb" stroke-width="10"
+        stroke-linecap="round"/>
+
+  <!-- Eyes -->
+  <path d="M320 205 Q348 187 378 204
+           Q352 224 320 205 Z"
+        fill="#fffdf5" class="outline"/>
+  <path d="M427 201 Q456 184 487 201
+           Q459 221 427 201 Z"
+        fill="#fffdf5" class="outline"/>
+
+  <circle cx="362" cy="204" r="7" fill="#171717"/>
+  <circle cx="470" cy="201" r="7" fill="#171717"/>
+
+  <!-- Nose -->
+  <path d="M416 218
+           C423 241 443 254 463 251
+           Q454 264 437 259
+           Q420 250 416 218 Z"
+        fill="#d99780"/>
+
+  <path d="M421 225 Q431 249 456 251"
+        class="fine"/>
+
+  <!-- Open mouth, partly hidden by the burger -->
+  <path d="M438 273
+           Q460 254 488 270
+           Q479 291 456 292
+           Q444 287 438 273 Z"
+        fill="#6e1f28" class="outline"/>
+
+  <path d="M450 284 Q462 274 476 282
+           Q465 291 453 287 Z"
+        fill="#e86669"/>
+
+  <path d="M440 299 Q453 306 468 298"
+        class="fine"/>
+
+  <!-- Supporting hand behind the burger -->
+  <path d="M456 312
+           C444 299 451 282 467 283
+           L493 294 L514 326
+           C524 344 513 367 493 369
+           L468 354
+           C452 351 446 326 456 312 Z"
+        fill="#efbfa5" class="outline"/>
+
+  <!-- Hamburger: bottom bun -->
+  <path d="M480 304
+           Q540 289 607 304
+           L600 334
+           Q542 355 486 336 Z"
+        fill="url(#bun)" class="outline"/>
+
+  <path d="M490 326 Q541 341 596 326"
+        fill="none" stroke="#c66c2e" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Patty -->
+  <path d="M475 276
+           Q540 263 612 276
+           L607 302
+           Q541 314 480 302 Z"
+        fill="#5b3026" class="outline"/>
+
+  <g fill="#865040">
+    <circle cx="498" cy="286" r="5"/>
+    <circle cx="530" cy="293" r="5"/>
+    <circle cx="563" cy="284" r="5"/>
+    <circle cx="589" cy="295" r="4"/>
+  </g>
+
+  <!-- Cheese -->
+  <path d="M473 263 Q537 251 611 264
+           L590 284 L578 274 L558 290
+           L538 275 L516 291 L496 276
+           L478 279 Z"
+        fill="#ffd33f" class="outline"/>
+
+  <!-- Tomato -->
+  <path d="M470 250
+           Q542 239 615 251
+           L607 267 Q541 277 477 266 Z"
+        fill="#ef493d" class="outline"/>
+
+  <path d="M484 257 Q540 250 603 258"
+        fill="none" stroke="#ff7763" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Lettuce -->
+  <path d="M467 238
+           L480 229 L494 240 L510 229
+           L525 241 L541 229 L557 241
+           L574 229 L589 240 L605 230 L619 240
+           L613 255 Q542 264 473 253 Z"
+        fill="#6fbd43" class="outline"/>
+
+  <path d="M484 244 Q541 252 603 242"
+        fill="none" stroke="#3d8d39" stroke-width="4"
+        stroke-linecap="round"/>
+
+  <!-- Top bun -->
+  <path d="M470 245
+           C477 201 503 174 541 174
+           C580 174 607 201 617 245
+           Q544 266 470 245 Z"
+        fill="url(#bun)" class="outline"/>
+
+  <path d="M485 225 Q541 241 601 224"
+        fill="none" stroke="#ce752f" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Sesame seeds -->
+  <g fill="#fff2bd" stroke="#171717" stroke-width="2.5">
+    <path d="M515 202 l12 4 -8 8 -10 -5 Z"/>
+    <path d="M548 190 l13 3 -5 9 -12 -2 Z"/>
+    <path d="M574 210 l12 5 -7 7 -10 -5 Z"/>
+    <path d="M535 220 l11 3 -5 8 -10 -3 Z"/>
+  </g>
+
+  <!-- Fingers supporting the lower bun -->
+  <path d="M453 321
+           C443 311 451 297 464 300
+           L484 311 L497 333
+           C503 344 493 354 482 349
+           L467 337
+           C456 342 446 333 453 321 Z"
+        fill="#efbfa5" class="outline"/>
+
+  <path d="M467 311 L485 327 M459 320 L475 337"
+        class="fine"/>
+
+  <!-- Foreground hand gripping the hamburger -->
+  <path d="M582 352
+           C600 349 619 336 622 321
+           C625 309 616 300 606 307
+           L592 320 L597 287
+           C600 272 582 267 576 282
+           L568 312 L562 277
+           C559 261 538 264 538 280
+           L540 320 L523 301
+           C514 291 500 299 506 313
+           L526 347
+           C535 361 550 368 565 365 Z"
+        fill="#efbfa5" class="outline"/>
+
+  <path d="M558 320 Q568 333 583 332
+           M569 310 Q575 322 592 320
+           M588 307 L594 318"
+        class="fine"/>
+
+  <!-- Small crumbs and comic accents -->
+  <g fill="#171717">
+    <circle cx="629" cy="355" r="4"/>
+    <circle cx="640" cy="342" r="3"/>
+    <circle cx="626" cy="373" r="2.8"/>
+  </g>
+
+  <g fill="none" stroke="#171717" stroke-width="5"
+     stroke-linecap="round">
+    <path d="M641 267 l24 -8"/>
+    <path d="M646 289 l29 3"/>
+    <path d="M630 242 l10 -20"/>
+  </g>
+
+  <!-- Poster frame -->
+  <rect x="18" y="18" width="764" height="764" rx="25"
+        fill="none" stroke="#171717" stroke-width="8"/>
+</svg>

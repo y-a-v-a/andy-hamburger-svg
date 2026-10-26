@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <title>Andy Warhol Eating a Hamburger</title>
+  <defs>
+    <pattern id="halftone" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="5" fill="#ff5da2" opacity="0.55"/>
+      <circle cx="26" cy="26" r="5" fill="#ff5da2" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- Pop Art Background -->
+  <rect width="1000" height="800" fill="#ffd500"/>
+  <rect width="1000" height="800" fill="url(#halftone)"/>
+  <circle cx="500" cy="360" r="315" fill="#00c2ff" stroke="#111" stroke-width="8"/>
+  <circle cx="500" cy="360" r="285" fill="#ff2975"/>
+
+  <!-- Body / Black Turtleneck -->
+  <path d="M335 800 L365 575 Q500 515 635 575 L665 800 Z" fill="#111111" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M430 560 Q500 595 570 560 L575 620 Q500 655 425 620 Z" fill="#222"/>
+
+  <!-- Neck -->
+  <rect x="462" y="430" width="76" height="105" rx="18" fill="#f3c9a5" stroke="#111" stroke-width="5"/>
+
+  <!-- Ears -->
+  <ellipse cx="345" cy="355" rx="26" ry="38" fill="#fde8d7" stroke="#111" stroke-width="5"/>
+  <ellipse cx="655" cy="355" rx="26" ry="38" fill="#fde8d7" stroke="#111" stroke-width="5"/>
+
+  <!-- Face -->
+  <ellipse cx="500" cy="340" rx="155" ry="175" fill="#fde8d7" stroke="#111" stroke-width="7"/>
+
+  <!-- Rosy Pop Cheeks -->
+  <circle cx="395" cy="395" r="24" fill="#ff8fab" opacity="0.7"/>
+  <circle cx="605" cy="395" r="24" fill="#ff8fab" opacity="0.7"/>
+
+  <!-- Silver Wig with Bangs -->
+  <path d="M340 345 C322 175 398 105 500 105 C602 105 678 175 660 345 L638 332 C644 275 640 232 628 208 L608 248 L588 203 L563 243 L538 198 L514 238 L489 193 L464 238 L439 198 L414 243 L389 203 L369 248 L353 208 C344 238 350 282 362 332 Z"
+        fill="#ededed" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M385 145 Q450 120 520 135 M420 165 Q500 145 580 165" fill="none" stroke="#bdbdbd" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Eyebrows -->
+  <path d="M398 302 Q435 285 472 302" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <path d="M528 302 Q565 285 602 302" fill="none" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Eyes looking down at burger -->
+  <ellipse cx="435" cy="330" rx="28" ry="18" fill="white" stroke="#111" stroke-width="5"/>
+  <ellipse cx="565" cy="330" rx="28" ry="18" fill="white" stroke="#111" stroke-width="5"/>
+  <circle cx="440" cy="338" r="9" fill="#111"/>
+  <circle cx="560" cy="338" r="9" fill="#111"/>
+  <circle cx="443" cy="335" r="3" fill="white"/>
+  <circle cx="563" cy="335" r="3" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M502 345 L490 392 Q500 404 518 396" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arms / Sleeves -->
+  <path d="M335 800 L290 620 Q310 560 365 555 L385 650 L395 800 Z" fill="#111" stroke="#000" stroke-width="6"/>
+  <path d="M665 800 L710 620 Q690 560 635 555 L615 650 L605 800 Z" fill="#111" stroke="#000" stroke-width="6"/>
+
+  <!-- HAMBURGER -->
+  <g stroke-linejoin="round">
+    <!-- Top Bun -->
+    <path d="M360 462 C360 375 640 375 640 462 Z" fill="#f2a950" stroke="#111" stroke-width="7"/>
+    <!-- Sesame Seeds -->
+    <g fill="#fff3c4" stroke="#d98a2b" stroke-width="2">
+      <ellipse cx="435" cy="415" rx="12" ry="6" transform="rotate(-20 435 415)"/>
+      <ellipse cx="500" cy="400" rx="12" ry="6" transform="rotate(10 500 400)"/>
+      <ellipse cx="565" cy="418" rx="12" ry="6" transform="rotate(25 565 418)"/>
+      <ellipse cx="470" cy="435" rx="12" ry="6" transform="rotate(-10 470 435)"/>
+      <ellipse cx="535" cy="440" rx="12" ry="6" transform="rotate(15 535 440)"/>
+    </g>
+    <!-- Lettuce -->
+    <path d="M352 462 Q380 488 410 462 Q440 488 470 462 Q500 488 530 462 Q560 488 590 462 Q620 488 648 462 L648 478 Q620 495 590 478 Q560 495 530 478 Q500 495 470 478 Q440 495 410 478 Q380 495 352 478 Z" fill="#58cc02" stroke="#111" stroke-width="5"/>
+    <!-- Tomato -->
+    <rect x="378" y="478" width="244" height="22" rx="11" fill="#ff3b30" stroke="#111" stroke-width="5"/>
+    <!-- Cheese -->
+    <path d="M372 505 L628 505 L600 505 L575 535 L545 505 L505 538 L470 505 L430 535 L405 505 Z" fill="#ffc700" stroke="#111" stroke-width="5"/>
+    <!-- Patty -->
+    <rect x="365" y="512" width="270" height="36" rx="18" fill="#7a3e1d" stroke="#111" stroke-width="6"/>
+    <!-- Bottom Bun -->
+    <path d="M372 548 C382 588 618 588 628 548 Z" fill="#f2a950" stroke="#111" stroke-width="6"/>
+  </g>
+
+  <!-- Hands Holding Burger -->
+  <g fill="#fde8d7" stroke="#111" stroke-width="5" stroke-linecap="round">
+    <!-- Left Hand -->
+    <ellipse cx="360" cy="515" rx="34" ry="52" transform="rotate(20 360 515)"/>
+    <path d="M338 480 Q365 475 368 495" fill="none"/>
+    <path d="M332 510 Q360 505 365 525" fill="none"/>
+    <path d="M340 540 Q365 535 368 552" fill="none"/>
+    <!-- Right Hand -->
+    <ellipse cx="640" cy="515" rx="34" ry="52" transform="rotate(-20 640 515)"/>
+    <path d="M662 480 Q635 475 632 495" fill="none"/>
+    <path d="M668 510 Q640 505 635 525" fill="none"/>
+    <path d="M660 540 Q635 535 632 552" fill="none"/>
+  </g>
+
+  <!-- CHOMP Starburst -->
+  <g transform="translate(790,150) rotate(-12)">
+    <polygon points="0,-78 18,-38 58,-58 42,-18 82,-12 48,12 68,48 28,38 18,78 0,42 -18,78 -28,38 -68,48 -48,12 -82,-12 -42,-18 -58,-58 -18,-38"
+             fill="#ffffff" stroke="#111" stroke-width="6" stroke-linejoin="round"/>
+    <text x="0" y="10" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="26" font-weight="900" fill="#ff2975">CHOMP!</text>
+  </g>
+
+  <!-- Caption -->
+  <g>
+    <rect x="245" y="705" width="510" height="62" rx="12" fill="#111"/>
+    <text x="500" y="748" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="34" letter-spacing="3" fill="#ffd500">ANDY WARHOL</text>
+  </g>
+</svg>

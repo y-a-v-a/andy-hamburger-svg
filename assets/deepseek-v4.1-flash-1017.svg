@@ -1,0 +1,248 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <!-- Define a basic style for the silkscreen lines -->
+    <style>
+      .outline { fill: none; stroke: #000; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+      .thick-outline { fill: none; stroke: #000; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .text-small { font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; fill: #000; opacity: 0.7; }
+      .text-quote { font-family: 'Arial', sans-serif; font-size: 14px; font-weight: bold; fill: #FFF; letter-spacing: 3px; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="800" fill="#000" />
+
+  <!-- ================= PANEL 1 (Top Left) ================= -->
+  <g transform="translate(0, 0)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="#FF00FF" />
+    <!-- Halo -->
+    <circle cx="200" cy="180" r="140" fill="#FFFF00" opacity="0.4" />
+    
+    <!-- Arm & Shoulders -->
+    <path d="M 120 400 L 160 320 C 180 280, 200 270, 230 280 L 240 300 L 200 400 Z" fill="#FFFF00" class="outline" />
+    
+    <!-- Neck -->
+    <rect x="175" y="250" width="50" height="50" fill="#FFFF00" class="outline" />
+    
+    <!-- Face -->
+    <path d="M 150 140 C 150 90, 250 90, 250 140 C 260 180, 240 240, 200 260 C 160 240, 140 180, 150 140 Z" fill="#FFFF00" class="outline" />
+    
+    <!-- Hair -->
+    <path d="M 90 200 L 100 120 L 140 80 L 180 70 L 200 30 L 220 70 L 260 80 L 300 120 L 310 200 L 300 250 L 280 270 L 260 240 L 240 260 L 220 240 L 200 260 L 180 240 L 160 260 L 140 240 L 120 270 L 100 250 Z" fill="#00FFFF" class="outline" />
+    
+    <!-- Cheekbones -->
+    <path d="M 170 180 Q 180 200 170 220" class="outline" stroke-width="3" />
+    <path d="M 230 180 Q 220 200 230 220" class="outline" stroke-width="3" />
+    
+    <!-- Glasses -->
+    <circle cx="165" cy="180" r="25" class="thick-outline" />
+    <circle cx="235" cy="180" r="25" class="thick-outline" />
+    <path d="M 190 180 Q 200 170 210 180" class="thick-outline" />
+    <line x1="140" y1="180" x2="110" y2="190" class="thick-outline" />
+    <line x1="260" y1="180" x2="290" y2="190" class="thick-outline" />
+    
+    <!-- Nose -->
+    <path d="M 200 190 Q 190 210 200 220" class="outline" />
+    
+    <!-- Mouth -->
+    <path d="M 180 235 Q 200 255 220 235 Q 200 270 180 235 Z" fill="#000" class="outline" />
+    
+    <!-- Burger -->
+    <path d="M 230 240 C 230 210, 300 210, 300 240 L 300 250 L 230 250 Z" fill="#FF4500" class="outline" />
+    <ellipse cx="245" cy="230" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="265" cy="225" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="285" cy="230" rx="4" ry="2" fill="#FFF" />
+    <path d="M 225 250 Q 235 265 245 250 Q 255 265 265 250 Q 275 265 285 250 Q 295 265 300 250 L 300 255 L 225 255 Z" fill="#00FF00" class="outline" />
+    <rect x="230" y="255" width="70" height="15" rx="5" fill="#8B4513" class="outline" />
+    <rect x="230" y="270" width="70" height="15" rx="5" fill="#FF4500" class="outline" />
+    
+    <!-- Hand -->
+    <ellipse cx="230" cy="260" rx="8" ry="15" transform="rotate(-30 230 260)" fill="#FFFF00" class="outline" />
+    <ellipse cx="245" cy="270" rx="8" ry="15" transform="rotate(-20 245 270)" fill="#FFFF00" class="outline" />
+    <ellipse cx="260" cy="280" rx="8" ry="15" transform="rotate(-10 260 280)" fill="#FFFF00" class="outline" />
+    <ellipse cx="285" cy="250" rx="15" ry="10" transform="rotate(20 285 250)" fill="#FFFF00" class="outline" />
+    
+    <!-- Panel Border & Text -->
+    <rect width="400" height="400" fill="none" stroke="#000" stroke-width="8" />
+    <text x="200" y="390" text-anchor="middle" class="text-small">ANDY WARHOL</text>
+  </g>
+
+  <!-- ================= PANEL 2 (Top Right) ================= -->
+  <g transform="translate(400, 0)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="#00FFFF" />
+    <!-- Halo -->
+    <circle cx="200" cy="180" r="140" fill="#FF00FF" opacity="0.4" />
+    
+    <!-- Arm & Shoulders -->
+    <path d="M 120 400 L 160 320 C 180 280, 200 270, 230 280 L 240 300 L 200 400 Z" fill="#FF00FF" class="outline" />
+    
+    <!-- Neck -->
+    <rect x="175" y="250" width="50" height="50" fill="#FF00FF" class="outline" />
+    
+    <!-- Face -->
+    <path d="M 150 140 C 150 90, 250 90, 250 140 C 260 180, 240 240, 200 260 C 160 240, 140 180, 150 140 Z" fill="#FF00FF" class="outline" />
+    
+    <!-- Hair (Shifted slightly for silkscreen effect) -->
+    <g transform="translate(-5, 5)">
+      <path d="M 90 200 L 100 120 L 140 80 L 180 70 L 200 30 L 220 70 L 260 80 L 300 120 L 310 200 L 300 250 L 280 270 L 260 240 L 240 260 L 220 240 L 200 260 L 180 240 L 160 260 L 140 240 L 120 270 L 100 250 Z" fill="#FFFF00" class="outline" />
+    </g>
+    
+    <!-- Cheekbones -->
+    <path d="M 170 180 Q 180 200 170 220" class="outline" stroke-width="3" />
+    <path d="M 230 180 Q 220 200 230 220" class="outline" stroke-width="3" />
+    
+    <!-- Glasses -->
+    <circle cx="165" cy="180" r="25" class="thick-outline" />
+    <circle cx="235" cy="180" r="25" class="thick-outline" />
+    <path d="M 190 180 Q 200 170 210 180" class="thick-outline" />
+    <line x1="140" y1="180" x2="110" y2="190" class="thick-outline" />
+    <line x1="260" y1="180" x2="290" y2="190" class="thick-outline" />
+    
+    <!-- Nose -->
+    <path d="M 200 190 Q 190 210 200 220" class="outline" />
+    
+    <!-- Mouth -->
+    <path d="M 180 235 Q 200 255 220 235 Q 200 270 180 235 Z" fill="#000" class="outline" />
+    
+    <!-- Burger -->
+    <path d="M 230 240 C 230 210, 300 210, 300 240 L 300 250 L 230 250 Z" fill="#FFD700" class="outline" />
+    <ellipse cx="245" cy="230" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="265" cy="225" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="285" cy="230" rx="4" ry="2" fill="#FFF" />
+    <path d="M 225 250 Q 235 265 245 250 Q 255 265 265 250 Q 275 265 285 250 Q 295 265 300 250 L 300 255 L 225 255 Z" fill="#32CD32" class="outline" />
+    <rect x="230" y="255" width="70" height="15" rx="5" fill="#A52A2A" class="outline" />
+    <rect x="230" y="270" width="70" height="15" rx="5" fill="#FFD700" class="outline" />
+    
+    <!-- Hand -->
+    <ellipse cx="230" cy="260" rx="8" ry="15" transform="rotate(-30 230 260)" fill="#FF00FF" class="outline" />
+    <ellipse cx="245" cy="270" rx="8" ry="15" transform="rotate(-20 245 270)" fill="#FF00FF" class="outline" />
+    <ellipse cx="260" cy="280" rx="8" ry="15" transform="rotate(-10 260 280)" fill="#FF00FF" class="outline" />
+    <ellipse cx="285" cy="250" rx="15" ry="10" transform="rotate(20 285 250)" fill="#FF00FF" class="outline" />
+    
+    <!-- Panel Border & Text -->
+    <rect width="400" height="400" fill="none" stroke="#000" stroke-width="8" />
+    <text x="200" y="390" text-anchor="middle" class="text-small">EATING A BURGER</text>
+  </g>
+
+  <!-- ================= PANEL 3 (Bottom Left) ================= -->
+  <g transform="translate(0, 400)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="#FFFF00" />
+    <!-- Halo -->
+    <circle cx="200" cy="180" r="140" fill="#00FFFF" opacity="0.4" />
+    
+    <!-- Arm & Shoulders -->
+    <path d="M 120 400 L 160 320 C 180 280, 200 270, 230 280 L 240 300 L 200 400 Z" fill="#00FFFF" class="outline" />
+    
+    <!-- Neck -->
+    <rect x="175" y="250" width="50" height="50" fill="#00FFFF" class="outline" />
+    
+    <!-- Face -->
+    <path d="M 150 140 C 150 90, 250 90, 250 140 C 260 180, 240 240, 200 260 C 160 240, 140 180, 150 140 Z" fill="#00FFFF" class="outline" />
+    
+    <!-- Hair -->
+    <path d="M 90 200 L 100 120 L 140 80 L 180 70 L 200 30 L 220 70 L 260 80 L 300 120 L 310 200 L 300 250 L 280 270 L 260 240 L 240 260 L 220 240 L 200 260 L 180 240 L 160 260 L 140 240 L 120 270 L 100 250 Z" fill="#FF00FF" class="outline" />
+    
+    <!-- Cheekbones (Shifted slightly for silkscreen effect) -->
+    <g transform="translate(4, -4)">
+      <path d="M 170 180 Q 180 200 170 220" class="outline" stroke-width="3" />
+      <path d="M 230 180 Q 220 200 230 220" class="outline" stroke-width="3" />
+    </g>
+    
+    <!-- Glasses -->
+    <circle cx="165" cy="180" r="25" class="thick-outline" />
+    <circle cx="235" cy="180" r="25" class="thick-outline" />
+    <path d="M 190 180 Q 200 170 210 180" class="thick-outline" />
+    <line x1="140" y1="180" x2="110" y2="190" class="thick-outline" />
+    <line x1="260" y1="180" x2="290" y2="190" class="thick-outline" />
+    
+    <!-- Nose -->
+    <path d="M 200 190 Q 190 210 200 220" class="outline" />
+    
+    <!-- Mouth -->
+    <path d="M 180 235 Q 200 255 220 235 Q 200 270 180 235 Z" fill="#000" class="outline" />
+    
+    <!-- Burger -->
+    <path d="M 230 240 C 230 210, 300 210, 300 240 L 300 250 L 230 250 Z" fill="#FF8C00" class="outline" />
+    <ellipse cx="245" cy="230" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="265" cy="225" rx="4" ry="2" fill="#FFF" />
+    <ellipse cx="285" cy="230" rx="4" ry="2" fill="#FFF" />
+    <path d="M 225 250 Q 235 265 245 250 Q 255 265 265 250 Q 275 265 285 250 Q 295 265 300 250 L 300 255 L 225 255 Z" fill="#00FF00" class="outline" />
+    <rect x="230" y="255" width="70" height="15" rx="5" fill="#654321" class="outline" />
+    <rect x="230" y="270" width="70" height="15" rx="5" fill="#FF8C00" class="outline" />
+    
+    <!-- Hand -->
+    <ellipse cx="230" cy="260" rx="8" ry="15" transform="rotate(-30 230 260)" fill="#00FFFF" class="outline" />
+    <ellipse cx="245" cy="270" rx="8" ry="15" transform="rotate(-20 245 270)" fill="#00FFFF" class="outline" />
+    <ellipse cx="260" cy="280" rx="8" ry="15" transform="rotate(-10 260 280)" fill="#00FFFF" class="outline" />
+    <ellipse cx="285" cy="250" rx="15" ry="10" transform="rotate(20 285 250)" fill="#00FFFF" class="outline" />
+    
+    <!-- Panel Border & Text -->
+    <rect width="400" height="400" fill="none" stroke="#000" stroke-width="8" />
+    <text x="200" y="390" text-anchor="middle" class="text-small">NEW YORK, 1985</text>
+  </g>
+
+  <!-- ================= PANEL 4 (Bottom Right) ================= -->
+  <g transform="translate(400, 400)">
+    <!-- Background -->
+    <rect width="400" height="400" fill="#32CD32" />
+    <!-- Halo -->
+    <circle cx="200" cy="180" r="140" fill="#FF1493" opacity="0.4" />
+    
+    <!-- Arm & Shoulders -->
+    <path d="M 120 400 L 160 320 C 180 280, 200 270, 230 280 L 240 300 L 200 400 Z" fill="#FFFF00" class="outline" />
+    
+    <!-- Neck -->
+    <rect x="175" y="250" width="50" height="50" fill="#FFFF00" class="outline" />
+    
+    <!-- Face -->
+    <path d="M 150 140 C 150 90, 250 90, 250 140 C 260 180, 240 240, 200 260 C 160 240, 140 180, 150 140 Z" fill="#FFFF00" class="outline" />
+    
+    <!-- Hair -->
+    <path d="M 90 200 L 100 120 L 140 80 L 180 70 L 200 30 L 220 70 L 260 80 L 300 120 L 310 200 L 300 250 L 280 270 L 260 240 L 240 260 L 220 240 L 200 260 L 180 240 L 160 260 L 140 240 L 120 270 L 100 250 Z" fill="#FF1493" class="outline" />
+    
+    <!-- Cheekbones -->
+    <path d="M 170 180 Q 180 200 170 220" class="outline" stroke-width="3" />
+    <path d="M 230 180 Q 220 200 230 220" class="outline" stroke-width="3" />
+    
+    <!-- Glasses -->
+    <circle cx="165" cy="180" r="25" class="thick-outline" />
+    <circle cx="235" cy="180" r="25" class="thick-outline" />
+    <path d="M 190 180 Q 200 170 210 180" class="thick-outline" />
+    <line x1="140" y1="180" x2="110" y2="190" class="thick-outline" />
+    <line x1="260" y1="180" x2="290" y2="190" class="thick-outline" />
+    
+    <!-- Nose -->
+    <path d="M 200 190 Q 190 210 200 220" class="outline" />
+    
+    <!-- Mouth & Burger Group (Shifted for silkscreen effect) -->
+    <g transform="translate(-3, 6)">
+      <!-- Mouth -->
+      <path d="M 180 235 Q 200 255 220 235 Q 200 270 180 235 Z" fill="#000" class="outline" />
+      
+      <!-- Burger -->
+      <path d="M 230 240 C 230 210, 300 210, 300 240 L 300 250 L 230 250 Z" fill="#FFA500" class="outline" />
+      <ellipse cx="245" cy="230" rx="4" ry="2" fill="#FFF" />
+      <ellipse cx="265" cy="225" rx="4" ry="2" fill="#FFF" />
+      <ellipse cx="285" cy="230" rx="4" ry="2" fill="#FFF" />
+      <path d="M 225 250 Q 235 265 245 250 Q 255 265 265 250 Q 275 265 285 250 Q 295 265 300 250 L 300 255 L 225 255 Z" fill="#00FA9A" class="outline" />
+      <rect x="230" y="255" width="70" height="15" rx="5" fill="#8B0000" class="outline" />
+      <rect x="230" y="270" width="70" height="15" rx="5" fill="#FFA500" class="outline" />
+    </g>
+    
+    <!-- Hand -->
+    <ellipse cx="230" cy="260" rx="8" ry="15" transform="rotate(-30 230 260)" fill="#FFFF00" class="outline" />
+    <ellipse cx="245" cy="270" rx="8" ry="15" transform="rotate(-20 245 270)" fill="#FFFF00" class="outline" />
+    <ellipse cx="260" cy="280" rx="8" ry="15" transform="rotate(-10 260 280)" fill="#FFFF00" class="outline" />
+    <ellipse cx="285" cy="250" rx="15" ry="10" transform="rotate(20 285 250)" fill="#FFFF00" class="outline" />
+    
+    <!-- Panel Border & Text -->
+    <rect width="400" height="400" fill="none" stroke="#000" stroke-width="8" />
+    <text x="200" y="390" text-anchor="middle" class="text-small">POP ART</text>
+  </g>
+
+  <!-- Quote at the bottom -->
+  <text x="400" y="790" text-anchor="middle" class="text-quote">IN THE FUTURE EVERYONE WILL BE WORLD-FAMOUS FOR 15 MINUTES</text>
+</svg>
