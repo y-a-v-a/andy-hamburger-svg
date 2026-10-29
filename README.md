@@ -14,7 +14,7 @@ Inspired by Simon Willison's [pelican on a bicycle](https://simonwillison.net/20
 
 ## Generating SVGs
 
-`generate-svgs.js` sends the prompt to every text-to-text model on [OpenRouter](https://openrouter.ai) and saves the first `<svg>…</svg>` block from each response to `assets/<slug>.svg`. It skips a model if it already has an SVG, is listed in `skip.json`, or has a `:batch` suffix.
+`generate-svgs.js` sends the prompt to every text-to-text model on [OpenRouter](https://openrouter.ai) and saves the first `<svg>…</svg>` block from each response to `assets/<slug>.svg`. It skips a model if it already has an SVG, is listed in `skip.json`, or has a `:batch` suffix. A model that returns a 429 (rate limited) or a response without an `<svg>` is added to `skip.json`, so later runs skip it.
 
 ```sh
 node generate-svgs.js [options]
@@ -37,6 +37,7 @@ node generate-svgs.js [options]
 | `FORCE`              | —              | Set to `1` to regenerate even when an SVG already exists.                                    |
 | `ONLY`               | —              | Comma-separated substrings. Only models whose id contains at least one of them are queried.  |
 | `SKIP`               | —              | Comma-separated model ids to skip for this run only.                                         |
+| `AUTO_SKIP`          | —              | Set to `0` to stop adding models that return a 429 or no `<svg>` to `skip.json`.             |
 | `DRY`                | —              | Set to `1` to list which models would be queried, without calling them.                      |
 | `TIMEOUT`            | `180`          | Request timeout in seconds.                                                                  |
 | `SLEEP`              | `2`            | Pause between requests in seconds.                                                           |
@@ -62,7 +63,7 @@ This runs the following steps in order:
 1. `generate-svgs.js` queries 10 models (override with `LIMIT`; the other environment variables above also apply).
 2. `validate-svgs.js --fix --reject` repairs and checks each new SVG. It adds a missing `xmlns="http://www.w3.org/2000/svg"` or `xmlns:xlink` declaration to the root `<svg>`; it fixes nothing else. Files that are still invalid are moved to `rejected/` (ignored by git).
 3. `update-svgs.sh` updates the SVG list in `index.html`.
-4. The new SVGs and `index.html` are committed as "adds new svgs". Anything else you had staged is left out of the commit. Nothing is pushed.
+4. The new SVGs, `index.html` and `skip.json` (when models were added to it) are committed as "adds new svgs", or "updates skip list" when there are no new SVGs. Anything else you had staged is left out of the commit. Nothing is pushed.
 
 An SVG is valid when it is well-formed XML, every namespace prefix (such as `xlink:`) is declared, and the root is `<svg>` in the `http://www.w3.org/2000/svg` namespace. These are the requirements for `index.html` to render it through `<object type="image/svg+xml">`.
 

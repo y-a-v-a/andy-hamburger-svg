@@ -10,6 +10,8 @@
 //   FORCE               if "1", regenerate even when the output already exists
 //   ONLY                comma-separated substrings; only models whose id matches
 //                       at least one are queried (e.g. ONLY=claude,gpt,llama)
+//   AUTO_SKIP           if "0", don't add models that return a 429 or no <svg>
+//                       to skip.json
 //
 // Args:
 //   --add-skip <id>     add a model id to skip.json and exit (repeatable)
@@ -32,7 +34,8 @@ if (argv.includes("--help") || argv.includes("-h")) {
 Asks every text->text model on OpenRouter to draw Andy Warhol eating a
 hamburger as an SVG, and saves the first <svg>...</svg> block in each
 response to assets/<slug>.svg. Models that already have an SVG, are
-listed in skip.json, or have a ":batch" suffix are skipped.
+listed in skip.json, or have a ":batch" suffix are skipped. Models that
+return a 429 or no <svg> are added to skip.json.
 
 Options:
   --add-skip <id>     add a model id to skip.json and exit (repeatable,
@@ -47,7 +50,9 @@ Environment variables:
   ONLY                comma-separated substrings; only models whose id
                       matches at least one are queried (e.g. ONLY=claude,gpt)
   SKIP                comma-separated model ids to skip for this run only
-  DRY=1               list which models would be queried, without calling them
+  AUTO_SKIP=0         don't add models that return a 429 or no <svg> to
+                      skip.json
+  DRY=1              list which models would be queried, without calling them
   TIMEOUT             request timeout in seconds (default 180)
   SLEEP               pause between requests in seconds (default 2)
 
@@ -70,17 +75,25 @@ for (let i = 0; i < argv.length; i++) {
     addSkip.push(argv[i].slice("--add-skip=".length));
   }
 }
-if (addSkip.length) {
+// Appends ids to skip.json, keeping it sorted and deduplicated. Returns the
+// ids that were not already listed.
+function addToSkipFile(ids) {
   const list = JSON.parse(fs.readFileSync(SKIP_FILE, "utf8"));
-  for (const id of addSkip.map((s) => s.trim()).filter(Boolean)) {
-    if (list.includes(id)) console.log(`already skipped: ${id}`);
-    else {
-      list.push(id);
-      console.log(`added to skip list: ${id}`);
-    }
+  const added = [...new Set(ids)].filter((id) => !list.includes(id));
+  if (added.length) {
+    list.push(...added);
+    list.sort();
+    fs.writeFileSync(SKIP_FILE, JSON.stringify(list, null, 2) + "\n");
   }
-  list.sort();
-  fs.writeFileSync(SKIP_FILE, JSON.stringify(list, null, 2) + "\n");
+  return added;
+}
+
+if (addSkip.length) {
+  const ids = addSkip.map((s) => s.trim()).filter(Boolean);
+  const added = addToSkipFile(ids);
+  for (const id of ids) {
+    console.log(added.includes(id) ? `added to skip list: ${id}` : `already skipped: ${id}`);
+  }
   process.exit(0);
 }
 
@@ -95,6 +108,7 @@ const TIMEOUT_MS = Number(process.env.TIMEOUT ?? 180) * 1000;
 const SLEEP_MS = Number(process.env.SLEEP ?? 2) * 1000;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const FORCE = process.env.FORCE === "1";
+const AUTO_SKIP = process.env.AUTO_SKIP !== "0";
 const ONLY = (process.env.ONLY ?? "")
   .split(",")
   .map((s) => s.trim().toLowerCase())
@@ -202,7 +216,9 @@ async function ask(modelId) {
   });
   const body = await res.json().catch(() => ({}));
   if (!res.ok) {
-    throw new Error(`${res.status} ${body?.error?.message ?? res.statusText}`);
+    const err = new Error(`${res.status} ${body?.error?.message ?? res.statusText}`);
+    err.status = res.status;
+    throw err;
   }
   const content = body?.choices?.[0]?.message?.content;
   if (typeof content === "string") return content;
@@ -231,6 +247,12 @@ const DRY = process.env.DRY === "1";
 
   let done = 0;
   let saved = 0;
+  let autoSkipped = 0;
+  const autoSkip = (id, reason) => {
+    if (!AUTO_SKIP || !addToSkipFile([id]).length) return;
+    autoSkipped++;
+    console.log(`  added ${id} to skip.json (${reason})`);
+  };
   for (const m of models) {
     if (done >= LIMIT) break;
     if (SKIP.has(m.id)) {
@@ -258,6 +280,7 @@ const DRY = process.env.DRY === "1";
       const svg = extractSvg(text);
       if (!svg) {
         console.log("no <svg> in response");
+        autoSkip(m.id, "no <svg>");
       } else {
         fs.writeFileSync(out, svg);
         saved++;
@@ -265,8 +288,9 @@ const DRY = process.env.DRY === "1";
       }
     } catch (err) {
       console.log(`error: ${err.message}`);
+      if (err.status === 429) autoSkip(m.id, "429");
     }
     if (done < LIMIT) await sleep(SLEEP_MS);
   }
-  console.log(`\nDone. ${saved} SVG(s) saved.`);
+  console.log(`\nDone. ${saved} SVG(s) saved, ${autoSkipped} model(s) added to skip.json.`);
 })();
