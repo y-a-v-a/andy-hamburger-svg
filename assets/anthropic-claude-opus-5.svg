@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <!-- ===== Background ===== -->
+  <rect width="600" height="600" fill="#FF3EA5"/>
+  <g fill="#FF7FC4">
+    <circle cx="58" cy="68" r="16"/>
+    <circle cx="124" cy="146" r="11"/>
+    <circle cx="542" cy="86" r="16"/>
+    <circle cx="474" cy="158" r="11"/>
+    <circle cx="66" cy="300" r="13"/>
+    <circle cx="556" cy="286" r="13"/>
+  </g>
+
+  <g stroke="#1A1A1A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- ===== Turtleneck / shoulders ===== -->
+    <path d="M110,600 C118,472 196,428 300,426 C404,428 482,472 490,600 Z" fill="#1A1A1A"/>
+
+    <!-- ===== Neck ===== -->
+    <path d="M262,320 h76 v96 h-76 Z" fill="#E8C6B2"/>
+    <!-- turtleneck collar -->
+    <path d="M248,398 q52,22 104,0 l6,46 q-58,24 -116,0 Z" fill="#2B2B2B"/>
+
+    <!-- ===== Head ===== -->
+    <ellipse cx="300" cy="230" rx="95" ry="115" fill="#F8E7DC"/>
+
+    <!-- ===== The wig ===== -->
+    <path d="M196,262
+             C176,148 215,78 300,78
+             C385,78 424,148 404,262
+             L392,210 L370,232 L352,196 L330,224
+             L306,188 L284,222 L262,192 L240,226 L218,198 Z"
+          fill="#F4F4F4"/>
+
+    <!-- ===== Brows ===== -->
+    <path d="M232,196 q28,-12 56,-4" fill="none" stroke-width="5"/>
+    <path d="M312,192 q28,-8 54,4" fill="none" stroke-width="5"/>
+
+    <!-- ===== Sunglasses ===== -->
+    <rect x="226" y="204" width="64" height="44" rx="14" fill="#1A1A1A"/>
+    <rect x="310" y="204" width="64" height="44" rx="14" fill="#1A1A1A"/>
+    <rect x="288" y="216" width="24" height="9" rx="4" fill="#1A1A1A"/>
+    <path d="M226,220 L204,228" fill="none" stroke-width="6"/>
+    <path d="M374,220 L396,228" fill="none" stroke-width="6"/>
+    <path d="M236,214 q14,-6 26,-2" fill="none" stroke="#FFFFFF" stroke-width="5" opacity="0.8"/>
+
+    <!-- ===== Nose ===== -->
+    <path d="M296,248 q-10,30 4,36 q10,4 14,-4" fill="none" stroke-width="4"/>
+
+    <!-- ===== Mouth (mid-bite) ===== -->
+    <path d="M252,300 C268,286 300,288 318,300 C300,322 270,322 252,300 Z" fill="#8E2130"/>
+    <path d="M258,299 C274,291 302,292 314,300 L258,301 Z" fill="#FFFFFF" stroke="none"/>
+
+    <!-- ===== Fingers behind the bun ===== -->
+    <g stroke="#1A1A1A" stroke-width="4">
+      <path d="M440,398 L398,268" fill="none" stroke-width="30"/>
+      <path d="M452,404 L424,282" fill="none" stroke-width="30"/>
+      <path d="M462,414 L442,302" fill="none" stroke-width="30"/>
+      <path d="M440,398 L398,268" fill="none" stroke="#EFD2BE" stroke-width="24"/>
+      <path d="M452,404 L424,282" fill="none" stroke="#EFD2BE" stroke-width="24"/>
+      <path d="M462,414 L442,302" fill="none" stroke="#EFD2BE" stroke-width="24"/>
+    </g>
+
+    <!-- ===== THE HAMBURGER ===== -->
+    <g transform="translate(375,345) rotate(-18) scale(0.95) translate(-360,-330)">
+      <!-- bottom bun -->
+      <path d="M296,334 L424,334 L424,344 Q424,376 360,376 Q296,376 296,344 Z" fill="#E0A04A"/>
+      <!-- patty -->
+      <rect x="292" y="310" width="136" height="28" rx="11" fill="#6B3A22"/>
+      <!-- cheese -->
+      <path d="M290,306 L430,306 L430,318 L410,338 L396,318 L374,342 L358,318 L336,340 L320,318 L300,334 Z" fill="#FFC02E"/>
+      <!-- lettuce -->
+      <path d="M286,294 L434,294 L434,302 C424,318 412,300 400,310 C388,322 376,300 364,310
+               C352,322 340,300 328,310 C316,322 304,300 294,308 Z" fill="#5BAE2B"/>
+      <!-- top bun -->
+      <path d="M290,300 Q290,236 360,236 Q430,236 430,300 Z" fill="#EDAE51"/>
+      <g fill="#FBE6C0" stroke="none">
+        <ellipse cx="322" cy="272" rx="7" ry="4" transform="rotate(-20 322 272)"/>
+        <ellipse cx="356" cy="256" rx="7" ry="4" transform="rotate(8 356 256)"/>
+        <ellipse cx="392" cy="270" rx="7" ry="4" transform="rotate(22 392 270)"/>
+        <ellipse cx="340" cy="288" rx="7" ry="4" transform="rotate(-8 340 288)"/>
+        <ellipse cx="378" cy="290" rx="7" ry="4" transform="rotate(14 378 290)"/>
+      </g>
+    </g>
+
+    <!-- ===== Sleeve + hand (in front) ===== -->
+    <path d="M505,452 L625,600" fill="none" stroke="#1A1A1A" stroke-width="96"/>
+    <ellipse cx="452" cy="402" rx="50" ry="42" transform="rotate(-15 452 402)" fill="#EFD2BE"/>
+    <path d="M438,360 L380,350" fill="none" stroke-width="32"/>
+    <path d="M438,360 L380,350" fill="none" stroke="#F3DCCB" stroke-width="26"/>
+
+    <!-- ===== Heinz bottle (he squeezed one on camera) ===== -->
+    <g>
+      <rect x="50" y="500" width="62" height="82" rx="10" fill="#D81E2C"/>
+      <rect x="68" y="482" width="26" height="22" fill="#D81E2C"/>
+      <rect x="62" y="468" width="38" height="16" rx="4" fill="#F2F2F2"/>
+      <rect x="56" y="520" width="50" height="36" rx="4" fill="#F7F2E7"/>
+      <text x="81" y="544" font-family="Georgia, serif" font-size="17" font-weight="bold"
+            fill="#D81E2C" text-anchor="middle" stroke="none">57</text>
+    </g>
+
+    <!-- frame -->
+    <rect x="6" y="6" width="588" height="588" fill="none" stroke="#1A1A1A" stroke-width="10"/>
+  </g>
+</svg>

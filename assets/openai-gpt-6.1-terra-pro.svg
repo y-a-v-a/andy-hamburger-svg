@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <title>Andy Warhol eating a hamburger</title>
+  <desc>A colorful pop-art portrait of Andy Warhol holding a hamburger.</desc>
+
+  <defs>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3" fill="#f25a92" opacity=".55"/>
+    </pattern>
+  </defs>
+
+  <!-- Pop-art backdrop -->
+  <rect width="600" height="600" fill="#ffd946"/>
+  <rect width="600" height="600" fill="url(#dots)"/>
+  <circle cx="300" cy="260" r="225" fill="#50c9d4"/>
+  <path d="M0 510L600 420V600H0Z" fill="#f25a92"/>
+
+  <!-- Jacket and neck -->
+  <path d="M126 600Q139 454 228 420L263 404H337L372 420
+           Q461 454 474 600Z"
+        fill="#292940" stroke="#161625" stroke-width="8"/>
+  <path d="M263 356H337V427L300 462L263 427Z"
+        fill="#f5c6a9" stroke="#161625" stroke-width="7"/>
+  <path d="M263 411L300 462L337 411L359 437L334 600H266L241 437Z"
+        fill="#f5f2e8" stroke="#161625" stroke-width="6"/>
+  <path d="M228 420L282 485L256 503L278 600H126
+           Q139 454 228 420Z"
+        fill="#393953" stroke="#161625" stroke-width="6"/>
+  <path d="M372 420L318 485L344 503L322 600H474
+           Q461 454 372 420Z"
+        fill="#393953" stroke="#161625" stroke-width="6"/>
+
+  <!-- Ears and face -->
+  <ellipse cx="218" cy="258" rx="23" ry="35"
+           fill="#f5c6a9" stroke="#161625" stroke-width="7"/>
+  <ellipse cx="382" cy="258" rx="23" ry="35"
+           fill="#f5c6a9" stroke="#161625" stroke-width="7"/>
+  <path d="M220 190Q225 119 300 119Q375 119 380 190
+           L374 285Q369 337 335 367Q319 380 300 380
+           Q281 380 265 367Q231 337 226 285Z"
+        fill="#f5c6a9" stroke="#161625" stroke-width="8"/>
+
+  <!-- White wig -->
+  <path d="M218 225L202 192L214 173L201 157L223 148
+           L217 127L243 128L247 105L270 114L282 91
+           L301 105L319 90L332 112L355 103L360 126
+           L385 124L381 146L404 156L392 174L402 192
+           L383 222L375 192L360 183L350 166L332 176
+           L319 159L302 175L285 158L270 176L253 164
+           L242 185L225 192Z"
+        fill="#f7f7f2" stroke="#161625" stroke-width="8"
+        stroke-linejoin="round"/>
+  <path d="M229 153L250 141M264 131L276 147M300 119L305 148
+           M330 128L338 146M361 145L377 153"
+        fill="none" stroke="#c8c8ce" stroke-width="5"
+        stroke-linecap="round"/>
+
+  <!-- Glasses and face -->
+  <path d="M224 226Q252 216 282 225L280 258Q254 271 230 257Z
+           M318 225Q348 216 376 226L370 257Q346 271 320 258Z"
+        fill="#eaf7f5" fill-opacity=".45"
+        stroke="#161625" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M282 232Q300 223 318 232M224 230L211 224
+           M376 230L389 224"
+        fill="none" stroke="#161625" stroke-width="7"/>
+  <circle cx="257" cy="241" r="5" fill="#161625"/>
+  <circle cx="343" cy="241" r="5" fill="#161625"/>
+  <path d="M299 246L290 289Q299 295 309 289"
+        fill="none" stroke="#161625" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M274 317Q300 302 326 317Q301 334 274 317Z"
+        fill="#783e43" stroke="#161625" stroke-width="5"/>
+  <path d="M283 317Q300 312 317 317" fill="none"
+        stroke="#fff4e9" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Arms -->
+  <path d="M158 523Q180 484 219 447L247 420"
+        fill="none" stroke="#161625" stroke-width="53"
+        stroke-linecap="round"/>
+  <path d="M158 523Q180 484 219 447L247 420"
+        fill="none" stroke="#393953" stroke-width="40"
+        stroke-linecap="round"/>
+  <path d="M442 523Q420 484 381 447L353 420"
+        fill="none" stroke="#161625" stroke-width="53"
+        stroke-linecap="round"/>
+  <path d="M442 523Q420 484 381 447L353 420"
+        fill="none" stroke="#393953" stroke-width="40"
+        stroke-linecap="round"/>
+
+  <!-- Hands holding the burger -->
+  <path d="M248 420Q221 414 218 391L220 368Q222 357 231 359
+           L237 379L240 352Q242 343 250 346L255 370
+           L259 351Q262 343 270 347L273 376L279 389
+           L273 415Z"
+        fill="#f5c6a9" stroke="#161625" stroke-width="6"
+        stroke-linejoin="round"/>
+  <path d="M352 420Q379 414 382 391L380 368Q378 357 369 359
+           L363 379L360 352Q358 343 350 346L345 370
+           L341 351Q338 343 330 347L327 376L321 389
+           L327 415Z"
+        fill="#f5c6a9" stroke="#161625" stroke-width="6"
+        stroke-linejoin="round"/>
+
+  <!-- Hamburger, held up to the mouth -->
+  <path d="M248 350Q252 320 300 318Q348 320 352 350Z"
+        fill="#e7a44f" stroke="#161625" stroke-width="6"/>
+  <path d="M252 349Q263 354 274 349Q285 354 296 349
+           Q307 354 318 349Q329 354 348 349"
+        fill="none" stroke="#5b9b48" stroke-width="9"
+        stroke-linecap="round"/>
+  <path d="M253 359H347L339 371H261Z"
+        fill="#f2cd46" stroke="#161625" stroke-width="4"/>
+  <rect x="250" y="369" width="100" height="15" rx="7"
+        fill="#713f31" stroke="#161625" stroke-width="5"/>
+  <path d="M252 384H348Q348 401 333 403H267Q252 401 252 384Z"
+        fill="#e7a44f" stroke="#161625" stroke-width="6"/>
+  <g fill="#fff3cd" transform="rotate(-12 300 335)">
+    <ellipse cx="275" cy="336" rx="4" ry="2"/>
+    <ellipse cx="293" cy="329" rx="4" ry="2"/>
+    <ellipse cx="313" cy="335" rx="4" ry="2"/>
+    <ellipse cx="329" cy="330" rx="4" ry="2"/>
+  </g>
+
+  <!-- Fingertips in front -->
+  <path d="M244 386Q237 381 233 385Q230 391 241 398
+           M356 386Q363 381 367 385Q370 391 359 398"
+        fill="none" stroke="#161625" stroke-width="6"
+        stroke-linecap="round"/>
+
+  <rect x="8" y="8" width="584" height="584"
+        fill="none" stroke="#161625" stroke-width="8"/>
+</svg>

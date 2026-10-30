@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" style="background-color:#ffcc00;">
+  <defs>
+    <!-- Pop-art Ben-Day dots pattern -->
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="3" fill="#ff66b2" />
+    </pattern>
+  </defs>
+
+  <!-- Background shapes -->
+  <rect x="0" y="0" width="500" height="500" fill="#ffcc00" />
+  <rect x="30" y="30" width="440" height="440" fill="url(#dots)" opacity="0.8" />
+  <circle cx="250" cy="250" r="180" fill="#00ffff" opacity="0.9" />
+
+  <!-- Hair (silver / grey iconic wig) -->
+  <path d="M 130 180 Q 110 120 160 100 Q 200 70 250 80 Q 300 70 340 100 Q 390 120 370 180 Q 390 140 370 170 L 370 220 L 130 220 Z" fill="#d0d0d0" stroke="#888" stroke-width="3" />
+  <path d="M 140 150 Q 170 110 220 115 Q 280 110 330 150 Q 350 170 340 200 L 130 200 Q 120 170 140 150 Z" fill="#e0e0e0" />
+
+  <!-- Face -->
+  <ellipse cx="250" cy="270" rx="75" ry="85" fill="#f5d0a9" stroke="#222" stroke-width="3" />
+
+  <!-- Glasses -->
+  <g stroke="#222" stroke-width="3" fill="none">
+    <circle cx="215" cy="260" r="22" />
+    <circle cx="285" cy="260" r="22" />
+    <line x1="237" y1="260" x2="263" y2="260" />
+  </g>
+  <!-- Glass highlights -->
+  <g fill="#fff">
+    <circle cx="210" cy="255" r="5" />
+    <circle cx="280" cy="255" r="5" />
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="215" cy="260" r="6" fill="#222" />
+  <circle cx="285" cy="260" r="6" fill="#222" />
+  <!-- Eye highlights -->
+  <circle cx="216" cy="258" r="1.5" fill="#fff" />
+  <circle cx="286" cy="258" r="1.5" fill="#fff" />
+
+  <!-- Nose -->
+  <path d="M 250 260 Q 245 280 250 285 Q 255 280 250 260" fill="#e0b090" stroke="#c08060" stroke-width="2" />
+
+  <!-- Mouth (open, eating burger) -->
+  <ellipse cx="250" cy="310" rx="18" ry="12" fill="#ff9999" stroke="#c00" stroke-width="2" />
+  <path d="M 240 310 Q 250 320 260 310" stroke="#c00" stroke-width="2" fill="none" />
+
+  <!-- Black turtleneck / shirt -->
+  <path d="M 120 360 Q 180 320 250 320 Q 320 320 380 360 L 390 500 L 110 500 Z" fill="#111" stroke="#333" stroke-width="3" />
+  <rect x="160" y="320" width="180" height="25" rx="10" fill="#111" stroke="#333" stroke-width="2" />
+
+  <!-- Neck -->
+  <rect x="230" y="310" width="40" height="30" fill="#f5d0a9" />
+
+  <!-- Right hand holding burger -->
+  <ellipse cx="320" cy="340" rx="30" ry="15" fill="#f5d0a9" stroke="#222" stroke-width="2" transform="rotate(-20 320 340)" />
+  <rect x="300" y="330" width="40" height="20" rx="10" fill="#f5d0a9" stroke="#222" stroke-width="2" transform="rotate(-20 320 340)" />
+
+  <!-- Hamburger -->
+  <g transform="translate(330, 290) rotate(-10)">
+    <!-- Top bun -->
+    <ellipse cx="40" cy="20" rx="35" ry="18" fill="#f4d0a0" stroke="#8b5a2b" stroke-width="2" />
+    <!-- Sesame seeds -->
+    <circle cx="25" cy="15" r="2" fill="#fff" />
+    <circle cx="35" cy="22" r="2" fill="#fff" />
+    <circle cx="45" cy="14" r="2" fill="#fff" />
+    <circle cx="55" cy="20" r="2" fill="#fff" />
+    <circle cx="30" cy="25" r="2" fill="#fff" />
+
+    <!-- Lettuce -->
+    <path d="M 10 30 Q 20 20 40 30 T 70 30 L 65 40 Q 40 45 15 40 Z" fill="#66cc66" stroke="#228822" stroke-width="1" />
+    <path d="M 15 35 Q 30 25 50 35 T 75 35 L 70 42 Q 40 48 20 42 Z" fill="#77dd77" stroke="#228822" stroke-width="1" />
+
+    <!-- Cheese -->
+    <path d="M 15 35 Q 40 30 65 35 L 60 45 Q 40 48 20 45 Z" fill="#ffcc00" stroke="#cc9900" stroke-width="1" />
+
+    <!-- Patty -->
+    <ellipse cx="40" cy="42" rx="32" ry="12" fill="#8b4513" stroke="#5c2e0c" stroke-width="2" />
+    <ellipse cx="40" cy="45" rx="28" ry="8" fill="#a0522d" />
+
+    <!-- Bottom bun -->
+    <ellipse cx="40" cy="55" rx="35" ry="18" fill="#f4d0a0" stroke="#8b5a2b" stroke-width="2" />
+  </g>
+
+  <!-- Pop text label -->
+  <text x="250" y="460" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="28" fill="#ff0000" letter-spacing="4">ANDY WARHOL EATS</text>
+  <text x="250" y="490" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="24" fill="#00ffff" letter-spacing="6">A BURGER</text>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <!-- Ben-Day halftone pattern -->
+    <pattern id="halftone" x="0" y="0" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#000000" opacity="0.25"/>
+    </pattern>
+    
+    <!-- Clip path for head -->
+    <clipPath id="headClip">
+      <ellipse cx="200" cy="230" rx="75" ry="95"/>
+    </clipPath>
+  </defs>
+
+  <!-- Split pop-art background -->
+  <rect x="0" y="0" width="200" height="500" fill="#FF3B30"/>
+  <rect x="200" y="0" width="200" height="500" fill="#FFCC00"/>
+  
+  <!-- Diagonal accent stripe -->
+  <polygon points="0,150 400,0 400,60 0,210" fill="#007AFF" opacity="0.85"/>
+
+  <!-- Shoulders/body suggestion -->
+  <rect x="120" y="320" width="160" height="180" rx="20" fill="#1C1C1E"/>
+  <path d="M 150 320 Q 200 290 250 320" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Head & Face -->
+  <g clip-path="url(#headClip)">
+    <!-- Base skin tone -->
+    <rect x="0" y="0" width="400" height="500" fill="#FFE4C4"/>
+    
+    <!-- Halftone overlay on face -->
+    <rect x="0" y="0" width="400" height="500" fill="url(#halftone)"/>
+    
+    <!-- Cheek shadows (Warhol flat-shading style) -->
+    <path d="M 125 230 Q 140 280 160 260 L 160 220 Z" fill="#FFB68F" opacity="0.7"/>
+    <path d="M 275 230 Q 260 280 240 260 L 240 220 Z" fill="#FFB68F" opacity="0.7"/>
+  </g>
+  
+  <!-- Head outline -->
+  <ellipse cx="200" cy="230" rx="75" ry="95" fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- Signature silver hair cap -->
+  <path d="M 125 210 Q 125 130 200 120 Q 275 130 275 210 L 265 190 Q 200 165 135 190 Z" fill="#D3D3D3" stroke="#000" stroke-width="2"/>
+  <!-- Hair highlight -->
+  <path d="M 145 175 Q 200 155 255 175" fill="none" stroke="#FFF" stroke-width="2" opacity="0.6"/>
+
+  <!-- Round glasses -->
+  <circle cx="165" cy="205" r="28" fill="none" stroke="#000" stroke-width="3"/>
+  <circle cx="235" cy="205" r="28" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="193" y1="205" x2="207" y2="205" stroke="#000" stroke-width="3"/>
+  <!-- Glasses glare -->
+  <path d="M 155 195 Q 165 185 175 195" fill="none" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+  <path d="M 225 195 Q 235 185 245 195" fill="none" stroke="#FFF" stroke-width="2" opacity="0.8"/>
+
+  <!-- Eyes -->
+  <circle cx="165" cy="205" r="4" fill="#000"/>
+  <circle cx="235" cy="205" r="4" fill="#000"/>
+
+  <!-- Nose -->
+  <path d="M 195 225 L 200 240 L 205 225" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Open mouth (mid-bite) -->
+  <path d="M 175 265 Q 200 285 225 265 Q 210 295 200 295 Q 190 295 175 265 Z" fill="#FF3B30" stroke="#000" stroke-width="2"/>
+
+  <!-- Hamburger -->
+  <g transform="translate(200, 305)">
+    <!-- Top bun -->
+    <path d="M -45 -20 Q -45 -40 0 -40 Q 45 -40 45 -20 Z" fill="#FF9F1C" stroke="#000" stroke-width="2"/>
+    <!-- Sesame seeds -->
+    <ellipse cx="-15" cy="-28" rx="3" ry="1.5" fill="#FFF" opacity="0.8"/>
+    <ellipse cx="10" cy="-32" rx="3" ry="1.5" fill="#FFF" opacity="0.8"/>
+    <ellipse cx="25" cy="-24" rx="3" ry="1.5" fill="#FFF" opacity="0.8"/>
+    
+    <!-- Cheese drip -->
+    <path d="M -30 -18 L 30 -18 L 35 -10 L -35 -10 Z" fill="#FFD166" stroke="#000" stroke-width="2"/>
+    <path d="M -25 -10 Q -20 5 -15 -10 Z" fill="#FFD166" stroke="#000" stroke-width="1.5"/>
+    <path d="M 20 -10 Q 25 8 30 -10 Z" fill="#FFD166" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Beef patty -->
+    <rect x="-35" y="-10" width="70" height="16" rx="4" fill="#6B3A2A" stroke="#000" stroke-width="2"/>
+    
+    <!-- Lettuce -->
+    <path d="M -38 6 Q -20 14 0 6 T 38 6" fill="#06D6A0" stroke="#000" stroke-width="2"/>
+    
+    <!-- Bottom bun -->
+    <path d="M -45 22 Q -45 32 0 32 Q 45 32 45 22 Z" fill="#FF9F1C" stroke="#000" stroke-width="2"/>
+    
+    <!-- Bite mark -->
+    <path d="M -20 -20 Q -5 -35 10 -20 Q 5 -10 -5 -5 Q -15 0 -20 -20 Z" fill="#FF3B30" stroke="#000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Hands holding burger -->
+  <g>
+    <!-- Left hand -->
+    <path d="M 135 310 Q 145 290 155 300 L 160 320 Q 150 335 135 325 Z" fill="#FFE4C4" stroke="#000" stroke-width="2"/>
+    <!-- Fingers -->
+    <path d="M 150 305 L 165 300 M 148 310 L 168 305 M 146 315 L 170 310" fill="none" stroke="#000" stroke-width="1.5"/>
+    
+    <!-- Right hand -->
+    <path d="M 265 310 Q 255 290 245 300 L 240 320 Q 250 335 265 325 Z" fill="#FFE4C4" stroke="#000" stroke-width="2"/>
+    <!-- Fingers -->
+    <path d="M 250 305 L 235 300 M 252 310 L 232 305 M 254 315 L 230 310" fill="none" stroke="#000" stroke-width="1.5"/>
+  </g>
+
+  <!-- Pop-art text stamp (optional signature vibe) -->
+  <text x="320" y="450" font-family="system-ui, sans-serif" font-weight="bold" font-size="14" fill="#FFF" transform="rotate(-12 320 450)" letter-spacing="1">WARP</text>
+</svg>
