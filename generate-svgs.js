@@ -10,8 +10,8 @@
 //   FORCE               if "1", regenerate even when the output already exists
 //   ONLY                comma-separated substrings; only models whose id matches
 //                       at least one are queried (e.g. ONLY=claude,gpt,llama)
-//   AUTO_SKIP           if "0", don't add models that return a 429 or no <svg>
-//                       to skip.json
+//   AUTO_SKIP           if "0", don't add models that return a 400, 403, 404,
+//                       429 or no <svg> to skip.json
 //
 // Args:
 //   --add-skip <id>     add a model id to skip.json and exit (repeatable)
@@ -22,7 +22,9 @@ const path = require("node:path");
 
 const ROOT = __dirname;
 const ASSETS = path.join(ROOT, "assets");
+const REJECTED = path.join(ROOT, "rejected");
 const SKIP_FILE = path.join(ROOT, "skip.json");
+const AUTO_SKIP_STATUSES = new Set([400, 403, 404, 429]);
 
 // `--add-skip <id>` (repeatable, or --add-skip=<id>) appends model ids to
 // skip.json, keeping it sorted and deduplicated, then exits.
@@ -34,8 +36,9 @@ if (argv.includes("--help") || argv.includes("-h")) {
 Asks every text->text model on OpenRouter to draw Andy Warhol eating a
 hamburger as an SVG, and saves the first <svg>...</svg> block in each
 response to assets/<slug>.svg. Models that already have an SVG, are
-listed in skip.json, or have a ":batch" suffix are skipped. Models that
-return a 429 or no <svg> are added to skip.json.
+listed in skip.json, have a rejected SVG in rejected/, or have a ":batch"
+suffix are skipped. Models that return a 400, 403, 404, 429 or no <svg>
+are added to skip.json.
 
 Options:
   --add-skip <id>     add a model id to skip.json and exit (repeatable,
@@ -50,8 +53,8 @@ Environment variables:
   ONLY                comma-separated substrings; only models whose id
                       matches at least one are queried (e.g. ONLY=claude,gpt)
   SKIP                comma-separated model ids to skip for this run only
-  AUTO_SKIP=0         don't add models that return a 429 or no <svg> to
-                      skip.json
+  AUTO_SKIP=0         don't add models that return a 400, 403, 404, 429 or
+                      no <svg> to skip.json
   DRY=1              list which models would be queried, without calling them
   TIMEOUT             request timeout in seconds (default 180)
   SLEEP               pause between requests in seconds (default 2)
@@ -167,10 +170,16 @@ function candidates(id) {
 const fingerprint = (name) =>
   name.replace(/\.svg$/i, "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
+// Rejected SVGs count as existing, so a model is not asked again until its
+// rejected file has been reviewed and moved or deleted.
 function buildExistingIndex() {
-  const files = fs.readdirSync(ASSETS).filter((f) => f.endsWith(".svg"));
   const index = new Map();
-  for (const f of files) index.set(fingerprint(f), f);
+  for (const [dir, prefix] of [[ASSETS, ""], [REJECTED, "rejected/"]]) {
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".svg"))) {
+      if (!index.has(fingerprint(f))) index.set(fingerprint(f), prefix + f);
+    }
+  }
   return index;
 }
 
@@ -288,7 +297,7 @@ const DRY = process.env.DRY === "1";
       }
     } catch (err) {
       console.log(`error: ${err.message}`);
-      if (err.status === 429) autoSkip(m.id, "429");
+      if (AUTO_SKIP_STATUSES.has(err.status)) autoSkip(m.id, String(err.status));
     }
     if (done < LIMIT) await sleep(SLEEP_MS);
   }

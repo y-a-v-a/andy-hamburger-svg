@@ -7,9 +7,11 @@
 //   node validate-svgs.js                 validate every SVG in assets/
 //   node validate-svgs.js <file>...       validate the given files
 //   node validate-svgs.js --new           validate untracked SVGs in assets/
-//   node validate-svgs.js --reject ...    move invalid files to rejected/
-//   node validate-svgs.js --fix ...       before validating, add a missing SVG
-//                                         xmlns and xmlns:xlink to the root
+//   node validate-svgs.js --reject ...    move invalid files to rejected/ and
+//                                         log their errors in rejected/rejected.log
+//   node validate-svgs.js --fix ...       repair invalid files with safe,
+//                                         mechanical fixes (see fix()); a file is
+//                                         only rewritten when the repair is valid
 //
 // Exits 1 when an invalid file was found and not rejected.
 
@@ -72,9 +74,44 @@ function validate(xml) {
   return errors;
 }
 
+const XML_ENTITIES = new Set(["amp", "lt", "gt", "quot", "apos"]);
+const HTML_ENTITIES = {
+  nbsp: 160, copy: 169, reg: 174, deg: 176, middot: 183, times: 215,
+  ndash: 8211, mdash: 8212, hellip: 8230, trade: 8482,
+};
+const UNTOUCHED = /(<!--[\s\S]*?-->|<!\[CDATA\[[\s\S]*?\]\]>)/;
+const START_TAG = /<([A-Za-z_][\w:.-]*)((?:\s+[^\s=>\/"']+(?:\s*=\s*(?:"[^"]*"|'[^']*'))?)*)(\s*\/?)>/g;
+const ATTR = /([^\s=>\/"']+)(?:\s*=\s*("[^"]*"|'[^']*'))?/g;
+
+function fixEntities(text) {
+  return text.replace(/&(#\d+;|#x[0-9a-f]+;|([A-Za-z][\w.-]*);)?/gi, (m, ref, name) => {
+    if (!ref) return "&amp;";
+    if (!name || XML_ENTITIES.has(name) || !(name in HTML_ENTITIES)) return m;
+    return `&#${HTML_ENTITIES[name]};`;
+  });
+}
+
+// Drops attributes without a value and keeps the last of duplicate attributes,
+// matching the manual fixes in commit 400c77c.
+function fixAttributes(tag, name, attrs, end) {
+  const all = [...attrs.matchAll(ATTR)];
+  const withValue = all.filter((m) => m[2] !== undefined);
+  const last = new Map(withValue.map((m, i) => [m[1], i]));
+  const kept = withValue.filter((m, i) => last.get(m[1]) === i);
+  if (kept.length === all.length) return tag;
+  return `<${name}${kept.map((m) => ` ${m[1]}=${m[2]}`).join("")}${end}>`;
+}
+
+function fixMarkup(xml) {
+  return xml
+    .split(UNTOUCHED)
+    .map((part, i) => (i % 2 ? part : fixEntities(part).replace(START_TAG, fixAttributes)))
+    .join("");
+}
+
 // Only touches a root <svg> at the start of the file (after an optional XML
 // declaration), and only adds declarations that are missing, never replaces.
-function fix(xml) {
+function addNamespaces(xml) {
   const start = xml.match(/^\s*(<\?xml[^>]*\?>\s*)?<svg(?=[\s>/])/);
   if (!start) return xml;
   const { errors, root } = parse(xml);
@@ -87,6 +124,17 @@ function fix(xml) {
   if (!add.length) return xml;
   const at = start[0].length;
   return `${xml.slice(0, at)} ${add.join(" ")}${xml.slice(at)}`;
+}
+
+function fix(xml) {
+  if (!validate(xml).length) return xml;
+  const repaired = addNamespaces(fixMarkup(xml));
+  return validate(repaired).length ? xml : repaired;
+}
+
+function logRejection(rel, errors) {
+  const line = `${new Date().toISOString()}  ${rel}  ${errors.join(" | ").replace(/\s+/g, " ")}\n`;
+  fs.appendFileSync(path.join(REJECTED, "rejected.log"), line);
 }
 
 const files = NEW ? untrackedSvgs() : fileArgs.length ? fileArgs.map((f) => path.resolve(f)) : allSvgs();
@@ -117,7 +165,8 @@ for (const file of files) {
   if (REJECT) {
     fs.mkdirSync(REJECTED, { recursive: true });
     fs.renameSync(file, path.join(REJECTED, path.basename(file)));
-    console.log(`         moved to rejected/`);
+    logRejection(rel, errors);
+    console.log(`         moved to rejected/, logged in rejected/rejected.log`);
   }
 }
 
