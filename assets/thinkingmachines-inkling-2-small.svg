@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <title>Stylized pop-art portrait of Andy Warhol eating a hamburger</title>
+  <desc>A colorful, generic pop-art-inspired illustration: a pale artist with silver hair and dark glasses lunching on a burger, surrounded by halftone dots and repeated hamburger motifs.</desc>
+
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ffe66d"/>
+      <stop offset="55%" stop-color="#ffb703"/>
+      <stop offset="100%" stop-color="#fb8500"/>
+    </radialGradient>
+
+    <pattern id="halftone" width="34" height="34" patternUnits="userSpaceOnUse">
+      <rect width="34" height="34" fill="#ff4fa3"/>
+      <circle cx="8" cy="8" r="4.2" fill="#7b2cbf" opacity="0.85"/>
+      <circle cx="25" cy="25" r="4.2" fill="#fff1a8" opacity="0.9"/>
+    </pattern>
+
+    <pattern id="fineDots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="transparent"/>
+      <circle cx="3" cy="3" r="1.6" fill="#111" opacity="0.18"/>
+    </pattern>
+
+    <linearGradient id="bun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd08a"/>
+      <stop offset="0.55" stop-color="#e9a85b"/>
+      <stop offset="1" stop-color="#c97932"/>
+    </linearGradient>
+
+    <linearGradient id="silverHair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#d9dee7"/>
+      <stop offset="1" stop-color="#8f98a8"/>
+    </linearGradient>
+
+    <filter id="ink" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="0" flood-color="#111" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="600" fill="url(#bgGlow)"/>
+  <rect width="900" height="600" fill="url(#fineDots)"/>
+  <circle cx="330" cy="285" r="245" fill="#ff5d8f" opacity="0.95" stroke="#111" stroke-width="8"/>
+  <circle cx="330" cy="285" r="210" fill="url(#halftone)" opacity="0.9" stroke="#111" stroke-width="5"/>
+
+  <!-- right-side repeated pop panels -->
+  <g stroke="#111" stroke-width="6" stroke-linejoin="round">
+    <rect x="610" y="55" width="230" height="150" fill="#8ecae6"/>
+    <rect x="610" y="235" width="230" height="150" fill="#cdb4db"/>
+    <rect x="610" y="415" width="230" height="120" fill="#90be6d"/>
+  </g>
+
+  <g transform="translate(725 126)" stroke="#111" stroke-width="5" stroke-linejoin="round">
+    <path d="M-62 -14 C-38 -55 38 -55 64 -14 Z" fill="url(#bun)"/>
+    <ellipse cx="0" cy="-17" rx="72" ry="18" fill="#f1a35b"/>
+    <path d="M-68 -2 C-35 18 35 18 68 -2 L68 10 L-68 10 Z" fill="#57cc99"/>
+    <path d="M-70 14 L70 14 L52 33 L-52 33 Z" fill="#ffd60a"/>
+    <rect x="-62" y="33" width="124" height="20" rx="10" fill="#6f4518"/>
+    <path d="M-58 55 C-28 74 28 74 58 55 L52 82 L-52 82 Z" fill="url(#bun)"/>
+    <g fill="#fff7cc" stroke="none">
+      <circle cx="-34" cy="-24" r="3.2"/><circle cx="0" cy="-34" r="3.2"/><circle cx="35" cy="-24" r="3.2"/>
+    </g>
+  </g>
+
+  <g transform="translate(725 305) scale(0.82)" stroke="#111" stroke-width="6" stroke-linejoin="round" opacity="0.97">
+    <path d="M-62 -14 C-38 -55 38 -55 64 -14 Z" fill="#ffd6a5"/>
+    <ellipse cx="0" cy="-17" rx="72" ry="18" fill="#f4845f"/>
+    <path d="M-68 -2 C-35 18 35 18 68 -2 L68 10 L-68 10 Z" fill="#f9f7f3"/>
+    <path d="M-70 14 L70 14 L52 33 L-52 33 Z" fill="#ffca3a"/>
+    <rect x="-62" y="33" width="124" height="20" rx="10" fill="#3a2b1f"/>
+    <path d="M-58 55 C-28 74 28 74 58 55 L52 82 L-52 82 Z" fill="#ffd6a5"/>
+  </g>
+
+  <g transform="translate(725 470)" stroke="#111" stroke-width="5">
+    <text x="0" y="-20" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="44" fill="#fff" stroke="#111" stroke-width="1.5">POP!</text>
+    <text x="0" y="28" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="30" fill="#111">BITE!</text>
+  </g>
+
+  <!-- body / turtleneck -->
+  <g filter="url(#ink)" stroke="#111" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M170 585 C168 470 220 425 330 420 C440 425 492 470 492 585 Z" fill="#151515"/>
+    <path d="M255 430 C285 455 375 455 405 430 L392 392 L268 392 Z" fill="#151515"/>
+
+    <!-- neck and face -->
+    <path d="M285 365 L285 420 C318 438 345 438 377 420 L377 365 Z" fill="#f4c7b8"/>
+    <ellipse cx="331" cy="245" rx="128" ry="150" fill="#f7d1c4"/>
+
+    <!-- ears -->
+    <path d="M204 245 C184 236 181 300 207 295 Z" fill="#f7d1c4"/>
+    <path d="M458 245 C478 236 481 300 455 295 Z" fill="#f7d1c4"/>
+
+    <!-- silver wig -->
+    <path d="M204 205 C185 93 292 55 333 104 C356 43 493 82 465 205
+             C438 170 410 205 382 168 C348 213 300 163 262 207 C238 174 220 202 204 205 Z"
+          fill="url(#silverHair)"/>
+    <path d="M248 132 C285 111 322 133 332 113 C353 143 421 111 438 158"
+          fill="none" stroke="#ffffff" stroke-width="8" opacity="0.9"/>
+
+    <!-- glasses -->
+    <rect x="238" y="232" width="82" height="52" rx="9" fill="#111"/>
+    <rect x="346" y="232" width="82" height="52" rx="9" fill="#111"/>
+    <path d="M320 257 L346 257" fill="none" stroke="#111" stroke-width="10"/>
+    <path d="M238 249 L207 240 M428 249 L456 240" fill="none" stroke="#111" stroke-width="9"/>
+
+    <!-- eyes behind lenses -->
+    <path d="M263 259 L299 259 M371 259 L407 259" stroke="#f7d1c4" stroke-width="6"/>
+
+    <!-- nose -->
+    <path d="M333 260 C327 303 322 315 348 318" fill="none" stroke="#b98076" stroke-width="5"/>
+  </g>
+
+  <!-- open mouth behind burger -->
+  <path d="M304 350 C326 330 366 332 386 352 C366 379 326 379 304 350 Z"
+        fill="#5a1822" stroke="#111" stroke-width="5"/>
+  <path d="M318 356 C343 344 365 346 379 358 C361 370 333 370 318 356 Z" fill="#e56b6f"/>
+
+  <!-- arm and hand -->
+  <g stroke="#111" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M468 492 C535 450 470 393 425 374" fill="none" stroke="#151515" stroke-width="52"/>
+    <path d="M468 492 C535 450 470 393 425 374" fill="none" stroke="#2b2b2b" stroke-width="8" opacity="0.6"/>
+    <circle cx="418" cy="366" r="34" fill="#f4c7b8"/>
+    <circle cx="443" cy="347" r="12" fill="#f4c7b8"/>
+    <circle cx="452" cy="367" r="12" fill="#f4c7b8"/>
+    <circle cx="444" cy="386" r="12" fill="#f4c7b8"/>
+  </g>
+
+  <!-- hamburger at mouth -->
+  <g transform="translate(363 356) rotate(-8)" stroke="#111" stroke-width="5" stroke-linejoin="round">
+    <path d="M-78 -20 C-48 -66 58 -66 84 -20 Z" fill="url(#bun)"/>
+    <ellipse cx="2" cy="-22" rx="88" ry="22" fill="#f1a35b"/>
+    <path d="M-84 -7 C-37 17 43 17 88 -7 L88 9 L-84 9 Z" fill="#57cc99"/>
+    <path d="M-78 8 C-40 35 42 35 80 8 L61 31 L-61 31 Z" fill="#ffd60a"/>
+    <rect x="-74" y="28" width="149" height="22" rx="11" fill="#5f3a1e"/>
+    <path d="M-70 49 C-35 70 38 70 73 49 L65 78 L-65 78 Z" fill="url(#bun)"/>
+    <g fill="#fff7cc" stroke="none">
+      <circle cx="-40" cy="-31" r="3.6"/><circle cx="0" cy="-43" r="3.6"/><circle cx="42" cy="-31" r="3.6"/>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g font-family="Arial Black, Arial, sans-serif">
+    <text x="42" y="70" font-size="46" fill="#fff" stroke="#111" stroke-width="2" transform="rotate(-3 42 70)">ANDY W.</text>
+    <text x="44" y="112" font-size="24" fill="#111">AT LUNCH</text>
+  </g>
+  <text x="40" y="565" font-family="Arial, sans-serif" font-size="13" fill="#111" opacity="0.75">Stylized fan illustration. Not an Andy Warhol artwork or signature.</text>
+</svg>

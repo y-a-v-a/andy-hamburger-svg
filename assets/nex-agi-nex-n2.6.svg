@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <title>Andy Warhol eating a hamburger</title>
+
+  <defs>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="5" fill="#ffffff" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <!-- pop-art background -->
+  <rect width="800" height="800" fill="#ff5c8a"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <circle cx="400" cy="320" r="250" fill="#ffffff" opacity="0.15"/>
+
+  <!-- black turtleneck body -->
+  <path d="M 130 800 C 140 650 210 565 315 540 Q 355 530 400 530 Q 445 530 485 540 C 590 565 660 650 670 800 Z"
+        fill="#141414"/>
+  <path d="M 300 560 Q 280 640 278 760" stroke="#2c2c2c" stroke-width="5" fill="none"/>
+  <path d="M 500 560 Q 520 640 522 760" stroke="#2c2c2c" stroke-width="5" fill="none"/>
+
+  <!-- neck + turtleneck collar -->
+  <rect x="370" y="415" width="60" height="80" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3"/>
+  <rect x="348" y="486" width="104" height="64" rx="28" fill="#232323" stroke="#000000" stroke-width="2"/>
+  <path d="M 375 495 V 542 M 400 495 V 544 M 425 495 V 542" stroke="#3a3a3a" stroke-width="3"/>
+
+  <!-- head -->
+  <ellipse cx="400" cy="300" rx="112" ry="135" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3"/>
+  <ellipse cx="286" cy="316" rx="13" ry="20" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3"/>
+  <ellipse cx="514" cy="316" rx="13" ry="20" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3"/>
+  <ellipse cx="330" cy="345" rx="18" ry="10" fill="#f0b7a0" opacity="0.35"/>
+  <ellipse cx="470" cy="345" rx="18" ry="10" fill="#f0b7a0" opacity="0.35"/>
+
+  <!-- silver hair -->
+  <path d="M 280 340 C 268 230 308 142 400 140 C 492 142 532 230 520 340 L 506 340 C 502 272 468 236 400 234 C 332 236 298 272 294 340 Z"
+        fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 330 152 L 345 108 L 368 146 Z" fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 378 138 L 398 92 L 418 136 Z"  fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 428 140 L 448 100 L 465 148 Z" fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 292 210 L 282 168 L 316 190 Z" fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 508 205 L 520 163 L 486 188 Z" fill="#e9e9e9" stroke="#c9c9c9" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 340 250 Q 330 200 352 168 M 400 240 Q 400 190 402 152 M 460 250 Q 470 200 448 168"
+        stroke="#cccccc" stroke-width="3" fill="none" opacity="0.9"/>
+
+  <!-- iconic dark sunglasses -->
+  <path d="M 312 284 L 285 276" stroke="#16161a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M 488 284 L 515 276" stroke="#16161a" stroke-width="7" stroke-linecap="round"/>
+  <rect x="386" y="276" width="28" height="9" rx="4" fill="#16161a"/>
+  <rect x="306" y="264" width="82" height="52" rx="22" fill="#16161a" stroke="#000000" stroke-width="3"/>
+  <rect x="412" y="264" width="82" height="52" rx="22" fill="#16161a" stroke="#000000" stroke-width="3"/>
+  <line x1="322" y1="302" x2="352" y2="272" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.22"/>
+  <line x1="428" y1="302" x2="458" y2="272" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.22"/>
+
+  <!-- nose + mouth -->
+  <path d="M 400 312 C 397 326 393 334 398 340 C 402 344 408 342 409 337"
+        stroke="#d8b48f" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="398" cy="388" rx="40" ry="26" fill="#803428" stroke="#5f241b" stroke-width="2"/>
+  <path d="M 372 370 Q 398 362 424 370 L 424 379 Q 398 372 372 379 Z" fill="#fffdfd"/>
+  <ellipse cx="398" cy="402" rx="16" ry="8" fill="#b0564a"/>
+
+  <!-- hamburger, tilted toward the mouth, with bites at the lips -->
+  <g transform="translate(470 402) rotate(-22) scale(0.9)">
+    <rect x="-74" y="22" width="148" height="24" rx="12" fill="#eda53f" stroke="#c77f22" stroke-width="2"/>
+    <rect x="-80" y="0" width="160" height="24" rx="12" fill="#6d4327" stroke="#502f18" stroke-width="2"/>
+    <circle cx="-40" cy="12" r="2.4" fill="#502f18"/><circle cx="0" cy="16" r="2.4" fill="#502f18"/>
+    <circle cx="40" cy="9" r="2.4" fill="#502f18"/><circle cx="25" cy="17" r="2.4" fill="#502f18"/>
+    <rect x="-76" y="-12" width="152" height="12" rx="5" fill="#ffb545" stroke="#e89b2e" stroke-width="2"/>
+    <path d="M -46 -2 q -2 16 8 16 q 9 0 7 -16 Z" fill="#ffb545"/>
+    <path d="M 26 -2 q -2 14 7 14 q 8 0 6 -14 Z" fill="#ffb545"/>
+    <path d="M -82 -14 Q -72 -30 -60 -16 Q -48 -32 -36 -16 Q -24 -32 -12 -16 Q 0 -32 12 -16 Q 24 -32 36 -16 Q 48 -32 60 -16 Q 72 -30 82 -14 L 82 -8 Q 40 -2 0 -4 Q -40 -2 -82 -8 Z"
+          fill="#7cb342" stroke="#5e9c31" stroke-width="2"/>
+    <path d="M -80 -14 C -82 -22 -82 -26 -80 -32 A 10 10 0 0 0 -63 -38 A 9 9 0 0 0 -48 -43 C -40 -60 -22 -70 0 -70 C 28 -70 58 -54 73 -28 Q 80 -18 80 -14 Z"
+          fill="#f0a840" stroke="#c77f22" stroke-width="2.5"/>
+    <ellipse cx="-42" cy="-44" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(-15 -42 -44)"/>
+    <ellipse cx="-12" cy="-56" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(10 -12 -56)"/>
+    <ellipse cx="18" cy="-50" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(-8 18 -50)"/>
+    <ellipse cx="44" cy="-34" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(14 44 -34)"/>
+    <ellipse cx="2" cy="-34" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(-12 2 -34)"/>
+    <ellipse cx="-58" cy="-26" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(8 -58 -26)"/>
+    <ellipse cx="60" cy="-50" rx="4.5" ry="2.8" fill="#fbeed7" transform="rotate(-10 60 -50)"/>
+  </g>
+
+  <!-- crumbs + motion lines -->
+  <circle cx="350" cy="376" r="3" fill="#eda53f"/>
+  <circle cx="341" cy="392" r="2.4" fill="#eda53f"/>
+  <circle cx="356" cy="402" r="2" fill="#eda53f"/>
+  <path d="M 322 344 q -12 16 -8 34 M 298 366 q -10 14 -6 28" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- raised arm + hand holding the burger -->
+  <path d="M 585 720 Q 665 585 545 460" stroke="#141414" stroke-width="80" fill="none" stroke-linecap="round"/>
+  <path d="M 560 690 Q 630 590 548 486" stroke="#2e2e2e" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <ellipse cx="545" cy="418" rx="34" ry="27" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3" transform="rotate(-20 545 418)"/>
+  <path d="M 522 402 q 18 -8 34 -2 M 518 418 q 18 -8 34 -2 M 520 434 q 18 -8 34 -2" stroke="#d8b48f" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="562" cy="396" rx="10" ry="16" fill="#f4e3cf" stroke="#d8b48f" stroke-width="3" transform="rotate(-30 562 396)"/>
+
+  <!-- title -->
+  <text x="400" y="78" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-weight="900"
+        font-size="46" letter-spacing="2" fill="#ffffff" stroke="#000000" stroke-width="8" paint-order="stroke fill">ANDY WARHOL</text>
+  <text x="400" y="120" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-weight="900"
+        font-size="28" letter-spacing="6" fill="#ffd23f" stroke="#000000" stroke-width="6" paint-order="stroke fill">EATING A HAMBURGER</text>
+
+  <!-- corner caption -->
+  <text x="770" y="778" text-anchor="end" font-family="Georgia, serif" font-style="italic" font-size="17"
+        fill="#ffffff" opacity="0.75">after the 1982 film</text>
+</svg>

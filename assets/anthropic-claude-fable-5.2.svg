@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" width="800" height="700">
+  <defs>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="4" fill="#ffffff" opacity="0.28"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="700" fill="#36c5d6"/>
+  <rect width="800" height="700" fill="url(#dots)"/>
+
+  <!-- Torso (jacket) -->
+  <path d="M400 395 C330 400 270 420 245 460 L215 620 L585 620 L555 460 C530 420 470 400 400 395 Z" fill="#1f1f27"/>
+  <!-- Shirt and tie -->
+  <polygon points="365,400 435,400 412,580 388,580" fill="#ffffff"/>
+  <polygon points="392,440 408,440 414,550 400,568 386,550" fill="#c0392b" stroke="#7d2219" stroke-width="2"/>
+  <!-- Lapels -->
+  <polygon points="365,400 388,580 340,470" fill="#2d2d37"/>
+  <polygon points="435,400 412,580 460,470" fill="#2d2d37"/>
+
+  <!-- Neck -->
+  <rect x="372" y="345" width="56" height="65" fill="#e9c8b4"/>
+
+  <!-- Table -->
+  <rect x="0" y="575" width="800" height="125" fill="#7a5238"/>
+  <rect x="0" y="575" width="800" height="10" fill="#94664a"/>
+
+  <!-- Ears -->
+  <ellipse cx="318" cy="285" rx="11" ry="20" fill="#f2d6c4" stroke="#1a1a1a" stroke-width="2.5"/>
+  <ellipse cx="482" cy="285" rx="11" ry="20" fill="#f2d6c4" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- Head -->
+  <ellipse cx="400" cy="270" rx="82" ry="102" fill="#f6dccb" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Cheeks -->
+  <ellipse cx="345" cy="318" rx="14" ry="9" fill="#f5a9a0" opacity="0.5"/>
+  <ellipse cx="455" cy="318" rx="14" ry="9" fill="#f5a9a0" opacity="0.5"/>
+
+  <!-- Silver wig -->
+  <path d="M318 300 L300 270 L312 262 L288 232 L308 226 L290 190 L316 192 L306 156 L334 168 L334 132 L360 152 L372 118 L394 146 L414 114 L430 146 L456 122 L462 156 L492 140 L488 176 L516 176 L500 206 L520 226 L498 240 L510 270 L490 268 L482 300 L476 250 L462 228 L450 252 L436 222 L420 254 L404 224 L388 256 L372 226 L356 254 L342 230 L330 258 L324 250 Z"
+        fill="#eceef1" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round"/>
+  <g stroke="#aab0b8" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M345 170 L352 210"/>
+    <path d="M375 145 L378 200"/>
+    <path d="M412 140 L408 198"/>
+    <path d="M445 150 L438 205"/>
+    <path d="M478 170 L466 212"/>
+    <path d="M318 205 L334 232"/>
+    <path d="M496 215 L480 240"/>
+  </g>
+
+  <!-- Eyes -->
+  <ellipse cx="358" cy="281" rx="10" ry="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="442" cy="281" rx="10" ry="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="1.5"/>
+  <circle cx="359" cy="281" r="4" fill="#3b4a5a"/>
+  <circle cx="441" cy="281" r="4" fill="#3b4a5a"/>
+
+  <!-- Glasses -->
+  <g fill="#ffffff" fill-opacity="0.25" stroke="#b08469" stroke-width="5">
+    <rect x="326" y="258" width="62" height="44" rx="15"/>
+    <rect x="412" y="258" width="62" height="44" rx="15"/>
+  </g>
+  <path d="M388 276 Q400 268 412 276" fill="none" stroke="#b08469" stroke-width="5"/>
+  <path d="M326 272 L314 268 M474 272 L486 268" stroke="#b08469" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M398 288 L391 316 Q400 325 410 316" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Open mouth -->
+  <ellipse cx="400" cy="343" rx="21" ry="13" fill="#5a1f1f" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M384 336 Q400 331 416 336 L416 339 L384 339 Z" fill="#ffffff"/>
+
+  <!-- Arms -->
+  <polyline points="262,470 232,590 298,445" fill="none" stroke="#2d2d37" stroke-width="54" stroke-linejoin="round"/>
+  <polyline points="538,470 568,590 502,445" fill="none" stroke="#2d2d37" stroke-width="54" stroke-linejoin="round"/>
+  <!-- Cuffs -->
+  <line x1="298" y1="445" x2="304" y2="432" stroke="#ffffff" stroke-width="54"/>
+  <line x1="502" y1="445" x2="496" y2="432" stroke="#ffffff" stroke-width="54"/>
+
+  <!-- Palms (behind burger) -->
+  <ellipse cx="308" cy="402" rx="23" ry="38" fill="#f2d6c4" stroke="#1a1a1a" stroke-width="2.5"/>
+  <ellipse cx="492" cy="402" rx="23" ry="38" fill="#f2d6c4" stroke="#1a1a1a" stroke-width="2.5"/>
+
+  <!-- Hamburger -->
+  <g stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M324 424 L476 424 Q478 448 456 448 L344 448 Q322 448 324 424 Z" fill="#e3a552"/>
+    <rect x="318" y="405" width="164" height="21" rx="10" fill="#5a3220"/>
+    <polygon points="320,402 480,402 480,409 452,409 442,421 432,409 320,409" fill="#ffc93c"/>
+    <path d="M316 398 Q328 388 340 398 T364 398 T388 398 T412 398 T436 398 T460 398 T484 398 L484 404 L316 404 Z" fill="#6cc04a"/>
+    <path d="M320 396 Q320 346 400 346 Q480 346 480 396 Z" fill="#e8a94f"/>
+  </g>
+  <!-- Sesame seeds -->
+  <g fill="#fff3d6" stroke="#b9853a" stroke-width="1">
+    <ellipse cx="360" cy="368" rx="5" ry="2.5" transform="rotate(-25 360 368)"/>
+    <ellipse cx="385" cy="358" rx="5" ry="2.5" transform="rotate(-10 385 358)"/>
+    <ellipse cx="415" cy="358" rx="5" ry="2.5" transform="rotate(10 415 358)"/>
+    <ellipse cx="440" cy="368" rx="5" ry="2.5" transform="rotate(25 440 368)"/>
+    <ellipse cx="400" cy="374" rx="5" ry="2.5"/>
+    <ellipse cx="345" cy="384" rx="5" ry="2.5" transform="rotate(-30 345 384)"/>
+    <ellipse cx="455" cy="384" rx="5" ry="2.5" transform="rotate(30 455 384)"/>
+    <ellipse cx="375" cy="384" rx="5" ry="2.5" transform="rotate(-8 375 384)"/>
+    <ellipse cx="426" cy="384" rx="5" ry="2.5" transform="rotate(8 426 384)"/>
+  </g>
+
+  <!-- Fingers (in front of burger) -->
+  <g fill="#f2d6c4" stroke="#1a1a1a" stroke-width="2.5">
+    <rect x="304" y="366" width="42" height="15" rx="7.5"/>
+    <rect x="306" y="382" width="44" height="15" rx="7.5"/>
+    <rect x="306" y="398" width="44" height="15" rx="7.5"/>
+    <rect x="304" y="414" width="40" height="15" rx="7.5"/>
+    <rect x="454" y="366" width="42" height="15" rx="7.5"/>
+    <rect x="450" y="382" width="44" height="15" rx="7.5"/>
+    <rect x="450" y="398" width="44" height="15" rx="7.5"/>
+    <rect x="456" y="414" width="40" height="15" rx="7.5"/>
+  </g>
+
+  <!-- Paper bag -->
+  <ellipse cx="125" cy="652" rx="70" ry="8" fill="#000000" opacity="0.2"/>
+  <path d="M70 500 L82 488 L94 500 L106 488 L118 500 L130 488 L142 500 L154 488 L166 500 L180 492 L180 650 L70 650 Z"
+        fill="#d2a56d" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M160 500 L160 650" stroke="#b38a55" stroke-width="2"/>
+  <circle cx="115" cy="580" r="26" fill="#f4e3c3" stroke="#1a1a1a" stroke-width="2"/>
+  <path d="M99 578 Q99 564 115 564 Q131 564 131 578 Z" fill="#e8a94f" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="98" y="580" width="34" height="5" rx="2.5" fill="#5a3220"/>
+  <rect x="100" y="587" width="30" height="7" rx="3.5" fill="#e8a94f" stroke="#1a1a1a" stroke-width="1.5"/>
+
+  <!-- Ketchup bottle -->
+  <ellipse cx="670" cy="652" rx="42" ry="7" fill="#000000" opacity="0.2"/>
+  <rect x="656" y="468" width="28" height="20" rx="3" fill="#ffffff" stroke="#1a1a1a" stroke-width="2.5"/>
+  <path d="M658 488 L682 488 L686 520 Q702 535 702 560 L702 640 Q702 650 692 650 L648 650 Q638 650 638 640 L638 560 Q638 535 654 520 Z"
+        fill="#d62828" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="644" y="568" width="52" height="46" rx="6" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="670" y="596" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#d62828">KETCHUP</text>
+
+  <!-- Crumbs -->
+  <g fill="#e3a552">
+    <circle cx="380" cy="640" r="3"/>
+    <circle cx="415" cy="655" r="2.5"/>
+    <circle cx="440" cy="632" r="2"/>
+    <circle cx="350" cy="660" r="2"/>
+  </g>
+</svg>
