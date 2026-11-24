@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="640"
+     viewBox="0 0 600 640" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A pop-art portrait in turquoise, pink, and yellow.
+    Warhol leans forward, silver fringe falling over his dark glasses,
+    to take a bite from a sesame-seed hamburger.</desc>
+
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2" fill="#342439"/>
+    </pattern>
+    <clipPath id="panel"><path d="M20 20h560v530H20z"/></clipPath>
+  </defs>
+
+  <rect width="600" height="640" fill="#fff3d6"/>
+  <g clip-path="url(#panel)">
+    <rect x="20" y="20" width="560" height="530" fill="#54daca"/>
+    <circle cx="365" cy="245" r="200" fill="#ffdc43"/>
+    <path d="M20 350 430 20h150v60L20 530Z" fill="url(#dots)" opacity=".28"/>
+
+    <g stroke="#251f2b" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+      <!-- Jacket and turned-up collar -->
+      <path d="M29 565q9-129 117-158l79-28 67 8q91 13 129 178Z" fill="#26253b"/>
+      <path d="m135 424 36 42-21 9 74 83-33-151Z" fill="#585071"/>
+      <path d="m293 392-9 92 36-40-12-9 16-13Z" fill="#585071"/>
+
+      <!-- Three-quarter profile, with a dark open mouth -->
+      <path d="M178 204q-5-100 96-110 94-4 108 90l-2 52
+               22 36q5 9-14 13l-9 2 6 15-23 6 14 15
+               q-4 35-42 40l-32-3-10 43q-44 28-92-5l14-65
+               q-30-23-36-60Z" fill="#ffae85"/>
+      <path d="m213 327 23 18q29 21 66 15l-6 23q-52 4-86-30Z"
+            fill="#ed727d" stroke="none"/>
+      <path d="M383 301q-22-6-37 7 10 19 31 16l13-11Z" fill="#4b2035"/>
+      <path d="M348 309q13-9 29-5l-5 7Z" fill="#fff3d6" stroke="none"/>
+      <path d="M376 280q5 4 11 1" fill="none" stroke-width="3"/>
+
+      <!-- Silver wig: blunt silhouette and long, broken fringe -->
+      <path d="m179 289-21-23 2-24-14 7 6-36-13 6 11-37-11 4
+               18-40-12 1 31-30-12-2 41-23-7-5 51-11-7-7
+               51 3-1-8 44 15 14-2 31 24-2-11q26 21 32 57
+               l-13-8 4 28-16-12-2 31-16-21-9 29-12-25-15 34
+               -5-28-25 38 2-28-25 31-7 26-13-10-6 38-11-10-4 23Z"
+            fill="#eeeae5"/>
+      <g fill="none" stroke="#9693a4" stroke-width="4">
+        <path d="M177 177q30-59 100-72M170 207q33-70 86-89"/>
+        <path d="M200 212q31-72 89-98M250 190q24-51 63-70"/>
+        <path d="M300 177q11-30 31-44M336 167l10-20"/>
+      </g>
+
+      <!-- Glasses, temple, and reflected light -->
+      <path d="m212 212 64 7m46 4q13-10 25-7" fill="none" stroke-width="8"/>
+      <path d="m267 205 58 2-3 24q-3 18-25 16-24-1-28-20Z
+               m78-2 37-6 1 22q-2 16-18 18-17 1-19-15Z" fill="#292635"/>
+      <path d="m279 216 23-1m53-4 13-3" fill="none" stroke="#87e6df" stroke-width="4"/>
+
+      <!-- Burger, tilted into the bite -->
+      <g transform="rotate(-9 425 317)">
+        <path d="M372 308q3-38 55-40 49-1 59 40Z" fill="#f5a735"/>
+        <g stroke="#fff1b6" stroke-width="3">
+          <path d="m392 291 5-2m13-9 5 1m9 14 5-2m11-12 4 2m13 8 4 3"/>
+        </g>
+        <path d="m370 308 118 1-4 11-108 1Z" fill="#f15251"/>
+        <path d="m369 318 13-4 11 5 16-4 11 5 15-5 14 5 14-5 15 4 11-3-4 12H375Z"
+              fill="#86cf47" stroke-width="3"/>
+        <path d="M374 327q51 4 112-1l-3 13q-58 10-107-1Z" fill="#663847"/>
+        <path d="m391 327 30 1-12 11Z" fill="#ffde49" stroke-width="2"/>
+        <path d="M375 338q56 6 109-1-2 22-53 21-50 1-56-20Z" fill="#eda13c"/>
+      </g>
+
+      <!-- Fingers overlap the bun; the sleeve leads back to the shoulder -->
+      <path d="m399 427 10-51-15-16q-10-7-6-14 4-5 12-1l18 10
+               22-7 18-19q6-7 12-3 5 4 1 11l-12 16 16-15q6-5 10 0
+               4 4-1 10l-19 22q-8 9-18 14l-8 52Z" fill="#ffae85"/>
+      <path d="m329 482 62-77 58 19-32 100q-12 35-61 33l-39-14"
+            fill="#373349"/>
+      <path d="m390 412 55 18" fill="none" stroke="#82778e"/>
+    </g>
+  </g>
+
+  <rect x="20" y="20" width="560" height="530" fill="none" stroke="#251f2b" stroke-width="5"/>
+  <text x="22" y="605" font-family="Helvetica, Arial, sans-serif"
+        font-size="45" font-weight="900" letter-spacing="-2" fill="#251f2b">ANDY / LUNCH</text>
+  <circle cx="548" cy="590" r="15" fill="#f15278"/>
+</svg>

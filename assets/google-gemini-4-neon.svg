@@ -1,0 +1,354 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol Eating a Hamburger</title>
+  <desc id="desc">A Pop Art illustration of Andy Warhol with his signature silver wig, glasses, and black turtleneck eating a hamburger at a table with a ketchup bottle.</desc>
+
+  <defs>
+    <!-- Pop Art Halftone Dot Pattern -->
+    <pattern id="halftone" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2.2" fill="#000000" fill-opacity="0.12" />
+      <circle cx="11" cy="11" r="2.2" fill="#000000" fill-opacity="0.12" />
+    </pattern>
+
+    <!-- Subtle Gradients -->
+    <linearGradient id="wigGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="55%" stop-color="#E6ECF2" />
+      <stop offset="100%" stop-color="#C5D0DB" />
+    </linearGradient>
+
+    <linearGradient id="bunTopGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFBE55" />
+      <stop offset="65%" stop-color="#F0982B" />
+      <stop offset="100%" stop-color="#D97B18" />
+    </linearGradient>
+
+    <linearGradient id="ketchupGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8241E" />
+      <stop offset="60%" stop-color="#C81612" />
+      <stop offset="100%" stop-color="#960D0A" />
+    </linearGradient>
+
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.6" />
+      <stop offset="45%" stop-color="#D6F4FF" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#A6E3FF" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== POP ART BACKGROUND ==================== -->
+  <g id="background">
+    <!-- Color Blocks -->
+    <rect x="0" y="0" width="400" height="300" fill="#00C4D4" />
+    <rect x="400" y="0" width="400" height="300" fill="#FF3B9A" />
+    <rect x="0" y="300" width="400" height="200" fill="#FFE600" />
+    <rect x="400" y="300" width="400" height="200" fill="#00D98B" />
+
+    <!-- Halftone Overlay -->
+    <rect x="0" y="0" width="800" height="500" fill="url(#halftone)" />
+
+    <!-- Bold Quadrant Divider Lines -->
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#141414" stroke-width="5" />
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#141414" stroke-width="5" />
+  </g>
+
+  <!-- ==================== WARHOL'S BACK HAIR ==================== -->
+  <g id="wig-back">
+    <path d="M 320 185
+             L 295 215 L 310 230 L 285 262 L 308 272 L 296 305 L 325 308 L 332 332 L 365 322
+             L 455 322 L 492 334 L 502 308 L 528 302 L 515 272 L 538 258 L 512 228 L 525 205 L 498 182 Z"
+          fill="#BCC6D1" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+  </g>
+
+  <!-- ==================== TORSO & BLACK TURTLENECK ==================== -->
+  <g id="torso">
+    <!-- Shoulders / Jacket -->
+    <path d="M 225 505
+             C 228 425, 270 385, 345 368
+             L 475 368
+             C 550 385, 592 425, 595 505 Z"
+          fill="#1B1C20" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+    <!-- Jacket Lapel Hints (Pop Art Blue-Grey Highlight) -->
+    <path d="M 345 368 L 310 420 L 340 432 L 325 505"
+          fill="none" stroke="#3B4252" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 475 368 L 510 420 L 480 432 L 495 505"
+          fill="none" stroke="#3B4252" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Turtleneck Collar -->
+    <path d="M 366 340
+             Q 410 356 454 340
+             L 462 396
+             Q 410 412 358 396 Z"
+          fill="#111215" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+    <!-- Turtleneck Fold Lines -->
+    <path d="M 365 366 Q 410 380 455 366" fill="none" stroke="#383B44" stroke-width="3" stroke-linecap="round" />
+    <path d="M 363 383 Q 410 396 457 383" fill="none" stroke="#383B44" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Arms Raised Toward Hamburger -->
+    <!-- Left Arm -->
+    <path d="M 248 495 C 242 448, 272 408, 326 376 L 352 414 C 314 442, 302 468, 300 495 Z"
+          fill="#1F2126" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+    <!-- Right Arm -->
+    <path d="M 572 495 C 578 448, 548 408, 494 376 L 468 414 C 506 442, 518 468, 520 495 Z"
+          fill="#1F2126" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+  </g>
+
+  <!-- ==================== HEAD & FACE ==================== -->
+  <g id="head">
+    <!-- Neck -->
+    <path d="M 378 312 L 374 352 Q 410 364 446 352 L 442 312 Z"
+          fill="#E8C7B7" stroke="#141414" stroke-width="4" />
+
+    <!-- Ears -->
+    <path d="M 336 236 C 320 236, 318 272, 336 282"
+          fill="#F5D8C8" stroke="#141414" stroke-width="4" stroke-linecap="round" />
+    <path d="M 332 248 C 326 254, 327 266, 334 270"
+          fill="none" stroke="#C89E8B" stroke-width="2.5" stroke-linecap="round" />
+
+    <path d="M 484 236 C 500 236, 502 272, 484 282"
+          fill="#F5D8C8" stroke="#141414" stroke-width="4" stroke-linecap="round" />
+    <path d="M 488 248 C 494 254, 493 266, 486 270"
+          fill="none" stroke="#C89E8B" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Face Base (Angular Warhol Contour) -->
+    <path d="M 338 190
+             C 334 225, 336 258, 344 282
+             C 352 308, 376 340, 410 344
+             C 444 340, 468 308, 476 282
+             C 484 258, 486 225, 482 190
+             C 476 156, 344 156, 338 190 Z"
+          fill="#F9E0D2" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+    <!-- Pop Art Cheekbone Shading -->
+    <path d="M 346 272 C 358 282, 368 296, 376 322 C 360 310, 349 292, 346 272 Z"
+          fill="#E5BBA8" />
+    <path d="M 474 272 C 462 282, 452 296, 444 322 C 460 310, 471 292, 474 272 Z"
+          fill="#E5BBA8" />
+
+    <!-- Eyebrows -->
+    <path d="M 354 210 Q 376 203 396 211" fill="none" stroke="#7A7F87" stroke-width="4" stroke-linecap="round" />
+    <path d="M 424 211 Q 444 203 466 210" fill="none" stroke="#7A7F87" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Eyes (Looking down intently at the hamburger) -->
+    <g id="eyes">
+      <!-- Left Eye -->
+      <ellipse cx="376" cy="239" rx="13" ry="8" fill="#FFFFFF" stroke="#141414" stroke-width="2.5" />
+      <circle cx="378" cy="242" r="4.5" fill="#141414" />
+      <circle cx="376.5" cy="240" r="1.4" fill="#FFFFFF" />
+      <path d="M 362 236 Q 376 229 390 236" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" />
+
+      <!-- Right Eye -->
+      <ellipse cx="444" cy="239" rx="13" ry="8" fill="#FFFFFF" stroke="#141414" stroke-width="2.5" />
+      <circle cx="442" cy="242" r="4.5" fill="#141414" />
+      <circle cx="440.5" cy="240" r="1.4" fill="#FFFFFF" />
+      <path d="M 430 236 Q 444 229 458 236" fill="none" stroke="#141414" stroke-width="3" stroke-linecap="round" />
+    </g>
+
+    <!-- Iconic Glasses -->
+    <g id="glasses">
+      <!-- Left Frame & Lens -->
+      <rect x="346" y="218" width="56" height="44" rx="12"
+            fill="url(#lensGrad)" stroke="#141414" stroke-width="5" />
+      <!-- Right Frame & Lens -->
+      <rect x="418" y="218" width="56" height="44" rx="12"
+            fill="url(#lensGrad)" stroke="#141414" stroke-width="5" />
+      <!-- Bridge -->
+      <path d="M 402 234 Q 410 229 418 234" fill="none" stroke="#141414" stroke-width="5" />
+      <!-- Side Temples -->
+      <line x1="336" y1="234" x2="346" y2="234" stroke="#141414" stroke-width="5" />
+      <line x1="474" y1="234" x2="484" y2="234" stroke="#141414" stroke-width="5" />
+      <!-- Pop Art Diagonal Glare -->
+      <path d="M 355 253 L 372 225" stroke="#FFFFFF" stroke-width="3.5" stroke-opacity="0.75" stroke-linecap="round" />
+      <path d="M 366 254 L 378 234" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.65" stroke-linecap="round" />
+      <path d="M 427 253 L 444 225" stroke="#FFFFFF" stroke-width="3.5" stroke-opacity="0.75" stroke-linecap="round" />
+      <path d="M 438 254 L 450 234" stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.65" stroke-linecap="round" />
+    </g>
+
+    <!-- Distinctive Long Nose -->
+    <path d="M 410 238 L 405 278 C 403 287, 417 288, 420 282"
+          fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 398 280 Q 402 285 406 283" fill="none" stroke="#C89E8B" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 422 279 Q 419 285 415 284" fill="none" stroke="#C89E8B" stroke-width="2.5" stroke-linecap="round" />
+
+    <!-- Open Mouth Ready to Bite -->
+    <g id="mouth">
+      <path d="M 382 303 Q 410 296 438 303 C 436 325, 426 334, 410 334 C 394 334, 384 325, 382 303 Z"
+            fill="#5C161D" stroke="#141414" stroke-width="3.5" stroke-linejoin="round" />
+      <!-- Upper Teeth -->
+      <path d="M 388 303 Q 410 300 432 303 L 429 312 Q 410 314 391 312 Z"
+            fill="#FFFFFF" stroke="#141414" stroke-width="2" />
+      <!-- Upper Lip Accent -->
+      <path d="M 380 303 Q 400 295 410 299 Q 420 295 440 303"
+            fill="none" stroke="#D97A7A" stroke-width="3" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- ==================== ICONIC SILVER-WHITE WIG ==================== -->
+  <g id="wig-front">
+    <path d="M 326 226
+             L 296 200 L 318 184 L 288 152 L 324 146 L 312 110 L 352 116 L 360 76 L 392 98
+             L 418 68 L 438 98 L 474 78 L 472 116 L 512 108 L 496 144 L 534 150 L 504 182
+             L 526 202 L 492 226 L 484 198
+             C 464 176, 444 172, 424 188
+             L 436 164
+             C 406 168, 382 184, 362 204
+             L 368 176
+             C 348 186, 336 204, 326 226 Z"
+          fill="url(#wigGrad)" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+    <!-- Messy Silver Hair Strands & Pop Art Ink Lines -->
+    <path d="M 332 146 Q 368 122 414 132" fill="none" stroke="#9EAAB7" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 366 112 Q 414 96 462 122" fill="none" stroke="#8C99A8" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 390 156 Q 436 134 486 154" fill="none" stroke="#9EAAB7" stroke-width="3.5" stroke-linecap="round" />
+    <path d="M 342 182 Q 378 152 426 156" fill="none" stroke="#141414" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 412 120 Q 456 112 496 142" fill="none" stroke="#141414" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 318 168 Q 344 148 378 148" fill="none" stroke="#141414" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 454 166 Q 484 160 506 184" fill="none" stroke="#141414" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- ==================== THE HAMBURGER ==================== -->
+  <g id="hamburger" transform="translate(0, 6)">
+    <!-- Bottom Bun -->
+    <path d="M 342 384 L 478 384 C 478 408, 456 416, 410 416 C 364 416, 342 408, 342 384 Z"
+          fill="#E89127" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+    <!-- Beef Patty -->
+    <rect x="334" y="366" width="152" height="24" rx="11"
+          fill="#6E3519" stroke="#141414" stroke-width="4.5" />
+    <!-- Patty Sear Highlights -->
+    <path d="M 352 378 L 382 378 M 404 380 L 434 380 M 452 377 L 470 377"
+          stroke="#4A200B" stroke-width="3.5" stroke-linecap="round" />
+
+    <!-- Melted Cheese Slice -->
+    <path d="M 336 364 L 484 364 L 474 378 L 448 369 L 424 388 L 392 368 L 364 384 L 344 370 Z"
+          fill="#FFD500" stroke="#141414" stroke-width="3.5" stroke-linejoin="round" />
+
+    <!-- Tomato Slices -->
+    <path d="M 342 356 L 478 356 C 478 368, 466 370, 410 370 C 354 370, 342 368, 342 356 Z"
+          fill="#FF2E2E" stroke="#141414" stroke-width="4" stroke-linejoin="round" />
+
+    <!-- Wavy Lettuce -->
+    <path d="M 332 355
+             Q 344 342 358 354 Q 372 364 386 350 Q 400 340 414 353
+             Q 428 364 442 350 Q 456 340 470 353 Q 480 360 488 352
+             Q 486 365 472 363 Q 454 360 440 366 Q 422 368 408 362
+             Q 390 368 374 362 Q 354 368 336 362 Z"
+          fill="#3CE038" stroke="#141414" stroke-width="3.5" stroke-linejoin="round" />
+
+    <!-- Top Bun (Right up to his mouth with a fresh bite curve) -->
+    <path d="M 338 352
+             C 340 318, 370 306, 396 306
+             C 402 315, 418 315, 424 306
+             C 450 306, 480 318, 482 352 Z"
+          fill="url(#bunTopGrad)" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+    <!-- Sesame Seeds -->
+    <g fill="#FFF5D6" stroke="#141414" stroke-width="1.4">
+      <ellipse cx="366" cy="330" rx="5" ry="2.6" transform="rotate(-22 366 330)" />
+      <ellipse cx="386" cy="322" rx="5" ry="2.6" transform="rotate(-8 386 322)" />
+      <ellipse cx="410" cy="328" rx="5.2" ry="2.6" transform="rotate(4 410 328)" />
+      <ellipse cx="436" cy="321" rx="5" ry="2.6" transform="rotate(14 436 321)" />
+      <ellipse cx="456" cy="332" rx="5" ry="2.6" transform="rotate(24 456 332)" />
+      <ellipse cx="352" cy="342" rx="4.5" ry="2.3" transform="rotate(-10 352 342)" />
+      <ellipse cx="468" cy="342" rx="4.5" ry="2.3" transform="rotate(12 468 342)" />
+      <ellipse cx="394" cy="340" rx="4.8" ry="2.4" transform="rotate(8 394 340)" />
+      <ellipse cx="430" cy="339" rx="4.8" ry="2.4" transform="rotate(-10 430 339)" />
+    </g>
+  </g>
+
+  <!-- ==================== HANDS HOLDING THE HAMBURGER ==================== -->
+  <g id="hands">
+    <!-- Left Hand -->
+    <g id="left-hand">
+      <!-- Palm/Back -->
+      <path d="M 314 374 C 312 354, 326 344, 344 346 L 352 362 L 352 406 C 334 414, 316 400, 314 374 Z"
+            fill="#F9E0D2" stroke="#141414" stroke-width="4" stroke-linejoin="round" />
+      <!-- Fingers gripping burger -->
+      <rect x="330" y="348" width="32" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="328" y="362" width="36" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="329" y="376" width="35" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="334" y="390" width="28" height="13" rx="6.5" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+    </g>
+
+    <!-- Right Hand -->
+    <g id="right-hand">
+      <!-- Palm/Back -->
+      <path d="M 506 374 C 508 354, 494 344, 476 346 L 468 362 L 468 406 C 486 414, 504 400, 506 374 Z"
+            fill="#F9E0D2" stroke="#141414" stroke-width="4" stroke-linejoin="round" />
+      <!-- Fingers gripping burger -->
+      <rect x="458" y="348" width="32" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="456" y="362" width="36" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="456" y="376" width="35" height="14" rx="7" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+      <rect x="458" y="390" width="28" height="13" rx="6.5" fill="#F9E0D2" stroke="#141414" stroke-width="3.5" />
+    </g>
+  </g>
+
+  <!-- ==================== TABLE & ICONIC PROPS ==================== -->
+  <g id="table">
+    <!-- Table Surface -->
+    <rect x="0" y="495" width="800" height="105" fill="#F5F2EB" stroke="#141414" stroke-width="5" />
+    <!-- Subtle Table Shadow Band -->
+    <rect x="0" y="498" width="800" height="14" fill="#E3DDD0" />
+
+    <!-- Ketchup Bottle (Classic 1982 Film Reference) -->
+    <g id="ketchup-bottle">
+      <!-- Table Cast Shadow -->
+      <ellipse cx="144" cy="542" rx="48" ry="10" fill="#141414" fill-opacity="0.16" />
+
+      <!-- Bottle Body -->
+      <path d="M 118 350
+               L 142 350
+               L 146 394
+               C 162 406, 166 420, 166 436
+               L 164 532
+               C 164 539, 156 542, 130 542
+               C 104 542, 96 539, 96 532
+               L 94 436
+               C 94 420, 98 406, 114 394 Z"
+            fill="url(#ketchupGrad)" stroke="#141414" stroke-width="4.5" stroke-linejoin="round" />
+
+      <!-- Bottle Cap -->
+      <rect x="115" y="334" width="30" height="18" rx="4" fill="#FFFFFF" stroke="#141414" stroke-width="4" />
+      <line x1="121" y1="336" x2="121" y2="350" stroke="#141414" stroke-width="2" />
+      <line x1="130" y1="336" x2="130" y2="350" stroke="#141414" stroke-width="2" />
+      <line x1="139" y1="336" x2="139" y2="350" stroke="#141414" stroke-width="2" />
+
+      <!-- Neck Collar Label -->
+      <path d="M 116 364 L 144 364 L 146 384 L 114 384 Z"
+            fill="#FFFDF7" stroke="#141414" stroke-width="3" />
+      <line x1="117" y1="374" x2="143" y2="374" stroke="#D91E18" stroke-width="3" />
+
+      <!-- Glass Shine Highlight -->
+      <path d="M 104 432 L 105 524" stroke="#FFFFFF" stroke-width="4.5" stroke-opacity="0.45" stroke-linecap="round" />
+
+      <!-- Classic Keystone Ketchup Label -->
+      <path d="M 106 434 L 154 434 L 150 498 L 130 508 L 110 498 Z"
+            fill="#FFFDF7" stroke="#141414" stroke-width="3.5" stroke-linejoin="round" />
+      <path d="M 111 440 L 149 440 L 146 494 L 130 502 L 114 494 Z"
+            fill="none" stroke="#C81612" stroke-width="2" />
+      <text x="130" y="458" font-family="Impact, 'Arial Black', sans-serif" font-size="10.5"
+            text-anchor="middle" fill="#141414" letter-spacing="0.5">TOMATO</text>
+      <text x="130" y="473" font-family="Impact, 'Arial Black', sans-serif" font-size="10.5"
+            text-anchor="middle" fill="#C81612" letter-spacing="0.4">KETCHUP</text>
+      <!-- Tiny Tomato Emblem -->
+      <circle cx="130" cy="487" r="6" fill="#E8241E" stroke="#141414" stroke-width="1.5" />
+      <path d="M 127 481 L 130 483 L 133 481" fill="none" stroke="#2D9E28" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- Crumpled Fast-Food Burger Wrapper on Right Side -->
+    <g id="wrapper">
+      <ellipse cx="662" cy="548" rx="68" ry="10" fill="#141414" fill-opacity="0.14" />
+      <path d="M 594 540 L 622 512 L 664 518 L 698 504 L 728 534 L 702 552 L 642 548 Z"
+            fill="#FFFDF5" stroke="#141414" stroke-width="4" stroke-linejoin="round" />
+      <!-- Retro Wrapper Stripes -->
+      <path d="M 616 534 L 642 516" stroke="#FF2E2E" stroke-width="5" stroke-linecap="round" />
+      <path d="M 634 538 L 662 519" stroke="#FFD000" stroke-width="5" stroke-linecap="round" />
+      <path d="M 668 540 L 702 515" stroke="#FF2E2E" stroke-width="4.5" stroke-linecap="round" />
+      <!-- Paper Fold Crease -->
+      <path d="M 622 512 L 642 548 M 664 518 L 680 546" stroke="#141414" stroke-width="2.5" stroke-linecap="round" />
+    </g>
+  </g>
+
+  <!-- ==================== POP ART OUTER FRAME ==================== -->
+  <rect x="4" y="4" width="792" height="592" fill="none" stroke="#141414" stroke-width="8" />
+</svg>

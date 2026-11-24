@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
+     width="640" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol eating a hamburger</title>
+  <desc id="desc">A pop-art portrait of Andy Warhol in round glasses and a
+    black turtleneck, lifting a sesame-seed hamburger to his open mouth.</desc>
+
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.8" fill="#24152b" opacity=".22"/>
+      <circle cx="9" cy="9" r="1.8" fill="#24152b" opacity=".22"/>
+    </pattern>
+    <clipPath id="panel">
+      <rect x="20" y="20" width="600" height="600"/>
+    </clipPath>
+  </defs>
+
+  <rect width="640" height="640" fill="#fff3d9"/>
+  <g clip-path="url(#panel)">
+    <rect x="20" y="20" width="600" height="600" fill="#fb64a4"/>
+    <path d="M330 314 20 172V20h110zm0 0L285 20h121zm0 0L565 20h55v130zm0 0 290-17v136zm0 0 290 249v57H500zm0 0L20 480V342z"
+          fill="#ffd84f"/>
+    <rect x="20" y="20" width="600" height="600" fill="url(#dots)"/>
+
+    <g stroke="#24152b" stroke-width="7" stroke-linecap="round"
+       stroke-linejoin="round">
+      <!-- Turtleneck and shoulders -->
+      <path d="M104 630q11-87 93-125l78-34 104-3 82 32q82 33 105 130z"
+            fill="#242133"/>
+      <path d="m173 620 26-66m256 66-20-61" fill="none" stroke="#5c5271"/>
+      <path d="m273 441-8 55q50 37 117 1l-11-69z" fill="#f7b18d"/>
+
+      <!-- Ears and face -->
+      <path d="M229 302q-29-22-41 4-9 25 21 57l25 3m167-65q33-23 45 2 9 26-23 56l-25 1"
+            fill="#f7b18d"/>
+      <path d="M220 233q25-61 106-64 92 1 103 86l-10 95q-9 55-49 97-24 25-51 25-41-4-73-46-24-32-30-85z"
+            fill="#ffd0a5"/>
+      <path d="M401 273q15 59-10 104-17 34-45 64-13 14-27 23 33 2 65-38 36-46 40-92l3-62z"
+            fill="#f08c84" stroke="none"/>
+      <path d="M220 321q-14-18-23-8m226 9q11-15 17-10"
+            fill="none" stroke-width="4"/>
+
+      <!-- Silver wig -->
+      <path d="m213 320-18-62-25 14 16-45-35 6 42-38-31-12 50-19-25-25
+               59-1-12-31 53 16 18-35 15 32 42-38-4 39 58-18-17 29
+               58 4-27 22 52 31-37 7 28 36-33-4 10 54-24-18-11 48
+               -11-71-19-17 3 28-43-34 2 29-43-27-36 35 4-35-42 31
+               3-29-30 27z"
+            fill="#e9e7f4"/>
+      <path d="m188 209 55-18-23 32 58-35-8 28 48-35 32 27-1-28 53 26
+               -10-20 43 17M220 158l59-7-15-14m65 15 29-18m22 18 34-7"
+            fill="none" stroke="#8784a6" stroke-width="5"/>
+      <path d="m204 188 45-24m39 11 27-24m49 17 29-10m26 22 24 9"
+            fill="none" stroke="#fffaf4" stroke-width="5"/>
+
+      <!-- Glasses, eyes, and nose -->
+      <path d="M232 295q23-15 51-7m63 0q29-13 54 1" fill="none" stroke-width="5"/>
+      <circle cx="268" cy="317" r="36" fill="#8ce4e9" fill-opacity=".47"/>
+      <circle cx="375" cy="317" r="36" fill="#8ce4e9" fill-opacity=".47"/>
+      <path d="M304 312q18-13 35 0m-107-2-19-8m198 8 16-8" fill="none"/>
+      <path d="m244 314 14-17m93 17 14-17" fill="none" stroke="#fff8e5" stroke-width="5"/>
+      <path d="M268 323q10-8 21-2m71 2q11-8 22-2" fill="none" stroke-width="4"/>
+      <circle cx="280" cy="324" r="4.5" fill="#24152b" stroke="none"/>
+      <circle cx="374" cy="324" r="4.5" fill="#24152b" stroke="none"/>
+      <path d="m324 325-11 34q9 8 23 0" fill="none" stroke-width="4"/>
+
+      <!-- Open mouth, partly hidden by the burger -->
+      <path d="M294 391q27-22 58-7 13 7 17 23-33 28-67 3z" fill="#452438"/>
+      <path d="M302 389q25-13 46-4l10 8q-25 2-54 1z" fill="#fff3d9" stroke="none"/>
+
+      <!-- Bent arm and hand behind the burger -->
+      <path d="m452 628-66-79 57-49 100 128z" fill="#242133"/>
+      <path d="M451 524q-21 23-49 22l-39-48-50-22q-17-8-12-21 5-12 21-8
+               l39 14 33-15-20-23q-10-12 0-21 10-8 22 1l33 30q17 14 15 36z"
+            fill="#f7b18d"/>
+
+      <!-- Burger -->
+      <path d="M264 450h158q6 29-22 33H285q-23-2-21-33z" fill="#f5a349"/>
+      <path d="M261 437q78-9 162 0 13 9 2 19-79 11-166 0-11-9 2-19z"
+            fill="#763c33"/>
+      <path d="m267 432 50 1 22 17 21-16 63 1" fill="#ffcd35" stroke-width="5"/>
+      <path d="M260 424q13-10 29-4 12 7 24 0 15-6 28 1 13 7 27-1 14-6
+               27 0 14 6 25-2l8 13q-13 11-30 6-14-5-27 1-15 6-29 0
+               -14-7-27 0-14 6-28-1-13-5-27 1z"
+            fill="#76c754" stroke-width="5"/>
+      <path d="M261 423q1-22 25-37 20-12 49-13l9 10 13-2 9 11 17 1
+               q26 7 39 29-77 13-161 1z"
+            fill="#ffb454"/>
+      <path d="m283 410 8-4m12-13 8 2m9 14 8-5m22 11 8-4m25-5 8 4"
+            fill="none" stroke="#fff1c5" stroke-width="4"/>
+
+      <!-- Fingers curled around the burger -->
+      <path d="M438 478q-14-15-34-12l-23 3q-13 2-12 11 1 8 14 8l21-1
+               -25 6q-11 3-8 12 2 8 14 6l27-5"
+            fill="#ffd0a5" stroke-width="5"/>
+      <path d="m389 550 62-48 17 21-62 49z" fill="#39334c"/>
+
+      <!-- Pop-art accent marks -->
+      <path d="m218 405-23-8m18 26-30 3m40 14-18 14m268-234 19-17m-10 37 27-5"
+            fill="none" stroke-width="5"/>
+    </g>
+  </g>
+  <rect x="20" y="20" width="600" height="600" fill="none"
+        stroke="#24152b" stroke-width="8"/>
+</svg>

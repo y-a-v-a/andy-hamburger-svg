@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="100" cy="80" r="40" stroke="black" stroke-width="2" fill="peachpuff"/>
+  <!-- Hair -->
+  <path d="M60 40 Q90 10 140 40" stroke="gray" stroke-width="2" fill="silver"/>
+  <!-- Eyes -->
+  <circle cx="80" cy="70" r="5" fill="black"/>
+  <circle cx="120" cy="70" r="5" fill="black"/>
+  <!-- Mouth -->
+  <path d="M90 90 Q100 100 110 90" stroke="black" stroke-width="2" fill="none"/>
+  <!-- Hamburger -->
+  <rect x="90" y="110" width="20" height="10" fill="sandybrown"/>
+  <circle cx="100" cy="125" r="10" fill="firebrick"/>
+  <rect x="90" y="130" width="20" height="5" fill="goldenrod"/>
+  <rect x="90" y="135" width="20" height="5" fill="forestgreen"/>
+  <rect x="90" y="140" width="20" height="5" fill="sandybrown"/>
+</svg>

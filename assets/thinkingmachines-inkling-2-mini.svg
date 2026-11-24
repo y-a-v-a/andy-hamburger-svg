@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="640" height="640" role="img" aria-labelledby="t d">
+  <title id="t">Andy Warhol eating a hamburger — stylized tribute</title>
+  <desc id="d">An original cartoon-style illustration of a simplified Andy Warhol figure taking a bite of a hamburger.</desc>
+
+  <defs>
+    <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3.5" fill="#f4a259" opacity="0.38"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="640" fill="#f7ead7"/>
+  <rect width="640" height="640" fill="url(#dots)"/>
+  <rect x="22" y="22" width="596" height="596" fill="none" stroke="#111827" stroke-width="9"/>
+
+  <path d="M126 640 C154 514 224 478 320 478 C416 478 486 514 514 640 Z" fill="#111827"/>
+  <path d="M274 486 L320 548 L366 486 L348 472 L292 472 Z" fill="#f8fafc"/>
+
+  <rect x="286" y="404" width="68" height="76" rx="20" fill="#f6c89d"/>
+
+  <ellipse cx="320" cy="236" rx="98" ry="110" fill="#f6c89d"/>
+  <path d="M216 218 C212 104 428 104 424 218 C410 158 364 142 320 142 C276 142 230 158 216 218 Z" fill="#e8e0cf"/>
+  <ellipse cx="214" cy="236" rx="22" ry="48" fill="#e8e0cf"/>
+  <ellipse cx="426" cy="236" rx="22" ry="48" fill="#e8e0cf"/>
+
+  <ellipse cx="214" cy="264" rx="12" ry="21" fill="#f6c89d"/>
+  <ellipse cx="426" cy="264" rx="12" ry="21" fill="#f6c89d"/>
+
+  <path d="M268 216 Q287 205 306 216" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M334 216 Q354 205 373 216" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <circle cx="287" cy="242" r="7" fill="#111827"/>
+  <circle cx="353" cy="242" r="7" fill="#111827"/>
+
+  <path d="M318 250 L306 286 Q321 294 336 285" stroke="#d69a63" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M284 313 Q320 300 356 313 Q320 326 284 313 Z" fill="#111827"/>
+  <circle cx="386" cy="282" r="5" fill="#111827"/>
+
+  <ellipse cx="320" cy="338" rx="42" ry="24" fill="#4b1d1d"/>
+
+  <ellipse cx="320" cy="386" rx="128" ry="20" fill="#8a5a2b"/>
+  <rect x="181" y="365" width="278" height="30" rx="15" fill="#6b4423"/>
+  <rect x="188" y="345" width="264" height="18" rx="9" fill="#f59e0b"/>
+  <rect x="185" y="330" width="270" height="16" rx="8" fill="#ef4444"/>
+  <path d="M182 333 Q210 318 246 333 Q282 318 320 334 Q360 318 397 333 Q430 318 458 333 L458 348 Q420 360 320 360 Q210 360 182 348 Z" fill="#84cc16"/>
+
+  <path d="M186 322 Q190 250 320 246 Q450 250 454 322 L402 307 Q384 328 326 322 Q282 330 232 313 L186 322 Z" fill="#eab308"/>
+  <circle cx="270" cy="276" r="5" fill="#fde68a"/>
+  <circle cx="320" cy="266" r="5" fill="#fde68a"/>
+  <circle cx="368" cy="277" r="5" fill="#fde68a"/>
+
+  <ellipse cx="172" cy="365" rx="28" ry="35" fill="#f6c89d"/>
+  <rect x="158" y="332" width="16" height="34" rx="8" fill="#f6c89d"/>
+  <rect x="180" y="326" width="16" height="38" rx="8" fill="#f6c89d"/>
+
+  <path d="M286 205 C278 188 298 176 288 158" stroke="#94a3b8" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M348 202 C340 184 360 174 350 156" stroke="#94a3b8" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Andy Warhol Eating a Hamburger</title>
+  <desc id="desc">Pop-art illustration of Andy Warhol in his silver wig and sunglasses eating a hamburger.</desc>
+
+  <!-- Background -->
+  <rect width="600" height="600" fill="#FFD400"/>
+  <circle cx="300" cy="300" r="265" fill="#FF4FA3" stroke="#000000" stroke-width="6"/>
+  <g fill="#000000" opacity="0.12">
+    <circle cx="95" cy="95" r="12"/>
+    <circle cx="140" cy="120" r="8"/>
+    <circle cx="500" cy="430" r="12"/>
+    <circle cx="470" cy="470" r="8"/>
+    <circle cx="120" cy="460" r="10"/>
+    <circle cx="90" cy="350" r="7"/>
+    <circle cx="505" cy="190" r="9"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round">
+    <path d="M98 168 L105 190 L127 197 L105 204 L98 226 L91 204 L69 197 L91 190 Z"/>
+    <path d="M508 328 L513 344 L529 349 L513 354 L508 370 L503 354 L487 349 L503 344 Z"/>
+  </g>
+
+  <!-- Body -->
+  <path d="M135 600 L135 490 C135 405 210 360 300 360 C390 360 465 405 465 490 L465 600 Z" fill="#1A1A1A" stroke="#000000" stroke-width="6"/>
+
+  <!-- Neck -->
+  <rect x="272" y="295" width="56" height="55" fill="#FFEAD6" stroke="#000000" stroke-width="5"/>
+
+  <!-- Ears -->
+  <ellipse cx="196" cy="255" rx="18" ry="30" fill="#FFEAD6" stroke="#000000" stroke-width="5"/>
+  <ellipse cx="404" cy="255" rx="18" ry="30" fill="#FFEAD6" stroke="#000000" stroke-width="5"/>
+
+  <!-- Face -->
+  <ellipse cx="300" cy="235" rx="105" ry="120" fill="#FFEAD6" stroke="#000000" stroke-width="6"/>
+
+  <!-- Skin blotches -->
+  <g fill="#F1948A" opacity="0.55">
+    <ellipse cx="232" cy="272" rx="22" ry="13"/>
+    <ellipse cx="368" cy="278" rx="20" ry="12"/>
+    <ellipse cx="300" cy="165" rx="28" ry="10"/>
+  </g>
+
+  <!-- Hair / wig -->
+  <path d="M195 215 C185 120 220 70 300 65 C380 70 415 120 405 215 C400 165 385 142 365 153 C375 118 350 97 335 122 C325 92 285 87 275 117 C255 92 220 112 235 142 C215 127 200 158 195 215 Z" fill="#E8E8E8" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
+  <g fill="none" stroke="#9A9A9A" stroke-width="4" stroke-linecap="round">
+    <path d="M245 105 Q265 90 285 100"/>
+    <path d="M315 98 Q340 95 355 115"/>
+    <path d="M230 140 Q245 125 260 132"/>
+  </g>
+
+  <!-- Sunglasses -->
+  <g>
+    <line x1="206" y1="212" x2="196" y2="205" stroke="#000000" stroke-width="7"/>
+    <line x1="394" y1="212" x2="404" y2="205" stroke="#000000" stroke-width="7"/>
+    <rect x="208" y="195" width="79" height="53" rx="14" fill="#111111" stroke="#000000" stroke-width="5"/>
+    <rect x="313" y="195" width="79" height="53" rx="14" fill="#111111" stroke="#000000" stroke-width="5"/>
+    <rect x="287" y="210" width="26" height="12" fill="#111111"/>
+    <path d="M222 201 L246 201 L232 242 L216 242 Z" fill="#FFFFFF" opacity="0.85"/>
+    <path d="M327 201 L351 201 L337 242 L321 242 Z" fill="#FFFFFF" opacity="0.85"/>
+  </g>
+
+  <!-- Nose -->
+  <path d="M300 252 L286 286 Q300 297 314 286" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mouth -->
+  <ellipse cx="300" cy="326" rx="42" ry="30" fill="#7B1A1A" stroke="#000000" stroke-width="6"/>
+  <path d="M269 309 Q300 320 331 309 L331 321 Q300 332 269 321 Z" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+  <ellipse cx="300" cy="338" rx="22" ry="11" fill="#E75480"/>
+
+  <!-- Turtleneck collar -->
+  <rect x="250" y="348" width="100" height="48" rx="12" fill="#1A1A1A" stroke="#000000" stroke-width="6"/>
+
+  <!-- Hamburger and hand -->
+  <g transform="translate(360 368) rotate(-8)">
+    <ellipse cx="5" cy="80" rx="56" ry="28" fill="#FFEAD6" stroke="#000000" stroke-width="5"/>
+    <path d="M-70 2 Q-70 -50 0 -50 Q70 -50 70 2 Z" fill="#F2B263" stroke="#000000" stroke-width="5" stroke-linejoin="round"/>
+    <g fill="#FFF3D6" stroke="#000000" stroke-width="2">
+      <ellipse cx="-32" cy="-28" rx="6" ry="3" transform="rotate(-20 -32 -28)"/>
+      <ellipse cx="0" cy="-38" rx="6" ry="3"/>
+      <ellipse cx="30" cy="-26" rx="6" ry="3" transform="rotate(20 30 -26)"/>
+      <ellipse cx="-10" cy="-16" rx="6" ry="3" transform="rotate(10 -10 -16)"/>
+      <ellipse cx="16" cy="-12" rx="6" ry="3" transform="rotate(-15 16 -12)"/>
+    </g>
+    <path d="M-76 2 Q-56 18 -36 4 Q-16 20 4 6 Q24 20 44 5 Q64 17 76 2 L76 12 Q56 27 36 14 Q16 30 -4 15 Q-24 30 -44 14 Q-64 27 -76 12 Z" fill="#7ED321" stroke="#000000" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="-68" y="14" width="136" height="18" rx="9" fill="#FF4B3E" stroke="#000000" stroke-width="4"/>
+    <rect x="-70" y="30" width="140" height="24" rx="12" fill="#8B4513" stroke="#000000" stroke-width="4"/>
+    <path d="M-68 54 L68 54 Q68 84 0 84 Q-68 84 -68 54 Z" fill="#F2B263" stroke="#000000" stroke-width="5" stroke-linejoin="round"/>
+    <ellipse cx="-60" cy="30" rx="16" ry="27" transform="rotate(28 -60 30)" fill="#FFEAD6" stroke="#000000" stroke-width="5"/>
+    <g fill="#FFEAD6" stroke="#000000" stroke-width="4">
+      <rect x="-40" y="40" width="20" height="44" rx="10"/>
+      <rect x="-12" y="44" width="20" height="44" rx="10"/>
+      <rect x="16" y="40" width="20" height="44" rx="10"/>
+    </g>
+  </g>
+
+  <!-- Speech bubble -->
+  <g>
+    <path d="M425 155 L378 285 L445 170 Z" fill="#FFFFFF" stroke="#000000" stroke-width="5" stroke-linejoin="round"/>
+    <ellipse cx="480" cy="112" rx="95" ry="60" fill="#FFFFFF" stroke="#000000" stroke-width="6"/>
+    <text x="480" y="126" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="40" font-weight="900" fill="#FF0000" stroke="#000000" stroke-width="1" transform="rotate(-6 480 112)">YUM!</text>
+  </g>
+
+  <!-- Border -->
+  <rect x="4" y="4" width="592" height="592" fill="none" stroke="#000000" stroke-width="8"/>
+</svg>
